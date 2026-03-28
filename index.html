@@ -307,6 +307,37 @@
             box-shadow: 0 2px 8px rgba(3, 9, 64, 0.08);
         }
 
+        .field-item.needs-review {
+            border-color: #f59e0b;
+            border-left: 4px solid #f59e0b;
+            background: #fffbeb;
+        }
+
+        .review-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 700;
+            background: #fef3c7;
+            color: #92400e;
+            white-space: nowrap;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+        }
+
+        .xfa-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 700;
+            background: #dbeafe;
+            color: #1e40af;
+            white-space: nowrap;
+            letter-spacing: 0.3px;
+        }
+
         .field-header {
             display: flex;
             gap: 0.75rem;
@@ -1121,6 +1152,137 @@
                 document.getElementById('copyVAJsonButton').addEventListener('click', () => this.copyVAJSON());
             },
 
+            // --- XFA Label Extraction (uses pdf-lib global PDFLib) ---
+            async extractXFALabels(uint8Array) {
+                const labels = {};
+                try {
+                    const pdfDoc = await PDFLib.PDFDocument.load(uint8Array, { ignoreEncryption: true });
+                    const catalog = pdfDoc.catalog;
+                    const acroFormDict = catalog.lookup(PDFLib.PDFName.of('AcroForm'));
+                    if (!acroFormDict) return labels;
+
+                    const xfa = acroFormDict.lookup(PDFLib.PDFName.of('XFA'));
+                    if (!xfa) return labels;
+
+                    // XFA is an array of [name, stream] pairs
+                    let templateStream = null;
+                    if (typeof xfa.asArray === 'function') {
+                        const arr = xfa.asArray();
+                        for (let i = 0; i < arr.length - 1; i++) {
+                            const entry = arr[i];
+                            if (entry && typeof entry.asString === 'function' && entry.asString() === 'template') {
+                                templateStream = arr[i + 1];
+                                break;
+                            }
+                            if (entry && typeof entry.decodeText === 'function' && entry.decodeText() === 'template') {
+                                templateStream = arr[i + 1];
+                                break;
+                            }
+                        }
+                    }
+                    if (!templateStream) return labels;
+
+                    // Get raw compressed bytes
+                    let rawBytes;
+                    if (typeof templateStream.getContents === 'function') {
+                        rawBytes = templateStream.getContents();
+                    } else if (typeof templateStream.decode === 'function') {
+                        rawBytes = templateStream.decode();
+                    } else {
+                        return labels;
+                    }
+
+                    // Decompress with DecompressionStream API
+                    let xmlText = '';
+                    try {
+                        const ds = new DecompressionStream('deflate');
+                        const writer = ds.writable.getWriter();
+                        writer.write(rawBytes);
+                        writer.close();
+                        const reader = ds.readable.getReader();
+                        const chunks = [];
+                        while (true) {
+                            const { done, value } = await reader.read();
+                            if (done) break;
+                            chunks.push(value);
+                        }
+                        const totalLen = chunks.reduce((s, c) => s + c.length, 0);
+                        const merged = new Uint8Array(totalLen);
+                        let offset = 0;
+                        for (const c of chunks) {
+                            merged.set(c, offset);
+                            offset += c.length;
+                        }
+                        xmlText = new TextDecoder().decode(merged);
+                    } catch (decompErr) {
+                        // Try raw decode if not compressed
+                        xmlText = new TextDecoder().decode(rawBytes);
+                    }
+
+                    // Parse field name → toolTip mappings
+                    const fieldRegex = /<field[^>]*name="([^"]*)"[^>]*>([\s\S]*?)<\/field>/g;
+                    let match;
+                    while ((match = fieldRegex.exec(xmlText)) !== null) {
+                        const fieldName = match[1];
+                        const fieldBody = match[2];
+                        const tipMatch = fieldBody.match(/<toolTip>([\s\S]*?)<\/toolTip>/);
+                        if (tipMatch && tipMatch[1].trim()) {
+                            labels[fieldName] = tipMatch[1].trim();
+                        }
+                    }
+                    console.log(`XFA: extracted ${Object.keys(labels).length} labels from template`);
+                } catch (e) {
+                    console.warn('XFA label extraction failed:', e.message);
+                }
+                return labels;
+            },
+
+            // --- Label Cleaning / Humanization ---
+            cleanFieldLabel(raw) {
+                if (!raw || raw.length === 0) return raw;
+                let label = raw;
+                // Strip numbered prefixes like "2. ", "3a. "
+                label = label.replace(/^\d+[a-z]?\.\s*/i, '');
+                // Remove trailing periods
+                label = label.replace(/\.\s*$/, '');
+                // Strip instructional filler
+                label = label.replace(/^(please\s+)?(enter|provide|give|specify|type|input|indicate|list|state)\s+(your\s+|the\s+)?/i, '');
+                // Remove trailing instructions like "(Enter 2-digit month...)"
+                label = label.replace(/\s*\(?(enter|type|please|format|use)\s[^)]*\)?\s*$/i, '');
+                // Strip array indices
+                label = label.replace(/\[\d+\]/g, '');
+                // Normalize whitespace
+                label = label.replace(/\s+/g, ' ').trim();
+                // Title-case ALL CAPS text
+                if (label === label.toUpperCase() && label.length > 3) {
+                    label = label.replace(/\b\w+/g, w =>
+                        w.length <= 2 ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()
+                    );
+                }
+                return label;
+            },
+
+            // --- Generic XFA Field Name Detection ---
+            isGenericFieldName(name) {
+                const leaf = name.split('.').pop().replace(/\[\d+\]$/, '');
+                return /^(TextField|DateTimeField|NumericField|Button|ImageField|#field)\d*$/i.test(leaf);
+            },
+
+            // --- Humanize dotted/underscored field names ---
+            humanizeFieldName(name) {
+                // Take last segment of dotted path
+                let label = name.split('.').pop();
+                // Remove array indices
+                label = label.replace(/\[\d+\]/g, '');
+                // Split camelCase
+                label = label.replace(/([a-z])([A-Z])/g, '$1 $2');
+                // Replace underscores/hyphens with spaces
+                label = label.replace(/[_-]/g, ' ');
+                // Title case
+                label = label.replace(/\b\w/g, c => c.toUpperCase());
+                return label.trim();
+            },
+
             async handleFileUpload(event) {
                 const file = event.target.files[0];
                 if (file) {
@@ -1131,12 +1293,16 @@
             async processPDF(file) {
                 try {
                     const arrayBuffer = await file.arrayBuffer();
-                    const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+                    const uint8Array = new Uint8Array(arrayBuffer);
+                    const pdf = await pdfjsLib.getDocument({ data: arrayBuffer.slice(0) }).promise;
                     this.pdf = pdf;
                     this.currentPage = 0;
 
-                    // Extract fields from AcroForm
-                    this.fields = this.extractAcroFormFields(pdf);
+                    // Extract XFA labels from pdf-lib (parallel with pdf.js load)
+                    const xfaLabels = await this.extractXFALabels(uint8Array);
+
+                    // Extract fields from AcroForm, enhanced with XFA labels
+                    this.fields = this.extractAcroFormFields(pdf, xfaLabels);
 
                     // Infer fields from text patterns
                     const inferredFields = await this.inferFieldsFromText(pdf);
@@ -1156,29 +1322,59 @@
                     this.renderFields();
                     this.renderSectionDetection();
 
-                    this.showToast(`Loaded PDF with ${this.fields.length} fields`, 'success');
+                    const xfaCount = this.fields.filter(f => f.source === 'xfa').length;
+                    const reviewCount = this.fields.filter(f => f.needsReview).length;
+                    let msg = `Loaded PDF with ${this.fields.length} fields`;
+                    if (xfaCount > 0) msg += ` (${xfaCount} XFA-resolved)`;
+                    if (reviewCount > 0) msg += ` (${reviewCount} need review)`;
+                    this.showToast(msg, 'success');
                 } catch (error) {
                     console.error('Error processing PDF:', error);
                     this.showToast('Error loading PDF: ' + error.message, 'error');
                 }
             },
 
-            extractAcroFormFields(pdf) {
+            extractAcroFormFields(pdf, xfaLabels = {}) {
                 const fields = [];
+                const hasXFA = Object.keys(xfaLabels).length > 0;
                 try {
                     if (pdf._pdfInfo && pdf._pdfInfo.acroForm) {
                         const acroForm = pdf._pdfInfo.acroForm;
                         if (acroForm.fields) {
                             acroForm.fields.forEach((field, index) => {
                                 if (field.name) {
+                                    const rawName = field.name.replace(/[\[\]]/g, '');
+                                    const isGeneric = this.isGenericFieldName(rawName);
+
+                                    // Determine the best label
+                                    let label = rawName;
+                                    let source = 'acroform';
+
+                                    // Check XFA labels (match by leaf name or full path)
+                                    const leafName = rawName.split('.').pop().replace(/\[\d+\]$/, '');
+                                    const xfaLabel = xfaLabels[rawName] || xfaLabels[leafName] || xfaLabels[field.name];
+                                    if (xfaLabel) {
+                                        label = this.cleanFieldLabel(xfaLabel);
+                                        source = 'xfa';
+                                    } else if (!isGeneric) {
+                                        // Humanize descriptive AcroForm names
+                                        label = this.cleanFieldLabel(this.humanizeFieldName(rawName));
+                                    }
+
+                                    // Flag generic fields that have no XFA label
+                                    const needsReview = isGeneric && !xfaLabel;
+
                                     fields.push({
                                         id: `acro-${index}`,
-                                        label: field.name.replace(/[\[\]]/g, ''),
+                                        label: label,
+                                        rawName: rawName,
                                         type: this.inferFieldType(field),
                                         required: false,
                                         placeholder: '',
                                         options: [],
-                                        section: 'Default Section'
+                                        section: 'Default Section',
+                                        source: source,
+                                        needsReview: needsReview
                                     });
                                 }
                             });
@@ -1415,9 +1611,11 @@
                 }
 
                 list.innerHTML = this.filteredFields.map((field, index) => `
-                    <div class="field-item" draggable="true" data-field-id="${field.id}">
+                    <div class="field-item${field.needsReview ? ' needs-review' : ''}" draggable="true" data-field-id="${field.id}">
                         <div class="field-header">
                             <span class="drag-handle">⋮⋮</span>
+                            ${field.needsReview ? '<span class="review-badge" title="This field has a generic name and may need a better label">Needs Label</span>' : ''}
+                            ${field.source === 'xfa' ? '<span class="xfa-badge" title="Label resolved from XFA data">XFA</span>' : ''}
                             <input
                                 type="text"
                                 class="field-label-input"
