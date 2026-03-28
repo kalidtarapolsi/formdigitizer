@@ -70,8 +70,8 @@
             text-decoration: none;
             color: inherit;
         }
-        .va-header-logo svg { width: 36px; height: 36px; }
-        .va-header-logo span { font-size: 1rem; font-weight: 700; letter-spacing: -0.3px; }
+        .va-header-logo img { height: 40px; width: auto; }
+        .va-header-logo span { display: none; /* text is part of logo image */ }
         .va-header-right { margin-left: auto; display: flex; gap: 0.75rem; align-items: center; }
         .va-header-search {
             background: rgba(255,255,255,0.15);
@@ -238,27 +238,33 @@
             flex-wrap: wrap;
         }
 
-        /* ─── Segmented Progress Bar ─── */
+        /* ─── Segmented Progress Bar (matches VA.gov va-segmented-progress-bar) ─── */
         .va-progress-bar {
             display: flex;
-            gap: 4px;
-            margin: 1.5rem 0 0.5rem;
-            background: var(--vads-color-white);
+            gap: 2px;
+            margin: 0 0 0.75rem;
         }
         .va-progress-segment {
             flex: 1;
-            height: 8px;
+            height: 16px;
             background: var(--vads-color-base-lighter);
-            border-radius: 1px;
             transition: background 0.2s;
         }
+        .va-progress-segment:first-child { border-radius: 2px 0 0 2px; }
+        .va-progress-segment:last-child { border-radius: 0 2px 2px 0; }
         .va-progress-segment.completed { background: var(--vads-color-primary); }
         .va-progress-segment.active { background: var(--vads-color-primary); }
         .va-progress-label {
-            font-size: 0.82rem;
-            font-weight: 600;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--vads-color-base);
+            margin-bottom: 0.25rem;
+        }
+        .va-progress-sublabel {
+            font-size: 0.85rem;
+            font-weight: 400;
             color: var(--vads-color-base-dark);
-            margin-bottom: 1.25rem;
+            margin-bottom: 1.5rem;
         }
 
         /* ─── Step Page ─── */
@@ -475,12 +481,14 @@
         }
         .va-btn--primary { background: var(--vads-color-primary); color: var(--vads-color-white); }
         .va-btn--primary:hover { background: var(--vads-color-primary-dark); }
+        .va-btn--primary::after { content: ' \u203A'; font-size: 1.2em; }
         .va-btn--secondary {
             background: var(--vads-color-white);
             color: var(--vads-color-primary);
             border: 2px solid var(--vads-color-primary);
         }
         .va-btn--secondary:hover { background: var(--vads-color-info-lighter); }
+        .va-btn--back::before { content: '\u2039 '; font-size: 1.2em; }
         .va-btn--outline {
             background: none;
             color: var(--vads-color-base-dark);
@@ -493,11 +501,189 @@
         }
         .va-btn--link:hover { text-decoration: underline; }
 
+        /* ─── Process List (VA.gov pattern) ─── */
+        .va-process-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0 2rem;
+        }
+        .va-process-list-item {
+            position: relative;
+            padding: 0 0 2rem 3rem;
+            border-left: 4px solid var(--vads-color-base-lighter);
+            margin-left: 12px;
+        }
+        .va-process-list-item:last-child {
+            border-left-color: transparent;
+            padding-bottom: 0;
+        }
+        .va-process-list-item::before {
+            content: attr(data-step);
+            position: absolute;
+            left: -16px;
+            top: 0;
+            width: 28px;
+            height: 28px;
+            background: var(--vads-color-primary);
+            color: white;
+            font-size: 0.85rem;
+            font-weight: 700;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .va-process-list-item h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--vads-color-base);
+            margin: 0 0 0.5rem;
+            padding-top: 0.15rem;
+        }
+        .va-process-list-item p {
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: var(--vads-color-base);
+            margin: 0 0 0.5rem;
+        }
+        .va-process-list-item ul {
+            margin: 0.25rem 0 0.75rem 1.25rem;
+            padding: 0;
+        }
+        .va-process-list-item li {
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: var(--vads-color-base);
+        }
+
+        /* ─── Action Link (green arrow CTA) ─── */
+        .va-action-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--vads-color-success);
+            text-decoration: none;
+            cursor: pointer;
+            background: none;
+            border: none;
+            font-family: inherit;
+            padding: 0.5rem 0;
+            margin: 0.5rem 0 1.5rem;
+        }
+        .va-action-link:hover { color: #008516; }
+        .va-action-link::before {
+            content: '▶';
+            font-size: 0.7rem;
+            background: var(--vads-color-success);
+            color: white;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .va-action-link:hover::before { background: #008516; }
+
+        /* ─── OMB Info (footer of intro page) ─── */
+        .va-omb-info {
+            border-top: 1px solid var(--vads-color-base-lighter);
+            padding-top: 1rem;
+            margin-top: 1rem;
+            font-size: 0.8rem;
+            color: var(--vads-color-base-dark);
+            line-height: 1.6;
+        }
+        .va-omb-info strong { font-weight: 700; }
+
         /* ─── Section divider inside wizard step ─── */
         .va-section-divider {
             border-top: 1px solid var(--vads-color-base-lighter);
             margin: 1.5rem 0;
             padding-top: 1.5rem;
+        }
+
+        /* ─── Review Accordion (BIO pattern) ─── */
+        .va-review-accordion {
+            border: 1px solid var(--vads-color-base-lighter);
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+            overflow: hidden;
+        }
+        .va-review-accordion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.25rem;
+            background: var(--vads-color-base-lightest);
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--vads-color-base);
+            text-align: left;
+        }
+        .va-review-accordion-header:hover { background: var(--vads-color-base-lighter); }
+        .va-review-accordion-header .va-accordion-icon {
+            font-size: 1.2rem;
+            color: var(--vads-color-primary);
+            transition: transform 0.2s;
+        }
+        .va-review-accordion-header[aria-expanded="true"] .va-accordion-icon {
+            transform: rotate(180deg);
+        }
+        .va-review-accordion-body {
+            display: none;
+            padding: 1.25rem;
+            border-top: 1px solid var(--vads-color-base-lighter);
+        }
+        .va-review-accordion-body.open { display: block; }
+        .va-review-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--vads-color-base-lightest);
+            font-size: 0.9rem;
+        }
+        .va-review-row:last-child { border-bottom: none; }
+        .va-review-row dt { color: var(--vads-color-base-dark); font-weight: 400; }
+        .va-review-row dd { color: var(--vads-color-base); font-weight: 600; text-align: right; }
+        .va-review-edit-link {
+            color: var(--vads-color-primary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            background: none;
+            border: none;
+            text-decoration: underline;
+            font-family: inherit;
+        }
+
+        /* ─── Privacy Agreement Checkbox ─── */
+        .va-privacy-agreement {
+            margin: 1.5rem 0;
+            padding: 1rem;
+            background: var(--vads-color-base-lightest);
+            border-radius: 4px;
+        }
+        .va-privacy-agreement label {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            cursor: pointer;
+        }
+        .va-privacy-agreement input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-top: 2px;
+            flex-shrink: 0;
         }
 
         /* ─── Footer action bar ─── */
@@ -533,13 +719,13 @@
 </head>
 <body>
     <div class="usa-banner">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='11' viewBox='0 0 16 11'%3E%3Crect width='16' height='11' fill='%23002868'/%3E%3Crect y='1' width='16' height='1' fill='%23FFF'/%3E%3Crect y='3' width='16' height='1' fill='%23BF0A30'/%3E%3Crect y='5' width='16' height='1' fill='%23FFF'/%3E%3Crect y='7' width='16' height='1' fill='%23BF0A30'/%3E%3Crect y='9' width='16' height='1' fill='%23FFF'/%3E%3C/svg%3E" alt="US flag">
+        <img src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/tiny-usa-flag.png" alt="U.S. flag" height="11">
         An official form of the United States government
     </div>
 
     <div class="va-header">
         <a class="va-header-logo" href="index.html">
-            <svg viewBox="0 0 46 46" fill="white"><circle cx="23" cy="23" r="20" fill="none" stroke="white" stroke-width="2"/><text x="23" y="29" text-anchor="middle" font-size="18" font-weight="bold" font-family="serif" fill="white">VA</text></svg>
+            <img src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/header-logo.png" alt="VA logo and Seal, U.S. Department of Veterans Affairs" height="40">
             <span>U.S. Department of Veterans Affairs</span>
         </a>
         <div class="va-header-right">
@@ -715,16 +901,21 @@ function renderVAForm(schema, org) {
         <span>VA Form ${esc(formNumber)}</span>
     </div>`;
 
-    // Progress bar
-    html += '<div class="va-progress-bar">';
-    for (let i = 0; i < steps.length; i++) {
-        const cls = i < currentStep ? 'completed' : (i === currentStep ? 'active' : '');
-        html += `<div class="va-progress-segment ${cls}" title="${esc(steps[i].title)}"></div>`;
-    }
-    html += '</div>';
-    html += `<div class="va-progress-label">Step ${currentStep + 1} of ${steps.length}: ${esc(steps[currentStep].title)}</div>`;
-
     const step = steps[currentStep];
+
+    // Progress bar (skip on intro page — matches BIO SegmentedProgressBar pattern)
+    if (step.type !== 'intro') {
+        // BIO only shows segments for content steps (no intro)
+        const contentSteps = steps.filter(s => s.type !== 'intro');
+        const contentIdx = contentSteps.indexOf(step);
+        html += '<div class="va-progress-bar">';
+        for (let i = 0; i < contentSteps.length; i++) {
+            const cls = i < contentIdx ? 'completed' : (i === contentIdx ? 'active' : '');
+            html += `<div class="va-progress-segment ${cls}" title="${esc(contentSteps[i].title)}"></div>`;
+        }
+        html += '</div>';
+        html += `<div class="va-progress-label">Step ${contentIdx + 1} of ${contentSteps.length}: ${esc(step.title)}</div>`;
+    }
 
     if (step.type === 'intro') {
         html += renderIntroStep(schema, vaForm, org);
@@ -736,21 +927,20 @@ function renderVAForm(schema, org) {
         html += renderReviewStep(schema, vaForm, steps);
     }
 
-    // Navigation buttons
-    html += '<div class="va-nav-buttons">';
-    if (currentStep > 0) {
-        html += `<button class="va-btn va-btn--secondary" onclick="navigateStep(-1)">&laquo; Back</button>`;
+    // Navigation buttons (skip on intro — intro has its own action link)
+    if (step.type !== 'intro') {
+        html += '<div class="va-nav-buttons">';
+        if (currentStep > 0) {
+            html += `<button class="va-btn va-btn--secondary va-btn--back" onclick="navigateStep(-1)">Back</button>`;
+        }
+        if (currentStep < steps.length - 1) {
+            html += `<button class="va-btn va-btn--primary" onclick="navigateStep(1)">Continue</button>`;
+        }
+        if (step.type === 'review') {
+            html += `<button class="va-btn va-btn--primary" onclick="exportFormData()" style="margin-left:auto;">Submit application</button>`;
+        }
+        html += '</div>';
     }
-    if (currentStep < steps.length - 1) {
-        html += `<button class="va-btn va-btn--primary" onclick="navigateStep(1)">Continue &raquo;</button>`;
-    }
-    if (step.type === 'review') {
-        html += `<button class="va-btn va-btn--primary" onclick="exportFormData()">Export JSON Data</button>`;
-    }
-    if (vaForm.formUrl) {
-        html += `<a class="va-btn va-btn--outline" href="${vaForm.formUrl}" target="_blank" rel="noopener">View Original PDF</a>`;
-    }
-    html += '</div>';
 
     html += '</form></div>';
     main.innerHTML = html;
@@ -761,35 +951,90 @@ function renderIntroStep(schema, vaForm, org) {
     const formNumber = vaForm.formNumber || schema.title || 'Form';
     const formTitle = vaForm.formTitle || schema.description || '';
     const instructions = vaForm.instructions || null;
+    const formSections = vaForm.formSections || [];
+    const props = schema.properties || {};
+    const requiredList = new Set(schema.required || []);
 
     let html = '<div class="va-step-page">';
+
+    // ─── Form Title (matches BIO FormTitle component) ───
     html += `<div class="va-form-intro">
         <h1>${esc(formTitle) || 'VA Form ' + esc(formNumber)}</h1>
         <div class="va-form-subtitle">VA Form ${esc(formNumber)}</div>
-        <div class="va-form-meta">
-            ${vaForm.ombNumber ? '<span>OMB No. ' + esc(vaForm.ombNumber) + '</span>' : ''}
-            ${vaForm.respondentBurden ? '<span>Est. burden: ' + esc(vaForm.respondentBurden) + '</span>' : ''}
-            ${vaForm.pageCount ? '<span>' + vaForm.pageCount + ' pages</span>' : ''}
-            <span>${esc(org.fullName)}</span>
-        </div>
     </div>`;
 
-    if (instructions && typeof instructions === 'object') {
-        if (instructions.alert) {
-            html += `<div class="va-alert va-alert--important"><p>${esc(instructions.alert)}</p></div>`;
-        }
-        if (instructions.sections) {
-            html += '<div class="va-instructions">';
-            for (const sec of instructions.sections) {
-                if (sec.heading) html += `<h3>${esc(sec.heading)}</h3>`;
-                if (sec.content) {
-                    for (const para of sec.content.split('\n\n')) {
-                        html += `<p>${esc(para)}</p>`;
+    // ─── "Follow these steps" heading ───
+    html += `<h2 class="vads-u-font-size--h3" style="font-family:var(--vads-font-sans);font-size:1.1rem;font-weight:700;margin:1rem 0 0.25rem;">Follow these steps to submit VA Form ${esc(formNumber)}</h2>`;
+
+    // ─── Process List (matches <va-process-list>) ───
+    html += '<div class="va-process-list">';
+
+    // Step 1: Gather your information
+    html += '<div class="va-process-list-item" data-step="1">';
+    html += '<h3>Gather your information</h3>';
+
+    // Build "what you'll need" from schema sections + required fields
+    if (formSections.length > 0) {
+        html += '<p><strong>You\'ll need this information to complete this form:</strong></p><ul>';
+        for (const sec of formSections) {
+            if (sec.rows) {
+                for (const row of sec.rows) {
+                    for (const col of row.columns) {
+                        const fieldDef = props[col.fieldId];
+                        const vaField = fieldDef?.['x-va-field'] || {};
+                        const isReq = requiredList.has(col.fieldId) || vaField.required;
+                        if (isReq && vaField.label) {
+                            html += `<li>${esc(vaField.label)}</li>`;
+                        }
                     }
                 }
             }
-            html += '</div>';
         }
+        html += '</ul>';
+    } else {
+        // Legacy: list required fields
+        const reqFields = [];
+        for (const [key, def] of Object.entries(props)) {
+            const vaField = def?.['x-va-field'] || {};
+            if (requiredList.has(key) && vaField.label) reqFields.push(vaField.label);
+        }
+        if (reqFields.length > 0) {
+            html += '<p><strong>You\'ll need this information to complete this form:</strong></p><ul>';
+            for (const f of reqFields) html += `<li>${esc(f)}</li>`;
+            html += '</ul>';
+        }
+    }
+    html += '</div>';
+
+    // Step 2: Fill out the form
+    html += '<div class="va-process-list-item" data-step="2">';
+    html += '<h3>Fill out and sign the form</h3>';
+    html += `<p>We'll take you through each step of the process. It should take about ${esc(vaForm.respondentBurden || '15 minutes')} to complete this form.</p>`;
+    html += '</div>';
+
+    // Step 3: Submit the form
+    html += '<div class="va-process-list-item" data-step="3">';
+    html += '<h3>Submit the form</h3>';
+    html += '<p>After you submit the form, you\'ll receive a confirmation message. You can print this for your records.</p>';
+    html += '</div>';
+
+    html += '</div>'; // end process list
+
+    // ─── Action Link (green arrow CTA — matches <VaLinkAction>) ───
+    html += `<button class="va-action-link" onclick="navigateStep(1)">Start VA Form ${esc(formNumber)}</button>`;
+
+    // ─── OMB Info (matches <va-omb-info>) ───
+    if (vaForm.ombNumber || vaForm.respondentBurden) {
+        html += '<div class="va-omb-info">';
+        if (vaForm.respondentBurden) {
+            html += `<strong>Respondent burden:</strong> ${esc(vaForm.respondentBurden)}<br>`;
+        }
+        if (vaForm.ombNumber) {
+            html += `<strong>OMB Control #:</strong> ${esc(vaForm.ombNumber)}<br>`;
+        }
+        html += `<strong>Expiration date:</strong> Refer to form for current date<br>`;
+        html += '<strong>Privacy Act Statement:</strong> VA Form ' + esc(formNumber) + ' collects the information needed to process your request under applicable federal laws.';
+        html += '</div>';
     }
 
     html += '</div>';
@@ -846,6 +1091,7 @@ function renderLegacyStep(schema) {
 
 function renderReviewStep(schema, vaForm, steps) {
     const formNumber = vaForm.formNumber || schema.title || 'Form';
+    const props = schema.properties || {};
 
     let html = '<div class="va-step-page">';
     html += '<h2>Review your information</h2>';
@@ -855,21 +1101,59 @@ function renderReviewStep(schema, vaForm, steps) {
     if (sectionSteps.length > 0) {
         for (let i = 0; i < sectionSteps.length; i++) {
             const s = sectionSteps[i];
-            html += `<div class="va-section-divider">
-                <h3 style="display:flex;justify-content:space-between;align-items:center;">
-                    ${esc(s.title)}
-                    <button class="va-btn va-btn--link" onclick="navigateToStep(${steps.indexOf(s)})" style="font-size:0.85rem;">Edit</button>
-                </h3>
+            const stepIdx = steps.indexOf(s);
+            const accId = 'review-acc-' + i;
+
+            html += '<div class="va-review-accordion">';
+            html += `<button class="va-review-accordion-header" aria-expanded="false" onclick="toggleAccordion('${accId}', this)">
+                <span>${esc(s.title)}</span>
+                <span class="va-accordion-icon">&#9660;</span>
+            </button>`;
+            html += `<div class="va-review-accordion-body" id="${accId}">`;
+
+            // Show fields in this section as review rows
+            if (s.rows) {
+                html += '<dl>';
+                for (const row of s.rows) {
+                    for (const col of row.columns) {
+                        const fieldDef = props[col.fieldId];
+                        const vaField = fieldDef?.['x-va-field'] || {};
+                        const label = vaField.label || humanize(col.fieldId);
+                        html += `<div class="va-review-row">
+                            <dt>${esc(label)}</dt>
+                            <dd id="review-val-${esc(col.fieldId)}">—</dd>
+                        </div>`;
+                    }
+                }
+                html += '</dl>';
+            }
+
+            html += `<div style="text-align:right;margin-top:0.75rem;">
+                <button class="va-review-edit-link" onclick="navigateToStep(${stepIdx})">Edit ${esc(s.title)}</button>
             </div>`;
+            html += '</div></div>';
         }
     }
 
-    html += `<div class="va-section-divider">
-        <div class="va-alert va-alert--success"><h3>Ready to export</h3><p>Click "Export JSON Data" to download the form data as JSON, or use "View Original PDF" to see the paper version of VA Form ${esc(formNumber)}.</p></div>
+    // Privacy agreement checkbox (BIO pattern)
+    html += `<div class="va-privacy-agreement">
+        <label>
+            <input type="checkbox" id="privacyAgreement">
+            I have read and accept the <a href="https://www.va.gov/privacy-policy/" target="_blank">privacy policy</a>.
+            <strong>Note:</strong> According to the Paperwork Reduction Act, you are not required to respond to a collection
+            of information unless it displays a currently valid OMB control number.
+        </label>
     </div>`;
 
     html += '</div>';
     return html;
+}
+
+function toggleAccordion(id, btn) {
+    const body = document.getElementById(id);
+    const isOpen = body.classList.contains('open');
+    body.classList.toggle('open');
+    btn.setAttribute('aria-expanded', !isOpen);
 }
 
 function navigateStep(delta) {
