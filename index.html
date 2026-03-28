@@ -1590,20 +1590,54 @@
 
                 // Define common composition patterns
                 const ssnPattern = (fs) => fs.filter(f =>
-                    /ssn|social.*security/i.test(f.label) || /ssn/i.test(f.id));
+                    /ssn|social.*security|ss\s*#|soc.*sec/i.test(f.label) || /ssn/i.test(f.id));
                 const dobPattern = (fs) => fs.filter(f =>
-                    /date.*birth|dob|born/i.test(f.label) || /dob/i.test(f.id));
+                    /date.*birth|birth.*date|dob|born/i.test(f.label) || /dob/i.test(f.id));
                 const namePattern = (fs) => fs.filter(f =>
                     /^(first|middle|last|suffix)[\s_]?name?$/i.test(f.label) ||
                     /first.*name|middle.*name|last.*name|suffix/i.test(f.label) ||
+                    /first_name|last_name|middle_name|middle_initial|firstname|lastname|middlename/i.test(f.label) ||
+                    /veterans?_?(first|last|middle)|claimant_?(first|last|middle)|beneficiary_?(first|last|middle)/i.test(f.label) ||
+                    /firstmiddlelast/i.test(f.label) ||
                     /(first|middle|last|suffix)/i.test(f.id));
                 const addressPattern = (fs) => fs.filter(f =>
-                    /street|address|city|state|zip|postal|country|apt|unit/i.test(f.label) ||
+                    /street|address|city|state|zip|postal|country|apt|unit|county|mailing|residence/i.test(f.label) ||
                     /street|addr|city|state|zip|postal|country/i.test(f.id));
                 const phonePattern = (fs) => fs.filter(f =>
-                    /phone|telephone|fax/i.test(f.label) || /phone|tel|fax/i.test(f.id));
+                    /phone|telephone|fax|mobile|cell/i.test(f.label) || /phone|tel|fax/i.test(f.id));
                 const emailPattern = (fs) => fs.filter(f =>
                     /email|e-mail/i.test(f.label) || /email/i.test(f.id));
+                const vaFileNumberPattern = (fs) => fs.filter(f =>
+                    /va[\s_]*file|file[\s_]*number|c[\s_-]*file|c[\s_-]*number|claim[\s_]*number/i.test(f.label) ||
+                    /va_file|file_number|claim_number/i.test(f.id));
+                const serviceNumberPattern = (fs) => fs.filter(f =>
+                    /service[\s_]*number|service[\s_]*#|military[\s_]*id|veterans?[\s_]*service[\s_]*number/i.test(f.label) ||
+                    /service_number|service_num/i.test(f.id));
+                const remarksPattern = (fs) => fs.filter(f =>
+                    /\b(remark|comment|explanation|limitation|narrative|additional[\s_]*info|specify|describe)\b/i.test(f.label) &&
+                    !consumed.has(f.id));
+                const financialPattern = (fs) => fs.filter(f =>
+                    /income|asset|expense|debt|net[\s_]*worth|bank|account[\s_]*balance|salary|wage|amount|percentage|lump[\s_]*sum|total[\s_]*amount/i.test(f.label) ||
+                    /income|financial|amount/i.test(f.id));
+                const datePattern = (fs) => fs.filter(f =>
+                    /\bdate\b|datefield|date_of|mm[\s_]*dd|dd[\s_]*mm|month[\s_]*year/i.test(f.label) ||
+                    /date/i.test(f.id));
+                const dependentPattern = (fs) => fs.filter(f =>
+                    /dependent|child|minor|custody/i.test(f.label));
+                const insurancePattern = (fs) => fs.filter(f =>
+                    /insurance|policy|group[\s_]*number|plan[\s_]*name|insur/i.test(f.label));
+                const medicalPattern = (fs) => fs.filter(f =>
+                    /diagnosis|treatment|condition|symptom|medication|doctor|physician|hospital|clinic|icd|medical/i.test(f.label));
+                const employerPattern = (fs) => fs.filter(f =>
+                    /employer|company|business|occupation|job[\s_]*title|work/i.test(f.label));
+                const relationshipPattern = (fs) => fs.filter(f =>
+                    /relationship|relation[\s_]*to|related/i.test(f.label));
+                const documentTypePattern = (fs) => fs.filter(f =>
+                    /certificate|decree|court[\s_]*paper|personnel[\s_]*record|birth[\s_]*cert|death[\s_]*cert|marriage[\s_]*cert|divorce/i.test(f.label));
+                const educationPattern = (fs) => fs.filter(f =>
+                    /school|training|education|course|degree|institution|university|college/i.test(f.label));
+                const physicalDescPattern = (fs) => fs.filter(f =>
+                    /\b(height|weight|gender|sex|race|hair|eyes|complexion)\b/i.test(f.label));
 
                 // Check if we need fullName definition
                 let hasNameFields = false;
@@ -1695,6 +1729,130 @@
                     if (emails.length >= 1) {
                         prop.properties.email = { type: ['string', 'null'], maxLength: 70 };
                         emails.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 6a. Compose VA File Number fields
+                    const vaFiles = vaFileNumberPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (vaFiles.length >= 1) {
+                        prop.properties.vaFileNumber = { type: ['string', 'null'], maxLength: 9 };
+                        vaFiles.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 6b. Compose Service Number fields
+                    const svcNums = serviceNumberPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (svcNums.length >= 1) {
+                        prop.properties.serviceNumber = { type: ['string', 'null'] };
+                        svcNums.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 6c. Compose date fields (general, not DOB or date signed)
+                    const dates = datePattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (dates.length >= 1) {
+                        dates.forEach(f => {
+                            const dateName = this.labelToPropertyName(f.label) || 'date';
+                            prop.properties[dateName] = { type: 'string', format: 'date' };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6d. Compose financial fields
+                    const financials = financialPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (financials.length >= 1) {
+                        financials.forEach(f => {
+                            const finName = this.labelToPropertyName(f.label) || 'amount';
+                            prop.properties[finName] = { type: 'number' };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6e. Compose dependent fields
+                    const deps = dependentPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (deps.length >= 1) {
+                        deps.forEach(f => {
+                            const depName = this.labelToPropertyName(f.label);
+                            prop.properties[depName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6f. Compose insurance fields
+                    const ins = insurancePattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (ins.length >= 1) {
+                        ins.forEach(f => {
+                            const insName = this.labelToPropertyName(f.label);
+                            prop.properties[insName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6g. Compose medical fields
+                    const meds = medicalPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (meds.length >= 1) {
+                        meds.forEach(f => {
+                            const medName = this.labelToPropertyName(f.label);
+                            prop.properties[medName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6h. Compose employer fields
+                    const emps = employerPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (emps.length >= 1) {
+                        emps.forEach(f => {
+                            const empName = this.labelToPropertyName(f.label);
+                            prop.properties[empName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6i. Compose relationship fields
+                    const rels = relationshipPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (rels.length >= 1) {
+                        rels.forEach(f => {
+                            const relName = this.labelToPropertyName(f.label) || 'relationship';
+                            prop.properties[relName] = { type: 'string' };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6j. Compose document type fields
+                    const docs = documentTypePattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (docs.length >= 1) {
+                        docs.forEach(f => {
+                            const docName = this.labelToPropertyName(f.label);
+                            prop.properties[docName] = { type: 'boolean' };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6k. Compose education/training fields
+                    const edus = educationPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (edus.length >= 1) {
+                        edus.forEach(f => {
+                            const eduName = this.labelToPropertyName(f.label);
+                            prop.properties[eduName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6l. Compose physical description fields
+                    const physicals = physicalDescPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (physicals.length >= 1) {
+                        physicals.forEach(f => {
+                            const physName = this.labelToPropertyName(f.label);
+                            prop.properties[physName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6m. Compose remarks/freetext fields
+                    const remarks = remarksPattern(sectionFields);
+                    if (remarks.length >= 1) {
+                        remarks.forEach(f => {
+                            const remName = this.labelToPropertyName(f.label) || 'remarks';
+                            prop.properties[remName] = { type: ['string', 'null'], maxLength: 500 };
+                            consumed.add(f.id);
+                        });
                     }
 
                     // 7. Compose checkbox groups → enum or boolean
