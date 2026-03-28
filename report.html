@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VA Forms — Composition Engine Coverage Report</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #030940; --royal: #050F69; --azure: #2071C6;
+  --sky: #68B4E7; --silver: #CECBD2; --ice: #E7F1FB; --white: #FAFAFA;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; background: var(--ice); color: #1a1a2e; line-height: 1.6; }
+.header { background: linear-gradient(135deg, var(--navy) 0%, var(--royal) 100%); color: white; padding: 32px 40px; }
+.header h1 { font-size: 28px; font-weight: 600; margin-bottom: 4px; }
+.header p { font-size: 14px; opacity: 0.8; }
+.logo { height: 36px; margin-bottom: 12px; }
+.container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+
+/* Stats Cards */
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 32px; }
+.stat-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.stat-card .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: #666; font-weight: 500; }
+.stat-card .value { font-size: 32px; font-weight: 700; color: var(--navy); margin: 4px 0; }
+.stat-card .sub { font-size: 12px; color: #888; }
+.stat-card.highlight { background: linear-gradient(135deg, var(--azure), var(--sky)); color: white; }
+.stat-card.highlight .label, .stat-card.highlight .sub { color: rgba(255,255,255,0.8); }
+.stat-card.highlight .value { color: white; }
+
+/* Sections */
+.section { background: white; border-radius: 12px; padding: 24px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.section h2 { font-size: 18px; font-weight: 600; color: var(--navy); margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--ice); }
+.section h3 { font-size: 14px; font-weight: 600; color: var(--royal); margin: 16px 0 8px; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { background: var(--ice); color: var(--navy); font-weight: 600; text-align: left; padding: 10px 12px; position: sticky; top: 0; }
+td { padding: 8px 12px; border-bottom: 1px solid #f0f0f0; }
+tr:hover td { background: #f8fbff; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* Coverage bar */
+.cov-bar { display: flex; align-items: center; gap: 8px; }
+.cov-bar .bar { flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden; max-width: 120px; }
+.cov-bar .bar .fill { height: 100%; border-radius: 4px; }
+.cov-bar .pct { font-size: 12px; font-weight: 600; min-width: 36px; }
+.fill-high { background: #22c55e; }
+.fill-mid { background: #f59e0b; }
+.fill-low { background: #ef4444; }
+
+/* Badges */
+.badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+.badge-ok { background: #dcfce7; color: #166534; }
+.badge-err { background: #fee2e2; color: #991b1b; }
+.badge-skip { background: #f3f4f6; color: #6b7280; }
+
+/* Key Insights */
+.insight { background: var(--ice); border-left: 4px solid var(--azure); padding: 12px 16px; margin-bottom: 12px; border-radius: 0 8px 8px 0; font-size: 14px; }
+.insight strong { color: var(--navy); }
+
+/* Responsive table wrapper */
+.table-wrap { overflow-x: auto; }
+
+/* Tabs */
+.tab-btns { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
+.tab-btn { padding: 6px 16px; border: none; background: var(--ice); color: var(--navy); border-radius: 20px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 500; transition: all 0.2s; }
+.tab-btn.active { background: var(--azure); color: white; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://images.squarespace-cdn.com/content/v1/6209762bbb7641327e69acc0/21737a6d-1c02-42eb-89e0-afff7da79c68/Aquia+Inc+Website+Header+Logo_Deep+Blue+Background.png?format=300w" alt="Aquia Inc." class="logo">
+  <h1>VA Forms — Composition Engine Coverage Report</h1>
+  <p>Batch analysis of 686 active VA forms • Generated March 28, 2026</p>
+</div>
+
+<div class="container">
+
+<!-- Key Stats -->
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="label">Active VA Forms</div>
+    <div class="value">686</div>
+    <div class="sub">791 total, 85 deleted, 20 invalid PDF</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Forms Analyzed</div>
+    <div class="value">230</div>
+    <div class="sub">14 errors • 228 pending (vba.va.gov)</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Fillable (with AcroForm)</div>
+    <div class="value">179</div>
+    <div class="sub">51 flat/scanned (no fields)</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Total Fields Found</div>
+    <div class="value">9,373</div>
+    <div class="sub">Across 179 fillable forms</div>
+  </div>
+  <div class="stat-card highlight">
+    <div class="label">Composition Coverage</div>
+    <div class="value">57%</div>
+    <div class="sub">On descriptive field names (AcroForm)</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Raw Coverage</div>
+    <div class="value">26%</div>
+    <div class="sub">2,400 / 9,373 total (incl. XFA generic)</div>
+  </div>
+</div>
+
+<!-- Key Insights -->
+<div class="section">
+  <h2>Key Insights</h2>
+  <div class="insight">
+    <strong>XFA vs AcroForm:</strong> 5,179 of 6,973 unmatched fields (74%) use generic XFA names like <code>TextField1[0]</code> that cannot be matched by field-name pattern matching. Excluding XFA, the composition engine covers <strong>57% of descriptive AcroForm fields</strong>.
+  </div>
+  <div class="insight">
+    <strong>Strongest patterns:</strong> Signature (90 forms), Address (65 forms), SSN (57 forms), Date (54 forms), and Full Name (53 forms) are the most widely applicable patterns across VA forms.
+  </div>
+  <div class="insight">
+    <strong>Gap: XFA forms need OCR-like approach.</strong> The 22 forms with 0% coverage are mostly XFA-based with generic field names. For these, a layout-based or label-proximity approach would be needed rather than field-name matching.
+  </div>
+  <div class="insight">
+    <strong>228 VBA forms pending:</strong> Forms hosted on <code>www.vba.va.gov</code> (including high-value benefits forms like 21-526EZ, 21-0966) were blocked by cross-origin restrictions. These are primarily fillable "ARE" (AcroForm-enabled) PDFs and likely have strong pattern coverage. A server-side proxy or VBA-domain analysis pass is recommended.
+  </div>
+</div>
+
+<!-- Pattern Coverage -->
+<div class="section">
+  <h2>Composition Pattern Coverage</h2>
+  <p style="font-size:13px;color:#666;margin-bottom:16px;">How each of the 17 composition engine patterns performs across all analyzed fillable forms.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Pattern</th><th class="num">Forms</th><th class="num">Fields</th><th>Coverage</th></tr></thead>
+    <tbody id="patternTable"></tbody>
+  </table>
+  </div>
+</div>
+
+<!-- Coverage Distribution -->
+<div class="section">
+  <h2>Coverage Distribution</h2>
+  <p style="font-size:13px;color:#666;margin-bottom:16px;">How well the composition engine covers each fillable form (179 forms with AcroForm fields).</p>
+  <div id="coverageDist" style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px;"></div>
+  <div class="table-wrap">
+    <div class="tab-btns">
+      <button class="tab-btn active" onclick="showTab('high')">76-100% (12)</button>
+      <button class="tab-btn" onclick="showTab('mid')">51-75% (33)</button>
+      <button class="tab-btn" onclick="showTab('medlow')">26-50% (54)</button>
+      <button class="tab-btn" onclick="showTab('low')">1-25% (58)</button>
+      <button class="tab-btn" onclick="showTab('zero')">0% (22)</button>
+    </div>
+    <div id="tab-high" class="tab-content active"></div>
+    <div id="tab-mid" class="tab-content"></div>
+    <div id="tab-medlow" class="tab-content"></div>
+    <div id="tab-low" class="tab-content"></div>
+    <div id="tab-zero" class="tab-content"></div>
+  </div>
+</div>
+
+<!-- Top Forms by Fields -->
+<div class="section">
+  <h2>Largest Forms (Most Fields)</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Form</th><th>Title</th><th class="num">Fields</th><th class="num">Composed</th><th>Coverage</th></tr></thead>
+    <tbody>
+      <tr><td>10-0491</td><td>Academic Verification — HPSP & VIOMPSP</td><td class="num">496</td><td class="num">16</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-low" style="width:3%"></div></div><div class="pct">3%</div></div></td></tr>
+      <tr><td>10-0453</td><td>Screening Checklist (Appointee)</td><td class="num">274</td><td class="num">80</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-mid" style="width:29%"></div></div><div class="pct">29%</div></div></td></tr>
+      <tr><td>10-2675c</td><td>Consolidated Requisition for Cash Withdrawals</td><td class="num">249</td><td class="num">183</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-high" style="width:73%"></div></div><div class="pct">73%</div></div></td></tr>
+      <tr><td>10-2364</td><td>Audiological Evaluation</td><td class="num">238</td><td class="num">2</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-low" style="width:1%"></div></div><div class="pct">1%</div></div></td></tr>
+      <tr><td>10-0440</td><td>Weekly Pressure Ulcer Report</td><td class="num">219</td><td class="num">6</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-low" style="width:3%"></div></div><div class="pct">3%</div></div></td></tr>
+      <tr><td>10-2638</td><td>Controlled Substance Administration Record</td><td class="num">201</td><td class="num">4</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-low" style="width:2%"></div></div><div class="pct">2%</div></div></td></tr>
+      <tr><td>10-2570</td><td>VA Staff Dental Outpatient Record</td><td class="num">197</td><td class="num">60</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-mid" style="width:30%"></div></div><div class="pct">30%</div></div></td></tr>
+      <tr><td>10-2614d-3a</td><td>Medical Record Allergy Treatment</td><td class="num">175</td><td class="num">60</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-mid" style="width:34%"></div></div><div class="pct">34%</div></div></td></tr>
+      <tr><td>10-6001a</td><td>Contract Progress Report</td><td class="num">169</td><td class="num">0</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-low" style="width:0%"></div></div><div class="pct">0%</div></div></td></tr>
+      <tr><td>10-4790</td><td>Driver Rehabilitation Program Report</td><td class="num">161</td><td class="num">0</td><td><div class="cov-bar"><div class="bar"><div class="fill fill-low" style="width:0%"></div></div><div class="pct">0%</div></div></td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!-- Methodology -->
+<div class="section">
+  <h2>Methodology</h2>
+  <p style="font-size:13px;color:#555;">
+    This analysis was performed by downloading each PDF from the VA Forms API, loading it with pdf-lib, extracting all AcroForm field names, and matching each against 17 regex-based composition patterns (SSN, DOB, Full Name, Address, Phone, Email, Date, Signature, Checkbox, Radio, VA File Number, Service Number, Insurance, Medical, Financial, Dependent, Employer). Forms hosted on <code>www.va.gov</code> (437 forms) were analyzed directly; <code>www.vba.va.gov</code> forms (228) and other-domain forms (21) require a separate analysis pass due to cross-origin restrictions. Forms that timed out after 8 seconds were recorded as errors. Forms with 0 AcroForm fields are classified as flat/scanned PDFs.
+  </p>
+</div>
+
+</div>
+
+<script>
+// Pattern coverage data
+const patterns = [
+  {pattern:'signature',forms:90,fields:355},{pattern:'address',forms:65,fields:202},
+  {pattern:'ssn',forms:57,fields:150},{pattern:'date',forms:54,fields:257},
+  {pattern:'fullName',forms:53,fields:188},{pattern:'phone',forms:48,fields:268},
+  {pattern:'checkbox',forms:41,fields:537},{pattern:'radio',forms:41,fields:201},
+  {pattern:'medical',forms:25,fields:116},{pattern:'email',forms:17,fields:23},
+  {pattern:'dob',forms:16,fields:22},{pattern:'employer',forms:9,fields:15},
+  {pattern:'vaFileNumber',forms:4,fields:4},{pattern:'financial',forms:4,fields:21},
+  {pattern:'dependent',forms:4,fields:23},{pattern:'insurance',forms:3,fields:17},
+  {pattern:'serviceNumber',forms:1,fields:1}
+];
+
+const ptBody = document.getElementById('patternTable');
+for (const p of patterns) {
+  const pct = Math.round(p.forms / 179 * 100);
+  const cls = pct > 20 ? 'fill-high' : pct > 5 ? 'fill-mid' : 'fill-low';
+  ptBody.innerHTML += `<tr>
+    <td><strong>${p.pattern}</strong></td>
+    <td class="num">${p.forms}</td>
+    <td class="num">${p.fields}</td>
+    <td><div class="cov-bar"><div class="bar"><div class="fill ${cls}" style="width:${pct}%"></div></div><div class="pct">${pct}%</div></div></td>
+  </tr>`;
+}
+
+// Coverage distribution
+const bands = [
+  {label:'0%',count:22,color:'#ef4444'},{label:'1-25%',count:58,color:'#f97316'},
+  {label:'26-50%',count:54,color:'#f59e0b'},{label:'51-75%',count:33,color:'#22c55e'},
+  {label:'76-100%',count:12,color:'#16a34a'}
+];
+const distEl = document.getElementById('coverageDist');
+for (const b of bands) {
+  const w = Math.round(b.count / 179 * 100);
+  distEl.innerHTML += `<div style="flex:${b.count};min-width:60px;text-align:center">
+    <div style="background:${b.color};height:40px;border-radius:6px;display:flex;align-items:center;justify-content:center;color:white;font-weight:600;font-size:14px">${b.count}</div>
+    <div style="font-size:11px;color:#666;margin-top:4px">${b.label}</div>
+  </div>`;
+}
+
+// Tab switching
+function showTab(name) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// Populate coverage tabs with placeholder guidance
+const tabData = {
+  high: '12 forms with 76-100% coverage — these are ready for digitization with minimal additional pattern work.',
+  mid: '33 forms with 51-75% coverage — good candidates for near-term digitization with targeted pattern additions.',
+  medlow: '54 forms with 26-50% coverage — the largest group. Many use a mix of descriptive and generic field names.',
+  low: '58 forms with 1-25% coverage — predominantly XFA forms with generic field names requiring layout-based approaches.',
+  zero: '22 forms with 0% coverage — all fields use generic names (TextField1, etc.). These need OCR or label-proximity matching.'
+};
+for (const [k,v] of Object.entries(tabData)) {
+  document.getElementById('tab-' + k).innerHTML = `<div class="insight">${v}</div>`;
+}
+</script>
+</body>
+</html>
