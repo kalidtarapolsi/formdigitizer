@@ -8,10 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Bitter:wght@700&display=swap" rel="stylesheet">
     <style>
-        /* ─── USWDS-inspired VA.gov Design System ─── */
+        /* ─── USWDS / VA.gov Design Tokens ─── */
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
-            /* VA.gov / USWDS color tokens */
             --vads-color-primary: #005ea2;
             --vads-color-primary-dark: #1a4480;
             --vads-color-primary-darker: #162e51;
@@ -27,10 +26,10 @@
             --vads-color-warning: #ffbe2e;
             --vads-color-warning-light: #faf3d1;
             --vads-color-success: #00a91c;
+            --vads-color-success-lighter: #ecf3ec;
             --vads-color-info: #00bde3;
             --vads-color-info-lighter: #e7f6f8;
             --vads-color-error: #d54309;
-            --vads-color-gold: #ffbe2e;
             --vads-font-sans: 'Source Sans 3', 'Helvetica Neue', Helvetica, Arial, sans-serif;
             --vads-font-serif: 'Bitter', Georgia, 'Times New Roman', serif;
         }
@@ -72,17 +71,8 @@
             color: inherit;
         }
         .va-header-logo svg { width: 36px; height: 36px; }
-        .va-header-logo span {
-            font-size: 1rem;
-            font-weight: 700;
-            letter-spacing: -0.3px;
-        }
-        .va-header-right {
-            margin-left: auto;
-            display: flex;
-            gap: 0.75rem;
-            align-items: center;
-        }
+        .va-header-logo span { font-size: 1rem; font-weight: 700; letter-spacing: -0.3px; }
+        .va-header-right { margin-left: auto; display: flex; gap: 0.75rem; align-items: center; }
         .va-header-search {
             background: rgba(255,255,255,0.15);
             border: 1px solid rgba(255,255,255,0.3);
@@ -167,10 +157,7 @@
             transition: background 0.1s;
         }
         .form-item:hover { background: var(--vads-color-info-lighter); }
-        .form-item.active {
-            background: #d4e5f7;
-            border-left: 3px solid var(--vads-color-primary);
-        }
+        .form-item.active { background: #d4e5f7; border-left: 3px solid var(--vads-color-primary); }
         .form-item-info { flex: 1; min-width: 0; }
         .form-item-name {
             font-size: 0.82rem;
@@ -195,44 +182,41 @@
         .badge-routing { background: #f0e6f6; color: #7b1fa2; }
 
         /* ─── Main Content ─── */
-        .main { flex: 1; overflow-y: auto; background: var(--vads-color-white); }
+        .main { flex: 1; overflow-y: auto; background: var(--vads-color-base-lightest); }
 
         /* ─── Empty State ─── */
         .empty-state {
             display: flex; flex-direction: column; align-items: center; justify-content: center;
             height: 100%; color: var(--vads-color-base-light); text-align: center; padding: 3rem;
+            background: var(--vads-color-white);
         }
         .empty-state svg { width: 64px; height: 64px; margin-bottom: 1rem; opacity: 0.3; }
         .empty-state h2 { font-size: 1.1rem; color: var(--vads-color-base-dark); font-weight: 600; }
         .empty-state p { font-size: 0.85rem; color: var(--vads-color-base-light); margin-top: 0.25rem; }
 
-        /* ─── Form Container (VA.gov style) ─── */
+        /* ─── Form Container (VA.gov wizard style) ─── */
         .va-form-container {
             max-width: 720px;
             margin: 0 auto;
-            padding: 2rem 2rem 4rem;
+            padding: 0 2rem 4rem;
         }
 
         /* ─── Breadcrumb ─── */
         .va-breadcrumb {
             font-size: 0.8rem;
             color: var(--vads-color-base-dark);
-            margin-bottom: 1.25rem;
+            padding: 1rem 0;
+            background: var(--vads-color-base-lightest);
         }
-        .va-breadcrumb a {
-            color: var(--vads-color-primary);
-            text-decoration: none;
-        }
+        .va-breadcrumb a { color: var(--vads-color-primary); text-decoration: none; }
         .va-breadcrumb a:hover { text-decoration: underline; }
-        .va-breadcrumb span { color: var(--vads-color-base-dark); }
 
-        /* ─── Form Title Block ─── */
-        .va-form-title {
-            margin-bottom: 1.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid var(--vads-color-base-lighter);
+        /* ─── Form Title Block (introduction page) ─── */
+        .va-form-intro {
+            background: var(--vads-color-white);
+            padding: 2rem 0;
         }
-        .va-form-title h1 {
+        .va-form-intro h1 {
             font-family: var(--vads-font-serif);
             font-size: 2rem;
             font-weight: 700;
@@ -240,17 +224,70 @@
             color: var(--vads-color-base);
             margin-bottom: 0.5rem;
         }
-        .va-form-title .va-form-subtitle {
+        .va-form-intro .va-form-subtitle {
             font-size: 1rem;
             color: var(--vads-color-base-dark);
+            margin-bottom: 0.75rem;
         }
-        .va-form-title .va-form-meta {
+        .va-form-intro .va-form-meta {
             font-size: 0.78rem;
             color: var(--vads-color-base-light);
             margin-top: 0.5rem;
             display: flex;
             gap: 1.5rem;
             flex-wrap: wrap;
+        }
+
+        /* ─── Segmented Progress Bar ─── */
+        .va-progress-bar {
+            display: flex;
+            gap: 4px;
+            margin: 1.5rem 0 0.5rem;
+            background: var(--vads-color-white);
+        }
+        .va-progress-segment {
+            flex: 1;
+            height: 8px;
+            background: var(--vads-color-base-lighter);
+            border-radius: 1px;
+            transition: background 0.2s;
+        }
+        .va-progress-segment.completed { background: var(--vads-color-primary); }
+        .va-progress-segment.active { background: var(--vads-color-primary); }
+        .va-progress-label {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--vads-color-base-dark);
+            margin-bottom: 1.25rem;
+        }
+
+        /* ─── Step Page ─── */
+        .va-step-page {
+            background: var(--vads-color-white);
+            border: 1px solid var(--vads-color-base-lighter);
+            border-radius: 4px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .va-step-page h2 {
+            font-family: var(--vads-font-serif);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--vads-color-base);
+            margin-bottom: 0.25rem;
+        }
+        .va-step-page h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--vads-color-base);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .va-step-page .step-description {
+            font-size: 0.92rem;
+            color: var(--vads-color-base-dark);
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
         }
 
         /* ─── Alert box ─── */
@@ -269,10 +306,14 @@
             border-left-color: var(--vads-color-secondary);
             background: #fce4ec;
         }
-        .va-alert h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.35rem; }
-        .va-alert p { font-size: 0.88rem; color: var(--vads-color-base); line-height: 1.5; }
+        .va-alert--success {
+            border-left-color: var(--vads-color-success);
+            background: var(--vads-color-success-lighter);
+        }
+        .va-alert h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.35rem; margin-top: 0; }
+        .va-alert p { font-size: 0.88rem; color: var(--vads-color-base); line-height: 1.5; margin: 0; }
 
-        /* ─── Instructions Block ─── */
+        /* ─── Instructions ─── */
         .va-instructions { margin-bottom: 2rem; }
         .va-instructions h2 {
             font-family: var(--vads-font-serif);
@@ -285,60 +326,19 @@
             font-weight: 700;
             margin-top: 1.25rem;
             margin-bottom: 0.35rem;
-            color: var(--vads-color-base);
         }
         .va-instructions p {
             font-size: 0.92rem;
             line-height: 1.65;
-            color: var(--vads-color-base);
             margin-bottom: 0.6rem;
         }
 
-        /* ─── Form Section ─── */
-        .va-form-section {
-            border: 1px solid var(--vads-color-base-lighter);
-            border-radius: 4px;
-            margin-bottom: 1.5rem;
-            background: var(--vads-color-white);
-        }
-        .va-form-section-header {
-            background: var(--vads-color-primary-darker);
-            color: white;
-            padding: 0.75rem 1.25rem;
-            border-radius: 3px 3px 0 0;
-        }
-        .va-form-section-header h2 {
-            font-size: 1rem;
-            font-weight: 700;
-            margin: 0;
-        }
-        .va-form-section-header .section-number {
-            font-size: 0.75rem;
-            opacity: 0.8;
-            font-weight: 400;
-            margin-right: 0.4rem;
-        }
-        .va-form-section-instructions {
-            padding: 0.75rem 1.25rem 0;
-            font-size: 0.88rem;
-            color: var(--vads-color-base-dark);
-            line-height: 1.5;
-        }
-        .va-form-section-note {
-            padding: 0.5rem 1.25rem;
-            margin: 0.75rem 1.25rem 0;
-            background: var(--vads-color-warning-light);
-            border-left: 3px solid var(--vads-color-warning);
-            font-size: 0.82rem;
-            border-radius: 0 3px 3px 0;
-        }
-        .va-form-section-body { padding: 1rem 1.25rem 1.25rem; }
-
-        /* ─── Form Row (grid) ─── */
+        /* ─── Form Row (grid) — inputs aligned to bottom ─── */
         .va-form-row {
             display: flex;
             gap: 1rem;
             margin-bottom: 0;
+            align-items: flex-end;
         }
         .va-form-row + .va-form-row { margin-top: 0; }
 
@@ -366,10 +366,7 @@
             margin-bottom: 0.3rem;
             line-height: 1.3;
         }
-        .va-field .required-mark {
-            color: var(--vads-color-secondary);
-            margin-left: 0.15rem;
-        }
+        .va-field .required-mark { color: var(--vads-color-secondary); margin-left: 0.15rem; }
         .va-field .va-field-hint {
             font-size: 0.8rem;
             color: var(--vads-color-base-dark);
@@ -392,17 +389,16 @@
             border-radius: 0;
             background: var(--vads-color-white);
             line-height: 1.4;
+            height: 40px;
             transition: border-color 0.15s;
         }
-        .va-field input:focus,
-        .va-field select:focus,
-        .va-field textarea:focus {
+        .va-field input:focus, .va-field select:focus, .va-field textarea:focus {
             outline: 2px solid var(--vads-color-primary);
             outline-offset: 0;
             border-color: var(--vads-color-primary);
         }
         .va-field input::placeholder { color: var(--vads-color-base-light); }
-        .va-field textarea { min-height: 80px; resize: vertical; }
+        .va-field textarea { min-height: 80px; height: auto; resize: vertical; }
         .va-field select {
             appearance: none;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23565c65' stroke-width='2'/%3E%3C/svg%3E");
@@ -418,35 +414,19 @@
             align-items: flex-start;
             gap: 0.6rem;
             padding: 0.5rem 0;
-            position: relative;
         }
         .va-radio-item input[type="radio"],
         .va-checkbox-item input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
-            margin-top: 0.15rem;
-            accent-color: var(--vads-color-primary);
-            flex-shrink: 0;
+            width: 20px; height: 20px; margin-top: 0.15rem;
+            accent-color: var(--vads-color-primary); flex-shrink: 0;
         }
-        .va-radio-item label,
-        .va-checkbox-item label {
-            font-size: 0.92rem;
-            font-weight: 400;
-            color: var(--vads-color-base);
-            cursor: pointer;
-            line-height: 1.5;
+        .va-radio-item label, .va-checkbox-item label {
+            font-size: 0.92rem; font-weight: 400; color: var(--vads-color-base); cursor: pointer; line-height: 1.5;
         }
 
         /* Address widget */
-        .va-address-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 0.75rem;
-        }
-        .va-address-row {
-            display: flex;
-            gap: 0.75rem;
-        }
+        .va-address-grid { display: grid; grid-template-columns: 1fr; gap: 0.75rem; }
+        .va-address-row { display: flex; gap: 0.75rem; align-items: flex-end; }
         .va-address-row > .va-field { flex: 1; margin-bottom: 0; }
         .va-address-row > .va-field.narrow { flex: 0 0 100px; }
         .va-address-row > .va-field.zip { flex: 0 0 140px; }
@@ -456,34 +436,27 @@
             border: 2px solid var(--vads-color-base-dark);
             background: var(--vads-color-base-lightest);
             padding: 1rem;
-            min-height: 60px;
+            height: 60px;
             display: flex;
             align-items: center;
-            font-style: italic;
-            color: var(--vads-color-base-dark);
-            cursor: text;
         }
         .va-signature-box:focus-within {
             border-color: var(--vads-color-primary);
             outline: 2px solid var(--vads-color-primary);
         }
         .va-signature-box input {
-            border: none;
-            background: none;
+            border: none; background: none;
             font-size: 1.1rem;
             font-family: 'Brush Script MT', cursive, var(--vads-font-sans);
             color: var(--vads-color-base);
-            width: 100%;
-            outline: none;
+            width: 100%; outline: none;
         }
 
-        /* ─── Action bar ─── */
-        .va-action-bar {
+        /* ─── Navigation buttons (wizard) ─── */
+        .va-nav-buttons {
             display: flex;
             gap: 0.75rem;
-            margin-top: 2rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--vads-color-base-lighter);
+            margin-top: 1.5rem;
             flex-wrap: wrap;
         }
         .va-btn {
@@ -496,12 +469,11 @@
             transition: all 0.15s;
             border: none;
             text-decoration: none;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
         }
-        .va-btn--primary {
-            background: var(--vads-color-primary);
-            color: var(--vads-color-white);
-        }
+        .va-btn--primary { background: var(--vads-color-primary); color: var(--vads-color-white); }
         .va-btn--primary:hover { background: var(--vads-color-primary-dark); }
         .va-btn--secondary {
             background: var(--vads-color-white);
@@ -515,6 +487,28 @@
             border: 1px solid var(--vads-color-base-lighter);
         }
         .va-btn--outline:hover { background: var(--vads-color-base-lightest); }
+        .va-btn--link {
+            background: none; border: none; color: var(--vads-color-primary);
+            padding: 0.65rem 0; text-decoration: none; font-weight: 600;
+        }
+        .va-btn--link:hover { text-decoration: underline; }
+
+        /* ─── Section divider inside wizard step ─── */
+        .va-section-divider {
+            border-top: 1px solid var(--vads-color-base-lighter);
+            margin: 1.5rem 0;
+            padding-top: 1.5rem;
+        }
+
+        /* ─── Footer action bar ─── */
+        .va-action-bar {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--vads-color-base-lighter);
+            flex-wrap: wrap;
+        }
 
         /* ─── Loading ─── */
         .loading { text-align: center; padding: 3rem; color: var(--vads-color-base-light); }
@@ -586,6 +580,7 @@ const ORGS = [
 
 let currentOrg = null;
 let currentSchema = null;
+let currentStep = 0;
 let allFormsByOrg = {};
 
 const US_STATES = ['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC','PR','VI','GU','AS','MP'];
@@ -675,121 +670,220 @@ async function selectForm(orgId, fileName, formName) {
     try {
         const schema = await loadSchema(org, fileName);
         currentSchema = schema;
+        currentStep = 0;
         renderVAForm(schema, org);
     } catch (e) {
         main.innerHTML = `<div class="empty-state"><h2>Failed to load form</h2><p>${e.message}</p></div>`;
     }
 }
 
-// ─── Render Form (VA.gov style) ───
+// ─── Build sections list for wizard steps ───
+function getFormSteps(schema) {
+    const vaForm = schema['x-va-form'] || {};
+    const formSections = vaForm.formSections || [];
+    if (formSections.length > 0) {
+        // Enriched schema: each section = one wizard step
+        return [
+            { type: 'intro', title: 'Introduction' },
+            ...formSections.map(s => ({ type: 'section', ...s })),
+            { type: 'review', title: 'Review & Submit' }
+        ];
+    } else {
+        // Legacy: intro + single fields step + review
+        return [
+            { type: 'intro', title: 'Introduction' },
+            { type: 'legacy', title: 'Form Fields' },
+            { type: 'review', title: 'Review & Submit' }
+        ];
+    }
+}
+
+// ─── Render Form (VA.gov wizard style) ───
 function renderVAForm(schema, org) {
     const main = document.getElementById('mainPanel');
+    const steps = getFormSteps(schema);
     const vaForm = schema['x-va-form'] || {};
-    const props = schema.properties || {};
-    const requiredList = new Set(schema.required || []);
     const formNumber = vaForm.formNumber || schema.title || 'Form';
     const formTitle = vaForm.formTitle || schema.description || '';
-    const formSections = vaForm.formSections || [];
-    const instructions = vaForm.instructions || null;
-
-    // Determine if this is an enriched schema or legacy
-    const isEnriched = formSections.length > 0;
 
     let html = '<div class="va-form-container"><form id="vaForm" onsubmit="return false;">';
 
     // Breadcrumb
     html += `<div class="va-breadcrumb">
         <a href="forms.html">VA Forms</a> &rsaquo;
-        <a href="forms.html">${org.fullName}</a> &rsaquo;
-        <span>VA Form ${formNumber}</span>
+        <a href="forms.html">${esc(org.fullName)}</a> &rsaquo;
+        <span>VA Form ${esc(formNumber)}</span>
     </div>`;
 
-    // Title
-    html += `<div class="va-form-title">
-        <h1>${formTitle || 'VA Form ' + formNumber}</h1>
-        <div class="va-form-subtitle">VA Form ${formNumber}</div>
+    // Progress bar
+    html += '<div class="va-progress-bar">';
+    for (let i = 0; i < steps.length; i++) {
+        const cls = i < currentStep ? 'completed' : (i === currentStep ? 'active' : '');
+        html += `<div class="va-progress-segment ${cls}" title="${esc(steps[i].title)}"></div>`;
+    }
+    html += '</div>';
+    html += `<div class="va-progress-label">Step ${currentStep + 1} of ${steps.length}: ${esc(steps[currentStep].title)}</div>`;
+
+    const step = steps[currentStep];
+
+    if (step.type === 'intro') {
+        html += renderIntroStep(schema, vaForm, org);
+    } else if (step.type === 'section') {
+        html += renderSectionStep(schema, step);
+    } else if (step.type === 'legacy') {
+        html += renderLegacyStep(schema);
+    } else if (step.type === 'review') {
+        html += renderReviewStep(schema, vaForm, steps);
+    }
+
+    // Navigation buttons
+    html += '<div class="va-nav-buttons">';
+    if (currentStep > 0) {
+        html += `<button class="va-btn va-btn--secondary" onclick="navigateStep(-1)">&laquo; Back</button>`;
+    }
+    if (currentStep < steps.length - 1) {
+        html += `<button class="va-btn va-btn--primary" onclick="navigateStep(1)">Continue &raquo;</button>`;
+    }
+    if (step.type === 'review') {
+        html += `<button class="va-btn va-btn--primary" onclick="exportFormData()">Export JSON Data</button>`;
+    }
+    if (vaForm.formUrl) {
+        html += `<a class="va-btn va-btn--outline" href="${vaForm.formUrl}" target="_blank" rel="noopener">View Original PDF</a>`;
+    }
+    html += '</div>';
+
+    html += '</form></div>';
+    main.innerHTML = html;
+    main.scrollTop = 0;
+}
+
+function renderIntroStep(schema, vaForm, org) {
+    const formNumber = vaForm.formNumber || schema.title || 'Form';
+    const formTitle = vaForm.formTitle || schema.description || '';
+    const instructions = vaForm.instructions || null;
+
+    let html = '<div class="va-step-page">';
+    html += `<div class="va-form-intro">
+        <h1>${esc(formTitle) || 'VA Form ' + esc(formNumber)}</h1>
+        <div class="va-form-subtitle">VA Form ${esc(formNumber)}</div>
         <div class="va-form-meta">
-            ${vaForm.ombNumber ? '<span>OMB No. ' + vaForm.ombNumber + '</span>' : ''}
-            ${vaForm.respondentBurden ? '<span>Est. burden: ' + vaForm.respondentBurden + '</span>' : ''}
+            ${vaForm.ombNumber ? '<span>OMB No. ' + esc(vaForm.ombNumber) + '</span>' : ''}
+            ${vaForm.respondentBurden ? '<span>Est. burden: ' + esc(vaForm.respondentBurden) + '</span>' : ''}
             ${vaForm.pageCount ? '<span>' + vaForm.pageCount + ' pages</span>' : ''}
-            <span>${org.fullName}</span>
+            <span>${esc(org.fullName)}</span>
         </div>
     </div>`;
 
-    if (isEnriched) {
-        // ── Enriched Schema: render with full structure ──
-
-        // Instructions
-        if (instructions && typeof instructions === 'object') {
+    if (instructions && typeof instructions === 'object') {
+        if (instructions.alert) {
+            html += `<div class="va-alert va-alert--important"><p>${esc(instructions.alert)}</p></div>`;
+        }
+        if (instructions.sections) {
             html += '<div class="va-instructions">';
-            if (instructions.title) html += `<h2>${instructions.title}</h2>`;
-            if (instructions.alert) html += `<div class="va-alert va-alert--important"><p>${esc(instructions.alert)}</p></div>`;
-            if (instructions.sections) {
-                for (const sec of instructions.sections) {
-                    if (sec.heading) html += `<h3>${esc(sec.heading)}</h3>`;
-                    if (sec.content) {
-                        for (const para of sec.content.split('\n\n')) {
-                            html += `<p>${esc(para)}</p>`;
-                        }
+            for (const sec of instructions.sections) {
+                if (sec.heading) html += `<h3>${esc(sec.heading)}</h3>`;
+                if (sec.content) {
+                    for (const para of sec.content.split('\n\n')) {
+                        html += `<p>${esc(para)}</p>`;
                     }
                 }
             }
             html += '</div>';
         }
-
-        // Form sections
-        for (const section of formSections) {
-            html += `<div class="va-form-section">
-                <div class="va-form-section-header">
-                    <h2><span class="section-number">Section ${section.number}</span>${esc(section.title)}</h2>
-                </div>`;
-            if (section.instructions) {
-                html += `<div class="va-form-section-instructions">${esc(section.instructions)}</div>`;
-            }
-            if (section.note) {
-                html += `<div class="va-form-section-note">${esc(section.note)}</div>`;
-            }
-            html += '<div class="va-form-section-body">';
-            if (section.rows) {
-                for (const row of section.rows) {
-                    html += '<div class="va-form-row">';
-                    for (const col of row.columns) {
-                        const fieldDef = props[col.fieldId];
-                        const vaField = fieldDef?.['x-va-field'] || {};
-                        const isRequired = requiredList.has(col.fieldId) || vaField.required;
-                        html += `<div class="col-${col.width}">`;
-                        html += renderVAField(col.fieldId, fieldDef, vaField, isRequired);
-                        html += '</div>';
-                    }
-                    html += '</div>';
-                }
-            }
-            html += '</div></div>';
-        }
-    } else {
-        // ── Legacy Schema: auto-generate sections from properties ──
-        html += '<div class="va-alert"><h3>Legacy Form Schema</h3><p>This form uses the legacy schema format. Field labels are auto-generated from property names. Enhanced versions with full instructions and layout are being rolled out progressively.</p></div>';
-
-        html += '<div class="va-form-section"><div class="va-form-section-header"><h2>Form Fields</h2></div><div class="va-form-section-body">';
-        for (const [key, def] of Object.entries(props)) {
-            const vaField = def?.['x-va-field'] || {};
-            const label = vaField.label || humanize(key);
-            const isRequired = requiredList.has(key);
-            html += renderVAField(key, def, { ...vaField, label }, isRequired);
-        }
-        html += '</div></div>';
     }
 
-    // Action bar
-    html += `<div class="va-action-bar">
-        <button class="va-btn va-btn--primary" onclick="exportFormData()">Export JSON Data</button>
-        ${vaForm.formUrl ? '<a class="va-btn va-btn--secondary" href="' + vaForm.formUrl + '" target="_blank" rel="noopener">View Original PDF</a>' : ''}
-        <button class="va-btn va-btn--outline" onclick="clearForm()">Clear All Fields</button>
+    html += '</div>';
+    return html;
+}
+
+function renderSectionStep(schema, section) {
+    const props = schema.properties || {};
+    const requiredList = new Set(schema.required || []);
+
+    let html = '<div class="va-step-page">';
+    html += `<h2>${esc(section.title)}</h2>`;
+    if (section.instructions) {
+        html += `<div class="step-description">${esc(section.instructions)}</div>`;
+    }
+    if (section.note) {
+        html += `<div class="va-alert va-alert--warning"><p>${esc(section.note)}</p></div>`;
+    }
+    if (section.rows) {
+        for (const row of section.rows) {
+            html += '<div class="va-form-row">';
+            for (const col of row.columns) {
+                const fieldDef = props[col.fieldId];
+                const vaField = fieldDef?.['x-va-field'] || {};
+                const isRequired = requiredList.has(col.fieldId) || vaField.required;
+                html += `<div class="col-${col.width}">`;
+                html += renderVAField(col.fieldId, fieldDef, vaField, isRequired);
+                html += '</div>';
+            }
+            html += '</div>';
+        }
+    }
+    html += '</div>';
+    return html;
+}
+
+function renderLegacyStep(schema) {
+    const props = schema.properties || {};
+    const requiredList = new Set(schema.required || []);
+
+    let html = '<div class="va-step-page">';
+    html += '<h2>Form Fields</h2>';
+    html += '<div class="va-alert"><h3>Legacy Form Schema</h3><p>This form uses the legacy schema format. Field labels are auto-generated. Enhanced versions with full instructions and layout are being rolled out.</p></div>';
+    for (const [key, def] of Object.entries(props)) {
+        if (key === 'x-va-metadata') continue;
+        const vaField = def?.['x-va-field'] || {};
+        const label = vaField.label || humanize(key);
+        const isRequired = requiredList.has(key);
+        html += renderVAField(key, def, { ...vaField, label }, isRequired);
+    }
+    html += '</div>';
+    return html;
+}
+
+function renderReviewStep(schema, vaForm, steps) {
+    const formNumber = vaForm.formNumber || schema.title || 'Form';
+
+    let html = '<div class="va-step-page">';
+    html += '<h2>Review your information</h2>';
+    html += '<div class="step-description">Please review the information you entered before submitting.</div>';
+
+    const sectionSteps = steps.filter(s => s.type === 'section');
+    if (sectionSteps.length > 0) {
+        for (let i = 0; i < sectionSteps.length; i++) {
+            const s = sectionSteps[i];
+            html += `<div class="va-section-divider">
+                <h3 style="display:flex;justify-content:space-between;align-items:center;">
+                    ${esc(s.title)}
+                    <button class="va-btn va-btn--link" onclick="navigateToStep(${steps.indexOf(s)})" style="font-size:0.85rem;">Edit</button>
+                </h3>
+            </div>`;
+        }
+    }
+
+    html += `<div class="va-section-divider">
+        <div class="va-alert va-alert--success"><h3>Ready to export</h3><p>Click "Export JSON Data" to download the form data as JSON, or use "View Original PDF" to see the paper version of VA Form ${esc(formNumber)}.</p></div>
     </div>`;
 
-    html += '</form></div>';
-    main.innerHTML = html;
-    main.scrollTop = 0;
+    html += '</div>';
+    return html;
+}
+
+function navigateStep(delta) {
+    const steps = getFormSteps(currentSchema);
+    const newStep = currentStep + delta;
+    if (newStep >= 0 && newStep < steps.length) {
+        currentStep = newStep;
+        renderVAForm(currentSchema, currentOrg);
+    }
+}
+
+function navigateToStep(stepIndex) {
+    currentStep = stepIndex;
+    renderVAForm(currentSchema, currentOrg);
 }
 
 // ─── Render a single field ───
@@ -798,6 +892,7 @@ function renderVAField(fieldId, def, vaField, isRequired) {
     const label = vaField.label || humanize(fieldId);
     const widget = vaField.widget || guessWidget(fieldId, def);
     const reqMark = isRequired ? '<span class="required-mark">(*Required)</span>' : '';
+    const hintHtml = vaField.note ? '<div class="va-field-hint">' + esc(vaField.note) + '</div>' : '';
 
     switch (widget) {
         case 'ssn':
@@ -810,6 +905,7 @@ function renderVAField(fieldId, def, vaField, isRequired) {
         case 'date':
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
+                ${hintHtml}
                 <input type="date" id="f_${fieldId}" name="${fieldId}" ${isRequired ? 'required' : ''}>
             </div>`;
 
@@ -833,6 +929,7 @@ function renderVAField(fieldId, def, vaField, isRequired) {
             }).join('');
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
+                ${hintHtml}
                 <select id="f_${fieldId}" name="${fieldId}" ${isRequired ? 'required' : ''}>
                     <option value="">- Select -</option>${opts}
                 </select>
@@ -843,12 +940,13 @@ function renderVAField(fieldId, def, vaField, isRequired) {
                 const val = typeof o === 'object' ? o.value : o;
                 const lbl = typeof o === 'object' ? o.label : o;
                 return `<div class="va-radio-item">
-                    <input type="radio" id="f_${fieldId}_${i}" name="${fieldId}" value="${val}" ${isRequired && i === 0 ? '' : ''}>
+                    <input type="radio" id="f_${fieldId}_${i}" name="${fieldId}" value="${val}">
                     <label for="f_${fieldId}_${i}">${esc(lbl)}</label>
                 </div>`;
             }).join('');
             return `<div class="va-field">
                 <div class="va-field-label">${esc(label)} ${reqMark}</div>
+                ${hintHtml}
                 <div class="va-radio-group">${radioOpts}</div>
             </div>`;
 
@@ -868,7 +966,7 @@ function renderVAField(fieldId, def, vaField, isRequired) {
             const hasName = subProps.name !== undefined;
             return `<div class="va-field">
                 <div class="va-field-label">${esc(label)} ${reqMark}</div>
-                ${vaField.note ? '<div class="va-field-hint">' + esc(vaField.note) + '</div>' : ''}
+                ${hintHtml}
                 <div class="va-address-grid">
                     ${hasName ? '<div class="va-field" style="margin-bottom:0.5rem;"><label for="f_' + fieldId + '_name">Name ' + (subReq.has('name') ? '<span class="required-mark">(*Required)</span>' : '') + '</label><input type="text" id="f_' + fieldId + '_name" name="' + fieldId + '.name" ' + (subReq.has('name') ? 'required' : '') + '></div>' : ''}
                     <div class="va-field" style="margin-bottom:0.5rem;">
@@ -910,14 +1008,14 @@ function renderVAField(fieldId, def, vaField, isRequired) {
         case 'textarea':
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
-                ${vaField.note ? '<div class="va-field-hint">' + esc(vaField.note) + '</div>' : ''}
+                ${hintHtml}
                 <textarea id="f_${fieldId}" name="${fieldId}" rows="3" ${isRequired ? 'required' : ''}></textarea>
             </div>`;
 
         default: // text
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
-                ${vaField.note ? '<div class="va-field-hint">' + esc(vaField.note) + '</div>' : ''}
+                ${hintHtml}
                 <input type="text" id="f_${fieldId}" name="${fieldId}" ${def.maxLength ? 'maxlength="' + def.maxLength + '"' : ''} ${isRequired ? 'required' : ''}>
             </div>`;
     }
@@ -935,7 +1033,7 @@ function guessWidget(key, def) {
     if (/ssn/i.test(key)) return 'ssn';
     if (/phone|telephone/i.test(key)) return 'phone';
     if (/signature|sign/i.test(key)) return 'signature';
-    if (/remark|comment|explanation|narrative/i.test(key)) return 'textarea';
+    if (/remark|comment|explanation|narrative|describe|diagnosis/i.test(key)) return 'textarea';
     return 'text';
 }
 
@@ -976,11 +1074,6 @@ function exportFormData() {
     a.download = (currentSchema?.title || 'form') + '-data.json';
     a.click();
     URL.revokeObjectURL(url);
-}
-
-function clearForm() {
-    const form = document.getElementById('vaForm');
-    if (form) form.reset();
 }
 
 // ─── Search ───
