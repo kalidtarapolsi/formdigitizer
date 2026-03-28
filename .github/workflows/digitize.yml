@@ -1,0 +1,78 @@
+name: Digitize VA Forms
+
+on:
+  push:
+    paths:
+      - 'pending/*.json'
+
+jobs:
+  enrich-forms:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Detect changed files in pending/
+        id: detect
+        run: |
+          git diff --name-only --diff-filter=AM ${{ github.event.before }}..HEAD | grep "^pending/.*\.json$" > /tmp/changed_files.txt || true
+          if [ -s /tmp/changed_files.txt ]; then
+            echo "found_files=true" >> $GITHUB_OUTPUT
+            cat /tmp/changed_files.txt
+          else
+            echo "found_files=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Enrich forms with AI
+        if: steps.detect.outputs.found_files == 'true'
+        env:
+          AI_PROVIDER: ${{ secrets.AI_PROVIDER || 'anthropic' }}
+          AI_MODEL: ${{ secrets.AI_MODEL || 'claude-sonnet-4-20250514' }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: |
+          while IFS= read -r file; do
+            echo "Processing: $file"
+            if [ -z "$AI_API_KEY" ]; then
+              node scripts/enrich.js --input "$file"
+            else
+              node scripts/enrich.js --input "$file" --ai --provider "$AI_PROVIDER" --model "$AI_MODEL" --api-key "$AI_API_KEY"
+            fi
+            if [ $? -ne 0 ]; then
+              echo "ERROR: Enrichment failed for $file"
+              exit 1
+            fi
+          done < /tmp/changed_files.txt
+
+      - name: Remove processed files from pending/
+        if: steps.detect.outputs.found_files == 'true'
+        run: |
+          while IFS= read -r file; do
+            rm "$file"
+          done < /tmp/changed_files.txt
+
+      - name: Commit changes
+        if: steps.detect.outputs.found_files == 'true'
+        run: |
+          git config user.name "VA Form Digitizer Bot"
+          git config user.email "bot@aquiaformbuilder.local"
+          git add schemas/
+          git add -u pending/
+          if ! git diff --cached --quiet; then
+            git commit -m "Digitize VA forms: enrich schemas from pending/"
+          fi
+
+      - name: Push changes
+        if: steps.detect.outputs.found_files == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: false
