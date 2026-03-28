@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10068b",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfSignatureOfPhysician": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDiagnosis": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMostRecentVisitForThisCondition": {
+      "type": "string",
+      "format": "date"
+    },
+    "hospiceStartDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "surgeryAnticipatedTreatmentEndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "theseConditionsIllnessesMayBeRelatedToThePatientsExposureToContaminatedWaterAtCampLejeuneWhileLivingThereForAtLeastThirtyDaysBetweenAugust11953AndDecember311987IfYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessBladderCancer": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessBreastCancer": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessEsophagealCancer": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessKidneyCancer": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessLungCancer": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessLeukemia": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessMultipleMyeloma": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessMyelodysplasticSyndrome": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessNonhodgkinsLymphoma": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessScleroderma": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessHepaticSteatosisMustProvideAdditionalInformationToSupportConclusion": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessNeurobehavioralEffectsMustProvideAdditionalInformationToSupportConclusion": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessFemaleInfertility": {
+      "type": "boolean"
+    },
+    "ifYesCheckConditionIllnessBelowThatAppliesIfMoreThanOneASeparateFormMustBeCompletedForEachIllnessMiscarriage": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "whatIsYourSpecificDiagnosis": {
+      "type": "string"
+    },
+    "otherStatusOfTheCondition": {
+      "type": "string"
+    },
+    "currentTreatmentForActiveCancersToBeActiveAnIndividualMustBeReceivingChemoRadiationSurgeryOrHasElectedHospiceAfter": {
+      "type": "string"
+    },
+    "currentTreatmentForActiveCancersToBeActiveAnIndividualMustBeReceivingChemoRadiationSurgeryOrHasElectedHospiceAfterChemotherapy": {
+      "type": "string"
+    },
+    "currentTreatmentForActiveCancersToBeActiveAnIndividualMustBeReceivingChemoRadiationSurgeryOrHasElectedHospiceAfterHospice": {
+      "type": "string"
+    },
+    "otherTreatment": {
+      "type": "string"
+    },
+    "ongoingFutureTreatment": {
+      "type": "string"
+    },
+    "nameOfPhysician": {
+      "type": "string"
+    },
+    "recordOfExaminationPatientsNameLastFirstMiddle": {
+      "type": "string"
+    },
+    "iCD910Codes": {
+      "type": "string"
+    },
+    "taxIDNumber": {
+      "type": "string"
+    },
+    "nationalProviderIdentifierNPI": {
+      "type": "string"
+    },
+    "specialtyIfAny": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068b-fill.pdf",
+    "totalFields": 53,
+    "composedFields": 48,
+    "coveragePercent": 91,
+    "xfaLabelCount": 48,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:33.627Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

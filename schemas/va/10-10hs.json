@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10HS",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateVeteransElectronicRecordUpdatedInVAsInformationSystem": {
+      "type": "string",
+      "format": "date"
+    },
+    "veteranNotificationDateVeteranNotified": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "reasonCircumstanceForHardshipRequestCheckAllThatApplyAndAddExplanationAsNeededBelowReductionOfHouseholdIncome": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "paidOutOfPocketMedicalExpenses": {
+      "type": "number"
+    },
+    "deductibleExpensesIncludesNonreimbursedMedicalExpensesPaidByYouOrYourSpouseFuneralAndBurialExpensesAndExpensesForTheVeteransEducationVeteran": {
+      "type": "number"
+    },
+    "spouse": {
+      "type": "number"
+    },
+    "children": {
+      "type": "number"
+    },
+    "increaseInNumberOfDependents": {
+      "type": "string"
+    },
+    "movedToAHigherCostOfLivingArea": {
+      "type": "string"
+    },
+    "otherExplainBelow": {
+      "type": "string"
+    },
+    "commentsDocumentAndOrAttachAnyPertinentInformationImpactingOnTheFinalDecision": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10HS-fill.pdf",
+    "totalFields": 27,
+    "composedFields": 24,
+    "coveragePercent": 89,
+    "xfaLabelCount": 15,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:23:32.733Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FL-10-332a",
+  "type": "object",
+  "properties": {
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "earningsLimitation": {
+      "type": "string"
+    },
+    "inReplyReferTo": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "weArePleasedToAdviseYouOfYourReappointmentInTheDepartmentOfVeteransAffairsToTheFollowingPositionPositionTitle": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "periodCovered": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-FL-10-332a-fill.pdf",
+    "totalFields": 7,
+    "composedFields": 2,
+    "coveragePercent": 29,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:32:57.424Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

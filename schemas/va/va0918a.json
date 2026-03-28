@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0918a",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "aDateStandardMetCurrentFY": {
+      "type": "string",
+      "format": "date"
+    },
+    "sectionCPeriodOfEnrollment6ABeginningDateLine1Of4": {
+      "type": "string",
+      "format": "date"
+    },
+    "bEndingDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "aBeginningDateLine2Of4": {
+      "type": "string",
+      "format": "date"
+    },
+    "aBeginningDateLine3Of4": {
+      "type": "string",
+      "format": "date"
+    },
+    "aBeginningDateLine4Of4": {
+      "type": "string",
+      "format": "date"
+    },
+    "bDateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "bSportClassification": {
+      "type": "string"
+    },
+    "scoretimejustification": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0918a.pdf",
+    "totalFields": 34,
+    "composedFields": 32,
+    "coveragePercent": 94,
+    "xfaLabelCount": 24,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:32.626Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

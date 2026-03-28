@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2675",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "approvedDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentToBeMadeToBeneficiaries": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePrepared": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "amountOfCash": {
+      "type": "number"
+    },
+    "wardOrSection": {
+      "type": "string"
+    },
+    "nameOfBeneficiaryLine2Of12": {
+      "type": "string"
+    },
+    "totalToBeInsertedByPatientsFundClerk": {
+      "type": "string"
+    },
+    "toFiscalOfficerVeteransAdministration": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2675%20Sample%20Only%20Order%20Through%20Normal%20Supply%20Channels%20Fill%20(1).pdf",
+    "totalFields": 66,
+    "composedFields": 49,
+    "coveragePercent": 74,
+    "xfaLabelCount": 23,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:30.393Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

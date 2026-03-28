@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0426",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateField1": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "otherSpecifyText": {
+      "type": "string"
+    },
+    "form10subform0imagefield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0area0area2area3textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "erythromycin": {
+      "type": "string"
+    },
+    "none": {
+      "type": "string"
+    },
+    "asprin": {
+      "type": "string"
+    },
+    "cephalosporin": {
+      "type": "string"
+    },
+    "codeine": {
+      "type": "string"
+    },
+    "tetracycline": {
+      "type": "string"
+    },
+    "otherSpec1": {
+      "type": "string"
+    },
+    "penicillin": {
+      "type": "string"
+    },
+    "sulfa": {
+      "type": "string"
+    },
+    "nsaids": {
+      "type": "string"
+    },
+    "arthritis": {
+      "type": "string"
+    },
+    "asthma": {
+      "type": "string"
+    },
+    "copd": {
+      "type": "string"
+    },
+    "depression": {
+      "type": "string"
+    },
+    "diabetes": {
+      "type": "string"
+    },
+    "otherSpec2": {
+      "type": "string"
+    },
+    "form10subform0area0area2area6textfield20": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "hypertension": {
+      "type": "string"
+    },
+    "kidneyDisease": {
+      "type": "string"
+    },
+    "highCholesterol": {
+      "type": "string"
+    },
+    "heartProblem": {
+      "type": "string"
+    },
+    "glaucoma": {
+      "type": "string"
+    },
+    "foodAllergy": {
+      "type": "string"
+    },
+    "thyroid": {
+      "type": "string"
+    },
+    "ulcerAcidRefluxGerd": {
+      "type": "string"
+    },
+    "seizuresEpilepsy": {
+      "type": "string"
+    },
+    "liverDisease": {
+      "type": "string"
+    },
+    "form10subform0area0area2area6textfield21": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "mi": {
+      "type": "string"
+    },
+    "providerContact": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0426-fill.pdf",
+    "totalFields": 49,
+    "composedFields": 16,
+    "coveragePercent": 33,
+    "xfaLabelCount": 8,
+    "needsReviewCount": 4,
+    "generatedAt": "2026-03-28T21:21:29.074Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-313",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "vHANationalChiefMedicalOfficer": {
+      "type": "string"
+    },
+    "vHAChiefMedicalConsultantExecutiveDirector": {
+      "type": "string"
+    },
+    "readSection1SummaryInformationAboveSection2DrugAnd": {
+      "type": "string"
+    },
+    "dosageForms": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "brandName": {
+      "type": "string"
+    },
+    "strengths": {
+      "type": "string"
+    },
+    "contactPerson": {
+      "type": "string"
+    },
+    "section3RequestForRemovalFromTheVANationalFormulary1WhatIsTheRationaleToRemoveTheDrugOrFormulationFromTheVANF": {
+      "type": "string"
+    },
+    "anEstimateOfTheNumberOfUniqueUsersAffectedByThisChange": {
+      "type": "string"
+    },
+    "ifYouRespondedUnsureTo1A": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form%20_10-313_.pdf",
+    "totalFields": 38,
+    "composedFields": 19,
+    "coveragePercent": 50,
+    "xfaLabelCount": 15,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:07.116Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

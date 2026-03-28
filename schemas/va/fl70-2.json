@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FL70-2",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateEnteredService": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSeparation": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDeathIfDeceased": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "lastNameFirstNameMiddleNameOfVeteran": {
+      "type": "string"
+    },
+    "inReplyReferTo1Of5": {
+      "type": "string"
+    },
+    "inReplyReferTo2Of5": {
+      "type": "string"
+    },
+    "inReplyReferTo3Of5": {
+      "type": "string"
+    },
+    "inReplyReferTo4Of5": {
+      "type": "string"
+    },
+    "inReplyReferTo5Of5": {
+      "type": "string"
+    },
+    "sincerelyYours": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/FL70-2.pdf",
+    "totalFields": 19,
+    "composedFields": 13,
+    "coveragePercent": 68,
+    "xfaLabelCount": 19,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:23:36.765Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-323",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "iAcknowledgeMyDebtToTheVeteransHealthAdministrationVHAInTheAmountOf": {
+      "type": "number"
+    },
+    "vHAMayAcceptPaymentByInstallmentIfYouAgreeToMakeAPaymentEachMonthOf": {
+      "type": "number"
+    },
+    "ifDeniedReason": {
+      "type": "string"
+    },
+    "youMustMake": {
+      "type": "string"
+    },
+    "asACourtesyAndWithYourAuthorizationVHACanAddNewChargesToYourApprovedPlanAutomaticallyIfTheNewTermsExtendYourPlanBeyond36MonthsThenWeWillContactYouToRestructureANewAgreementIfYouAgreeToTheAdditionOfAnyNewChargesToYourRepaymentPlan": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-323.pdf",
+    "totalFields": 23,
+    "composedFields": 6,
+    "coveragePercent": 26,
+    "xfaLabelCount": 9,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:34.748Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

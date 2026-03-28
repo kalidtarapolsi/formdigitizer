@@ -1,0 +1,178 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-6056A",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "leaseTermBeginDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "leaseTermBeginDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "leaseTermEndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "leaseTermEndDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "leaseProvConditions": {
+      "type": "string"
+    },
+    "leaseNbr": {
+      "type": "string"
+    },
+    "propertyLocation": {
+      "type": "string"
+    },
+    "leaseEnteredDayOfMonth": {
+      "type": "string"
+    },
+    "leaseEnteredMonth": {
+      "type": "string"
+    },
+    "leaseEnteredYr": {
+      "type": "string"
+    },
+    "lesseeName": {
+      "type": "string"
+    },
+    "heirExecutorDesc": {
+      "type": "string"
+    },
+    "premiseDesc": {
+      "type": "string"
+    },
+    "leasePurpose": {
+      "type": "string"
+    },
+    "leaseTerm": {
+      "type": "string"
+    },
+    "rentalAmtWords": {
+      "type": "string"
+    },
+    "rentalAmtDollars": {
+      "type": "string"
+    },
+    "rentalAmtPer": {
+      "type": "string"
+    },
+    "otherConsideration": {
+      "type": "string"
+    },
+    "propDamageNoticeDays": {
+      "type": "string"
+    },
+    "liabInsAmt1": {
+      "type": "string"
+    },
+    "liabInsAmt2": {
+      "type": "string"
+    },
+    "vaDesc2": {
+      "type": "string"
+    },
+    "utilityCostBasis2": {
+      "type": "string"
+    },
+    "utilityBillFreq": {
+      "type": "string"
+    },
+    "terminationNoticeDays": {
+      "type": "string"
+    },
+    "utilityCostBasis": {
+      "type": "string"
+    },
+    "vaDesc1": {
+      "type": "string"
+    },
+    "vaDesc3": {
+      "type": "string"
+    },
+    "vaDesc5": {
+      "type": "string"
+    },
+    "vaDesc4": {
+      "type": "string"
+    },
+    "name1": {
+      "type": "string"
+    },
+    "title1": {
+      "type": "string"
+    },
+    "nameLessee": {
+      "type": "string"
+    },
+    "titleLessee": {
+      "type": "string"
+    },
+    "nameSecretary": {
+      "type": "string"
+    },
+    "secretaryPosition": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-6056A-fill.pdf",
+    "totalFields": 44,
+    "composedFields": 12,
+    "coveragePercent": 27,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:28:40.339Z",
+    "pageCount": 5,
+    "status": "digitized"
+  }
+}

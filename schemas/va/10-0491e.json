@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491E",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "form10subform0textfield160": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491e-fill%20(Evaluation%20and%20Recommendation)%20(1).pdf",
+    "totalFields": 21,
+    "composedFields": 7,
+    "coveragePercent": 33,
+    "xfaLabelCount": 5,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:29:08.595Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

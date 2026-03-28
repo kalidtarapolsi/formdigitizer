@@ -1,0 +1,301 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2914",
+  "type": "object",
+  "properties": {
+    "12": {
+      "type": "string"
+    },
+    "15": {
+      "type": "string"
+    },
+    "22": {
+      "type": "string"
+    },
+    "24": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "13DateOfExamination": {
+      "type": "string",
+      "format": "date"
+    },
+    "25OrderDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "26EstimatedDeliveryDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "28SignatureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "orderingFacilityEyeClinic": {
+      "type": "string"
+    },
+    "11bEyeClinic": {
+      "type": "string"
+    },
+    "vaEyeClinicDeliveryPoint": {
+      "type": "string"
+    },
+    "orderingVaMedicalC": {
+      "type": "string"
+    },
+    "1EnterVeteransNameLastFirstMiddleInitialThisIsAMandatoryField": {
+      "type": "string"
+    },
+    "orderingFacilityProsthetic": {
+      "type": "string"
+    },
+    "11CProsthetics": {
+      "type": "string"
+    },
+    "10cOther": {
+      "type": "string"
+    },
+    "10bTint": {
+      "type": "string"
+    },
+    "7CFrameOnly": {
+      "type": "string"
+    },
+    "7b": {
+      "type": "string"
+    },
+    "7ALensesOnly": {
+      "type": "string"
+    },
+    "8cSafetyLenses": {
+      "type": "string"
+    },
+    "8bPlasticLenses": {
+      "type": "string"
+    },
+    "8AGlass": {
+      "type": "string"
+    },
+    "9cTriFocal": {
+      "type": "string"
+    },
+    "9bBifocal": {
+      "type": "string"
+    },
+    "9aSingleVision": {
+      "type": "string"
+    },
+    "vaProstheticsDeliveryPoint": {
+      "type": "string"
+    },
+    "ss1": {
+      "type": "string"
+    },
+    "3a": {
+      "type": "string"
+    },
+    "3b": {
+      "type": "string"
+    },
+    "3c": {
+      "type": "string"
+    },
+    "3d": {
+      "type": "string"
+    },
+    "4d": {
+      "type": "string"
+    },
+    "baseRightDistance": {
+      "type": "string"
+    },
+    "baseLeftDistance": {
+      "type": "string"
+    },
+    "bcRightDistance": {
+      "type": "string"
+    },
+    "bcLeftDistance": {
+      "type": "string"
+    },
+    "3g": {
+      "type": "string"
+    },
+    "5A": {
+      "type": "string"
+    },
+    "5a": {
+      "type": "string"
+    },
+    "5b": {
+      "type": "string"
+    },
+    "field_vha102914_0___subform_0__Type_right1_0_": {
+      "type": "string"
+    },
+    "field_vha102914_0___subform_0__Type_left1_0_": {
+      "type": "string"
+    },
+    "5d": {
+      "type": "string"
+    },
+    "5e": {
+      "type": "string"
+    },
+    "5f": {
+      "type": "string"
+    },
+    "5g": {
+      "type": "string"
+    },
+    "specInst1": {
+      "type": "string"
+    },
+    "6a": {
+      "type": "string"
+    },
+    "6b": {
+      "type": "string"
+    },
+    "6c": {
+      "type": "string"
+    },
+    "6d": {
+      "type": "string"
+    },
+    "bridgeSize": {
+      "type": "string"
+    },
+    "entertempleLengthStyle": {
+      "type": "string"
+    },
+    "to14a": {
+      "type": "string"
+    },
+    "to14b": {
+      "type": "string"
+    },
+    "sC": {
+      "type": "string"
+    },
+    "nsc": {
+      "type": "string"
+    },
+    "rightLensContractItem": {
+      "type": "string"
+    },
+    "rightLensCost": {
+      "type": "string"
+    },
+    "leftLensContractItem": {
+      "type": "string"
+    },
+    "leftLensCost": {
+      "type": "string"
+    },
+    "lensTintContractItem": {
+      "type": "string"
+    },
+    "lensTintCost": {
+      "type": "string"
+    },
+    "frameCompleteContractItem": {
+      "type": "string"
+    },
+    "frameCompleteCost": {
+      "type": "string"
+    },
+    "frameFrontOnlyContractItem": {
+      "type": "string"
+    },
+    "frameFrontOnlyCost": {
+      "type": "string"
+    },
+    "frameTempleRightContractItem": {
+      "type": "string"
+    },
+    "frameTempleRightCost": {
+      "type": "string"
+    },
+    "frameTempleLeftContractItem": {
+      "type": "string"
+    },
+    "frameTempleLeftCost": {
+      "type": "string"
+    },
+    "otherContractItem": {
+      "type": "string"
+    },
+    "otherCost": {
+      "type": "string"
+    },
+    "caseContractItem": {
+      "type": "string"
+    },
+    "caseCost": {
+      "type": "string"
+    },
+    "totalCost": {
+      "type": "string"
+    },
+    "entertitleOfApprovingOfficial": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2914-fill.pdf",
+    "totalFields": 96,
+    "composedFields": 13,
+    "coveragePercent": 14,
+    "xfaLabelCount": 89,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:55.155Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

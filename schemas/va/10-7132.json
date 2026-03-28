@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7132",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfAdmission": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSetForTerminationOfNonbedAreStatus": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCommitted": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBox3": {
+      "type": "boolean"
+    },
+    "veteransName": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "va": {
+      "type": "string"
+    },
+    "nonva": {
+      "type": "string"
+    },
+    "claimNo": {
+      "type": "string"
+    },
+    "form10subform0textfield3270": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "transferredTo": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "placedOnNonbedCareFromUnauthorizedAbsence": {
+      "type": "string"
+    },
+    "returnedFromUnauthorizedAbsence": {
+      "type": "string"
+    },
+    "returnedToBedCareFromNonbedCareStatus": {
+      "type": "string"
+    },
+    "ifYesHowLong": {
+      "type": "string"
+    },
+    "form10subform0textfield32100": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "nameAndAddressOfPersonAgreeingToProvideSupervision": {
+      "type": "string"
+    },
+    "ifCommittedIndicateCommitmentCourtAndLocation": {
+      "type": "string"
+    },
+    "currentBalanceOfFundsOnDepositInPfop": {
+      "type": "string"
+    },
+    "assestsOnVaForm107131": {
+      "type": "string"
+    },
+    "ofOtherAssests": {
+      "type": "string"
+    },
+    "form10subform0textfield32170": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield32171": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield32172": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield32180": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield32181": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield32190": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield32173": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield32174": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-7132-fill.pdf",
+    "totalFields": 49,
+    "composedFields": 7,
+    "coveragePercent": 14,
+    "xfaLabelCount": 22,
+    "needsReviewCount": 10,
+    "generatedAt": "2026-03-28T21:04:34.308Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

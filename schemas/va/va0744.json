@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0744",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "issueDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "expirationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "protectiveServicesCheckLine1Of6": {
+      "type": "boolean"
+    },
+    "checkLine2Of6": {
+      "type": "boolean"
+    },
+    "checkLine3Of6": {
+      "type": "boolean"
+    },
+    "checkLine4Of6": {
+      "type": "boolean"
+    },
+    "checkLine5Of6": {
+      "type": "boolean"
+    },
+    "checkLine6Of6": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "bMinimumWeights": {
+      "type": "string"
+    },
+    "bStandardCarrierAlphaCodeSCAC": {
+      "type": "string"
+    },
+    "aTenderNumber": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__SUPPLEMENTNO___0_": {
+      "type": "string"
+    },
+    "cCancelsPreviousTenderNumber": {
+      "type": "string"
+    },
+    "dSupplementsThatContainAllChanges": {
+      "type": "string"
+    },
+    "otherDepartmentOfVeteransAffairsThisIsAReadOnlyField": {
+      "type": "string"
+    },
+    "tSPAgencyNumberIfAny": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__Table1_0__Row1_0__NMFCUFCITEMNO___0_": {
+      "type": "string"
+    },
+    "bDescriptionOfArticles": {
+      "type": "string"
+    },
+    "aOrigin1StandardPointLocationCodeSPLC": {
+      "type": "string"
+    },
+    "bDestination1StandardPointLocationCodeSPLC": {
+      "type": "string"
+    },
+    "overflowNotApplicable": {
+      "type": "string"
+    },
+    "aRateOrCharge": {
+      "type": "string"
+    },
+    "routeIncludeCarrierCodeSCAC": {
+      "type": "string"
+    },
+    "charge": {
+      "type": "string"
+    },
+    "bDescriptionOfServiceAndGoverningPublication": {
+      "type": "string"
+    },
+    "aOperatingAuthorityNoteItem20A": {
+      "type": "string"
+    },
+    "bGoverningTenderOrTenderOfServiceTOSOrOtherReference": {
+      "type": "string"
+    },
+    "title1Of3": {
+      "type": "string"
+    },
+    "participatingTSP1Of2": {
+      "type": "string"
+    },
+    "title2Of3": {
+      "type": "string"
+    },
+    "participatingTSP2Of2": {
+      "type": "string"
+    },
+    "title3Of3": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0744.pdf",
+    "totalFields": 56,
+    "composedFields": 24,
+    "coveragePercent": 43,
+    "xfaLabelCount": 51,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:56.085Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

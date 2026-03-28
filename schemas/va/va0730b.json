@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0730b",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "licenseExpirationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "bEnrollmentDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "eAmountOfSubsidy": {
+      "type": "number"
+    },
+    "part1ParentInformation1NameOfParentLegalGuardianWithChildInTheProvidersCare": {
+      "type": "string"
+    },
+    "nameOfChildCareProvider": {
+      "type": "string"
+    },
+    "aNameOfEachChildInSection1ParentsFamilyEnrolledLastFirstMiddleInitialLine3Of3": {
+      "type": "string"
+    },
+    "fTotalWeeklyFeeForChild": {
+      "type": "string"
+    },
+    "federalAgencyOfParentDepartmentOfVeteransAffairsThisIsAReadOnlyPrepopulatedField": {
+      "type": "string"
+    },
+    "licenseNumberOfProvider": {
+      "type": "string"
+    },
+    "dSourceOfSubsidy": {
+      "type": "string"
+    },
+    "titleOfProviderRepresentative": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0730b.pdf",
+    "totalFields": 35,
+    "composedFields": 29,
+    "coveragePercent": 83,
+    "xfaLabelCount": 22,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:27:21.364Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

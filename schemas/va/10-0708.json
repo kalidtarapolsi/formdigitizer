@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0708",
+  "type": "object",
+  "properties": {
+    "departureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignatureOfEmployee": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignatureOfSupervisor": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignatureOfRecordsOfficer": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "titleOfSupervisor": {
+      "type": "string"
+    },
+    "nameOfEmployee": {
+      "type": "string"
+    },
+    "serviceDivisionAndSectionIncludeMailingSymbol": {
+      "type": "string"
+    },
+    "titleOfPosition": {
+      "type": "string"
+    },
+    "stationNumber": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0708%20Employees%20Records%20Clearance%20-%20Revised%20(1).pdf",
+    "totalFields": 15,
+    "composedFields": 11,
+    "coveragePercent": 73,
+    "xfaLabelCount": 13,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:12.277Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

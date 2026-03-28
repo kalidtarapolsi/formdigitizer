@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7008",
+  "type": "object",
+  "properties": {
+    "form10subform0datetimefield10": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkgroup": {
+      "type": "boolean"
+    },
+    "staffPhysician": {
+      "type": "string"
+    },
+    "participationRecordOnReverse": {
+      "type": "string"
+    },
+    "groupRosterOnReverse": {
+      "type": "string"
+    },
+    "clearedFor": {
+      "type": "string"
+    },
+    "prescribed": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7008-fill.pdf",
+    "totalFields": 15,
+    "composedFields": 11,
+    "coveragePercent": 73,
+    "xfaLabelCount": 6,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:04:25.384Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

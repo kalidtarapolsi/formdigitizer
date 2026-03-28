@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0730i",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "licenseExpirationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedMmddyyyy": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "ofProviderCheckOnlyOneC": {
+      "type": "boolean"
+    },
+    "ofProviderCheckOnlyOneFamilyChildCareHomeCheckbox": {
+      "type": "boolean"
+    },
+    "childCareServicesCheckOnlyOneFulltimeCareCheckbox": {
+      "type": "boolean"
+    },
+    "childCareServicesCheckOnlyOneBeforeSchoolCareCheckbox": {
+      "type": "boolean"
+    },
+    "childCareServicesCheckOnlyOneAfterSchoolCareCheckbox": {
+      "type": "boolean"
+    },
+    "childCareServicesCheckOnlyOneBeforeAndAfterSchoolCareCheckbox": {
+      "type": "boolean"
+    },
+    "cDoesTheChildReceiveAnyOtherSubsidyIfYesCompleteItemsDAndEYesCheckboxLine3Of3": {
+      "type": "boolean"
+    },
+    "noCheckboxLine3Of3": {
+      "type": "boolean"
+    },
+    "previousChildCareProvider": {
+      "type": "string"
+    },
+    "aEnterNameOfEachChildLastFirstMiddleInitialLine1Of3": {
+      "type": "string"
+    },
+    "aEnterNameOfEachChildLastFirstMiddleInitialLine2Of3": {
+      "type": "string"
+    },
+    "aEnterNameOfEachChildLastFirstMiddleInitialLine3Of3": {
+      "type": "string"
+    },
+    "nameOfVAC": {
+      "type": "string"
+    },
+    "licenseNumberOfProvider": {
+      "type": "string"
+    },
+    "inWhichLicenseIsIssued": {
+      "type": "string"
+    },
+    "d": {
+      "type": "string"
+    },
+    "e": {
+      "type": "string"
+    },
+    "f": {
+      "type": "string"
+    },
+    "b": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0730i.pdf",
+    "totalFields": 49,
+    "composedFields": 34,
+    "coveragePercent": 69,
+    "xfaLabelCount": 34,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:27:38.455Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1313-1",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "reviewDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "totalAmount": {
+      "type": "number"
+    },
+    "fiscalYear3Of3": {
+      "type": "string"
+    },
+    "locationHealthCareFacilityVAMCOPCCityState": {
+      "type": "string"
+    },
+    "vAEmploymentStatusFullTime": {
+      "type": "string"
+    },
+    "otherVA": {
+      "type": "string"
+    },
+    "biohazardsNo": {
+      "type": "string"
+    },
+    "totalVA": {
+      "type": "string"
+    },
+    "totalNonvA": {
+      "type": "string"
+    },
+    "grandTotal": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-1FILL.pdf",
+    "totalFields": 65,
+    "composedFields": 21,
+    "coveragePercent": 32,
+    "xfaLabelCount": 19,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:47.277Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5506",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "form10subform0textfield326120": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326121": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326122": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326123": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "approved": {
+      "type": "string"
+    },
+    "form10subform0textfield326124": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326125": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326126": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326127": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326128": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326129": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326130": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3261210": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3261211": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5506-fill.pdf",
+    "totalFields": 22,
+    "composedFields": 2,
+    "coveragePercent": 9,
+    "xfaLabelCount": 2,
+    "needsReviewCount": 13,
+    "generatedAt": "2026-03-28T21:04:38.482Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0451",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "checkIfAppropriateIMySpouseAMemberOfMyHouseholdOrClosePersonalFriendOrMinorChildrenHaveReceivedAGrantToPerformResearchWithinThePastYearFromTheNamedManufacturer": {
+      "type": "boolean"
+    },
+    "checkIfAppropriateIMySpouseAMemberOfMyHouseholdOrClosePersonalFriendOrMinorChildrenHaveAnArrangementForFutureEmploymentOrAreNegotiatingForEmploymentWithTheNamedManufacturerOrWithinThePastYearHaveNegotiatedForEmploymentWithTheNamedManufacturerHaveReceivedFinancialRemunerationFromTheNamedManufacturerForConsultantActivitiesSpeakerBoardPresentationsServingAsAnOfficerdirectoremployeeOrAnyOtherActivitiesWhichCouldConstituteAConflictOfInterestOrTheAppearanceOfAConflictOfInterestNoteListTheActivity": {
+      "type": "boolean"
+    },
+    "checkIfAppropriateIMySpouseAMemberOfMyHouseholdOrClosePersonalFriendOrMinorChildrenHoldStockInTheAboveNamedManufacturerNoteListTheActivity": {
+      "type": "boolean"
+    },
+    "projectAndGrantAmount": {
+      "type": "number"
+    },
+    "regardingDrug": {
+      "type": "string"
+    },
+    "marketedByManufacturer": {
+      "type": "string"
+    },
+    "notApplicableInitials": {
+      "type": "string"
+    },
+    "activity": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0451-fill.pdf",
+    "totalFields": 14,
+    "composedFields": 7,
+    "coveragePercent": 50,
+    "xfaLabelCount": 14,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:05:31.263Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2614d-2a",
+  "type": "object",
+  "properties": {
+    "seizureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "inSpaceBelowPatientIdentificationTreatingFacilityWardNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "seizureSelectForYes0ForNoForDontKnowFocalMotorMotorWithMarchSensorySensoryWithMarchDidSeizureBeginWithTurningOfHead": {
+      "type": "string"
+    },
+    "aftersymptomsGiveDurationSleep": {
+      "type": "string"
+    },
+    "reportedByDoctorNurseAttendantOtherPatient": {
+      "type": "string"
+    },
+    "didSeizureBeginWithTurningOfEyesToWhichSide": {
+      "type": "string"
+    },
+    "didSeizureBeginWithTurningOfEyes": {
+      "type": "string"
+    },
+    "warningDescribe": {
+      "type": "string"
+    },
+    "pathologicalReflexesSpecify": {
+      "type": "string"
+    },
+    "didMovementOrSensationSpreadDescribe": {
+      "type": "string"
+    },
+    "descriptionOfNonconvulsiveFormDescribeFullyContinueOnReverseSideIfNecessary": {
+      "type": "string"
+    },
+    "whatWasPatientDoingBeforeSeizure": {
+      "type": "string"
+    },
+    "seizureHour": {
+      "type": "string"
+    },
+    "patientWasAsleep": {
+      "type": "string"
+    },
+    "awake": {
+      "type": "string"
+    },
+    "durationOfWarning": {
+      "type": "string"
+    },
+    "convulsionsMild": {
+      "type": "string"
+    },
+    "partsOfBodyInvolvedFace": {
+      "type": "string"
+    },
+    "arms": {
+      "type": "string"
+    },
+    "legs": {
+      "type": "string"
+    },
+    "all": {
+      "type": "string"
+    },
+    "colorOfFacePale": {
+      "type": "string"
+    },
+    "red": {
+      "type": "string"
+    },
+    "blue": {
+      "type": "string"
+    },
+    "ofOtherNonconvulsiveFormOfEpilepticSeizurePetitMalTransientLapseOfConsciousness5To30Seconds": {
+      "type": "string"
+    },
+    "myoclonicJerksContractionsOfSingleMusclesOrMuscleGroupsNoLossOfConsciousness": {
+      "type": "string"
+    },
+    "akineticSuddenLossOfPosturalControlBucklingOrFallingWithoutConvulsions": {
+      "type": "string"
+    },
+    "didSeizureBeginWithTurningOfHeadToWhichSide": {
+      "type": "string"
+    },
+    "didSeizureBeginWithMovementOrSensationInOnePartOfBodyWhere": {
+      "type": "string"
+    },
+    "movementsConfinedToOneSideWhich": {
+      "type": "string"
+    },
+    "movementsMoreOnOneSideWhich": {
+      "type": "string"
+    },
+    "headache": {
+      "type": "string"
+    },
+    "irrational": {
+      "type": "string"
+    },
+    "otherDetails": {
+      "type": "string"
+    },
+    "moderate": {
+      "type": "string"
+    },
+    "severe": {
+      "type": "string"
+    },
+    "psychomotorAutomaticActivityTalkingBabblingRunningOddBehavior": {
+      "type": "string"
+    },
+    "amnesiaLossOfMemoryForEpisodeAndorBehavior": {
+      "type": "string"
+    },
+    "vomiting": {
+      "type": "string"
+    },
+    "weaknessOfLimbWhich": {
+      "type": "string"
+    },
+    "confused": {
+      "type": "string"
+    },
+    "violent": {
+      "type": "string"
+    },
+    "measuresTakenToRelieve": {
+      "type": "string"
+    },
+    "speechDisturbance": {
+      "type": "string"
+    },
+    "durationOfSeizure": {
+      "type": "string"
+    },
+    "patientConsciousDuringSpread": {
+      "type": "string"
+    },
+    "didSeizureBecomeGeneralized": {
+      "type": "string"
+    },
+    "didMovementOrSensationSpread": {
+      "type": "string"
+    },
+    "nonfocalGrandMalCry": {
+      "type": "string"
+    },
+    "incontinence": {
+      "type": "string"
+    },
+    "droolingOrFrothing": {
+      "type": "string"
+    },
+    "tongueOrLipsBitten": {
+      "type": "string"
+    },
+    "knowsHadOne": {
+      "type": "string"
+    },
+    "rememberAnythingOfIt": {
+      "type": "string"
+    },
+    "unconsciousDuringAttack": {
+      "type": "string"
+    },
+    "fall": {
+      "type": "string"
+    },
+    "injury": {
+      "type": "string"
+    },
+    "bodyStiffAtOnset": {
+      "type": "string"
+    },
+    "pupilsDilated": {
+      "type": "string"
+    },
+    "pupilsReactToLight": {
+      "type": "string"
+    },
+    "movementsMoreOnOneSide": {
+      "type": "string"
+    },
+    "movementsConfinedToOneSide": {
+      "type": "string"
+    },
+    "didSeizureBeginWithMovementOrSensationInOnePartOfBody": {
+      "type": "string"
+    },
+    "movementsSynchronousJerking": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2614d-2a.pdf",
+    "totalFields": 65,
+    "composedFields": 12,
+    "coveragePercent": 18,
+    "xfaLabelCount": 65,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:05:29.654Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

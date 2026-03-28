@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0460",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "veteransName": {
+      "type": "string"
+    },
+    "form10subform0textfield3210": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3220": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3230": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3240": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3250": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3260": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3270": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3280": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3290": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield32100": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield32110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row10field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row20field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row30field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row40field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row50field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row60field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row70field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row80field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row90field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row100field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row110field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row120field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row130field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row140field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row150field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row160field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row170field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row180field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1table10row190field2": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0460-fill.pdf",
+    "totalFields": 76,
+    "composedFields": 46,
+    "coveragePercent": 61,
+    "xfaLabelCount": 2,
+    "needsReviewCount": 30,
+    "generatedAt": "2026-03-28T21:20:39.228Z",
+    "pageCount": 3,
+    "status": "digitized"
+  }
+}

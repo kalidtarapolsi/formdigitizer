@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA4939",
+  "type": "object",
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfOccurrenceIncludeTheMostRecentDates": {
+      "type": "string",
+      "format": "date"
+    },
+    "13CDateOfInitialContactWithOrm": {
+      "type": "string",
+      "format": "date"
+    },
+    "15BIfYesListTheClaimsAndDateGrievanceFiled": {
+      "type": "string",
+      "format": "date"
+    },
+    "16BIfYesListTheIssuesAndDateMSPBAppealFiled": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "areYouAVAEmployeeCheckBox": {
+      "type": "boolean"
+    },
+    "anApplicantForEmploymentCheckBox": {
+      "type": "boolean"
+    },
+    "aFormerVAEmployeeCheckBox": {
+      "type": "boolean"
+    },
+    "12ADoYouHaveARepresentativeYesCheckbox": {
+      "type": "boolean"
+    },
+    "noCheckbox": {
+      "type": "boolean"
+    },
+    "12BIfYesIsHeOrSheAnAttorneyYesCheckbox": {
+      "type": "boolean"
+    },
+    "13AHaveYouContactedAnEEOCounselorYesCheckbox": {
+      "type": "boolean"
+    },
+    "15AHaveYouFiledAUnionGrievanceOnAnyClaimsListedAboveYesCheckbox": {
+      "type": "boolean"
+    },
+    "16AHaveYouFiledAnAppealWithTheMeritSystemProtectionBoardMSPBOnAnyOfTheClaimsListedAboveYesCheckbox": {
+      "type": "boolean"
+    },
+    "17AHaveYouFiledThisComplaintWithAnyoneElseYesCheckbox": {
+      "type": "boolean"
+    },
+    "6AJobTitleSeriesAndGrade": {
+      "type": "string"
+    },
+    "complaintCaseNumber": {
+      "type": "string"
+    },
+    "6BServicesectionproductLine": {
+      "type": "string"
+    },
+    "remediesSought": {
+      "type": "string"
+    },
+    "13BNameOfEEOCounselor": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4939.pdf",
+    "totalFields": 38,
+    "composedFields": 34,
+    "coveragePercent": 89,
+    "xfaLabelCount": 35,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:24:57.580Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

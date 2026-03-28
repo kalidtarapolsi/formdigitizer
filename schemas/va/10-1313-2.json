@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1313-2",
+  "type": "object",
+  "properties": {
+    "program": {
+      "type": "string"
+    },
+    "project": {
+      "type": "string"
+    },
+    "principalInvestigator": {
+      "type": "string"
+    },
+    "titleOfProgramProject": {
+      "type": "string"
+    },
+    "briefStatementOfResearchObjectives": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-2-fill.pdf",
+    "totalFields": 6,
+    "composedFields": 0,
+    "coveragePercent": 0,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:43.930Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

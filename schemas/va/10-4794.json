@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-4794",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "form10subform0textfield20": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield21": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield22": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield23": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "produced": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-4794-fill.pdf",
+    "totalFields": 22,
+    "composedFields": 12,
+    "coveragePercent": 55,
+    "xfaLabelCount": 3,
+    "needsReviewCount": 4,
+    "generatedAt": "2026-03-28T21:04:22.225Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

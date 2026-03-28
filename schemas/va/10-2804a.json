@@ -1,0 +1,240 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2804a",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "checkBox12": {
+      "type": "boolean"
+    },
+    "blank": {
+      "type": "string"
+    },
+    "form10subform0subform1textfield140": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0subform1field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "blankfield": {
+      "type": "string"
+    },
+    "form10subform0subform1textfield141": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "clickToChooseOne": {
+      "type": "string"
+    },
+    "impression": {
+      "type": "string"
+    },
+    "bite": {
+      "type": "string"
+    },
+    "articulator": {
+      "type": "string"
+    },
+    "masterCasts": {
+      "type": "string"
+    },
+    "opposingCasts": {
+      "type": "string"
+    },
+    "submittingFacilityCityAndState": {
+      "type": "string"
+    },
+    "campus": {
+      "type": "string"
+    },
+    "submittingDentist": {
+      "type": "string"
+    },
+    "verificationJig": {
+      "type": "string"
+    },
+    "diagnosticCast": {
+      "type": "string"
+    },
+    "crowns": {
+      "type": "string"
+    },
+    "analogs": {
+      "type": "string"
+    },
+    "splintedCrowns": {
+      "type": "string"
+    },
+    "abutmentToothNumbers": {
+      "type": "string"
+    },
+    "ponticToothNumbers": {
+      "type": "string"
+    },
+    "porcelainFusedtoMetal": {
+      "type": "string"
+    },
+    "undercut": {
+      "type": "string"
+    },
+    "guidePlanes": {
+      "type": "string"
+    },
+    "rests": {
+      "type": "string"
+    },
+    "allCeramicRestorations": {
+      "type": "string"
+    },
+    "shade": {
+      "type": "string"
+    },
+    "gingival": {
+      "type": "string"
+    },
+    "incisal": {
+      "type": "string"
+    },
+    "diagnosticWaxup": {
+      "type": "string"
+    },
+    "ridgeRelief": {
+      "type": "string"
+    },
+    "occlusion": {
+      "type": "string"
+    },
+    "fixed": {
+      "type": "string"
+    },
+    "removable": {
+      "type": "string"
+    },
+    "diameter": {
+      "type": "string"
+    },
+    "length": {
+      "type": "string"
+    },
+    "components": {
+      "type": "string"
+    },
+    "brandName": {
+      "type": "string"
+    },
+    "abutments": {
+      "type": "string"
+    },
+    "instructions10": {
+      "type": "string"
+    },
+    "impressionTransfer": {
+      "type": "string"
+    },
+    "od4": {
+      "type": "string"
+    },
+    "od1": {
+      "type": "string"
+    },
+    "od2": {
+      "type": "string"
+    },
+    "od3": {
+      "type": "string"
+    },
+    "od5": {
+      "type": "string"
+    },
+    "bx1": {
+      "type": "string"
+    },
+    "bx6": {
+      "type": "string"
+    },
+    "bx5": {
+      "type": "string"
+    },
+    "bx4": {
+      "type": "string"
+    },
+    "bx3": {
+      "type": "string"
+    },
+    "bx2": {
+      "type": "string"
+    },
+    "a3": {
+      "type": "string"
+    },
+    "b3": {
+      "type": "string"
+    },
+    "c3": {
+      "type": "string"
+    },
+    "allMetalRestorations": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804a_fill.pdf",
+    "totalFields": 65,
+    "composedFields": 9,
+    "coveragePercent": 14,
+    "xfaLabelCount": 34,
+    "needsReviewCount": 3,
+    "generatedAt": "2026-03-28T21:03:50.616Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

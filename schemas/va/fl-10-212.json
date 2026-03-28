@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FL-10-212",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "statusOfAuthorizedRepresentativeGuardianPOA": {
+      "type": "string"
+    },
+    "inReplyReferTo": {
+      "type": "string"
+    },
+    "printPatientNameOrAuthorizedRepresentative": {
+      "type": "string"
+    },
+    "recipientName": {
+      "type": "string"
+    },
+    "historyAndPhysicalExam": {
+      "type": "string"
+    },
+    "initials": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-FL-10-212-fill%20(1).pdf",
+    "totalFields": 28,
+    "composedFields": 4,
+    "coveragePercent": 14,
+    "xfaLabelCount": 8,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:32:48.988Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

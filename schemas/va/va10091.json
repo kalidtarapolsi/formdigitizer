@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA10091",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "iiPayeeVendorInformation8CommercialVendorRegisteredInSamgovRequiredIAWFAR41102CheckBox": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "savingsRadioButton": {
+      "type": "string"
+    },
+    "iiiEFTACHRequiredIAW31CFRPart20820CurrentBankName": {
+      "type": "number"
+    },
+    "currentBankNinedigitRoutingNumber": {
+      "type": "number"
+    },
+    "currentBankAccountNumber17CharactersMax": {
+      "type": "number"
+    },
+    "doingBusinessAsDBA": {
+      "type": "string"
+    },
+    "iVAFacilityInformationForStationUseOnly1StationNumber": {
+      "type": "string"
+    },
+    "stationContact": {
+      "type": "string"
+    },
+    "payee": {
+      "type": "string"
+    },
+    "factsID2CharactersMax": {
+      "type": "string"
+    },
+    "lGYAccountNumber6CharactersMax": {
+      "type": "string"
+    },
+    "uniqueEntityIdentifierUEI12CharactersMax": {
+      "type": "string"
+    },
+    "eFTIdentifer": {
+      "type": "string"
+    },
+    "nPI10CharactersMax": {
+      "type": "string"
+    },
+    "payeeVendorName": {
+      "type": "string"
+    },
+    "accountType": {
+      "type": "string"
+    },
+    "nameAndTitleOfAuthorizedRepresentative": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10091.pdf",
+    "totalFields": 30,
+    "composedFields": 19,
+    "coveragePercent": 63,
+    "xfaLabelCount": 27,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:25:58.941Z",
+    "pageCount": 3,
+    "status": "digitized"
+  }
+}

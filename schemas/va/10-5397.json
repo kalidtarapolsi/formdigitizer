@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5397",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "positionOccupied": {
+      "type": "string"
+    },
+    "personalClothingAuthorizedInLieuOfUniform": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5397-fill.pdf",
+    "totalFields": 18,
+    "composedFields": 3,
+    "coveragePercent": 17,
+    "xfaLabelCount": 4,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:04:40.315Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

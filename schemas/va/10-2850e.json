@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2850e",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "clinicalPrivileges": {
+      "type": "string"
+    },
+    "averageHoursApplicantWorkedPerWeek": {
+      "type": "string"
+    },
+    "sectionDRemarks19Remarks": {
+      "type": "string"
+    },
+    "applicantWasEmployed": {
+      "type": "string"
+    },
+    "performanceFactors8a": {
+      "type": "string"
+    },
+    "performanceFactors8b": {
+      "type": "string"
+    },
+    "performanceFactors8c": {
+      "type": "string"
+    },
+    "performanceFactors8d": {
+      "type": "string"
+    },
+    "performanceFactors8e": {
+      "type": "string"
+    },
+    "performanceFactors8f": {
+      "type": "string"
+    },
+    "performanceFactors8g": {
+      "type": "string"
+    },
+    "wouldYouRehireThisApplicant": {
+      "type": "string"
+    },
+    "licenseRevoked": {
+      "type": "string"
+    },
+    "privilegesDenied": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-2850e-Fill.pdf",
+    "totalFields": 29,
+    "composedFields": 8,
+    "coveragePercent": 28,
+    "xfaLabelCount": 14,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:07:00.602Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

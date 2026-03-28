@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA2345",
+  "type": "object",
+  "properties": {
+    "dateOfRequest": {
+      "type": "string",
+      "format": "date"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA2345.pdf",
+    "totalFields": 31,
+    "composedFields": 2,
+    "coveragePercent": 6,
+    "xfaLabelCount": 2,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:26:53.935Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

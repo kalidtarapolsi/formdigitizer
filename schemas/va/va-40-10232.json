@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA-40-10232",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateOfInterment": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "dOBRAllowanceAmount": {
+      "type": "number"
+    },
+    "eAmountClaimedThisIsAReadOnlyCalculatedField": {
+      "type": "number"
+    },
+    "totalAmountThisIsAReadOnlyCalculatedField": {
+      "type": "number"
+    },
+    "partAAllowanceForPrivatelyPurchasedOuterBurialReceptaclesIAW38Cfr38629d21ApplicantName": {
+      "type": "string"
+    },
+    "nameOfDeceased": {
+      "type": "string"
+    },
+    "nameOfCemeteryWhereInterred": {
+      "type": "string"
+    },
+    "bStationID": {
+      "type": "string"
+    },
+    "burialSiteID": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "federalAcquisitionID": {
+      "type": "string"
+    },
+    "vendorID": {
+      "type": "string"
+    },
+    "periodOfRequestYear": {
+      "type": "string"
+    },
+    "aCemeteryNameLine4Of4": {
+      "type": "string"
+    },
+    "cQuantityUsed": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10232.pdf",
+    "totalFields": 49,
+    "composedFields": 27,
+    "coveragePercent": 55,
+    "xfaLabelCount": 32,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:34:04.936Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0395",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "nationalPractitionerDataBankNPDBQueryiesDateIeDateSubmitted": {
+      "type": "string",
+      "format": "date"
+    },
+    "fellowshipCompletionDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "theInformationConveyedInThisMemorandumReflectsCredentialsStatusAsOfDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "clinicalPrivilegesGrantedIn": {
+      "type": "string"
+    },
+    "residency1Of2DegreeOrSpecialty": {
+      "type": "string"
+    },
+    "internshipInstitution": {
+      "type": "string"
+    },
+    "educationPrimarySourceVerifiedNo": {
+      "type": "string"
+    },
+    "providersName": {
+      "type": "string"
+    },
+    "ofAppointment": {
+      "type": "string"
+    },
+    "internshipLocation": {
+      "type": "string"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "residencyPrimarySourceVerifiedNo": {
+      "type": "string"
+    },
+    "fellowshipPrimarySourceVerifiedNo": {
+      "type": "string"
+    },
+    "primarySourceVerifiedNo": {
+      "type": "string"
+    },
+    "primarySourceVerifiedYes": {
+      "type": "string"
+    },
+    "verifiedYes": {
+      "type": "string"
+    },
+    "residencyPrimarySourceVerifiedYes": {
+      "type": "string"
+    },
+    "internshipPrimarySourceVerifiedYes": {
+      "type": "string"
+    },
+    "licenseNumber": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0395.pdf",
+    "totalFields": 74,
+    "composedFields": 39,
+    "coveragePercent": 53,
+    "xfaLabelCount": 25,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:05:28.447Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

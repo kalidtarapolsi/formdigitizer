@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1371",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceDates": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfRating": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeenByMd": {
+      "type": "string",
+      "format": "date"
+    },
+    "vISTeamReviewDateReviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "priorReview": {
+      "type": "string",
+      "format": "date"
+    },
+    "nextReview": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "ifNotReviewedCheckAndGiveReason": {
+      "type": "boolean"
+    },
+    "sCPercentage": {
+      "type": "number"
+    },
+    "nSCPercentage": {
+      "type": "number"
+    },
+    "eyeDiagnosis": {
+      "type": "string"
+    },
+    "medicalCare": {
+      "type": "string"
+    },
+    "vISTeamReviewPlanForServicesMedicalFollowup": {
+      "type": "string"
+    },
+    "sWSTreatment": {
+      "type": "string"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "domesticAdjustmentHowAppropriatelyIndependentIsHeInDomesticRole": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "visualActivityRight": {
+      "type": "string"
+    },
+    "visualActivityLeft": {
+      "type": "string"
+    },
+    "visualFieldsIfImpairedRight": {
+      "type": "string"
+    },
+    "visualFieldsIfImpairedLeft": {
+      "type": "string"
+    },
+    "otherMajorDisabilitiesLine1Of2": {
+      "type": "string"
+    },
+    "otherMajorDisabilitiesLine2Of2": {
+      "type": "string"
+    },
+    "currentHealthSituationOngoingRecurringHealthProblemsLine1Of2": {
+      "type": "string"
+    },
+    "ongoingRecurringHealthProblemsLine2Of2": {
+      "type": "string"
+    },
+    "reasonNotReviewed": {
+      "type": "string"
+    },
+    "prosthetics": {
+      "type": "string"
+    },
+    "dietician": {
+      "type": "string"
+    },
+    "vCTA": {
+      "type": "string"
+    },
+    "pubHealthNurse": {
+      "type": "string"
+    },
+    "pharmacy": {
+      "type": "string"
+    },
+    "specializedBlindServices": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "socialAdjustmentHowSociallyActiveInterestedResponsibleAndOutreachingIsHeWhatIsHisSelfimageInThisContext": {
+      "type": "string"
+    },
+    "activityHowFullAndSatisfyingAreDailyRoutinesIncludingPaidEmploymentIfAny": {
+      "type": "string"
+    },
+    "personalAdjustmentHowDoesHisPerformanceMeasureUpToHisPotentialitiesAsTheTeamSeesThem": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1371-fill.pdf",
+    "totalFields": 56,
+    "composedFields": 35,
+    "coveragePercent": 63,
+    "xfaLabelCount": 56,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:02:06.966Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA40-4987",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "iFullyUnderstandThatThisGraveIsSuitableForBurialOfCrematedRemainsOnlyAndWillNotAccommodateCasketedRemainsInTheEventThatMyRemainsOrTheRemainsOfAnEligibleDependentAreNotCrematedAndACasketedBurialIsRequestedTheCrematedRemainsOfEnterNameOfDeceasedWillBeRelocatedToAGraveSiteWhereinTheCasketedRemainsArePlacedIAuthorizeTheDirectorOfTheNationalCemeteryToRelocateTheCrematedRemainsToThisRegularGraveSiteItIsFurtherUnderstoodThatIfThisCemeteryIsInAClosedStatusAndThereAreNoAvailableGraveSitesForCasketedRemainsAllSubsequentIntermentsWillBeAcceptedOnlyIfInurned": {
+      "type": "string"
+    },
+    "thisAgreementMadeThisEnterDayDayOf": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "last2DigitsOfTheYear": {
+      "type": "string"
+    },
+    "iHerebyAgreeToHaveTheCrematedRemainsOf": {
+      "type": "string"
+    },
+    "interredInSection": {
+      "type": "string"
+    },
+    "graveNumber": {
+      "type": "string"
+    },
+    "inTheEnterNameOfTheCemeteryNationalCemetery": {
+      "type": "string"
+    },
+    "inPresenceOf": {
+      "type": "string"
+    },
+    "printedName": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-4987.pdf",
+    "totalFields": 16,
+    "composedFields": 7,
+    "coveragePercent": 44,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:34:05.953Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

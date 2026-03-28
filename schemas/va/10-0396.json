@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0396",
+  "type": "object",
+  "properties": {
+    "effectiveDateOfExisting": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "series": {
+      "type": "string"
+    },
+    "facility": {
+      "type": "string"
+    },
+    "ofExistingAuthorization": {
+      "type": "string"
+    },
+    "vISN": {
+      "type": "string"
+    },
+    "evaluator": {
+      "type": "string"
+    },
+    "attached": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "highestBeginningRateColumn1Of6": {
+      "type": "string"
+    },
+    "highestBeginningRateColumn2Of6": {
+      "type": "string"
+    },
+    "highestBeginningRateColumn3Of6": {
+      "type": "string"
+    },
+    "highestBeginningRateColumn4Of6": {
+      "type": "string"
+    },
+    "highestBeginningRateColumn5Of6": {
+      "type": "string"
+    },
+    "highestBeginningRateColumn6Of6": {
+      "type": "string"
+    },
+    "form10subform0table11row10field0": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0table11row10field1": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0table11row10field2": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0table11row10field3": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0table11row10field4": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0table11row10field5": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "comments": {
+      "type": "string"
+    },
+    "fed": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-0396-fill.pdf",
+    "totalFields": 100,
+    "composedFields": 3,
+    "coveragePercent": 3,
+    "xfaLabelCount": 18,
+    "needsReviewCount": 6,
+    "generatedAt": "2026-03-28T21:05:17.390Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

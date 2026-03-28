@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0394A",
+  "type": "object",
+  "properties": {
+    "radioButtonList": {
+      "type": "string"
+    },
+    "radioButtonList1": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394A-fill.pdf",
+    "totalFields": 24,
+    "composedFields": 2,
+    "coveragePercent": 8,
+    "xfaLabelCount": 1,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:30:31.201Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

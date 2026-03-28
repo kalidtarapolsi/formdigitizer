@@ -1,0 +1,242 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2723",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfRequest": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateNeeded": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateReceived": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCompleted": {
+      "type": "string",
+      "format": "date"
+    },
+    "subjectTitleOrDiagnosis": {
+      "type": "string"
+    },
+    "describeWorkOrProductsNeeded": {
+      "type": "string"
+    },
+    "requestNumber": {
+      "type": "string"
+    },
+    "use": {
+      "type": "string"
+    },
+    "nameOfRequester": {
+      "type": "string"
+    },
+    "servicesection": {
+      "type": "string"
+    },
+    "routingSymbol": {
+      "type": "string"
+    },
+    "finishedMaterialReceivedBy": {
+      "type": "string"
+    },
+    "completedByMmpsStaffName": {
+      "type": "string"
+    },
+    "technicalNotescommentsForMmps": {
+      "type": "string"
+    },
+    "disk": {
+      "type": "string"
+    },
+    "file": {
+      "type": "string"
+    },
+    "requestType": {
+      "type": "string"
+    },
+    "serviceCategory": {
+      "type": "string"
+    },
+    "patientName": {
+      "type": "string"
+    },
+    "patientAddr": {
+      "type": "string"
+    },
+    "rcsCode": {
+      "type": "string"
+    },
+    "amisDataPhoto1": {
+      "type": "string"
+    },
+    "amisDataPhoto2": {
+      "type": "string"
+    },
+    "amisDataPhoto3": {
+      "type": "string"
+    },
+    "amisDataPhoto4": {
+      "type": "string"
+    },
+    "amisDataIllus1": {
+      "type": "string"
+    },
+    "amisDataIllus2": {
+      "type": "string"
+    },
+    "amisDataIllus3": {
+      "type": "string"
+    },
+    "amisDataIllus4": {
+      "type": "string"
+    },
+    "amisDataCis1": {
+      "type": "string"
+    },
+    "amisDataCis2": {
+      "type": "string"
+    },
+    "amisDataCis3": {
+      "type": "string"
+    },
+    "amisDataCis4": {
+      "type": "string"
+    },
+    "amisDataAv1": {
+      "type": "string"
+    },
+    "amisDataAv2": {
+      "type": "string"
+    },
+    "amisDataAv3": {
+      "type": "string"
+    },
+    "amisDataAv4": {
+      "type": "string"
+    },
+    "rcsDataPhoto1": {
+      "type": "string"
+    },
+    "rcsDataPhoto2": {
+      "type": "string"
+    },
+    "rcsDataPhoto3": {
+      "type": "string"
+    },
+    "rcsDataPhoto4": {
+      "type": "string"
+    },
+    "rcsDataIllus1": {
+      "type": "string"
+    },
+    "rcsDataIllus2": {
+      "type": "string"
+    },
+    "rcsDataIllus3": {
+      "type": "string"
+    },
+    "rcsDataIllus4": {
+      "type": "string"
+    },
+    "rcsDataCis1": {
+      "type": "string"
+    },
+    "rcsDataCis2": {
+      "type": "string"
+    },
+    "rcsDataCis3": {
+      "type": "string"
+    },
+    "rcsDataCis4": {
+      "type": "string"
+    },
+    "rcsDataAv1": {
+      "type": "string"
+    },
+    "rcsDataAv2": {
+      "type": "string"
+    },
+    "rcsDataAv3": {
+      "type": "string"
+    },
+    "rcsDataAv4": {
+      "type": "string"
+    },
+    "commentsPhoto1": {
+      "type": "string"
+    },
+    "commentsPhoto2": {
+      "type": "string"
+    },
+    "commentsPhoto3": {
+      "type": "string"
+    },
+    "commentsPhoto4": {
+      "type": "string"
+    },
+    "commentsIllus1": {
+      "type": "string"
+    },
+    "commentsIllus2": {
+      "type": "string"
+    },
+    "commentsIllus3": {
+      "type": "string"
+    },
+    "commentsIllus4": {
+      "type": "string"
+    },
+    "commentsCis1": {
+      "type": "string"
+    },
+    "commentsCis2": {
+      "type": "string"
+    },
+    "commentsCis3": {
+      "type": "string"
+    },
+    "commentsCis4": {
+      "type": "string"
+    },
+    "commentsAv1": {
+      "type": "string"
+    },
+    "commentsAv2": {
+      "type": "string"
+    },
+    "commentsAv3": {
+      "type": "string"
+    },
+    "commentsAv4": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2723-fill.pdf",
+    "totalFields": 71,
+    "composedFields": 8,
+    "coveragePercent": 11,
+    "xfaLabelCount": 23,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:29.341Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491I",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "start": {
+      "type": "string",
+      "format": "date"
+    },
+    "end": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfPriorApproval": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "newSchoolprogram": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "courseTitle": {
+      "type": "string"
+    },
+    "form10subform0field0": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "advisorComments": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0field4": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "reasonForChangesAndPlannedActionsOtherThanChangesNotedAbove": {
+      "type": "string"
+    },
+    "creditHourChange": {
+      "type": "string"
+    },
+    "usmleStep1Passed": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "form10subform0field61": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0field62": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0field63": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0field64": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "annualEnrollmentAndSatisfactoryStatusprogressVerified": {
+      "type": "string"
+    },
+    "credits": {
+      "type": "string"
+    },
+    "tuition": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491i-fill%20(Notice%20of%20Change).pdf",
+    "totalFields": 89,
+    "composedFields": 45,
+    "coveragePercent": 51,
+    "xfaLabelCount": 28,
+    "needsReviewCount": 7,
+    "generatedAt": "2026-03-28T21:29:46.198Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

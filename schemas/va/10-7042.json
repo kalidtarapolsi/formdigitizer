@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7042",
+  "type": "object",
+  "properties": {
+    "date7": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "optionalText7": {
+      "type": "string"
+    },
+    "years2": {
+      "type": "string"
+    },
+    "recipient1": {
+      "type": "string"
+    },
+    "cityState7": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-7042%20Outstanding%20Service%20Award_Blanks%20Template_final%20(002).pdf",
+    "totalFields": 7,
+    "composedFields": 4,
+    "coveragePercent": 57,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:04:33.363Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

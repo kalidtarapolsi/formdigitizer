@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA40-10088",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "ageAtTimeOfDeathOptional": {
+      "type": "string"
+    },
+    "urnMustBeOfDurableMaterialSelectOne": {
+      "type": "string"
+    },
+    "casketHoldsTheWeightOfTheDecedentsRemains": {
+      "type": "string"
+    },
+    "nameOfFuneralHomeRepresentativeIfApplicable": {
+      "type": "string"
+    },
+    "nameOfApplicant": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__FOLLOWINGATTACHMENTS_0_": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__FOLLOWINGATTACHMENTS_1_": {
+      "type": "string"
+    },
+    "vendorTaxID": {
+      "type": "string"
+    },
+    "sealedNotLeaking": {
+      "type": "string"
+    },
+    "explainWhyTheCasketUrnDoesNotExhibitAllOfTheListedQualityStandards": {
+      "type": "string"
+    },
+    "cemeteryName": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10088.pdf",
+    "totalFields": 44,
+    "composedFields": 36,
+    "coveragePercent": 82,
+    "xfaLabelCount": 30,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:24:17.870Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

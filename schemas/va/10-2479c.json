@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2479C",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "targetAudience": {
+      "type": "string"
+    },
+    "responsibleOffice": {
+      "type": "string"
+    },
+    "numberOfExpectedRespondents": {
+      "type": "string"
+    },
+    "timeNeededToComplete": {
+      "type": "string"
+    },
+    "contactPerson": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "reasonForDisapproval": {
+      "type": "string"
+    },
+    "submit": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2479C-fill.pdf",
+    "totalFields": 17,
+    "composedFields": 8,
+    "coveragePercent": 47,
+    "xfaLabelCount": 15,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:31:29.353Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

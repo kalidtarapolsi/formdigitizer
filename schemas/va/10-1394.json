@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1394",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateReceived": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "totalAmountToBeReimbursedToVeteranServicemember": {
+      "type": "number"
+    },
+    "readPrivacyActInformationAndThePaperworkReductionActOf1995AbovePart1ToBeCompletedByTheVeteranServicememberAsDescribedIn38CFR171571NameOfVeteranServicememberLastNameFirstNameMiddleInitial": {
+      "type": "string"
+    },
+    "make": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "vehicleIdentificationNumberVIN": {
+      "type": "string"
+    },
+    "remitPaymentToRegisteredProviderName": {
+      "type": "string"
+    },
+    "approvingOfficeNameAndTitle": {
+      "type": "string"
+    },
+    "vHAStationCode": {
+      "type": "string"
+    },
+    "authorizingOfficeNameAndTitle": {
+      "type": "string"
+    },
+    "vBARegionalOfficeCode": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1394-fill.pdf",
+    "totalFields": 41,
+    "composedFields": 30,
+    "coveragePercent": 73,
+    "xfaLabelCount": 32,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:35:08.276Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

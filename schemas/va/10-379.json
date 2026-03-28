@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-379",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "physician": {
+      "type": "string"
+    },
+    "limitsAndConditionsExamplesBrainOnlyChestOnlyLimitToChestAndAbdomenAbdomenAndPelvisOnlyExcludeBrain": {
+      "type": "string"
+    },
+    "relationshipToTheDeceased": {
+      "type": "string"
+    },
+    "iWe": {
+      "type": "string"
+    },
+    "nameOfTheDeceased": {
+      "type": "string"
+    },
+    "beingTheNextOfKinByLawRequestThatAPathologistAt": {
+      "type": "string"
+    },
+    "scopeOfAutopsyProcedureIWeUnderstandThatIWeCanPlaceLimitationsOnTheExtentOfTheAutopsyAndThatThisMayPotentiallyDecreaseTheUsefulnessOfTheAutopsyIWeHaveIndicatedAnyLimitationsInTheSectionBelow": {
+      "type": "string"
+    },
+    "printedNameOfPersonObtainingPermission": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-379.pdf",
+    "totalFields": 24,
+    "composedFields": 17,
+    "coveragePercent": 71,
+    "xfaLabelCount": 25,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:08:10.864Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

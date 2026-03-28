@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1313-5",
+  "type": "object",
+  "properties": {
+    "nameLocationOfInstitution": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "form10subform0textfield21": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "yearAward": {
+      "type": "string"
+    },
+    "interest": {
+      "type": "string"
+    },
+    "research": {
+      "type": "string"
+    },
+    "honors": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-5-fill.pdf",
+    "totalFields": 8,
+    "composedFields": 2,
+    "coveragePercent": 25,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:19:46.071Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

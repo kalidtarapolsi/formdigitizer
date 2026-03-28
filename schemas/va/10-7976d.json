@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7976d",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateLine5Of5": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine4Of5": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine3Of5": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine2Of5": {
+      "type": "string",
+      "format": "date"
+    },
+    "anyNonorProceduresPerformedOnCurrentBedSectionDateLine1Of5": {
+      "type": "string",
+      "format": "date"
+    },
+    "diagnosisResponsibleForTheMajorPartOfThePatientsEntireEpisodeOfCareToDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signatureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "operationsPerformedInOperatingRoomsOnCurrentBedSectionDateLine1Of5": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "diagnosisResponsibleForTheMajorPartOfThePatientsStayOnThisBedSection": {
+      "type": "string"
+    },
+    "otherDiagnosisInOrderOfImportanceWhichHaveBeenTreatedOnThisBedSectionOrNotedToHaveExtendedThePatientsStayOnThisBedSectionOtherDiagnosisLine1Of4": {
+      "type": "string"
+    },
+    "otherDiagnosisLine2Of4": {
+      "type": "string"
+    },
+    "otherDiagnosisLine3Of4": {
+      "type": "string"
+    },
+    "otherDiagnosisLine4Of4": {
+      "type": "string"
+    },
+    "operationsPerformedInOperatingRoomsOnCurrentBedSection": {
+      "type": "string"
+    },
+    "anyNonOrProceduresPerformedOnCurrentBedSection": {
+      "type": "string"
+    },
+    "credentials": {
+      "type": "string"
+    },
+    "patientNameLastFirstAndMiddle": {
+      "type": "string"
+    },
+    "otherIdentifyingPatientInformation": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-7976d-fill.pdf",
+    "totalFields": 33,
+    "composedFields": 20,
+    "coveragePercent": 61,
+    "xfaLabelCount": 39,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:04:36.143Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

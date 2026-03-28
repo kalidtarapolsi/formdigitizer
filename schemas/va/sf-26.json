@@ -1,0 +1,213 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SF-26",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "ifYouAreTheContractor": {
+      "type": "string",
+      "format": "date"
+    },
+    "ifYouAreTheContractingOfficer": {
+      "type": "string",
+      "format": "date"
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "clickHereToSelectfreeOnBoardFobOriginForTheDeliveryType": {
+      "type": "string"
+    },
+    "clickHereToSelectOtherForTheDelivery": {
+      "type": "string"
+    },
+    "clickHereToSelectIContractClausesForPartIiContractClauses": {
+      "type": "string"
+    },
+    "clickHereToSelectJListOfAttachmentsForPartIiContractClauses": {
+      "type": "string"
+    },
+    "clickHereToSelectLInstructionsConditionsAndNoticesToOfferorsForPartIvRepresentationsAndInstructions": {
+      "type": "string"
+    },
+    "clickHereToSelectMEvaluationFactorsForAwardForPartIvRepresentationsAndInstructions": {
+      "type": "string"
+    },
+    "clickHereToSelectASolicitationcontractFormForPartISchedule": {
+      "type": "string"
+    },
+    "clickHereToSelectBSuppliesOrServicesAndPricescostsForPartISchedule": {
+      "type": "string"
+    },
+    "clickHereToSelectDPackagingAndMarkingForPartISchedule": {
+      "type": "string"
+    },
+    "clickHereToSelectEInspectionAndAcceptanceForPartISchedule": {
+      "type": "string"
+    },
+    "clickHereToSelectFDeliveriesOrPerformanceForPartISchedule": {
+      "type": "string"
+    },
+    "clickHereToSelectGContractAdministrationDataForPartISchedule": {
+      "type": "string"
+    },
+    "clickHereToSelectHSpecialContractRequirementsForPartISchedule": {
+      "type": "string"
+    },
+    "theAmountForThisItemIsAutocalculated": {
+      "type": "number"
+    },
+    "theTotalAmountForThisContractIsAutocalculated": {
+      "type": "number"
+    },
+    "discountForPromptPayment": {
+      "type": "string"
+    },
+    "shipTomarkForInfo": {
+      "type": "string"
+    },
+    "contractNumberProcurementInstructionIdentification": {
+      "type": "string"
+    },
+    "ratingForThisContract": {
+      "type": "string"
+    },
+    "pageNumberForThisPage": {
+      "type": "string"
+    },
+    "totalNumberOfPagesForThisAwardcontract": {
+      "type": "string"
+    },
+    "requisitionpurchaseRequestprojectNumberRequestprojectNumber": {
+      "type": "string"
+    },
+    "issuedByCode": {
+      "type": "string"
+    },
+    "administeredByCodeIfOtherThanTheIssuedByCodeEnteredForItem5": {
+      "type": "string"
+    },
+    "infoForWhoWillBeAdministeringThisAwardcontractIfOtherThanWhoIsNotedForItem5": {
+      "type": "string"
+    },
+    "infoForWhoIssuedThisContract": {
+      "type": "string"
+    },
+    "solicitationNumberForYourBid": {
+      "type": "string"
+    },
+    "codeForTheShipTomarkForItemItem11": {
+      "type": "string"
+    },
+    "codeForWhoWillBeMakingPaymentsItem12": {
+      "type": "string"
+    },
+    "infoForWhoWillBeMakingPayments": {
+      "type": "string"
+    },
+    "accountingAndAppropriationData": {
+      "type": "string"
+    },
+    "itemNumberRow1Of5": {
+      "type": "string"
+    },
+    "itemNumberRow2Of5": {
+      "type": "string"
+    },
+    "suppliesservicesInfo": {
+      "type": "string"
+    },
+    "pageNumbersForSectionA": {
+      "type": "string"
+    },
+    "pageNumbersForSectionB": {
+      "type": "string"
+    },
+    "pageNumbersForSectionC": {
+      "type": "string"
+    },
+    "pageNumbersForSectionD": {
+      "type": "string"
+    },
+    "pageNumbersForSectionE": {
+      "type": "string"
+    },
+    "pageNumbersForSectionF": {
+      "type": "string"
+    },
+    "pageNumbersForSectionG": {
+      "type": "string"
+    },
+    "pageNumbersForSectionH": {
+      "type": "string"
+    },
+    "pageNumbersForSectionI": {
+      "type": "string"
+    },
+    "codeForTheContractorItem7": {
+      "type": "string"
+    },
+    "facilityCodeForTheContractorItem7": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.gsa.gov/system/files/SF26-22.pdf",
+    "totalFields": 93,
+    "composedFields": 47,
+    "coveragePercent": 51,
+    "xfaLabelCount": 92,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:12:32.035Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

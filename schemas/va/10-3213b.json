@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-3213B",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "acceptedByAndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status37NotScheduled": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "form10subform0textfield326160": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326130": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326140": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326131": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield326132": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "yes": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-3213b-fill.pdf",
+    "totalFields": 129,
+    "composedFields": 10,
+    "coveragePercent": 8,
+    "xfaLabelCount": 8,
+    "needsReviewCount": 5,
+    "generatedAt": "2026-03-28T21:32:24.306Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

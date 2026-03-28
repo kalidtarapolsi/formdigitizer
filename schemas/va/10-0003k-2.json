@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0003K-2",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "serviceObligationOccupation": {
+      "type": "string"
+    },
+    "initial": {
+      "type": "string"
+    },
+    "station": {
+      "type": "string"
+    },
+    "applicantNamePrintedOrTyped": {
+      "type": "string"
+    },
+    "days": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0003k-2.pdf",
+    "totalFields": 14,
+    "composedFields": 6,
+    "coveragePercent": 43,
+    "xfaLabelCount": 10,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:26:57.684Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

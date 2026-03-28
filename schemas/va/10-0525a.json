@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0525a",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "utahHealthInformationNetwork": {
+      "type": "string"
+    },
+    "nameOfLegalRepresentative": {
+      "type": "string"
+    },
+    "indianaHealthInformationCollaborative": {
+      "type": "string"
+    },
+    "northCarolinaHealthcareInformationAndCommunicationsAlliance": {
+      "type": "string"
+    },
+    "otherHealthCareProvider3Of3": {
+      "type": "string"
+    },
+    "otherHealthCareProvider2Of3": {
+      "type": "string"
+    },
+    "otherHealthCareProvider1Of3": {
+      "type": "string"
+    },
+    "communityHealthInformationCollaborative": {
+      "type": "string"
+    },
+    "westernNewYorkHealthelink": {
+      "type": "string"
+    },
+    "southCarolinaHealthInformationExchange": {
+      "type": "string"
+    },
+    "multicare": {
+      "type": "string"
+    },
+    "inlandNorthwestHealthServices": {
+      "type": "string"
+    },
+    "medVirginia": {
+      "type": "string"
+    },
+    "otherHealthCareProvider": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0525a-fill.pdf",
+    "totalFields": 25,
+    "composedFields": 10,
+    "coveragePercent": 40,
+    "xfaLabelCount": 25,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:35:10.970Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491D",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "appointmentstartDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "yearlySalary": {
+      "type": "number"
+    },
+    "clinicalProgram": {
+      "type": "string"
+    },
+    "specify": {
+      "type": "string"
+    },
+    "titleposition": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "contact": {
+      "type": "string"
+    },
+    "form10subform0field47": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0field48": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491d-fill%20(Education%20Program%20Completion).pdf",
+    "totalFields": 59,
+    "composedFields": 29,
+    "coveragePercent": 49,
+    "xfaLabelCount": 13,
+    "needsReviewCount": 3,
+    "generatedAt": "2026-03-28T21:28:42.571Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

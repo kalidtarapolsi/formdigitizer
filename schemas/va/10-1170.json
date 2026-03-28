@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1170",
+  "type": "object",
+  "properties": {
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1170-fill.pdf",
+    "totalFields": 34,
+    "composedFields": 2,
+    "coveragePercent": 6,
+    "xfaLabelCount": 6,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:15:11.517Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

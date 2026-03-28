@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2804c",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "form10subform0textfield140": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "anteriorsMould": {
+      "type": "string"
+    },
+    "posteriorsMould": {
+      "type": "string"
+    },
+    "clickToChooseOne": {
+      "type": "string"
+    },
+    "impression": {
+      "type": "string"
+    },
+    "bite": {
+      "type": "string"
+    },
+    "articulator": {
+      "type": "string"
+    },
+    "masterCasts": {
+      "type": "string"
+    },
+    "opposingCasts": {
+      "type": "string"
+    },
+    "submittingFacilityCityAndState": {
+      "type": "string"
+    },
+    "campus": {
+      "type": "string"
+    },
+    "submittingDentist": {
+      "type": "string"
+    },
+    "studyCasts": {
+      "type": "string"
+    },
+    "impressionTransfer": {
+      "type": "string"
+    },
+    "analog": {
+      "type": "string"
+    },
+    "abutment": {
+      "type": "string"
+    },
+    "shade": {
+      "type": "string"
+    },
+    "stippled": {
+      "type": "string"
+    },
+    "palatalRugae": {
+      "type": "string"
+    },
+    "occlusionClickToChooseOne": {
+      "type": "string"
+    },
+    "acrylicRemovablePartialDentureWithWroughtWireClasps": {
+      "type": "string"
+    },
+    "immediateDenture": {
+      "type": "string"
+    },
+    "rebase": {
+      "type": "string"
+    },
+    "reline": {
+      "type": "string"
+    },
+    "surgicalStentguide": {
+      "type": "string"
+    },
+    "occlusalDevicemouthguard": {
+      "type": "string"
+    },
+    "thorntonSleepApneaTapProthesis": {
+      "type": "string"
+    },
+    "a3": {
+      "type": "string"
+    },
+    "b3": {
+      "type": "string"
+    },
+    "c3": {
+      "type": "string"
+    },
+    "d3": {
+      "type": "string"
+    },
+    "e3": {
+      "type": "string"
+    },
+    "f3": {
+      "type": "string"
+    },
+    "maxillary": {
+      "type": "string"
+    },
+    "one": {
+      "type": "string"
+    },
+    "two": {
+      "type": "string"
+    },
+    "lucitone199": {
+      "type": "string"
+    },
+    "lucitoneTinted": {
+      "type": "string"
+    },
+    "eclipse": {
+      "type": "string"
+    },
+    "mandibular": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804c_fill.pdf",
+    "totalFields": 49,
+    "composedFields": 5,
+    "coveragePercent": 10,
+    "xfaLabelCount": 27,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:04:01.086Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

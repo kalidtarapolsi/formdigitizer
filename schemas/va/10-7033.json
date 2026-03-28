@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7033",
+  "type": "object",
+  "properties": {
+    "nameOfEmployeeInCharge": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7033-fill.pdf",
+    "totalFields": 6,
+    "composedFields": 0,
+    "coveragePercent": 0,
+    "xfaLabelCount": 4,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:04:37.761Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

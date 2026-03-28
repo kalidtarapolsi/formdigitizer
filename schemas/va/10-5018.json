@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5018",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "amountDollarRow1": {
+      "type": "number"
+    },
+    "amountCentsRow1": {
+      "type": "number"
+    },
+    "amountDollarRow2": {
+      "type": "number"
+    },
+    "amountCentsRow2": {
+      "type": "number"
+    },
+    "amountDollarRow3": {
+      "type": "number"
+    },
+    "amountCentsRow3": {
+      "type": "number"
+    },
+    "amountDollarRow4": {
+      "type": "number"
+    },
+    "amountCentsRow4": {
+      "type": "number"
+    },
+    "amountDollarRow5": {
+      "type": "number"
+    },
+    "amountCentsRow5": {
+      "type": "number"
+    },
+    "receiptOfCashInAboveAmountIsHerebyAcknowledged": {
+      "type": "number"
+    },
+    "payTo": {
+      "type": "string"
+    },
+    "descriptionRow1": {
+      "type": "string"
+    },
+    "descriptionRow2": {
+      "type": "string"
+    },
+    "descriptionRow3": {
+      "type": "string"
+    },
+    "descriptionRow4": {
+      "type": "string"
+    },
+    "descriptionRow5": {
+      "type": "string"
+    },
+    "deptOrActivity": {
+      "type": "string"
+    },
+    "accountNo": {
+      "type": "string"
+    },
+    "cBNo": {
+      "type": "string"
+    },
+    "pONo": {
+      "type": "string"
+    },
+    "pRNo": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "string"
+    },
+    "enteredOnPettyCashSummary": {
+      "type": "string"
+    },
+    "canteenStamp": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5018.pdf",
+    "totalFields": 26,
+    "composedFields": 12,
+    "coveragePercent": 46,
+    "xfaLabelCount": 26,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:05:01.027Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

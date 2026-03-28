@@ -1,0 +1,250 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA2793",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "doesYourShopUsuallyMakeItsOwnSetupsYesCheckBox": {
+      "type": "boolean"
+    },
+    "doesYourShopUsuallyMakeItsOwnSetupsNoCheckBox": {
+      "type": "boolean"
+    },
+    "isItCommonPracticeToRequireAPhysiciansPrescriptionAsAConditionForFittingOfCivilianAmputeesYesCheckBox": {
+      "type": "boolean"
+    },
+    "isItCommonPracticeToRequireAPhysiciansPrescriptionAsAConditionForFittingOfCivilianAmputeesNoCheckBox": {
+      "type": "boolean"
+    },
+    "shopLocatedInOfficeBuildingCheckBox": {
+      "type": "boolean"
+    },
+    "shopLocatedInOtherSpecifyCheckBox": {
+      "type": "boolean"
+    },
+    "isFittingRoomOnGroundFloorYesCheckBox": {
+      "type": "boolean"
+    },
+    "isFittingRoomOnGroundFloorNoCheckBox": {
+      "type": "boolean"
+    },
+    "ifItem18IsNoAreElevatorsAvailableYesCheckBox": {
+      "type": "boolean"
+    },
+    "ifItem18IsNoAreElevatorsAvailableNoCheckBox": {
+      "type": "boolean"
+    },
+    "isShopEquippedWithParallelBarsForWalkingTrainingYesCheckBox": {
+      "type": "boolean"
+    },
+    "isShopEquippedWithParallelBarsForWalkingTrainingNoCheckBox": {
+      "type": "boolean"
+    },
+    "isShopEquippedWithFulllengthMirrorsYesCheckBox": {
+      "type": "boolean"
+    },
+    "isShopEquippedWithFulllengthMirrorsNoCheckBox": {
+      "type": "boolean"
+    },
+    "isShopEquippedWithRampsYesCheckBox": {
+      "type": "boolean"
+    },
+    "isShopEquippedWithRampsNoCheckBox": {
+      "type": "boolean"
+    },
+    "ifYourFirmHasBeenInBusinessLessThan3YearsListTwoBusinessReferencesIncludingBankReferenceANameAndLocationOfOrganization": {
+      "type": "number"
+    },
+    "1AFullBusinessNameOfShopIfOtherThanItem1": {
+      "type": "string"
+    },
+    "daysOfBusiness": {
+      "type": "string"
+    },
+    "hoursOfBusiness": {
+      "type": "string"
+    },
+    "numberOfYearsExperienceInArtificialLimbBusinessAtOtherLocations": {
+      "type": "string"
+    },
+    "totalFloorSpaceInWorkshop": {
+      "type": "string"
+    },
+    "numberOfProsthetistsEmployedWhoHaveSuccessfullyCompletedOneOrMoreOfTheFollowingPostgraduateCourseInProstheticsIfNoneThenWriteNoneAUpperExtremityCourse": {
+      "type": "string"
+    },
+    "bAkProstheticsCourse": {
+      "type": "string"
+    },
+    "cOtherSpecify": {
+      "type": "string"
+    },
+    "shopLocatedInOtherSpecify": {
+      "type": "string"
+    },
+    "oOtherSpecifyNumber": {
+      "type": "string"
+    },
+    "oOtherSpecifyType": {
+      "type": "string"
+    },
+    "nameOfBidder": {
+      "type": "string"
+    },
+    "tradeNameIfAny": {
+      "type": "string"
+    },
+    "bNameAndLocationOfOrganization": {
+      "type": "string"
+    },
+    "totalNumberOfEmployeesInTheShopIncludingOfficials": {
+      "type": "string"
+    },
+    "numberOfEmployeesEngagedInTheFabricationOfLimbs": {
+      "type": "string"
+    },
+    "numberOfFulltimeQualifiedLimbFittersEmployed": {
+      "type": "string"
+    },
+    "bName": {
+      "type": "string"
+    },
+    "totalFloorSpaceOccupiedByShop": {
+      "type": "string"
+    },
+    "totalFloorSpaceInFittingRoom": {
+      "type": "string"
+    },
+    "totalOfficeFloorSpace": {
+      "type": "string"
+    },
+    "numberAndTypeOfShopEquipmentUseReverseSideForEquipmentNotListedABandSawNumber": {
+      "type": "string"
+    },
+    "aBandSawType": {
+      "type": "string"
+    },
+    "bSandingDiscType": {
+      "type": "string"
+    },
+    "cSandingPaperNumber": {
+      "type": "string"
+    },
+    "cSandingPaperType": {
+      "type": "string"
+    },
+    "dFlexibleShaftSanderNumber": {
+      "type": "string"
+    },
+    "dFlexibleShaftSanderType": {
+      "type": "string"
+    },
+    "eLatheWoodturningNumber": {
+      "type": "string"
+    },
+    "eLatheWoodturningType": {
+      "type": "string"
+    },
+    "fDrillPressNumber": {
+      "type": "string"
+    },
+    "fDrillPressType": {
+      "type": "string"
+    },
+    "gSewingMachineNumber": {
+      "type": "string"
+    },
+    "gSewingMachineType": {
+      "type": "string"
+    },
+    "hGrindingEquipmentNumber": {
+      "type": "string"
+    },
+    "hGrindingEquipmentType": {
+      "type": "string"
+    },
+    "iPaintsprayingEquipmentNumber": {
+      "type": "string"
+    },
+    "iPaintsprayingEquipmentType": {
+      "type": "string"
+    },
+    "jWeldingEquipmentNumber": {
+      "type": "string"
+    },
+    "jWeldingEquipmentType": {
+      "type": "string"
+    },
+    "kAlignmentJigNumber": {
+      "type": "string"
+    },
+    "kAlignmentJigType": {
+      "type": "string"
+    },
+    "continuationSheet": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA2793.pdf",
+    "totalFields": 73,
+    "composedFields": 41,
+    "coveragePercent": 56,
+    "xfaLabelCount": 73,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:28:44.069Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

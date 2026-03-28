@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2917",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "s": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2917-fill.pdf",
+    "totalFields": 92,
+    "composedFields": 1,
+    "coveragePercent": 1,
+    "xfaLabelCount": 2,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:58.903Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

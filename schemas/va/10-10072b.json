@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10072B",
+  "type": "object",
+  "properties": {
+    "dateOfReport": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "healthRadio2": {
+      "type": "string"
+    },
+    "healthRadio1": {
+      "type": "string"
+    },
+    "otherRadio1": {
+      "type": "string"
+    },
+    "otherRadio2": {
+      "type": "string"
+    },
+    "otherRadio3": {
+      "type": "string"
+    },
+    "otherRadio4": {
+      "type": "string"
+    },
+    "otherRadio5": {
+      "type": "string"
+    },
+    "otherRadio6": {
+      "type": "string"
+    },
+    "ssvfGrantAmount": {
+      "type": "number"
+    },
+    "incomeServices2": {
+      "type": "number"
+    },
+    "incomeServices1": {
+      "type": "number"
+    },
+    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesChildCareFinancialAssistance": {
+      "type": "string"
+    },
+    "childCare2": {
+      "type": "string"
+    },
+    "childCare1": {
+      "type": "string"
+    },
+    "howManyIneligibleIndividualsWereScreenedThisQuarterDescribeGenerallyHowTheseSituationsWereHandledAndTheProgramsToWhichIndividualsWereReferred": {
+      "type": "string"
+    },
+    "threeSupportiveServicesMostRequestedByParticipantsAndDescribeHowYourProgramDeliveredThoseSupportiveServices": {
+      "type": "string"
+    },
+    "describeAnyIssuesThatAroseThisQuarterWithRespectToParticipantSafetyEgDomesticViolenceSuicideRiskEtcAndIndicateHowThoseIssuesWereHandled": {
+      "type": "string"
+    },
+    "granteeName": {
+      "type": "string"
+    },
+    "doYouRequireAdditionalAssistanceFromTheSsvfProgramOfficeIfSo": {
+      "type": "string"
+    },
+    "typesOfLocationsEventsEgSheltersStreetStandDownsHousingCourtsWelfareOfficesEtcWhereYourProgramHasConductedOutreachDuringThisQuarter": {
+      "type": "string"
+    },
+    "anyTypesOfOrganizationsEntitiesFromWhichYouHaveReceivedMoreThanAnEstimated5OfYourReferralsDuringThisQuarter": {
+      "type": "string"
+    },
+    "ssvfProgramNumber": {
+      "type": "string"
+    },
+    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesRentalAssistance": {
+      "type": "string"
+    },
+    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesMovingCostsAssistance": {
+      "type": "string"
+    },
+    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesEmergencySuppliesAssistance": {
+      "type": "string"
+    },
+    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesTransportation": {
+      "type": "string"
+    },
+    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesOther": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "dailyServices2": {
+      "type": "string"
+    },
+    "personalServices2": {
+      "type": "string"
+    },
+    "transportationServices2": {
+      "type": "string"
+    },
+    "transportationServices1": {
+      "type": "string"
+    },
+    "personalServices1": {
+      "type": "string"
+    },
+    "dailyServices1": {
+      "type": "string"
+    },
+    "fiduciaryServices2": {
+      "type": "string"
+    },
+    "fiduciaryServices1": {
+      "type": "string"
+    },
+    "legalServices2": {
+      "type": "string"
+    },
+    "legalServices1": {
+      "type": "string"
+    },
+    "housing2": {
+      "type": "string"
+    },
+    "housing1": {
+      "type": "string"
+    },
+    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesUtilityfeePaymentAssistance": {
+      "type": "string"
+    },
+    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesSecurityOrUtilityDepositAssistance": {
+      "type": "string"
+    },
+    "asThisIsANewInitiativeVaIsInterestedInLearningAboutBestPracticesInTheField": {
+      "type": "string"
+    },
+    "confirmThatYourProgramsDataFor100OfParticipantsHasBeenExportedFromHmisAndUploadedToTheSsvfDataRepositoryNotLessThanOnAMonthlyBasisIfNot": {
+      "type": "string"
+    },
+    "haveYouCompliedWithAllTheTermsOfYourSupportiveServicesGrantAgreementThisQuarterIfNo": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10072B-fill.pdf",
+    "totalFields": 54,
+    "composedFields": 19,
+    "coveragePercent": 35,
+    "xfaLabelCount": 28,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:28:39.238Z",
+    "pageCount": 3,
+    "status": "digitized"
+  }
+}

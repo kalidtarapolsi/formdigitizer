@@ -1,0 +1,327 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SF52(ES)",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "proposedEffectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "actionRequestedByTypedNameTitleAndRequestDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "actionAuthorizedByTypedNameTitleAndConcurrenceDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "serviceCompDateLeave": {
+      "type": "string",
+      "format": "date"
+    },
+    "aPositionAuthorizedDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "bClassificationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "cPlacementDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dEnglishLanguageProficiencyDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "eDrugTestingPositionDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "fOfficefunctionDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "approvalDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "4DateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "veteransPreferenceForRifYesCheckBox": {
+      "type": "boolean"
+    },
+    "noCheckBox": {
+      "type": "boolean"
+    },
+    "eDrugTestingPositionYesCheckBox": {
+      "type": "boolean"
+    },
+    "eNoCheckBox": {
+      "type": "boolean"
+    },
+    "totalSalary": {
+      "type": "number"
+    },
+    "totalSalaryaward": {
+      "type": "number"
+    },
+    "employeeData23VeteransPreference1None25point310pointdisability410pointcompensable510pointother610pointcompensable30": {
+      "type": "string"
+    },
+    "tenure0None2Conditional1Permanent3Indefinite": {
+      "type": "string"
+    },
+    "occupationCode": {
+      "type": "string"
+    },
+    "workSchedule": {
+      "type": "string"
+    },
+    "supervisoryStatus": {
+      "type": "string"
+    },
+    "educationalLevel": {
+      "type": "string"
+    },
+    "yrDegreeTrained": {
+      "type": "string"
+    },
+    "gradeOrLevel": {
+      "type": "string"
+    },
+    "dutyStationCode": {
+      "type": "string"
+    },
+    "partARequestingOfficeAlsoCompletePartBItems1722323336And391ActionsRequested": {
+      "type": "string"
+    },
+    "requestNumber": {
+      "type": "string"
+    },
+    "partBForPreparationOfSF50UseOnlyCodesInFPMSupplement2921ShowAllDatesInMonthdayyearOrder1NameLastFirstMiddle": {
+      "type": "string"
+    },
+    "firstAction5aCode": {
+      "type": "string"
+    },
+    "5bNatureOfAction": {
+      "type": "string"
+    },
+    "5cCode": {
+      "type": "string"
+    },
+    "5dLegalAuthority": {
+      "type": "string"
+    },
+    "5eCode": {
+      "type": "string"
+    },
+    "5fLegalAuthority": {
+      "type": "string"
+    },
+    "secondAction6aCode": {
+      "type": "string"
+    },
+    "6bNatureOfAction": {
+      "type": "string"
+    },
+    "6cCode": {
+      "type": "string"
+    },
+    "6dLegalAuthority": {
+      "type": "string"
+    },
+    "6eCode": {
+      "type": "string"
+    },
+    "6fLegalAuthority": {
+      "type": "string"
+    },
+    "fromPositionTitleAndNumber": {
+      "type": "string"
+    },
+    "payPlan": {
+      "type": "string"
+    },
+    "stepOrRate": {
+      "type": "string"
+    },
+    "payBasis": {
+      "type": "string"
+    },
+    "12ABasicPay": {
+      "type": "string"
+    },
+    "12BLocalityAdjustment": {
+      "type": "string"
+    },
+    "12CAdjustedBasicPay": {
+      "type": "string"
+    },
+    "12DOtherPay": {
+      "type": "string"
+    },
+    "nameAndLocationOfPositionsOrganization": {
+      "type": "string"
+    },
+    "toPositionTitleAndNumber": {
+      "type": "string"
+    },
+    "20ABasicPay": {
+      "type": "string"
+    },
+    "20BLocalityAdjustment": {
+      "type": "string"
+    },
+    "20CAdjustedBasicPay": {
+      "type": "string"
+    },
+    "20DOtherPay": {
+      "type": "string"
+    },
+    "agencyUse": {
+      "type": "string"
+    },
+    "fegli": {
+      "type": "string"
+    },
+    "annuitantIndicator": {
+      "type": "string"
+    },
+    "payRateDeterminant": {
+      "type": "string"
+    },
+    "retirementPlan": {
+      "type": "string"
+    },
+    "parttimeHoursPerBiweeklyPayPeriod": {
+      "type": "string"
+    },
+    "positionData34PositionOccupied1CompetitiveService2ExceptedService3SESGeneral4SESCareerReserved": {
+      "type": "string"
+    },
+    "fLSACategoryEExemptNNonexempt": {
+      "type": "string"
+    },
+    "appropriationCode": {
+      "type": "string"
+    },
+    "agencyDataIaPos": {
+      "type": "string"
+    },
+    "newPosition": {
+      "type": "string"
+    },
+    "regradedPosition": {
+      "type": "string"
+    },
+    "vice": {
+      "type": "string"
+    },
+    "qualificationStandardsUsed": {
+      "type": "string"
+    },
+    "academicDiscipline": {
+      "type": "string"
+    },
+    "functionalClass": {
+      "type": "string"
+    },
+    "citizenship1Usa8Other": {
+      "type": "string"
+    },
+    "vietnamEraVetYYesNNo": {
+      "type": "string"
+    },
+    "f": {
+      "type": "string"
+    },
+    "ifYes": {
+      "type": "string"
+    },
+    "partFRemarksForSF50": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/SF52.pdf",
+    "totalFields": 104,
+    "composedFields": 50,
+    "coveragePercent": 48,
+    "xfaLabelCount": 102,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:30.707Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

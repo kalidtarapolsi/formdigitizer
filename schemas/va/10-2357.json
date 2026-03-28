@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2357",
+  "type": "object",
+  "properties": {
+    "startDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "stopDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "medicationAndDosage": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "roomAndBedNo": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "init": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2357.pdf",
+    "totalFields": 7,
+    "composedFields": 3,
+    "coveragePercent": 43,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:02:12.965Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

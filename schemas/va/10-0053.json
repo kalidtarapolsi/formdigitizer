@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0053",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "wardClinicRoomNumberInspectedThisIsAReadOnlyFieldThatAutopopulatedFromPage1": {
+      "type": "string"
+    },
+    "employeeReviewerPrintedName": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-0053-Fill.pdf",
+    "totalFields": 117,
+    "composedFields": 7,
+    "coveragePercent": 6,
+    "xfaLabelCount": 4,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:06:10.535Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

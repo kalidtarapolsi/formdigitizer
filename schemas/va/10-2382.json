@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2382",
+  "type": "object",
+  "properties": {
+    "from": {
+      "type": "string",
+      "format": "date"
+    },
+    "reported": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signatureOfChiefMedicalAdministrationServiceDesignee": {
+      "type": "string",
+      "format": "date"
+    },
+    "to": {
+      "type": "string"
+    },
+    "departed": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2382.pdf",
+    "totalFields": 6,
+    "composedFields": 4,
+    "coveragePercent": 67,
+    "xfaLabelCount": 6,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:12:49.545Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2068a",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "comfortConstructionAsAMinimumStrongParticleBoardSufficientToSupportTheWeightOfAnAdultHumanBodyAcceptable": {
+      "type": "string"
+    },
+    "nameOfDeceased": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "nameAndAddressOfContractFuneralDirector": {
+      "type": "string"
+    },
+    "inspectionCriteriaAEmbalmingOfBodyAcceptable": {
+      "type": "string"
+    },
+    "bodyAppropriatelyClothedForBurialAcceptable": {
+      "type": "string"
+    },
+    "bodyPresentsGoodAppearanceAndIsProperlyPlacedInCasketAcceptable": {
+      "type": "string"
+    },
+    "unacceptableExplainInRemarks": {
+      "type": "string"
+    },
+    "aUnacceptableExplainInRemarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2068a.pdf",
+    "totalFields": 16,
+    "composedFields": 6,
+    "coveragePercent": 38,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:02:08.584Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

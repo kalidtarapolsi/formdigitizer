@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491H",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "expectedDateRequirementsWillBeMet": {
+      "type": "string",
+      "format": "date"
+    },
+    "iIntendToSubmitMyApplicationsForEmploymentNoLaterThan": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "clinicalProgram": {
+      "type": "string"
+    },
+    "ofDegree": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491h-fill%20(Notice%20of%20Approaching%20Graduation).pdf",
+    "totalFields": 16,
+    "composedFields": 15,
+    "coveragePercent": 94,
+    "xfaLabelCount": 11,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:29:44.555Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

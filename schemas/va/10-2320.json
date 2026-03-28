@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2320",
+  "type": "object",
+  "properties": {
+    "dateLine1Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine2Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine3Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine4Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine5Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine6Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine7Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine8Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine9Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine10Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine11Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine12Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine13Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine14Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine15Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine16Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine17Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine18Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine19Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine20Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine21Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine22Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine23Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateLine24Of24": {
+      "type": "string",
+      "format": "date"
+    },
+    "signatureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "prescriptionOrVoucherNumber": {
+      "type": "string"
+    },
+    "quantityReceivedOrProductFormulated": {
+      "type": "string"
+    },
+    "pageNumber": {
+      "type": "string"
+    },
+    "nomenclature": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "balanceCarriedForward": {
+      "type": "string"
+    },
+    "patientsNameOrPrescribedOrOrderedByMDDdsRNRph": {
+      "type": "string"
+    },
+    "quantityPrescribedOrOrdered": {
+      "type": "string"
+    },
+    "quantityUsedInProductFormulation": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2320-fill.pdf",
+    "totalFields": 174,
+    "composedFields": 26,
+    "coveragePercent": 15,
+    "xfaLabelCount": 174,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:04:02.594Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

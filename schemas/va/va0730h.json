@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0730h",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "week5EndingDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaid": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "disapprovedCheckBox": {
+      "type": "boolean"
+    },
+    "subsidyAmountDollars": {
+      "type": "number"
+    },
+    "vaPercentage": {
+      "type": "number"
+    },
+    "ageFourthChild": {
+      "type": "string"
+    },
+    "4DChildsName": {
+      "type": "string"
+    },
+    "explanationForDisapproval": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "invoiceNumber": {
+      "type": "string"
+    },
+    "week1TotalChargesDollars": {
+      "type": "string"
+    },
+    "week2TotalChargesDollars": {
+      "type": "string"
+    },
+    "week3TotalChargesDollars": {
+      "type": "string"
+    },
+    "week4TotalChargesDollars": {
+      "type": "string"
+    },
+    "week5TotalChargesDollars": {
+      "type": "string"
+    },
+    "monthlyTotalCalculatedDollars": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0730h.pdf",
+    "totalFields": 43,
+    "composedFields": 33,
+    "coveragePercent": 77,
+    "xfaLabelCount": 20,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:27:57.676Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

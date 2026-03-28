@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1313-4",
+  "type": "object",
+  "properties": {
+    "estimatedExpensesOfProject": {
+      "type": "number"
+    },
+    "totalOperatingExpensesFifthYearDollarAmount": {
+      "type": "number"
+    },
+    "justificationOfItemsPage3": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-4-fill.pdf",
+    "totalFields": 34,
+    "composedFields": 32,
+    "coveragePercent": 94,
+    "xfaLabelCount": 3,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:45.519Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

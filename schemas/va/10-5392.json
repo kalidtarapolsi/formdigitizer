@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5392",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "datesOfService": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "organizationName": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine20Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine19Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine18Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine17Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine16Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine15Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine14Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine13Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine12Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine11Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine10Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine9Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine8Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine7Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine6Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine5Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine4Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine3Of20": {
+      "type": "string"
+    },
+    "individualNamePleasePrintLine2Of20": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5392-fill.pdf",
+    "totalFields": 120,
+    "composedFields": 61,
+    "coveragePercent": 51,
+    "xfaLabelCount": 120,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:15:19.706Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-376",
+  "type": "object",
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "dearDoctor": {
+      "type": "string"
+    },
+    "relatedToADiagnosisOf": {
+      "type": "string"
+    },
+    "regarding": {
+      "type": "string"
+    },
+    "weAreRequestingCardiacPreoperativeRiskStratificationFor": {
+      "type": "string"
+    },
+    "weAreRecommendingThatOurPatientHold": {
+      "type": "string"
+    },
+    "weAreRecommendingThatOurPatientHoldFor": {
+      "type": "string"
+    },
+    "numberOfDaysAfterProcedure": {
+      "type": "string"
+    },
+    "recommendationsRegardingRiskStratificationAndIncludeSupportingDocumentationIfRelevantIeRecentLHCMPSEcho": {
+      "type": "string"
+    },
+    "ifYes": {
+      "type": "string"
+    },
+    "at": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-376-Cardiac_Pre-Operative_Evaluation_Risk_Stratification_Request%20(1).pdf",
+    "totalFields": 18,
+    "composedFields": 10,
+    "coveragePercent": 56,
+    "xfaLabelCount": 20,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:07:50.551Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-329",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "otherPertinentInformationFromPhysicianPhysicianTrainee": {
+      "type": "string"
+    },
+    "providingReferralsForInducedAbortions": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-329.pdf",
+    "totalFields": 21,
+    "composedFields": 14,
+    "coveragePercent": 67,
+    "xfaLabelCount": 6,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:06:40.648Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0383",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateInitiated": {
+      "type": "string",
+      "format": "date"
+    },
+    "recordReviewDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "ifYesClinicalExaminationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "firstNotificationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "specifySelectFromDropdownList": {
+      "type": "string"
+    },
+    "catastrophicallyDisabledConditionsClaimedByTheVeteran": {
+      "type": "string"
+    },
+    "conditionsThatVeteranQualifiesForByRecordReviewFillOutPage1OfVAForm100383": {
+      "type": "string"
+    },
+    "clinicalExamneeded": {
+      "type": "string"
+    },
+    "conditionsThatVeteranQualifiesForByClinicalExaminationFillOutPage1OfVAForm100383": {
+      "type": "string"
+    },
+    "veteranRepresentativesName": {
+      "type": "string"
+    },
+    "veteranAndVeteranRepresentativeNotifiedByMail": {
+      "type": "string"
+    },
+    "patientNameLastFirstAndMiddle": {
+      "type": "string"
+    },
+    "otherIdentifyingPatientInformation": {
+      "type": "string"
+    },
+    "aScoreOf30OrLowerUsingTheGlobalAssessmentOfFunctioningGAF": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "catdis": {
+      "type": "string"
+    },
+    "as": {
+      "type": "string"
+    },
+    "rationaleForDisapproval": {
+      "type": "string"
+    },
+    "approval": {
+      "type": "string"
+    },
+    "initials": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0383.pdf",
+    "totalFields": 57,
+    "composedFields": 24,
+    "coveragePercent": 42,
+    "xfaLabelCount": 34,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:15:13.223Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

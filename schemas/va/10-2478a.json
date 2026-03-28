@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2478a",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "rx1": {
+      "type": "string"
+    },
+    "rx2": {
+      "type": "string"
+    },
+    "rx3": {
+      "type": "string"
+    },
+    "rx4": {
+      "type": "string"
+    },
+    "rx5": {
+      "type": "string"
+    },
+    "for1": {
+      "type": "string"
+    },
+    "for2": {
+      "type": "string"
+    },
+    "for3": {
+      "type": "string"
+    },
+    "for4": {
+      "type": "string"
+    },
+    "for5": {
+      "type": "string"
+    },
+    "code1": {
+      "type": "string"
+    },
+    "code2": {
+      "type": "string"
+    },
+    "code3": {
+      "type": "string"
+    },
+    "code4": {
+      "type": "string"
+    },
+    "code5": {
+      "type": "string"
+    },
+    "other2": {
+      "type": "string"
+    },
+    "other3": {
+      "type": "string"
+    },
+    "other1": {
+      "type": "string"
+    },
+    "other4": {
+      "type": "string"
+    },
+    "lastRefill": {
+      "type": "string"
+    },
+    "specialNotice": {
+      "type": "string"
+    },
+    "rxSpecial2": {
+      "type": "string"
+    },
+    "rxSpecial3": {
+      "type": "string"
+    },
+    "rxSpecial4": {
+      "type": "string"
+    },
+    "rxSpecial5": {
+      "type": "string"
+    },
+    "rxSpecial6": {
+      "type": "string"
+    },
+    "rxSpecial7": {
+      "type": "string"
+    },
+    "rxSpecial1": {
+      "type": "string"
+    },
+    "rxSpecial8": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2478a-fill.pdf",
+    "totalFields": 31,
+    "composedFields": 2,
+    "coveragePercent": 6,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:05.138Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

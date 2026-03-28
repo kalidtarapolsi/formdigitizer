@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1274A",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateVamcNotifiedOfAction": {
+      "type": "string",
+      "format": "date"
+    },
+    "meritReviewDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "nameinstrument": {
+      "type": "string"
+    },
+    "nametitleinvestigator": {
+      "type": "string"
+    },
+    "namerdcommittee": {
+      "type": "string"
+    },
+    "justificationOfInstrumentNeedIncludingUse": {
+      "type": "string"
+    },
+    "withdrawn": {
+      "type": "string"
+    },
+    "new": {
+      "type": "string"
+    },
+    "ongoing": {
+      "type": "string"
+    },
+    "careerDevelopment": {
+      "type": "string"
+    },
+    "nonfunded": {
+      "type": "string"
+    },
+    "items37HaveBeenVerifiedByAaacosrd": {
+      "type": "string"
+    },
+    "rehabRd": {
+      "type": "string"
+    },
+    "cooperativeStudies": {
+      "type": "string"
+    },
+    "hsrd": {
+      "type": "string"
+    },
+    "blcsRd": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "string"
+    },
+    "disapproved": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "initials": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1274A-fill.pdf",
+    "totalFields": 29,
+    "composedFields": 9,
+    "coveragePercent": 31,
+    "xfaLabelCount": 23,
+    "needsReviewCount": 2,
+    "generatedAt": "2026-03-28T21:31:27.689Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

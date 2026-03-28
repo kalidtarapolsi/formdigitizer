@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2804b",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "form10subform0textfield140": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "anterior": {
+      "type": "string"
+    },
+    "posterior": {
+      "type": "string"
+    },
+    "toothShade": {
+      "type": "string"
+    },
+    "gingivalTintClickToChooseOne": {
+      "type": "string"
+    },
+    "clickToChooseOne": {
+      "type": "string"
+    },
+    "impression": {
+      "type": "string"
+    },
+    "bite": {
+      "type": "string"
+    },
+    "articulator": {
+      "type": "string"
+    },
+    "masterCast": {
+      "type": "string"
+    },
+    "opposingCast": {
+      "type": "string"
+    },
+    "submittingFacilityCityAndState": {
+      "type": "string"
+    },
+    "campus": {
+      "type": "string"
+    },
+    "submittingDentist": {
+      "type": "string"
+    },
+    "chromeCobalt": {
+      "type": "string"
+    },
+    "mandibular": {
+      "type": "string"
+    },
+    "maxillary": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804b_fill.pdf",
+    "totalFields": 25,
+    "composedFields": 7,
+    "coveragePercent": 28,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:03:59.961Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

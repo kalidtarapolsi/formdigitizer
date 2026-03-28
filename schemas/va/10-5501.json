@@ -1,0 +1,544 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5501",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "peDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "peDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "peDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "peDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "peDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "peDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "peDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "peNxtDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "peNxtDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "peNxtDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "peNxtDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "peNxtDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "peNxtDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolNxtDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolNxtDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolNxtDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolNxtDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolNxtDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolNxtDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayNxtDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayNxtDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayNxtDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayNxtDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayNxtDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayNxtDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemNxtDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemNxtDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemNxtDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemNxtDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemNxtDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemNxtDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinNxtDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinNxtDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinNxtDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinNxtDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinNxtDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinNxtDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgNxtDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgNxtDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgNxtDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgNxtDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgNxtDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgNxtDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalNxtDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalNxtDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalNxtDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalNxtDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalNxtDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalNxtDate7": {
+      "type": "string",
+      "format": "date"
+    },
+    "dentalNxtDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "admitDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "discloseDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "admitDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "discloseDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "discloseDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "admitDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "discloseDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "admitDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "peNxtDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "xrayNxtDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "serolNxtDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "chemNxtDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "urinNxtDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "ekgNxtDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "disability1": {
+      "type": "string"
+    },
+    "disability2": {
+      "type": "string"
+    },
+    "disability3": {
+      "type": "string"
+    },
+    "disability4": {
+      "type": "string"
+    },
+    "claimNbr": {
+      "type": "string"
+    },
+    "rNbr1": {
+      "type": "string"
+    },
+    "coNbr1": {
+      "type": "string"
+    },
+    "detailClass1": {
+      "type": "string"
+    },
+    "rNbr2": {
+      "type": "string"
+    },
+    "coNbr2": {
+      "type": "string"
+    },
+    "detailClass2": {
+      "type": "string"
+    },
+    "detailClass3": {
+      "type": "string"
+    },
+    "coNbr3": {
+      "type": "string"
+    },
+    "rNbr3": {
+      "type": "string"
+    },
+    "rNbr4": {
+      "type": "string"
+    },
+    "coNbr4": {
+      "type": "string"
+    },
+    "detailClass4": {
+      "type": "string"
+    },
+    "vetName": {
+      "type": "string"
+    },
+    "jan": {
+      "type": "string"
+    },
+    "feb": {
+      "type": "string"
+    },
+    "mar": {
+      "type": "string"
+    },
+    "apr": {
+      "type": "string"
+    },
+    "may": {
+      "type": "string"
+    },
+    "jun": {
+      "type": "string"
+    },
+    "jul": {
+      "type": "string"
+    },
+    "aug": {
+      "type": "string"
+    },
+    "sep": {
+      "type": "string"
+    },
+    "oct": {
+      "type": "string"
+    },
+    "nov": {
+      "type": "string"
+    },
+    "dec": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5501-fill.pdf",
+    "totalFields": 138,
+    "composedFields": 112,
+    "coveragePercent": 81,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:04:23.829Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

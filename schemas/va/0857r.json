@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "0857r",
+  "type": "object",
+  "properties": {
+    "dateOfReview": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAccommodationWasFirstImplemented": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDMOSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "minorAdjustmentsNeeded": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "describeIfDisclosed": {
+      "type": "string"
+    },
+    "nameOfEmployee": {
+      "type": "string"
+    },
+    "officeDepartment": {
+      "type": "string"
+    },
+    "dMOName": {
+      "type": "string"
+    },
+    "rACName": {
+      "type": "string"
+    },
+    "reviewConductedBy": {
+      "type": "string"
+    },
+    "section1CurrentAccommodationOverview8AccommodationsCurrentlyInPlace": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "otherAction": {
+      "type": "string"
+    },
+    "newAccommodation": {
+      "type": "string"
+    },
+    "explainOtherAction": {
+      "type": "string"
+    },
+    "section4NoteSection14Notes": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0857r.pdf",
+    "totalFields": 26,
+    "composedFields": 11,
+    "coveragePercent": 42,
+    "xfaLabelCount": 21,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:14:51.912Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

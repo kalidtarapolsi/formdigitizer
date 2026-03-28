@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0459",
+  "type": "object",
+  "properties": {
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "form10subform0textfield3210": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield3211": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0459-fill.pdf",
+    "totalFields": 5,
+    "composedFields": 3,
+    "coveragePercent": 60,
+    "xfaLabelCount": 1,
+    "needsReviewCount": 2,
+    "generatedAt": "2026-03-28T21:35:05.873Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

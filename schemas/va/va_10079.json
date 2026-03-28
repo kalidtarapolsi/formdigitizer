@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA 10079",
+  "type": "object",
+  "properties": {
+    "dateOfCostComparison": {
+      "type": "string",
+      "format": "date"
+    },
+    "travelersEstimatedActualCosts3DepartureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "returnDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "governmentsEstimatedCosts13DepartureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "otherEstimatedTravelerExpenses9APersonallyProcuredAirfare": {
+      "type": "number"
+    },
+    "otherEstimatedTravelerExpenseDescriptionLine1Of6": {
+      "type": "number"
+    },
+    "expenseAmountLine1Of6": {
+      "type": "number"
+    },
+    "otherEstimatedTravelerExpenseDescriptionLine2Of6": {
+      "type": "number"
+    },
+    "expenseAmountLine2Of6": {
+      "type": "number"
+    },
+    "otherEstimatedTravelerExpenseDescriptionLine3Of6": {
+      "type": "number"
+    },
+    "expenseAmountLine3Of6": {
+      "type": "number"
+    },
+    "otherEstimatedTravelerExpenseDescriptionLine4Of6": {
+      "type": "number"
+    },
+    "expenseAmountLine4Of6": {
+      "type": "number"
+    },
+    "otherEstimatedTravelerExpenseDescriptionLine5Of6": {
+      "type": "number"
+    },
+    "expenseAmountLine5Of6": {
+      "type": "number"
+    },
+    "otherEstimatedTravelerExpenseDescriptionLine6Of6": {
+      "type": "number"
+    },
+    "expenseAmountLine6Of6": {
+      "type": "number"
+    },
+    "subtotalOfEstimatedExpensesBlock9sThisIsAReadOnlyFieldThatAutopopulates": {
+      "type": "number"
+    },
+    "otherEstimatedGovernmentExpenses17ATerminalTNCTaxiShuttle": {
+      "type": "number"
+    },
+    "otherEstimatedGovernmentExpenseDescriptionLine1Of5": {
+      "type": "number"
+    },
+    "expenseAmountLine1Of5": {
+      "type": "number"
+    },
+    "otherEstimatedGovernmentExpenseDescriptionLine2Of5": {
+      "type": "number"
+    },
+    "expenseAmountLine2Of5": {
+      "type": "number"
+    },
+    "otherEstimatedGovernmentExpenseDescriptionLine3Of5": {
+      "type": "number"
+    },
+    "expenseAmountLine3Of5": {
+      "type": "number"
+    },
+    "otherEstimatedGovernmentExpenseDescriptionLine4Of5": {
+      "type": "number"
+    },
+    "expenseAmountLine4Of5": {
+      "type": "number"
+    },
+    "otherEstimatedGovernmentExpenseDescriptionLine5Of5": {
+      "type": "number"
+    },
+    "expenseAmountLine5Of5": {
+      "type": "number"
+    },
+    "subtotalOfEstimatedExpensesBlock17sThisIsAReadOnlyFieldThatAutopopulates": {
+      "type": "number"
+    },
+    "costComparisonAmountToBeReimbursedToTravelerThisIsAReadOnlyFieldThatAutocalculates": {
+      "type": "number"
+    },
+    "travelersNameLastFirst": {
+      "type": "string"
+    },
+    "gSAApplicableRatesThisIsAReadOnlyFieldThatAutopopulates": {
+      "type": "string"
+    },
+    "numberOfMilesRoundTrip": {
+      "type": "string"
+    },
+    "totalCostOfMileageThisIsAReadOnlyFieldThatAutocalculates": {
+      "type": "string"
+    },
+    "aAdditionalTVLDayPerDiemToTDY": {
+      "type": "string"
+    },
+    "additionalTVLDayPerDiemFromTDY": {
+      "type": "string"
+    },
+    "baggageFees": {
+      "type": "string"
+    },
+    "additionalRemarks": {
+      "type": "string"
+    },
+    "travelersEstimatedActualTotalThisIsAReadOnlyFieldThatAutocalculates": {
+      "type": "string"
+    },
+    "modeOfTravelDetailsAirplaneTrainRentalCarGovEtcNote1POVMayNeverBeDirectedNote2DocumentationOfTheGovernmentsCostMustBeIncludedWithThisForm": {
+      "type": "string"
+    },
+    "directedModeCost": {
+      "type": "string"
+    },
+    "rentalCarAtTDYSite": {
+      "type": "string"
+    },
+    "fuelForTDYRentalCarGasolineOrEVCharge": {
+      "type": "string"
+    },
+    "governmentsEstimatedTotalThisIsAReadOnlyFieldThatAutocalculates": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10079.pdf",
+    "totalFields": 49,
+    "composedFields": 33,
+    "coveragePercent": 67,
+    "xfaLabelCount": 52,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:34:26.594Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

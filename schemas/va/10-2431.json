@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2431",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfRequest": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "disabilityApplianceRequired": {
+      "type": "string"
+    },
+    "titleOfPrescribingPhysician": {
+      "type": "string"
+    },
+    "buildingNum": {
+      "type": "string"
+    },
+    "roomNumber": {
+      "type": "string"
+    },
+    "descriptionOfAppliance": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "deliveryHome": {
+      "type": "string"
+    },
+    "deliveryProsthetics": {
+      "type": "string"
+    },
+    "deliveryOther": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "detailsOfActionTaken": {
+      "type": "string"
+    },
+    "vendorName": {
+      "type": "string"
+    },
+    "itemName": {
+      "type": "string"
+    },
+    "hcpcs": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "string"
+    },
+    "stockIssued": {
+      "type": "string"
+    },
+    "requestDisapproved": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2431-fill%20(1).pdf",
+    "totalFields": 26,
+    "composedFields": 11,
+    "coveragePercent": 42,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:02:29.820Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

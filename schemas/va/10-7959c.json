@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7959C",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "partAEffectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "partBEffectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "partCEffectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "partDEffectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "partDTerminationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "insurance1EffectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "insurance1TerminationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "insurance2EffectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "insurance2TerminationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "doyouhaveotherinsyesno": {
+      "type": "boolean"
+    },
+    "applicantSexRadioButtons2": {
+      "type": "string"
+    },
+    "partAradioButtonList": {
+      "type": "string"
+    },
+    "partBradioButtonList": {
+      "type": "string"
+    },
+    "partCradioButtonList": {
+      "type": "string"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "ifMedigapSpecifyABCDFGKLMNSelectFromDropdownList": {
+      "type": "string"
+    },
+    "section3OtherHealthInsuranceProvideAllPeriodsOfOHICoverageSinceBecomingChampVAEligibleAndAttachACopyOfAnyActiveHealthInsuranceCardsFrontAndBackNameOfInsuranceNumber1": {
+      "type": "string"
+    },
+    "nameOfInsuranceNumber2": {
+      "type": "string"
+    },
+    "partCMedicareAdvantageReplacementPlanCarrierName": {
+      "type": "string"
+    },
+    "partDMBI": {
+      "type": "string"
+    },
+    "what": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959c.pdf",
+    "totalFields": 51,
+    "composedFields": 37,
+    "coveragePercent": 73,
+    "xfaLabelCount": 45,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:31:26.198Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

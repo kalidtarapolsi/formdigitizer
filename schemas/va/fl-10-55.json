@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FL-10-55",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "veteransName": {
+      "type": "string"
+    },
+    "authorityIsGrantedToRepairTheApplianceDescribedBelowForTheAbovenamedVeteran": {
+      "type": "string"
+    },
+    "inReplyReferTo": {
+      "type": "string"
+    },
+    "dearRecipientName": {
+      "type": "string"
+    },
+    "withReferenceToYourRequestOf": {
+      "type": "string"
+    },
+    "whenRepairsAreCompleted": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/FL1055NC.pdf",
+    "totalFields": 9,
+    "composedFields": 5,
+    "coveragePercent": 56,
+    "xfaLabelCount": 9,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:33:04.350Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

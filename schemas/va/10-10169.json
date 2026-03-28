@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10169",
+  "type": "object",
+  "properties": {
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "participationInTestingOfMRIPulseSequencesNeededForMRIOptimizationAsPartOfRadiologyServiceQualityImprovementProgramImportantThisFormMustAlwaysBeCompletedPriorToVolunteerParticipationInThisQualityImprovementActivityEligibleVolunteersAreLimitedToCurrentVHAEmployeesIncludingVHATraineesInternsResidentsEtcThisIsNotAVolunteerActivityForVolunteersInVAVoluntaryServiceWhoServeOnAWithoutCompensationWOCBasis1PurposeAndConductOfTestingOfMRIPulseSequencesForMRIOptimizationIUnderstandThatIAmBeingAskedToVolunteerToUndergoMagneticResonanceImagingMRIToOptimizePulseSequencesForQualityImprovementPurposesIUnderstandThatMyVoluntaryParticipationIsIntendedToAssistRadiologyServiceAtInsertNameOfVAMedicalFacility": {
+      "type": "string"
+    },
+    "incidentalFindings": {
+      "type": "string"
+    },
+    "printedNameOfVolunteer": {
+      "type": "string"
+    },
+    "officialVATitle": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10169%20Volunteer%20Consent%20Form.pdf",
+    "totalFields": 10,
+    "composedFields": 7,
+    "coveragePercent": 70,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:02:05.225Z",
+    "pageCount": 3,
+    "status": "digitized"
+  }
+}

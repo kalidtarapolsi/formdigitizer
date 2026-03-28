@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA1100",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateToBeReceived": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "iAuthorizeAPayrollDeductionOfEnterTheAmountOfThePayrollDeductionPerPayPeriodBeginningWithTheSalaryCheckToBeReceivedOn": {
+      "type": "boolean"
+    },
+    "iNameOfDebtor": {
+      "type": "number"
+    },
+    "indebtednessToTheDepartmentOfVeteransAffairsInTheAmountOf": {
+      "type": "number"
+    },
+    "iPromiseToRepayTheDepartmentOfVeteransAffairsByPayingMinimumMonthlyPaymentsOfNotLessThanMinimumPaymentAmount": {
+      "type": "number"
+    },
+    "payeeNumberIfKnown": {
+      "type": "string"
+    },
+    "personEntitled": {
+      "type": "string"
+    },
+    "receivableCode": {
+      "type": "string"
+    },
+    "herebyAcknowledgeMy": {
+      "type": "string"
+    },
+    "onOrBeforeTheEnterDayOfTheMonthDayOfEachMonth": {
+      "type": "string"
+    },
+    "beginning": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA1100.pdf",
+    "totalFields": 17,
+    "composedFields": 11,
+    "coveragePercent": 65,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:26:17.135Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

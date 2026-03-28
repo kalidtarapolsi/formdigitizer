@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2409",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vetSignatureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "socSignatureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "socialWorkerName": {
+      "type": "string"
+    },
+    "claimNbr": {
+      "type": "string"
+    },
+    "monthlyRate": {
+      "type": "string"
+    },
+    "vaStationName": {
+      "type": "string"
+    },
+    "vetName": {
+      "type": "string"
+    },
+    "payeeName": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2409-fill.pdf",
+    "totalFields": 13,
+    "composedFields": 8,
+    "coveragePercent": 62,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:50.201Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

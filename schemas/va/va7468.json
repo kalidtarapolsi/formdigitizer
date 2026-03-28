@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA7468",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "datesOfRecordsInclusiveFrom": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesOfRecordsInclusiveThru": {
+      "type": "string",
+      "format": "date"
+    },
+    "destroyAfterDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "depositionDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "fromOriginatingOffice": {
+      "type": "string"
+    },
+    "locationOfRecords3MailRoutingSymbol": {
+      "type": "string"
+    },
+    "locationOfRecords4RoomAndOrBuilding": {
+      "type": "string"
+    },
+    "referQuestionsTo5Name": {
+      "type": "string"
+    },
+    "instructions": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "numberOfContainers": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__TypeContainer_0_": {
+      "type": "string"
+    },
+    "cubicFeet": {
+      "type": "string"
+    },
+    "linearFeet": {
+      "type": "string"
+    },
+    "authority15ARecordsControlSchedule": {
+      "type": "string"
+    },
+    "itemNumber": {
+      "type": "string"
+    },
+    "pageNumber": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA7468.pdf",
+    "totalFields": 40,
+    "composedFields": 17,
+    "coveragePercent": 43,
+    "xfaLabelCount": 29,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:30:07.734Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

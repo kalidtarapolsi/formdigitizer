@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1223",
+  "type": "object",
+  "properties": {
+    "reviewDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "ifSubjectIsIncompetentAndSurrogateConsentIsObtainedHaveAllOfTheFollowingConditionsBeenMetATheResearchCantBeDoneOnCompetentSubjectsBThereIsNoRiskToTheSubjectOrIfRiskExistsTheDirectBenefitToSubjectIsSubstantiallyGreaterCIfAnIncompetentSubjectResistsHeWillNotHaveToParticipateDIfThereExistsAnyQuestionAboutTheSubjectsCompetencyTheBasisForDecisionOnCompetencyHasBeenFullyDescribedYes": {
+      "type": "string"
+    },
+    "membersOfMinorityGroupsAndWomenHaveBeenIncludedInTheStudyPopulationWheneverPossibleAndScientificallyDesirableYes": {
+      "type": "string"
+    },
+    "principalInvestigator": {
+      "type": "string"
+    },
+    "projectProgramTitle": {
+      "type": "string"
+    },
+    "vAMC": {
+      "type": "string"
+    },
+    "commentsIndicateIfExpeditedReview": {
+      "type": "string"
+    },
+    "committeeFindings1TheInformationGivenInTheInformedConsentUnderTheDescriptionOfResearchByInvestigatorIsCompleteAccurateAndUnderstandableToAResearchSubjectOrASurrogateWhoPossessesStandardReadingAndComprehensionSkillsYes": {
+      "type": "string"
+    },
+    "everyEffortHasBeenMadeToDecreaseRiskToSubjectsYes": {
+      "type": "string"
+    },
+    "thePotentialResearchBenefitsJustifyTheRiskToSubjectsYes": {
+      "type": "string"
+    },
+    "ifTheSubjectIsPaidThePaymentIsReasonableAndCommensurateWithTheSubjectsContributionYes": {
+      "type": "string"
+    },
+    "recommendationApprove": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1223-fill.pdf",
+    "totalFields": 22,
+    "composedFields": 8,
+    "coveragePercent": 36,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:49.886Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

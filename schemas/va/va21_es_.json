@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA21(ES)",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "ofDatesOfAllActiveService": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "characterOfDischarges": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "nameOfOrganization": {
+      "type": "string"
+    },
+    "ifYesGiveNameOfOrganizations": {
+      "type": "string"
+    },
+    "aIfYesGiveNameOfAgencyOrDepartment": {
+      "type": "string"
+    },
+    "nameOfOrganizationReadPenaltyBelow": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA21(ES).pdf",
+    "totalFields": 38,
+    "composedFields": 32,
+    "coveragePercent": 84,
+    "xfaLabelCount": 17,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:34:03.612Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}
