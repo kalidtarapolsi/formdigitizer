@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-1546",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "radioButtonList2": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "insurancePolicyNumber": {
+      "type": "string"
+    },
+    "policy4p2": {
+      "type": "string"
+    },
+    "nameOfFinancialInstitution": {
+      "type": "string"
+    },
+    "name1": {
+      "type": "string"
+    },
+    "daytime5": {
+      "type": "string"
+    },
+    "transitRoutingNumber": {
+      "type": "string"
+    },
+    "depositorAccountNumber": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-1546-are.pdf",
+    "status": "digitized",
+    "totalFields": 31,
+    "composedFields": 23,
+    "coveragePercent": 74,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:26.218Z"
+  }
+}

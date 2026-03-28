@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6381",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "1": {
+      "type": "string"
+    },
+    "2": {
+      "type": "string"
+    },
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amount7b": {
+      "type": "number"
+    },
+    "amountOfMonthlyLoanPayment": {
+      "type": "number"
+    },
+    "valoanNumber": {
+      "type": "string"
+    },
+    "nameOfSeller": {
+      "type": "string"
+    },
+    "statusOfSaleTransaction": {
+      "type": "string"
+    },
+    "agreedPurchasePrice": {
+      "type": "string"
+    },
+    "salePrice": {
+      "type": "string"
+    },
+    "lendersLoanNumber": {
+      "type": "string"
+    },
+    "nameOfServicer": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "providedVaforms": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "paymentsEnclosedForCreditReport": {
+      "type": "string"
+    },
+    "nameOfLoaner": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6381-are.pdf",
+    "status": "digitized",
+    "totalFields": 30,
+    "composedFields": 12,
+    "coveragePercent": 40,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:37:27.902Z"
+  }
+}

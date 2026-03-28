@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-534a",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSeparation": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBoxIHaveLivedContinuouslyWithTheVeteranFromDateOfMarriageToDateOfDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBoxIHaveNotLivedContinuouslyWithTheVeteranFromDateOfMarriageToDateOfDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkingAccount": {
+      "type": "boolean"
+    },
+    "childrenName1": {
+      "type": "string"
+    },
+    "childrenName2": {
+      "type": "string"
+    },
+    "childrenName3": {
+      "type": "string"
+    },
+    "childrenName4": {
+      "type": "string"
+    },
+    "relationToClaimant1": {
+      "type": "string"
+    },
+    "relationToClaimant2": {
+      "type": "string"
+    },
+    "relationToClaimant3": {
+      "type": "string"
+    },
+    "relationToClaimant4": {
+      "type": "string"
+    },
+    "nameOfFinancialInstitution": {
+      "type": "string"
+    },
+    "reasonForSeparation": {
+      "type": "string"
+    },
+    "nameAndRankOfMilitaryCasualtyAssistanceOfficer": {
+      "type": "string"
+    },
+    "durationOfSeparation": {
+      "type": "string"
+    },
+    "iWantMyVaPaymentToBeDirectlyDepositedToMyFinancialAccount": {
+      "type": "string"
+    },
+    "iDoNotWantMyVaPaymentToBeDirectlyDepositedToMyFinancialAccount": {
+      "type": "string"
+    },
+    "savingsAccount": {
+      "type": "string"
+    },
+    "placeBirth1": {
+      "type": "string"
+    },
+    "placeBirth2": {
+      "type": "string"
+    },
+    "placeBirth3": {
+      "type": "string"
+    },
+    "placeBirth4": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "routingNumber": {
+      "type": "string"
+    },
+    "printedNameOfClaimant": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-534a-are.pdf",
+    "status": "digitized",
+    "totalFields": 64,
+    "composedFields": 54,
+    "coveragePercent": 84,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:59.607Z"
+  }
+}

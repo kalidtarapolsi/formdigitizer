@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10270",
+  "type": "object",
+  "properties": {
+    "mailingAddressOfEducationalAndTrainingInstitution": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateField1": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "nameOfSchoolFinancialRepresentativeLumpSumWorkStudyProgramPointOfContact": {
+      "type": "number"
+    },
+    "numberOfVaWorkStudyStudents": {
+      "type": "string"
+    },
+    "numberOfWorkStudyStudentsAtAllSites": {
+      "type": "string"
+    },
+    "nameWorkStudy": {
+      "type": "string"
+    },
+    "nameOfEducationalAndTrainingInstitutionEti": {
+      "type": "string"
+    },
+    "facilityCode": {
+      "type": "string"
+    },
+    "dropDownList1": {
+      "type": "string"
+    },
+    "form10subform2numericfield20": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform2numericfield21": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "eMail": {
+      "type": "string"
+    },
+    "titleOfAuthorizingOfficial": {
+      "type": "string"
+    },
+    "printNameOfAuthorizingOfficial": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10270-are.pdf",
+    "status": "digitized",
+    "totalFields": 23,
+    "composedFields": 15,
+    "coveragePercent": 65,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 2,
+    "pageCount": 5,
+    "generatedAt": "2026-03-28T17:37:58.255Z"
+  }
+}

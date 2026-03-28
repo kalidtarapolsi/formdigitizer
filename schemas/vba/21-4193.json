@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-4193",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "nameAndAddressTo": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateOffenseCommittedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfConvictionMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "scheduledReleaseDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfConfinementFollowingConvictionMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEnteredProgramMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "relationshipToVeteranIfOtherThanVeteran": {
+      "type": "string"
+    },
+    "nameAndTitleOfInstitutionalOfficial": {
+      "type": "string"
+    },
+    "lengthOfSentence": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "nameAndAdressFrom": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4193-are.pdf",
+    "status": "digitized",
+    "totalFields": 47,
+    "composedFields": 33,
+    "coveragePercent": 70,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:36:18.487Z"
+  }
+}

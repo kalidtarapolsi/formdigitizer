@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-4718a",
+  "type": "object",
+  "properties": {
+    "addressOfFinancialInstitution": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateF1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateF2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateF3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateF4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned2": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amountE1": {
+      "type": "number"
+    },
+    "amountE2": {
+      "type": "number"
+    },
+    "amountE3": {
+      "type": "number"
+    },
+    "amountE4": {
+      "type": "number"
+    },
+    "nameOfFinancialInstitution": {
+      "type": "string"
+    },
+    "a3": {
+      "type": "string"
+    },
+    "nameOfFiduciary": {
+      "type": "string"
+    },
+    "nameOfBeneficiary": {
+      "type": "string"
+    },
+    "a1": {
+      "type": "string"
+    },
+    "a2": {
+      "type": "string"
+    },
+    "a4": {
+      "type": "string"
+    },
+    "accountNumberB1": {
+      "type": "string"
+    },
+    "accountNumberB2": {
+      "type": "string"
+    },
+    "accountNumberB3": {
+      "type": "string"
+    },
+    "accountNumberB4": {
+      "type": "string"
+    },
+    "depositorC1": {
+      "type": "string"
+    },
+    "depositorC2": {
+      "type": "string"
+    },
+    "depositorC3": {
+      "type": "string"
+    },
+    "depositorC4": {
+      "type": "string"
+    },
+    "balanceD1": {
+      "type": "string"
+    },
+    "balanceD2": {
+      "type": "string"
+    },
+    "balanceD3": {
+      "type": "string"
+    },
+    "balanceD4": {
+      "type": "string"
+    },
+    "interestRateG1": {
+      "type": "string"
+    },
+    "interestRateG2": {
+      "type": "string"
+    },
+    "interestRateG3": {
+      "type": "string"
+    },
+    "interestRateG4": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4718a-are.pdf",
+    "status": "digitized",
+    "totalFields": 47,
+    "composedFields": 20,
+    "coveragePercent": 43,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:13.852Z"
+  }
+}

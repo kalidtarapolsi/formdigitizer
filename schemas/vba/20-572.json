@@ -1,0 +1,154 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "20-572",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "child": {
+      "type": "string"
+    },
+    "survivingSpouse": {
+      "type": "string"
+    },
+    "insuranceNo": {
+      "type": "string"
+    },
+    "specify": {
+      "type": "string"
+    },
+    "veteran": {
+      "type": "string"
+    },
+    "fiduciary": {
+      "type": "string"
+    },
+    "wife": {
+      "type": "string"
+    },
+    "mother": {
+      "type": "string"
+    },
+    "father": {
+      "type": "string"
+    },
+    "compensation": {
+      "type": "string"
+    },
+    "payeeName": {
+      "type": "string"
+    },
+    "vetName": {
+      "type": "string"
+    },
+    "daytime": {
+      "type": "string"
+    },
+    "both": {
+      "type": "string"
+    },
+    "payeeNo": {
+      "type": "string"
+    },
+    "benefitOther": {
+      "type": "string"
+    },
+    "form10subform0textfield40": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "other": {
+      "type": "string"
+    },
+    "permanent": {
+      "type": "string"
+    },
+    "temporary": {
+      "type": "string"
+    },
+    "evening": {
+      "type": "string"
+    },
+    "ddcancel": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-20-572-are.pdf",
+    "status": "digitized",
+    "totalFields": 37,
+    "composedFields": 20,
+    "coveragePercent": 54,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:36:57.495Z"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-8940",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "datesofemployment1FromMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment1FromDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment1FromYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment1ToMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment1ToDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment1ToYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment2FromMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment2FromDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment2FromYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment2ToMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment2ToDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment2ToYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment3FromMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment3FromDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment3FromYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment3ToMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment3ToDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment3ToYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment4FromMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment4FromDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment4FromYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment4ToMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment4ToDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment4ToYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment5FromMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment5FromDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment5FromYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment5ToMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment5ToDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployment5ToYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesoftrainingBeginningMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesoftrainingBeginningDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesoftrainingBeginningYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesoftrainingCompletionMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesoftrainingCompletionDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesoftrainingCompletionYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "educationRadioButtonList": {
+      "type": "string"
+    },
+    "totalearnedincome20a1": {
+      "type": "number"
+    },
+    "totalearnedincome20a2": {
+      "type": "number"
+    },
+    "currentmonthlyearnedincome1": {
+      "type": "number"
+    },
+    "currentmonthlyearnedincome2": {
+      "type": "number"
+    },
+    "serviceConnectedDisability": {
+      "type": "string"
+    },
+    "occupationDuringThatYear": {
+      "type": "string"
+    },
+    "typeofwork1": {
+      "type": "string"
+    },
+    "typeofwork2": {
+      "type": "string"
+    },
+    "typeofwork3": {
+      "type": "string"
+    },
+    "typeofwork4": {
+      "type": "string"
+    },
+    "typeofwork5": {
+      "type": "string"
+    },
+    "ofWork": {
+      "type": "string"
+    },
+    "ofEducationOrTraining": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "areaCode": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty210b3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty310b3": {
+      "type": "string"
+    },
+    "whatyear": {
+      "type": "string"
+    },
+    "hoursperweek1": {
+      "type": "string"
+    },
+    "timelostfromillness1": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1811": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1812": {
+      "type": "string"
+    },
+    "hoursperweek2": {
+      "type": "string"
+    },
+    "timelostfromillness2": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1821": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1822": {
+      "type": "string"
+    },
+    "hoursperweek3": {
+      "type": "string"
+    },
+    "timelostfromillness3": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1831": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1832": {
+      "type": "string"
+    },
+    "hoursperweek4": {
+      "type": "string"
+    },
+    "timelostfromillness4": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1841": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1842": {
+      "type": "string"
+    },
+    "hoursperweek5": {
+      "type": "string"
+    },
+    "timelostfromillness5": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1851": {
+      "type": "string"
+    },
+    "highestgrossearningspermonth1852": {
+      "type": "string"
+    },
+    "remarksIfany": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8940-are.pdf",
+    "status": "digitized",
+    "totalFields": 176,
+    "composedFields": 127,
+    "coveragePercent": 72,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:31:51.476Z"
+  }
+}

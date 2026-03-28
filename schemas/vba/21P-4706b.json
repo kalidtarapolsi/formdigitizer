@@ -1,0 +1,283 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-4706b",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "yesNo1": {
+      "type": "boolean"
+    },
+    "yesNo2": {
+      "type": "boolean"
+    },
+    "jf01": {
+      "type": "string"
+    },
+    "jf02": {
+      "type": "string"
+    },
+    "jf03": {
+      "type": "string"
+    },
+    "jf04": {
+      "type": "string"
+    },
+    "jf05": {
+      "type": "string"
+    },
+    "jf08": {
+      "type": "string"
+    },
+    "jf09a": {
+      "type": "string"
+    },
+    "jf09b": {
+      "type": "string"
+    },
+    "jf09c": {
+      "type": "string"
+    },
+    "jf10a": {
+      "type": "string"
+    },
+    "jf10b": {
+      "type": "string"
+    },
+    "jf10c": {
+      "type": "string"
+    },
+    "jf11a": {
+      "type": "string"
+    },
+    "jf11b": {
+      "type": "string"
+    },
+    "jf11c": {
+      "type": "string"
+    },
+    "jf12a": {
+      "type": "string"
+    },
+    "jf12b": {
+      "type": "string"
+    },
+    "jf12c": {
+      "type": "string"
+    },
+    "jf13": {
+      "type": "string"
+    },
+    "jf14": {
+      "type": "string"
+    },
+    "jf15": {
+      "type": "string"
+    },
+    "jf16": {
+      "type": "string"
+    },
+    "jf17": {
+      "type": "string"
+    },
+    "jf18": {
+      "type": "string"
+    },
+    "jf19": {
+      "type": "string"
+    },
+    "jf24": {
+      "type": "string"
+    },
+    "jf25a": {
+      "type": "string"
+    },
+    "jf25b": {
+      "type": "string"
+    },
+    "jf26": {
+      "type": "string"
+    },
+    "jf27": {
+      "type": "string"
+    },
+    "jf28": {
+      "type": "string"
+    },
+    "jf29a": {
+      "type": "string"
+    },
+    "jf29b": {
+      "type": "string"
+    },
+    "jf30": {
+      "type": "string"
+    },
+    "jf31a": {
+      "type": "string"
+    },
+    "jf31b": {
+      "type": "string"
+    },
+    "jf32": {
+      "type": "string"
+    },
+    "jf33": {
+      "type": "string"
+    },
+    "jf34": {
+      "type": "string"
+    },
+    "jf35": {
+      "type": "string"
+    },
+    "jf36": {
+      "type": "string"
+    },
+    "jf37": {
+      "type": "string"
+    },
+    "jf38": {
+      "type": "string"
+    },
+    "jf39": {
+      "type": "string"
+    },
+    "jf40": {
+      "type": "string"
+    },
+    "jf41": {
+      "type": "string"
+    },
+    "jf42": {
+      "type": "string"
+    },
+    "jf43": {
+      "type": "string"
+    },
+    "jf44": {
+      "type": "string"
+    },
+    "jf45": {
+      "type": "string"
+    },
+    "jf46": {
+      "type": "string"
+    },
+    "jf47": {
+      "type": "string"
+    },
+    "jf48": {
+      "type": "string"
+    },
+    "jf49": {
+      "type": "string"
+    },
+    "jf50": {
+      "type": "string"
+    },
+    "jf51": {
+      "type": "string"
+    },
+    "jf56": {
+      "type": "string"
+    },
+    "jf57": {
+      "type": "string"
+    },
+    "jf58": {
+      "type": "string"
+    },
+    "remarks1": {
+      "type": "string"
+    },
+    "jf63": {
+      "type": "string"
+    },
+    "jf65": {
+      "type": "string"
+    },
+    "jf66": {
+      "type": "string"
+    },
+    "jf68": {
+      "type": "string"
+    },
+    "jf69": {
+      "type": "string"
+    },
+    "jf71": {
+      "type": "string"
+    },
+    "jf72": {
+      "type": "string"
+    },
+    "jf74": {
+      "type": "string"
+    },
+    "jf75": {
+      "type": "string"
+    },
+    "jf77": {
+      "type": "string"
+    },
+    "jf93": {
+      "type": "string"
+    },
+    "jf95": {
+      "type": "string"
+    },
+    "jf96": {
+      "type": "string"
+    },
+    "jf98": {
+      "type": "string"
+    },
+    "jf99": {
+      "type": "string"
+    },
+    "jf101": {
+      "type": "string"
+    },
+    "jf102": {
+      "type": "string"
+    },
+    "jf104": {
+      "type": "string"
+    },
+    "jf105": {
+      "type": "string"
+    },
+    "jf107": {
+      "type": "string"
+    },
+    "remarks2": {
+      "type": "string"
+    },
+    "f0page_20textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4706b-are.pdf",
+    "status": "digitized",
+    "totalFields": 103,
+    "composedFields": 20,
+    "coveragePercent": 19,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 2,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:33:19.478Z"
+  }
+}

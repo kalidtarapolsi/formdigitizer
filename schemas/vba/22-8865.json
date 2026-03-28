@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-8865",
+  "type": "object",
+  "properties": {
+    "mailingAddress": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "wageLevel": {
+      "type": "number"
+    },
+    "begWage": {
+      "type": "number"
+    },
+    "workerWage": {
+      "type": "number"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "hoursInWorkWeek": {
+      "type": "string"
+    },
+    "hoursRelatedTraining": {
+      "type": "string"
+    },
+    "nameofEstablishment": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "length": {
+      "type": "string"
+    },
+    "per": {
+      "type": "string"
+    },
+    "jobDescrip": {
+      "type": "string"
+    },
+    "fullyQualified": {
+      "type": "string"
+    },
+    "maxNumber": {
+      "type": "string"
+    },
+    "numberMonths": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-8865-are.pdf",
+    "status": "digitized",
+    "totalFields": 47,
+    "composedFields": 20,
+    "coveragePercent": 43,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:10.128Z"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1990n",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateentered1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateentered2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateentered3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateentered4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateentered5": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateentered6": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesep1": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesep2": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesep3": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesep4": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesep5": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesep6": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checking": {
+      "type": "boolean"
+    },
+    "checkifapplicable": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "savings": {
+      "type": "string"
+    },
+    "type9a1": {
+      "type": "string"
+    },
+    "type9a2": {
+      "type": "string"
+    },
+    "type9a3": {
+      "type": "string"
+    },
+    "type9a4": {
+      "type": "string"
+    },
+    "type9a5": {
+      "type": "string"
+    },
+    "type9a6": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "pleasespecify": {
+      "type": "string"
+    },
+    "areacodep1": {
+      "type": "string"
+    },
+    "routingno1": {
+      "type": "string"
+    },
+    "accountno1": {
+      "type": "string"
+    },
+    "areacodes1": {
+      "type": "string"
+    },
+    "yes100": {
+      "type": "string"
+    },
+    "no100": {
+      "type": "string"
+    },
+    "no200": {
+      "type": "string"
+    },
+    "yes200": {
+      "type": "string"
+    },
+    "servicecomp1": {
+      "type": "string"
+    },
+    "servicecomp2": {
+      "type": "string"
+    },
+    "servicecomp3": {
+      "type": "string"
+    },
+    "servicecomp4": {
+      "type": "string"
+    },
+    "servicecomp5": {
+      "type": "string"
+    },
+    "servicecomp6": {
+      "type": "string"
+    },
+    "servstatus1": {
+      "type": "string"
+    },
+    "servstatus2": {
+      "type": "string"
+    },
+    "servstatus3": {
+      "type": "string"
+    },
+    "servstatus4": {
+      "type": "string"
+    },
+    "servstatus5": {
+      "type": "string"
+    },
+    "servstatus6": {
+      "type": "string"
+    },
+    "part5yes1": {
+      "type": "string"
+    },
+    "part5no1": {
+      "type": "string"
+    },
+    "part5no10": {
+      "type": "string"
+    },
+    "part5yes10": {
+      "type": "string"
+    },
+    "part5no100": {
+      "type": "string"
+    },
+    "part5yes100": {
+      "type": "string"
+    },
+    "ifyes11c": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1990n-are.pdf",
+    "status": "digitized",
+    "totalFields": 75,
+    "composedFields": 39,
+    "coveragePercent": 52,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:34:24.885Z"
+  }
+}

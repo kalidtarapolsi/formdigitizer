@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10201",
+  "type": "object",
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "hireDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned2": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "number"
+    },
+    "employerName": {
+      "type": "string"
+    },
+    "supervisorName": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "employerWebsite": {
+      "type": "string"
+    },
+    "trainingProivderName": {
+      "type": "string"
+    },
+    "veteranName": {
+      "type": "string"
+    },
+    "duties": {
+      "type": "string"
+    },
+    "hoursPerWeek": {
+      "type": "string"
+    },
+    "officialNameTitle": {
+      "type": "string"
+    },
+    "programType": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10201-are.pdf",
+    "status": "digitized",
+    "totalFields": 36,
+    "composedFields": 32,
+    "coveragePercent": 89,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:03.173Z"
+  }
+}

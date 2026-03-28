@@ -1,0 +1,255 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-4171",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "date12b": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEnded3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEnded2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEnded1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriage3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriage2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriage1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCertificationSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "beginningDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "beginningDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "beginningDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "endingDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "endingDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "endingDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "placeMarriageEnded3": {
+      "type": "string"
+    },
+    "placeMarriageEnded2": {
+      "type": "string"
+    },
+    "placeMarriageEnded1": {
+      "type": "string"
+    },
+    "howMarriageEnded3": {
+      "type": "string"
+    },
+    "howMarriageEnded2": {
+      "type": "string"
+    },
+    "howMarriageEnded1": {
+      "type": "string"
+    },
+    "marriage3": {
+      "type": "string"
+    },
+    "marriage2": {
+      "type": "string"
+    },
+    "marriage1": {
+      "type": "string"
+    },
+    "relationshipToVeteran": {
+      "type": "string"
+    },
+    "relationshipToClaimant": {
+      "type": "string"
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "metVeteran": {
+      "type": "string"
+    },
+    "knownVet": {
+      "type": "string"
+    },
+    "knownClaimant": {
+      "type": "string"
+    },
+    "whenMetVet": {
+      "type": "string"
+    },
+    "metClaimant": {
+      "type": "string"
+    },
+    "whenMetClaimant": {
+      "type": "string"
+    },
+    "reasonForBeliefs": {
+      "type": "string"
+    },
+    "place12c": {
+      "type": "string"
+    },
+    "placeMarried3": {
+      "type": "string"
+    },
+    "placeMarried2": {
+      "type": "string"
+    },
+    "placeMarried1": {
+      "type": "string"
+    },
+    "whomMarried3": {
+      "type": "string"
+    },
+    "whomMarried2": {
+      "type": "string"
+    },
+    "whomMarried1": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4171-are.pdf",
+    "status": "digitized",
+    "totalFields": 108,
+    "composedFields": 88,
+    "coveragePercent": 81,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:33:01.592Z"
+  }
+}

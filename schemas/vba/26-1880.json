@@ -1,0 +1,233 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1880",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateEntered11a1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparated11a1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEntered11a2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparated11a2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEntered11a3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparated11a3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEntered11a4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparated11a4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEntered11b1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparated11b1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEntered11b2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparated11b2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEntered11b3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparated11b3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEntered11b4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparated11b4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfLoan14": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfLoan15": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfLoan16": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfLoan17b": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfLoss": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "nameOfVeteran": {
+      "type": "string"
+    },
+    "branchOfService11a1": {
+      "type": "string"
+    },
+    "branchOfService11a2": {
+      "type": "string"
+    },
+    "branchOfService11a3": {
+      "type": "string"
+    },
+    "branchOfService11a4": {
+      "type": "string"
+    },
+    "branchOfService11b1": {
+      "type": "string"
+    },
+    "branchOfService11b2": {
+      "type": "string"
+    },
+    "branchOfService11b3": {
+      "type": "string"
+    },
+    "branchOfService11b4": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__COE_REF___NO___0_": {
+      "type": "string"
+    },
+    "otherNamesUsedDuringMilitaryService": {
+      "type": "string"
+    },
+    "loanNumber14": {
+      "type": "string"
+    },
+    "loanNumber15": {
+      "type": "string"
+    },
+    "loanNumber16": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1880-are.pdf",
+    "status": "digitized",
+    "totalFields": 61,
+    "composedFields": 55,
+    "coveragePercent": 90,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:35:38.771Z"
+  }
+}

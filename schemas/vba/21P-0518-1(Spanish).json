@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0518-1(Spanish)",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "vba21051810subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform0textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform0textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform0textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform0textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform0textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1subform2subform4textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1subform2subform4textfield0": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1subform2subform4textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1table10row50subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1table10row60subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1table11row30subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1table11row30subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1table11row40subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1table11row40subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1textfield19": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051810subform1textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0518-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 62,
+    "composedFields": 44,
+    "coveragePercent": 71,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 18,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:10.503Z"
+  }
+}

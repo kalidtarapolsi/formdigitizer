@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-1549",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "mailingaddress": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "insurancenumber": {
+      "type": "string"
+    },
+    "policyNumber": {
+      "type": "string"
+    },
+    "planofinsurance": {
+      "type": "string"
+    },
+    "heightFeet": {
+      "type": "string"
+    },
+    "heightInches": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "explainwhy": {
+      "type": "string"
+    },
+    "remarks23": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-1549-are.pdf",
+    "status": "digitized",
+    "totalFields": 41,
+    "composedFields": 39,
+    "coveragePercent": 95,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:46.006Z"
+  }
+}

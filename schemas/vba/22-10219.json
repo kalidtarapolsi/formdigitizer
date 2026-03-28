@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10219",
+  "type": "object",
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateApproval": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "nameWorkStudy": {
+      "type": "string"
+    },
+    "form10page20textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page20textfield20": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "totalHours": {
+      "type": "string"
+    },
+    "numberStudents": {
+      "type": "string"
+    },
+    "form10page30numericfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page30textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10page30textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10219-are.pdf",
+    "status": "digitized",
+    "totalFields": 25,
+    "composedFields": 10,
+    "coveragePercent": 40,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 13,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:37:51.448Z"
+  }
+}

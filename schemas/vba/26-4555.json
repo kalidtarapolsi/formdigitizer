@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-4555",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date05": {
+      "type": "string",
+      "format": "date"
+    },
+    "date03": {
+      "type": "string",
+      "format": "date"
+    },
+    "date02": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "jf01": {
+      "type": "string"
+    },
+    "jf02": {
+      "type": "string"
+    },
+    "jf03": {
+      "type": "string"
+    },
+    "jf04": {
+      "type": "string"
+    },
+    "jf08": {
+      "type": "string"
+    },
+    "jf06": {
+      "type": "string"
+    },
+    "jf05": {
+      "type": "string"
+    },
+    "jf07": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-4555-are.pdf",
+    "status": "digitized",
+    "totalFields": 20,
+    "composedFields": 12,
+    "coveragePercent": 60,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:10.711Z"
+  }
+}

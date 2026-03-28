@@ -1,0 +1,510 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-526EZ",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "bddClaimsOnlyProvideTheDateOrAnticipatedDateOfReleaseFromActiveDutyMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "bddClaimsOnlyProvideTheDateOrAnticipatedDateOfReleaseFromActiveDutyYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "beginningDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "beginningDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "beginningDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "endingDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "endingDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "endingDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "bddClaimsOnlyProvideTheDateOrAnticipatedDateOfReleaseFromActiveDutyDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "fromDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fromDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "additionalDatesAndLocationsOfPotentialExposure": {
+      "type": "string",
+      "format": "date"
+    },
+    "toDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "toDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateDisabilityBeganOrWorsened": {
+      "type": "string",
+      "format": "date"
+    },
+    "date12": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBoxDoNotHaveDateS": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "entryDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "mostRecentActiveServiceEntryDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "entryDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfActivationMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfActivationDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfActivationYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "anticipatedSeparationDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "anticipatedSeparationDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "anticipatedSeparationDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesOfConfinementMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesOfConfinementDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesOfConfinementYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "exitDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "exitDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "exitDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentReceivedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentReceivedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentReceivedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "currentVaEmployeeCheckBox": {
+      "type": "boolean"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "radioButtonList2": {
+      "type": "string"
+    },
+    "radioButtonList6": {
+      "type": "string"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "monthlyAmount": {
+      "type": "number"
+    },
+    "currentdisability": {
+      "type": "string"
+    },
+    "explainHowDisabilityRelatesToEventExposureInjury": {
+      "type": "string"
+    },
+    "disabilityTreatedAndNameAndLocationOfTreatmentFacility": {
+      "type": "string"
+    },
+    "militaryOccupationalSpecialtyMosRelatedToxin": {
+      "type": "string"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "doNotPayMeVaCompensationIDoNotWantToReceiveVaCompensationInLieuOfTrainingPay": {
+      "type": "string"
+    },
+    "nameOfFinancialInstitution": {
+      "type": "string"
+    },
+    "fullyDevelopedClaimFdcProgram": {
+      "type": "string"
+    },
+    "ides": {
+      "type": "string"
+    },
+    "bddProgramClaim": {
+      "type": "string"
+    },
+    "standardClaimProcess": {
+      "type": "string"
+    },
+    "livingInAHomelessShelter": {
+      "type": "string"
+    },
+    "livingInACarOrTent": {
+      "type": "string"
+    },
+    "stayingWithAnotherPerson": {
+      "type": "string"
+    },
+    "housingWillBeLostIn30Days": {
+      "type": "string"
+    },
+    "homelessShelter": {
+      "type": "string"
+    },
+    "otherLocationsWhereYouServed": {
+      "type": "string"
+    },
+    "asbestos": {
+      "type": "string"
+    },
+    "shadShipboardHazardAndDefense": {
+      "type": "string"
+    },
+    "contaminatedWaterAtCampLejeune": {
+      "type": "string"
+    },
+    "mustardGas": {
+      "type": "string"
+    },
+    "pointOfContact": {
+      "type": "string"
+    },
+    "radiation": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_0_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_1_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_2_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_3_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_4_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_5_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_6_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_7_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_8_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_9_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_10_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_11_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_12_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_13_": {
+      "type": "string"
+    },
+    "field_F_0___subform_10__Specify_Type_Of_Exposure_Event_Or_Injury_14_": {
+      "type": "string"
+    },
+    "otherNameYouServedUnder": {
+      "type": "string"
+    },
+    "obligationTermOfServiceMonth": {
+      "type": "string"
+    },
+    "obligationTermOfServiceDay": {
+      "type": "string"
+    },
+    "obligationTermOfServiceYear": {
+      "type": "string"
+    },
+    "additionalPeriodsOfServiceMonth": {
+      "type": "string"
+    },
+    "additionalPeriodsOfServiceDay": {
+      "type": "string"
+    },
+    "additionalPeriodsOfServiceYear": {
+      "type": "string"
+    },
+    "doNotPayMeVaCompensationIDoNotWantToReceiveVaCompensationInLieuOfRetiredPay": {
+      "type": "string"
+    },
+    "explain": {
+      "type": "string"
+    },
+    "routingOrTransitNumber": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_15_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_16_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_17_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_18_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_19_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_20_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_21_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_22_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_23_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_24_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_25_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_26_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_27_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_28_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_29_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_30_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_31_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_32_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_33_": {
+      "type": "string"
+    },
+    "field_F_0___subform_14__Specify_Type_Of_Exposure_Event_Or_Injury_34_": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-526ez-are.pdf",
+    "status": "digitized",
+    "totalFields": 345,
+    "composedFields": 277,
+    "coveragePercent": 80,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 15,
+    "generatedAt": "2026-03-28T17:31:50.375Z"
+  }
+}

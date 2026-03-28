@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-8636",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "firstpaymentdate": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "datesigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateapproved": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigedpartb": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "originalamount": {
+      "type": "number"
+    },
+    "amountofinsurance": {
+      "type": "number"
+    },
+    "amountofpremium": {
+      "type": "number"
+    },
+    "vetsname": {
+      "type": "string"
+    },
+    "information8": {
+      "type": "string"
+    },
+    "mortgageaccount": {
+      "type": "string"
+    },
+    "yes10": {
+      "type": "string"
+    },
+    "no10": {
+      "type": "string"
+    },
+    "currentbalance": {
+      "type": "string"
+    },
+    "monthlypayment": {
+      "type": "string"
+    },
+    "rateofinterest": {
+      "type": "string"
+    },
+    "durationofpayments": {
+      "type": "string"
+    },
+    "yesa": {
+      "type": "string"
+    },
+    "noa": {
+      "type": "string"
+    },
+    "yesb": {
+      "type": "string"
+    },
+    "nob": {
+      "type": "string"
+    },
+    "approvedby": {
+      "type": "string"
+    },
+    "partbveteransname": {
+      "type": "string"
+    },
+    "ido": {
+      "type": "string"
+    },
+    "idonot": {
+      "type": "string"
+    },
+    "iamnot": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-8636-are.pdf",
+    "status": "digitized",
+    "totalFields": 36,
+    "composedFields": 17,
+    "coveragePercent": 47,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:37:04.757Z"
+  }
+}

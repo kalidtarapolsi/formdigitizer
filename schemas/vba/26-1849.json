@@ -1,0 +1,749 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1849",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "datepage41": {
+      "type": "string",
+      "format": "date"
+    },
+    "datepage42": {
+      "type": "string",
+      "format": "date"
+    },
+    "datepage43": {
+      "type": "string",
+      "format": "date"
+    },
+    "escrowagent": {
+      "type": "number"
+    },
+    "sumamount": {
+      "type": "number"
+    },
+    "amountpage2": {
+      "type": "number"
+    },
+    "para1amount": {
+      "type": "number"
+    },
+    "bankinginstitution1": {
+      "type": "string"
+    },
+    "bankinginstitution2": {
+      "type": "string"
+    },
+    "dayone": {
+      "type": "string"
+    },
+    "monthone": {
+      "type": "string"
+    },
+    "fourdigityear": {
+      "type": "string"
+    },
+    "seller": {
+      "type": "string"
+    },
+    "lender": {
+      "type": "string"
+    },
+    "projectname": {
+      "type": "string"
+    },
+    "lotnumber": {
+      "type": "string"
+    },
+    "veteranpurchaser": {
+      "type": "string"
+    },
+    "reasonableestimate": {
+      "type": "string"
+    },
+    "salesprice": {
+      "type": "string"
+    },
+    "day2": {
+      "type": "string"
+    },
+    "month2": {
+      "type": "string"
+    },
+    "fourdigityear2": {
+      "type": "string"
+    },
+    "lettercreditnumber": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "account1": {
+      "type": "string"
+    },
+    "sellerpage2": {
+      "type": "string"
+    },
+    "termspage2": {
+      "type": "string"
+    },
+    "vacasenumber": {
+      "type": "string"
+    },
+    "casenumber": {
+      "type": "string"
+    },
+    "item1": {
+      "type": "string"
+    },
+    "item2": {
+      "type": "string"
+    },
+    "item3": {
+      "type": "string"
+    },
+    "item4": {
+      "type": "string"
+    },
+    "item5": {
+      "type": "string"
+    },
+    "item6": {
+      "type": "string"
+    },
+    "item7": {
+      "type": "string"
+    },
+    "item8": {
+      "type": "string"
+    },
+    "item9": {
+      "type": "string"
+    },
+    "item10": {
+      "type": "string"
+    },
+    "cost1": {
+      "type": "string"
+    },
+    "cost2": {
+      "type": "string"
+    },
+    "cost3": {
+      "type": "string"
+    },
+    "cost4": {
+      "type": "string"
+    },
+    "cost5": {
+      "type": "string"
+    },
+    "cost6": {
+      "type": "string"
+    },
+    "cost7": {
+      "type": "string"
+    },
+    "cost8": {
+      "type": "string"
+    },
+    "cost9": {
+      "type": "string"
+    },
+    "cost10": {
+      "type": "string"
+    },
+    "totalcostofpostponedimprovements": {
+      "type": "string"
+    },
+    "onehalf1": {
+      "type": "string"
+    },
+    "onehalf2": {
+      "type": "string"
+    },
+    "onehalf3": {
+      "type": "string"
+    },
+    "onehalf4": {
+      "type": "string"
+    },
+    "onehalf5": {
+      "type": "string"
+    },
+    "onehalf6": {
+      "type": "string"
+    },
+    "onehalf7": {
+      "type": "string"
+    },
+    "onehalf8": {
+      "type": "string"
+    },
+    "onehalf9": {
+      "type": "string"
+    },
+    "onehalf10": {
+      "type": "string"
+    },
+    "onehalf11": {
+      "type": "string"
+    },
+    "totalescrowed1": {
+      "type": "string"
+    },
+    "totalescrowed2": {
+      "type": "string"
+    },
+    "totalescrowed3": {
+      "type": "string"
+    },
+    "totalescrowed4": {
+      "type": "string"
+    },
+    "totalescrowed5": {
+      "type": "string"
+    },
+    "totalescrowed6": {
+      "type": "string"
+    },
+    "totalescrowed7": {
+      "type": "string"
+    },
+    "totalescrowed8": {
+      "type": "string"
+    },
+    "totalescrowed9": {
+      "type": "string"
+    },
+    "totalescrowed10": {
+      "type": "string"
+    },
+    "totalescrowed101112": {
+      "type": "string"
+    },
+    "lotnumbera1": {
+      "type": "string"
+    },
+    "lotnumbera2": {
+      "type": "string"
+    },
+    "lotnumbera3": {
+      "type": "string"
+    },
+    "lotnumbera4": {
+      "type": "string"
+    },
+    "lotnumbera5": {
+      "type": "string"
+    },
+    "lotnumbera6": {
+      "type": "string"
+    },
+    "lotnumbera7": {
+      "type": "string"
+    },
+    "lotnumbera8": {
+      "type": "string"
+    },
+    "lotnumbera9": {
+      "type": "string"
+    },
+    "lotnumbera10": {
+      "type": "string"
+    },
+    "lotnumbera11": {
+      "type": "string"
+    },
+    "lotnumbera12": {
+      "type": "string"
+    },
+    "lotnumbera13": {
+      "type": "string"
+    },
+    "lotnumbera14": {
+      "type": "string"
+    },
+    "lotnumbera15": {
+      "type": "string"
+    },
+    "lotnumbera16": {
+      "type": "string"
+    },
+    "lotnumbera17": {
+      "type": "string"
+    },
+    "lotnumbera18": {
+      "type": "string"
+    },
+    "lotnumbera19": {
+      "type": "string"
+    },
+    "lotnumbera20": {
+      "type": "string"
+    },
+    "lotnumbera21": {
+      "type": "string"
+    },
+    "lotnumbera22": {
+      "type": "string"
+    },
+    "lotnumbera23": {
+      "type": "string"
+    },
+    "lotnumbera24": {
+      "type": "string"
+    },
+    "lotnumbera44": {
+      "type": "string"
+    },
+    "lotnumbera25": {
+      "type": "string"
+    },
+    "lotnumbera26": {
+      "type": "string"
+    },
+    "lotnumbera27": {
+      "type": "string"
+    },
+    "lotnumbera28": {
+      "type": "string"
+    },
+    "lotnumbera29": {
+      "type": "string"
+    },
+    "lotnumbera30": {
+      "type": "string"
+    },
+    "lotnumbera31": {
+      "type": "string"
+    },
+    "lotnumbera32": {
+      "type": "string"
+    },
+    "lotnumbera33": {
+      "type": "string"
+    },
+    "lotnumbera34": {
+      "type": "string"
+    },
+    "lotnumbera35": {
+      "type": "string"
+    },
+    "lotnumbera36": {
+      "type": "string"
+    },
+    "lotnumbera37": {
+      "type": "string"
+    },
+    "lotnumbera38": {
+      "type": "string"
+    },
+    "lotnumbera39": {
+      "type": "string"
+    },
+    "lotnumbera40": {
+      "type": "string"
+    },
+    "lotnumbera41": {
+      "type": "string"
+    },
+    "lotnumbera42": {
+      "type": "string"
+    },
+    "lotnumbera43": {
+      "type": "string"
+    },
+    "lotnumbera45": {
+      "type": "string"
+    },
+    "lotnumbera46": {
+      "type": "string"
+    },
+    "lotnumbera47": {
+      "type": "string"
+    },
+    "lotnumbera48": {
+      "type": "string"
+    },
+    "allocation1": {
+      "type": "string"
+    },
+    "allocation2": {
+      "type": "string"
+    },
+    "allocation3": {
+      "type": "string"
+    },
+    "allocation4": {
+      "type": "string"
+    },
+    "allocation5": {
+      "type": "string"
+    },
+    "allocation6": {
+      "type": "string"
+    },
+    "allocation7": {
+      "type": "string"
+    },
+    "allocation8": {
+      "type": "string"
+    },
+    "allocation9": {
+      "type": "string"
+    },
+    "allocation10": {
+      "type": "string"
+    },
+    "allocation11": {
+      "type": "string"
+    },
+    "allocation12": {
+      "type": "string"
+    },
+    "allocation13": {
+      "type": "string"
+    },
+    "allocation14": {
+      "type": "string"
+    },
+    "allocation15": {
+      "type": "string"
+    },
+    "allocation16": {
+      "type": "string"
+    },
+    "allocation17": {
+      "type": "string"
+    },
+    "allocation18": {
+      "type": "string"
+    },
+    "allocation19": {
+      "type": "string"
+    },
+    "allocation20": {
+      "type": "string"
+    },
+    "allocation21": {
+      "type": "string"
+    },
+    "allocation22": {
+      "type": "string"
+    },
+    "allocation23": {
+      "type": "string"
+    },
+    "allocation24": {
+      "type": "string"
+    },
+    "allocation25": {
+      "type": "string"
+    },
+    "allocation26": {
+      "type": "string"
+    },
+    "allocation27": {
+      "type": "string"
+    },
+    "allocation28": {
+      "type": "string"
+    },
+    "allocation29": {
+      "type": "string"
+    },
+    "allocation30": {
+      "type": "string"
+    },
+    "allocation31": {
+      "type": "string"
+    },
+    "allocation32": {
+      "type": "string"
+    },
+    "allocation33": {
+      "type": "string"
+    },
+    "allocation34": {
+      "type": "string"
+    },
+    "allocation35": {
+      "type": "string"
+    },
+    "allocation36": {
+      "type": "string"
+    },
+    "allocation37": {
+      "type": "string"
+    },
+    "allocation38": {
+      "type": "string"
+    },
+    "allocation39": {
+      "type": "string"
+    },
+    "allocation40": {
+      "type": "string"
+    },
+    "allocation41": {
+      "type": "string"
+    },
+    "allocation42": {
+      "type": "string"
+    },
+    "allocation43": {
+      "type": "string"
+    },
+    "allocation44": {
+      "type": "string"
+    },
+    "allocation45": {
+      "type": "string"
+    },
+    "allocation46": {
+      "type": "string"
+    },
+    "allocation47": {
+      "type": "string"
+    },
+    "allocation48": {
+      "type": "string"
+    },
+    "totalescrowedallocation1": {
+      "type": "string"
+    },
+    "totalescrowedallocation2": {
+      "type": "string"
+    },
+    "totalescrowedallocation3": {
+      "type": "string"
+    },
+    "totalescrowedallocation4": {
+      "type": "string"
+    },
+    "totalescrowedallocation5": {
+      "type": "string"
+    },
+    "totalescrowedallocation6": {
+      "type": "string"
+    },
+    "totalescrowedallocation7": {
+      "type": "string"
+    },
+    "totalescrowedallocation8": {
+      "type": "string"
+    },
+    "totalescrowedallocation9": {
+      "type": "string"
+    },
+    "totalescrowedallocation10": {
+      "type": "string"
+    },
+    "totalescrowedallocation11": {
+      "type": "string"
+    },
+    "totalescrowedallocation12": {
+      "type": "string"
+    },
+    "totalescrowedallocation13": {
+      "type": "string"
+    },
+    "totalescrowedallocation14": {
+      "type": "string"
+    },
+    "totalescrowedallocation15": {
+      "type": "string"
+    },
+    "totalescrowedallocation16": {
+      "type": "string"
+    },
+    "totalescrowedallocation17": {
+      "type": "string"
+    },
+    "totalescrowedallocation18": {
+      "type": "string"
+    },
+    "totalescrowedallocation19": {
+      "type": "string"
+    },
+    "totalescrowedallocation20": {
+      "type": "string"
+    },
+    "totalescrowedallocation21": {
+      "type": "string"
+    },
+    "totalescrowedallocation22": {
+      "type": "string"
+    },
+    "totalescrowedallocation23": {
+      "type": "string"
+    },
+    "totalescrowedallocation24": {
+      "type": "string"
+    },
+    "totalescrowedallocation25": {
+      "type": "string"
+    },
+    "totalescrowedallocation26": {
+      "type": "string"
+    },
+    "totalescrowedallocation27": {
+      "type": "string"
+    },
+    "totalescrowedallocation28": {
+      "type": "string"
+    },
+    "totalescrowedallocation29": {
+      "type": "string"
+    },
+    "totalescrowedallocation30": {
+      "type": "string"
+    },
+    "totalescrowedallocation31": {
+      "type": "string"
+    },
+    "totalescrowedallocation32": {
+      "type": "string"
+    },
+    "totalescrowedallocation33": {
+      "type": "string"
+    },
+    "totalescrowedallocation34": {
+      "type": "string"
+    },
+    "totalescrowedallocation35": {
+      "type": "string"
+    },
+    "totalescrowedallocation36": {
+      "type": "string"
+    },
+    "totalescrowedallocation37": {
+      "type": "string"
+    },
+    "totalescrowedallocation38": {
+      "type": "string"
+    },
+    "totalescrowedallocation39": {
+      "type": "string"
+    },
+    "totalescrowedallocation40": {
+      "type": "string"
+    },
+    "totalescrowedallocation41": {
+      "type": "string"
+    },
+    "totalescrowedallocation42": {
+      "type": "string"
+    },
+    "totalescrowedallocation43": {
+      "type": "string"
+    },
+    "totalescrowedallocation44": {
+      "type": "string"
+    },
+    "totalescrowedallocation45": {
+      "type": "string"
+    },
+    "totalescrowedallocation46": {
+      "type": "string"
+    },
+    "totalescrowedallocation47": {
+      "type": "string"
+    },
+    "totalescrowedallocation48": {
+      "type": "string"
+    },
+    "allocationtotal1": {
+      "type": "string"
+    },
+    "allocationtotaltotal2": {
+      "type": "string"
+    },
+    "totalescrowedallocationtotal1": {
+      "type": "string"
+    },
+    "totalescrowedallocationtotal2": {
+      "type": "string"
+    },
+    "page4seller": {
+      "type": "string"
+    },
+    "page4title1": {
+      "type": "string"
+    },
+    "page4title2": {
+      "type": "string"
+    },
+    "page4lender": {
+      "type": "string"
+    },
+    "page4title3": {
+      "type": "string"
+    },
+    "page4title4": {
+      "type": "string"
+    },
+    "page4agent": {
+      "type": "string"
+    },
+    "page4title5": {
+      "type": "string"
+    },
+    "page4title6": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1849-are.pdf",
+    "status": "digitized",
+    "totalFields": 233,
+    "composedFields": 13,
+    "coveragePercent": 6,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:31:50.440Z"
+  }
+}

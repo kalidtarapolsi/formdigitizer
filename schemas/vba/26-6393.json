@@ -1,0 +1,306 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6393",
+  "type": "object",
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox22": {
+      "type": "boolean"
+    },
+    "checkBox23": {
+      "type": "boolean"
+    },
+    "checkBox24": {
+      "type": "boolean"
+    },
+    "checkBox25": {
+      "type": "boolean"
+    },
+    "checkBox26": {
+      "type": "boolean"
+    },
+    "checkBox27": {
+      "type": "boolean"
+    },
+    "checkBox28": {
+      "type": "boolean"
+    },
+    "checkBox29": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amountOfLoan": {
+      "type": "number"
+    },
+    "liquidAssets": {
+      "type": "number"
+    },
+    "currentMonthlyHousingExpense": {
+      "type": "number"
+    },
+    "amount15": {
+      "type": "number"
+    },
+    "amount16": {
+      "type": "number"
+    },
+    "amount17": {
+      "type": "number"
+    },
+    "amount18": {
+      "type": "number"
+    },
+    "amount19": {
+      "type": "number"
+    },
+    "amount20": {
+      "type": "number"
+    },
+    "amount22": {
+      "type": "number"
+    },
+    "amount23": {
+      "type": "number"
+    },
+    "amount24": {
+      "type": "number"
+    },
+    "amount25": {
+      "type": "number"
+    },
+    "amount26": {
+      "type": "number"
+    },
+    "amount27": {
+      "type": "number"
+    },
+    "amount28": {
+      "type": "number"
+    },
+    "amount29": {
+      "type": "number"
+    },
+    "amount22a": {
+      "type": "number"
+    },
+    "amount23a": {
+      "type": "number"
+    },
+    "amount24a": {
+      "type": "number"
+    },
+    "amount25a": {
+      "type": "number"
+    },
+    "amount26a": {
+      "type": "number"
+    },
+    "amount27a": {
+      "type": "number"
+    },
+    "amount28a": {
+      "type": "number"
+    },
+    "amount32": {
+      "type": "number"
+    },
+    "amount32a": {
+      "type": "number"
+    },
+    "amount33": {
+      "type": "number"
+    },
+    "amount33a": {
+      "type": "number"
+    },
+    "amount34": {
+      "type": "number"
+    },
+    "amount35": {
+      "type": "number"
+    },
+    "amount36": {
+      "type": "number"
+    },
+    "amount34a": {
+      "type": "number"
+    },
+    "amount35a": {
+      "type": "number"
+    },
+    "amount36a": {
+      "type": "number"
+    },
+    "incomeDebtRatio": {
+      "type": "number"
+    },
+    "numberOfYearsAtPresentEmploymentSpouse": {
+      "type": "string"
+    },
+    "occupationOfSpouse": {
+      "type": "string"
+    },
+    "ageOfDependents": {
+      "type": "string"
+    },
+    "spousesAge": {
+      "type": "string"
+    },
+    "occupationOfApplicant": {
+      "type": "string"
+    },
+    "recommendApplicationApproved": {
+      "type": "string"
+    },
+    "recommendApplicationDisapproved": {
+      "type": "string"
+    },
+    "nameOfBorrower": {
+      "type": "string"
+    },
+    "cashDownPaymentOnPurchasePrice": {
+      "type": "string"
+    },
+    "numberOfYearsAtPresentEmploymentApplicant": {
+      "type": "string"
+    },
+    "f0page_10textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "borrower43": {
+      "type": "string"
+    },
+    "termOfLoanYrs": {
+      "type": "string"
+    },
+    "total1a": {
+      "type": "string"
+    },
+    "total1b": {
+      "type": "string"
+    },
+    "total1c": {
+      "type": "string"
+    },
+    "items1": {
+      "type": "string"
+    },
+    "items2": {
+      "type": "string"
+    },
+    "items3": {
+      "type": "string"
+    },
+    "items4": {
+      "type": "string"
+    },
+    "items5": {
+      "type": "string"
+    },
+    "items6": {
+      "type": "string"
+    },
+    "items7": {
+      "type": "string"
+    },
+    "total2": {
+      "type": "string"
+    },
+    "total3a": {
+      "type": "string"
+    },
+    "total4a": {
+      "type": "string"
+    },
+    "total5a": {
+      "type": "string"
+    },
+    "total6a": {
+      "type": "string"
+    },
+    "total4b": {
+      "type": "string"
+    },
+    "total5b": {
+      "type": "string"
+    },
+    "total6b": {
+      "type": "string"
+    },
+    "total3c": {
+      "type": "string"
+    },
+    "total4c": {
+      "type": "string"
+    },
+    "total5c": {
+      "type": "string"
+    },
+    "total6c": {
+      "type": "string"
+    },
+    "total7": {
+      "type": "string"
+    },
+    "total8": {
+      "type": "string"
+    },
+    "total9": {
+      "type": "string"
+    },
+    "total10": {
+      "type": "string"
+    },
+    "total3b": {
+      "type": "string"
+    },
+    "interest1": {
+      "type": "string"
+    },
+    "applicantAge": {
+      "type": "string"
+    },
+    "specifyother": {
+      "type": "string"
+    },
+    "borrowerMedianCreditScore": {
+      "type": "string"
+    },
+    "coBorrowerMedianCreditScore": {
+      "type": "string"
+    },
+    "coBorrowerCaivrs": {
+      "type": "string"
+    },
+    "borrowersCaivrs": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "vaapprovedUnderwriterId": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6393-are.pdf",
+    "status": "digitized",
+    "totalFields": 104,
+    "composedFields": 59,
+    "coveragePercent": 57,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:33:17.232Z"
+  }
+}

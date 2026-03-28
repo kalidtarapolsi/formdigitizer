@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-0971",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "dateField1": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "originalVeteran": {
+      "type": "string"
+    },
+    "loanNumber": {
+      "type": "string"
+    },
+    "vaLoanNumber": {
+      "type": "string"
+    },
+    "currentOwner": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "termOfLoan": {
+      "type": "string"
+    },
+    "percentOfGuaranty": {
+      "type": "string"
+    },
+    "pAndI": {
+      "type": "string"
+    },
+    "form10subform0textfield20": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "form10subform0textfield21": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield22": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield23": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "periodCovered": {
+      "type": "string"
+    },
+    "nameOfTaxAuthority": {
+      "type": "string"
+    },
+    "taxAuthorityAccountNumber": {
+      "type": "string"
+    },
+    "form10subform0textfield24": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield25": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield26": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield27": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-0971-are.pdf",
+    "status": "digitized",
+    "totalFields": 68,
+    "composedFields": 39,
+    "coveragePercent": 57,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 9,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:42.532Z"
+  }
+}

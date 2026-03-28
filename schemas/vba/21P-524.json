@@ -1,0 +1,357 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-524",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateOfMarriage": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "date12b": {
+      "type": "string",
+      "format": "date"
+    },
+    "date15a": {
+      "type": "string",
+      "format": "date"
+    },
+    "date18a": {
+      "type": "string",
+      "format": "date"
+    },
+    "date18aa": {
+      "type": "string",
+      "format": "date"
+    },
+    "date18bb": {
+      "type": "string",
+      "format": "date"
+    },
+    "date18b": {
+      "type": "string",
+      "format": "date"
+    },
+    "date19aa": {
+      "type": "string",
+      "format": "date"
+    },
+    "date19bb": {
+      "type": "string",
+      "format": "date"
+    },
+    "date19b": {
+      "type": "string",
+      "format": "date"
+    },
+    "date19a": {
+      "type": "string",
+      "format": "date"
+    },
+    "date21aa": {
+      "type": "string",
+      "format": "date"
+    },
+    "date21a": {
+      "type": "string",
+      "format": "date"
+    },
+    "date22cc": {
+      "type": "string",
+      "format": "date"
+    },
+    "date22c": {
+      "type": "string",
+      "format": "date"
+    },
+    "date27": {
+      "type": "string",
+      "format": "date"
+    },
+    "date24a": {
+      "type": "string",
+      "format": "date"
+    },
+    "date24b": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetob": {
+      "type": "string",
+      "format": "date"
+    },
+    "datefromb": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetoa": {
+      "type": "string",
+      "format": "date"
+    },
+    "datefrom10a": {
+      "type": "string",
+      "format": "date"
+    },
+    "date15": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount21bb": {
+      "type": "number"
+    },
+    "amount21b": {
+      "type": "number"
+    },
+    "amountearned24a": {
+      "type": "number"
+    },
+    "amountearned24b": {
+      "type": "number"
+    },
+    "amount23b": {
+      "type": "number"
+    },
+    "placeOfMarriage": {
+      "type": "string"
+    },
+    "occupation3": {
+      "type": "string"
+    },
+    "relationshipToVeteran": {
+      "type": "string"
+    },
+    "relationship4": {
+      "type": "string"
+    },
+    "detail13b": {
+      "type": "string"
+    },
+    "nameOfVeteransOwnFather": {
+      "type": "string"
+    },
+    "nameOfVeteransOwnMother": {
+      "type": "string"
+    },
+    "placeOfDeath": {
+      "type": "string"
+    },
+    "placeOfBirth": {
+      "type": "string"
+    },
+    "explain": {
+      "type": "string"
+    },
+    "f0p20textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "detail20": {
+      "type": "string"
+    },
+    "name14a1": {
+      "type": "string"
+    },
+    "name14a2": {
+      "type": "string"
+    },
+    "age1": {
+      "type": "string"
+    },
+    "age2": {
+      "type": "string"
+    },
+    "name14a3": {
+      "type": "string"
+    },
+    "age3": {
+      "type": "string"
+    },
+    "name14a6": {
+      "type": "string"
+    },
+    "name14a5": {
+      "type": "string"
+    },
+    "name14a4": {
+      "type": "string"
+    },
+    "age4": {
+      "type": "string"
+    },
+    "age5": {
+      "type": "string"
+    },
+    "age6": {
+      "type": "string"
+    },
+    "purpose21cc": {
+      "type": "string"
+    },
+    "purpose21c": {
+      "type": "string"
+    },
+    "name22a": {
+      "type": "string"
+    },
+    "detail26": {
+      "type": "string"
+    },
+    "detail25": {
+      "type": "string"
+    },
+    "detail12": {
+      "type": "string"
+    },
+    "detail11": {
+      "type": "string"
+    },
+    "detail9": {
+      "type": "string"
+    },
+    "detail8": {
+      "type": "string"
+    },
+    "lengthclaimant7": {
+      "type": "string"
+    },
+    "lengthvet5": {
+      "type": "string"
+    },
+    "relationclaimant6": {
+      "type": "string"
+    },
+    "name1": {
+      "type": "string"
+    },
+    "age23": {
+      "type": "string"
+    },
+    "detail13": {
+      "type": "string"
+    },
+    "detail14": {
+      "type": "string"
+    },
+    "age43": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-524-are.pdf",
+    "status": "digitized",
+    "totalFields": 190,
+    "composedFields": 142,
+    "coveragePercent": 75,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 6,
+    "generatedAt": "2026-03-28T17:31:51.101Z"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-0975",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "datefrom": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateField1": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "f0page_20textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "nameofPersonOrOrganization": {
+      "type": "string"
+    },
+    "answer1": {
+      "type": "string"
+    },
+    "answer5": {
+      "type": "string"
+    },
+    "answer4": {
+      "type": "string"
+    },
+    "answer3": {
+      "type": "string"
+    },
+    "answer2": {
+      "type": "string"
+    },
+    "f0page_20textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0975-are.pdf",
+    "status": "digitized",
+    "totalFields": 37,
+    "composedFields": 23,
+    "coveragePercent": 62,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 6,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:55.453Z"
+  }
+}

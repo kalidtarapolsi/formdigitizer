@@ -1,0 +1,182 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-10289",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "referralDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "referralDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "referralDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateReferred": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "number"
+    },
+    "medical": {
+      "type": "string"
+    },
+    "lifeInsurance": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "nameOfEmployer": {
+      "type": "string"
+    },
+    "nameOfSupervisor": {
+      "type": "string"
+    },
+    "employer": {
+      "type": "string"
+    },
+    "education": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "employmentGoal": {
+      "type": "string"
+    },
+    "vacationTimeOff": {
+      "type": "string"
+    },
+    "fourOOneK": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "string"
+    },
+    "jobSearchEfforts": {
+      "type": "string"
+    },
+    "caseManagersJobSearchAssistance": {
+      "type": "string"
+    },
+    "additionalInformation": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-10289-are.pdf",
+    "status": "digitized",
+    "totalFields": 126,
+    "composedFields": 118,
+    "coveragePercent": 94,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:32:21.730Z"
+  }
+}

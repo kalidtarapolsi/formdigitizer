@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8641a",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "veteranName": {
+      "type": "string"
+    },
+    "no2ab": {
+      "type": "string"
+    },
+    "no2fb": {
+      "type": "string"
+    },
+    "no2bb": {
+      "type": "string"
+    },
+    "no2cb": {
+      "type": "string"
+    },
+    "no2db": {
+      "type": "string"
+    },
+    "no2eb": {
+      "type": "string"
+    },
+    "no2a": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__VALoanNo___0_": {
+      "type": "string"
+    },
+    "no1c": {
+      "type": "string"
+    },
+    "no2gc": {
+      "type": "string"
+    },
+    "no2b": {
+      "type": "string"
+    },
+    "no2c": {
+      "type": "string"
+    },
+    "no2d": {
+      "type": "string"
+    },
+    "no2e": {
+      "type": "string"
+    },
+    "no2f": {
+      "type": "string"
+    },
+    "no3gc": {
+      "type": "string"
+    },
+    "no3fb": {
+      "type": "string"
+    },
+    "no3eb": {
+      "type": "string"
+    },
+    "no3db": {
+      "type": "string"
+    },
+    "no3cb": {
+      "type": "string"
+    },
+    "no3bb": {
+      "type": "string"
+    },
+    "no3ab": {
+      "type": "string"
+    },
+    "no4c": {
+      "type": "string"
+    },
+    "no5c": {
+      "type": "string"
+    },
+    "no6b": {
+      "type": "string"
+    },
+    "no8c": {
+      "type": "string"
+    },
+    "no7b": {
+      "type": "string"
+    },
+    "no11b": {
+      "type": "string"
+    },
+    "no10b": {
+      "type": "string"
+    },
+    "no9b": {
+      "type": "string"
+    },
+    "no13b": {
+      "type": "string"
+    },
+    "no12b": {
+      "type": "string"
+    },
+    "no15b": {
+      "type": "string"
+    },
+    "no14b": {
+      "type": "string"
+    },
+    "no17c": {
+      "type": "string"
+    },
+    "no17b": {
+      "type": "string"
+    },
+    "no16b": {
+      "type": "string"
+    },
+    "no19c": {
+      "type": "string"
+    },
+    "no18c": {
+      "type": "string"
+    },
+    "no3a": {
+      "type": "string"
+    },
+    "no3c": {
+      "type": "string"
+    },
+    "no3d": {
+      "type": "string"
+    },
+    "no3e": {
+      "type": "string"
+    },
+    "no3f": {
+      "type": "string"
+    },
+    "sigTitleOfficialLender": {
+      "type": "string"
+    },
+    "no3b": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8641a-are.pdf",
+    "status": "digitized",
+    "totalFields": 51,
+    "composedFields": 5,
+    "coveragePercent": 10,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:36:02.323Z"
+  }
+}

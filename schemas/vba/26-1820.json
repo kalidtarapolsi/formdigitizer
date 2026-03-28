@@ -1,0 +1,378 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1820",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfReport": {
+      "type": "string",
+      "format": "date"
+    },
+    "expirationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfAcquired": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMaturityDateOfNote": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned34": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned39": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amountOfLoan": {
+      "type": "number"
+    },
+    "amountOfEnergyEfficiencyMortgage": {
+      "type": "number"
+    },
+    "amountWitheldFromLoadProceedsAndDepostedIntoEscrow": {
+      "type": "number"
+    },
+    "insurance": {
+      "type": "string"
+    },
+    "bfloodAnnualPremium": {
+      "type": "string"
+    },
+    "ahazardAnnualPremium": {
+      "type": "string"
+    },
+    "bfloodFaceAmtOfPolicy": {
+      "type": "string"
+    },
+    "ahazardFaceAmtOfPolicy": {
+      "type": "string"
+    },
+    "describeNonrealty": {
+      "type": "string"
+    },
+    "nameOfVeteran": {
+      "type": "string"
+    },
+    "initialsVeteran": {
+      "type": "string"
+    },
+    "automatic": {
+      "type": "string"
+    },
+    "prior": {
+      "type": "string"
+    },
+    "guaranty": {
+      "type": "string"
+    },
+    "valoanNumber": {
+      "type": "string"
+    },
+    "lendersLoanNumber": {
+      "type": "string"
+    },
+    "lendersVaidentificationNumber": {
+      "type": "string"
+    },
+    "secondRealty": {
+      "type": "string"
+    },
+    "unsecured": {
+      "type": "string"
+    },
+    "other11": {
+      "type": "string"
+    },
+    "feeSimple": {
+      "type": "string"
+    },
+    "leasehold": {
+      "type": "string"
+    },
+    "other13": {
+      "type": "string"
+    },
+    "discountPointsCharged": {
+      "type": "string"
+    },
+    "otherSpecify11": {
+      "type": "string"
+    },
+    "otherSpecify12": {
+      "type": "string"
+    },
+    "otherSpecify13": {
+      "type": "string"
+    },
+    "nameOfCoObligor": {
+      "type": "string"
+    },
+    "allTitleHolders": {
+      "type": "string"
+    },
+    "discountPointsFinancedIrrlonly": {
+      "type": "string"
+    },
+    "ofEnergyImprovements": {
+      "type": "string"
+    },
+    "approxAnnRealEstTaxes": {
+      "type": "string"
+    },
+    "totalUnpaidSpecialAssessments": {
+      "type": "string"
+    },
+    "approxAnnualAssessPayment": {
+      "type": "string"
+    },
+    "homeOwnersAssociateDues": {
+      "type": "string"
+    },
+    "itemsToBeCompletedAsPartOfTheEscrowAttachSeparteSheetIfNecessary": {
+      "type": "string"
+    },
+    "purchasePrice": {
+      "type": "string"
+    },
+    "modifiedInterestRate": {
+      "type": "string"
+    },
+    "modifiedInterestTerm": {
+      "type": "string"
+    },
+    "currentRateIfLoanBeingRefinanceWasAnArm": {
+      "type": "string"
+    },
+    "prncplInterestPayEachPer": {
+      "type": "string"
+    },
+    "interestRate": {
+      "type": "string"
+    },
+    "termOfLoanMonths": {
+      "type": "string"
+    },
+    "cfunction": {
+      "type": "string"
+    },
+    "cname": {
+      "type": "string"
+    },
+    "bfunction": {
+      "type": "string"
+    },
+    "bname": {
+      "type": "string"
+    },
+    "afunction": {
+      "type": "string"
+    },
+    "aname": {
+      "type": "string"
+    },
+    "certOfReasonableValue": {
+      "type": "string"
+    },
+    "sigTitleOfLendr": {
+      "type": "string"
+    },
+    "underwriterVaidNumber": {
+      "type": "string"
+    },
+    "nameOfUnderwriter": {
+      "type": "string"
+    },
+    "occupancy6": {
+      "type": "string"
+    },
+    "occupancy5": {
+      "type": "string"
+    },
+    "occupancy4": {
+      "type": "string"
+    },
+    "occupancy3": {
+      "type": "string"
+    },
+    "occupancy2": {
+      "type": "string"
+    },
+    "occupancy1": {
+      "type": "string"
+    },
+    "wasNotAware": {
+      "type": "string"
+    },
+    "wasAware": {
+      "type": "string"
+    },
+    "reasonablePropertyValue": {
+      "type": "string"
+    },
+    "initialsCoObligor": {
+      "type": "string"
+    },
+    "notHispanic38b": {
+      "type": "string"
+    },
+    "hispanic38b": {
+      "type": "string"
+    },
+    "notHispanic37b": {
+      "type": "string"
+    },
+    "hispanic37b": {
+      "type": "string"
+    },
+    "white38c": {
+      "type": "string"
+    },
+    "black38c": {
+      "type": "string"
+    },
+    "asian38c": {
+      "type": "string"
+    },
+    "white37c": {
+      "type": "string"
+    },
+    "black37c": {
+      "type": "string"
+    },
+    "asian37c": {
+      "type": "string"
+    },
+    "nativeHawaiian38c": {
+      "type": "string"
+    },
+    "americanIndian38c": {
+      "type": "string"
+    },
+    "nativeHawaiian37c": {
+      "type": "string"
+    },
+    "americanIndian37c": {
+      "type": "string"
+    },
+    "male38d": {
+      "type": "string"
+    },
+    "female38d": {
+      "type": "string"
+    },
+    "male37d": {
+      "type": "string"
+    },
+    "female37d": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1820-are.pdf",
+    "status": "digitized",
+    "totalFields": 111,
+    "composedFields": 41,
+    "coveragePercent": 37,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:32:58.112Z"
+  }
+}

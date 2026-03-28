@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-6553d-1",
+  "type": "object",
+  "properties": {
+    "traineesnameandaddress": {
+      "type": "string"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateToBeCertified": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTerminated": {
+      "type": "string",
+      "format": "date"
+    },
+    "effectivedate": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "nameandfacilitycodeoftrainingfacility": {
+      "type": "string"
+    },
+    "payeenumber": {
+      "type": "string"
+    },
+    "ofHours": {
+      "type": "string"
+    },
+    "reasonfortermination": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-6553d-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 29,
+    "composedFields": 18,
+    "coveragePercent": 62,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:30.614Z"
+  }
+}

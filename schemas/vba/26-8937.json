@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8937",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "currentaddressofveteran": {
+      "type": "string"
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "datesigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned2": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "ofDebts1": {
+      "type": "number"
+    },
+    "amountOfDebts1": {
+      "type": "number"
+    },
+    "amountOfDebts2": {
+      "type": "number"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "to": {
+      "type": "string"
+    },
+    "nameofveteran": {
+      "type": "string"
+    },
+    "vaclaimno": {
+      "type": "string"
+    },
+    "forvause": {
+      "type": "string"
+    },
+    "termofrepaymentplan": {
+      "type": "string"
+    },
+    "exempt": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8937-are.pdf",
+    "status": "digitized",
+    "totalFields": 27,
+    "composedFields": 16,
+    "coveragePercent": 59,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:37:44.053Z"
+  }
+}

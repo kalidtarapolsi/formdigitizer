@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8731b",
+  "type": "object",
+  "properties": {
+    "firmNameAddress": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "inspectorName": {
+      "type": "string"
+    },
+    "satisfactoryYes": {
+      "type": "string"
+    },
+    "satisfactoryNo": {
+      "type": "string"
+    },
+    "licenseNo": {
+      "type": "string"
+    },
+    "caseNo": {
+      "type": "string"
+    },
+    "homeLocation": {
+      "type": "string"
+    },
+    "homeSerialNo": {
+      "type": "string"
+    },
+    "alumWiring": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8731b-are.pdf",
+    "status": "digitized",
+    "totalFields": 12,
+    "composedFields": 4,
+    "coveragePercent": 33,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:41.590Z"
+  }
+}

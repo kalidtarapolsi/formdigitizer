@@ -1,0 +1,299 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8149",
+  "type": "object",
+  "properties": {
+    "dateOfFirstPayment": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfReport": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfNoteSecurityInstrumentOrOtherEvidenceOfObligation": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfFinalDisbursement": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfLeaseholdExpiration": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBoxVeteranCertificationICertifyThatIHaveNotBeenDischargedOrReleasedFromActiveDutySinceTheDateMyCertificateOfEligibilityWasIssued": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBoxNotHispanicOrLatino": {
+      "type": "boolean"
+    },
+    "checkBoxHispanicOrLatino": {
+      "type": "boolean"
+    },
+    "checkBoxAmercianIndianOrAlaskanNative": {
+      "type": "boolean"
+    },
+    "checkBoxNativeHawaiianOrPacificIslander": {
+      "type": "boolean"
+    },
+    "checkBoxAsian": {
+      "type": "boolean"
+    },
+    "checkBoxBlackorafricanamerican": {
+      "type": "boolean"
+    },
+    "checkBoxFemale": {
+      "type": "boolean"
+    },
+    "checkBoxMale": {
+      "type": "boolean"
+    },
+    "checkBoxWhite": {
+      "type": "boolean"
+    },
+    "checkboxNo": {
+      "type": "boolean"
+    },
+    "checkboxYes": {
+      "type": "boolean"
+    },
+    "checkBoxSpo": {
+      "type": "boolean"
+    },
+    "checkBoxLotOnlyLoan": {
+      "type": "boolean"
+    },
+    "checkBoxUsedManufacturedHomeIs": {
+      "type": "boolean"
+    },
+    "checkBoxTheLotIs": {
+      "type": "boolean"
+    },
+    "checkBoxNecessarySitePreparationForTheLotIOwnIs": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amountOfHazardInsuranceCoverageOnSecurity": {
+      "type": "number"
+    },
+    "monthlyAmountForTaxesAndInsuranceRenewalIfKnown": {
+      "type": "number"
+    },
+    "amountOfLoanLot": {
+      "type": "number"
+    },
+    "amountOfLoanTotal": {
+      "type": "number"
+    },
+    "amountOfLoan": {
+      "type": "number"
+    },
+    "annualFloodInsurancePremium": {
+      "type": "string"
+    },
+    "costOfPhysicalDamageInsurance": {
+      "type": "string"
+    },
+    "costOfVsiCoverage": {
+      "type": "string"
+    },
+    "titleExaminationAndTitleInsuranceLot": {
+      "type": "string"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "totalCostToVeteran": {
+      "type": "string"
+    },
+    "vaLoanNumber": {
+      "type": "string"
+    },
+    "nameOfManufacturer": {
+      "type": "string"
+    },
+    "years": {
+      "type": "string"
+    },
+    "lendersLoanNumber": {
+      "type": "string"
+    },
+    "initials": {
+      "type": "string"
+    },
+    "months": {
+      "type": "string"
+    },
+    "lot": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "modelNameNumberAndYear": {
+      "type": "string"
+    },
+    "serialNumberIfKnown": {
+      "type": "string"
+    },
+    "sizeLengthWidthSquareFoot": {
+      "type": "string"
+    },
+    "locationOfManufacturedHome": {
+      "type": "string"
+    },
+    "namesOfPersonsInWhomTitlesWillBeVested": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__Annual_Unit_Taxes_Licenses_Etc___0_": {
+      "type": "string"
+    },
+    "annualMaintenanceAssessment": {
+      "type": "string"
+    },
+    "balanceDueIfNone": {
+      "type": "string"
+    },
+    "monthlyPayment": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "termsOfLeaseOnRentalSiteMonthlyRental": {
+      "type": "string"
+    },
+    "manufacturedHomeLot": {
+      "type": "string"
+    },
+    "costOfNecessarySitePreparation": {
+      "type": "string"
+    },
+    "sitePreparation": {
+      "type": "string"
+    },
+    "annualTaxes": {
+      "type": "string"
+    },
+    "totalAllowableFeesAndCharges": {
+      "type": "string"
+    },
+    "transportationFreight": {
+      "type": "string"
+    },
+    "setupCharges": {
+      "type": "string"
+    },
+    "recordingFeesAndDocumentaryStampTaxIfAny": {
+      "type": "string"
+    },
+    "totalCostOfManufacturedHomeAndOrLotAndNecessarySitePreparation": {
+      "type": "string"
+    },
+    "totalCostOfManufacturedHomeAndOrLotAndAllowableFeesAndCharges": {
+      "type": "string"
+    },
+    "totalClosingCosts": {
+      "type": "string"
+    },
+    "creditReport": {
+      "type": "string"
+    },
+    "appraisalFees": {
+      "type": "string"
+    },
+    "recordingFeesAndTaxesLot": {
+      "type": "string"
+    },
+    "surveyLot": {
+      "type": "string"
+    },
+    "lendersOriginationFee": {
+      "type": "string"
+    },
+    "totalPrepaidItems": {
+      "type": "string"
+    },
+    "cash": {
+      "type": "string"
+    },
+    "otherCredits": {
+      "type": "string"
+    },
+    "totalCredits": {
+      "type": "string"
+    },
+    "salesTaxLocal": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8149-are.pdf",
+    "status": "digitized",
+    "totalFields": 106,
+    "composedFields": 65,
+    "coveragePercent": 61,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:33:12.739Z"
+  }
+}

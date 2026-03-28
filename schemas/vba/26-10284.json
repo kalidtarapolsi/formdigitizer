@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-10284",
+  "type": "object",
+  "properties": {
+    "firstNameMiddleNameLastNameOfVeteran": {
+      "type": "string"
+    },
+    "propertyAddress": {
+      "type": "string"
+    },
+    "dateOfDisclosure": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "va": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "otherLoanType": {
+      "type": "string"
+    },
+    "initial": {
+      "type": "string"
+    },
+    "interim": {
+      "type": "string"
+    },
+    "final": {
+      "type": "string"
+    },
+    "linNumber": {
+      "type": "string"
+    },
+    "lendersLoanNumber": {
+      "type": "string"
+    },
+    "existingVaLoanNumber": {
+      "type": "string"
+    },
+    "fha": {
+      "type": "string"
+    },
+    "conventional": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "nameOfCoBorrower": {
+      "type": "string"
+    },
+    "loanBalance": {
+      "type": "string"
+    },
+    "monthlyPayment": {
+      "type": "string"
+    },
+    "months": {
+      "type": "string"
+    },
+    "amortizationType": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-10284-are.pdf",
+    "status": "digitized",
+    "totalFields": 73,
+    "composedFields": 8,
+    "coveragePercent": 11,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:34:34.721Z"
+  }
+}

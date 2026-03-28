@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-4555c",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address3a": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amountb": {
+      "type": "number"
+    },
+    "amount3": {
+      "type": "number"
+    },
+    "insurancec": {
+      "type": "string"
+    },
+    "specify": {
+      "type": "string"
+    },
+    "monthly1": {
+      "type": "string"
+    },
+    "name1": {
+      "type": "string"
+    },
+    "grants": {
+      "type": "string"
+    },
+    "f0page_10textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "name1a": {
+      "type": "string"
+    },
+    "name1b": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "f0page_10textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "taxesa": {
+      "type": "string"
+    },
+    "specialb": {
+      "type": "string"
+    },
+    "heatd": {
+      "type": "string"
+    },
+    "misce": {
+      "type": "string"
+    },
+    "totalf": {
+      "type": "string"
+    },
+    "remaining": {
+      "type": "string"
+    },
+    "interest5": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-4555c-are.pdf",
+    "status": "digitized",
+    "totalFields": 44,
+    "composedFields": 24,
+    "coveragePercent": 55,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 3,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:36:30.054Z"
+  }
+}

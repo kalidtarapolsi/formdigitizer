@@ -1,0 +1,444 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-1775",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "begDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "radioButtonList1": {
+      "type": "string"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "wasTheMissingPersonInDebt": {
+      "type": "number"
+    },
+    "accountCondition": {
+      "type": "string"
+    },
+    "didMissingPersonExpressDissatisfactionWithSurroundingsWorkHomeConditionsEtc": {
+      "type": "string"
+    },
+    "lifeinsuranceYes2": {
+      "type": "string"
+    },
+    "insuranceSettlement": {
+      "type": "string"
+    },
+    "employernameA": {
+      "type": "string"
+    },
+    "employernameB": {
+      "type": "string"
+    },
+    "employernameC": {
+      "type": "string"
+    },
+    "employernameD": {
+      "type": "string"
+    },
+    "employernameE": {
+      "type": "string"
+    },
+    "workperformedE": {
+      "type": "string"
+    },
+    "workperformedD": {
+      "type": "string"
+    },
+    "workperformedC": {
+      "type": "string"
+    },
+    "workperformedB": {
+      "type": "string"
+    },
+    "workperformedA": {
+      "type": "string"
+    },
+    "relationshipToMissingPerson": {
+      "type": "string"
+    },
+    "relationshipToClaimant": {
+      "type": "string"
+    },
+    "describeTattooMarksPhysicalDefectsOrIdentifyingMarks": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "race": {
+      "type": "string"
+    },
+    "claimantsName": {
+      "type": "string"
+    },
+    "nameOfPersonWhoDisappeared": {
+      "type": "string"
+    },
+    "nameOfPersonCompletingForm": {
+      "type": "string"
+    },
+    "lengthOfTimePersonIsMissing": {
+      "type": "string"
+    },
+    "birthplace": {
+      "type": "string"
+    },
+    "fatherName": {
+      "type": "string"
+    },
+    "motherName": {
+      "type": "string"
+    },
+    "nickname": {
+      "type": "string"
+    },
+    "haircolor": {
+      "type": "string"
+    },
+    "eyecolor": {
+      "type": "string"
+    },
+    "whoDidMissingPersonLiveWithAtTimeOfDisappearance": {
+      "type": "string"
+    },
+    "wasTheMissingPersonOnGoodTermsWithHisOrHerFamily": {
+      "type": "string"
+    },
+    "missingDivorced": {
+      "type": "string"
+    },
+    "veteransName": {
+      "type": "string"
+    },
+    "livespo": {
+      "type": "string"
+    },
+    "enamoredYes2": {
+      "type": "string"
+    },
+    "familynameA": {
+      "type": "string"
+    },
+    "familynameB": {
+      "type": "string"
+    },
+    "familynameC": {
+      "type": "string"
+    },
+    "familynameD": {
+      "type": "string"
+    },
+    "familynameE": {
+      "type": "string"
+    },
+    "familynameF": {
+      "type": "string"
+    },
+    "familyrelationA": {
+      "type": "string"
+    },
+    "familyrelationB": {
+      "type": "string"
+    },
+    "familyrelationC": {
+      "type": "string"
+    },
+    "familyrelationD": {
+      "type": "string"
+    },
+    "familyrelationE": {
+      "type": "string"
+    },
+    "familyrelationF": {
+      "type": "string"
+    },
+    "relativenameA": {
+      "type": "string"
+    },
+    "relativenameB": {
+      "type": "string"
+    },
+    "relativenameC": {
+      "type": "string"
+    },
+    "relativenameE": {
+      "type": "string"
+    },
+    "relativenameD": {
+      "type": "string"
+    },
+    "relativerelationA": {
+      "type": "string"
+    },
+    "relativerelationB": {
+      "type": "string"
+    },
+    "relativerelationC": {
+      "type": "string"
+    },
+    "relativerelationD": {
+      "type": "string"
+    },
+    "relativerelationE": {
+      "type": "string"
+    },
+    "ifNoExplain": {
+      "type": "string"
+    },
+    "healthCareProviders": {
+      "type": "string"
+    },
+    "familyageA": {
+      "type": "string"
+    },
+    "familyageB": {
+      "type": "string"
+    },
+    "familyageC": {
+      "type": "string"
+    },
+    "familyageD": {
+      "type": "string"
+    },
+    "familyageE": {
+      "type": "string"
+    },
+    "familyageF": {
+      "type": "string"
+    },
+    "trade": {
+      "type": "string"
+    },
+    "withFunds": {
+      "type": "string"
+    },
+    "safedepositboxYes2": {
+      "type": "string"
+    },
+    "anyofthese": {
+      "type": "string"
+    },
+    "organizationYes2": {
+      "type": "string"
+    },
+    "benefitsYes2": {
+      "type": "string"
+    },
+    "claimfiledC": {
+      "type": "string"
+    },
+    "claimfiledB": {
+      "type": "string"
+    },
+    "claimfiledA": {
+      "type": "string"
+    },
+    "claimactionC": {
+      "type": "string"
+    },
+    "claimactionB": {
+      "type": "string"
+    },
+    "claimactionA": {
+      "type": "string"
+    },
+    "otheragencyYes2": {
+      "type": "string"
+    },
+    "wereCourtProceedingsPending": {
+      "type": "string"
+    },
+    "hadAWarrantBeenIssued": {
+      "type": "string"
+    },
+    "didMissingPersonSufferedSeriousDisappointmentOrBereavement": {
+      "type": "string"
+    },
+    "reputationOfMissingPerson": {
+      "type": "string"
+    },
+    "hobby": {
+      "type": "string"
+    },
+    "vacationYes2": {
+      "type": "string"
+    },
+    "whereaboutsYes2": {
+      "type": "string"
+    },
+    "locations": {
+      "type": "string"
+    },
+    "leaveYes2": {
+      "type": "string"
+    },
+    "travelYes2": {
+      "type": "string"
+    },
+    "namesOfPersonsFamiliarWithMissingPersonPlans": {
+      "type": "string"
+    },
+    "reasonForLeaving": {
+      "type": "string"
+    },
+    "whatPersonalBelongingsDidTheMissingPersonTakeWithHimHer": {
+      "type": "string"
+    },
+    "didHeOrSheTakeVehicleWithThemIfYesGiveMakeModelEtc": {
+      "type": "string"
+    },
+    "wasVehicleRecovered": {
+      "type": "string"
+    },
+    "descriptionOfSearchEfforts": {
+      "type": "string"
+    },
+    "ifPoliceWereNotNotifiedExplainReason": {
+      "type": "string"
+    },
+    "reasonWhyMissingPersonWouldNotRevealWhereabouts": {
+      "type": "string"
+    },
+    "reasonMissingPersonIsMissing": {
+      "type": "string"
+    },
+    "nameOfCourt": {
+      "type": "string"
+    },
+    "resultOfCourtsDecision": {
+      "type": "string"
+    },
+    "heardfromMissing": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-1775-are.pdf",
+    "status": "digitized",
+    "totalFields": 200,
+    "composedFields": 116,
+    "coveragePercent": 58,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 6,
+    "generatedAt": "2026-03-28T17:31:50.900Z"
+  }
+}

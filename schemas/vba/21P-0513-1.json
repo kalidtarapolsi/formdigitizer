@@ -1,0 +1,208 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0513-1",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "f0page_10textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10headerrow0subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10headerrow0subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10headerrow0subform2textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10row60subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10row60subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10row60subform2textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10row61subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10row61subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10table10row61subform2textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20subform0subform2textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20subform0subform2textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20subform0subform3textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20subform0subform3textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield19": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield111": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield112": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield113": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield114": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield115": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield116": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield117": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield118": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield119": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield120": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield121": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield122": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield123": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0513-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 147,
+    "composedFields": 105,
+    "coveragePercent": 71,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 42,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:31:52.500Z"
+  }
+}

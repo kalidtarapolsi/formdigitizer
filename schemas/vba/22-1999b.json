@@ -1,0 +1,255 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1999b",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "daterevised": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "enddate": {
+      "type": "string",
+      "format": "date"
+    },
+    "beginDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "resumeDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "terminationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAdjustmentIsEffective": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "tuitionAndFees": {
+      "type": "string"
+    },
+    "nameOfStudent": {
+      "type": "string"
+    },
+    "reason1": {
+      "type": "string"
+    },
+    "reason2": {
+      "type": "string"
+    },
+    "reason3": {
+      "type": "string"
+    },
+    "reason4": {
+      "type": "string"
+    },
+    "reason6": {
+      "type": "string"
+    },
+    "graduation": {
+      "type": "string"
+    },
+    "reason8": {
+      "type": "string"
+    },
+    "reason9": {
+      "type": "string"
+    },
+    "adjustment1": {
+      "type": "string"
+    },
+    "adjustment2": {
+      "type": "string"
+    },
+    "adjustment4": {
+      "type": "string"
+    },
+    "adjustment5": {
+      "type": "string"
+    },
+    "adjustment3": {
+      "type": "string"
+    },
+    "adjustment6": {
+      "type": "string"
+    },
+    "adjustment7": {
+      "type": "string"
+    },
+    "adjustment8": {
+      "type": "string"
+    },
+    "adjustment9": {
+      "type": "string"
+    },
+    "credithoursbefore": {
+      "type": "string"
+    },
+    "credithoursafter": {
+      "type": "string"
+    },
+    "time1": {
+      "type": "string"
+    },
+    "time3": {
+      "type": "string"
+    },
+    "time5": {
+      "type": "string"
+    },
+    "time2": {
+      "type": "string"
+    },
+    "time4": {
+      "type": "string"
+    },
+    "clockhoursF": {
+      "type": "string"
+    },
+    "clockhoursG": {
+      "type": "string"
+    },
+    "yes1": {
+      "type": "string"
+    },
+    "no1": {
+      "type": "string"
+    },
+    "student1": {
+      "type": "string"
+    },
+    "student2": {
+      "type": "string"
+    },
+    "yes2": {
+      "type": "string"
+    },
+    "no2": {
+      "type": "string"
+    },
+    "unknown2": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "yellowribbon": {
+      "type": "string"
+    },
+    "facilityCode": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1999b-are.pdf",
+    "status": "digitized",
+    "totalFields": 62,
+    "composedFields": 19,
+    "coveragePercent": 31,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:14.795Z"
+  }
+}

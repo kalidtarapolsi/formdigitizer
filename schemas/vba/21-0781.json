@@ -1,0 +1,286 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-0781",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "datesTheTraumaticEventsOccured": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBoxDoNotHaveDateS": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "increasedDecreasedVisitsToAHealthcareProfessionalCounselorOrTreatmentFacility": {
+      "type": "string"
+    },
+    "aCounselingFacilityOrHealthClinic": {
+      "type": "string"
+    },
+    "vaMedicalC": {
+      "type": "string"
+    },
+    "departmentOfDefenseMilitaryTreatmentFacilities": {
+      "type": "string"
+    },
+    "nameAndLocationOfTreatmentFacility": {
+      "type": "string"
+    },
+    "iConsentToHaveVbaNotifyVhaAboutCertainUpcomingEventsRelatedToMyClaimAndOrAppeal": {
+      "type": "string"
+    },
+    "iDoNotConsentToHaveVbaNotifyVhaAboutCertainUpcomingEventsRelatedToMyClaimAndOrAppeal": {
+      "type": "string"
+    },
+    "iRevokePriorConsentToHaveVbaNotifyVhaAboutCertainUpcomingEventsRelatedToMyClaimAndOrAppeal": {
+      "type": "string"
+    },
+    "otherSpecifyBelow": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "areaCode": {
+      "type": "string"
+    },
+    "combatTraumaticEvents": {
+      "type": "string"
+    },
+    "personalTraumaticEventsNotInvolvingMilitarySexualTrauma": {
+      "type": "string"
+    },
+    "personalTraumaticEventsInvolvingMilitarySexualTrauma": {
+      "type": "string"
+    },
+    "otherTraumaticEvents": {
+      "type": "string"
+    },
+    "briefDescriptionOfTheTraumaticEvents": {
+      "type": "string"
+    },
+    "locationOfTheTraumaticEvents": {
+      "type": "string"
+    },
+    "increasedDecreased": {
+      "type": "string"
+    },
+    "changesInPerformanceOrPerformanceEvaluations": {
+      "type": "string"
+    },
+    "episodesOfDepressionPanicAttacksOrAnxiety": {
+      "type": "string"
+    },
+    "disciplinaryOrLegalDifficulties": {
+      "type": "string"
+    },
+    "additionalInformationAboutBehavioralChanges": {
+      "type": "string"
+    },
+    "additionalBehavioralChanges": {
+      "type": "string"
+    },
+    "pregnancyTestsAroundTheTimeOfTheTraumaticEvents": {
+      "type": "string"
+    },
+    "testsForSexuallyTransmittedInfections": {
+      "type": "string"
+    },
+    "economicOrSocialBehavioralChanges": {
+      "type": "string"
+    },
+    "policeReportLocationIfKnown": {
+      "type": "string"
+    },
+    "otherReport": {
+      "type": "string"
+    },
+    "aRapeCrisisC": {
+      "type": "string"
+    },
+    "familyMemberOrRoomates": {
+      "type": "string"
+    },
+    "aFacultyMember": {
+      "type": "string"
+    },
+    "civilianPoliceReports": {
+      "type": "string"
+    },
+    "aChaplainOrClergy": {
+      "type": "string"
+    },
+    "fellowServiceMembers": {
+      "type": "string"
+    },
+    "personalDiariesOrJournals": {
+      "type": "string"
+    },
+    "privateHealthcareProvider": {
+      "type": "string"
+    },
+    "vaVetCenter": {
+      "type": "string"
+    },
+    "remarksIfAny": {
+      "type": "string"
+    },
+    "notApplicableAndOrNotEnrolledInVhaHealthcare": {
+      "type": "string"
+    },
+    "accreditationNumber": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0781-are.pdf",
+    "status": "digitized",
+    "totalFields": 124,
+    "composedFields": 63,
+    "coveragePercent": 51,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 7,
+    "generatedAt": "2026-03-28T17:32:31.731Z"
+  }
+}

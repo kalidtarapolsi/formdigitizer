@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0512V-1",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "dependentchildrenincustody": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "source": {
+      "type": "string"
+    },
+    "form10subform1textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield19": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield111": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield112": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "showSource": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0512v-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 85,
+    "composedFields": 62,
+    "coveragePercent": 73,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 13,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:00.210Z"
+  }
+}

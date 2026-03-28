@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8736a",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield19": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield111": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield112": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield113": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0numericfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield114": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8736a-are.pdf",
+    "status": "digitized",
+    "totalFields": 37,
+    "composedFields": 13,
+    "coveragePercent": 35,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 24,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:36:53.117Z"
+  }
+}

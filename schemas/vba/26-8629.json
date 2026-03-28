@@ -1,0 +1,395 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8629",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "dateOfLoana": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfLoan": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "date2": {
+      "type": "string",
+      "format": "date"
+    },
+    "date3": {
+      "type": "string",
+      "format": "date"
+    },
+    "date4": {
+      "type": "string",
+      "format": "date"
+    },
+    "date5": {
+      "type": "string",
+      "format": "date"
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMade1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMade2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMade3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMade4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateE": {
+      "type": "string",
+      "format": "date"
+    },
+    "date20": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amountGuaranty": {
+      "type": "number"
+    },
+    "amountPayment": {
+      "type": "number"
+    },
+    "amountBorrowed": {
+      "type": "number"
+    },
+    "faceAmount": {
+      "type": "number"
+    },
+    "amountA": {
+      "type": "number"
+    },
+    "amountB": {
+      "type": "number"
+    },
+    "amountC": {
+      "type": "number"
+    },
+    "amountD": {
+      "type": "number"
+    },
+    "amountE": {
+      "type": "number"
+    },
+    "amountF": {
+      "type": "number"
+    },
+    "amountG": {
+      "type": "number"
+    },
+    "amountH": {
+      "type": "number"
+    },
+    "amountI": {
+      "type": "number"
+    },
+    "amountJ": {
+      "type": "number"
+    },
+    "amount17": {
+      "type": "number"
+    },
+    "judgementOrForeclosureDecree": {
+      "type": "string"
+    },
+    "simple": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "addOn": {
+      "type": "string"
+    },
+    "vaLoanNumber": {
+      "type": "string"
+    },
+    "holderLoanNumber": {
+      "type": "string"
+    },
+    "percentE": {
+      "type": "string"
+    },
+    "discountOrAddOn": {
+      "type": "string"
+    },
+    "nofie1": {
+      "type": "string"
+    },
+    "nofie2": {
+      "type": "string"
+    },
+    "repossessedSecurity": {
+      "type": "string"
+    },
+    "noSecurityAvailable": {
+      "type": "string"
+    },
+    "f0page_10numericfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "statusA": {
+      "type": "string"
+    },
+    "statusB": {
+      "type": "string"
+    },
+    "statusD": {
+      "type": "string"
+    },
+    "statusE": {
+      "type": "string"
+    },
+    "statusC": {
+      "type": "string"
+    },
+    "statusF": {
+      "type": "string"
+    },
+    "statusG": {
+      "type": "string"
+    },
+    "statusH": {
+      "type": "string"
+    },
+    "finalA": {
+      "type": "string"
+    },
+    "finalB": {
+      "type": "string"
+    },
+    "finalC": {
+      "type": "string"
+    },
+    "finalD": {
+      "type": "string"
+    },
+    "totalE": {
+      "type": "string"
+    },
+    "finalF": {
+      "type": "string"
+    },
+    "finalG": {
+      "type": "string"
+    },
+    "finalH": {
+      "type": "string"
+    },
+    "balanceI": {
+      "type": "string"
+    },
+    "claimed12": {
+      "type": "string"
+    },
+    "statusI": {
+      "type": "string"
+    },
+    "toInterest": {
+      "type": "string"
+    },
+    "toPrincipal": {
+      "type": "string"
+    },
+    "payments1": {
+      "type": "string"
+    },
+    "payments2": {
+      "type": "string"
+    },
+    "payments3": {
+      "type": "string"
+    },
+    "payments4": {
+      "type": "string"
+    },
+    "payments5": {
+      "type": "string"
+    },
+    "advances1": {
+      "type": "string"
+    },
+    "advances3": {
+      "type": "string"
+    },
+    "purpose1": {
+      "type": "string"
+    },
+    "purpose2": {
+      "type": "string"
+    },
+    "purpose3": {
+      "type": "string"
+    },
+    "purpose4": {
+      "type": "string"
+    },
+    "scheduleA": {
+      "type": "string"
+    },
+    "scheduleB": {
+      "type": "string"
+    },
+    "scheduleC": {
+      "type": "string"
+    },
+    "scheduleD": {
+      "type": "string"
+    },
+    "scheduleE": {
+      "type": "string"
+    },
+    "scheduleF": {
+      "type": "string"
+    },
+    "scheduleG": {
+      "type": "string"
+    },
+    "scheduleH": {
+      "type": "string"
+    },
+    "scheduleI": {
+      "type": "string"
+    },
+    "scheduleJ": {
+      "type": "string"
+    },
+    "totalK": {
+      "type": "string"
+    },
+    "interestF": {
+      "type": "string"
+    },
+    "balanceInTax": {
+      "type": "string"
+    },
+    "claimant19": {
+      "type": "string"
+    },
+    "f0page_20textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "advances2": {
+      "type": "string"
+    },
+    "advances4": {
+      "type": "string"
+    },
+    "totalPayments": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8629-are.pdf",
+    "status": "digitized",
+    "totalFields": 101,
+    "composedFields": 39,
+    "coveragePercent": 39,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 2,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:33:20.993Z"
+  }
+}

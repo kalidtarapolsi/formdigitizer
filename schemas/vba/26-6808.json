@@ -1,0 +1,344 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6808",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateTotalDelinq": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfInterview": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "gAssets": {
+      "type": "number"
+    },
+    "fAssets": {
+      "type": "number"
+    },
+    "eAssets": {
+      "type": "number"
+    },
+    "electricExpenses": {
+      "type": "number"
+    },
+    "gasExpenses": {
+      "type": "number"
+    },
+    "heatingOilExpenses": {
+      "type": "number"
+    },
+    "foodExpenses": {
+      "type": "number"
+    },
+    "hAssets": {
+      "type": "number"
+    },
+    "iAssets": {
+      "type": "number"
+    },
+    "dAssets": {
+      "type": "number"
+    },
+    "c1Assets": {
+      "type": "number"
+    },
+    "c2Assets": {
+      "type": "number"
+    },
+    "aAssets": {
+      "type": "number"
+    },
+    "theBorrowerIsRelyingOnTheSpousesIncomeAsABasisForRepaymentOfLoan": {
+      "type": "number"
+    },
+    "aSalary": {
+      "type": "number"
+    },
+    "bAssets": {
+      "type": "number"
+    },
+    "amountOfRent": {
+      "type": "number"
+    },
+    "generalConditionOfProperty": {
+      "type": "string"
+    },
+    "borrowerIsRelyingOnAlimonyChildSupportSeparateMaintenancePaymentsFromASpo": {
+      "type": "string"
+    },
+    "ageOfDependents": {
+      "type": "string"
+    },
+    "ofWork": {
+      "type": "string"
+    },
+    "ofWork2": {
+      "type": "string"
+    },
+    "borrowersExplanationOfDelinquency": {
+      "type": "string"
+    },
+    "r": {
+      "type": "string"
+    },
+    "dTotal": {
+      "type": "string"
+    },
+    "loanLender": {
+      "type": "string"
+    },
+    "q": {
+      "type": "string"
+    },
+    "l": {
+      "type": "string"
+    },
+    "k": {
+      "type": "string"
+    },
+    "j": {
+      "type": "string"
+    },
+    "i": {
+      "type": "string"
+    },
+    "h": {
+      "type": "string"
+    },
+    "g": {
+      "type": "string"
+    },
+    "mortgagePayment": {
+      "type": "string"
+    },
+    "m": {
+      "type": "string"
+    },
+    "n": {
+      "type": "string"
+    },
+    "o": {
+      "type": "string"
+    },
+    "p": {
+      "type": "string"
+    },
+    "model2": {
+      "type": "string"
+    },
+    "model1": {
+      "type": "string"
+    },
+    "make2": {
+      "type": "string"
+    },
+    "make1": {
+      "type": "string"
+    },
+    "creditCardCoName": {
+      "type": "string"
+    },
+    "inField": {
+      "type": "string"
+    },
+    "inOffice": {
+      "type": "string"
+    },
+    "theSpo": {
+      "type": "string"
+    },
+    "officeOfJurisdiction": {
+      "type": "string"
+    },
+    "officeOfOrigination": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "loanNumber": {
+      "type": "string"
+    },
+    "nameCode": {
+      "type": "string"
+    },
+    "namesOfPersonSInterviewed": {
+      "type": "string"
+    },
+    "lengthOfEmployment": {
+      "type": "string"
+    },
+    "spo": {
+      "type": "string"
+    },
+    "lengthOfEmployment2": {
+      "type": "string"
+    },
+    "bComp": {
+      "type": "string"
+    },
+    "cRental": {
+      "type": "string"
+    },
+    "totalRepay": {
+      "type": "string"
+    },
+    "regInstallment": {
+      "type": "string"
+    },
+    "totalDelinquency": {
+      "type": "string"
+    },
+    "cashAvailable": {
+      "type": "string"
+    },
+    "itemize": {
+      "type": "string"
+    },
+    "year1": {
+      "type": "string"
+    },
+    "year2": {
+      "type": "string"
+    },
+    "eMail": {
+      "type": "string"
+    },
+    "estimatedCost4": {
+      "type": "string"
+    },
+    "estimatedCost5": {
+      "type": "string"
+    },
+    "majorRepair4": {
+      "type": "string"
+    },
+    "majorRepair5": {
+      "type": "string"
+    },
+    "ownerOccupied": {
+      "type": "string"
+    },
+    "vacant": {
+      "type": "string"
+    },
+    "rented": {
+      "type": "string"
+    },
+    "temp": {
+      "type": "string"
+    },
+    "perm": {
+      "type": "string"
+    },
+    "forbearance": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "nameOfTenant": {
+      "type": "string"
+    },
+    "rentPaidTo": {
+      "type": "string"
+    },
+    "majorRepairsRequired": {
+      "type": "string"
+    },
+    "majorRepair2": {
+      "type": "string"
+    },
+    "majorRepair3": {
+      "type": "string"
+    },
+    "estimatedCost1": {
+      "type": "string"
+    },
+    "estimatedCost2": {
+      "type": "string"
+    },
+    "estimatedCost3": {
+      "type": "string"
+    },
+    "opinion": {
+      "type": "string"
+    },
+    "domestic": {
+      "type": "string"
+    },
+    "proposedRepaymentSchedule": {
+      "type": "string"
+    },
+    "remarks1": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6808-are.pdf",
+    "status": "digitized",
+    "totalFields": 111,
+    "composedFields": 42,
+    "coveragePercent": 38,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:32:59.325Z"
+  }
+}

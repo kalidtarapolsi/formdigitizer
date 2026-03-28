@@ -1,0 +1,263 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "20-10207",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateOfTreatmentMonth1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentDay1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentYear1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentMonth2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentDay2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentYear2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentMonth3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentDay3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentYear3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentMonth4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentDay4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentYear4": {
+      "type": "string",
+      "format": "date"
+    },
+    "requesterDateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "requesterDateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "requesterDateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "thirdPartyDateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "thirdPartyDateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "thirdPartyDateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "poadateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "poadateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "poadateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "nameAndLocationOfTreatmentFacility1": {
+      "type": "string"
+    },
+    "nameAndLocationOfTreatmentFacility2": {
+      "type": "string"
+    },
+    "nameAndLocationOfTreatmentFacility3": {
+      "type": "string"
+    },
+    "nameAndLocationOfTreatmentFacility4": {
+      "type": "string"
+    },
+    "insuranceNumber": {
+      "type": "string"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "currentlyHomeless": {
+      "type": "string"
+    },
+    "otherReasonsForRequest": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "iLiveOrSleepInAPlaceThatIsNotMeantForRegularSleeping": {
+      "type": "string"
+    },
+    "iLiveInAShelter": {
+      "type": "string"
+    },
+    "stayingWithAFriendOrFamilyMemberBeca": {
+      "type": "string"
+    },
+    "inTheNext30DaysIWillHaveToLeaveAFacilityLikeAHomelessShelter": {
+      "type": "string"
+    },
+    "inTheNext30DaysIWillLoseMyHome": {
+      "type": "string"
+    },
+    "noneOfTheseSituationsApplyToMe": {
+      "type": "string"
+    },
+    "other1": {
+      "type": "string"
+    },
+    "pointOfContact": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-20-10207-are.pdf",
+    "status": "digitized",
+    "totalFields": 116,
+    "composedFields": 88,
+    "coveragePercent": 76,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 5,
+    "generatedAt": "2026-03-28T17:32:55.967Z"
+  }
+}

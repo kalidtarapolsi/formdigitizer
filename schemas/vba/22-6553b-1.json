@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-6553b-1",
+  "type": "object",
+  "properties": {
+    "dateofLastLesson": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateofSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBoxA": {
+      "type": "boolean"
+    },
+    "checkBoxB": {
+      "type": "boolean"
+    },
+    "checkBoxC": {
+      "type": "boolean"
+    },
+    "training": {
+      "type": "string"
+    },
+    "schoolId": {
+      "type": "string"
+    },
+    "studentsName": {
+      "type": "string"
+    },
+    "payee": {
+      "type": "string"
+    },
+    "facilityCode": {
+      "type": "string"
+    },
+    "numberLessonsAuth": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "totalLessonsCompleted": {
+      "type": "string"
+    },
+    "totalLessonsServiced": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-6553b-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 23,
+    "composedFields": 14,
+    "coveragePercent": 61,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:38:00.354Z"
+  }
+}

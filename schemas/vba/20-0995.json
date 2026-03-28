@@ -1,0 +1,233 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "20-0995",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateOfVaDecisionNoticeMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBoxDoNotHaveDateS": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTreatmentMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "radioButtonList2": {
+      "type": "string"
+    },
+    "vaMedicalC": {
+      "type": "string"
+    },
+    "departmentOfDefenseDODMilitaryTreatmentFacilityMTF": {
+      "type": "string"
+    },
+    "nameAndLocationOfTreatmentFacility": {
+      "type": "string"
+    },
+    "vAInsurancePolicyNumber": {
+      "type": "string"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "benefit": {
+      "type": "string"
+    },
+    "iLiveOrSleepInAPlaceThatIsNotMeantForRegularSleeping": {
+      "type": "string"
+    },
+    "iLiveInAShelter": {
+      "type": "string"
+    },
+    "stayingWithAFriendOrFamilyMemberBeca": {
+      "type": "string"
+    },
+    "inTheNext30DaysIWillHaveToLeaveAFacilityLikeAHomelessShelter": {
+      "type": "string"
+    },
+    "inTheNext30DaysIWillLoseMyHome": {
+      "type": "string"
+    },
+    "pointOfContact": {
+      "type": "string"
+    },
+    "noneOfTheseSituationsApplyToMe": {
+      "type": "string"
+    },
+    "specificissue2": {
+      "type": "string"
+    },
+    "specificissue3": {
+      "type": "string"
+    },
+    "specificissue4": {
+      "type": "string"
+    },
+    "specificissue5": {
+      "type": "string"
+    },
+    "specificissue6": {
+      "type": "string"
+    },
+    "specificissue7": {
+      "type": "string"
+    },
+    "privateHealthcareProvider": {
+      "type": "string"
+    },
+    "vaVetCenter": {
+      "type": "string"
+    },
+    "accreditationNumber": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-20-0995-are.pdf",
+    "status": "digitized",
+    "totalFields": 144,
+    "composedFields": 124,
+    "coveragePercent": 86,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 7,
+    "generatedAt": "2026-03-28T17:32:01.267Z"
+  }
+}

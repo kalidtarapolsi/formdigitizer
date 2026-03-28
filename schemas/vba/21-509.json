@@ -1,0 +1,261 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-509",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "form10subform18textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "month": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "form10subform18textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield19": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield111": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield112": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield113": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield114": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield115": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield116": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield117": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield118": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield119": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield120": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield121": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield122": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield123": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield124": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield125": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield126": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield127": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield128": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield129": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield130": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform18textfield131": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield132": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield133": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield134": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield135": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield136": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield137": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield138": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield139": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield140": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield141": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield142": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield143": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield144": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield145": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield146": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield147": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield148": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield149": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield150": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield151": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform19textfield152": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-509-are.pdf",
+    "status": "digitized",
+    "totalFields": 132,
+    "composedFields": 73,
+    "coveragePercent": 55,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 53,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:32:13.400Z"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-0976",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateGraduatingClass": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "school": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "submitting": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "creditHours": {
+      "type": "string"
+    },
+    "totalLength": {
+      "type": "string"
+    },
+    "numberWeeks": {
+      "type": "string"
+    },
+    "entryRequirements": {
+      "type": "string"
+    },
+    "form10subform0textfield19": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield111": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield112": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield113": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "initials": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "form10subform24textfield114": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform24textfield115": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "officialsFacutly": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "numberStudents": {
+      "type": "string"
+    },
+    "nameOfOfficial": {
+      "type": "string"
+    },
+    "form10subform24textfield116": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0976-are.pdf",
+    "status": "digitized",
+    "totalFields": 82,
+    "composedFields": 22,
+    "coveragePercent": 27,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 17,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:34:06.070Z"
+  }
+}

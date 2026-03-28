@@ -1,0 +1,509 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-6898",
+  "type": "object",
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "marriedDate1": {
+      "type": "string",
+      "format": "date"
+    },
+    "marriedDate3": {
+      "type": "string",
+      "format": "date"
+    },
+    "marriedDate4": {
+      "type": "string",
+      "format": "date"
+    },
+    "marriedDate2": {
+      "type": "string",
+      "format": "date"
+    },
+    "marriedDate5": {
+      "type": "string",
+      "format": "date"
+    },
+    "marriedDate6": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amountSource": {
+      "type": "number"
+    },
+    "amount15a": {
+      "type": "number"
+    },
+    "amount15b": {
+      "type": "number"
+    },
+    "amount15c": {
+      "type": "number"
+    },
+    "amount15d": {
+      "type": "number"
+    },
+    "amount15e": {
+      "type": "number"
+    },
+    "amount15f": {
+      "type": "number"
+    },
+    "amount17a": {
+      "type": "number"
+    },
+    "amount17b": {
+      "type": "number"
+    },
+    "amount17c": {
+      "type": "number"
+    },
+    "amount17d": {
+      "type": "number"
+    },
+    "amount17e": {
+      "type": "number"
+    },
+    "amount17f": {
+      "type": "number"
+    },
+    "amount17j": {
+      "type": "number"
+    },
+    "amount17i": {
+      "type": "number"
+    },
+    "amount17h": {
+      "type": "number"
+    },
+    "amount17g": {
+      "type": "number"
+    },
+    "amount16": {
+      "type": "number"
+    },
+    "amount14": {
+      "type": "number"
+    },
+    "amount13a": {
+      "type": "number"
+    },
+    "amount13b": {
+      "type": "number"
+    },
+    "amount13c": {
+      "type": "number"
+    },
+    "amount13d": {
+      "type": "number"
+    },
+    "amount13e": {
+      "type": "number"
+    },
+    "amountBill1": {
+      "type": "number"
+    },
+    "amountBill2": {
+      "type": "number"
+    },
+    "amountBill3": {
+      "type": "number"
+    },
+    "amountBill4": {
+      "type": "number"
+    },
+    "amountBill5": {
+      "type": "number"
+    },
+    "totalExpenses": {
+      "type": "number"
+    },
+    "survSpouse": {
+      "type": "string"
+    },
+    "child": {
+      "type": "string"
+    },
+    "marriageEnd6": {
+      "type": "string"
+    },
+    "marriageEnd5": {
+      "type": "string"
+    },
+    "marriageEnd4": {
+      "type": "string"
+    },
+    "marriageEnd3": {
+      "type": "string"
+    },
+    "marriageEnd2": {
+      "type": "string"
+    },
+    "marriageEnd1": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "relationship2": {
+      "type": "string"
+    },
+    "relationship3": {
+      "type": "string"
+    },
+    "relationship4": {
+      "type": "string"
+    },
+    "relationship5": {
+      "type": "string"
+    },
+    "toWhom1": {
+      "type": "string"
+    },
+    "name2": {
+      "type": "string"
+    },
+    "name3": {
+      "type": "string"
+    },
+    "name4": {
+      "type": "string"
+    },
+    "name5": {
+      "type": "string"
+    },
+    "name6": {
+      "type": "string"
+    },
+    "name7": {
+      "type": "string"
+    },
+    "name8": {
+      "type": "string"
+    },
+    "name9": {
+      "type": "string"
+    },
+    "marriedPlace1": {
+      "type": "string"
+    },
+    "marriedendPlace1": {
+      "type": "string"
+    },
+    "howEnded1": {
+      "type": "string"
+    },
+    "marriedPlace2": {
+      "type": "string"
+    },
+    "toWhom2": {
+      "type": "string"
+    },
+    "marriedendPlace2": {
+      "type": "string"
+    },
+    "howEnded2": {
+      "type": "string"
+    },
+    "marriedPlace3": {
+      "type": "string"
+    },
+    "toWhom3": {
+      "type": "string"
+    },
+    "marriedendPlace3": {
+      "type": "string"
+    },
+    "howEnded3": {
+      "type": "string"
+    },
+    "marriedPlace4": {
+      "type": "string"
+    },
+    "toWhom4": {
+      "type": "string"
+    },
+    "marriedendPlace4": {
+      "type": "string"
+    },
+    "howEnded4": {
+      "type": "string"
+    },
+    "marriedPlace5": {
+      "type": "string"
+    },
+    "toWhom5": {
+      "type": "string"
+    },
+    "marriedendPlace5": {
+      "type": "string"
+    },
+    "howEnded5": {
+      "type": "string"
+    },
+    "marriedPlace6": {
+      "type": "string"
+    },
+    "toWhom6": {
+      "type": "string"
+    },
+    "marriedendPlace6": {
+      "type": "string"
+    },
+    "howEnded6": {
+      "type": "string"
+    },
+    "vetName": {
+      "type": "string"
+    },
+    "fileNum": {
+      "type": "string"
+    },
+    "claimantName": {
+      "type": "string"
+    },
+    "asClaimant": {
+      "type": "string"
+    },
+    "forClaimant": {
+      "type": "string"
+    },
+    "mother": {
+      "type": "string"
+    },
+    "father": {
+      "type": "string"
+    },
+    "payer": {
+      "type": "string"
+    },
+    "explain": {
+      "type": "string"
+    },
+    "source6": {
+      "type": "string"
+    },
+    "placeVetdeath": {
+      "type": "string"
+    },
+    "reimburseno": {
+      "type": "string"
+    },
+    "reimburseyes": {
+      "type": "string"
+    },
+    "supportno": {
+      "type": "string"
+    },
+    "supportyes": {
+      "type": "string"
+    },
+    "source3": {
+      "type": "string"
+    },
+    "source4": {
+      "type": "string"
+    },
+    "source5": {
+      "type": "string"
+    },
+    "item5": {
+      "type": "string"
+    },
+    "item6": {
+      "type": "string"
+    },
+    "item7": {
+      "type": "string"
+    },
+    "item8": {
+      "type": "string"
+    },
+    "item9": {
+      "type": "string"
+    },
+    "item10": {
+      "type": "string"
+    },
+    "nameDep": {
+      "type": "string"
+    },
+    "nameDep2": {
+      "type": "string"
+    },
+    "nameDep3": {
+      "type": "string"
+    },
+    "nameDep4": {
+      "type": "string"
+    },
+    "nameDep5": {
+      "type": "string"
+    },
+    "burialVetdeath": {
+      "type": "string"
+    },
+    "claimantRel": {
+      "type": "string"
+    },
+    "person1": {
+      "type": "string"
+    },
+    "ifPaid1": {
+      "type": "string"
+    },
+    "person2": {
+      "type": "string"
+    },
+    "ifPaid2": {
+      "type": "string"
+    },
+    "person3": {
+      "type": "string"
+    },
+    "ifPaid3": {
+      "type": "string"
+    },
+    "person4": {
+      "type": "string"
+    },
+    "ifPaid4": {
+      "type": "string"
+    },
+    "person5": {
+      "type": "string"
+    },
+    "ifPaid5": {
+      "type": "string"
+    },
+    "ifPaid6": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source2": {
+      "type": "string"
+    },
+    "item": {
+      "type": "string"
+    },
+    "item2": {
+      "type": "string"
+    },
+    "item3": {
+      "type": "string"
+    },
+    "item4": {
+      "type": "string"
+    },
+    "memberyes": {
+      "type": "string"
+    },
+    "memberno": {
+      "type": "string"
+    },
+    "paid1": {
+      "type": "string"
+    },
+    "unpaid1": {
+      "type": "string"
+    },
+    "paid2": {
+      "type": "string"
+    },
+    "paid3": {
+      "type": "string"
+    },
+    "paid4": {
+      "type": "string"
+    },
+    "paid5": {
+      "type": "string"
+    },
+    "paid6": {
+      "type": "string"
+    },
+    "unpaid2": {
+      "type": "string"
+    },
+    "unpaid3": {
+      "type": "string"
+    },
+    "unpaid4": {
+      "type": "string"
+    },
+    "unpaid5": {
+      "type": "string"
+    },
+    "unpaid6": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-6898-are.pdf",
+    "status": "digitized",
+    "totalFields": 184,
+    "composedFields": 87,
+    "coveragePercent": 47,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:31:51.164Z"
+  }
+}

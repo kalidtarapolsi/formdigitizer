@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8731c",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield20": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "pressureNo": {
+      "type": "string"
+    },
+    "pressureYes": {
+      "type": "string"
+    },
+    "fixtureNo": {
+      "type": "string"
+    },
+    "fixtureNa": {
+      "type": "string"
+    },
+    "fixtureYes": {
+      "type": "string"
+    },
+    "floodTestNa": {
+      "type": "string"
+    },
+    "floodTestNo": {
+      "type": "string"
+    },
+    "floodTestYes": {
+      "type": "string"
+    },
+    "airTestNo": {
+      "type": "string"
+    },
+    "airTestYes": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8731c-are.pdf",
+    "status": "digitized",
+    "totalFields": 19,
+    "composedFields": 6,
+    "coveragePercent": 32,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 3,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:15.907Z"
+  }
+}

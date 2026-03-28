@@ -1,0 +1,353 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6807",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFrom1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFrom2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFrom3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFrom4": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTo1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTo2": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePurpose1": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePurpose2": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePurpose3": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox15": {
+      "type": "boolean"
+    },
+    "checkBox16": {
+      "type": "boolean"
+    },
+    "checkBox17": {
+      "type": "boolean"
+    },
+    "checkBox18": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "otherAssets": {
+      "type": "number"
+    },
+    "amount18d1": {
+      "type": "number"
+    },
+    "amount18f1": {
+      "type": "number"
+    },
+    "amount18d2": {
+      "type": "number"
+    },
+    "amount18f2": {
+      "type": "number"
+    },
+    "amount18c3": {
+      "type": "number"
+    },
+    "amount18d3": {
+      "type": "number"
+    },
+    "amount18f3": {
+      "type": "number"
+    },
+    "amount18c4": {
+      "type": "number"
+    },
+    "amount18d4": {
+      "type": "number"
+    },
+    "amount18e4": {
+      "type": "number"
+    },
+    "amount18f4": {
+      "type": "number"
+    },
+    "amount17a": {
+      "type": "number"
+    },
+    "amount17b": {
+      "type": "number"
+    },
+    "amount17c": {
+      "type": "number"
+    },
+    "amount17f": {
+      "type": "number"
+    },
+    "amount17g": {
+      "type": "number"
+    },
+    "amount17h": {
+      "type": "number"
+    },
+    "amount17i": {
+      "type": "number"
+    },
+    "amount17d1": {
+      "type": "number"
+    },
+    "amount17d2": {
+      "type": "number"
+    },
+    "amount17d3": {
+      "type": "number"
+    },
+    "amount17e": {
+      "type": "number"
+    },
+    "amount17j": {
+      "type": "number"
+    },
+    "amount18c1": {
+      "type": "number"
+    },
+    "amount18c2": {
+      "type": "number"
+    },
+    "amount18e1": {
+      "type": "number"
+    },
+    "amount18e2": {
+      "type": "number"
+    },
+    "amount18e3": {
+      "type": "number"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "originalAmountMortgage": {
+      "type": "number"
+    },
+    "amountMortgagePayment": {
+      "type": "number"
+    },
+    "amountDelinquency": {
+      "type": "number"
+    },
+    "rentedAmount": {
+      "type": "number"
+    },
+    "averageIncome": {
+      "type": "number"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "nameSpouse": {
+      "type": "string"
+    },
+    "totalSpouse": {
+      "type": "string"
+    },
+    "nameEmployer1": {
+      "type": "string"
+    },
+    "nameEmployer2": {
+      "type": "string"
+    },
+    "nameEmployer3": {
+      "type": "string"
+    },
+    "nameEmployer4": {
+      "type": "string"
+    },
+    "fileNo": {
+      "type": "string"
+    },
+    "loanNo": {
+      "type": "string"
+    },
+    "ages": {
+      "type": "string"
+    },
+    "initials1": {
+      "type": "string"
+    },
+    "initials2": {
+      "type": "string"
+    },
+    "kindJob4": {
+      "type": "string"
+    },
+    "kindJob1": {
+      "type": "string"
+    },
+    "kindJob3": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "nameVa": {
+      "type": "string"
+    },
+    "make1": {
+      "type": "string"
+    },
+    "model1": {
+      "type": "string"
+    },
+    "make2": {
+      "type": "string"
+    },
+    "model2": {
+      "type": "string"
+    },
+    "make3": {
+      "type": "string"
+    },
+    "model3": {
+      "type": "string"
+    },
+    "borrowerApplicant1": {
+      "type": "string"
+    },
+    "borrowerApplicant2": {
+      "type": "string"
+    },
+    "spo": {
+      "type": "string"
+    },
+    "totalBorrowerApplicant": {
+      "type": "string"
+    },
+    "borrowerApplicant3": {
+      "type": "string"
+    },
+    "yearAuto1": {
+      "type": "string"
+    },
+    "yearAuto2": {
+      "type": "string"
+    },
+    "yearAuto3": {
+      "type": "string"
+    },
+    "nameMortgagee": {
+      "type": "string"
+    },
+    "per": {
+      "type": "string"
+    },
+    "nameRelative": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "purchasePrice": {
+      "type": "string"
+    },
+    "currentMarketValue": {
+      "type": "string"
+    },
+    "unpaidBalance": {
+      "type": "string"
+    },
+    "otherLiens": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6807-are.pdf",
+    "status": "digitized",
+    "totalFields": 124,
+    "composedFields": 89,
+    "coveragePercent": 72,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:32:24.817Z"
+  }
+}

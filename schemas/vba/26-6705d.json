@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6705d",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateofoffer": {
+      "type": "string",
+      "format": "date"
+    },
+    "date4b": {
+      "type": "string",
+      "format": "date"
+    },
+    "date5b": {
+      "type": "string",
+      "format": "date"
+    },
+    "feeamount": {
+      "type": "number"
+    },
+    "propertyidentifier": {
+      "type": "string"
+    },
+    "section21": {
+      "type": "string"
+    },
+    "section22": {
+      "type": "string"
+    },
+    "section23": {
+      "type": "string"
+    },
+    "feeyis": {
+      "type": "string"
+    },
+    "feeyisnot": {
+      "type": "string"
+    },
+    "agentsname": {
+      "type": "string"
+    },
+    "lendersname": {
+      "type": "string"
+    },
+    "agentsname2": {
+      "type": "string"
+    },
+    "propertypass": {
+      "type": "string"
+    },
+    "typeofloan2h": {
+      "type": "string"
+    },
+    "sig1": {
+      "type": "string"
+    },
+    "sig2": {
+      "type": "string"
+    },
+    "cashonhand": {
+      "type": "string"
+    },
+    "thirdparty": {
+      "type": "string"
+    },
+    "expiditionprocesing": {
+      "type": "string"
+    },
+    "tenpercent": {
+      "type": "string"
+    },
+    "regularprocessing": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6705d-are.pdf",
+    "status": "digitized",
+    "totalFields": 28,
+    "composedFields": 10,
+    "coveragePercent": 36,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:37:39.004Z"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0514-1(Spanish)",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "f0page_10textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_10textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20subform0subform2textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20subform0subform2textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20subform0subform3textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20subform0subform3textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20table10row60subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20table10row60subform0numericfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20table10row60subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20table10row60subform1numericfield20": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20table10row70subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20table10row70subform0numericfield40": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20table10row70subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20table10row70subform1numericfield30": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "f0page_20textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0514-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 85,
+    "composedFields": 56,
+    "coveragePercent": 66,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 21,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:33:58.026Z"
+  }
+}

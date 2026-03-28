@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0516-1 (Spanish)",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateEntered": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSeparation": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDivorceDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amountContributed": {
+      "type": "number"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "incomeChanged": {
+      "type": "number"
+    },
+    "incomeChangedWhen": {
+      "type": "number"
+    },
+    "incomeChangedHow": {
+      "type": "number"
+    },
+    "nameofSpouse": {
+      "type": "string"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "numberChildren": {
+      "type": "string"
+    },
+    "nameofVeteran": {
+      "type": "string"
+    },
+    "nursingHomeInfo": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source1": {
+      "type": "string"
+    },
+    "daytime": {
+      "type": "string"
+    },
+    "evening": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0516-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 96,
+    "composedFields": 81,
+    "coveragePercent": 84,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:33:26.001Z"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10215a",
+  "type": "object",
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateField1": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "schoolOfficialTitle": {
+      "type": "string"
+    },
+    "schoolOfficialPrintedName": {
+      "type": "string"
+    },
+    "regionalOffice": {
+      "type": "string"
+    },
+    "pageNumber": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10215a-are.pdf",
+    "status": "digitized",
+    "totalFields": 126,
+    "composedFields": 10,
+    "coveragePercent": 8,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:32:19.601Z"
+  }
+}

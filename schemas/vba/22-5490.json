@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-5490",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateListedAsMissingInAction": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfRemarriage": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriageToQualifyingIndividual": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfGraduation": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateReceivedGED": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEnteredActiveDuty": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparatedFromActiveDuty": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned2": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "disabilityCompensationOrPension": {
+      "type": "string"
+    },
+    "dependentsIndemnityCompensationDIC": {
+      "type": "string"
+    },
+    "nameOfParentGuardianOrCustodian": {
+      "type": "string"
+    },
+    "parentGuardianCustodian": {
+      "type": "string"
+    },
+    "otherBenefitsSpecify": {
+      "type": "string"
+    },
+    "veteransEducationAssistanceBasedOnYourOwnService": {
+      "type": "string"
+    },
+    "veteransEducationAssistanceBasedOnSomeoneElsesService": {
+      "type": "string"
+    },
+    "branchOfService": {
+      "type": "string"
+    },
+    "veteranReadinessAndEmploymentBenefits": {
+      "type": "string"
+    },
+    "branchOfServiceOrReserveGuard1": {
+      "type": "string"
+    },
+    "characterOfDischarge": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "bankRoutingOrTransitNumber": {
+      "type": "string"
+    },
+    "bankAccountNumber": {
+      "type": "string"
+    },
+    "spo": {
+      "type": "string"
+    },
+    "nameOfIndividualOnWhoseAccountYouPreviouslyClaimedBenefits": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "benefits": {
+      "type": "string"
+    },
+    "otherBenefits": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-5490-are.pdf",
+    "status": "digitized",
+    "totalFields": 79,
+    "composedFields": 68,
+    "coveragePercent": 86,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 7,
+    "generatedAt": "2026-03-28T17:34:10.351Z"
+  }
+}

@@ -1,0 +1,1254 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0969",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateReceivedByVa": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateStarting": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEnding": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransferMonth7b7": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransferDay7b7": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransferYear7b7": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransfer7c7month": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransfer7c7day": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransfer7c7year": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransfer7d7month": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransfer7d7day": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransfer7d7year": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAnnuityWasEstablishedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAnnuityWasEstablishedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAnnuityWasEstablishedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAdditionalFundsTransferredMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAdditionalFundsTransferredDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAdditionalFundsTransferredYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "annuityLiquidated9j": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentsResumeMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentsResumeDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentsResumeYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned13bMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "incomeRecipients3b1": {
+      "type": "number"
+    },
+    "nameofIncomeRecipient3b2": {
+      "type": "number"
+    },
+    "ofIncome3b3": {
+      "type": "number"
+    },
+    "grossMonthlyIncome13b4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome23b4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome33b4": {
+      "type": "number"
+    },
+    "incomePayer3b5": {
+      "type": "number"
+    },
+    "incomeRecipients3c1": {
+      "type": "number"
+    },
+    "nameofIncomeRecipient3c2": {
+      "type": "number"
+    },
+    "ofIncome3c3": {
+      "type": "number"
+    },
+    "grossMonthlyIncome13c4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome23c4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome33c4": {
+      "type": "number"
+    },
+    "incomePayer3c5": {
+      "type": "number"
+    },
+    "incomeRecipient3d1": {
+      "type": "number"
+    },
+    "nameofIncomeRecipient3d2": {
+      "type": "number"
+    },
+    "ofIncome3d3": {
+      "type": "number"
+    },
+    "grossMonthlyIncome13d4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome23d4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome33d4": {
+      "type": "number"
+    },
+    "incomePayer3d5": {
+      "type": "number"
+    },
+    "incomeRecipient3e1": {
+      "type": "number"
+    },
+    "nameofIncomeRecipient3e2": {
+      "type": "number"
+    },
+    "ofIncome3e3": {
+      "type": "number"
+    },
+    "grossMonthlyIncome13e4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome23e4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome33e4": {
+      "type": "number"
+    },
+    "incomePayer3e5": {
+      "type": "number"
+    },
+    "incomeRecipient3f1": {
+      "type": "number"
+    },
+    "nameofIncomeRecipient3f2": {
+      "type": "number"
+    },
+    "ofIncome3f3": {
+      "type": "number"
+    },
+    "grossMonthlyIncome13f4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome23f4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome33f4": {
+      "type": "number"
+    },
+    "incomePayer3f5": {
+      "type": "number"
+    },
+    "incomeRecipient4b1": {
+      "type": "number"
+    },
+    "ofIncomeEarned4b4": {
+      "type": "number"
+    },
+    "nameofIncomeRecipient4b2": {
+      "type": "number"
+    },
+    "grossMonthlyIncome14b5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome24b5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome34b5": {
+      "type": "number"
+    },
+    "incomePayer4b3": {
+      "type": "number"
+    },
+    "incomeRecipient4c1": {
+      "type": "number"
+    },
+    "ofIncomeEarned4c4": {
+      "type": "number"
+    },
+    "nameofIncomeRecipient4c2": {
+      "type": "number"
+    },
+    "grossMonthlyIncome14c5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome24c5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome34c5": {
+      "type": "number"
+    },
+    "incomePayer4c3": {
+      "type": "number"
+    },
+    "incomeRecipient4d1": {
+      "type": "number"
+    },
+    "ofIncomeEarned4d4": {
+      "type": "number"
+    },
+    "nameofIncomeRecipient4d2": {
+      "type": "number"
+    },
+    "grossMonthlyIncome14d5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome24d5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome34d5": {
+      "type": "number"
+    },
+    "incomePayer4d3": {
+      "type": "number"
+    },
+    "ofAsset5c3": {
+      "type": "number"
+    },
+    "nameOfIncomeRecipient5c2": {
+      "type": "number"
+    },
+    "grossMonthlyIncome35c4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome25c4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome15c4": {
+      "type": "number"
+    },
+    "incomeRecipient5c1": {
+      "type": "number"
+    },
+    "incomeRecipient4e1": {
+      "type": "number"
+    },
+    "ofIncomeEarned4e4": {
+      "type": "number"
+    },
+    "nameOfIncomeRecipient4e2": {
+      "type": "number"
+    },
+    "grossMonthlyIncome14e5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome24e5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome44e5": {
+      "type": "number"
+    },
+    "incomePayer4e3": {
+      "type": "number"
+    },
+    "incomeRecipient4f1": {
+      "type": "number"
+    },
+    "ofIncomeEarned4f4": {
+      "type": "number"
+    },
+    "nameOfIncomeRecipient4f2": {
+      "type": "number"
+    },
+    "grossMonthlyIncome14f5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome24f5": {
+      "type": "number"
+    },
+    "grossMonthlyIncome34f5": {
+      "type": "number"
+    },
+    "incomePayer4f3": {
+      "type": "number"
+    },
+    "incomeRecipient5b1": {
+      "type": "number"
+    },
+    "grossMonthlyIncome15b4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome25b4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome35b4": {
+      "type": "number"
+    },
+    "nameOfIncomeRecipient5b2": {
+      "type": "number"
+    },
+    "ofAsset5b3": {
+      "type": "number"
+    },
+    "incomeRecipient6b1": {
+      "type": "number"
+    },
+    "nameOfIncomeRecipient6b2": {
+      "type": "number"
+    },
+    "howIncomeIsGenerated6b3": {
+      "type": "number"
+    },
+    "grossMonthlyIncome16b4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome26b4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome36b4": {
+      "type": "number"
+    },
+    "canAssetBeSold6b6": {
+      "type": "number"
+    },
+    "incomeRecipient6c1": {
+      "type": "number"
+    },
+    "nameOfIncomeRecipient6c2": {
+      "type": "number"
+    },
+    "howIncomeIsGenerated6c3": {
+      "type": "number"
+    },
+    "grossMonthlyIncome16c4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome26c4": {
+      "type": "number"
+    },
+    "grossMonthlyIncome36c4": {
+      "type": "number"
+    },
+    "canAssetBeSold6c6": {
+      "type": "number"
+    },
+    "dependentsSellAssets7a": {
+      "type": "number"
+    },
+    "wasAssetTransferred7b8": {
+      "type": "number"
+    },
+    "howAssetTransferred7b2": {
+      "type": "number"
+    },
+    "whatAssetWasTransferred7b3": {
+      "type": "number"
+    },
+    "whoReceivedAsset7b4": {
+      "type": "number"
+    },
+    "wasAssetTransferred7c8": {
+      "type": "number"
+    },
+    "howAssetWasTransferred7c2": {
+      "type": "number"
+    },
+    "whatAssetWasTransferred7c3": {
+      "type": "number"
+    },
+    "whoReceivedAsset7c4": {
+      "type": "number"
+    },
+    "howAssetWasTransferred7d2": {
+      "type": "number"
+    },
+    "whatAssetWasTransferred7d3": {
+      "type": "number"
+    },
+    "whoReceivedAsset7d4": {
+      "type": "number"
+    },
+    "receivingIncome8h": {
+      "type": "number"
+    },
+    "receiveIncomeFromAnnuity9h": {
+      "type": "number"
+    },
+    "annualAmountReceived19i": {
+      "type": "number"
+    },
+    "annualAmountReceived29i": {
+      "type": "number"
+    },
+    "annualAmountReceived49i": {
+      "type": "number"
+    },
+    "annualAmountReceived39i": {
+      "type": "number"
+    },
+    "dependentsHaveAssetsNotReported10a": {
+      "type": "number"
+    },
+    "assetLocation10b4": {
+      "type": "number"
+    },
+    "ofAsset10b2": {
+      "type": "number"
+    },
+    "assetLocation10c4": {
+      "type": "number"
+    },
+    "ofAsset10c2": {
+      "type": "number"
+    },
+    "assetLocation10d4": {
+      "type": "number"
+    },
+    "ofAsset10d2": {
+      "type": "number"
+    },
+    "assetLocation10e4": {
+      "type": "number"
+    },
+    "ofAsset10e2": {
+      "type": "number"
+    },
+    "incomeWillNotResume12b5": {
+      "type": "number"
+    },
+    "dependentReceiveIncome11a": {
+      "type": "number"
+    },
+    "frequencyOfIncomeReceived11b5": {
+      "type": "number"
+    },
+    "incomeRecipient11b2": {
+      "type": "number"
+    },
+    "incomePayer11b3": {
+      "type": "number"
+    },
+    "grossAnnualAmount111b7": {
+      "type": "number"
+    },
+    "grossAnnualAmount311b7": {
+      "type": "number"
+    },
+    "grossAnnualAmount211b7": {
+      "type": "number"
+    },
+    "ofIncomeReceived11b4": {
+      "type": "number"
+    },
+    "frequencyOfIncomeReceived11c5": {
+      "type": "number"
+    },
+    "incomeRecipient11c2": {
+      "type": "number"
+    },
+    "incomePayer11c3": {
+      "type": "number"
+    },
+    "grossAnnualAmount111c7": {
+      "type": "number"
+    },
+    "grossAnnualAmount311c7": {
+      "type": "number"
+    },
+    "grossAnnualAmount211c7": {
+      "type": "number"
+    },
+    "ofIncomeReceived11c4": {
+      "type": "number"
+    },
+    "dependentsWaiveReceiptsOfIncome12a": {
+      "type": "number"
+    },
+    "nameOfIncomeRecipient12b2": {
+      "type": "number"
+    },
+    "incomePayer12b3": {
+      "type": "number"
+    },
+    "waivedGrossMonthlyIncome112b6": {
+      "type": "number"
+    },
+    "waivedGrossMonthlyIncome312b6": {
+      "type": "number"
+    },
+    "waivedGrossMonthlyIncome212b6": {
+      "type": "number"
+    },
+    "amountExpected112b4": {
+      "type": "number"
+    },
+    "amountExpected312b4": {
+      "type": "number"
+    },
+    "amountExpected212b4": {
+      "type": "number"
+    },
+    "incomeWillNotResume12c5": {
+      "type": "number"
+    },
+    "nameOfIncomeRecipient12c2": {
+      "type": "number"
+    },
+    "incomePayer12c3": {
+      "type": "number"
+    },
+    "waivedGrossMonthlyIncome112c6": {
+      "type": "number"
+    },
+    "waivedGrossMonthlyIncome312c6": {
+      "type": "number"
+    },
+    "waivedGrossMonthlyIncome212c6": {
+      "type": "number"
+    },
+    "amountExpected112c4": {
+      "type": "number"
+    },
+    "amountExpected312c4": {
+      "type": "number"
+    },
+    "amountExpected212c4": {
+      "type": "number"
+    },
+    "dependentsReceiving3a": {
+      "type": "string"
+    },
+    "dependentsReceiving4a": {
+      "type": "string"
+    },
+    "dependentsReceiving5a": {
+      "type": "string"
+    },
+    "dependentsReceiving6a": {
+      "type": "string"
+    },
+    "dependentsEstablishedAtrust": {
+      "type": "string"
+    },
+    "establishedForChild8l": {
+      "type": "string"
+    },
+    "dependentsEstablishedAnnuity9a": {
+      "type": "string"
+    },
+    "relationshiptoVeteran7b1": {
+      "type": "string"
+    },
+    "relationshipToNewOwner7b5": {
+      "type": "string"
+    },
+    "relationshipToNewOwner7c5": {
+      "type": "string"
+    },
+    "relationshipToNewOwner7d5": {
+      "type": "string"
+    },
+    "relationshipToVeteran7c1": {
+      "type": "string"
+    },
+    "relationshipToVeteran7d1": {
+      "type": "string"
+    },
+    "relationshipToVeteran10b1": {
+      "type": "string"
+    },
+    "relationshipToVeteran10c1": {
+      "type": "string"
+    },
+    "relationshipToVeteran10d1": {
+      "type": "string"
+    },
+    "relationshipToVeteran10e1": {
+      "type": "string"
+    },
+    "relationshipToVeteran11b1": {
+      "type": "string"
+    },
+    "relationshipToVeteran11c1": {
+      "type": "string"
+    },
+    "relationshipToVeteran12b1": {
+      "type": "string"
+    },
+    "relationshipToVeteran12c1": {
+      "type": "string"
+    },
+    "mi": {
+      "type": "string"
+    },
+    "typeofClaimant": {
+      "type": "string"
+    },
+    "other3b1": {
+      "type": "string"
+    },
+    "other3b3": {
+      "type": "string"
+    },
+    "other3c1": {
+      "type": "string"
+    },
+    "other3c3": {
+      "type": "string"
+    },
+    "other3d1": {
+      "type": "string"
+    },
+    "other3d3": {
+      "type": "string"
+    },
+    "other3e1": {
+      "type": "string"
+    },
+    "other3e3": {
+      "type": "string"
+    },
+    "other3f1": {
+      "type": "string"
+    },
+    "other3f3": {
+      "type": "string"
+    },
+    "other4b1": {
+      "type": "string"
+    },
+    "other4b4": {
+      "type": "string"
+    },
+    "valueOfAccount14b6": {
+      "type": "string"
+    },
+    "valueOfAccount24b6": {
+      "type": "string"
+    },
+    "valueOfAccount44b6": {
+      "type": "string"
+    },
+    "valueOfAccount34b6": {
+      "type": "string"
+    },
+    "other4c1": {
+      "type": "string"
+    },
+    "other4c4": {
+      "type": "string"
+    },
+    "valueOfAccount14c6": {
+      "type": "string"
+    },
+    "valueOfAccount24c6": {
+      "type": "string"
+    },
+    "valueOfAccount44c6": {
+      "type": "string"
+    },
+    "valueOfAccount34c6": {
+      "type": "string"
+    },
+    "other4d1": {
+      "type": "string"
+    },
+    "other4d4": {
+      "type": "string"
+    },
+    "valueOfAccount14d6": {
+      "type": "string"
+    },
+    "valueOfAccount24d6": {
+      "type": "string"
+    },
+    "valueOfAccount44d6": {
+      "type": "string"
+    },
+    "valueOfAccount34d6": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfTheProperty35c5": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfTheProperty5c5": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfTheProperty25c5": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfTheProperty15c5": {
+      "type": "string"
+    },
+    "other5c1": {
+      "type": "string"
+    },
+    "other4e1": {
+      "type": "string"
+    },
+    "other4e4": {
+      "type": "string"
+    },
+    "valueOfAccount14e6": {
+      "type": "string"
+    },
+    "valueOfAccount24e6": {
+      "type": "string"
+    },
+    "valueOfAccount44e6": {
+      "type": "string"
+    },
+    "valueOfAccount34e6": {
+      "type": "string"
+    },
+    "other4f1": {
+      "type": "string"
+    },
+    "other4f4": {
+      "type": "string"
+    },
+    "valueOfAccount14f6": {
+      "type": "string"
+    },
+    "valueOfAccount24f6": {
+      "type": "string"
+    },
+    "valueOfAccount44f6": {
+      "type": "string"
+    },
+    "valueOfAccount34f6": {
+      "type": "string"
+    },
+    "other5b1": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfTheProperty15b5": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfTheProperty25b5": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfTheProperty45b5": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfTheProperty35b5": {
+      "type": "string"
+    },
+    "other6b1": {
+      "type": "string"
+    },
+    "other6b3": {
+      "type": "string"
+    },
+    "fairMarketValue16b5": {
+      "type": "string"
+    },
+    "fairMarketValue26b5": {
+      "type": "string"
+    },
+    "fairMarketValue46b5": {
+      "type": "string"
+    },
+    "fairMarketValue36b5": {
+      "type": "string"
+    },
+    "mitigatingCircumstances6b7": {
+      "type": "string"
+    },
+    "other6c1": {
+      "type": "string"
+    },
+    "other6c3": {
+      "type": "string"
+    },
+    "fairMarketValue16c5": {
+      "type": "string"
+    },
+    "fairMarketValue26c5": {
+      "type": "string"
+    },
+    "fairMarketValue46c5": {
+      "type": "string"
+    },
+    "fairMarketValue36c5": {
+      "type": "string"
+    },
+    "mitigatingCircumstances6c7": {
+      "type": "string"
+    },
+    "other7b1": {
+      "type": "string"
+    },
+    "fairMarketValue17b9": {
+      "type": "string"
+    },
+    "fairMarketValue27b9": {
+      "type": "string"
+    },
+    "fairMarketValue47b9": {
+      "type": "string"
+    },
+    "fairMarketValue37b9": {
+      "type": "string"
+    },
+    "other7b2": {
+      "type": "string"
+    },
+    "wasSaleReportedToIrs7b6": {
+      "type": "string"
+    },
+    "salePrice17b10": {
+      "type": "string"
+    },
+    "salePrice27b10": {
+      "type": "string"
+    },
+    "salePrice47b10": {
+      "type": "string"
+    },
+    "salePrice37b10": {
+      "type": "string"
+    },
+    "gain17b11": {
+      "type": "string"
+    },
+    "gain27b11": {
+      "type": "string"
+    },
+    "gain47b11": {
+      "type": "string"
+    },
+    "gain37b11": {
+      "type": "string"
+    },
+    "fairMarketValue17c9": {
+      "type": "string"
+    },
+    "fairMarketValue27c9": {
+      "type": "string"
+    },
+    "fairMarketValue47c9": {
+      "type": "string"
+    },
+    "fairMarketValue37c9": {
+      "type": "string"
+    },
+    "other7c2": {
+      "type": "string"
+    },
+    "salePrice17c10": {
+      "type": "string"
+    },
+    "salePrice27c10": {
+      "type": "string"
+    },
+    "salePrice47c10": {
+      "type": "string"
+    },
+    "salePrice37c10": {
+      "type": "string"
+    },
+    "gain17c11": {
+      "type": "string"
+    },
+    "gain27c11": {
+      "type": "string"
+    },
+    "gain47c11": {
+      "type": "string"
+    },
+    "gain37c11": {
+      "type": "string"
+    },
+    "fairMarketValue17d9": {
+      "type": "string"
+    },
+    "fairMarketValue27d9": {
+      "type": "string"
+    },
+    "fairMarketValue47d9": {
+      "type": "string"
+    },
+    "fairMarketValue37d9": {
+      "type": "string"
+    },
+    "other7d2": {
+      "type": "string"
+    },
+    "salePrice17d10": {
+      "type": "string"
+    },
+    "salePrice27d10": {
+      "type": "string"
+    },
+    "salePrice47d10": {
+      "type": "string"
+    },
+    "salePrice37d10": {
+      "type": "string"
+    },
+    "gain17d11": {
+      "type": "string"
+    },
+    "gain27d11": {
+      "type": "string"
+    },
+    "gain47d11": {
+      "type": "string"
+    },
+    "gain37d11": {
+      "type": "string"
+    },
+    "month8b": {
+      "type": "string"
+    },
+    "day8b": {
+      "type": "string"
+    },
+    "year8b": {
+      "type": "string"
+    },
+    "transfer8fMonth": {
+      "type": "string"
+    },
+    "transfer8fDay": {
+      "type": "string"
+    },
+    "transfer8fYear": {
+      "type": "string"
+    },
+    "marketValue18c": {
+      "type": "string"
+    },
+    "marketValue28c": {
+      "type": "string"
+    },
+    "marketValue48c": {
+      "type": "string"
+    },
+    "marketValue38c": {
+      "type": "string"
+    },
+    "ofTrust8d": {
+      "type": "string"
+    },
+    "addedAdditionalFunds8e": {
+      "type": "string"
+    },
+    "howMuchTransferred18g": {
+      "type": "string"
+    },
+    "howMuchTransferred38g": {
+      "type": "string"
+    },
+    "howMuchTransferred28g": {
+      "type": "string"
+    },
+    "receiveAnnually18i": {
+      "type": "string"
+    },
+    "receiveAnnually38i": {
+      "type": "string"
+    },
+    "receiveAnnually28i": {
+      "type": "string"
+    },
+    "trustUsedToPay8j": {
+      "type": "string"
+    },
+    "additionalAuthority8m": {
+      "type": "string"
+    },
+    "reimbursedMonthly18k": {
+      "type": "string"
+    },
+    "reimbursedMonthly38k": {
+      "type": "string"
+    },
+    "reimbursedMonthly28k": {
+      "type": "string"
+    },
+    "other10b1": {
+      "type": "string"
+    },
+    "marketAnnuity19c": {
+      "type": "string"
+    },
+    "marketAnnuity29c": {
+      "type": "string"
+    },
+    "marketAnnuity49c": {
+      "type": "string"
+    },
+    "marketAnnuity39c": {
+      "type": "string"
+    },
+    "addedFundsToAnnuity9d": {
+      "type": "string"
+    },
+    "howMuchTransferred19f": {
+      "type": "string"
+    },
+    "howMuchTransferred29f": {
+      "type": "string"
+    },
+    "howMuchTransferred49f": {
+      "type": "string"
+    },
+    "howMuchTransferred39f": {
+      "type": "string"
+    },
+    "annuity9g": {
+      "type": "string"
+    },
+    "surrenderValue19k": {
+      "type": "string"
+    },
+    "surrenderValue29k": {
+      "type": "string"
+    },
+    "surrenderValue49k": {
+      "type": "string"
+    },
+    "surrenderValue39k": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty110b3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty210b3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty410b3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty310b3": {
+      "type": "string"
+    },
+    "other10c1": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty110c3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty210c3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty410c3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty310c3": {
+      "type": "string"
+    },
+    "other10d1": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty110d3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty210d3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty410d3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty310d3": {
+      "type": "string"
+    },
+    "other10e1": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty110e3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty210e3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty410e3": {
+      "type": "string"
+    },
+    "valueOfYourPortionOfProperty310e3": {
+      "type": "string"
+    },
+    "other11b1": {
+      "type": "string"
+    },
+    "other11c1": {
+      "type": "string"
+    },
+    "other121b": {
+      "type": "string"
+    },
+    "other12c1": {
+      "type": "string"
+    },
+    "apartmentNumber14c": {
+      "type": "string"
+    },
+    "apartmentNumber14f": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0969-are.pdf",
+    "status": "digitized",
+    "totalFields": 428,
+    "composedFields": 250,
+    "coveragePercent": 58,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 11,
+    "generatedAt": "2026-03-28T17:31:49.593Z"
+  }
+}

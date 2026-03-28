@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1805",
+  "type": "object",
+  "properties": {
+    "veteranNameFirstMiddleInitialLast": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "appraisalDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "appraisalAssignmentDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "appraisalOrderDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "appraisalDueDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "veteranSellerWorksNights": {
+      "type": "string"
+    },
+    "businessLenderName": {
+      "type": "string"
+    },
+    "institutionCaseNumber": {
+      "type": "string"
+    },
+    "veteranPointOfContactName": {
+      "type": "string"
+    },
+    "vaLoanIdentificationNumber": {
+      "type": "string"
+    },
+    "apnLotNumber": {
+      "type": "string"
+    },
+    "latitudeLongitudeGrid": {
+      "type": "string"
+    },
+    "salesPrice": {
+      "type": "string"
+    },
+    "builderName": {
+      "type": "string"
+    },
+    "builderId": {
+      "type": "string"
+    },
+    "petsOnPremises": {
+      "type": "string"
+    },
+    "ho": {
+      "type": "string"
+    },
+    "otherSpecialInstructionsOrInvoiceInformation": {
+      "type": "string"
+    },
+    "numberPages": {
+      "type": "string"
+    },
+    "lenderPointOfContactName": {
+      "type": "string"
+    },
+    "buyerAgentPointOfContactName": {
+      "type": "string"
+    },
+    "sellerAgentPointOfContactName": {
+      "type": "string"
+    },
+    "sellerOwnerPointOfContactName": {
+      "type": "string"
+    },
+    "builderrPointOfContactName": {
+      "type": "string"
+    },
+    "requesterName": {
+      "type": "string"
+    },
+    "requesterTitle": {
+      "type": "string"
+    },
+    "sponsorID": {
+      "type": "string"
+    },
+    "field_form1_0___subform_1__Other_Borrower_Names_SpousePartnerETC___0_": {
+      "type": "string"
+    },
+    "personAuthorizingRequestTitle": {
+      "type": "string"
+    },
+    "appraiserName": {
+      "type": "string"
+    },
+    "appraisalFee": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1805-are.pdf",
+    "status": "digitized",
+    "totalFields": 67,
+    "composedFields": 44,
+    "coveragePercent": 66,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:47.918Z"
+  }
+}

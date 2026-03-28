@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-530EZ",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateEnteredService": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSeparatedService": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDeathMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDeathDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDeathYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfBurialMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfBurialDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfBurialYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amountOfGovernmentOrEmployerContribution": {
+      "type": "number"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "placeSeparated": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string"
+    },
+    "otherName": {
+      "type": "string"
+    },
+    "nonServiceConnectedDeath": {
+      "type": "string"
+    },
+    "serviceConnectedDeath": {
+      "type": "string"
+    },
+    "unclaimedRemains": {
+      "type": "string"
+    },
+    "officialPosition": {
+      "type": "string"
+    },
+    "otherSpecify16": {
+      "type": "string"
+    },
+    "form10subform108textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform108textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform108numericfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "placeOfDeath": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-530ez-are.pdf",
+    "status": "digitized",
+    "totalFields": 93,
+    "composedFields": 73,
+    "coveragePercent": 78,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 3,
+    "pageCount": 8,
+    "generatedAt": "2026-03-28T17:33:37.808Z"
+  }
+}

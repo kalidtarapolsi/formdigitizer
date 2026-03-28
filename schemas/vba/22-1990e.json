@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1990e",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "nameFirstMiddleInitialLast": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetraing1": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetraing4": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetraing3": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetraing2": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "ifYesSpecifyBelow": {
+      "type": "string"
+    },
+    "collegeOrOtherSchool": {
+      "type": "string"
+    },
+    "vocationalFlightTraining": {
+      "type": "string"
+    },
+    "educationalOrCareerObjectiveIfKnown": {
+      "type": "string"
+    },
+    "preparatoryCourse": {
+      "type": "string"
+    },
+    "degree1": {
+      "type": "string"
+    },
+    "degree2": {
+      "type": "string"
+    },
+    "serviceMembersBranchOfService": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "nationalTestReimbursementSatClepEtc": {
+      "type": "string"
+    },
+    "apprenticeshipOrOnTheJob": {
+      "type": "string"
+    },
+    "correspondence": {
+      "type": "string"
+    },
+    "tuitionAssistanceTopUp": {
+      "type": "string"
+    },
+    "routingOrTransitNumber": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "nameloc1": {
+      "type": "string"
+    },
+    "nameloc2": {
+      "type": "string"
+    },
+    "numberandtype1": {
+      "type": "string"
+    },
+    "majorfield1": {
+      "type": "string"
+    },
+    "majorfield2": {
+      "type": "string"
+    },
+    "principalocc1": {
+      "type": "string"
+    },
+    "principalocc2": {
+      "type": "string"
+    },
+    "licenseorrating1": {
+      "type": "string"
+    },
+    "licenseorrating2": {
+      "type": "string"
+    },
+    "months1": {
+      "type": "string"
+    },
+    "months2": {
+      "type": "string"
+    },
+    "serviceMembersName2": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1990e-are.pdf",
+    "status": "digitized",
+    "totalFields": 63,
+    "composedFields": 42,
+    "coveragePercent": 67,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:35:07.901Z"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-4165",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "nameofOwnerOfBusiness": {
+      "type": "string"
+    },
+    "degreeOfOwnership": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "secondTwoNumbers": {
+      "type": "string"
+    },
+    "thisB": {
+      "type": "string"
+    },
+    "thisD": {
+      "type": "string"
+    },
+    "thisF": {
+      "type": "string"
+    },
+    "thisH": {
+      "type": "string"
+    },
+    "thisI": {
+      "type": "string"
+    },
+    "totalThisYear": {
+      "type": "string"
+    },
+    "thisG": {
+      "type": "string"
+    },
+    "thisE": {
+      "type": "string"
+    },
+    "thisC": {
+      "type": "string"
+    },
+    "kind1": {
+      "type": "string"
+    },
+    "kind2": {
+      "type": "string"
+    },
+    "kind3": {
+      "type": "string"
+    },
+    "kind4": {
+      "type": "string"
+    },
+    "kind5": {
+      "type": "string"
+    },
+    "kindB1": {
+      "type": "string"
+    },
+    "kindB2": {
+      "type": "string"
+    },
+    "kindB3": {
+      "type": "string"
+    },
+    "kindB4": {
+      "type": "string"
+    },
+    "kindB5": {
+      "type": "string"
+    },
+    "kindB6": {
+      "type": "string"
+    },
+    "remarksIfAny": {
+      "type": "string"
+    },
+    "thisA": {
+      "type": "string"
+    },
+    "totalAcreage": {
+      "type": "string"
+    },
+    "primaryAcres": {
+      "type": "string"
+    },
+    "acresThisYear": {
+      "type": "string"
+    },
+    "totalNumber": {
+      "type": "string"
+    },
+    "form10subform2textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform2textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform2textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4165-are.pdf",
+    "status": "digitized",
+    "totalFields": 106,
+    "composedFields": 55,
+    "coveragePercent": 52,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 3,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:33:15.009Z"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8644",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "date2": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "financialInstitution": {
+      "type": "string"
+    },
+    "loanNumber": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "manufacturersHome": {
+      "type": "string"
+    },
+    "modelName": {
+      "type": "string"
+    },
+    "serialNumber": {
+      "type": "string"
+    },
+    "length": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "dealerName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8644-are.pdf",
+    "status": "digitized",
+    "totalFields": 20,
+    "composedFields": 10,
+    "coveragePercent": 50,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:08.706Z"
+  }
+}

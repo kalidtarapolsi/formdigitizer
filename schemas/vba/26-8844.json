@@ -1,0 +1,365 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8844",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateOfInterview": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateDue": {
+      "type": "string",
+      "format": "date"
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "date2": {
+      "type": "string",
+      "format": "date"
+    },
+    "date3": {
+      "type": "string",
+      "format": "date"
+    },
+    "date4": {
+      "type": "string",
+      "format": "date"
+    },
+    "date5": {
+      "type": "string",
+      "format": "date"
+    },
+    "date6": {
+      "type": "string",
+      "format": "date"
+    },
+    "date7": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "date36": {
+      "type": "string",
+      "format": "date"
+    },
+    "date37": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "existingObligationsAmount": {
+      "type": "number"
+    },
+    "existingObligationsSubTotalAmount": {
+      "type": "number"
+    },
+    "proposedBudgetAmount": {
+      "type": "number"
+    },
+    "proposedBudgetSubTotalAmount": {
+      "type": "number"
+    },
+    "monthlyGrossIncome": {
+      "type": "number"
+    },
+    "minusMonthlyExpenses": {
+      "type": "number"
+    },
+    "existingObligationsTotalMonthlyExpenses": {
+      "type": "number"
+    },
+    "proposedBudgetTotalMonthlyExpenses": {
+      "type": "number"
+    },
+    "assetsCash": {
+      "type": "number"
+    },
+    "assetsSecurities": {
+      "type": "number"
+    },
+    "assetsInsurance": {
+      "type": "number"
+    },
+    "assetsRetirementIncomeAccounts": {
+      "type": "number"
+    },
+    "assetsVehicles": {
+      "type": "number"
+    },
+    "assetsAppliances": {
+      "type": "number"
+    },
+    "assetsHomeFurnishings": {
+      "type": "number"
+    },
+    "assetsOtherAssets": {
+      "type": "number"
+    },
+    "totalAssets": {
+      "type": "number"
+    },
+    "liabilitiesOtherFamilyDebtSMedicalBackTaxesEtc": {
+      "type": "number"
+    },
+    "amount1": {
+      "type": "number"
+    },
+    "amount2": {
+      "type": "number"
+    },
+    "amount3": {
+      "type": "number"
+    },
+    "amount4": {
+      "type": "number"
+    },
+    "amount5": {
+      "type": "number"
+    },
+    "amount6": {
+      "type": "number"
+    },
+    "amount7": {
+      "type": "number"
+    },
+    "agesOfOtherDependentS": {
+      "type": "string"
+    },
+    "ageOfSpouse": {
+      "type": "string"
+    },
+    "ofWork": {
+      "type": "string"
+    },
+    "liabilitiesEducationLoanS": {
+      "type": "string"
+    },
+    "inField": {
+      "type": "string"
+    },
+    "inOffice": {
+      "type": "string"
+    },
+    "loanNumber": {
+      "type": "string"
+    },
+    "lengthOfEmployment": {
+      "type": "string"
+    },
+    "compensationOrPension": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "nameOfCreditor": {
+      "type": "string"
+    },
+    "reasonForDelinquency": {
+      "type": "string"
+    },
+    "temporary": {
+      "type": "string"
+    },
+    "permanent": {
+      "type": "string"
+    },
+    "salariesGrossPay": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "balanceDue": {
+      "type": "string"
+    },
+    "balanceDueTotal": {
+      "type": "string"
+    },
+    "monthlyPayments": {
+      "type": "string"
+    },
+    "monthlyPaymentsTotal": {
+      "type": "string"
+    },
+    "existingObigations": {
+      "type": "string"
+    },
+    "existingObligations": {
+      "type": "string"
+    },
+    "existingObligationSubTotal": {
+      "type": "string"
+    },
+    "proposedBudget": {
+      "type": "string"
+    },
+    "proposedBudgetSubTotal": {
+      "type": "string"
+    },
+    "existingObligationsSubTotal22J": {
+      "type": "string"
+    },
+    "proposedBudgetSubTotal22J": {
+      "type": "string"
+    },
+    "existingObligations23A": {
+      "type": "string"
+    },
+    "existingObligations23e": {
+      "type": "string"
+    },
+    "existingObligations23f": {
+      "type": "string"
+    },
+    "existing23G": {
+      "type": "string"
+    },
+    "existing23H": {
+      "type": "string"
+    },
+    "existing23I": {
+      "type": "string"
+    },
+    "existing23J": {
+      "type": "string"
+    },
+    "existing23Subtotal": {
+      "type": "string"
+    },
+    "proposedBudget23A": {
+      "type": "string"
+    },
+    "proposedBudget23e": {
+      "type": "string"
+    },
+    "proposedBudget23f": {
+      "type": "string"
+    },
+    "budget23G": {
+      "type": "string"
+    },
+    "budget23H": {
+      "type": "string"
+    },
+    "budget23I": {
+      "type": "string"
+    },
+    "budget23J": {
+      "type": "string"
+    },
+    "budget23Subtotal": {
+      "type": "string"
+    },
+    "total25": {
+      "type": "string"
+    },
+    "nameOfPersonsInterviewed": {
+      "type": "string"
+    },
+    "ageOfFHomeowner": {
+      "type": "string"
+    },
+    "liabilitiesMortgagePrincipalS": {
+      "type": "string"
+    },
+    "liabilitiesApplianceLoanS": {
+      "type": "string"
+    },
+    "liabilitiesDepartmentStoreChargeAccounts": {
+      "type": "string"
+    },
+    "liabilitiesOtherChargeAccounts": {
+      "type": "string"
+    },
+    "liabilitiesOtherInstallmentCredit": {
+      "type": "string"
+    },
+    "totalLiabilities": {
+      "type": "string"
+    },
+    "netWorth": {
+      "type": "string"
+    },
+    "commentsAndSuggestions": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "yes31": {
+      "type": "string"
+    },
+    "no31": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8844-are.pdf",
+    "status": "digitized",
+    "totalFields": 171,
+    "composedFields": 74,
+    "coveragePercent": 43,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:31:51.540Z"
+  }
+}

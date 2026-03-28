@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10275",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "nameofinstitution": {
+      "type": "string"
+    },
+    "fc9": {
+      "type": "string"
+    },
+    "fc8": {
+      "type": "string"
+    },
+    "fc3": {
+      "type": "string"
+    },
+    "fc2": {
+      "type": "string"
+    },
+    "fc1": {
+      "type": "string"
+    },
+    "fc4": {
+      "type": "string"
+    },
+    "fc5": {
+      "type": "string"
+    },
+    "fc6": {
+      "type": "string"
+    },
+    "form10subform0subform1textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0subform1textfield111": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0subform1textfield112": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0subform1textfield113": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield114": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield115": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield116": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield117": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "titleofauthorizing": {
+      "type": "string"
+    },
+    "form10subform4table10row10textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row10textfield20": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row10textfield30": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row10textfield40": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row10textfield50": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row20textfield60": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row20textfield70": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row20textfield80": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row20textfield90": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row20textfield100": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row30textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row30textfield120": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row30textfield130": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row30textfield140": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row30textfield150": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row40textfield160": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row40textfield170": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row40textfield180": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row40textfield190": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row40textfield200": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row50textfield210": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row50textfield220": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row50textfield230": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row50textfield240": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row50textfield250": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row60textfield260": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row60textfield270": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row60textfield280": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row60textfield290": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform4table10row60textfield300": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10275-are.pdf",
+    "status": "digitized",
+    "totalFields": 61,
+    "composedFields": 10,
+    "coveragePercent": 16,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 38,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:35:36.278Z"
+  }
+}

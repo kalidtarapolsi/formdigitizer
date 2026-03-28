@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0512s-1(Spanish)",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "receiveWages": {
+      "type": "number"
+    },
+    "dependentsInYourCustody": {
+      "type": "string"
+    },
+    "estadocivil": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "medicaidCoverNursingHome": {
+      "type": "string"
+    },
+    "nursingHomePatient": {
+      "type": "string"
+    },
+    "receiveBenefits": {
+      "type": "string"
+    },
+    "whatchanged": {
+      "type": "string"
+    },
+    "whatchanged2": {
+      "type": "string"
+    },
+    "when": {
+      "type": "string"
+    },
+    "when2": {
+      "type": "string"
+    },
+    "how": {
+      "type": "string"
+    },
+    "form10subform1textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0512s-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 63,
+    "composedFields": 38,
+    "coveragePercent": 60,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 8,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:00.986Z"
+  }
+}

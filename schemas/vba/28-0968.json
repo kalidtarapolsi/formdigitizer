@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-0968",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "reportingDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "reportingDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "reportingDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "dollarAmount": {
+      "type": "number"
+    },
+    "otherExpenses": {
+      "type": "number"
+    },
+    "totalAmountClaimedItems24a24f": {
+      "type": "number"
+    },
+    "totalAmountClaimedItems2224g": {
+      "type": "number"
+    },
+    "centsPerMile": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "authorizedPeriodToMonth": {
+      "type": "string"
+    },
+    "authorizedPeriodFromYear": {
+      "type": "string"
+    },
+    "authorizedPeriodFromDay": {
+      "type": "string"
+    },
+    "authorizedPeriodFromMonth": {
+      "type": "string"
+    },
+    "authorizedPeriodToDay": {
+      "type": "string"
+    },
+    "authorizedPeriodToYear": {
+      "type": "string"
+    },
+    "cents": {
+      "type": "string"
+    },
+    "travelTo": {
+      "type": "string"
+    },
+    "milesTraveledRoundTrip": {
+      "type": "string"
+    },
+    "parking": {
+      "type": "string"
+    },
+    "tolls": {
+      "type": "string"
+    },
+    "lodging": {
+      "type": "string"
+    },
+    "meals": {
+      "type": "string"
+    },
+    "titleOfAuthorizingOfficial": {
+      "type": "string"
+    },
+    "voucherAuditor": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-0968-are.pdf",
+    "status": "digitized",
+    "totalFields": 89,
+    "composedFields": 49,
+    "coveragePercent": 55,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:33:53.631Z"
+  }
+}

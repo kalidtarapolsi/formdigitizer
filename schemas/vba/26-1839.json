@@ -1,0 +1,167 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1839",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "date2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfCompletion": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "describeAs": {
+      "type": "string"
+    },
+    "describeAs2": {
+      "type": "string"
+    },
+    "second": {
+      "type": "string"
+    },
+    "third": {
+      "type": "string"
+    },
+    "reinspections": {
+      "type": "string"
+    },
+    "special": {
+      "type": "string"
+    },
+    "a": {
+      "type": "string"
+    },
+    "b": {
+      "type": "string"
+    },
+    "c": {
+      "type": "string"
+    },
+    "d": {
+      "type": "string"
+    },
+    "e": {
+      "type": "string"
+    },
+    "reportA": {
+      "type": "string"
+    },
+    "reportB": {
+      "type": "string"
+    },
+    "caseNumber": {
+      "type": "string"
+    },
+    "propertyId": {
+      "type": "string"
+    },
+    "lenderInfo": {
+      "type": "string"
+    },
+    "nameofBuilder": {
+      "type": "string"
+    },
+    "reinspections1": {
+      "type": "string"
+    },
+    "special1": {
+      "type": "string"
+    },
+    "itemized1": {
+      "type": "string"
+    },
+    "itemized2": {
+      "type": "string"
+    },
+    "itemized3": {
+      "type": "string"
+    },
+    "itemized4": {
+      "type": "string"
+    },
+    "itemized5": {
+      "type": "string"
+    },
+    "itemized6": {
+      "type": "string"
+    },
+    "itemize7": {
+      "type": "string"
+    },
+    "reinspectRequired": {
+      "type": "string"
+    },
+    "define1": {
+      "type": "string"
+    },
+    "define2": {
+      "type": "string"
+    },
+    "estimatedCost": {
+      "type": "string"
+    },
+    "dropDownList1": {
+      "type": "string"
+    },
+    "continu": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1839-are.pdf",
+    "status": "digitized",
+    "totalFields": 43,
+    "composedFields": 13,
+    "coveragePercent": 30,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:39.150Z"
+  }
+}

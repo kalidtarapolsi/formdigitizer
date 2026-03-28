@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-8691",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateToFri": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFromFri": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateToThurs": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFromThurs": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateToWed": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFromWed": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateToTues": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFromTues": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateToMon": {
+      "type": "string",
+      "format": "date"
+    },
+    "adate": {
+      "type": "string",
+      "format": "date"
+    },
+    "bdate": {
+      "type": "string",
+      "format": "date"
+    },
+    "a8date": {
+      "type": "string",
+      "format": "date"
+    },
+    "b8date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFromMon": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "workExperience": {
+      "type": "string"
+    },
+    "workSiteReference": {
+      "type": "string"
+    },
+    "trainingProgram": {
+      "type": "string"
+    },
+    "monday": {
+      "type": "string"
+    },
+    "tuesday": {
+      "type": "string"
+    },
+    "wednesday": {
+      "type": "string"
+    },
+    "thursday": {
+      "type": "string"
+    },
+    "friday": {
+      "type": "string"
+    },
+    "male": {
+      "type": "string"
+    },
+    "female": {
+      "type": "string"
+    },
+    "chap30": {
+      "type": "string"
+    },
+    "chap31": {
+      "type": "string"
+    },
+    "chap32": {
+      "type": "string"
+    },
+    "chap1606": {
+      "type": "string"
+    },
+    "chap35": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "yes1": {
+      "type": "string"
+    },
+    "no1": {
+      "type": "string"
+    },
+    "nameofApplicant": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": "string"
+    },
+    "ifYes": {
+      "type": "string"
+    },
+    "chap33": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-8691-are.pdf",
+    "status": "digitized",
+    "totalFields": 46,
+    "composedFields": 25,
+    "coveragePercent": 54,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:21.723Z"
+  }
+}

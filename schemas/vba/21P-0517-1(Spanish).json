@@ -1,0 +1,203 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0517-1(Spanish)",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateEntered": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSeparation": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDivorceDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amountContributed": {
+      "type": "number"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "incomeChanged": {
+      "type": "number"
+    },
+    "incomeChangedWhen": {
+      "type": "number"
+    },
+    "incomeChangedHow": {
+      "type": "number"
+    },
+    "nameofSpouse": {
+      "type": "string"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "fullnameChild1": {
+      "type": "string"
+    },
+    "fullnameChild2": {
+      "type": "string"
+    },
+    "childname1": {
+      "type": "string"
+    },
+    "childname2": {
+      "type": "string"
+    },
+    "nameofVeteran": {
+      "type": "string"
+    },
+    "nursingHomeInfo": {
+      "type": "string"
+    },
+    "liveswith2": {
+      "type": "string"
+    },
+    "liveswith1": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "form10subform1textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield19": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform1textfield111": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "daytime": {
+      "type": "string"
+    },
+    "evening": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0517-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 140,
+    "composedFields": 117,
+    "coveragePercent": 84,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 12,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:32:10.631Z"
+  }
+}

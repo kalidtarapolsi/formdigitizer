@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-4125a",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checking": {
+      "type": "boolean"
+    },
+    "paymentoption": {
+      "type": "string"
+    },
+    "option2": {
+      "type": "string"
+    },
+    "option3": {
+      "type": "string"
+    },
+    "option4": {
+      "type": "string"
+    },
+    "netAmountPayable": {
+      "type": "number"
+    },
+    "insurancePolicyNumber": {
+      "type": "string"
+    },
+    "relationshipToInsured": {
+      "type": "string"
+    },
+    "nameOfInsuredVeteran": {
+      "type": "string"
+    },
+    "insuredsPlaceOfDeath": {
+      "type": "string"
+    },
+    "nameOfBeneficiary": {
+      "type": "string"
+    },
+    "egualmonthlypayments": {
+      "type": "string"
+    },
+    "finisntitute": {
+      "type": "string"
+    },
+    "routtransno": {
+      "type": "string"
+    },
+    "depositoraccountno": {
+      "type": "string"
+    },
+    "savings": {
+      "type": "string"
+    },
+    "beneficiarysShareFraction": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-4125a-are.pdf",
+    "status": "digitized",
+    "totalFields": 27,
+    "composedFields": 19,
+    "coveragePercent": 70,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:46.267Z"
+  }
+}

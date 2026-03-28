@@ -1,0 +1,454 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-4170",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateMarriageMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageMonth1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageDay1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageYear1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedMonth1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedDay1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedYear1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageMonth2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageDay2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageYear2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedMonth2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedDay2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageEndedYear2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned18b": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned19b": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "secondTwoNumbersSpouse": {
+      "type": "string"
+    },
+    "fullNameOfChild1": {
+      "type": "string"
+    },
+    "fullNameOfChild2": {
+      "type": "string"
+    },
+    "fullNameOfChild3": {
+      "type": "string"
+    },
+    "fullNameOfChild4": {
+      "type": "string"
+    },
+    "fullNameOfChild5": {
+      "type": "string"
+    },
+    "fullNameOfChild6": {
+      "type": "string"
+    },
+    "fullNameOfChild7": {
+      "type": "string"
+    },
+    "fullNameOfChild8": {
+      "type": "string"
+    },
+    "howMarriageEnded1": {
+      "type": "string"
+    },
+    "howMarriageEnded2": {
+      "type": "string"
+    },
+    "howMarriageEnded3": {
+      "type": "string"
+    },
+    "howMarriageEnded4": {
+      "type": "string"
+    },
+    "relationshipStatus11e": {
+      "type": "string"
+    },
+    "secondTwoNumbers": {
+      "type": "string"
+    },
+    "internationalNumber": {
+      "type": "string"
+    },
+    "livingTogetherMonth": {
+      "type": "string"
+    },
+    "livingTogetherDay": {
+      "type": "string"
+    },
+    "livingTogetherYear": {
+      "type": "string"
+    },
+    "namesKnownAsPrior": {
+      "type": "string"
+    },
+    "fromMonth121": {
+      "type": "string"
+    },
+    "fromDay121": {
+      "type": "string"
+    },
+    "fromYear121": {
+      "type": "string"
+    },
+    "toMonth121": {
+      "type": "string"
+    },
+    "toDay121": {
+      "type": "string"
+    },
+    "toYear121": {
+      "type": "string"
+    },
+    "reasonForSeparation1": {
+      "type": "string"
+    },
+    "fromMonth122": {
+      "type": "string"
+    },
+    "fromYear122": {
+      "type": "string"
+    },
+    "toMonth122": {
+      "type": "string"
+    },
+    "toDay122": {
+      "type": "string"
+    },
+    "toYear122": {
+      "type": "string"
+    },
+    "reasonForSeparation2": {
+      "type": "string"
+    },
+    "fromMonth123": {
+      "type": "string"
+    },
+    "fromYear123": {
+      "type": "string"
+    },
+    "toMonth123": {
+      "type": "string"
+    },
+    "toDay123": {
+      "type": "string"
+    },
+    "toYear123": {
+      "type": "string"
+    },
+    "reasonForSeparation3": {
+      "type": "string"
+    },
+    "fromMonth124": {
+      "type": "string"
+    },
+    "fromYear124": {
+      "type": "string"
+    },
+    "toMonth124": {
+      "type": "string"
+    },
+    "toDay124": {
+      "type": "string"
+    },
+    "toYear124": {
+      "type": "string"
+    },
+    "reasonForSeparation4": {
+      "type": "string"
+    },
+    "fromMonth131": {
+      "type": "string"
+    },
+    "fromDay131": {
+      "type": "string"
+    },
+    "fromYear131": {
+      "type": "string"
+    },
+    "toMonth131": {
+      "type": "string"
+    },
+    "toDay131": {
+      "type": "string"
+    },
+    "toYear131": {
+      "type": "string"
+    },
+    "fromMonth132": {
+      "type": "string"
+    },
+    "fromDay132": {
+      "type": "string"
+    },
+    "fromYear132": {
+      "type": "string"
+    },
+    "toMonth132": {
+      "type": "string"
+    },
+    "toDay132": {
+      "type": "string"
+    },
+    "toYear132": {
+      "type": "string"
+    },
+    "fromMonth133": {
+      "type": "string"
+    },
+    "fromDay133": {
+      "type": "string"
+    },
+    "fromYear133": {
+      "type": "string"
+    },
+    "toMonth133": {
+      "type": "string"
+    },
+    "toDay133": {
+      "type": "string"
+    },
+    "toYear133": {
+      "type": "string"
+    },
+    "placeOfBirth1": {
+      "type": "string"
+    },
+    "placeOfBirth2": {
+      "type": "string"
+    },
+    "placeOfBirth3": {
+      "type": "string"
+    },
+    "placeOfBirth4": {
+      "type": "string"
+    },
+    "placeOfBirth5": {
+      "type": "string"
+    },
+    "placeOfBirth6": {
+      "type": "string"
+    },
+    "placeOfBirth7": {
+      "type": "string"
+    },
+    "placeOfBirth8": {
+      "type": "string"
+    },
+    "place1": {
+      "type": "string"
+    },
+    "toWhomMarried1": {
+      "type": "string"
+    },
+    "place2": {
+      "type": "string"
+    },
+    "place3": {
+      "type": "string"
+    },
+    "toWhomMarried2": {
+      "type": "string"
+    },
+    "place4": {
+      "type": "string"
+    },
+    "place5": {
+      "type": "string"
+    },
+    "toWhomMarried3": {
+      "type": "string"
+    },
+    "place6": {
+      "type": "string"
+    },
+    "place7": {
+      "type": "string"
+    },
+    "toWhomMarried4": {
+      "type": "string"
+    },
+    "place8": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4170-are.pdf",
+    "status": "digitized",
+    "totalFields": 171,
+    "composedFields": 95,
+    "coveragePercent": 56,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 5,
+    "generatedAt": "2026-03-28T17:31:51.625Z"
+  }
+}

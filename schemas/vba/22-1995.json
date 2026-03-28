@@ -1,0 +1,227 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1995",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "nameOfApplicantFirstMiddleLast": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "activeDates1": {
+      "type": "string",
+      "format": "date"
+    },
+    "activeDutyDates3": {
+      "type": "string",
+      "format": "date"
+    },
+    "activeDutyDates4": {
+      "type": "string",
+      "format": "date"
+    },
+    "activeDutyDates5": {
+      "type": "string",
+      "format": "date"
+    },
+    "activeDutyDates6": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox3a": {
+      "type": "boolean"
+    },
+    "checkBox3b": {
+      "type": "boolean"
+    },
+    "checkBox3c": {
+      "type": "boolean"
+    },
+    "checkBox3d": {
+      "type": "boolean"
+    },
+    "checkBox3e": {
+      "type": "boolean"
+    },
+    "checkBox3f": {
+      "type": "boolean"
+    },
+    "checkBox3g": {
+      "type": "boolean"
+    },
+    "checkBox3h": {
+      "type": "boolean"
+    },
+    "yesNo6a": {
+      "type": "boolean"
+    },
+    "yesNo6b1": {
+      "type": "boolean"
+    },
+    "yesNo6b2": {
+      "type": "boolean"
+    },
+    "yesNo6b3": {
+      "type": "boolean"
+    },
+    "yesNo6c": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "whyTrainingStopped": {
+      "type": "string"
+    },
+    "nameofFinancialInstitution": {
+      "type": "string"
+    },
+    "branchOfService1": {
+      "type": "string"
+    },
+    "branchOfService4": {
+      "type": "string"
+    },
+    "branchOfService5": {
+      "type": "string"
+    },
+    "branchOfService6": {
+      "type": "string"
+    },
+    "benefits": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "nameOfProgram": {
+      "type": "string"
+    },
+    "routingNumber": {
+      "type": "string"
+    },
+    "accountnumber": {
+      "type": "string"
+    },
+    "characterD1": {
+      "type": "string"
+    },
+    "field_form1_0___subform_1__Table1_0__Row1_0__EnterTypeOfDutyE1_0_": {
+      "type": "string"
+    },
+    "branceOfService2": {
+      "type": "string"
+    },
+    "characterD2": {
+      "type": "string"
+    },
+    "field_form1_0___subform_1__Table1_0__Row2_0__EnterTypeOfDutyE2_0_": {
+      "type": "string"
+    },
+    "characterD3": {
+      "type": "string"
+    },
+    "field_form1_0___subform_1__Table1_0__Row3_0__EnterTypeOfDutyE3_0_": {
+      "type": "string"
+    },
+    "characterD4": {
+      "type": "string"
+    },
+    "field_form1_0___subform_1__Table1_0__Row4_0__EnterTypeOfDutyE4_0_": {
+      "type": "string"
+    },
+    "characterD5": {
+      "type": "string"
+    },
+    "field_form1_0___subform_1__Table1_0__Row5_0__EnterTypeOfDutyE5_0_": {
+      "type": "string"
+    },
+    "characterD6": {
+      "type": "string"
+    },
+    "field_form1_0___subform_1__Table1_0__Row6_0__EnterTypeOfDutyE6_0_": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1995-are.pdf",
+    "status": "digitized",
+    "totalFields": 66,
+    "composedFields": 47,
+    "coveragePercent": 71,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:34:50.273Z"
+  }
+}

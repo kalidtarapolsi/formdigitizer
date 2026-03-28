@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6681",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "expDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTo": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFrom": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAction": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "presentoccupation": {
+      "type": "string"
+    },
+    "namepresentemployer": {
+      "type": "string"
+    },
+    "occupation1": {
+      "type": "string"
+    },
+    "nameofemployer1": {
+      "type": "string"
+    },
+    "degreesawarded": {
+      "type": "string"
+    },
+    "advanceeducation": {
+      "type": "string"
+    },
+    "nameOfApplicant": {
+      "type": "string"
+    },
+    "professionalorg": {
+      "type": "string"
+    },
+    "kind1": {
+      "type": "string"
+    },
+    "kind2": {
+      "type": "string"
+    },
+    "kind3": {
+      "type": "string"
+    },
+    "kind4": {
+      "type": "string"
+    },
+    "kind5": {
+      "type": "string"
+    },
+    "years": {
+      "type": "string"
+    },
+    "geoAreas": {
+      "type": "string"
+    },
+    "nameOrg": {
+      "type": "string"
+    },
+    "references1": {
+      "type": "string"
+    },
+    "appraisalArea": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6681-are.pdf",
+    "status": "digitized",
+    "totalFields": 131,
+    "composedFields": 106,
+    "coveragePercent": 81,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:32:15.431Z"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-1902w",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "jobopportunities": {
+      "type": "string"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "datesofemployement": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployement11": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployement12": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployement13": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofemployement14": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesofservice18b": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "averagegrossmonthlysalary": {
+      "type": "number"
+    },
+    "averagegrossmonthlysalary11": {
+      "type": "number"
+    },
+    "averagegrossmonthlysalary12": {
+      "type": "number"
+    },
+    "averagegrossmonthlysalary13": {
+      "type": "number"
+    },
+    "averagegrossmonthlysalary14": {
+      "type": "number"
+    },
+    "treatmentforsubstanceabuse": {
+      "type": "string"
+    },
+    "nameofmedicaltreatmentfacilities": {
+      "type": "string"
+    },
+    "jobtitle": {
+      "type": "string"
+    },
+    "nameofemployer": {
+      "type": "string"
+    },
+    "jobtitle11": {
+      "type": "string"
+    },
+    "nameofemployer11": {
+      "type": "string"
+    },
+    "nameofemployer12": {
+      "type": "string"
+    },
+    "jobtitle12": {
+      "type": "string"
+    },
+    "jobtitle13": {
+      "type": "string"
+    },
+    "nameofemployer13": {
+      "type": "string"
+    },
+    "jobtitle14": {
+      "type": "string"
+    },
+    "nameofemployer14": {
+      "type": "string"
+    },
+    "coWorkerrelations": {
+      "type": "string"
+    },
+    "missedtimeatwork": {
+      "type": "string"
+    },
+    "jobtitleormilitaryoccupationalspecialty": {
+      "type": "string"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "vrcname": {
+      "type": "string"
+    },
+    "whatdidclaimantdowhenunemployed": {
+      "type": "string"
+    },
+    "howlongunemployed": {
+      "type": "string"
+    },
+    "provideadescriptionofjobdutiesindetail": {
+      "type": "string"
+    },
+    "whatistheclaimantsreasonforleavingemployment": {
+      "type": "string"
+    },
+    "provideadescriptionofjobdutiesindetail11": {
+      "type": "string"
+    },
+    "whatistheclaimantsreasonforleavingemployment11": {
+      "type": "string"
+    },
+    "provideadescriptionofjobdutiesindetail12": {
+      "type": "string"
+    },
+    "whatistheclaimantsreasonforleavingemployment12": {
+      "type": "string"
+    },
+    "provideadescriptionofjobdutiesindetail13": {
+      "type": "string"
+    },
+    "whatistheclaimantsreasonforleavingemployment13": {
+      "type": "string"
+    },
+    "provideadescriptionofjobdutiesindetail14": {
+      "type": "string"
+    },
+    "whatistheclaimantsreasonforleavingemployment14": {
+      "type": "string"
+    },
+    "claimanteverhaddifficulty": {
+      "type": "string"
+    },
+    "jobperformance": {
+      "type": "string"
+    },
+    "jobsatisfaction": {
+      "type": "string"
+    },
+    "managerrelations": {
+      "type": "string"
+    },
+    "others": {
+      "type": "string"
+    },
+    "listclaimantsmilitaryenlistmenthistory": {
+      "type": "string"
+    },
+    "rank18c": {
+      "type": "string"
+    },
+    "historyordealingwithlegalissues": {
+      "type": "string"
+    },
+    "bankruptcy": {
+      "type": "string"
+    },
+    "misdemeanor": {
+      "type": "string"
+    },
+    "felon": {
+      "type": "string"
+    },
+    "probation": {
+      "type": "string"
+    },
+    "parole": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "substanceabuseissues": {
+      "type": "string"
+    },
+    "alcohol": {
+      "type": "string"
+    },
+    "illegaldrugs": {
+      "type": "string"
+    },
+    "prescriptiondrugs": {
+      "type": "string"
+    },
+    "fieldofstudy": {
+      "type": "string"
+    },
+    "field_form1_0___subform_17__LISTTHECLAIMANTSSERVICE_CONNECTEDDISABILITIESANDIMPAIRMENTS___0_": {
+      "type": "string"
+    },
+    "filedaclaim": {
+      "type": "string"
+    },
+    "validdriverslicense": {
+      "type": "string"
+    },
+    "howoftenistheclaimantseenfortreatement": {
+      "type": "string"
+    },
+    "receivingorappliedorbenefits": {
+      "type": "string"
+    },
+    "other34": {
+      "type": "string"
+    },
+    "form10subform19textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "nameofvocationalrehabilitationcounselor": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1902w-are.pdf",
+    "status": "digitized",
+    "totalFields": 128,
+    "composedFields": 59,
+    "coveragePercent": 46,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 8,
+    "generatedAt": "2026-03-28T17:32:17.654Z"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-8864",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateTrainingBegins": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "wageLevel1": {
+      "type": "number"
+    },
+    "wageLevel2": {
+      "type": "number"
+    },
+    "wageLevel3": {
+      "type": "number"
+    },
+    "wageLevel4": {
+      "type": "number"
+    },
+    "wageLevel5": {
+      "type": "number"
+    },
+    "wageLevel6": {
+      "type": "number"
+    },
+    "wageLevel7": {
+      "type": "number"
+    },
+    "wageLevel8": {
+      "type": "number"
+    },
+    "wageLevel9": {
+      "type": "number"
+    },
+    "wageLevel10": {
+      "type": "number"
+    },
+    "wagerate": {
+      "type": "number"
+    },
+    "workProcesses1": {
+      "type": "string"
+    },
+    "workProcesses2": {
+      "type": "string"
+    },
+    "workProcesses3": {
+      "type": "string"
+    },
+    "workProcesses4": {
+      "type": "string"
+    },
+    "workProcesses5": {
+      "type": "string"
+    },
+    "workProcesses6": {
+      "type": "string"
+    },
+    "traineesJobTitleOrTrade": {
+      "type": "string"
+    },
+    "numberOfTraineesPerInstructorOrNumberOfApprenticesToJourneyWorkersRatio": {
+      "type": "string"
+    },
+    "locationOfRelatedTrainingInstruction": {
+      "type": "string"
+    },
+    "nameOfTrainingEstablishmentEnteringIntoTrainingAgreement": {
+      "type": "string"
+    },
+    "creditForPreviousTrainingExperience": {
+      "type": "string"
+    },
+    "numberOfTrainingHours1": {
+      "type": "string"
+    },
+    "numberOfTrainingHours2": {
+      "type": "string"
+    },
+    "numberOfTrainingHours3": {
+      "type": "string"
+    },
+    "numberOfTrainingHours4": {
+      "type": "string"
+    },
+    "numberOfTrainingHours5": {
+      "type": "string"
+    },
+    "numberOfTrainingHours6": {
+      "type": "string"
+    },
+    "totalNumberOfHoursOfTraining10": {
+      "type": "string"
+    },
+    "nameOfTraineeEnteringIntoTrainingAgreement": {
+      "type": "string"
+    },
+    "lengthOfProgram": {
+      "type": "string"
+    },
+    "lengthOfTimeRemainingToBeCompleted": {
+      "type": "string"
+    },
+    "lengthOfProbationaryPeriod": {
+      "type": "string"
+    },
+    "facilityCode": {
+      "type": "string"
+    },
+    "qualificationsForTrainees": {
+      "type": "string"
+    },
+    "numberOfMonths1": {
+      "type": "string"
+    },
+    "per1": {
+      "type": "string"
+    },
+    "numberOfMonths2": {
+      "type": "string"
+    },
+    "numberOfMonths3": {
+      "type": "string"
+    },
+    "numberOfMonths4": {
+      "type": "string"
+    },
+    "numberOfMonths5": {
+      "type": "string"
+    },
+    "per2": {
+      "type": "string"
+    },
+    "per3": {
+      "type": "string"
+    },
+    "per4": {
+      "type": "string"
+    },
+    "per5": {
+      "type": "string"
+    },
+    "numberOfMonths10": {
+      "type": "string"
+    },
+    "numberOfMonths9": {
+      "type": "string"
+    },
+    "numberOfMonths8": {
+      "type": "string"
+    },
+    "numberOfMonths7": {
+      "type": "string"
+    },
+    "numberOfMonths6": {
+      "type": "string"
+    },
+    "per10": {
+      "type": "string"
+    },
+    "per9": {
+      "type": "string"
+    },
+    "per8": {
+      "type": "string"
+    },
+    "per7": {
+      "type": "string"
+    },
+    "per6": {
+      "type": "string"
+    },
+    "per": {
+      "type": "string"
+    },
+    "printedNameOfTrainee": {
+      "type": "string"
+    },
+    "age2": {
+      "type": "string"
+    },
+    "betweenage1": {
+      "type": "string"
+    },
+    "term": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-8864-are.pdf",
+    "status": "digitized",
+    "totalFields": 142,
+    "composedFields": 80,
+    "coveragePercent": 56,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 5,
+    "generatedAt": "2026-03-28T17:32:04.235Z"
+  }
+}

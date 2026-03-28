@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-1905m",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "checkBox": {
+      "type": "boolean"
+    },
+    "actualAmountToBeReimbursedCents": {
+      "type": "number"
+    },
+    "actualAmountToBeReimbursed": {
+      "type": "number"
+    },
+    "nameOfTrainingFacilityOrEmployer": {
+      "type": "string"
+    },
+    "titleOfTrainingFacilityOrEmployerRepresentative": {
+      "type": "string"
+    },
+    "rehabilitationPlanGoal": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "nameOfItemServicesAndDescription": {
+      "type": "string"
+    },
+    "estimatedCostCents": {
+      "type": "string"
+    },
+    "estimatedCost": {
+      "type": "string"
+    },
+    "regionalOfficeNumber": {
+      "type": "string"
+    },
+    "nameOfItemsOrServices": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1905m-are.pdf",
+    "status": "digitized",
+    "totalFields": 197,
+    "composedFields": 114,
+    "coveragePercent": 58,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:31:51.012Z"
+  }
+}

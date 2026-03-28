@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0514-1",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateSeparation": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEnteredHome": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "namefml": {
+      "type": "string"
+    },
+    "parentname": {
+      "type": "string"
+    },
+    "otherbenefit": {
+      "type": "string"
+    },
+    "nursinghome": {
+      "type": "string"
+    },
+    "otheryou6": {
+      "type": "string"
+    },
+    "otheryour6": {
+      "type": "string"
+    },
+    "changed7d1": {
+      "type": "string"
+    },
+    "when7e1": {
+      "type": "string"
+    },
+    "how7f1": {
+      "type": "string"
+    },
+    "changed7d2": {
+      "type": "string"
+    },
+    "when7e2": {
+      "type": "string"
+    },
+    "how7f2": {
+      "type": "string"
+    },
+    "vba21051410subform1textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "vba21051410subform1textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0514-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 82,
+    "composedFields": 58,
+    "coveragePercent": 71,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 2,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:04.339Z"
+  }
+}

@@ -1,0 +1,1217 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-4706c",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "datea": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateb": {
+      "type": "string",
+      "format": "date"
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "date2": {
+      "type": "string",
+      "format": "date"
+    },
+    "date3": {
+      "type": "string",
+      "format": "date"
+    },
+    "date4": {
+      "type": "string",
+      "format": "date"
+    },
+    "date5": {
+      "type": "string",
+      "format": "date"
+    },
+    "date6": {
+      "type": "string",
+      "format": "date"
+    },
+    "date7": {
+      "type": "string",
+      "format": "date"
+    },
+    "date8": {
+      "type": "string",
+      "format": "date"
+    },
+    "date9": {
+      "type": "string",
+      "format": "date"
+    },
+    "date10": {
+      "type": "string",
+      "format": "date"
+    },
+    "date11": {
+      "type": "string",
+      "format": "date"
+    },
+    "date12": {
+      "type": "string",
+      "format": "date"
+    },
+    "date13": {
+      "type": "string",
+      "format": "date"
+    },
+    "date14": {
+      "type": "string",
+      "format": "date"
+    },
+    "date15": {
+      "type": "string",
+      "format": "date"
+    },
+    "date16": {
+      "type": "string",
+      "format": "date"
+    },
+    "date17": {
+      "type": "string",
+      "format": "date"
+    },
+    "date18": {
+      "type": "string",
+      "format": "date"
+    },
+    "date19": {
+      "type": "string",
+      "format": "date"
+    },
+    "date20": {
+      "type": "string",
+      "format": "date"
+    },
+    "date21": {
+      "type": "string",
+      "format": "date"
+    },
+    "date22": {
+      "type": "string",
+      "format": "date"
+    },
+    "date23": {
+      "type": "string",
+      "format": "date"
+    },
+    "date24": {
+      "type": "string",
+      "format": "date"
+    },
+    "date25": {
+      "type": "string",
+      "format": "date"
+    },
+    "date26": {
+      "type": "string",
+      "format": "date"
+    },
+    "date27": {
+      "type": "string",
+      "format": "date"
+    },
+    "date28": {
+      "type": "string",
+      "format": "date"
+    },
+    "date29": {
+      "type": "string",
+      "format": "date"
+    },
+    "date30": {
+      "type": "string",
+      "format": "date"
+    },
+    "date31": {
+      "type": "string",
+      "format": "date"
+    },
+    "date32": {
+      "type": "string",
+      "format": "date"
+    },
+    "date33": {
+      "type": "string",
+      "format": "date"
+    },
+    "date34": {
+      "type": "string",
+      "format": "date"
+    },
+    "date35": {
+      "type": "string",
+      "format": "date"
+    },
+    "date36": {
+      "type": "string",
+      "format": "date"
+    },
+    "date37": {
+      "type": "string",
+      "format": "date"
+    },
+    "date38": {
+      "type": "string",
+      "format": "date"
+    },
+    "date39": {
+      "type": "string",
+      "format": "date"
+    },
+    "date40": {
+      "type": "string",
+      "format": "date"
+    },
+    "date41": {
+      "type": "string",
+      "format": "date"
+    },
+    "date42": {
+      "type": "string",
+      "format": "date"
+    },
+    "date43": {
+      "type": "string",
+      "format": "date"
+    },
+    "date44": {
+      "type": "string",
+      "format": "date"
+    },
+    "date45": {
+      "type": "string",
+      "format": "date"
+    },
+    "date46": {
+      "type": "string",
+      "format": "date"
+    },
+    "date47": {
+      "type": "string",
+      "format": "date"
+    },
+    "date48": {
+      "type": "string",
+      "format": "date"
+    },
+    "date49": {
+      "type": "string",
+      "format": "date"
+    },
+    "date50": {
+      "type": "string",
+      "format": "date"
+    },
+    "date51": {
+      "type": "string",
+      "format": "date"
+    },
+    "date52": {
+      "type": "string",
+      "format": "date"
+    },
+    "date53": {
+      "type": "string",
+      "format": "date"
+    },
+    "date54": {
+      "type": "string",
+      "format": "date"
+    },
+    "date55": {
+      "type": "string",
+      "format": "date"
+    },
+    "date56": {
+      "type": "string",
+      "format": "date"
+    },
+    "date57": {
+      "type": "string",
+      "format": "date"
+    },
+    "date58": {
+      "type": "string",
+      "format": "date"
+    },
+    "date59": {
+      "type": "string",
+      "format": "date"
+    },
+    "date60": {
+      "type": "string",
+      "format": "date"
+    },
+    "date61": {
+      "type": "string",
+      "format": "date"
+    },
+    "date62": {
+      "type": "string",
+      "format": "date"
+    },
+    "date63": {
+      "type": "string",
+      "format": "date"
+    },
+    "date64": {
+      "type": "string",
+      "format": "date"
+    },
+    "date65": {
+      "type": "string",
+      "format": "date"
+    },
+    "date66": {
+      "type": "string",
+      "format": "date"
+    },
+    "date67": {
+      "type": "string",
+      "format": "date"
+    },
+    "date68": {
+      "type": "string",
+      "format": "date"
+    },
+    "date69": {
+      "type": "string",
+      "format": "date"
+    },
+    "date70": {
+      "type": "string",
+      "format": "date"
+    },
+    "date71": {
+      "type": "string",
+      "format": "date"
+    },
+    "date72": {
+      "type": "string",
+      "format": "date"
+    },
+    "date73": {
+      "type": "string",
+      "format": "date"
+    },
+    "date74": {
+      "type": "string",
+      "format": "date"
+    },
+    "date75": {
+      "type": "string",
+      "format": "date"
+    },
+    "date76": {
+      "type": "string",
+      "format": "date"
+    },
+    "date77": {
+      "type": "string",
+      "format": "date"
+    },
+    "date78": {
+      "type": "string",
+      "format": "date"
+    },
+    "date79": {
+      "type": "string",
+      "format": "date"
+    },
+    "date80": {
+      "type": "string",
+      "format": "date"
+    },
+    "date81": {
+      "type": "string",
+      "format": "date"
+    },
+    "date82": {
+      "type": "string",
+      "format": "date"
+    },
+    "date83": {
+      "type": "string",
+      "format": "date"
+    },
+    "date84": {
+      "type": "string",
+      "format": "date"
+    },
+    "date85": {
+      "type": "string",
+      "format": "date"
+    },
+    "date86": {
+      "type": "string",
+      "format": "date"
+    },
+    "date87": {
+      "type": "string",
+      "format": "date"
+    },
+    "date88": {
+      "type": "string",
+      "format": "date"
+    },
+    "datez": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkingacctbalance": {
+      "type": "boolean"
+    },
+    "amount1": {
+      "type": "number"
+    },
+    "amount2": {
+      "type": "number"
+    },
+    "amount3": {
+      "type": "number"
+    },
+    "amount4": {
+      "type": "number"
+    },
+    "amount5": {
+      "type": "number"
+    },
+    "amount6": {
+      "type": "number"
+    },
+    "amount7": {
+      "type": "number"
+    },
+    "amount8": {
+      "type": "number"
+    },
+    "amount9": {
+      "type": "number"
+    },
+    "amount10": {
+      "type": "number"
+    },
+    "amount11": {
+      "type": "number"
+    },
+    "amount12": {
+      "type": "number"
+    },
+    "amount13": {
+      "type": "number"
+    },
+    "amount14": {
+      "type": "number"
+    },
+    "amount15": {
+      "type": "number"
+    },
+    "amount16": {
+      "type": "number"
+    },
+    "amount17": {
+      "type": "number"
+    },
+    "amount18": {
+      "type": "number"
+    },
+    "amount19": {
+      "type": "number"
+    },
+    "amount20": {
+      "type": "number"
+    },
+    "amount21": {
+      "type": "number"
+    },
+    "amount22": {
+      "type": "number"
+    },
+    "amount23": {
+      "type": "number"
+    },
+    "amount24": {
+      "type": "number"
+    },
+    "amount25": {
+      "type": "number"
+    },
+    "amount26": {
+      "type": "number"
+    },
+    "amount27": {
+      "type": "number"
+    },
+    "amount28": {
+      "type": "number"
+    },
+    "amount29": {
+      "type": "number"
+    },
+    "amount30": {
+      "type": "number"
+    },
+    "amount31": {
+      "type": "number"
+    },
+    "amount32": {
+      "type": "number"
+    },
+    "amount33": {
+      "type": "number"
+    },
+    "amount34": {
+      "type": "number"
+    },
+    "amount35": {
+      "type": "number"
+    },
+    "amount36": {
+      "type": "number"
+    },
+    "amount37": {
+      "type": "number"
+    },
+    "amount38": {
+      "type": "number"
+    },
+    "amount39": {
+      "type": "number"
+    },
+    "amount40": {
+      "type": "number"
+    },
+    "amount41": {
+      "type": "number"
+    },
+    "amount42": {
+      "type": "number"
+    },
+    "amount43": {
+      "type": "number"
+    },
+    "amount44": {
+      "type": "number"
+    },
+    "amount45": {
+      "type": "number"
+    },
+    "amount46": {
+      "type": "number"
+    },
+    "amount47": {
+      "type": "number"
+    },
+    "amount48": {
+      "type": "number"
+    },
+    "amount49": {
+      "type": "number"
+    },
+    "amount50": {
+      "type": "number"
+    },
+    "amount51": {
+      "type": "number"
+    },
+    "amount52": {
+      "type": "number"
+    },
+    "amount53": {
+      "type": "number"
+    },
+    "amount54": {
+      "type": "number"
+    },
+    "amount55": {
+      "type": "number"
+    },
+    "amount56": {
+      "type": "number"
+    },
+    "amount57": {
+      "type": "number"
+    },
+    "amount58": {
+      "type": "number"
+    },
+    "amount59": {
+      "type": "number"
+    },
+    "amount60": {
+      "type": "number"
+    },
+    "amount61": {
+      "type": "number"
+    },
+    "amount62": {
+      "type": "number"
+    },
+    "amount31a": {
+      "type": "number"
+    },
+    "amount32a": {
+      "type": "number"
+    },
+    "amount33a": {
+      "type": "number"
+    },
+    "amount34a": {
+      "type": "number"
+    },
+    "amount35a": {
+      "type": "number"
+    },
+    "amount36a": {
+      "type": "number"
+    },
+    "amount37a": {
+      "type": "number"
+    },
+    "amount38a": {
+      "type": "number"
+    },
+    "amount39a": {
+      "type": "number"
+    },
+    "amount310": {
+      "type": "number"
+    },
+    "amount311": {
+      "type": "number"
+    },
+    "minor": {
+      "type": "string"
+    },
+    "namevet": {
+      "type": "string"
+    },
+    "court1": {
+      "type": "string"
+    },
+    "court2": {
+      "type": "string"
+    },
+    "from1": {
+      "type": "string"
+    },
+    "from2": {
+      "type": "string"
+    },
+    "from3": {
+      "type": "string"
+    },
+    "from4": {
+      "type": "string"
+    },
+    "from5": {
+      "type": "string"
+    },
+    "from6": {
+      "type": "string"
+    },
+    "from7": {
+      "type": "string"
+    },
+    "from8": {
+      "type": "string"
+    },
+    "from9": {
+      "type": "string"
+    },
+    "from10": {
+      "type": "string"
+    },
+    "from11": {
+      "type": "string"
+    },
+    "from12": {
+      "type": "string"
+    },
+    "from13": {
+      "type": "string"
+    },
+    "from14": {
+      "type": "string"
+    },
+    "from15": {
+      "type": "string"
+    },
+    "from16": {
+      "type": "string"
+    },
+    "from17": {
+      "type": "string"
+    },
+    "from18": {
+      "type": "string"
+    },
+    "from19": {
+      "type": "string"
+    },
+    "from20": {
+      "type": "string"
+    },
+    "from21": {
+      "type": "string"
+    },
+    "from22": {
+      "type": "string"
+    },
+    "from23": {
+      "type": "string"
+    },
+    "from24": {
+      "type": "string"
+    },
+    "from25": {
+      "type": "string"
+    },
+    "from26": {
+      "type": "string"
+    },
+    "totalreceipts": {
+      "type": "string"
+    },
+    "towhom27": {
+      "type": "string"
+    },
+    "towhom28": {
+      "type": "string"
+    },
+    "towhom29": {
+      "type": "string"
+    },
+    "towhom30": {
+      "type": "string"
+    },
+    "towhom31": {
+      "type": "string"
+    },
+    "towhom32": {
+      "type": "string"
+    },
+    "towhom33": {
+      "type": "string"
+    },
+    "towhom34": {
+      "type": "string"
+    },
+    "towhom35": {
+      "type": "string"
+    },
+    "towhom36": {
+      "type": "string"
+    },
+    "towhom37": {
+      "type": "string"
+    },
+    "towhom38": {
+      "type": "string"
+    },
+    "towhom39": {
+      "type": "string"
+    },
+    "towhom40": {
+      "type": "string"
+    },
+    "towhom41": {
+      "type": "string"
+    },
+    "towhom42": {
+      "type": "string"
+    },
+    "towhom43": {
+      "type": "string"
+    },
+    "towhom44": {
+      "type": "string"
+    },
+    "towhom45": {
+      "type": "string"
+    },
+    "towhom46": {
+      "type": "string"
+    },
+    "towhom47": {
+      "type": "string"
+    },
+    "towhom48": {
+      "type": "string"
+    },
+    "towhom49": {
+      "type": "string"
+    },
+    "towhom50": {
+      "type": "string"
+    },
+    "towhom51": {
+      "type": "string"
+    },
+    "towhom52": {
+      "type": "string"
+    },
+    "towhom53": {
+      "type": "string"
+    },
+    "towhom54": {
+      "type": "string"
+    },
+    "towhom55": {
+      "type": "string"
+    },
+    "towhom56": {
+      "type": "string"
+    },
+    "towhom57": {
+      "type": "string"
+    },
+    "towhom58": {
+      "type": "string"
+    },
+    "towhom59": {
+      "type": "string"
+    },
+    "towhom60": {
+      "type": "string"
+    },
+    "towhom61": {
+      "type": "string"
+    },
+    "towhom62": {
+      "type": "string"
+    },
+    "totalexpenditures": {
+      "type": "string"
+    },
+    "period1": {
+      "type": "string"
+    },
+    "period2": {
+      "type": "string"
+    },
+    "name1": {
+      "type": "string"
+    },
+    "field1": {
+      "type": "string"
+    },
+    "name2": {
+      "type": "string"
+    },
+    "daya": {
+      "type": "string"
+    },
+    "montha": {
+      "type": "string"
+    },
+    "yeara": {
+      "type": "string"
+    },
+    "day2": {
+      "type": "string"
+    },
+    "month2": {
+      "type": "string"
+    },
+    "yearb": {
+      "type": "string"
+    },
+    "acctnum1": {
+      "type": "string"
+    },
+    "acctnum2": {
+      "type": "string"
+    },
+    "interest": {
+      "type": "string"
+    },
+    "interestrate": {
+      "type": "string"
+    },
+    "savingacctbalance": {
+      "type": "string"
+    },
+    "bondsecurity1": {
+      "type": "string"
+    },
+    "interestrate1": {
+      "type": "string"
+    },
+    "facevalue1": {
+      "type": "string"
+    },
+    "cost1": {
+      "type": "string"
+    },
+    "bondsecurity2": {
+      "type": "string"
+    },
+    "interestrate2": {
+      "type": "string"
+    },
+    "facevalue2": {
+      "type": "string"
+    },
+    "cost2": {
+      "type": "string"
+    },
+    "bondsecurity3": {
+      "type": "string"
+    },
+    "interestrate3": {
+      "type": "string"
+    },
+    "facevalue3": {
+      "type": "string"
+    },
+    "cost3": {
+      "type": "string"
+    },
+    "bondsecurity4": {
+      "type": "string"
+    },
+    "interestrate4": {
+      "type": "string"
+    },
+    "facevalue4": {
+      "type": "string"
+    },
+    "cost4": {
+      "type": "string"
+    },
+    "bondsecurity5": {
+      "type": "string"
+    },
+    "interestrate5": {
+      "type": "string"
+    },
+    "facevalue5": {
+      "type": "string"
+    },
+    "cost5": {
+      "type": "string"
+    },
+    "bondsecurity6": {
+      "type": "string"
+    },
+    "interestrate6": {
+      "type": "string"
+    },
+    "facevalue6": {
+      "type": "string"
+    },
+    "cost6": {
+      "type": "string"
+    },
+    "bondsecurity7": {
+      "type": "string"
+    },
+    "interestrate7": {
+      "type": "string"
+    },
+    "facevalue7": {
+      "type": "string"
+    },
+    "cost7": {
+      "type": "string"
+    },
+    "bondsecurity8": {
+      "type": "string"
+    },
+    "interestrate8": {
+      "type": "string"
+    },
+    "facevalue8": {
+      "type": "string"
+    },
+    "cost8": {
+      "type": "string"
+    },
+    "bondsecurity9": {
+      "type": "string"
+    },
+    "interestrate9": {
+      "type": "string"
+    },
+    "facevalue9": {
+      "type": "string"
+    },
+    "cost9": {
+      "type": "string"
+    },
+    "bondsecurity10": {
+      "type": "string"
+    },
+    "interestrate10": {
+      "type": "string"
+    },
+    "facevalue10": {
+      "type": "string"
+    },
+    "cost10": {
+      "type": "string"
+    },
+    "bondsecurity11": {
+      "type": "string"
+    },
+    "interestrate11": {
+      "type": "string"
+    },
+    "facevalue11": {
+      "type": "string"
+    },
+    "cost11": {
+      "type": "string"
+    },
+    "bondsecurity12": {
+      "type": "string"
+    },
+    "facevalue12": {
+      "type": "string"
+    },
+    "cost12": {
+      "type": "string"
+    },
+    "bondsecurity13": {
+      "type": "string"
+    },
+    "interestrate13": {
+      "type": "string"
+    },
+    "facevalue13": {
+      "type": "string"
+    },
+    "cost13": {
+      "type": "string"
+    },
+    "bondsecurity14": {
+      "type": "string"
+    },
+    "interestrate14": {
+      "type": "string"
+    },
+    "facevalue14": {
+      "type": "string"
+    },
+    "cost14": {
+      "type": "string"
+    },
+    "bondsecurity15": {
+      "type": "string"
+    },
+    "interestrate15": {
+      "type": "string"
+    },
+    "facevalue15": {
+      "type": "string"
+    },
+    "cost15": {
+      "type": "string"
+    },
+    "bondsecurity16": {
+      "type": "string"
+    },
+    "interestrate16": {
+      "type": "string"
+    },
+    "facevalue16": {
+      "type": "string"
+    },
+    "cost16": {
+      "type": "string"
+    },
+    "bondsecurity17": {
+      "type": "string"
+    },
+    "interestrate17": {
+      "type": "string"
+    },
+    "facevalue17": {
+      "type": "string"
+    },
+    "cost17": {
+      "type": "string"
+    },
+    "bondsecurity18": {
+      "type": "string"
+    },
+    "interestrate18": {
+      "type": "string"
+    },
+    "facevalue18": {
+      "type": "string"
+    },
+    "cost18": {
+      "type": "string"
+    },
+    "bondsecurity19": {
+      "type": "string"
+    },
+    "interestrate19": {
+      "type": "string"
+    },
+    "facevalue19": {
+      "type": "string"
+    },
+    "cost19": {
+      "type": "string"
+    },
+    "bondsecurity20": {
+      "type": "string"
+    },
+    "interestrate20": {
+      "type": "string"
+    },
+    "facevalue20": {
+      "type": "string"
+    },
+    "cost20": {
+      "type": "string"
+    },
+    "bondsecurity21": {
+      "type": "string"
+    },
+    "interestrate21": {
+      "type": "string"
+    },
+    "facevalue21": {
+      "type": "string"
+    },
+    "cost21": {
+      "type": "string"
+    },
+    "bondsecurity22": {
+      "type": "string"
+    },
+    "interestrate22": {
+      "type": "string"
+    },
+    "facevalue22": {
+      "type": "string"
+    },
+    "cost22": {
+      "type": "string"
+    },
+    "bondsecurity23": {
+      "type": "string"
+    },
+    "interestrate23": {
+      "type": "string"
+    },
+    "facevalue23": {
+      "type": "string"
+    },
+    "cost23": {
+      "type": "string"
+    },
+    "bondsecurity24": {
+      "type": "string"
+    },
+    "interestrate24": {
+      "type": "string"
+    },
+    "facevalue24": {
+      "type": "string"
+    },
+    "cost24": {
+      "type": "string"
+    },
+    "bondsecurity25": {
+      "type": "string"
+    },
+    "interestrate25": {
+      "type": "string"
+    },
+    "facevalue25": {
+      "type": "string"
+    },
+    "cost25": {
+      "type": "string"
+    },
+    "bondsecurity26": {
+      "type": "string"
+    },
+    "interestrate26": {
+      "type": "string"
+    },
+    "facevalue26": {
+      "type": "string"
+    },
+    "cost26": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4706c-are.pdf",
+    "status": "digitized",
+    "totalFields": 363,
+    "composedFields": 176,
+    "coveragePercent": 48,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:31:50.113Z"
+  }
+}

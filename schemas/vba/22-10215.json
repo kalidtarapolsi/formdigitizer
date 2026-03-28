@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10215",
+  "type": "object",
+  "properties": {
+    "dateOfCalculation": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateField1": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "supportedStudentPercentageFte": {
+      "type": "number"
+    },
+    "institutionName": {
+      "type": "string"
+    },
+    "schoolOfficialPrintedName": {
+      "type": "string"
+    },
+    "schoolOfficialTitle": {
+      "type": "string"
+    },
+    "facilityCode": {
+      "type": "string"
+    },
+    "programName": {
+      "type": "string"
+    },
+    "numberOfSupportedStudentsFte": {
+      "type": "string"
+    },
+    "numberOfNonSupportedStudentsFte": {
+      "type": "string"
+    },
+    "totalEnrollment": {
+      "type": "string"
+    },
+    "regionalOffice": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10215-are.pdf",
+    "status": "digitized",
+    "totalFields": 121,
+    "composedFields": 10,
+    "coveragePercent": 8,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 5,
+    "generatedAt": "2026-03-28T17:32:36.976Z"
+  }
+}

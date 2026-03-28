@@ -1,0 +1,215 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-6553c",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "beginingDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "endingDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "trainingDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned14b": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amount1": {
+      "type": "number"
+    },
+    "amount2": {
+      "type": "number"
+    },
+    "amount3": {
+      "type": "number"
+    },
+    "amount4": {
+      "type": "number"
+    },
+    "amount5": {
+      "type": "number"
+    },
+    "nameOfCurrentCourse": {
+      "type": "string"
+    },
+    "totalCostThisCourse": {
+      "type": "string"
+    },
+    "flightSchoolInfo": {
+      "type": "string"
+    },
+    "nameOfStudent": {
+      "type": "string"
+    },
+    "ofInstr1": {
+      "type": "string"
+    },
+    "horsePower1": {
+      "type": "string"
+    },
+    "hours1": {
+      "type": "string"
+    },
+    "rate1": {
+      "type": "string"
+    },
+    "ofInstr2": {
+      "type": "string"
+    },
+    "horsePower2": {
+      "type": "string"
+    },
+    "hours2": {
+      "type": "string"
+    },
+    "rate2": {
+      "type": "string"
+    },
+    "ofInstr3": {
+      "type": "string"
+    },
+    "horsePower3": {
+      "type": "string"
+    },
+    "hours3": {
+      "type": "string"
+    },
+    "rate3": {
+      "type": "string"
+    },
+    "ofInstr4": {
+      "type": "string"
+    },
+    "horsePower4": {
+      "type": "string"
+    },
+    "hours4": {
+      "type": "string"
+    },
+    "rate4": {
+      "type": "string"
+    },
+    "ofInstr5": {
+      "type": "string"
+    },
+    "horsePower5": {
+      "type": "string"
+    },
+    "hours5": {
+      "type": "string"
+    },
+    "rate5": {
+      "type": "string"
+    },
+    "costToStudent": {
+      "type": "string"
+    },
+    "totalCostReport": {
+      "type": "string"
+    },
+    "dualMax": {
+      "type": "string"
+    },
+    "dualhour": {
+      "type": "string"
+    },
+    "soloMax": {
+      "type": "string"
+    },
+    "solohour": {
+      "type": "string"
+    },
+    "preFlight": {
+      "type": "string"
+    },
+    "flighthour": {
+      "type": "string"
+    },
+    "groundlMax": {
+      "type": "string"
+    },
+    "groundhour": {
+      "type": "string"
+    },
+    "othersMax": {
+      "type": "string"
+    },
+    "otherhour": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "vaoffice": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-6553c-are.pdf",
+    "status": "digitized",
+    "totalFields": 54,
+    "composedFields": 17,
+    "coveragePercent": 31,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:52.419Z"
+  }
+}
