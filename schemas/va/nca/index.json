@@ -8,7 +8,8 @@
     "totalNeedsReview": 0,
     "averageCoverage": 67,
     "digitized": 17,
-    "flatPdfs": 0
+    "flatPdfs": 0,
+    "formsRequiringRouting": 1
   },
   "forms": [
     {
@@ -21,7 +22,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA%20Form%2040-10190.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA%20Form%2040-10190.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "VA-40-10232",
@@ -33,7 +38,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10232.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10232.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0247",
@@ -45,7 +52,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0247.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0247.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-10",
@@ -57,7 +66,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-10.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-10.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-12",
@@ -69,7 +80,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-12.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-12.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-13",
@@ -81,7 +94,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-13.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-13.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-15",
@@ -93,7 +108,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-15.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-15.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-2",
@@ -105,7 +122,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-2.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-2.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-3",
@@ -117,7 +136,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-3.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-3.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-6",
@@ -129,7 +150,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-6.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-6.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-7",
@@ -141,7 +164,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-7.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-7.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-8",
@@ -153,7 +178,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-8.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-8.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-0895-9",
@@ -165,7 +192,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-9.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-9.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-10088",
@@ -177,7 +206,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10088.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10088.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-1330UP",
@@ -189,7 +220,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-1330UP.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-1330UP.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-4970",
@@ -201,7 +234,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-4970.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-4970.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA40-4987",
@@ -213,7 +248,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-4987.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-4987.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     }
   ]
 }

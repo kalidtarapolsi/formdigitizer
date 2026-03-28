@@ -8,7 +8,8 @@
     "totalNeedsReview": 165,
     "averageCoverage": 58,
     "digitized": 194,
-    "flatPdfs": 61
+    "flatPdfs": 61,
+    "formsRequiringRouting": 42
   },
   "forms": [
     {
@@ -21,7 +22,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0003k-2.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0003k-2.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0053",
@@ -33,7 +36,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-0053-Fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-0053-Fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0056A",
@@ -45,7 +50,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0056A.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0056A.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0102",
@@ -57,7 +64,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0102-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0102-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0103",
@@ -69,7 +78,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0103-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0103-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-10",
@@ -81,7 +92,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(10).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(10).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-11",
@@ -93,7 +106,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0114J(11).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0114J(11).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-13",
@@ -105,7 +120,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(13).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(13).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-14",
@@ -117,7 +134,9 @@
       "needsReviewCount": 0,
       "pageCount": 4,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20FORM%2010-0114J(14).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20FORM%2010-0114J(14).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-17",
@@ -129,7 +148,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(17).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(17).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-18",
@@ -141,7 +162,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(18).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(18).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-19",
@@ -153,7 +176,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(19).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(19).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-7",
@@ -165,7 +190,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(7).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(7).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J-9",
@@ -177,7 +204,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(9).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-0114J(9).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J(21)",
@@ -189,7 +218,9 @@
       "needsReviewCount": 0,
       "pageCount": 10,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20FORM%2010-0114J(21).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20FORM%2010-0114J(21).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0114J(22)",
@@ -201,7 +232,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0114J(22).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0114J(22).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0137A",
@@ -213,7 +246,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0137A.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0137A.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0143",
@@ -225,7 +260,9 @@
       "needsReviewCount": 1,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0143-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0143-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0143a",
@@ -237,7 +274,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-form-10-0143A-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-form-10-0143A-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0144",
@@ -249,7 +288,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0144-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0144-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0144a",
@@ -261,7 +302,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0144A-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0144A-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0246",
@@ -273,7 +316,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0246-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0246-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0376a",
@@ -285,7 +330,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0376a-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0376a-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-0379",
@@ -297,7 +346,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0379-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0379-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0383",
@@ -309,7 +360,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0383.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0383.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0386",
@@ -321,7 +374,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0386-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0386-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-1",
@@ -333,7 +388,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0388-1%20Documents%20and%20Information%20Requred%20for%20State%20Home%20Construction%20and%20Acquisition.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0388-1%20Documents%20and%20Information%20Requred%20for%20State%20Home%20Construction%20and%20Acquisition.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-10",
@@ -345,7 +402,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-10-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-10-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-12",
@@ -357,7 +416,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-12-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-12-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-13",
@@ -369,7 +430,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0388-13_%20Acquisition%20and%20Grants.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0388-13_%20Acquisition%20and%20Grants.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-2",
@@ -381,7 +444,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-2-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-2-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-3",
@@ -393,7 +458,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-3-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-3-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-5",
@@ -405,7 +472,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0388-5%20Additional%20Document%20and%20Information%20Acquisition%20Grants%20Application.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0388-5%20Additional%20Document%20and%20Information%20Acquisition%20Grants%20Application.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-6",
@@ -417,7 +486,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-6.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-6.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-7",
@@ -429,7 +500,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-7.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-7.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-8",
@@ -441,7 +514,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-8-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-8-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0388-9",
@@ -453,7 +528,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-9.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-9.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0389a",
@@ -465,7 +542,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0389A.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0389A.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0394",
@@ -477,7 +556,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0394A",
@@ -489,7 +570,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394A-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394A-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0394b",
@@ -501,7 +584,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394B.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394B.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0395",
@@ -513,7 +598,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0395.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0395.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-0396",
@@ -525,7 +614,9 @@
       "needsReviewCount": 6,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-0396-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-0396-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0397A",
@@ -537,7 +628,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0397A.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0397A.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0398",
@@ -549,7 +642,9 @@
       "needsReviewCount": 0,
       "pageCount": 6,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0398.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0398.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0400",
@@ -561,7 +656,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0400.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0400.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0400a",
@@ -573,7 +670,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0400A.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0400A.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0403",
@@ -585,7 +684,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0403-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0403-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0403a",
@@ -597,7 +698,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0403a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0403a.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0403b",
@@ -609,7 +712,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0403b.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0403b.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0422",
@@ -621,7 +726,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0422-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0422-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0426",
@@ -633,7 +740,11 @@
       "needsReviewCount": 4,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0426-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0426-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-0430",
@@ -645,7 +756,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0430-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0430-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-0451",
@@ -657,7 +772,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0451-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0451-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0454",
@@ -669,7 +786,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0454-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0454-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0455",
@@ -681,7 +800,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0455-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0455-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0455a",
@@ -693,7 +814,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0455A-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0455A-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0459",
@@ -705,7 +828,9 @@
       "needsReviewCount": 2,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0459-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0459-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0460",
@@ -717,7 +842,9 @@
       "needsReviewCount": 30,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0460-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0460-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0462",
@@ -729,7 +856,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0462.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0462.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0464a",
@@ -741,7 +870,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0464a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0464a.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-0474",
@@ -753,7 +886,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0474-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0474-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0477",
@@ -765,7 +900,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0477.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0477.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0483",
@@ -777,7 +914,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0483-fill%20Acknowledgement%20of%20the%20Notice%20of%20Privacy%20Practices.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0483-fill%20Acknowledgement%20of%20the%20Notice%20of%20Privacy%20Practices.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491A",
@@ -789,7 +928,9 @@
       "needsReviewCount": 2,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491a-fill%20(Application%20Addendum)%20(002).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491a-fill%20(Application%20Addendum)%20(002).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491C",
@@ -801,7 +942,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491c-fill%20(Annual%20Deferment).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491c-fill%20(Annual%20Deferment).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491D",
@@ -813,7 +956,9 @@
       "needsReviewCount": 3,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491d-fill%20(Education%20Program%20Completion).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491d-fill%20(Education%20Program%20Completion).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491E",
@@ -825,7 +970,9 @@
       "needsReviewCount": 1,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491e-fill%20(Evaluation%20and%20Recommendation)%20(1).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491e-fill%20(Evaluation%20and%20Recommendation)%20(1).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491F",
@@ -837,7 +984,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491f-fill%20(HPSP%20Agreement).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491f-fill%20(HPSP%20Agreement).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491H",
@@ -849,7 +998,9 @@
       "needsReviewCount": 1,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491h-fill%20(Notice%20of%20Approaching%20Graduation).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491h-fill%20(Notice%20of%20Approaching%20Graduation).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491I",
@@ -861,7 +1012,9 @@
       "needsReviewCount": 7,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491i-fill%20(Notice%20of%20Change).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491i-fill%20(Notice%20of%20Change).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491J",
@@ -873,7 +1026,9 @@
       "needsReviewCount": 2,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491j-fill%20(Deferment).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491j-fill%20(Deferment).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491K",
@@ -885,7 +1040,9 @@
       "needsReviewCount": 1,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491k-fill%20(Offer%20Response).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491k-fill%20(Offer%20Response).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491L",
@@ -897,7 +1054,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491L-fill%20(VIOMPSP%20Agreement).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491L-fill%20(VIOMPSP%20Agreement).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0491n",
@@ -909,7 +1068,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491n-fill%20(VHVMAESP%20Agreement).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491n-fill%20(VHVMAESP%20Agreement).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0525",
@@ -921,7 +1082,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0525-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0525-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "attorney"
+      ]
     },
     {
       "name": "10-0525a",
@@ -933,7 +1098,12 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0525a-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0525a-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician",
+        "attorney"
+      ]
     },
     {
       "name": "10-0527",
@@ -945,7 +1115,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0527_Choice_fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0527_Choice_fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0708",
@@ -957,7 +1129,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0708%20Employees%20Records%20Clearance%20-%20Revised%20(1).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0708%20Employees%20Records%20Clearance%20-%20Revised%20(1).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-0998",
@@ -969,7 +1143,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0998%20online%20corrected.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0998%20online%20corrected.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10068a",
@@ -981,7 +1157,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068a-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068a-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10068b",
@@ -993,7 +1171,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068b-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068b-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-10068c",
@@ -1005,7 +1187,12 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068c-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068c-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician",
+        "pharmacist"
+      ]
     },
     {
       "name": "10-10072B",
@@ -1017,7 +1204,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10072B-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10072B-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10072C",
@@ -1029,7 +1218,9 @@
       "needsReviewCount": 0,
       "pageCount": 14,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10072C-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10072C-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10115c",
@@ -1041,7 +1232,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10115c-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10115c-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10116",
@@ -1053,7 +1246,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form-10-10116.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form-10-10116.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10116c",
@@ -1065,7 +1260,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10116c.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10116c.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10118",
@@ -1077,7 +1274,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10118-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10118-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10143g",
@@ -1089,7 +1288,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10143g_Non-VA_Hospital_Emergency_Notification_Fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10143g_Non-VA_Hospital_Emergency_Notification_Fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10145",
@@ -1101,7 +1302,11 @@
       "needsReviewCount": 0,
       "pageCount": 6,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10145.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10145.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-10154",
@@ -1113,7 +1318,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-10154.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-10154.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10163",
@@ -1125,7 +1332,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10163-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10163-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10164",
@@ -1137,7 +1346,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10164-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10164-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10169",
@@ -1149,7 +1360,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10169%20Volunteer%20Consent%20Form.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10169%20Volunteer%20Consent%20Form.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10171",
@@ -1161,7 +1374,9 @@
       "needsReviewCount": 0,
       "pageCount": 16,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha%2010-10171-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha%2010-10171-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10173",
@@ -1173,7 +1388,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10173%20Final%208-8-2019.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10173%20Final%208-8-2019.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10176",
@@ -1185,7 +1402,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-10176.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-10176.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1054c",
@@ -1197,7 +1416,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10_1054c.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10_1054c.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1054g",
@@ -1209,7 +1430,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1054G.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1054G.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1086",
@@ -1221,7 +1444,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1086.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1086.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10HS",
@@ -1233,7 +1458,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10HS-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10HS-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-10M",
@@ -1245,7 +1472,11 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10m.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10m.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-1170",
@@ -1257,7 +1488,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1170-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1170-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1223",
@@ -1269,7 +1502,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1223-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1223-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1245C",
@@ -1281,7 +1516,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1245c-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1245c-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1274A",
@@ -1293,7 +1530,9 @@
       "needsReviewCount": 2,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1274A-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1274A-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-1",
@@ -1305,7 +1544,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-1FILL.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-1FILL.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-1313-10",
@@ -1317,7 +1560,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-10.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-10.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-11",
@@ -1329,7 +1574,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-11.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-11.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-13",
@@ -1341,7 +1588,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-13-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-13-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-1313-2",
@@ -1353,7 +1604,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-2-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-2-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-3",
@@ -1365,7 +1618,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-3.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-3.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-4",
@@ -1377,7 +1632,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-4-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-4-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-5",
@@ -1389,7 +1646,9 @@
       "needsReviewCount": 1,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-5-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-5-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-6",
@@ -1401,7 +1660,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-6-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-6-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-7",
@@ -1413,7 +1674,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-7.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-7.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313-8",
@@ -1425,7 +1688,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-8.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-8.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1313A",
@@ -1437,7 +1702,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313a.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1349",
@@ -1449,7 +1716,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1349-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1349-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1371",
@@ -1461,7 +1730,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1371-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1371-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "pharmacist"
+      ]
     },
     {
       "name": "10-1388",
@@ -1473,7 +1746,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/101388.PDF"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/101388.PDF",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1394",
@@ -1485,7 +1760,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1394-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1394-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-1436",
@@ -1497,7 +1776,9 @@
       "needsReviewCount": 0,
       "pageCount": 4,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1436.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1436.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-1450",
@@ -1509,7 +1790,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1450-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1450-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2068a",
@@ -1521,7 +1804,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2068a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2068a.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2320",
@@ -1533,7 +1818,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2320-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2320-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2321",
@@ -1545,7 +1832,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2321.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2321.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2349",
@@ -1557,7 +1846,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2349.PDF"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2349.PDF",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2357",
@@ -1569,7 +1860,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2357.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2357.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2368",
@@ -1581,7 +1874,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-2368.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-2368.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2375",
@@ -1593,7 +1888,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2375.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2375.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2382",
@@ -1605,7 +1902,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2382.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2382.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2406",
@@ -1617,7 +1916,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2406-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2406-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2407",
@@ -1629,7 +1930,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2407-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2407-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2409",
@@ -1641,7 +1944,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2409-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2409-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-2410",
@@ -1653,7 +1960,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2410-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2410-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-2431",
@@ -1665,7 +1976,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2431-fill%20(1).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2431-fill%20(1).pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-2478",
@@ -1677,7 +1992,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2478-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2478-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2478a",
@@ -1689,7 +2006,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2478a-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2478a-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2479C",
@@ -1701,7 +2020,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2479C-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2479C-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2501",
@@ -1713,7 +2034,9 @@
       "needsReviewCount": 9,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2501-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2501-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-252",
@@ -1725,7 +2048,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-252%20Authorization%20To%20Release%20Protected%20Health%20Information%20To%20State%20Local%20Public%20Authorities.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-252%20Authorization%20To%20Release%20Protected%20Health%20Information%20To%20State%20Local%20Public%20Authorities.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2520",
@@ -1737,7 +2062,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2520-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2520-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-253",
@@ -1749,7 +2076,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%20Form%20253%20Ecclesiastical%20Endorsement%20for%20Veterans%20Affairs%20Chaplaincy%20Fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%20Form%20253%20Ecclesiastical%20Endorsement%20for%20Veterans%20Affairs%20Chaplaincy%20Fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2553",
@@ -1761,7 +2090,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-2553%20Certificate%20of%20Residency_Blank%20Template.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-2553%20Certificate%20of%20Residency_Blank%20Template.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2553A",
@@ -1773,7 +2104,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-2553a%20Certificate%20of%20Internship_Blank%20Template_Part1%20(1).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-2553a%20Certificate%20of%20Internship_Blank%20Template_Part1%20(1).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2570G",
@@ -1785,7 +2118,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2570g-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2570g-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-259",
@@ -1797,7 +2132,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-259%20Revocation%20of%20Authorization%20for%20Release%20of%20Release%20of%20Individually-Idenrifiable%20Health%20Information.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-259%20Revocation%20of%20Authorization%20for%20Release%20of%20Release%20of%20Individually-Idenrifiable%20Health%20Information.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "attorney"
+      ]
     },
     {
       "name": "10-2596",
@@ -1809,7 +2148,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2596.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2596.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2614d-2a",
@@ -1821,7 +2162,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2614d-2a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2614d-2a.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-2614d-3a",
@@ -1833,7 +2178,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2614d-3a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2614d-3a.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-2614F",
@@ -1845,7 +2194,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2614f.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2614f.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2615",
@@ -1857,7 +2208,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2615.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2615.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-262",
@@ -1869,7 +2222,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-262.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-262.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2633",
@@ -1881,7 +2236,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2633-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2633-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-2636",
@@ -1893,7 +2252,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2636-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2636-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2636A",
@@ -1905,7 +2266,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/102636AN.PDF"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/102636AN.PDF",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2641",
@@ -1917,7 +2280,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2641.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2641.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-2675",
@@ -1929,7 +2296,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2675%20Sample%20Only%20Order%20Through%20Normal%20Supply%20Channels%20Fill%20(1).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2675%20Sample%20Only%20Order%20Through%20Normal%20Supply%20Channels%20Fill%20(1).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2683",
@@ -1941,7 +2310,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2683.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2683.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2687",
@@ -1953,7 +2324,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2687-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2687-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2688",
@@ -1965,7 +2338,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/102688.PDF"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/102688.PDF",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2723",
@@ -1977,7 +2352,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2723-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2723-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2743",
@@ -1989,7 +2366,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2743-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2743-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2770",
@@ -2001,7 +2380,9 @@
       "needsReviewCount": 0,
       "pageCount": 4,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2770-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2770-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2804a",
@@ -2013,7 +2394,11 @@
       "needsReviewCount": 3,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804a_fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804a_fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "dentist"
+      ]
     },
     {
       "name": "10-2804b",
@@ -2025,7 +2410,11 @@
       "needsReviewCount": 1,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804b_fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804b_fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "dentist"
+      ]
     },
     {
       "name": "10-2804c",
@@ -2037,7 +2426,11 @@
       "needsReviewCount": 1,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804c_fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804c_fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "dentist"
+      ]
     },
     {
       "name": "10-2815",
@@ -2049,7 +2442,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2815-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2815-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2817",
@@ -2061,7 +2456,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2817-fill%20(1).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2817-fill%20(1).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2829",
@@ -2073,7 +2470,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2829.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2829.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-2850e",
@@ -2085,7 +2486,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-2850e-Fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-2850e-Fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2859-3",
@@ -2097,7 +2500,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2529-3.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2529-3.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2913",
@@ -2109,7 +2514,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2913.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2913.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2914",
@@ -2121,7 +2528,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2914-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2914-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2916",
@@ -2133,7 +2542,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2916.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2916.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2917",
@@ -2145,7 +2556,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2917-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2917-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2920",
@@ -2157,7 +2570,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2920-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2920-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2936",
@@ -2169,7 +2584,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2936.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2936.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-2970E",
@@ -2181,7 +2598,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2970e.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2970e.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-301",
@@ -2193,7 +2612,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-301.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-301.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-302",
@@ -2205,7 +2626,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-302.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-302.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-303",
@@ -2217,7 +2640,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-303.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-303.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-304",
@@ -2229,7 +2654,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form%2010-304.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form%2010-304.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-305",
@@ -2241,7 +2668,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-305.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-305.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-305(s)",
@@ -2253,7 +2682,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-305(S).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-305(S).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-306",
@@ -2265,7 +2696,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-306.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-306.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-307",
@@ -2277,7 +2710,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-307.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-307.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-313",
@@ -2289,7 +2724,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form%20_10-313_.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form%20_10-313_.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-320",
@@ -2301,7 +2740,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-320.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-320.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-3203",
@@ -2313,7 +2754,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-3203%20Fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-3203%20Fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-3203a",
@@ -2325,7 +2770,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-3203a-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-3203a-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-3213B",
@@ -2337,7 +2784,9 @@
       "needsReviewCount": 5,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-3213b-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-3213b-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-322",
@@ -2349,7 +2798,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-322.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-322.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-323",
@@ -2361,7 +2814,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-323.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-323.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-329",
@@ -2373,7 +2828,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-329.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-329.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-330",
@@ -2385,7 +2844,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-330.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-330.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-334",
@@ -2397,7 +2858,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-334%20Tribal%20Documentation%20Form.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-334%20Tribal%20Documentation%20Form.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-3542",
@@ -2409,7 +2872,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-3542.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-3542.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-356",
@@ -2421,7 +2888,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/FL%2010-356.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/FL%2010-356.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-3567b",
@@ -2433,7 +2902,9 @@
       "needsReviewCount": 0,
       "pageCount": 7,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-3567b.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-3567b.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-376",
@@ -2445,7 +2916,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-376-Cardiac_Pre-Operative_Evaluation_Risk_Stratification_Request%20(1).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-376-Cardiac_Pre-Operative_Evaluation_Risk_Stratification_Request%20(1).pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-379",
@@ -2457,7 +2932,12 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-379.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-379.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician",
+        "nextOfKin"
+      ]
     },
     {
       "name": "10-381",
@@ -2469,7 +2949,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-381.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-381.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-387",
@@ -2481,7 +2963,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-387.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-387.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-3884B",
@@ -2493,7 +2977,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-3884B.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-3884B.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-390",
@@ -2505,7 +2991,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-390.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-390.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-4236a",
@@ -2517,7 +3007,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-4236a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-4236a.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-4555b",
@@ -2529,7 +3021,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-4555b.PDF"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-4555b.PDF",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-4790",
@@ -2541,7 +3035,9 @@
       "needsReviewCount": 1,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-4790-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-4790-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-4794",
@@ -2553,7 +3049,9 @@
       "needsReviewCount": 4,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-4794-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-4794-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-493",
@@ -2565,7 +3063,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-493%20TRICARE%20Affirmation%20espanol%20-%20fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-493%20TRICARE%20Affirmation%20espanol%20-%20fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-493a",
@@ -2577,7 +3077,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-493a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-493a.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-493b",
@@ -2589,7 +3091,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%2010-493b%20CHAMP%20Benefits%20Election%20Affirmation-espanol.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%2010-493b%20CHAMP%20Benefits%20Election%20Affirmation-espanol.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5018",
@@ -2601,7 +3105,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5018.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5018.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5023",
@@ -2613,7 +3119,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5023.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5023.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5096",
@@ -2625,7 +3133,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5096-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5096-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5345",
@@ -2637,7 +3147,12 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-5345_Fillable.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-5345_Fillable.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician",
+        "attorney"
+      ]
     },
     {
       "name": "10-5345a",
@@ -2649,7 +3164,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%20Form%2010-5345a%20Fill-revision.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%20Form%2010-5345a%20Fill-revision.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-5379a",
@@ -2661,7 +3180,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5379a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5379a.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5379e",
@@ -2673,7 +3194,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5379e.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5379e.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5392",
@@ -2685,7 +3208,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5392-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5392-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5397",
@@ -2697,7 +3222,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5397-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5397-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5501",
@@ -2709,7 +3236,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5501-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5501-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5504",
@@ -2721,7 +3250,9 @@
       "needsReviewCount": 55,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5504-fill%20%20022007.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5504-fill%20%20022007.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-5506",
@@ -2733,7 +3264,9 @@
       "needsReviewCount": 13,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5506-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5506-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-6056A",
@@ -2745,7 +3278,9 @@
       "needsReviewCount": 0,
       "pageCount": 5,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-6056A-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-6056A-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7008",
@@ -2757,7 +3292,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7008-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7008-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-7008a",
@@ -2769,7 +3308,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7008A-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7008A-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7033",
@@ -2781,7 +3322,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7033-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7033-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7042",
@@ -2793,7 +3336,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-7042%20Outstanding%20Service%20Award_Blanks%20Template_final%20(002).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-7042%20Outstanding%20Service%20Award_Blanks%20Template_final%20(002).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7055",
@@ -2805,7 +3350,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-7055-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-7055-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7108",
@@ -2817,7 +3364,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7108-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7108-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-7132",
@@ -2829,7 +3380,9 @@
       "needsReviewCount": 10,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-7132-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-7132-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7174",
@@ -2841,7 +3394,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-7174.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-7174.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7396b",
@@ -2853,7 +3408,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-7396b.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-7396b.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7919",
@@ -2865,7 +3422,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7919-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7919-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7959A",
@@ -2877,7 +3436,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form-10-7959a-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form-10-7959a-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7959C",
@@ -2889,7 +3450,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959c.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959c.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7959e",
@@ -2901,7 +3464,11 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7959e-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7959e-fill.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-7959f-1",
@@ -2913,7 +3480,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959f-1.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959f-1.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7959f-2",
@@ -2925,7 +3494,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959f-2.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959f-2.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-7976d",
@@ -2937,7 +3508,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-7976d-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-7976d-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-8001",
@@ -2949,7 +3522,11 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8001.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8001.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "physician"
+      ]
     },
     {
       "name": "10-8678",
@@ -2961,7 +3538,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-9012",
@@ -2973,7 +3552,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-9012.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-9012.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-9034B",
@@ -2985,7 +3566,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-9034b.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-9034b.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-9036",
@@ -2997,7 +3580,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-9036-fill.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-9036-fill.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-9050",
@@ -3009,7 +3594,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-9050%20Health%20Care%20Personnel%20Influenza%20Vaccination%20Form%20Fillable%20updated.pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-9050%20Health%20Care%20Personnel%20Influenza%20Vaccination%20Form%20Fillable%20updated.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "10-9051",
@@ -3021,7 +3608,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "flat",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-9051-fill%20(2).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-9051-fill%20(2).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA 10079",
@@ -3033,7 +3622,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10079.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10079.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA10091",
@@ -3045,7 +3636,11 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10091.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10091.pdf",
+      "requires3rdParty": "Yes",
+      "routingTypes": [
+        "nextOfKin"
+      ]
     },
     {
       "name": "VA1011",
@@ -3057,7 +3652,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA1011.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA1011.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "VA10182",
@@ -3069,7 +3666,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10182.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10182.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     }
   ]
 }

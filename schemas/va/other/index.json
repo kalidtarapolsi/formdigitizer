@@ -8,7 +8,8 @@
     "totalNeedsReview": 0,
     "averageCoverage": 50,
     "digitized": 6,
-    "flatPdfs": 0
+    "flatPdfs": 0,
+    "formsRequiringRouting": 0
   },
   "forms": [
     {
@@ -21,7 +22,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0857r.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0857r.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "4676a",
@@ -33,7 +36,9 @@
       "needsReviewCount": 0,
       "pageCount": 3,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4676a.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4676a.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "7031D",
@@ -45,7 +50,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-7031D%20Voluntary%20Service%20Award%20for%20Hours%20and%20Years%20of%20Service_final%20(002).pdf"
+      "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-7031D%20Voluntary%20Service%20Award%20for%20Hours%20and%20Years%20of%20Service_final%20(002).pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "SF 1442",
@@ -57,7 +64,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.gsa.gov/system/files/SF1442-22.pdf"
+      "formUrl": "https://www.gsa.gov/system/files/SF1442-22.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "SF-26",
@@ -69,7 +78,9 @@
       "needsReviewCount": 0,
       "pageCount": 1,
       "status": "digitized",
-      "formUrl": "https://www.gsa.gov/system/files/SF26-22.pdf"
+      "formUrl": "https://www.gsa.gov/system/files/SF26-22.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     },
     {
       "name": "SF52(ES)",
@@ -81,7 +92,9 @@
       "needsReviewCount": 0,
       "pageCount": 2,
       "status": "digitized",
-      "formUrl": "https://www.va.gov/vaforms/va/pdf/SF52.pdf"
+      "formUrl": "https://www.va.gov/vaforms/va/pdf/SF52.pdf",
+      "requires3rdParty": "No",
+      "routingTypes": []
     }
   ]
 }
