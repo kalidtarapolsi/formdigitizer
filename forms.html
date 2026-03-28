@@ -24,35 +24,34 @@
             --amethyst: #7751A8;
             --dark-gray: #4A4A5A;
             --success: #1a8a3e;
-            --focus: var(--amethyst);
         }
         body {
             font-family: 'Poppins', sans-serif;
             color: var(--dark-gray);
             background: var(--offwhite);
             line-height: 1.6;
+            overflow: hidden;
         }
 
         /* ─── Header ─── */
         .header {
             background: linear-gradient(135deg, var(--midnight) 0%, var(--royal) 100%);
             color: white;
-            padding: 1rem 1.5rem;
+            padding: 0.75rem 1.5rem;
             display: flex;
             align-items: center;
             gap: 1rem;
-            position: sticky;
-            top: 0;
             z-index: 100;
+            height: 52px;
         }
-        .header h1 { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.3px; }
-        .header p { font-size: 0.75rem; opacity: 0.7; font-weight: 300; }
+        .header h1 { font-size: 1.15rem; font-weight: 600; letter-spacing: -0.3px; }
+        .header p { font-size: 0.7rem; opacity: 0.7; font-weight: 300; }
         .header-right { margin-left: auto; display: flex; gap: 0.75rem; align-items: center; }
         .header-right a {
             color: rgba(255,255,255,0.8);
             text-decoration: none;
-            font-size: 0.8rem;
-            padding: 0.4rem 0.8rem;
+            font-size: 0.78rem;
+            padding: 0.35rem 0.7rem;
             border-radius: 6px;
             transition: all 0.2s;
         }
@@ -61,11 +60,11 @@
             background: rgba(255,255,255,0.12);
             border: 1px solid rgba(255,255,255,0.2);
             border-radius: 8px;
-            padding: 0.45rem 0.9rem;
+            padding: 0.4rem 0.85rem;
             color: white;
             font-family: inherit;
-            font-size: 0.8rem;
-            width: 260px;
+            font-size: 0.78rem;
+            width: 240px;
             outline: none;
             transition: all 0.2s;
         }
@@ -73,12 +72,12 @@
         .search-box:focus { background: rgba(255,255,255,0.18); border-color: var(--sky); }
 
         /* ─── Layout ─── */
-        .layout { display: flex; height: calc(100vh - 56px); }
+        .layout { display: flex; height: calc(100vh - 52px); }
 
         /* ─── Sidebar ─── */
         .sidebar {
-            width: 320px;
-            min-width: 320px;
+            width: 300px;
+            min-width: 300px;
             border-right: 1px solid var(--silver);
             background: var(--white);
             display: flex;
@@ -95,18 +94,16 @@
         .org-tab {
             flex: 1;
             min-width: 50%;
-            padding: 0.55rem 0.5rem;
+            padding: 0.5rem 0.4rem;
             text-align: center;
-            font-size: 0.7rem;
+            font-size: 0.68rem;
             font-weight: 500;
             color: var(--dark-gray);
             cursor: pointer;
             transition: all 0.2s;
             border-bottom: 2px solid transparent;
             background: none;
-            border-top: none;
-            border-left: none;
-            border-right: none;
+            border-top: none; border-left: none; border-right: none;
             font-family: inherit;
         }
         .org-tab:hover { background: rgba(32,113,198,0.06); }
@@ -120,10 +117,10 @@
             display: inline-block;
             background: var(--silver);
             color: var(--dark-gray);
-            font-size: 0.6rem;
-            padding: 0.1rem 0.4rem;
+            font-size: 0.58rem;
+            padding: 0.08rem 0.35rem;
             border-radius: 10px;
-            margin-left: 0.25rem;
+            margin-left: 0.2rem;
             font-weight: 400;
         }
         .org-tab.active .count { background: var(--azure); color: white; }
@@ -134,19 +131,19 @@
             padding: 0;
         }
         .form-item {
-            padding: 0.65rem 1rem;
+            padding: 0.55rem 0.85rem;
             border-bottom: 1px solid #f0f0f4;
             cursor: pointer;
             transition: all 0.15s;
             display: flex;
             align-items: center;
-            gap: 0.75rem;
+            gap: 0.6rem;
         }
         .form-item:hover { background: var(--ice); }
         .form-item.active { background: #d6e8f8; border-left: 3px solid var(--azure); }
         .form-item-info { flex: 1; min-width: 0; }
         .form-item-name {
-            font-size: 0.8rem;
+            font-size: 0.76rem;
             font-weight: 600;
             color: var(--midnight);
             white-space: nowrap;
@@ -154,13 +151,19 @@
             text-overflow: ellipsis;
         }
         .form-item-meta {
-            font-size: 0.65rem;
+            font-size: 0.62rem;
             color: #888;
-            margin-top: 0.1rem;
+            margin-top: 0.05rem;
+        }
+        .form-item-badges {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            align-items: flex-end;
         }
         .form-item-badge {
-            font-size: 0.6rem;
-            padding: 0.15rem 0.4rem;
+            font-size: 0.58rem;
+            padding: 0.12rem 0.35rem;
             border-radius: 4px;
             font-weight: 500;
             white-space: nowrap;
@@ -172,62 +175,55 @@
         /* ─── Main Content ─── */
         .main {
             flex: 1;
-            overflow-y: auto;
-            padding: 0;
-            background: var(--offwhite);
-        }
-
-        /* ─── Empty State ─── */
-        .empty-state {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            color: var(--silver);
-            text-align: center;
-            padding: 2rem;
+            overflow: hidden;
+            background: #525659;
         }
-        .empty-state svg { width: 80px; height: 80px; margin-bottom: 1rem; opacity: 0.4; }
-        .empty-state h2 { font-size: 1.1rem; color: #999; font-weight: 500; }
-        .empty-state p { font-size: 0.8rem; color: #bbb; margin-top: 0.25rem; }
 
-        /* ─── Form Renderer ─── */
-        .form-header {
+        /* ─── PDF Toolbar ─── */
+        .pdf-toolbar {
             background: var(--white);
             border-bottom: 1px solid var(--silver);
-            padding: 1.25rem 2rem;
+            padding: 0.65rem 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            min-height: 50px;
         }
-        .form-header h2 {
-            font-size: 1.15rem;
+        .pdf-toolbar-info { flex: 1; min-width: 0; }
+        .pdf-toolbar-title {
+            font-size: 0.9rem;
             font-weight: 600;
             color: var(--midnight);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
-        .form-header-meta {
+        .pdf-toolbar-meta {
+            font-size: 0.68rem;
+            color: #888;
+            margin-top: 0.1rem;
             display: flex;
-            gap: 1.25rem;
-            margin-top: 0.5rem;
+            gap: 0.75rem;
             flex-wrap: wrap;
         }
-        .form-header-meta span {
-            font-size: 0.72rem;
-            color: #888;
-        }
-        .form-header-meta span b { color: var(--dark-gray); font-weight: 500; }
-        .form-header-actions {
-            margin-top: 0.75rem;
+        .pdf-toolbar-meta b { color: var(--dark-gray); font-weight: 500; }
+        .pdf-toolbar-actions {
             display: flex;
-            gap: 0.5rem;
+            gap: 0.4rem;
+            flex-shrink: 0;
         }
         .btn {
             font-family: inherit;
-            font-size: 0.78rem;
+            font-size: 0.72rem;
             font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-radius: 7px;
+            padding: 0.4rem 0.85rem;
+            border-radius: 6px;
             cursor: pointer;
             transition: all 0.2s;
             border: none;
+            white-space: nowrap;
         }
         .btn-primary {
             background: linear-gradient(135deg, var(--azure) 0%, var(--royal) 100%);
@@ -240,116 +236,157 @@
             border: 1px solid var(--silver);
         }
         .btn-secondary:hover { background: var(--ice); }
-        .btn-outline {
+        .btn-icon {
             background: none;
-            color: var(--azure);
-            border: 1px solid var(--azure);
-        }
-        .btn-outline:hover { background: var(--ice); }
-
-        /* ─── Form Fields ─── */
-        .form-body { padding: 1.5rem 2rem 3rem; max-width: 800px; }
-        .form-section {
-            background: var(--white);
-            border: 1px solid #e8e8ec;
-            border-radius: 10px;
-            padding: 1.25rem 1.5rem;
-            margin-bottom: 1rem;
-        }
-        .form-section-title {
-            font-size: 0.82rem;
-            font-weight: 600;
-            color: var(--midnight);
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid #f0f0f4;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .field-group {
-            margin-bottom: 0.9rem;
-        }
-        .field-group:last-child { margin-bottom: 0; }
-        .field-label {
-            display: block;
-            font-size: 0.75rem;
-            font-weight: 500;
+            border: 1px solid var(--silver);
             color: var(--dark-gray);
-            margin-bottom: 0.3rem;
-        }
-        .field-label .required { color: var(--crimson); margin-left: 0.15rem; }
-        .field-input {
-            width: 100%;
-            padding: 0.55rem 0.75rem;
-            border: 1px solid #d4d4dc;
-            border-radius: 7px;
-            font-family: inherit;
-            font-size: 0.82rem;
-            color: var(--dark-gray);
-            transition: border-color 0.2s, box-shadow 0.2s;
-            background: var(--white);
-        }
-        .field-input:focus {
-            outline: none;
-            border-color: var(--azure);
-            box-shadow: 0 0 0 3px rgba(32,113,198,0.1);
-        }
-        .field-input::placeholder { color: #bbb; }
-        .field-row { display: flex; gap: 0.75rem; }
-        .field-row > .field-group { flex: 1; }
-
-        .field-checkbox-group {
+            width: 34px;
+            height: 34px;
+            padding: 0;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .field-checkbox-group input[type="checkbox"] {
-            width: 16px;
-            height: 16px;
-            accent-color: var(--azure);
-        }
-        .field-checkbox-group label {
-            font-size: 0.78rem;
-            color: var(--dark-gray);
+            justify-content: center;
+            border-radius: 6px;
             cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-icon:hover { background: var(--ice); border-color: var(--azure); color: var(--azure); }
+        .btn-icon svg { width: 16px; height: 16px; }
+
+        /* ─── PDF Viewer ─── */
+        .pdf-viewer {
+            flex: 1;
+            position: relative;
+            background: #525659;
+        }
+        .pdf-viewer iframe,
+        .pdf-viewer object,
+        .pdf-viewer embed {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
 
-        select.field-input {
-            appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.5'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 0.75rem center;
-            padding-right: 2rem;
+        /* ─── Empty State ─── */
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--silver);
+            text-align: center;
+            padding: 2rem;
+            background: var(--offwhite);
         }
-
-        textarea.field-input {
-            min-height: 80px;
-            resize: vertical;
-        }
-
-        .field-hint {
-            font-size: 0.65rem;
-            color: #aaa;
-            margin-top: 0.2rem;
-        }
+        .empty-state svg { width: 72px; height: 72px; margin-bottom: 1rem; opacity: 0.35; }
+        .empty-state h2 { font-size: 1rem; color: #999; font-weight: 500; }
+        .empty-state p { font-size: 0.78rem; color: #bbb; margin-top: 0.25rem; max-width: 360px; }
 
         /* ─── Loading ─── */
-        .loading { text-align: center; padding: 3rem; color: #999; }
+        .loading { text-align: center; padding: 2.5rem; color: #999; }
         .spinner {
-            width: 32px; height: 32px;
+            width: 28px; height: 28px;
             border: 3px solid var(--silver);
             border-top-color: var(--azure);
             border-radius: 50%;
             animation: spin 0.8s linear infinite;
-            margin: 0 auto 0.75rem;
+            margin: 0 auto 0.6rem;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
 
+        /* ─── Fallback overlay when PDF can't embed ─── */
+        .pdf-fallback {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background: var(--offwhite);
+            padding: 2rem;
+            text-align: center;
+        }
+        .pdf-fallback svg { width: 64px; height: 64px; color: var(--azure); margin-bottom: 1rem; }
+        .pdf-fallback h3 { font-size: 1rem; color: var(--midnight); margin-bottom: 0.5rem; }
+        .pdf-fallback p { font-size: 0.82rem; color: #888; margin-bottom: 1.25rem; max-width: 420px; }
+        .pdf-fallback .btn { font-size: 0.85rem; padding: 0.6rem 1.5rem; }
+
+        /* ─── Schema panel (slide-out) ─── */
+        .schema-panel {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 380px;
+            background: var(--white);
+            border-left: 1px solid var(--silver);
+            box-shadow: -4px 0 20px rgba(0,0,0,0.08);
+            z-index: 50;
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .schema-panel.open { display: flex; }
+        .schema-panel-header {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--ice);
+        }
+        .schema-panel-header h3 { font-size: 0.82rem; font-weight: 600; color: var(--midnight); }
+        .schema-panel-close {
+            background: none; border: none; cursor: pointer;
+            color: #888; font-size: 1.2rem; line-height: 1;
+            padding: 0.2rem;
+        }
+        .schema-panel-close:hover { color: var(--midnight); }
+        .schema-panel-body {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+        }
+        .schema-section {
+            margin-bottom: 1rem;
+        }
+        .schema-section-title {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--azure);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 1px solid #f0f0f4;
+        }
+        .schema-field {
+            padding: 0.3rem 0;
+            font-size: 0.72rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .schema-field-name { color: var(--midnight); font-weight: 500; }
+        .schema-field-type {
+            font-size: 0.62rem;
+            background: var(--ice);
+            color: var(--azure);
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+        }
+        .schema-field-label {
+            display: block;
+            font-size: 0.62rem;
+            color: #999;
+            margin-top: 0.05rem;
+        }
+
         /* ─── Responsive ─── */
         @media (max-width: 768px) {
-            .sidebar { width: 100%; min-width: unset; max-height: 40vh; }
+            .sidebar { width: 100%; min-width: unset; max-height: 35vh; }
             .layout { flex-direction: column; }
+            .schema-panel { width: 100%; }
         }
     </style>
 </head>
@@ -379,14 +416,12 @@
                     <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                 </svg>
                 <h2>Select a form to get started</h2>
-                <p>Choose a form from the sidebar to view and fill it out</p>
+                <p>Choose a form from the sidebar to view the full PDF with fillable fields</p>
             </div>
         </div>
     </div>
 
 <script>
-const BASE = location.hostname === 'localhost' || location.hostname === '127.0.0.1'
-    ? '' : '';
 const SCHEMA_BASE = 'schemas';
 
 const ORGS = [
@@ -399,7 +434,7 @@ const ORGS = [
 ];
 
 let currentOrg = null;
-let currentOrgIndex = null;
+let currentFormMeta = null;
 let currentSchema = null;
 let allFormsByOrg = {};
 
@@ -431,14 +466,12 @@ async function initTabs() {
         tabs.appendChild(btn);
     }
 
-    // Load all org indexes in parallel
     const results = await Promise.allSettled(ORGS.map(async org => {
         const idx = await loadOrgIndex(org);
         allFormsByOrg[org.id] = { org, index: idx };
         return { org, index: idx };
     }));
 
-    // Update tab counts
     for (const r of results) {
         if (r.status === 'fulfilled') {
             const { org, index } = r.value;
@@ -448,7 +481,6 @@ async function initTabs() {
         }
     }
 
-    // Select first tab
     selectOrg(ORGS[0]);
 }
 
@@ -476,7 +508,7 @@ function renderFormList(org, filterText) {
     }
 
     if (forms.length === 0) {
-        listEl.innerHTML = '<div style="padding:2rem;text-align:center;color:#aaa;font-size:0.8rem;">No forms found</div>';
+        listEl.innerHTML = '<div style="padding:2rem;text-align:center;color:#aaa;font-size:0.78rem;">No forms found</div>';
         return;
     }
 
@@ -486,13 +518,14 @@ function renderFormList(org, filterText) {
         const fields = f.totalFields || 0;
         const coverage = f.coveragePercent || 0;
         const routing = (f.requires3rdParty === 'Yes' || (f.routingTypes && f.routingTypes.length > 0));
+        const safeName = (f.name || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
-        return `<div class="form-item" data-form="${f.name}" data-file="${f.fileName}" onclick="selectForm('${org.id}','${f.fileName}','${f.name.replace(/'/g, "\\'")}')">
+        return `<div class="form-item" data-form="${f.name}" data-file="${f.fileName}" onclick="selectForm('${org.id}','${f.fileName}','${safeName}')">
             <div class="form-item-info">
                 <div class="form-item-name">${f.name}</div>
                 <div class="form-item-meta">${fields} fields · ${coverage}% mapped${f.pageCount ? ' · ' + f.pageCount + 'pg' : ''}</div>
             </div>
-            <div style="display:flex;flex-direction:column;gap:3px;align-items:flex-end;">
+            <div class="form-item-badges">
                 <span class="form-item-badge ${badgeClass}">${status === 'digitized' ? 'Digitized' : 'Flat'}</span>
                 ${routing ? '<span class="form-item-badge badge-routing">3rd Party</span>' : ''}
             </div>
@@ -502,22 +535,208 @@ function renderFormList(org, filterText) {
 
 // ─── Select and render a form ───
 async function selectForm(orgId, fileName, formName) {
-    // Highlight in sidebar
+    // Highlight sidebar
     document.querySelectorAll('.form-item').forEach(el => el.classList.remove('active'));
     const item = document.querySelector(`.form-item[data-file="${fileName}"]`);
     if (item) item.classList.add('active');
 
-    const main = document.getElementById('mainPanel');
-    main.innerHTML = '<div class="loading"><div class="spinner"></div>Loading form...</div>';
-
     const org = ORGS.find(o => o.id === orgId);
+    const main = document.getElementById('mainPanel');
+    main.innerHTML = '<div class="loading" style="padding-top:4rem;"><div class="spinner"></div>Loading form...</div>';
+
+    // Load schema to get metadata and PDF URL
     try {
         const schema = await loadSchema(org, fileName);
         currentSchema = schema;
-        renderForm(schema, org);
+        const meta = schema['x-va-metadata'] || {};
+        const pdfUrl = meta.formUrl || '';
+
+        // Find the form entry in the index for extra metadata
+        const data = allFormsByOrg[orgId];
+        currentFormMeta = (data?.index?.forms || []).find(f => f.fileName === fileName) || {};
+
+        renderPdfViewer(schema, meta, pdfUrl, org);
     } catch (e) {
         main.innerHTML = `<div class="empty-state"><h2>Failed to load form</h2><p>${e.message}</p></div>`;
     }
+}
+
+// ─── Render PDF viewer ───
+function renderPdfViewer(schema, meta, pdfUrl, org) {
+    const main = document.getElementById('mainPanel');
+    const title = schema.title || 'Untitled Form';
+    const totalProps = Object.keys(schema.properties || {}).length;
+    const routing = (currentFormMeta.routingTypes || []);
+
+    let toolbarHtml = `
+    <div class="pdf-toolbar">
+        <div class="pdf-toolbar-info">
+            <div class="pdf-toolbar-title" title="${title}">${title}</div>
+            <div class="pdf-toolbar-meta">
+                <span><b>${totalProps}</b> fields</span>
+                <span><b>${meta.composedFields || 0}</b> mapped (${meta.coveragePercent || 0}%)</span>
+                ${meta.pageCount ? '<span><b>' + meta.pageCount + '</b> pages</span>' : ''}
+                <span>${org.fullName}</span>
+                ${routing.length ? '<span style="color:var(--amethyst);">3rd Party: <b>' + routing.join(', ') + '</b></span>' : ''}
+            </div>
+        </div>
+        <div class="pdf-toolbar-actions">
+            <button class="btn-icon" onclick="toggleSchemaPanel()" title="View JSON Schema">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </button>
+            <button class="btn-icon" onclick="exportSchema()" title="Export JSON Schema">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </button>
+            ${pdfUrl ? `<a class="btn btn-secondary" href="${pdfUrl}" target="_blank" rel="noopener">Open PDF ↗</a>` : ''}
+            ${pdfUrl ? `<a class="btn btn-primary" href="${pdfUrl}" download title="Download PDF">Download</a>` : ''}
+        </div>
+    </div>`;
+
+    if (!pdfUrl) {
+        main.innerHTML = toolbarHtml + `
+        <div class="pdf-fallback">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            <h3>No PDF URL available</h3>
+            <p>This form's schema was generated but the original PDF URL wasn't captured. You can still view the extracted field data using the schema panel.</p>
+            <button class="btn btn-primary" onclick="toggleSchemaPanel()">View Schema Data</button>
+        </div>`;
+        return;
+    }
+
+    // Embed the actual PDF — browser's native viewer handles fillable fields
+    main.innerHTML = toolbarHtml + `
+    <div class="pdf-viewer" style="position:relative;">
+        <iframe id="pdfFrame" src="${pdfUrl}" type="application/pdf" style="width:100%;height:100%;border:none;"></iframe>
+
+        <!-- Schema slide-out panel -->
+        <div class="schema-panel" id="schemaPanel">
+            <div class="schema-panel-header">
+                <h3>Extracted Schema — ${totalProps} fields</h3>
+                <button class="schema-panel-close" onclick="toggleSchemaPanel()">✕</button>
+            </div>
+            <div class="schema-panel-body" id="schemaPanelBody"></div>
+        </div>
+    </div>`;
+
+    // Populate schema panel content
+    populateSchemaPanel(schema);
+
+    // Handle iframe load failure — if the PDF can't embed, show fallback
+    const iframe = document.getElementById('pdfFrame');
+    let loadTimer = setTimeout(() => {
+        // If iframe hasn't loaded in 8s, show fallback link
+        showEmbedFallback(pdfUrl, title);
+    }, 8000);
+
+    iframe.onload = () => {
+        clearTimeout(loadTimer);
+    };
+
+    iframe.onerror = () => {
+        clearTimeout(loadTimer);
+        showEmbedFallback(pdfUrl, title);
+    };
+}
+
+// ─── Fallback when iframe embed fails ───
+function showEmbedFallback(pdfUrl, title) {
+    const viewer = document.querySelector('.pdf-viewer');
+    if (!viewer) return;
+
+    // Don't replace if PDF actually loaded
+    const iframe = document.getElementById('pdfFrame');
+    try {
+        // Check if iframe has content (will throw if cross-origin)
+        if (iframe && iframe.contentDocument && iframe.contentDocument.body && iframe.contentDocument.body.innerHTML.length > 0) return;
+    } catch(e) {
+        // Cross-origin — PDF probably loaded fine in the browser's PDF viewer
+        return;
+    }
+
+    // Only show fallback if iframe is truly blank
+    const fallback = document.createElement('div');
+    fallback.className = 'pdf-fallback';
+    fallback.innerHTML = `
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+        </svg>
+        <h3>${title}</h3>
+        <p>This PDF may not embed directly. Click below to open the full, fillable form in a new tab where you can fill it out and save/print.</p>
+        <a class="btn btn-primary" href="${pdfUrl}" target="_blank" rel="noopener" style="text-decoration:none;">Open Fillable PDF ↗</a>
+    `;
+    // Insert fallback behind iframe, hide iframe
+    iframe.style.display = 'none';
+    viewer.insertBefore(fallback, viewer.firstChild);
+}
+
+// ─── Schema panel ───
+function toggleSchemaPanel() {
+    const panel = document.getElementById('schemaPanel');
+    if (panel) panel.classList.toggle('open');
+}
+
+function populateSchemaPanel(schema) {
+    const body = document.getElementById('schemaPanelBody');
+    if (!body || !schema.properties) return;
+
+    const props = schema.properties;
+    const sections = categorizeForPanel(props);
+
+    let html = '';
+    for (const [sectionName, fields] of Object.entries(sections)) {
+        html += `<div class="schema-section">
+            <div class="schema-section-title">${sectionName}</div>`;
+        for (const f of fields) {
+            const typeLabel = f.def.type === 'object' ? 'object' :
+                              f.def.format ? f.def.format :
+                              f.def.type || 'string';
+            const xfaLabel = f.def['x-xfa-label'] || '';
+            html += `<div class="schema-field">
+                <div>
+                    <span class="schema-field-name">${humanize(f.key)}</span>
+                    ${xfaLabel ? `<span class="schema-field-label">${xfaLabel}</span>` : ''}
+                </div>
+                <span class="schema-field-type">${typeLabel}</span>
+            </div>`;
+        }
+        html += '</div>';
+    }
+
+    body.innerHTML = html;
+}
+
+function categorizeForPanel(props) {
+    const sections = {
+        'Personal': [], 'Contact': [], 'Service & Benefits': [],
+        'Medical': [], 'Financial': [], 'Dates': [],
+        'Signatures': [], 'Selections': [], 'Other': []
+    };
+
+    const personalKeys = /fullName|name|ssn|dateOfBirth|dob|gender|sex|suffix/i;
+    const contactKeys = /address|phone|email|fax|city|state|zip|street|country/i;
+    const serviceKeys = /vaFileNumber|serviceNumber|military|branch|rank|veteran|duty/i;
+    const medicalKeys = /medical|diagnosis|treatment|condition|medication|doctor|health|disability/i;
+    const financialKeys = /income|asset|expense|debt|salary|amount|financial|bank|insurance/i;
+    const dateKeys = /date/i;
+    const sigKeys = /signature|sign|certif|attest|witness/i;
+
+    for (const [key, def] of Object.entries(props)) {
+        const entry = { key, def };
+        if (personalKeys.test(key)) sections['Personal'].push(entry);
+        else if (contactKeys.test(key)) sections['Contact'].push(entry);
+        else if (serviceKeys.test(key)) sections['Service & Benefits'].push(entry);
+        else if (medicalKeys.test(key)) sections['Medical'].push(entry);
+        else if (financialKeys.test(key)) sections['Financial'].push(entry);
+        else if (sigKeys.test(key)) sections['Signatures'].push(entry);
+        else if (def.type === 'boolean') sections['Selections'].push(entry);
+        else if (dateKeys.test(key) || def.format === 'date') sections['Dates'].push(entry);
+        else sections['Other'].push(entry);
+    }
+
+    return Object.fromEntries(Object.entries(sections).filter(([, v]) => v.length > 0));
 }
 
 // ─── Humanize property name ───
@@ -533,268 +752,58 @@ function humanize(str) {
         .trim();
 }
 
-// ─── Categorize properties into sections ───
-function categorizeProperties(schema) {
-    const props = schema.properties || {};
-    const required = new Set(schema.required || []);
-    const sections = {
-        'Personal Information': [],
-        'Contact Information': [],
-        'Service & Benefits': [],
-        'Medical & Health': [],
-        'Financial': [],
-        'Dates': [],
-        'Signatures & Certifications': [],
-        'Selections': [],
-        'Additional Information': []
-    };
-
-    const personalKeys = /fullName|name|ssn|dateOfBirth|dob|gender|sex|race|height|weight|suffix/i;
-    const contactKeys = /address|phone|email|fax|city|state|zip|street|country|mailing|residence/i;
-    const serviceKeys = /vaFileNumber|serviceNumber|military|branch|rank|grade|discharge|duty|veteran|enlist|separation|campaign/i;
-    const medicalKeys = /medical|diagnosis|treatment|condition|symptom|medication|doctor|physician|hospital|clinic|disability|health/i;
-    const financialKeys = /income|asset|expense|debt|salary|wage|amount|financial|bank|account|insurance|premium|payment/i;
-    const dateKeys = /date/i;
-    const sigKeys = /signature|sign|certif|attest|witness/i;
-    const selectionKeys = /checkbox|radio|check|select|choice|option/i;
-
-    for (const [key, def] of Object.entries(props)) {
-        const entry = { key, def, required: required.has(key), label: humanize(key) };
-
-        if (personalKeys.test(key)) sections['Personal Information'].push(entry);
-        else if (contactKeys.test(key)) sections['Contact Information'].push(entry);
-        else if (serviceKeys.test(key)) sections['Service & Benefits'].push(entry);
-        else if (medicalKeys.test(key)) sections['Medical & Health'].push(entry);
-        else if (financialKeys.test(key)) sections['Financial'].push(entry);
-        else if (sigKeys.test(key)) sections['Signatures & Certifications'].push(entry);
-        else if (def.type === 'boolean') sections['Selections'].push(entry);
-        else if (dateKeys.test(key) || def.format === 'date') sections['Dates'].push(entry);
-        else sections['Additional Information'].push(entry);
-    }
-
-    // Remove empty sections
-    return Object.fromEntries(Object.entries(sections).filter(([, v]) => v.length > 0));
-}
-
-// ─── Render a field ───
-function renderField(entry) {
-    const { key, def, required, label } = entry;
-    const req = required ? '<span class="required">*</span>' : '';
-
-    // Object type (like fullName, address)
-    if (def.type === 'object' && def.properties) {
-        const subFields = Object.entries(def.properties).map(([sk, sd]) => {
-            const sReq = (def.required || []).includes(sk);
-            return `<div class="field-group">
-                <label class="field-label">${humanize(sk)}${sReq ? '<span class="required">*</span>' : ''}</label>
-                <input type="text" class="field-input" name="${key}.${sk}" placeholder="${humanize(sk)}"${sd.maxLength ? ' maxlength="' + sd.maxLength + '"' : ''}${sReq ? ' required' : ''}>
-            </div>`;
-        }).join('');
-        return `<div class="field-group">
-            <label class="field-label" style="font-size:0.82rem;font-weight:600;margin-bottom:0.5rem;">${label}${req}</label>
-            <div class="field-row" style="flex-wrap:wrap;">${subFields}</div>
-        </div>`;
-    }
-
-    // Boolean / checkbox
-    if (def.type === 'boolean') {
-        return `<div class="field-checkbox-group">
-            <input type="checkbox" id="f_${key}" name="${key}">
-            <label for="f_${key}">${label}</label>
-        </div>`;
-    }
-
-    // Date
-    if (def.format === 'date') {
-        return `<div class="field-group">
-            <label class="field-label">${label}${req}</label>
-            <input type="date" class="field-input" name="${key}"${required ? ' required' : ''}>
-        </div>`;
-    }
-
-    // Email
-    if (def.format === 'email') {
-        return `<div class="field-group">
-            <label class="field-label">${label}${req}</label>
-            <input type="email" class="field-input" name="${key}" placeholder="email@example.com"${required ? ' required' : ''}>
-        </div>`;
-    }
-
-    // Number
-    if (def.type === 'number') {
-        return `<div class="field-group">
-            <label class="field-label">${label}${req}</label>
-            <input type="number" class="field-input" name="${key}" step="0.01"${required ? ' required' : ''}>
-        </div>`;
-    }
-
-    // SSN pattern
-    if (def.pattern && def.pattern.includes('\\d{3}')) {
-        return `<div class="field-group">
-            <label class="field-label">${label}${req}</label>
-            <input type="text" class="field-input" name="${key}" placeholder="XXX-XX-XXXX" maxlength="11" pattern="\\d{3}-?\\d{2}-?\\d{4}"${required ? ' required' : ''}>
-            <div class="field-hint">Format: XXX-XX-XXXX</div>
-        </div>`;
-    }
-
-    // Phone pattern
-    if (def.pattern && def.pattern.includes('\\d{10}')) {
-        return `<div class="field-group">
-            <label class="field-label">${label}${req}</label>
-            <input type="tel" class="field-input" name="${key}" placeholder="(555) 555-5555" maxlength="10"${required ? ' required' : ''}>
-        </div>`;
-    }
-
-    // Long text (remarks, description, etc.)
-    if (/remark|comment|explanation|narrative|describe|additional/i.test(key)) {
-        return `<div class="field-group">
-            <label class="field-label">${label}${req}</label>
-            <textarea class="field-input" name="${key}" rows="3"${required ? ' required' : ''}></textarea>
-        </div>`;
-    }
-
-    // Default: text input
-    return `<div class="field-group">
-        <label class="field-label">${label}${req}</label>
-        <input type="text" class="field-input" name="${key}"${def.maxLength ? ' maxlength="' + def.maxLength + '"' : ''}${required ? ' required' : ''} placeholder="${label}">
-    </div>`;
-}
-
-// ─── Render entire form ───
-function renderForm(schema, org) {
-    const main = document.getElementById('mainPanel');
-    const meta = schema['x-va-metadata'] || {};
-    const sections = categorizeProperties(schema);
-    const totalProps = Object.keys(schema.properties || {}).length;
-    const routing = meta.routingTypes || [];
-
-    let html = `<div class="form-header">
-        <h2>${schema.title || 'Untitled Form'}</h2>
-        <div class="form-header-meta">
-            <span><b>${totalProps}</b> fields</span>
-            <span><b>${meta.composedFields || 0}</b> mapped (${meta.coveragePercent || 0}%)</span>
-            ${meta.pageCount ? '<span><b>' + meta.pageCount + '</b> pages</span>' : ''}
-            <span>Org: <b>${org.fullName}</b></span>
-            ${meta.xfaLabelCount ? '<span><b>' + meta.xfaLabelCount + '</b> XFA labels</span>' : ''}
-        </div>
-        <div class="form-header-actions">
-            <button class="btn btn-primary" onclick="exportFormData()">Export JSON</button>
-            ${meta.formUrl ? '<a class="btn btn-secondary" href="' + meta.formUrl + '" target="_blank" rel="noopener">View Original PDF</a>' : ''}
-            <button class="btn btn-outline" onclick="clearForm()">Clear All</button>
-        </div>
-    </div>
-    <form class="form-body" id="renderedForm" onsubmit="return false;">`;
-
-    for (const [sectionName, fields] of Object.entries(sections)) {
-        html += `<div class="form-section">
-            <div class="form-section-title">${sectionName}</div>`;
-
-        // Group small fields in rows of 2-3
-        let i = 0;
-        while (i < fields.length) {
-            const field = fields[i];
-            const isObject = field.def.type === 'object' && field.def.properties;
-            const isTextarea = /remark|comment|explanation|narrative|describe|additional/i.test(field.key);
-            const isBool = field.def.type === 'boolean';
-
-            if (isObject || isTextarea) {
-                html += renderField(field);
-                i++;
-            } else if (isBool) {
-                // Group checkboxes
-                html += renderField(field);
-                i++;
-            } else {
-                // Try to pair two fields side by side
-                const next = fields[i + 1];
-                const nextIsSmall = next && next.def.type !== 'object' && next.def.type !== 'boolean' &&
-                    !/remark|comment|explanation|narrative|describe|additional/i.test(next?.key);
-                if (nextIsSmall) {
-                    html += `<div class="field-row">${renderField(field)}${renderField(next)}</div>`;
-                    i += 2;
-                } else {
-                    html += renderField(field);
-                    i++;
-                }
-            }
-        }
-        html += '</div>';
-    }
-
-    html += '</form>';
-    main.innerHTML = html;
-}
-
-// ─── Export form data as JSON ───
-function exportFormData() {
-    const form = document.getElementById('renderedForm');
-    if (!form) return;
-    const data = {};
-    const inputs = form.querySelectorAll('input, select, textarea');
-    inputs.forEach(input => {
-        if (!input.name) return;
-        const val = input.type === 'checkbox' ? input.checked : input.value;
-        if (val !== '' && val !== false) {
-            // Handle nested names like fullName.first
-            const parts = input.name.split('.');
-            if (parts.length === 2) {
-                if (!data[parts[0]]) data[parts[0]] = {};
-                data[parts[0]][parts[1]] = val;
-            } else {
-                data[input.name] = val;
-            }
-        }
-    });
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+// ─── Export schema as JSON ───
+function exportSchema() {
+    if (!currentSchema) return;
+    const blob = new Blob([JSON.stringify(currentSchema, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = (currentSchema?.title || 'form') + '-data.json';
+    a.download = (currentSchema.title || 'form') + '-schema.json';
     a.click();
     URL.revokeObjectURL(url);
-}
-
-// ─── Clear form ───
-function clearForm() {
-    const form = document.getElementById('renderedForm');
-    if (form) form.reset();
 }
 
 // ─── Search ───
 document.getElementById('searchBox').addEventListener('input', function(e) {
     const q = e.target.value.trim();
-    if (currentOrg) {
-        renderFormList(currentOrg, q);
+    if (q.length < 2) {
+        if (currentOrg) renderFormList(currentOrg);
+        return;
     }
-    // If searching across all orgs
-    if (q.length >= 2) {
-        // Search all orgs and show combined results
-        const listEl = document.getElementById('formList');
-        let allMatches = [];
-        for (const org of ORGS) {
-            const data = allFormsByOrg[org.id];
-            if (!data) continue;
-            const forms = (data.index.forms || []).filter(f => f.name.toLowerCase().includes(q.toLowerCase()));
-            allMatches.push(...forms.map(f => ({ ...f, orgId: org.id, orgLabel: org.label, orgDir: org.dir })));
-        }
-        if (allMatches.length > 0) {
-            listEl.innerHTML = allMatches.slice(0, 50).map(f => {
-                const status = f.status || 'unknown';
-                const badgeClass = status === 'digitized' ? 'badge-digitized' : 'badge-flat';
-                const routing = (f.requires3rdParty === 'Yes' || (f.routingTypes && f.routingTypes.length > 0));
-                return `<div class="form-item" data-file="${f.fileName}" onclick="selectForm('${f.orgId}','${f.fileName}','${f.name.replace(/'/g, "\\'")}')">
-                    <div class="form-item-info">
-                        <div class="form-item-name">${f.name}</div>
-                        <div class="form-item-meta">${f.orgLabel} · ${f.totalFields || 0} fields · ${f.coveragePercent || 0}% mapped</div>
-                    </div>
-                    <div style="display:flex;flex-direction:column;gap:3px;align-items:flex-end;">
-                        <span class="form-item-badge ${badgeClass}">${status === 'digitized' ? 'Digitized' : 'Flat'}</span>
-                        ${routing ? '<span class="form-item-badge badge-routing">3rd Party</span>' : ''}
-                    </div>
-                </div>`;
-            }).join('');
-        }
+
+    // Search all orgs
+    const listEl = document.getElementById('formList');
+    let allMatches = [];
+    for (const org of ORGS) {
+        const data = allFormsByOrg[org.id];
+        if (!data) continue;
+        const forms = (data.index.forms || []).filter(f => f.name.toLowerCase().includes(q.toLowerCase()));
+        allMatches.push(...forms.map(f => ({ ...f, orgId: org.id, orgLabel: org.label })));
     }
+
+    if (allMatches.length === 0) {
+        listEl.innerHTML = '<div style="padding:2rem;text-align:center;color:#aaa;font-size:0.78rem;">No forms match "' + q + '"</div>';
+        return;
+    }
+
+    listEl.innerHTML = allMatches.slice(0, 60).map(f => {
+        const status = f.status || 'unknown';
+        const badgeClass = status === 'digitized' ? 'badge-digitized' : 'badge-flat';
+        const routing = (f.requires3rdParty === 'Yes' || (f.routingTypes && f.routingTypes.length > 0));
+        const safeName = (f.name || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+        return `<div class="form-item" data-file="${f.fileName}" onclick="selectForm('${f.orgId}','${f.fileName}','${safeName}')">
+            <div class="form-item-info">
+                <div class="form-item-name">${f.name}</div>
+                <div class="form-item-meta">${f.orgLabel} · ${f.totalFields || 0} fields · ${f.coveragePercent || 0}%</div>
+            </div>
+            <div class="form-item-badges">
+                <span class="form-item-badge ${badgeClass}">${status === 'digitized' ? 'Digitized' : 'Flat'}</span>
+                ${routing ? '<span class="form-item-badge badge-routing">3rd Party</span>' : ''}
+            </div>
+        </div>`;
+    }).join('');
 });
 
 // ─── Init ───
