@@ -2,8 +2,9 @@
   'use strict';
 
   let stopped = false;
-  const MAX_CONCURRENT = 3;
-  const TIMEOUT_MS = 30000;
+  const MAX_CONCURRENT = 1; // Sequential to avoid freezing on large XFA forms
+  const TIMEOUT_MS = 45000;
+  const PDF_LOAD_TIMEOUT_MS = 15000;
 
   window._vbaSchemas = {};
   window._vbaProgress = { processed: 0, total: 0, current: null, errors: [] };
@@ -129,10 +130,9 @@
   }
 
   // ─── XFA Label Extraction (validated working version) ───
-  async function extractXFALabels(uint8Array) {
+  async function extractXFALabels(pdfDoc) {
     const labels = {};
     try {
-      const pdfDoc = await PDFLib.PDFDocument.load(uint8Array, { ignoreEncryption: true });
       const catalog = pdfDoc.catalog;
       const acroFormDict = catalog.lookup(PDFLib.PDFName.of('AcroForm'));
       if (!acroFormDict) return labels;
@@ -222,8 +222,15 @@
   async function extractFields(uint8Array) {
     const fields = [];
     try {
-      const pdfDoc = await PDFLib.PDFDocument.load(uint8Array, { ignoreEncryption: true });
-      const xfaLabels = await extractXFALabels(uint8Array);
+      // Race PDFDocument.load against a timeout to avoid freezing on complex XFA forms
+      const loadPromise = PDFLib.PDFDocument.load(uint8Array, { ignoreEncryption: true, updateMetadata: false });
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error('PDF load timeout (>15s) — likely complex XFA')), PDF_LOAD_TIMEOUT_MS));
+      const pdfDoc = await Promise.race([loadPromise, timeoutPromise]);
+
+      // Only attempt XFA extraction on PDFs that loaded quickly enough
+      let xfaLabels = {};
+      try { xfaLabels = await extractXFALabels(pdfDoc); } catch(e) { /* skip XFA */ }
       const hasXFA = Object.keys(xfaLabels).length > 0;
 
       const form = pdfDoc.getForm();
