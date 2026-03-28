@@ -1,0 +1,505 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-527EZ",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateOfReleaseFromActiveDutyYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfReleaseFromActiveDutyDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfReleaseFromActiveDutyMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEnteredActiveDutyYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEnteredActiveDutyDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEnteredActiveDutyMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateConfinementStartedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateConfinementStartedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateConfinementStartedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateConfinementEndedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateConfinementEndedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateConfinementEndedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriageYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriageDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriageMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfPriorMarriageEndYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfPriorMarriageEndDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfPriorMarriageEndMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfPriorMarriageStartYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfPriorMarriageStartDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfPriorMarriageStartMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkBoxNoEndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "providerEndDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "providerEndDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "providerEndDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "providerStartDateYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "providerStartDateDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "providerStartDateMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCostsPaidYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCostsPaidDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCostsPaidMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCostsIncurredMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSignedMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfAdmissionYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfAdmissionDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfAdmissionMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCareEndsYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCareEndsDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCareEndsMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCareBeganYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCareBeganDay": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateCareBeganMonth": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkBox1": {
+      "type": "boolean"
+    },
+    "checkBoxIDoNotWantMyClaimConsideredForRapidProcessingUnderTheFDCProgramBeca": {
+      "type": "boolean"
+    },
+    "checkBoxIndefinite": {
+      "type": "boolean"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "monthlyAmount": {
+      "type": "number"
+    },
+    "amountOfContribution": {
+      "type": "number"
+    },
+    "totalValueOfAssetsAmount": {
+      "type": "number"
+    },
+    "valueOfLandOverTwoAcresAmount": {
+      "type": "number"
+    },
+    "incomeRecipientChild": {
+      "type": "number"
+    },
+    "nameOfIncomePayer": {
+      "type": "number"
+    },
+    "ratePerHourAmount": {
+      "type": "number"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "monthyAmount": {
+      "type": "number"
+    },
+    "nonMedicalTransportation": {
+      "type": "string"
+    },
+    "handlingMedications": {
+      "type": "string"
+    },
+    "numberOfDependentChildrenWhoLiveWithYou": {
+      "type": "string"
+    },
+    "stepchild": {
+      "type": "string"
+    },
+    "whatWasYourJobTitle": {
+      "type": "string"
+    },
+    "whatKindOfWorkDidYouDo": {
+      "type": "string"
+    },
+    "whatKindOfWorkAreYouCurrentlyDoing": {
+      "type": "string"
+    },
+    "hoursWorkedPerWeek": {
+      "type": "string"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "specify": {
+      "type": "string"
+    },
+    "eighteenToTwentyThreeYearsOldInSchool": {
+      "type": "string"
+    },
+    "nameOfFinancialInstitution": {
+      "type": "string"
+    },
+    "army": {
+      "type": "string"
+    },
+    "airForce": {
+      "type": "string"
+    },
+    "navy": {
+      "type": "string"
+    },
+    "coastGuard": {
+      "type": "string"
+    },
+    "marineCorps": {
+      "type": "string"
+    },
+    "spaceForce": {
+      "type": "string"
+    },
+    "noaa": {
+      "type": "string"
+    },
+    "usphs": {
+      "type": "string"
+    },
+    "facility": {
+      "type": "string"
+    },
+    "howManyHoursPerWeekDoYouAverage": {
+      "type": "string"
+    },
+    "howManyHoursPerWeekDidYouAverage": {
+      "type": "string"
+    },
+    "previouslyMarried": {
+      "type": "string"
+    },
+    "seriouslyDisabled": {
+      "type": "string"
+    },
+    "biological": {
+      "type": "string"
+    },
+    "adopted": {
+      "type": "string"
+    },
+    "doesNotLiveWithYouButContributes": {
+      "type": "string"
+    },
+    "field_form1_0___subform_51__Specify_Type_Of_Income_0_": {
+      "type": "string"
+    },
+    "nameOfProvider": {
+      "type": "string"
+    },
+    "field_form1_0___subform_52__Specify_Type_Of_Income_1_": {
+      "type": "string"
+    },
+    "field_form1_0___subform_52__Specify_Type_Of_Income_2_": {
+      "type": "string"
+    },
+    "field_form1_0___subform_52__Specify_Type_Of_Income_3_": {
+      "type": "string"
+    },
+    "paidTo": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "routingOrTransitNumber": {
+      "type": "string"
+    },
+    "roleOrPositionYouPerformAtFacility": {
+      "type": "string"
+    },
+    "nameOfTheFacility": {
+      "type": "string"
+    },
+    "ambulatingWithinHomeOrLivingArea": {
+      "type": "string"
+    },
+    "usingTheToilet": {
+      "type": "string"
+    },
+    "dressing": {
+      "type": "string"
+    },
+    "transferringInOrOutOfBedOrChair": {
+      "type": "string"
+    },
+    "bathingShowering": {
+      "type": "string"
+    },
+    "eating": {
+      "type": "string"
+    },
+    "theFacilityIsLicensed": {
+      "type": "string"
+    },
+    "theFacilityIsResidential": {
+      "type": "string"
+    },
+    "theFacilityIsStaffed24Hours": {
+      "type": "string"
+    },
+    "nameOfAgencyOrOrganization": {
+      "type": "string"
+    },
+    "managingFinances": {
+      "type": "string"
+    },
+    "foodPreparation": {
+      "type": "string"
+    },
+    "laundering": {
+      "type": "string"
+    },
+    "housekeeping": {
+      "type": "string"
+    },
+    "shopping": {
+      "type": "string"
+    },
+    "hoursPerMonth": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-527ez-are.pdf",
+    "status": "digitized",
+    "totalFields": 519,
+    "composedFields": 447,
+    "coveragePercent": 86,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 17,
+    "generatedAt": "2026-03-28T17:31:48.278Z"
+  }
+}

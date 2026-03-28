@@ -1,0 +1,810 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1852",
+  "type": "object",
+  "properties": {
+    "plastercoats": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "radioButtonList": {
+      "type": "string"
+    },
+    "sewage": {
+      "type": "number"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "jointtreatment": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "heightOverTub": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
+    },
+    "reinforcing": {
+      "type": "string"
+    },
+    "partyFoundation": {
+      "type": "string"
+    },
+    "sills": {
+      "type": "string"
+    },
+    "footingdrains": {
+      "type": "string"
+    },
+    "insulation": {
+      "type": "string"
+    },
+    "foundationvents": {
+      "type": "string"
+    },
+    "prefabricated": {
+      "type": "string"
+    },
+    "flueSize": {
+      "type": "string"
+    },
+    "ashdump": {
+      "type": "string"
+    },
+    "lining": {
+      "type": "string"
+    },
+    "hearth": {
+      "type": "string"
+    },
+    "waterheater": {
+      "type": "string"
+    },
+    "circulator": {
+      "type": "string"
+    },
+    "waterproofing": {
+      "type": "string"
+    },
+    "termite": {
+      "type": "string"
+    },
+    "specialfoundations": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "fireplacefacing": {
+      "type": "string"
+    },
+    "fluelining": {
+      "type": "string"
+    },
+    "vents": {
+      "type": "string"
+    },
+    "additionalinformation": {
+      "type": "string"
+    },
+    "groundCover": {
+      "type": "string"
+    },
+    "basement": {
+      "type": "string"
+    },
+    "window": {
+      "type": "string"
+    },
+    "girders": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "string"
+    },
+    "piers": {
+      "type": "string"
+    },
+    "foundation": {
+      "type": "string"
+    },
+    "interior": {
+      "type": "string"
+    },
+    "caseNumber": {
+      "type": "string"
+    },
+    "bearingSoil": {
+      "type": "string"
+    },
+    "footings": {
+      "type": "string"
+    },
+    "strength": {
+      "type": "string"
+    },
+    "fireplaceType": {
+      "type": "string"
+    },
+    "woodframe": {
+      "type": "string"
+    },
+    "joistswoodgradeandspecies": {
+      "type": "string"
+    },
+    "materialgradeandspecies": {
+      "type": "string"
+    },
+    "studswoodgradeandspecies": {
+      "type": "string"
+    },
+    "rafterswoodgradeandspecies": {
+      "type": "string"
+    },
+    "sheathingwoodgradeandspecies": {
+      "type": "string"
+    },
+    "roofing": {
+      "type": "string"
+    },
+    "underlay": {
+      "type": "string"
+    },
+    "builtUproofing": {
+      "type": "string"
+    },
+    "flashingmaterial": {
+      "type": "string"
+    },
+    "sizeandspacing": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "bridging": {
+      "type": "string"
+    },
+    "roofTrusses": {
+      "type": "string"
+    },
+    "slabmaterial": {
+      "type": "string"
+    },
+    "sheathing": {
+      "type": "string"
+    },
+    "exposure": {
+      "type": "string"
+    },
+    "fastening": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "shingles": {
+      "type": "string"
+    },
+    "stucco": {
+      "type": "string"
+    },
+    "masonryveneer": {
+      "type": "string"
+    },
+    "backupmaterial": {
+      "type": "string"
+    },
+    "doorsills": {
+      "type": "string"
+    },
+    "interiorsurfacesdampproofing": {
+      "type": "string"
+    },
+    "exteriorpaintingmaterial": {
+      "type": "string"
+    },
+    "siding": {
+      "type": "string"
+    },
+    "thickness": {
+      "type": "string"
+    },
+    "sqft": {
+      "type": "string"
+    },
+    "windowsills": {
+      "type": "string"
+    },
+    "membrane": {
+      "type": "string"
+    },
+    "selfSupportingmix": {
+      "type": "string"
+    },
+    "anchors": {
+      "type": "string"
+    },
+    "coatsof": {
+      "type": "string"
+    },
+    "bonding": {
+      "type": "string"
+    },
+    "totalwallthickness": {
+      "type": "string"
+    },
+    "facingthickness": {
+      "type": "string"
+    },
+    "facingmaterial": {
+      "type": "string"
+    },
+    "otherconstruction": {
+      "type": "string"
+    },
+    "furing": {
+      "type": "string"
+    },
+    "baseflashing": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "lath": {
+      "type": "string"
+    },
+    "buildingpaper": {
+      "type": "string"
+    },
+    "spacedoc": {
+      "type": "string"
+    },
+    "diagonal": {
+      "type": "string"
+    },
+    "cornerBracing": {
+      "type": "string"
+    },
+    "sheathingType": {
+      "type": "string"
+    },
+    "masonry": {
+      "type": "string"
+    },
+    "concreteSlab": {
+      "type": "string"
+    },
+    "gableWall": {
+      "type": "string"
+    },
+    "laid": {
+      "type": "string"
+    },
+    "laidRight": {
+      "type": "string"
+    },
+    "sheathingType1": {
+      "type": "string"
+    },
+    "flashingMaterial": {
+      "type": "string"
+    },
+    "surfacingmaterial": {
+      "type": "string"
+    },
+    "weightorthickness": {
+      "type": "string"
+    },
+    "numberofpiles": {
+      "type": "string"
+    },
+    "gageorweight": {
+      "type": "string"
+    },
+    "rooms": {
+      "type": "string"
+    },
+    "species": {
+      "type": "string"
+    },
+    "buildingPaper": {
+      "type": "string"
+    },
+    "finish": {
+      "type": "string"
+    },
+    "framematerial": {
+      "type": "string"
+    },
+    "saddles": {
+      "type": "string"
+    },
+    "stormdoorsthickness": {
+      "type": "string"
+    },
+    "atticlouvers": {
+      "type": "string"
+    },
+    "basetype": {
+      "type": "string"
+    },
+    "dryWall": {
+      "type": "string"
+    },
+    "ceilingsmaterial": {
+      "type": "string"
+    },
+    "doorstype": {
+      "type": "string"
+    },
+    "windowstype": {
+      "type": "string"
+    },
+    "basementwindowstype": {
+      "type": "string"
+    },
+    "specialwindows": {
+      "type": "string"
+    },
+    "glassgrade": {
+      "type": "string"
+    },
+    "trimtype": {
+      "type": "string"
+    },
+    "weatherstrippingtype": {
+      "type": "string"
+    },
+    "screenclothmaterial": {
+      "type": "string"
+    },
+    "doortrimtype": {
+      "type": "string"
+    },
+    "finishdoors": {
+      "type": "string"
+    },
+    "othertrim": {
+      "type": "string"
+    },
+    "medicinecabinetsmake": {
+      "type": "string"
+    },
+    "othercabinets": {
+      "type": "string"
+    },
+    "gradeandspecies": {
+      "type": "string"
+    },
+    "paint": {
+      "type": "string"
+    },
+    "numbercoats": {
+      "type": "string"
+    },
+    "linealfeetofshelves": {
+      "type": "string"
+    },
+    "countertop": {
+      "type": "string"
+    },
+    "finishofcabinets": {
+      "type": "string"
+    },
+    "edging": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "shelfwidth": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "railings": {
+      "type": "string"
+    },
+    "screensnumber": {
+      "type": "string"
+    },
+    "stormsashnumber": {
+      "type": "string"
+    },
+    "typeofbalance": {
+      "type": "string"
+    },
+    "sashthickness": {
+      "type": "string"
+    },
+    "headflashing": {
+      "type": "string"
+    },
+    "make": {
+      "type": "string"
+    },
+    "trim": {
+      "type": "string"
+    },
+    "guttersmaterial": {
+      "type": "string"
+    },
+    "downspoutsmaterial": {
+      "type": "string"
+    },
+    "shape": {
+      "type": "string"
+    },
+    "splashBlocks": {
+      "type": "string"
+    },
+    "windows": {
+      "type": "string"
+    },
+    "screens": {
+      "type": "string"
+    },
+    "shutters": {
+      "type": "string"
+    },
+    "connectedto": {
+      "type": "string"
+    },
+    "wallFinish": {
+      "type": "string"
+    },
+    "ceilingFinish": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "thresholdMaterial": {
+      "type": "string"
+    },
+    "wallBase": {
+      "type": "string"
+    },
+    "underfloorMaterial": {
+      "type": "string"
+    },
+    "heightinShowers": {
+      "type": "string"
+    },
+    "makeandmodel": {
+      "type": "string"
+    },
+    "shower": {
+      "type": "string"
+    },
+    "waterSupply": {
+      "type": "string"
+    },
+    "housedrain": {
+      "type": "string"
+    },
+    "housesewer": {
+      "type": "string"
+    },
+    "waterPiping": {
+      "type": "string"
+    },
+    "gasService": {
+      "type": "string"
+    },
+    "gasPiping": {
+      "type": "string"
+    },
+    "househeating": {
+      "type": "string"
+    },
+    "cooking": {
+      "type": "string"
+    },
+    "accessories": {
+      "type": "string"
+    },
+    "dischargesinto": {
+      "type": "string"
+    },
+    "storagetankmaterial": {
+      "type": "string"
+    },
+    "drainsConnectedto": {
+      "type": "string"
+    },
+    "idNumber": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "fixture": {
+      "type": "string"
+    },
+    "heater": {
+      "type": "string"
+    },
+    "warmAir": {
+      "type": "string"
+    },
+    "firing": {
+      "type": "string"
+    },
+    "oilBurner": {
+      "type": "string"
+    },
+    "ventilatingequipment": {
+      "type": "string"
+    },
+    "wiring": {
+      "type": "string"
+    },
+    "special": {
+      "type": "string"
+    },
+    "doorbell": {
+      "type": "string"
+    },
+    "panel": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "fuel": {
+      "type": "string"
+    },
+    "outsideAir": {
+      "type": "string"
+    },
+    "heating1": {
+      "type": "string"
+    },
+    "heating2": {
+      "type": "string"
+    },
+    "heating3": {
+      "type": "string"
+    },
+    "heating": {
+      "type": "string"
+    },
+    "panelcoilmaterial": {
+      "type": "string"
+    },
+    "typeofsystem": {
+      "type": "string"
+    },
+    "ductmaterialsupply": {
+      "type": "string"
+    },
+    "control": {
+      "type": "string"
+    },
+    "electricheatingsystemtype": {
+      "type": "string"
+    },
+    "pushButtonlocations": {
+      "type": "string"
+    },
+    "totalnumberoffixtures": {
+      "type": "string"
+    },
+    "nontypicalinstallation": {
+      "type": "string"
+    },
+    "netrating": {
+      "type": "string"
+    },
+    "output": {
+      "type": "string"
+    },
+    "input": {
+      "type": "string"
+    },
+    "volts": {
+      "type": "string"
+    },
+    "return": {
+      "type": "string"
+    },
+    "vaporizing": {
+      "type": "string"
+    },
+    "amps": {
+      "type": "string"
+    },
+    "circuits": {
+      "type": "string"
+    },
+    "vaporBarrier": {
+      "type": "string"
+    },
+    "misc": {
+      "type": "string"
+    },
+    "hardware": {
+      "type": "string"
+    },
+    "specialEquipment": {
+      "type": "string"
+    },
+    "porches": {
+      "type": "string"
+    },
+    "terraces": {
+      "type": "string"
+    },
+    "garages": {
+      "type": "string"
+    },
+    "otheronsiteimprovements": {
+      "type": "string"
+    },
+    "drivewaywidth": {
+      "type": "string"
+    },
+    "lowfloweringtreesdeciduous": {
+      "type": "string"
+    },
+    "highGrowingshrubsdeciduous": {
+      "type": "string"
+    },
+    "mediumGrowingshrubsdeciduous": {
+      "type": "string"
+    },
+    "lowGrowingshrubsdeciduous": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "evergreentrees": {
+      "type": "string"
+    },
+    "vines2Year": {
+      "type": "string"
+    },
+    "plants": {
+      "type": "string"
+    },
+    "evergreenshrubs": {
+      "type": "string"
+    },
+    "frontYard1": {
+      "type": "string"
+    },
+    "planting": {
+      "type": "string"
+    },
+    "sideYard": {
+      "type": "string"
+    },
+    "rearyard": {
+      "type": "string"
+    },
+    "rearyardto": {
+      "type": "string"
+    },
+    "sideYard2": {
+      "type": "string"
+    },
+    "topsoil": {
+      "type": "string"
+    },
+    "rearYard": {
+      "type": "string"
+    },
+    "front": {
+      "type": "string"
+    },
+    "shadetreesdeciduous": {
+      "type": "string"
+    },
+    "side": {
+      "type": "string"
+    },
+    "rear": {
+      "type": "string"
+    },
+    "treads": {
+      "type": "string"
+    },
+    "risers": {
+      "type": "string"
+    },
+    "cheekwalls": {
+      "type": "string"
+    },
+    "frontwalkwidth": {
+      "type": "string"
+    },
+    "stepsmaterial": {
+      "type": "string"
+    },
+    "basematerial": {
+      "type": "string"
+    },
+    "frontYard": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1852-are.pdf",
+    "status": "digitized",
+    "totalFields": 644,
+    "composedFields": 36,
+    "coveragePercent": 6,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 6,
+    "generatedAt": "2026-03-28T17:31:47.849Z"
+  }
+}
