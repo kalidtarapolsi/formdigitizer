@@ -71,6 +71,33 @@
 
         .header-text { flex: 1; }
 
+        .header-nav {
+            display: flex;
+            gap: 0.25rem;
+            align-items: center;
+        }
+
+        .header-nav-link {
+            color: rgba(255,255,255,0.75);
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 400;
+            padding: 0.4rem 0.75rem;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .header-nav-link:hover {
+            color: white;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .header-nav-link.active {
+            color: white;
+            background: rgba(255,255,255,0.15);
+            font-weight: 500;
+        }
+
         .header h1 {
             font-size: 1.35rem;
             font-weight: 600;
@@ -1131,6 +1158,11 @@
             <h1>Aquia Form Digitizer</h1>
             <p>Transform PDF forms into fillable digital forms</p>
         </div>
+        <nav class="header-nav">
+            <a href="forms.html" class="header-nav-link">Forms</a>
+            <a href="index.html" class="header-nav-link active">Digitizer</a>
+            <a href="report.html" class="header-nav-link">Report</a>
+        </nav>
     </div>
 
     <div class="container">

@@ -12,9 +12,13 @@
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Poppins', sans-serif; background: var(--ice); color: #1a1a2e; line-height: 1.6; }
-.header { background: linear-gradient(135deg, var(--navy) 0%, var(--royal) 100%); color: white; padding: 32px 40px; }
+.header { background: linear-gradient(135deg, var(--navy) 0%, var(--royal) 100%); color: white; padding: 32px 40px; position: relative; }
 .header h1 { font-size: 28px; font-weight: 600; margin-bottom: 4px; }
 .header p { font-size: 14px; opacity: 0.8; }
+.header-nav { position: absolute; top: 20px; right: 40px; display: flex; gap: 4px; }
+.header-nav a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 13px; padding: 5px 12px; border-radius: 6px; transition: all 0.2s; }
+.header-nav a:hover { color: white; background: rgba(255,255,255,0.1); }
+.header-nav a.active { color: white; background: rgba(255,255,255,0.15); font-weight: 500; }
 .logo { height: 36px; margin-bottom: 12px; }
 .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
 
@@ -95,6 +99,11 @@ footer { text-align: center; padding: 24px; color: #888; font-size: 12px; }
 
 <div class="header">
   <img src="https://images.squarespace-cdn.com/content/v1/6209762bbb7641327e69acc0/21737a6d-1c02-42eb-89e0-afff7da79c68/Aquia+Inc+Website+Header+Logo_Deep+Blue+Background.png?format=300w" alt="Aquia Inc." class="logo">
+  <nav class="header-nav">
+    <a href="forms.html">Forms</a>
+    <a href="index.html">Digitizer</a>
+    <a href="report.html" class="active">Report</a>
+  </nav>
   <h1>VA Forms — Composition Engine Coverage Report</h1>
   <p>Batch analysis of 686 active VA forms across va.gov and vba.va.gov • Generated March 28, 2026</p>
 </div>
