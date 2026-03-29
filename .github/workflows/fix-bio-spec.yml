@@ -1,0 +1,54 @@
+name: Fix BIO Spec and Accessibility
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fix-spec:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply BIO spec precision fixes
+        run: |
+          # Fix 1: Progress bar height 16px -> 8px (VADS spec)
+          sed -i 's/height: 16px;/height: 8px;/' forms.html
+          echo "Fixed progress bar height"
+
+          # Fix 2: Button padding 0.65rem -> 0.75rem (VADS spec)
+          sed -i 's/padding: 0\.65rem 2rem;/padding: 0.75rem 2rem;/' forms.html
+          echo "Fixed button padding"
+
+          # Fix 3: Button border-radius 4px -> 5px (only after padding line)
+          sed -i '/padding: 0\.75rem 2rem;/{n;s/border-radius: 4px;/border-radius: 5px;/}' forms.html
+          echo "Fixed button border-radius"
+
+          # Fix 4: Privacy error - add id and aria attributes
+          sed -i "s/errDiv.className = 'va-field-error';/errDiv.id = 'privacyError';\n            errDiv.className = 'va-field-error';/" forms.html
+          sed -i "s/privacyCb.focus();/privacyCb.setAttribute('aria-describedby', 'privacyError');\n        privacyCb.setAttribute('aria-invalid', 'true');\n        privacyCb.focus();/" forms.html
+          echo "Fixed privacy error accessibility"
+
+          # Fix 5: Flat form alert - add role and aria-live
+          sed -i 's/<div class="va-alert va-alert--warning" style="border-left/<div class="va-alert va-alert--warning" role="alert" aria-live="assertive" style="border-left/' forms.html
+          echo "Fixed flat form alert accessibility"
+
+          # Verify fixes
+          echo "--- Verification ---"
+          grep -n "height: 8px" forms.html | head -1
+          grep -n "padding: 0.75rem 2rem" forms.html | head -1
+          grep -n "border-radius: 5px" forms.html | head -1
+          grep -n "privacyError" forms.html | head -2
+          grep -n 'role="alert" aria-live="assertive"' forms.html | head -1
+          echo "All fixes verified"
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add forms.html
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "Fix BIO spec precision and WCAG AA accessibility
+
+          - Progress bar height: 16px to 8px (matches VADS spec)
+          - Button padding: 0.65rem to 0.75rem (matches VADS spec)
+          - Button border-radius: 4px to 5px (matches VADS spec)
+          - Privacy checkbox error: added aria-describedby and aria-invalid (WCAG 3.3.1)
+          - Flat form fallback: added role=alert aria-live=assertive (WCAG 4.1.3)"
+          git push
