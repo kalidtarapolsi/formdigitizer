@@ -724,13 +724,35 @@
                 document.getElementById('redigitizeAllBtn').disabled = false;
             },
 
+            async fetchWithCorsProxy(url) {
+                // Try direct fetch first
+                try {
+                    const resp = await fetch(url, { mode: 'cors' });
+                    if (resp.ok) return resp;
+                } catch (e) {
+                    // CORS blocked — try proxies
+                }
+                // Try corsproxy.io
+                const proxies = [
+                    `https://corsproxy.io/?${encodeURIComponent(url)}`,
+                    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
+                ];
+                for (const proxyUrl of proxies) {
+                    try {
+                        const resp = await fetch(proxyUrl);
+                        if (resp.ok) return resp;
+                    } catch (e) { continue; }
+                }
+                throw new Error(`Failed to fetch PDF (CORS blocked and proxies unavailable)`);
+            },
+
             async redigitizeForm(form) {
                 // Update status to processing
                 this.results.set(form.name, { status: 'processing', fields: [], sources: [] });
 
-                // Fetch the PDF
+                // Fetch the PDF (with CORS proxy fallback)
                 const pdfUrl = form.formUrl;
-                const response = await fetch(pdfUrl);
+                const response = await this.fetchWithCorsProxy(pdfUrl);
                 if (!response.ok) throw new Error(`Failed to fetch PDF: ${response.statusText}`);
 
                 const arrayBuffer = await response.arrayBuffer();
