@@ -248,7 +248,7 @@
         }
         .va-progress-segment {
             flex: 1;
-            height: 16px;
+            height: 8px;
             background: var(--vads-color-base-lighter);
             transition: background 0.2s;
         }
@@ -482,8 +482,8 @@
             font-family: inherit;
             font-size: 0.95rem;
             font-weight: 700;
-            padding: 0.65rem 2rem;
-            border-radius: 4px;
+            padding: 0.75rem 2rem;
+            border-radius: 5px;
             cursor: pointer;
             transition: all 0.15s;
             border: none;
@@ -1122,7 +1122,7 @@ function renderLegacyStep(schema) {
         const meta = schema['x-va-metadata'] || {};
         const formUrl = meta.formUrl || '';
         html += '<h2>Form Not Yet Available</h2>';
-        html += '<div class="va-alert va-alert--warning" style="border-left:4px solid var(--vads-color-warning);background:var(--vads-color-warning-light);padding:1.5rem;margin-bottom:1.5rem;">';
+        html += '<div class="va-alert va-alert--warning" role="alert" aria-live="assertive" style="border-left:4px solid var(--vads-color-warning);background:var(--vads-color-warning-light);padding:1.5rem;margin-bottom:1.5rem;">';
         html += '<h3 style="margin-bottom:0.5rem;">This form could not be digitized automatically</h3>';
         html += '<p style="margin-bottom:0.75rem;">The source PDF for this form uses a format that our parser could not extract fields from (likely a scanned image or non-standard PDF structure). This form is queued for re-digitization with enhanced extraction.</p>';
         if (formUrl) {
@@ -1304,6 +1304,7 @@ function validateCurrentStep() {
             // Create error message
             const errId = 'err_' + (el.name || el.id);
             const errDiv = document.createElement('div');
+            errDiv.id = 'privacyError';
             errDiv.className = 'va-field-error';
             errDiv.id = errId;
             errDiv.setAttribute('role', 'alert');
@@ -1520,11 +1521,14 @@ function exportFormData() {
         const container = privacyCb.closest('.va-privacy-agreement');
         if (container && !container.querySelector('.va-field-error')) {
             const errDiv = document.createElement('div');
+            errDiv.id = 'privacyError';
             errDiv.className = 'va-field-error';
             errDiv.setAttribute('role', 'alert');
             errDiv.textContent = 'You must accept the privacy policy to submit';
             container.prepend(errDiv);
         }
+        privacyCb.setAttribute('aria-describedby', 'privacyError');
+        privacyCb.setAttribute('aria-invalid', 'true');
         privacyCb.focus();
         return;
     }
