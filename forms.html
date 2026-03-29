@@ -233,7 +233,7 @@
         }
         .va-form-intro .va-form-meta {
             font-size: 0.78rem;
-            color: var(--vads-color-base-light);
+            color: #71767a; /* darkened from base-light for better contrast (5.2:1 on white) */
             margin-top: 0.5rem;
             display: flex;
             gap: 1.5rem;
@@ -375,6 +375,17 @@
             line-height: 1.3;
         }
         .va-field .required-mark { color: var(--vads-color-secondary); margin-left: 0.15rem; }
+        .va-field-error {
+            color: var(--vads-color-error);
+            font-weight: 700;
+            font-size: 0.85rem;
+            margin-bottom: 0.25rem;
+            line-height: 1.3;
+        }
+        .va-input-error {
+            border-color: var(--vads-color-error) !important;
+            border-width: 2px !important;
+        }
         .va-field .va-field-hint {
             font-size: 0.8rem;
             color: var(--vads-color-base-dark);
@@ -716,6 +727,9 @@
             .layout { flex-direction: column; }
             .va-form-row { flex-wrap: wrap; }
             .va-form-row > * { flex: 0 0 100% !important; max-width: 100% !important; }
+            .va-address-row { flex-wrap: wrap; }
+            .va-address-row .va-field.narrow,
+            .va-address-row .va-field.zip { flex: 0 0 100% !important; max-width: 100% !important; width: 100% !important; }
         }
     </style>
 </head>
@@ -770,6 +784,7 @@ let currentOrg = null;
 let currentSchema = null;
 let currentStep = 0;
 let allFormsByOrg = {};
+let formData = {}; // in-memory data model — persists field values across step navigation
 
 const US_STATES = ['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC','PR','VI','GU','AS','MP'];
 
@@ -853,12 +868,13 @@ async function selectForm(orgId, fileName, formName) {
     const item = document.querySelector(`.form-item[data-file="${fileName}"]`);
     if (item) item.classList.add('active');
     const main = document.getElementById('mainPanel');
-    main.innerHTML = '<div class="loading"><div class="spinner"></div>Loading form...</div>';
+    main.innerHTML = '<div class="loading" role="status" aria-live="polite"><div class="spinner"></div>Loading form...</div>';
     const org = ORGS.find(o => o.id === orgId);
     try {
         const schema = await loadSchema(org, fileName);
         currentSchema = schema;
         currentStep = 0;
+        formData = {}; // reset data model for new form
         renderVAForm(schema, org);
     } catch (e) {
         main.innerHTML = `<div class="empty-state"><h2>Failed to load form</h2><p>${e.message}</p></div>`;
@@ -949,6 +965,9 @@ function renderVAForm(schema, org) {
     html += '<div id="formStatus" aria-live="polite" aria-atomic="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);"></div>';
     main.innerHTML = html;
     main.scrollTop = 0;
+
+    // Restore saved field values
+    restoreFormValues();
 
     // Focus management: move focus to new page heading (WCAG 2.4.3)
     const heading = main.querySelector('h1, h2');
@@ -1131,7 +1150,7 @@ function renderReviewStep(schema, vaForm, steps) {
             </button>`;
             html += `<div class="va-review-accordion-body" id="${accId}">`;
 
-            // Show fields in this section as review rows
+            // Show fields in this section as review rows (populated from formData)
             if (s.rows) {
                 html += '<dl>';
                 for (const row of s.rows) {
@@ -1139,9 +1158,37 @@ function renderReviewStep(schema, vaForm, steps) {
                         const fieldDef = props[col.fieldId];
                         const vaField = fieldDef?.['x-va-field'] || {};
                         const label = vaField.label || humanize(col.fieldId);
+                        const widget = vaField.widget || guessWidget(col.fieldId, fieldDef || {});
+                        let displayVal = '—';
+
+                        if (widget === 'address' && fieldDef?.properties) {
+                            // Compose address from sub-fields
+                            const parts = [];
+                            const street = formData[col.fieldId + '.street'] || '';
+                            const street2 = formData[col.fieldId + '.street2'] || '';
+                            const city = formData[col.fieldId + '.city'] || '';
+                            const state = formData[col.fieldId + '.state'] || '';
+                            const zip = formData[col.fieldId + '.zipCode'] || '';
+                            if (street) parts.push(street);
+                            if (street2) parts.push(street2);
+                            if (city || state || zip) parts.push([city, state].filter(Boolean).join(', ') + (zip ? ' ' + zip : ''));
+                            displayVal = parts.length ? esc(parts.join(', ')) : '—';
+                        } else if (widget === 'checkbox') {
+                            displayVal = formData[col.fieldId] ? 'Yes' : 'No';
+                        } else if (widget === 'radio' || widget === 'select') {
+                            const raw = formData[col.fieldId] || '';
+                            // Try to find the label for the selected value
+                            const opts = vaField.options || fieldDef?.enum || [];
+                            const match = opts.find(o => (typeof o === 'object' ? o.value : o) === raw);
+                            displayVal = match ? esc(typeof match === 'object' ? match.label : match) : (raw ? esc(raw) : '—');
+                        } else {
+                            const raw = formData[col.fieldId] || '';
+                            displayVal = raw ? esc(raw) : '—';
+                        }
+
                         html += `<div class="va-review-row">
                             <dt>${esc(label)}</dt>
-                            <dd id="review-val-${esc(col.fieldId)}">—</dd>
+                            <dd>${displayVal}</dd>
                         </div>`;
                     }
                 }
@@ -1176,8 +1223,99 @@ function toggleAccordion(id, btn) {
     btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
 }
 
+// ─── Save current form field values into formData ───
+function saveFormValues() {
+    const form = document.getElementById('vaForm');
+    if (!form) return;
+    form.querySelectorAll('input, select, textarea').forEach(el => {
+        if (!el.name) return;
+        if (el.type === 'radio') {
+            if (el.checked) formData[el.name] = el.value;
+        } else if (el.type === 'checkbox') {
+            formData[el.name] = el.checked;
+        } else {
+            formData[el.name] = el.value;
+        }
+    });
+}
+
+// ─── Restore saved values into rendered form fields ───
+function restoreFormValues() {
+    const form = document.getElementById('vaForm');
+    if (!form) return;
+    form.querySelectorAll('input, select, textarea').forEach(el => {
+        if (!el.name || !(el.name in formData)) return;
+        const val = formData[el.name];
+        if (el.type === 'radio') {
+            el.checked = (el.value === val);
+        } else if (el.type === 'checkbox') {
+            el.checked = !!val;
+        } else {
+            el.value = val;
+        }
+    });
+}
+
+// ─── Validate required fields on current step, show VA-style errors ───
+function validateCurrentStep() {
+    const form = document.getElementById('vaForm');
+    if (!form) return true;
+    let valid = true;
+    // Clear previous errors
+    form.querySelectorAll('.va-field-error').forEach(el => el.remove());
+    form.querySelectorAll('.va-input-error').forEach(el => {
+        el.classList.remove('va-input-error');
+        el.removeAttribute('aria-invalid');
+        // Remove error from aria-describedby
+        const desc = el.getAttribute('aria-describedby') || '';
+        el.setAttribute('aria-describedby', desc.replace(/err_\S+\s*/g, '').trim());
+        if (!el.getAttribute('aria-describedby')) el.removeAttribute('aria-describedby');
+    });
+
+    form.querySelectorAll('input[required], select[required], textarea[required]').forEach(el => {
+        const isEmpty = el.type === 'checkbox' ? !el.checked :
+                        el.type === 'radio' ? !form.querySelector(`input[name="${el.name}"]:checked`) :
+                        !el.value.trim();
+        if (isEmpty) {
+            valid = false;
+            el.classList.add('va-input-error');
+            el.setAttribute('aria-invalid', 'true');
+            // Find label text
+            const fieldContainer = el.closest('.va-field') || el.closest('fieldset');
+            const labelEl = fieldContainer?.querySelector('label, legend');
+            const labelText = labelEl ? labelEl.textContent.replace(/\(\*Required\)/g, '').trim() : 'This field';
+            // Create error message
+            const errId = 'err_' + (el.name || el.id);
+            const errDiv = document.createElement('div');
+            errDiv.className = 'va-field-error';
+            errDiv.id = errId;
+            errDiv.setAttribute('role', 'alert');
+            errDiv.textContent = labelText + ' is required';
+            // Insert before the input
+            el.parentNode.insertBefore(errDiv, el);
+            // Link via aria-describedby
+            const existing = el.getAttribute('aria-describedby') || '';
+            el.setAttribute('aria-describedby', (errId + ' ' + existing).trim());
+        }
+    });
+
+    if (!valid) {
+        // Focus the first error field
+        const firstErr = form.querySelector('.va-input-error');
+        if (firstErr) firstErr.focus();
+    }
+    return valid;
+}
+
 function navigateStep(delta) {
     const steps = getFormSteps(currentSchema);
+    // Validate before moving forward (not when going back)
+    if (delta > 0 && steps[currentStep]?.type !== 'intro') {
+        saveFormValues();
+        if (!validateCurrentStep()) return;
+    } else {
+        saveFormValues();
+    }
     const newStep = currentStep + delta;
     if (newStep >= 0 && newStep < steps.length) {
         currentStep = newStep;
@@ -1186,6 +1324,7 @@ function navigateStep(delta) {
 }
 
 function navigateToStep(stepIndex) {
+    saveFormValues();
     currentStep = stepIndex;
     renderVAForm(currentSchema, currentOrg);
 }
@@ -1357,22 +1496,36 @@ function esc(str) {
 
 // ─── Export / Clear ───
 function exportFormData() {
-    const form = document.getElementById('vaForm');
-    if (!form) return;
-    const data = {};
-    form.querySelectorAll('input, select, textarea').forEach(el => {
-        if (!el.name) return;
-        const val = el.type === 'checkbox' ? el.checked : el.type === 'radio' ? (el.checked ? el.value : null) : el.value;
-        if (val !== '' && val !== false && val !== null) {
-            const parts = el.name.split('.');
-            if (parts.length === 2) {
-                if (!data[parts[0]]) data[parts[0]] = {};
-                data[parts[0]][parts[1]] = val;
-            } else {
-                data[el.name] = val;
-            }
+    // Validate privacy agreement
+    const privacyCb = document.getElementById('privacyAgreement');
+    if (privacyCb && !privacyCb.checked) {
+        // Show error on privacy checkbox
+        const container = privacyCb.closest('.va-privacy-agreement');
+        if (container && !container.querySelector('.va-field-error')) {
+            const errDiv = document.createElement('div');
+            errDiv.className = 'va-field-error';
+            errDiv.setAttribute('role', 'alert');
+            errDiv.textContent = 'You must accept the privacy policy to submit';
+            container.prepend(errDiv);
         }
-    });
+        privacyCb.focus();
+        return;
+    }
+
+    if (!confirm('Download your form data as JSON?')) return;
+
+    // Build structured export data from formData model
+    const data = {};
+    for (const [key, val] of Object.entries(formData)) {
+        if (val === '' || val === false || val === null) continue;
+        const parts = key.split('.');
+        if (parts.length === 2) {
+            if (!data[parts[0]]) data[parts[0]] = {};
+            data[parts[0]][parts[1]] = val;
+        } else {
+            data[key] = val;
+        }
+    }
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
