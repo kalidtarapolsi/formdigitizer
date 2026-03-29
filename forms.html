@@ -10,6 +10,8 @@
     <style>
         /* ─── USWDS / VA.gov Design Tokens ─── */
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        fieldset { border: none; padding: 0; margin: 0; min-width: 0; }
+        legend { display: block; width: 100%; }
         :root {
             --vads-color-primary: #005ea2;
             --vads-color-primary-dark: #1a4480;
@@ -94,7 +96,6 @@
             border-radius: 3px;
         }
         .va-header-link:hover { color: white; background: rgba(255,255,255,0.1); }
-        .va-header-link.active { color: white; background: rgba(255,255,255,0.15); font-weight: 500; }
 
         /* ─── Layout ─── */
         .layout { display: flex; height: calc(100vh - 82px); }
@@ -400,7 +401,7 @@
             transition: border-color 0.15s;
         }
         .va-field input:focus, .va-field select:focus, .va-field textarea:focus {
-            outline: 2px solid var(--vads-color-primary);
+            outline: 3px solid #73b3e7;
             outline-offset: 0;
             border-color: var(--vads-color-primary);
         }
@@ -482,14 +483,14 @@
         }
         .va-btn--primary { background: var(--vads-color-primary); color: var(--vads-color-white); }
         .va-btn--primary:hover { background: var(--vads-color-primary-dark); }
-        .va-btn--primary::after { content: ' \u203A'; font-size: 1.2em; }
+        .va-btn--primary::after { content: ' \203A'; font-size: 1.2em; }
         .va-btn--secondary {
             background: var(--vads-color-white);
             color: var(--vads-color-primary);
             border: 2px solid var(--vads-color-primary);
         }
         .va-btn--secondary:hover { background: var(--vads-color-info-lighter); }
-        .va-btn--back::before { content: '\u2039 '; font-size: 1.2em; }
+        .va-btn--back::before { content: '\2039  '; font-size: 1.2em; }
         .va-btn--outline {
             background: none;
             color: var(--vads-color-base-dark);
@@ -731,28 +732,27 @@
         </a>
         <div class="va-header-right">
             <input type="text" class="va-header-search" id="searchBox" placeholder="Search forms...">
-            <a class="va-header-link active" href="forms.html">Forms</a>
             <a class="va-header-link" href="index.html">Digitizer</a>
             <a class="va-header-link" href="report.html">Report</a>
         </div>
     </div>
 
     <div class="layout">
-        <div class="sidebar">
+        <nav class="sidebar" aria-label="Form list">
             <div class="org-tabs" id="orgTabs"></div>
             <div class="form-list" id="formList">
                 <div class="loading"><div class="spinner"></div>Loading forms...</div>
             </div>
-        </div>
-        <div class="main" id="mainPanel">
+        </nav>
+        <main class="main" id="mainPanel">
             <div class="empty-state">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
                     <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                 </svg>
                 <h2>Select a form to get started</h2>
                 <p>Choose a form from the sidebar to view and fill it out</p>
             </div>
-        </div>
+        </main>
     </div>
 
 <script>
@@ -898,8 +898,8 @@ function renderVAForm(schema, org) {
 
     // Breadcrumb
     html += `<div class="va-breadcrumb">
-        <a href="forms.html">VA Forms</a> &rsaquo;
-        <a href="forms.html">${esc(org.fullName)}</a> &rsaquo;
+        <a href="forms.html">VA Forms</a> ›
+        <a href="forms.html">${esc(org.fullName)}</a> ›
         <span>VA Form ${esc(formNumber)}</span>
     </div>`;
 
@@ -945,8 +945,26 @@ function renderVAForm(schema, org) {
     }
 
     html += '</form></div>';
+    // aria-live status region for screen readers
+    html += '<div id="formStatus" aria-live="polite" aria-atomic="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);"></div>';
     main.innerHTML = html;
     main.scrollTop = 0;
+
+    // Focus management: move focus to new page heading (WCAG 2.4.3)
+    const heading = main.querySelector('h1, h2');
+    if (heading) {
+        heading.tabIndex = -1;
+        heading.focus();
+    }
+
+    // Announce step change to screen readers
+    const statusEl = document.getElementById('formStatus');
+    if (statusEl && steps && steps[currentStep]) {
+        const step = steps[currentStep];
+        statusEl.textContent = step.type === 'intro'
+            ? 'Form introduction page loaded'
+            : 'Step ' + (steps.filter(s => s.type !== 'intro').indexOf(step) + 1) + ': ' + (step.title || 'Review');
+    }
 }
 
 function renderIntroStep(schema, vaForm, org) {
@@ -1107,9 +1125,9 @@ function renderReviewStep(schema, vaForm, steps) {
             const accId = 'review-acc-' + i;
 
             html += '<div class="va-review-accordion">';
-            html += `<button class="va-review-accordion-header" aria-expanded="false" onclick="toggleAccordion('${accId}', this)">
+            html += `<button class="va-review-accordion-header" aria-expanded="false" aria-label="Section: ${esc(s.title)}, click to expand or collapse" onclick="toggleAccordion('${accId}', this)">
                 <span>${esc(s.title)}</span>
-                <span class="va-accordion-icon">&#9660;</span>
+                <span class="va-accordion-icon" aria-hidden="true">&#9660;</span>
             </button>`;
             html += `<div class="va-review-accordion-body" id="${accId}">`;
 
@@ -1140,7 +1158,7 @@ function renderReviewStep(schema, vaForm, steps) {
     // Privacy agreement checkbox (BIO pattern)
     html += `<div class="va-privacy-agreement">
         <label>
-            <input type="checkbox" id="privacyAgreement">
+            <input type="checkbox" id="privacyAgreement" required aria-required="true">
             I have read and accept the <a href="https://www.va.gov/privacy-policy/" target="_blank">privacy policy</a>.
             <strong>Note:</strong> According to the Paperwork Reduction Act, you are not required to respond to a collection
             of information unless it displays a currently valid OMB control number.
@@ -1155,7 +1173,7 @@ function toggleAccordion(id, btn) {
     const body = document.getElementById(id);
     const isOpen = body.classList.contains('open');
     body.classList.toggle('open');
-    btn.setAttribute('aria-expanded', !isOpen);
+    btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
 }
 
 function navigateStep(delta) {
@@ -1178,33 +1196,35 @@ function renderVAField(fieldId, def, vaField, isRequired) {
     const label = vaField.label || humanize(fieldId);
     const widget = vaField.widget || guessWidget(fieldId, def);
     const reqMark = isRequired ? '<span class="required-mark">(*Required)</span>' : '';
-    const hintHtml = vaField.note ? '<div class="va-field-hint">' + esc(vaField.note) + '</div>' : '';
+    const hintId = vaField.note ? 'hint_' + fieldId : '';
+    const hintHtml = vaField.note ? '<div class="va-field-hint" id="' + hintId + '">' + esc(vaField.note) + '</div>' : '';
+    const hintAttr = hintId ? ' aria-describedby="' + hintId + '"' : '';
 
     switch (widget) {
         case 'ssn':
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
-                <div class="va-field-hint">Format: XXX-XX-XXXX</div>
-                <input type="text" id="f_${fieldId}" name="${fieldId}" placeholder="000-00-0000" maxlength="11" pattern="\\d{3}-?\\d{2}-?\\d{4}" ${isRequired ? 'required' : ''}>
+                <div class="va-field-hint" id="hint_${fieldId}">Format: XXX-XX-XXXX</div>
+                <input type="text" id="f_${fieldId}" name="${fieldId}" placeholder="000-00-0000" maxlength="11" pattern="\\d{3}-?\\d{2}-?\\d{4}" aria-describedby="hint_${fieldId}" ${isRequired ? 'required aria-required="true"' : ''}>
             </div>`;
 
         case 'date':
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
                 ${hintHtml}
-                <input type="date" id="f_${fieldId}" name="${fieldId}" ${isRequired ? 'required' : ''}>
+                <input type="date" id="f_${fieldId}" name="${fieldId}"${hintAttr} ${isRequired ? 'required aria-required="true"' : ''}>
             </div>`;
 
         case 'email':
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
-                <input type="email" id="f_${fieldId}" name="${fieldId}" placeholder="email@example.com" ${isRequired ? 'required' : ''}>
+                <input type="email" id="f_${fieldId}" name="${fieldId}" placeholder="email@example.com" ${isRequired ? 'required aria-required="true"' : ''}>
             </div>`;
 
         case 'phone':
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
-                <input type="tel" id="f_${fieldId}" name="${fieldId}" placeholder="(555) 555-5555" ${isRequired ? 'required' : ''}>
+                <input type="tel" id="f_${fieldId}" name="${fieldId}" placeholder="(555) 555-5555" ${isRequired ? 'required aria-required="true"' : ''}>
             </div>`;
 
         case 'select':
@@ -1216,8 +1236,8 @@ function renderVAField(fieldId, def, vaField, isRequired) {
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
                 ${hintHtml}
-                <select id="f_${fieldId}" name="${fieldId}" ${isRequired ? 'required' : ''}>
-                    <option value="">- Select -</option>${opts}
+                <select id="f_${fieldId}" name="${fieldId}"${hintAttr} ${isRequired ? 'required aria-required="true"' : ''}>
+                    <option value="" disabled selected>- Select -</option>${opts}
                 </select>
             </div>`;
 
@@ -1230,17 +1250,17 @@ function renderVAField(fieldId, def, vaField, isRequired) {
                     <label for="f_${fieldId}_${i}">${esc(lbl)}</label>
                 </div>`;
             }).join('');
-            return `<div class="va-field">
-                <div class="va-field-label">${esc(label)} ${reqMark}</div>
+            return `<fieldset class="va-field">
+                <legend class="va-field-label">${esc(label)} ${reqMark}</legend>
                 ${hintHtml}
                 <div class="va-radio-group">${radioOpts}</div>
-            </div>`;
+            </fieldset>`;
 
         case 'checkbox':
             return `<div class="va-field">
                 <div class="va-checkbox-group">
                     <div class="va-checkbox-item">
-                        <input type="checkbox" id="f_${fieldId}" name="${fieldId}" ${isRequired ? 'required' : ''}>
+                        <input type="checkbox" id="f_${fieldId}" name="${fieldId}" ${isRequired ? 'required aria-required="true"' : ''}>
                         <label for="f_${fieldId}">${esc(label)}</label>
                     </div>
                 </div>
@@ -1250,8 +1270,8 @@ function renderVAField(fieldId, def, vaField, isRequired) {
             const subProps = def.properties || {};
             const subReq = new Set(def.required || []);
             const hasName = subProps.name !== undefined;
-            return `<div class="va-field">
-                <div class="va-field-label">${esc(label)} ${reqMark}</div>
+            return `<fieldset class="va-field">
+                <legend class="va-field-label">${esc(label)} ${reqMark}</legend>
                 ${hintHtml}
                 <div class="va-address-grid">
                     ${hasName ? '<div class="va-field" style="margin-bottom:0.5rem;"><label for="f_' + fieldId + '_name">Name ' + (subReq.has('name') ? '<span class="required-mark">(*Required)</span>' : '') + '</label><input type="text" id="f_' + fieldId + '_name" name="' + fieldId + '.name" ' + (subReq.has('name') ? 'required' : '') + '></div>' : ''}
@@ -1281,13 +1301,13 @@ function renderVAField(fieldId, def, vaField, isRequired) {
                         </div>
                     </div>
                 </div>
-            </div>`;
+            </fieldset>`;
 
         case 'signature':
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
                 <div class="va-signature-box">
-                    <input type="text" id="f_${fieldId}" name="${fieldId}" placeholder="Type your full legal name" ${isRequired ? 'required' : ''}>
+                    <input type="text" id="f_${fieldId}" name="${fieldId}" placeholder="Type your full legal name" ${isRequired ? 'required aria-required="true"' : ''}>
                 </div>
             </div>`;
 
@@ -1295,14 +1315,14 @@ function renderVAField(fieldId, def, vaField, isRequired) {
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
                 ${hintHtml}
-                <textarea id="f_${fieldId}" name="${fieldId}" rows="3" ${isRequired ? 'required' : ''}></textarea>
+                <textarea id="f_${fieldId}" name="${fieldId}" rows="3"${hintAttr} ${isRequired ? 'required aria-required="true"' : ''}></textarea>
             </div>`;
 
         default: // text
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
                 ${hintHtml}
-                <input type="text" id="f_${fieldId}" name="${fieldId}" ${def.maxLength ? 'maxlength="' + def.maxLength + '"' : ''} ${isRequired ? 'required' : ''}>
+                <input type="text" id="f_${fieldId}" name="${fieldId}"${hintAttr} ${def.maxLength ? 'maxlength="' + def.maxLength + '"' : ''} ${isRequired ? 'required aria-required="true"' : ''}>
             </div>`;
     }
 }
