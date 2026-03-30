@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8730",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "number": {
+      "type": "string"
+    },
+    "dealer": {
+      "type": "string"
+    },
+    "purchaser": {
+      "type": "string"
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    },
+    "warrantor1": {
+      "type": "string"
+    },
+    "warrantor2": {
+      "type": "string"
+    },
+    "warrantor3": {
+      "type": "string"
+    },
+    "field": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8730-are.pdf",
+    "status": "digitized",
+    "totalFields": 19,
+    "composedFields": 11,
+    "coveragePercent": 26,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:11.822Z",
+    "postProcessedAt": "2026-03-30T20:42:50.159340+00:00"
+  }
+}

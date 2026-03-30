@@ -1,0 +1,330 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-0971",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "loanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Loan Number",
+        "widget": "text"
+      }
+    },
+    "vaLoanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A Loan Number",
+        "widget": "text"
+      }
+    },
+    "currentOwner": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Owner",
+        "widget": "text"
+      }
+    },
+    "termOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Term Of Loan",
+        "widget": "text"
+      }
+    },
+    "originalVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Original Veteran",
+        "widget": "text"
+      }
+    },
+    "percentOfGuaranty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Percent Of Guaranty",
+        "widget": "text"
+      }
+    },
+    "pAndI": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P And I",
+        "widget": "text"
+      }
+    },
+    "dateField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Field1",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "propertyAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Property Address",
+        "widget": "text"
+      }
+    },
+    "description": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Description",
+        "widget": "text"
+      }
+    },
+    "periodCovered": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Period Covered",
+        "widget": "text"
+      }
+    },
+    "nameOfTaxAuthority": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Tax Authority",
+        "widget": "text"
+      }
+    },
+    "taxAuthorityAccountNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Tax Authority Account Number",
+        "widget": "text"
+      }
+    },
+    "nameAddressAndTelephoneNumberOfHolder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Address And Telephone Number Of Holder",
+        "widget": "text"
+      }
+    },
+    "signatureAndTitleOfLendingInstitutionOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature And Title Of Lending Institution Official",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "currentOwner2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT OWNER",
+        "widget": "text"
+      }
+    },
+    "originalLoanAmount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ORIGINAL LOAN AMOUNT",
+        "widget": "text"
+      }
+    },
+    "termOfLoan2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TERM OF LOAN",
+        "widget": "text"
+      }
+    },
+    "originalVeteran2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ORIGINAL VETERAN",
+        "widget": "text"
+      }
+    },
+    "percentOfGuaranty2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PERCENT OF GUARANTY",
+        "widget": "text"
+      }
+    },
+    "pI": {
+      "type": "string",
+      "x-va-field": {
+        "label": "P & I",
+        "widget": "text"
+      }
+    },
+    "dateOfFinalDisbursement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF FINAL DISBURSEMENT:",
+        "widget": "text"
+      }
+    },
+    "principal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRINCIPAL",
+        "widget": "text"
+      }
+    },
+    "interest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INTEREST",
+        "widget": "text"
+      }
+    },
+    "from": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FROM",
+        "widget": "text"
+      }
+    },
+    "amountInTaxAndInsuranceAccountIfOtherThanAPositiv": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMOUNT IN TAX AND INSURANCE ACCOUNT (If other than a positiv",
+        "widget": "text"
+      }
+    },
+    "otherCreditsEGUnearnedAddOnInterestOrDiscountA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER CREDITS (e.g., unearned add-on interest or discount, a",
+        "widget": "text"
+      }
+    },
+    "actualForeclosureCostsPaidOrWhichWillBePaidPriorTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ACTUAL FORECLOSURE COSTS PAID OR WHICH WILL BE PAID PRIOR TO",
+        "widget": "text"
+      }
+    },
+    "payment": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "PAYMENT",
+        "widget": "date"
+      }
+    },
+    "anyOtherChargesLegallyChargeableToMortgagorInludingT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ANY OTHER CHARGES LEGALLY CHARGEABLE TO MORTGAGOR INLUDING T",
+        "widget": "text"
+      }
+    },
+    "totalIndebtednessAtForeclosureOrOtherLiquidationsCut": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL INDEBTEDNESS AT FORECLOSURE (Or other liquidations/cut",
+        "widget": "text"
+      }
+    },
+    "statusOfPropertyTaxes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATUS OF PROPERTY TAXES",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CITY",
+        "widget": "text"
+      }
+    },
+    "waterAndSewerChargesAndSpecialAssessments": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WATER AND SEWER CHARGES AND SPECIAL ASSESSMENTS",
+        "widget": "text"
+      }
+    },
+    "amount2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "AMOUNT",
+        "widget": "date"
+      }
+    },
+    "nameAddressAndTelephoneNumberOfHolder2": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "NAME, ADDRESS AND TELEPHONE NUMBER OF HOLDER",
+        "widget": "phone"
+      }
+    },
+    "signatureAndTitleOfLendingInstitutionOfficialSignIn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE AND TITLE OF LENDING INSTITUTION OFFICIAL (Sign in",
+        "widget": "signature"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE",
+        "widget": "date"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-0971-are.pdf",
+    "status": "digitized",
+    "totalFields": 43,
+    "composedFields": 43,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:42.532Z",
+    "redigitizedAt": "2026-03-30T20:37:54.480Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

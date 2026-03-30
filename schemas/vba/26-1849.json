@@ -1,0 +1,1767 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1849",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dayone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform dayone",
+        "widget": "text"
+      }
+    },
+    "monthone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform monthone",
+        "widget": "text"
+      }
+    },
+    "fourdigityear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fourdigityear",
+        "widget": "text"
+      }
+    },
+    "seller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform seller",
+        "widget": "text"
+      }
+    },
+    "lender": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lender",
+        "widget": "text"
+      }
+    },
+    "escrowagent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform escrowagent",
+        "widget": "text"
+      }
+    },
+    "cityortown": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cityortown",
+        "widget": "text"
+      }
+    },
+    "county": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform county",
+        "widget": "text"
+      }
+    },
+    "state": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform state",
+        "widget": "text"
+      }
+    },
+    "projectname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform projectname",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform address",
+        "widget": "text"
+      }
+    },
+    "lotnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lotnumber",
+        "widget": "text"
+      }
+    },
+    "veteranpurchaser": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform veteranpurchaser",
+        "widget": "text"
+      }
+    },
+    "reasonableestimate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform reasonableestimate",
+        "widget": "text"
+      }
+    },
+    "salesprice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform salesprice",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    },
+    "fourdigityear2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fourdigityear2",
+        "widget": "text"
+      }
+    },
+    "sumamount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform sumamount",
+        "widget": "text"
+      }
+    },
+    "lettercreditnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lettercreditnumber",
+        "widget": "text"
+      }
+    },
+    "title2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform title2",
+        "widget": "text"
+      }
+    },
+    "bankinginstitution1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform bankinginstitution1",
+        "widget": "text"
+      }
+    },
+    "bankinginstitution2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform bankinginstitution2",
+        "widget": "text"
+      }
+    },
+    "account1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform account1",
+        "widget": "text"
+      }
+    },
+    "sellerpage2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform sellerpage2",
+        "widget": "text"
+      }
+    },
+    "amountpage2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform amountpage2",
+        "widget": "text"
+      }
+    },
+    "termspage2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform termspage2",
+        "widget": "text"
+      }
+    },
+    "para1amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform para1amount",
+        "widget": "text"
+      }
+    },
+    "vacasenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform vacasenumber",
+        "widget": "text"
+      }
+    },
+    "casenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform F H\\ A\\ C A S E Number",
+        "widget": "text"
+      }
+    },
+    "item1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item1",
+        "widget": "text"
+      }
+    },
+    "item2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item2",
+        "widget": "text"
+      }
+    },
+    "item3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item3",
+        "widget": "text"
+      }
+    },
+    "item4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item4",
+        "widget": "text"
+      }
+    },
+    "item5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item5",
+        "widget": "text"
+      }
+    },
+    "item6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item6",
+        "widget": "text"
+      }
+    },
+    "item7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item7",
+        "widget": "text"
+      }
+    },
+    "item8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item8",
+        "widget": "text"
+      }
+    },
+    "item9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item9",
+        "widget": "text"
+      }
+    },
+    "item10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform item10",
+        "widget": "text"
+      }
+    },
+    "cost1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost1",
+        "widget": "text"
+      }
+    },
+    "cost2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost2",
+        "widget": "text"
+      }
+    },
+    "cost3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost3",
+        "widget": "text"
+      }
+    },
+    "cost4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost4",
+        "widget": "text"
+      }
+    },
+    "cost5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost5",
+        "widget": "text"
+      }
+    },
+    "cost6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost6",
+        "widget": "text"
+      }
+    },
+    "cost7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost7",
+        "widget": "text"
+      }
+    },
+    "cost8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost8",
+        "widget": "text"
+      }
+    },
+    "cost9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost9",
+        "widget": "text"
+      }
+    },
+    "cost10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform cost10",
+        "widget": "text"
+      }
+    },
+    "totalcostofpostponedimprovements": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L C O S T O F P O S T P O N E D I M P R O V E M E N T S",
+        "widget": "text"
+      }
+    },
+    "onehalf1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf1",
+        "widget": "text"
+      }
+    },
+    "onehalf2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf2",
+        "widget": "text"
+      }
+    },
+    "onehalf3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf3",
+        "widget": "text"
+      }
+    },
+    "onehalf4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf4",
+        "widget": "text"
+      }
+    },
+    "onehalf5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf5",
+        "widget": "text"
+      }
+    },
+    "onehalf6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf6",
+        "widget": "text"
+      }
+    },
+    "onehalf7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf7",
+        "widget": "text"
+      }
+    },
+    "onehalf8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf8",
+        "widget": "text"
+      }
+    },
+    "onehalf9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf9",
+        "widget": "text"
+      }
+    },
+    "onehalf10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf10",
+        "widget": "text"
+      }
+    },
+    "onehalf11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform onehalf11",
+        "widget": "text"
+      }
+    },
+    "totalescrowed1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed1",
+        "widget": "text"
+      }
+    },
+    "totalescrowed2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed2",
+        "widget": "text"
+      }
+    },
+    "totalescrowed3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed3",
+        "widget": "text"
+      }
+    },
+    "totalescrowed4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed4",
+        "widget": "text"
+      }
+    },
+    "totalescrowed5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed5",
+        "widget": "text"
+      }
+    },
+    "totalescrowed6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed6",
+        "widget": "text"
+      }
+    },
+    "totalescrowed7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed7",
+        "widget": "text"
+      }
+    },
+    "totalescrowed8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed8",
+        "widget": "text"
+      }
+    },
+    "totalescrowed9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed9",
+        "widget": "text"
+      }
+    },
+    "totalescrowed10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed10",
+        "widget": "text"
+      }
+    },
+    "totalescrowed101112": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowed101112",
+        "widget": "text"
+      }
+    },
+    "lotnumbera1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera1",
+        "widget": "text"
+      }
+    },
+    "lotnumbera2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera2",
+        "widget": "text"
+      }
+    },
+    "lotnumbera3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera3",
+        "widget": "text"
+      }
+    },
+    "lotnumbera4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera4",
+        "widget": "text"
+      }
+    },
+    "lotnumbera5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera5",
+        "widget": "text"
+      }
+    },
+    "lotnumbera6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera6",
+        "widget": "text"
+      }
+    },
+    "lotnumbera7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera7",
+        "widget": "text"
+      }
+    },
+    "lotnumbera8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera8",
+        "widget": "text"
+      }
+    },
+    "lotnumbera9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera9",
+        "widget": "text"
+      }
+    },
+    "lotnumbera10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera10",
+        "widget": "text"
+      }
+    },
+    "lotnumbera11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera11",
+        "widget": "text"
+      }
+    },
+    "lotnumbera12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera12",
+        "widget": "text"
+      }
+    },
+    "lotnumbera13": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera13",
+        "widget": "text"
+      }
+    },
+    "lotnumbera14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera14",
+        "widget": "text"
+      }
+    },
+    "lotnumbera15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera15",
+        "widget": "text"
+      }
+    },
+    "lotnumbera16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera16",
+        "widget": "text"
+      }
+    },
+    "lotnumbera17": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera17",
+        "widget": "text"
+      }
+    },
+    "lotnumbera18": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera18",
+        "widget": "text"
+      }
+    },
+    "lotnumbera19": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera19",
+        "widget": "text"
+      }
+    },
+    "lotnumbera20": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera20",
+        "widget": "text"
+      }
+    },
+    "lotnumbera21": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera21",
+        "widget": "text"
+      }
+    },
+    "lotnumbera22": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera22",
+        "widget": "text"
+      }
+    },
+    "lotnumbera23": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera23",
+        "widget": "text"
+      }
+    },
+    "lotnumbera24": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera24",
+        "widget": "text"
+      }
+    },
+    "lotnumbera44": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera44",
+        "widget": "text"
+      }
+    },
+    "lotnumbera25": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera25",
+        "widget": "text"
+      }
+    },
+    "lotnumbera26": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera26",
+        "widget": "text"
+      }
+    },
+    "lotnumbera27": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera27",
+        "widget": "text"
+      }
+    },
+    "lotnumbera28": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera28",
+        "widget": "text"
+      }
+    },
+    "lotnumbera29": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera29",
+        "widget": "text"
+      }
+    },
+    "lotnumbera30": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera30",
+        "widget": "text"
+      }
+    },
+    "lotnumbera31": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera31",
+        "widget": "text"
+      }
+    },
+    "lotnumbera32": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera32",
+        "widget": "text"
+      }
+    },
+    "lotnumbera33": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera33",
+        "widget": "text"
+      }
+    },
+    "lotnumbera34": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera34",
+        "widget": "text"
+      }
+    },
+    "lotnumbera35": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera35",
+        "widget": "text"
+      }
+    },
+    "lotnumbera36": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera36",
+        "widget": "text"
+      }
+    },
+    "lotnumbera37": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera37",
+        "widget": "text"
+      }
+    },
+    "lotnumbera38": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera38",
+        "widget": "text"
+      }
+    },
+    "lotnumbera39": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera39",
+        "widget": "text"
+      }
+    },
+    "lotnumbera40": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera40",
+        "widget": "text"
+      }
+    },
+    "lotnumbera41": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera41",
+        "widget": "text"
+      }
+    },
+    "lotnumbera42": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera42",
+        "widget": "text"
+      }
+    },
+    "lotnumbera43": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera43",
+        "widget": "text"
+      }
+    },
+    "lotnumbera45": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera45",
+        "widget": "text"
+      }
+    },
+    "lotnumbera46": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera46",
+        "widget": "text"
+      }
+    },
+    "lotnumbera47": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera47",
+        "widget": "text"
+      }
+    },
+    "lotnumbera48": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lotnumbera48",
+        "widget": "text"
+      }
+    },
+    "allocation1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation1",
+        "widget": "text"
+      }
+    },
+    "allocation2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation2",
+        "widget": "text"
+      }
+    },
+    "allocation3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation3",
+        "widget": "text"
+      }
+    },
+    "allocation4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation4",
+        "widget": "text"
+      }
+    },
+    "allocation5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation5",
+        "widget": "text"
+      }
+    },
+    "allocation6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation6",
+        "widget": "text"
+      }
+    },
+    "allocation7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation7",
+        "widget": "text"
+      }
+    },
+    "allocation8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation8",
+        "widget": "text"
+      }
+    },
+    "allocation9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation9",
+        "widget": "text"
+      }
+    },
+    "allocation10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation10",
+        "widget": "text"
+      }
+    },
+    "allocation11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation11",
+        "widget": "text"
+      }
+    },
+    "allocation12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation12",
+        "widget": "text"
+      }
+    },
+    "allocation13": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation13",
+        "widget": "text"
+      }
+    },
+    "allocation14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation14",
+        "widget": "text"
+      }
+    },
+    "allocation15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation15",
+        "widget": "text"
+      }
+    },
+    "allocation16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation16",
+        "widget": "text"
+      }
+    },
+    "allocation17": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation17",
+        "widget": "text"
+      }
+    },
+    "allocation18": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation18",
+        "widget": "text"
+      }
+    },
+    "allocation19": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation19",
+        "widget": "text"
+      }
+    },
+    "allocation20": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation20",
+        "widget": "text"
+      }
+    },
+    "allocation21": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation21",
+        "widget": "text"
+      }
+    },
+    "allocation22": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation22",
+        "widget": "text"
+      }
+    },
+    "allocation23": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation23",
+        "widget": "text"
+      }
+    },
+    "allocation24": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation24",
+        "widget": "text"
+      }
+    },
+    "allocation25": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation25",
+        "widget": "text"
+      }
+    },
+    "allocation26": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation26",
+        "widget": "text"
+      }
+    },
+    "allocation27": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation27",
+        "widget": "text"
+      }
+    },
+    "allocation28": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation28",
+        "widget": "text"
+      }
+    },
+    "allocation29": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation29",
+        "widget": "text"
+      }
+    },
+    "allocation30": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation30",
+        "widget": "text"
+      }
+    },
+    "allocation31": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation31",
+        "widget": "text"
+      }
+    },
+    "allocation32": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation32",
+        "widget": "text"
+      }
+    },
+    "allocation33": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation33",
+        "widget": "text"
+      }
+    },
+    "allocation34": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation34",
+        "widget": "text"
+      }
+    },
+    "allocation35": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation35",
+        "widget": "text"
+      }
+    },
+    "allocation36": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation36",
+        "widget": "text"
+      }
+    },
+    "allocation37": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation37",
+        "widget": "text"
+      }
+    },
+    "allocation38": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation38",
+        "widget": "text"
+      }
+    },
+    "allocation39": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation39",
+        "widget": "text"
+      }
+    },
+    "allocation40": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation40",
+        "widget": "text"
+      }
+    },
+    "allocation41": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation41",
+        "widget": "text"
+      }
+    },
+    "allocation42": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation42",
+        "widget": "text"
+      }
+    },
+    "allocation43": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation43",
+        "widget": "text"
+      }
+    },
+    "allocation44": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation44",
+        "widget": "text"
+      }
+    },
+    "allocation45": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation45",
+        "widget": "text"
+      }
+    },
+    "allocation46": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation46",
+        "widget": "text"
+      }
+    },
+    "allocation47": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation47",
+        "widget": "text"
+      }
+    },
+    "allocation48": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocation48",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation1",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation2",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation3",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation4",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation5",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation6",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation7",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation8",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation9",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation10",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation11",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation12",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation13": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation13",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation14",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation15",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation16",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation17": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation17",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation18": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation18",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation19": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation19",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation20": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation20",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation21": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation21",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation22": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation22",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation23": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation23",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation24": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation24",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation25": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation25",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation26": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation26",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation27": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation27",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation28": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation28",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation29": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation29",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation30": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation30",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation31": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation31",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation32": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation32",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation33": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation33",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation34": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation34",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation35": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation35",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation36": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation36",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation37": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation37",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation38": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation38",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation39": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation39",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation40": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation40",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation41": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation41",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation42": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation42",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation43": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation43",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation44": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation44",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation45": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation45",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation46": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation46",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation47": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation47",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocation48": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocation48",
+        "widget": "text"
+      }
+    },
+    "allocationtotal1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocationtotal1",
+        "widget": "text"
+      }
+    },
+    "allocationtotaltotal2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform allocationtotaltotal2",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocationtotal1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocationtotal1",
+        "widget": "text"
+      }
+    },
+    "totalescrowedallocationtotal2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalescrowedallocationtotal2",
+        "widget": "text"
+      }
+    },
+    "datepage41": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datepage41",
+        "widget": "text"
+      }
+    },
+    "datepage42": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datepage42",
+        "widget": "text"
+      }
+    },
+    "datepage43": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datepage43",
+        "widget": "text"
+      }
+    },
+    "#subformPage4seller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4seller",
+        "widget": "text"
+      }
+    },
+    "#subformPage4title1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4title1",
+        "widget": "text"
+      }
+    },
+    "#subformPage4title2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4title2",
+        "widget": "text"
+      }
+    },
+    "#subformPage4lender": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4lender",
+        "widget": "text"
+      }
+    },
+    "#subformPage4title3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4title3",
+        "widget": "text"
+      }
+    },
+    "#subformPage4title4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4title4",
+        "widget": "text"
+      }
+    },
+    "#subformPage4agent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4agent",
+        "widget": "text"
+      }
+    },
+    "#subformPage4title5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4title5",
+        "widget": "text"
+      }
+    },
+    "#subformPage4title6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform page4title6",
+        "widget": "text"
+      }
+    },
+    "theSellerAgreesToPayForAllLaborAndMaterialNecessar": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The Seller agrees to pay for all labor and material necessar",
+        "widget": "text"
+      }
+    },
+    "follows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "follows",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "witnesseth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WITNESSETH",
+        "widget": "text"
+      }
+    },
+    "addresslotNoNameOfVeteranPurchaserrVEstByVasalesPrice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AddressLot No.Name of Veteran-PurchaserR.V. Est. By VASales Price",
+        "widget": "address"
+      }
+    },
+    "theSellerConvenantsAndAgreesToCompleteTheImprovement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The Seller convenants and agrees to complete the improvement",
+        "widget": "text"
+      }
+    },
+    "ofOrSuchSubsequent": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "of,, or such subsequent",
+        "widget": "date"
+      }
+    },
+    "theSellerAdditionallyAgreesToBePersonallyLiableToTh": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The Seller additionally agrees to be personally liable to th",
+        "widget": "text"
+      }
+    },
+    "aCashEscrow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "A.  Cash Escrow",
+        "widget": "text"
+      }
+    },
+    "plansAndSpecificationsOnOrBeforeThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "plans and specifications on or before the",
+        "widget": "date"
+      }
+    },
+    "itIsTheIntentionOfThePartiesThatThisAgreementIsMa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "It is the intention of the parties that this Agreement is ma",
+        "widget": "text"
+      }
+    },
+    "theEscrowAgentShallHaveAPriorLienOnTheFundsDeposi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The Escrow Agent shall have a prior lien on the funds deposi",
+        "widget": "text"
+      }
+    },
+    "partyOfTheThirdPart": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Party of the Third Part",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Title",
+        "widget": "text"
+      }
+    },
+    "partyOfTheFirstPart": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Party of the First Part",
+        "widget": "text"
+      }
+    },
+    "partyOfTheSecondPart": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Party of the Second Part",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1849-are.pdf",
+    "status": "digitized",
+    "totalFields": 250,
+    "composedFields": 249,
+    "coveragePercent": 96,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 9,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:31:50.440Z",
+    "redigitizedAt": "2026-03-30T20:35:27.401Z",
+    "extractionSources": [
+      "acroform",
+      "text-inference"
+    ],
+    "postProcessedAt": "2026-03-30T20:42:50.146260+00:00"
+  }
+}

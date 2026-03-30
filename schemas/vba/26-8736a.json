@@ -1,0 +1,171 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8736a",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "numericField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Numeric Field1",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "vaAndPublishedInTheFederalRegister": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VA, and published in the Federal Register.",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "locatedOnTheOmbInternetPageAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "located on the OMB Internet Page at",
+        "widget": "text"
+      }
+    },
+    "qualiifications": {
+      "type": "string",
+      "x-va-field": {
+        "label": "QUALIIFICATIONS",
+        "widget": "text"
+      }
+    },
+    "nameOfUnderwriterApplicantFirstMiddleLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF UNDERWRITER-APPLICANT (First, Middle, Last):",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER:",
+        "widget": "text"
+      }
+    },
+    "businessAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BUSINESS ADDRESS:",
+        "widget": "text"
+      }
+    },
+    "iAmCurrentlyApprovedAsAVaUnderwriter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I AM CURRENTLY APPROVED AS A VA-UNDERWRITER:",
+        "widget": "text"
+      }
+    },
+    "yesIfYesProvideVaUnderwriterIdNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YES (If \"YES,\" provide VA-Underwriter ID Number)",
+        "widget": "text"
+      }
+    },
+    "beginningWithPresentEmploymentListChronologicallyAll": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BEGINNING WITH PRESENT EMPLOYMENT, LIST CHRONOLOGICALLY ALL",
+        "widget": "text"
+      }
+    },
+    "nameAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME & ADDRESS",
+        "widget": "text"
+      }
+    },
+    "iAmCurrentlyDesignatedAsACruOrAruByTheMba": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I AM CURRENTLY DESIGNATED AS A CRU OR ARU BY THE MBA.",
+        "widget": "text"
+      }
+    },
+    "8b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "8B.",
+        "widget": "text"
+      }
+    },
+    "9c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "9C.",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8736a-are.pdf",
+    "status": "digitized",
+    "totalFields": 21,
+    "composedFields": 21,
+    "coveragePercent": 86,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 3,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:36:53.117Z",
+    "redigitizedAt": "2026-03-30T20:38:53.409Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Daily Patient Census",
+  "type": "object",
+  "properties": {
+    "veteranFullName": {
+      "type": "string",
+      "description": "Veteran's full name (last, first, middle)"
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "description": "Social Security Number (last 4 digits)"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "description": "VA file number"
+    },
+    "vaFacilityName": {
+      "type": "string",
+      "description": "VA medical facility name"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "ward": {
+      "type": "string",
+      "description": "Ward/unit"
+    },
+    "censusDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Census date"
+    },
+    "patientsBeginningOfDay": {
+      "type": "string",
+      "description": "Patients at beginning of day"
+    },
+    "admissions": {
+      "type": "string",
+      "description": "Number of admissions"
+    },
+    "discharges": {
+      "type": "string",
+      "description": "Number of discharges"
+    },
+    "transfers": {
+      "type": "string",
+      "description": "Number of transfers"
+    },
+    "patientsEndOfDay": {
+      "type": "string",
+      "description": "Patients at end of day"
+    },
+    "reportedBy": {
+      "type": "string",
+      "description": "Reported by"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-3884B.pdf",
+    "totalFields": 15,
+    "composedFields": 15,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 1,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

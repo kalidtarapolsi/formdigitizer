@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0918g",
+  "type": "object",
+  "properties": {
+    "requestingOrganization": {
+      "type": "string"
+    },
+    "requestTheFollowingAdditionalEmbossedCourtesyInvitationsWithEnvelopes": {
+      "type": "string"
+    },
+    "ampitheaterBenchSeatTickets": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__QUANTITYOFADDITIONALLAPELPINSREQUESTED___0_": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0918g.pdf",
+    "totalFields": 4,
+    "composedFields": 0,
+    "coveragePercent": 0,
+    "xfaLabelCount": 4,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:33:27.899Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

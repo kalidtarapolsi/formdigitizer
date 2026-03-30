@@ -1,0 +1,401 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0730b",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "parentName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Parent Name",
+        "widget": "text"
+      }
+    },
+    "federalAgency": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Federal Agency",
+        "widget": "text"
+      }
+    },
+    "nameChildCare": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Child Care",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone",
+        "widget": "text"
+      }
+    },
+    "ssnTaxId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N Tax I D",
+        "widget": "text"
+      }
+    },
+    "fax": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Fax",
+        "widget": "text"
+      }
+    },
+    "licenseNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform License Number",
+        "widget": "text"
+      }
+    },
+    "state": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform State",
+        "widget": "text"
+      }
+    },
+    "expirationDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Expiration Date",
+        "widget": "text"
+      }
+    },
+    "childName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Child Name",
+        "widget": "text"
+      }
+    },
+    "enrollmentDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Enrollment Date",
+        "widget": "text"
+      }
+    },
+    "source": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Source",
+        "widget": "text"
+      }
+    },
+    "amountSubsidy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Amount Subsidy",
+        "widget": "text"
+      }
+    },
+    "totalWeeklyFee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Total Weekly Fee",
+        "widget": "text"
+      }
+    },
+    "childName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Child Name",
+        "widget": "text"
+      }
+    },
+    "enrollmentDate2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Enrollment Date",
+        "widget": "text"
+      }
+    },
+    "source2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Source",
+        "widget": "text"
+      }
+    },
+    "amountSubsidy2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Amount Subsidy",
+        "widget": "text"
+      }
+    },
+    "totalWeeklyFee2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Total Weekly Fee",
+        "widget": "text"
+      }
+    },
+    "childName3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Child Name",
+        "widget": "text"
+      }
+    },
+    "enrollmentDate3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Enrollment Date",
+        "widget": "text"
+      }
+    },
+    "source3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Source",
+        "widget": "text"
+      }
+    },
+    "amountSubsidy3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Amount Subsidy",
+        "widget": "text"
+      }
+    },
+    "totalWeeklyFee3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Total Weekly Fee",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Title",
+        "widget": "text"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature1",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "privacyActStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT STATEMENT",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "yourChildCareProviderIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "your child care provider, if",
+        "widget": "text"
+      }
+    },
+    "nameOfParentLegalGuardianWithChildInTheProviderSC": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF PARENT/LEGAL GUARDIAN WITH CHILD IN THE PROVIDER'S C",
+        "widget": "text"
+      }
+    },
+    "typeOfProviderCheckOnlyOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TYPE OF PROVIDER (Check only one)",
+        "widget": "text"
+      }
+    },
+    "childCareServicesCheckOnlyOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CHILD CARE SERVICES (Check only one)",
+        "widget": "text"
+      }
+    },
+    "nameOfChildCareProvider": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF CHILD CARE PROVIDER",
+        "widget": "text"
+      }
+    },
+    "addressOfChildCareProviderIncludeStreetNumberCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF CHILD CARE PROVIDER (Include street number, city,",
+        "widget": "address"
+      }
+    },
+    "providerEMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PROVIDER E-MAIL ADDRESS",
+        "widget": "address"
+      }
+    },
+    "providerTelephoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "PROVIDER TELEPHONE NUMBER",
+        "widget": "phone"
+      }
+    },
+    "taxIdentificationNoOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TAX IDENTIFICATION NO. OR",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNo": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NO.",
+        "widget": "ssn"
+      }
+    },
+    "providerFaxNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PROVIDER FAX NUMBER",
+        "widget": "text"
+      }
+    },
+    "licenseNumberOf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LICENSE NUMBER OF",
+        "widget": "text"
+      }
+    },
+    "stateInWhich": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATE IN WHICH",
+        "widget": "select"
+      }
+    },
+    "licenseExpirationDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "LICENSE EXPIRATION DATE",
+        "widget": "date"
+      }
+    },
+    "instruction": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTION",
+        "widget": "text"
+      }
+    },
+    "certification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "nameOfProvider2TitleOfProviderRepresentative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF PROVIDER2. TITLE OF PROVIDER REPRESENTATIVE",
+        "widget": "text"
+      }
+    },
+    "signatureOfProviderSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF PROVIDER (Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0730b.pdf",
+    "totalFields": 53,
+    "composedFields": 53,
+    "coveragePercent": 100,
+    "xfaLabelCount": 22,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:27:21.364Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:28:05.485Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

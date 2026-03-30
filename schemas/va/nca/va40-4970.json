@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA40-4970",
+  "type": "object",
+  "properties": {
+    "myCommissionExpires": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-4970.pdf",
+    "totalFields": 50,
+    "composedFields": 0,
+    "coveragePercent": 0,
+    "xfaLabelCount": 1,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:24:58.035Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

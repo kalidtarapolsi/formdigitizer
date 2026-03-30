@@ -1,0 +1,474 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA4564",
+  "type": "object",
+  "properties": {
+    "dateIssued": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "limitationLine1Of20": {
+      "type": "string"
+    },
+    "limitationLine2Of20": {
+      "type": "string"
+    },
+    "limitationLine3Of20": {
+      "type": "string"
+    },
+    "limitationLine4Of20": {
+      "type": "string"
+    },
+    "limitationLine5Of20": {
+      "type": "string"
+    },
+    "limitationLine6Of20": {
+      "type": "string"
+    },
+    "limitationLine7Of20": {
+      "type": "string"
+    },
+    "limitationLine8Of20": {
+      "type": "string"
+    },
+    "limitationLine9Of20": {
+      "type": "string"
+    },
+    "limitationLine10Of20": {
+      "type": "string"
+    },
+    "limitationLine11Of20": {
+      "type": "string"
+    },
+    "limitationLine12Of20": {
+      "type": "string"
+    },
+    "limitationLine13Of20": {
+      "type": "string"
+    },
+    "limitationLine14Of20": {
+      "type": "string"
+    },
+    "limitationLine15Of20": {
+      "type": "string"
+    },
+    "limitationLine16Of20": {
+      "type": "string"
+    },
+    "limitationLine17Of20": {
+      "type": "string"
+    },
+    "limitationLine18Of20": {
+      "type": "string"
+    },
+    "limitationLine19Of20": {
+      "type": "string"
+    },
+    "limitationLine20Of20": {
+      "type": "string"
+    },
+    "noteIfTransferIsToAnAppropriationOrFundForWhichAllotmentAccountsAreMaintained": {
+      "type": "string"
+    },
+    "stationTransferNo": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "stationNo": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "recordDuring": {
+      "type": "string"
+    },
+    "appropriationOrFundLine1Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine1Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine1Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine1Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine1Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine1Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine2Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine2Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine2Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine2Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine2Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine2Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine3Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine3Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine3Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine3Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine3Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine3Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine4Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine4Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine4Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine4Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine4Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine4Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine5Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine5Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine5Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine5Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine5Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine5Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine6Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine6Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine6Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine6Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine6Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine6Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine7Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine7Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine7Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine7Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine7Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine7Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine8Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine8Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine8Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine8Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine8Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine8Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine9Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine9Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine9Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine9Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine9Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine9Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine10Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine10Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine10Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine10Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine10Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine10Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine11Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine11Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine11Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine11Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine11Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine11Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine12Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine12Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine12Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine12Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine12Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine12Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine13Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine13Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine13Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine13Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine13Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine13Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine14Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine14Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine14Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine14Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine14Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine14Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine15Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine15Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine15Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine15Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine15Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine15Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine16Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine16Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine16Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine16Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine16Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine16Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine17Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine17Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine17Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine17Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine17Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine17Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine18Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine18Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine18Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine18Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine18Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine18Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine19Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine19Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine19Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine19Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine19Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine19Of20": {
+      "type": "string"
+    },
+    "appropriationOrFundLine20Of20": {
+      "type": "string"
+    },
+    "allotmentRestrictionOrDescriptionLine20Of20": {
+      "type": "string"
+    },
+    "firstQuarterAvailableLine20Of20": {
+      "type": "string"
+    },
+    "secondQuarterAvailableLine20Of20": {
+      "type": "string"
+    },
+    "thirdQuarterAvailableLine20Of20": {
+      "type": "string"
+    },
+    "fourthQuarterAvailableLine20Of20": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "titleOfAuthorizingOfficial": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4564.pdf",
+    "totalFields": 151,
+    "composedFields": 23,
+    "coveragePercent": 15,
+    "xfaLabelCount": 151,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:31:24.795Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

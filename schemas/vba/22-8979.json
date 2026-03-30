@@ -1,0 +1,440 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-8979",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Digital Signature",
+        "widget": "text"
+      }
+    },
+    "dateYouWillTrainingUntil": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date You Will Training Until",
+        "widget": "text"
+      }
+    },
+    "beginDateOfTerm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Begin Date Of Term",
+        "widget": "text"
+      }
+    },
+    "dateofbirth1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 #area dateofbirth1",
+        "widget": "text"
+      }
+    },
+    "dateofbirth2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 #area dateofbirth2",
+        "widget": "text"
+      }
+    },
+    "dateofbirth3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 #area dateofbirth3",
+        "widget": "text"
+      }
+    },
+    "ssna1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 #area ssna1",
+        "widget": "text"
+      }
+    },
+    "ssna2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 #area ssna2",
+        "widget": "text"
+      }
+    },
+    "ssna3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 #area ssna3",
+        "widget": "text"
+      }
+    },
+    "female": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Female",
+        "widget": "checkbox"
+      }
+    },
+    "male": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Male",
+        "widget": "checkbox"
+      }
+    },
+    "namefirst": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 namefirst",
+        "widget": "text"
+      }
+    },
+    "namemiddle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 namemiddle",
+        "widget": "text"
+      }
+    },
+    "namelast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 namelast",
+        "widget": "text"
+      }
+    },
+    "noandstreet1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 noandstreet1",
+        "widget": "text"
+      }
+    },
+    "aptno1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 aptno1",
+        "widget": "text"
+      }
+    },
+    "city1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 city1",
+        "widget": "text"
+      }
+    },
+    "state1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 state1",
+        "widget": "text"
+      }
+    },
+    "zip1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 zip1",
+        "widget": "text"
+      }
+    },
+    "mobilePhoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Mobile Phone Number",
+        "widget": "text"
+      }
+    },
+    "areacodep1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 areacodep1",
+        "widget": "text"
+      }
+    },
+    "primaryphone1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 primaryphone1",
+        "widget": "text"
+      }
+    },
+    "primaryphone4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 primaryphone4",
+        "widget": "text"
+      }
+    },
+    "noandstreet100": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 noandstreet100",
+        "widget": "text"
+      }
+    },
+    "applicantsEmailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Applicants Email Address",
+        "widget": "text"
+      }
+    },
+    "providethefullname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 providethefullname",
+        "widget": "text"
+      }
+    },
+    "numberOfHours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Number Of Hours",
+        "widget": "text"
+      }
+    },
+    "dateOfChangeInHours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Of Change In Hours",
+        "widget": "text"
+      }
+    },
+    "endDateOfTerm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 End Date Of Term",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "termDatesOfEnrollmentMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "TERM DATES OF ENROLLMENT (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "12b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12B.",
+        "widget": "date"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "ifYouHaveCompletelyWithdrawnFromTrainingPleaseProvi": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "If you have completely Withdrawn from training, please provi",
+        "widget": "phone"
+      }
+    },
+    "socialSecurityNumberOfStudent": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER OF STUDENT",
+        "widget": "ssn"
+      }
+    },
+    "nameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "sexOfStudent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SEX OF STUDENT",
+        "widget": "text"
+      }
+    },
+    "studentSDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "STUDENT'S DATE OF BIRTH",
+        "widget": "date"
+      }
+    },
+    "cityStateZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City, State, ZIP Code",
+        "widget": "select"
+      }
+    },
+    "studentSAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STUDENT'S ADDRESS",
+        "widget": "address"
+      }
+    },
+    "home": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Home",
+        "widget": "text"
+      }
+    },
+    "mobile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Mobile",
+        "widget": "text"
+      }
+    },
+    "provideTheFullNameAndAddressOfTheSchool": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PROVIDE THE FULL NAME AND ADDRESS OF THE SCHOOL",
+        "widget": "address"
+      }
+    },
+    "beginDateOfTerm2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "BEGIN DATE OF TERM (",
+        "widget": "date"
+      }
+    },
+    "endDateOfTerm2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "END DATE OF TERM (",
+        "widget": "date"
+      }
+    },
+    "iWasEnrolledAsCertifiedByMySchoolSinceTheLastVeri": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I WAS ENROLLED AS CERTIFIED BY MY SCHOOL SINCE THE LAST VERI",
+        "widget": "text"
+      }
+    },
+    "10aDateOfChangeInHours": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "10A. DATE OF CHANGE IN HOURS (",
+        "widget": "date"
+      }
+    },
+    "ifYouHaveChangedTheNumberOfHoursIncreaseOrDecreas": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YOU HAVE CHANGED THE NUMBER OF HOURS (increase or decreas",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "completionOfThisForm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COMPLETION OF THIS FORM",
+        "widget": "text"
+      }
+    },
+    "step_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 1",
+        "widget": "text"
+      }
+    },
+    "step_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 2",
+        "widget": "text"
+      }
+    },
+    "step_3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 3",
+        "widget": "text"
+      }
+    },
+    "step_4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 4",
+        "widget": "text"
+      }
+    },
+    "step_5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 5",
+        "widget": "text"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-8979-are.pdf",
+    "status": "digitized",
+    "totalFields": 58,
+    "composedFields": 58,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:19.057Z",
+    "redigitizedAt": "2026-03-30T20:39:03.874Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5345",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaccinationDoseLotNumberDateAndLocation": {
+      "type": "string",
+      "format": "date"
+    },
+    "radiologyReportsNameAndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "labResultsDateRange": {
+      "type": "string",
+      "format": "date"
+    },
+    "specificTestsNameAndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "operativeClinicalProceduresNameAndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "progressNotesDateRange": {
+      "type": "string",
+      "format": "date"
+    },
+    "specificProvidersNameAndDateRange": {
+      "type": "string",
+      "format": "date"
+    },
+    "specificClinicsNameAndDateRange": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfExpirationEnterAFutureDateOtherThanDateSignedByPatient": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateReleased": {
+      "type": "string",
+      "format": "date"
+    },
+    "iUnderstandThatInformationOnTheseSensitiveDiagnosesMayBeReleasedForTreatmentPurposesWithoutMeCheckingTheAboveBoxesAndWillBeReleasedEvenIfTheBoxesAreUncheckedUnlessIIndicateByCheckingTheBoxBelowThatIDoNotWantThisInformationReleasedForThisSpecificDisclosureIDoNotWantSensitiveDiagnosesReleasedForTreatmentPurposesUnderThisSpecificAuthorizationIRealizeThisDoesNotImpactOtherFutureRequestsUnrelatedToThisAuthorization": {
+      "type": "boolean"
+    },
+    "expirationWithoutMyExpressRevocationTheAuthorizationWillAutomaticallyExpireSelectOneOfTheFollowingUnderTheFollowingConditions": {
+      "type": "string"
+    },
+    "followingConditionsLine2Of2": {
+      "type": "string"
+    },
+    "patientMedicalRecordsDates": {
+      "type": "string"
+    },
+    "purposesOrNeedInformationIsToBeUsedByTheRequestorForTreatment": {
+      "type": "string"
+    },
+    "relationshipToPatient": {
+      "type": "string"
+    },
+    "otherDescribeBelow": {
+      "type": "string"
+    },
+    "administrativeRecords": {
+      "type": "string"
+    },
+    "labResults": {
+      "type": "string"
+    },
+    "progressNotes": {
+      "type": "string"
+    },
+    "employment": {
+      "type": "string"
+    },
+    "benefits": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "printNameOfLegalRepresentative": {
+      "type": "string"
+    },
+    "releasedBy": {
+      "type": "string"
+    },
+    "humanImmunodeficiencyVirusHIV": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-5345_Fillable.pdf",
+    "totalFields": 63,
+    "composedFields": 49,
+    "coveragePercent": 78,
+    "xfaLabelCount": 33,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:34:44.256Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

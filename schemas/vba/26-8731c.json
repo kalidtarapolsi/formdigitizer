@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8731c",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "phone1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone1",
+        "widget": "text"
+      }
+    },
+    "date1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date1",
+        "widget": "text"
+      }
+    },
+    "pressureNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Pressure No",
+        "widget": "checkbox"
+      }
+    },
+    "pressureYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Pressure Yes",
+        "widget": "checkbox"
+      }
+    },
+    "fixtureNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Fixture No",
+        "widget": "checkbox"
+      }
+    },
+    "fixtureNa": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Fixture N A",
+        "widget": "checkbox"
+      }
+    },
+    "fixtureYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Fixture Yes",
+        "widget": "checkbox"
+      }
+    },
+    "floodTestNa": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Flood Test N A",
+        "widget": "checkbox"
+      }
+    },
+    "floodTestNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Flood Test No",
+        "widget": "checkbox"
+      }
+    },
+    "floodTestYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Flood Test Yes",
+        "widget": "checkbox"
+      }
+    },
+    "airTestNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Air Test No",
+        "widget": "checkbox"
+      }
+    },
+    "airTestYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Air Test Yes",
+        "widget": "checkbox"
+      }
+    },
+    "noteToInspector": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE TO INSPECTOR",
+        "widget": "text"
+      }
+    },
+    "heatProducingAppliancesHeatProducingAppliancesAre": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HEAT PRODUCING APPLIANCES  -  Heat producing appliances are",
+        "widget": "text"
+      }
+    },
+    "circulatingAirSystemAirTightnessASupplyDuctSys": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CIRCULATING AIR SYSTEM -  AIR TIGHTNESS -  A supply duct sys",
+        "widget": "text"
+      }
+    },
+    "appliance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "appliance.",
+        "widget": "radio"
+      }
+    },
+    "nameOfInspectornameAndAddressOfFirm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF INSPECTORNAME AND ADDRESS OF FIRM",
+        "widget": "address"
+      }
+    },
+    "licenseNo": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "LICENSE NO.",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8731c-are.pdf",
+    "status": "digitized",
+    "totalFields": 18,
+    "composedFields": 18,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:15.907Z",
+    "redigitizedAt": "2026-03-30T20:39:29.521Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

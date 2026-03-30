@@ -1,0 +1,252 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10219",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameWorkStudy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page2 Name Work Study",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "totalHours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page2 Total Hours",
+        "widget": "text"
+      }
+    },
+    "numberStudents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page2 Number Students",
+        "widget": "text"
+      }
+    },
+    "signatureField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page2 Signature Field1",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page3 Date",
+        "widget": "text"
+      }
+    },
+    "numericField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page3 Numeric Field1",
+        "widget": "text"
+      }
+    },
+    "dateApproval": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page3 Date Approval",
+        "widget": "text"
+      }
+    },
+    "signatureField12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page3 Signature Field1",
+        "widget": "text"
+      }
+    },
+    "items_1aAnd_1b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Items #1A and #1B",
+        "widget": "text"
+      }
+    },
+    "items_2a_2bAnd_2c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Items #2A, #2B and #2C",
+        "widget": "text"
+      }
+    },
+    "items_3a_3bAnd_3c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Items #3A, #3B and #3C",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "items_4aThrough_5b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Items #4A through #5B",
+        "widget": "text"
+      }
+    },
+    "item_6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item #6",
+        "widget": "text"
+      }
+    },
+    "item_7a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item #7A",
+        "widget": "text"
+      }
+    },
+    "item_7b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item #7B",
+        "widget": "text"
+      }
+    },
+    "item_7c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item #7C",
+        "widget": "text"
+      }
+    },
+    "item_8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item #8",
+        "widget": "text"
+      }
+    },
+    "printName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Print Name",
+        "widget": "text"
+      }
+    },
+    "pleaseCheckTheAppropriateBoxThatIdentifiesTheFacilit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE CHECK THE APPROPRIATE BOX THAT IDENTIFIES THE FACILIT",
+        "widget": "text"
+      }
+    },
+    "pleaseNote": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE NOTE",
+        "widget": "text"
+      }
+    },
+    "4b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4B.",
+        "widget": "text"
+      }
+    },
+    "5b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "5B.",
+        "widget": "date"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature",
+        "widget": "signature"
+      }
+    },
+    "questions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "QUESTIONS",
+        "widget": "text"
+      }
+    },
+    "dateVaReceivedWorkStudyWorkSiteApplication": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE VA RECEIVED WORK STUDY WORK SITE APPLICATION:",
+        "widget": "date"
+      }
+    },
+    "dateOfApproval": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF APPROVAL:",
+        "widget": "date"
+      }
+    },
+    "totalFacilityHoursApproved": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL FACILITY HOURS APPROVED",
+        "widget": "text"
+      }
+    },
+    "pleaseAttachACopyOfYourWorkSiteDutiesActivities": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE ATTACH A COPY OF YOUR WORK SITE DUTIES/ACTIVITIES.",
+        "widget": "text"
+      }
+    },
+    "pleaseStateReasonSForDisapproval": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Please state reason(s) for disapproval",
+        "widget": "select"
+      }
+    },
+    "signatureOfVaEmployeeApprovingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VA EMPLOYEE/APPROVING OFFICIAL",
+        "widget": "signature"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10219-are.pdf",
+    "status": "digitized",
+    "totalFields": 32,
+    "composedFields": 32,
+    "coveragePercent": 94,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 2,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:37:51.448Z",
+    "redigitizedAt": "2026-03-30T20:39:17.330Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

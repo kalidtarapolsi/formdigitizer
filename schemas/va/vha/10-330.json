@@ -1,0 +1,306 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-330",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME:",
+        "widget": "text"
+      }
+    },
+    "dateOfRequest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF REQUEST",
+        "widget": "text"
+      }
+    },
+    "position": {
+      "type": "string",
+      "x-va-field": {
+        "label": "POSITION:",
+        "widget": "text"
+      }
+    },
+    "applicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT:",
+        "widget": "text"
+      }
+    },
+    "assignmentSpecialty_6DutyStation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ASSIGNMENT/SPECIALTY:6. DUTY STATION:",
+        "widget": "text"
+      }
+    },
+    "emailAddress_8TelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS:8. TELEPHONE NUMBER:",
+        "widget": "text"
+      }
+    },
+    "topmostSubformPage1CheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "supervisor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUPERVISOR:",
+        "widget": "text"
+      }
+    },
+    "pleaseIdentifyWhatTheEmployeeIsRequestingToBeExcuse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE IDENTIFY WHAT THE EMPLOYEE IS REQUESTING TO BE EXCUSE",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Note",
+        "widget": "text"
+      }
+    },
+    "specificallyWhatAspectsOfCare": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPECIFICALLY, WHAT ASPECTS OF CARE",
+        "widget": "text"
+      }
+    },
+    "topmostSubformSubformSubformSubformSubformSubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform #subform #subform #subform #subform #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER",
+        "widget": "text"
+      }
+    },
+    "whatIsTheChangeBeingRequestedToAlleviateTheConflict": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHAT IS THE CHANGE BEING REQUESTED TO ALLEVIATE THE CONFLICT",
+        "widget": "text"
+      }
+    },
+    "aForApprovedRequests": {
+      "type": "string",
+      "x-va-field": {
+        "label": "A. FOR APPROVED REQUESTS (",
+        "widget": "text"
+      }
+    },
+    "bySigning": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BY SIGNING",
+        "widget": "text"
+      }
+    },
+    "topmostSubformSubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "iAcknowledgeThatMyRequestIsAccuratelyReflectedInThi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I acknowledge that my request is accurately reflected in thi",
+        "widget": "text"
+      }
+    },
+    "iAmAttestingThatPerformingTheAboveIndicatedFunctions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I am attesting that performing the above indicated functions",
+        "widget": "text"
+      }
+    },
+    "employeeApplicantSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMPLOYEE/APPLICANT SIGNATURE",
+        "widget": "text"
+      }
+    },
+    "wasADiscussionHeldBetweenDmoAndEmployeeApplicantN": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WAS A DISCUSSION HELD BETWEEN DMO AND EMPLOYEE/APPLICANT? (N",
+        "widget": "text"
+      }
+    },
+    "ifYesPleaseDescribe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YES, PLEASE DESCRIBE",
+        "widget": "text"
+      }
+    },
+    "decision": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DECISION",
+        "widget": "text"
+      }
+    },
+    "identifyTheApprovalProvided": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IDENTIFY THE APPROVAL PROVIDED:",
+        "widget": "text"
+      }
+    },
+    "describeWhatWasApproved": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DESCRIBE WHAT WAS APPROVED:",
+        "widget": "text"
+      }
+    },
+    "ifTheApprovalInvolvesChangesDifferentFromThoseOrigin": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF THE APPROVAL INVOLVES CHANGES DIFFERENT FROM THOSE ORIGIN",
+        "widget": "text"
+      }
+    },
+    "theBasisForOfferingAnAlternative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE BASIS FOR OFFERING AN ALTERNATIVE",
+        "widget": "text"
+      }
+    },
+    "wasTheAlternativeApproval": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WAS THE ALTERNATIVE APPROVAL:",
+        "widget": "text"
+      }
+    },
+    "ifItWasRejectedByTheEmployeeApplicantStateTheBasi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF IT WAS REJECTED BY THE EMPLOYEE/APPLICANT, STATE THE BASI",
+        "widget": "select"
+      }
+    },
+    "allDenialsMustBeDiscussedWithBothTheRacAndOgcAfte": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ALL DENIALS MUST BE DISCUSSED WITH BOTH THE RAC AND OGC AFTE",
+        "widget": "text"
+      }
+    },
+    "requestIsDeniedOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REQUEST IS DENIED OR",
+        "widget": "radio"
+      }
+    },
+    "dmoName_2DmoSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DMO NAME:2. DMO SIGNATURE:",
+        "widget": "signature"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE",
+        "widget": "date"
+      }
+    },
+    "employeeApplicantSignature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMPLOYEE/APPLICANT SIGNATURE:",
+        "widget": "signature"
+      }
+    },
+    "followAllFilingTimeLimitsAndRequirements": {
+      "type": "string",
+      "x-va-field": {
+        "label": "follow all filing time limits and requirements",
+        "widget": "text"
+      }
+    },
+    "providedBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PROVIDED BELOW",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-330.pdf",
+    "totalFields": 40,
+    "composedFields": 40,
+    "coveragePercent": 93,
+    "xfaLabelCount": 6,
+    "needsReviewCount": 3,
+    "generatedAt": "2026-03-28T21:06:39.224Z",
+    "pageCount": 3,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:14.264Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

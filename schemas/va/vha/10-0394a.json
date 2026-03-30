@@ -1,0 +1,164 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0394A",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "radioButtonList1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List1",
+        "widget": "text"
+      }
+    },
+    "attention": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ATTENTION",
+        "widget": "text"
+      }
+    },
+    "isLoanInDefermentForbearanceRefersTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS LOAN IN DEFERMENT/FORBEARANCE? (Refers to",
+        "widget": "text"
+      }
+    },
+    "untilASpecified": {
+      "type": "string",
+      "x-va-field": {
+        "label": "until a specified",
+        "widget": "text"
+      }
+    },
+    "currentBalance4DateOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT BALANCE4. DATE OF LOAN",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "nameOfLendingInstitutionAndOrFederalStateProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF LENDING INSTITUTION AND/OR FEDERAL/STATE PROGRAM",
+        "widget": "text"
+      }
+    },
+    "dateDeferrmentEnds13AnnualPercentageRateApr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE DEFERRMENT  ENDS13.  ANNUAL PERCENTAGE  RATE (APR)",
+        "widget": "text"
+      }
+    },
+    "ifYourLoanHasBeenSoldOrTransferredToAnotherLende": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF  YOUR LOAN  HAS BEEN SOLD OR TRANSFERRED TO ANOTHER LENDE",
+        "widget": "text"
+      }
+    },
+    "signatureOfApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPLICANT",
+        "widget": "text"
+      }
+    },
+    "accountNumber6OriginalAmountOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ACCOUNT NUMBER6. ORIGINAL AMOUNT OF LOAN",
+        "widget": "text"
+      }
+    },
+    "numberOfPaymentsMade9PaymentAmount8DateOfBalance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF PAYMENTS MADE9. PAYMENT AMOUNT8. DATE OF BALANCE",
+        "widget": "text"
+      }
+    },
+    "nameOfApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF APPLICANT",
+        "widget": "text"
+      }
+    },
+    "purposeOfTheLoanAsIndicatedOnTheLoanApplication": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PURPOSE OF THE LOAN AS INDICATED ON THE LOAN APPLICATION",
+        "widget": "text"
+      }
+    },
+    "hasYourLoanBeenReferredToACollectionAgencyOrPlaced": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS YOUR LOAN BEEN REFERRED TO A COLLECTION AGENCY OR PLACED",
+        "widget": "text"
+      }
+    },
+    "warning": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WARNING",
+        "widget": "text"
+      }
+    },
+    "certificationByApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION BY APPLICANT",
+        "widget": "text"
+      }
+    },
+    "lendingInstitutionPleaseReturnThisCompletedFormWith": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LENDING INSTITUTION - Please return this completed form with",
+        "widget": "text"
+      }
+    },
+    "signatureOfLender": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF LENDER",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394A-fill.pdf",
+    "totalFields": 20,
+    "composedFields": 20,
+    "coveragePercent": 95,
+    "xfaLabelCount": 1,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:30:31.201Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:39.310Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

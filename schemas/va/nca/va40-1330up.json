@@ -1,0 +1,321 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA40-1330UP",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "first": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform F I R S T",
+        "widget": "text"
+      }
+    },
+    "middle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M I D D L E",
+        "widget": "text"
+      }
+    },
+    "last": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L A S T",
+        "widget": "text"
+      }
+    },
+    "suffix": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S U F F I X",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "serviceNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S E R V I C E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "placeBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P L A C E B I R T H",
+        "widget": "text"
+      }
+    },
+    "raceorethnicity": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform R A C E O R E T H N I C I T Y",
+        "widget": "checkbox"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R",
+        "widget": "text"
+      }
+    },
+    "nameAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P H O N E",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform E M A I L",
+        "widget": "text"
+      }
+    },
+    "fullName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform F U L L N A M E",
+        "widget": "text"
+      }
+    },
+    "relationship": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Relationship",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "benefitProvided": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BENEFIT PROVIDED",
+        "widget": "text"
+      }
+    },
+    "aCommemorativeUrn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "a. COMMEMORATIVE URN",
+        "widget": "text"
+      }
+    },
+    "inscriptionOfTheVeteranSName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "inscription of the Veteran’s name,",
+        "widget": "text"
+      }
+    },
+    "bCommemorativePlaque": {
+      "type": "string",
+      "x-va-field": {
+        "label": "b. COMMEMORATIVE PLAQUE",
+        "widget": "text"
+      }
+    },
+    "mailClaimsTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAIL claims to",
+        "widget": "text"
+      }
+    },
+    "askVaGov": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ask.va.gov.",
+        "widget": "radio"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "typeOfProductRequested": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TYPE OF PRODUCT REQUESTED",
+        "widget": "text"
+      }
+    },
+    "nameOfDeceasedVeteranToBeCommemorated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF DECEASED VETERAN TO BE COMMEMORATED",
+        "widget": "text"
+      }
+    },
+    "veteranSSocialSecurityNo_999_99_9999AndOrServiceN": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "VETERAN'S SOCIAL SECURITY NO. (999-99-9999) AND/OR SERVICE N",
+        "widget": "ssn"
+      }
+    },
+    "ssn2": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN",
+        "widget": "ssn"
+      }
+    },
+    "placeOfBirthCityAndStateOrCountry": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "PLACE OF BIRTH (City and State or Country)",
+        "widget": "date"
+      }
+    },
+    "veteranSRaceAndOrEthnicityYouMaySelectMoreThanOn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S RACE AND/OR ETHNICITY (You may select more than on",
+        "widget": "text"
+      }
+    },
+    "sexInformationWillBeUsedForStatisticalPurposesOnly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SEX (Information will be used for statistical purposes only)",
+        "widget": "text"
+      }
+    },
+    "7a": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "7A.",
+        "widget": "date"
+      }
+    },
+    "7b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "7B.",
+        "widget": "date"
+      }
+    },
+    "8aDateEnteredMmDdYyyy_8bDateSeparated": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "8A. DATE ENTERED (MM/DD/YYYY)8B. DATE SEPARATED (",
+        "widget": "date"
+      }
+    },
+    "branchOfServiceSelectOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BRANCH OF SERVICE (Select one)",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (Specify)",
+        "widget": "text"
+      }
+    },
+    "benefitsForfeitedInLieuOfACommemorativeUrnOrPlaque": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BENEFITS FORFEITED IN-LIEU OF A COMMEMORATIVE URN OR PLAQUE",
+        "widget": "text"
+      }
+    },
+    "certification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "signatureOfApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPLICANT",
+        "widget": "signature"
+      }
+    },
+    "dateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-1330UP.pdf",
+    "totalFields": 41,
+    "composedFields": 41,
+    "coveragePercent": 95,
+    "xfaLabelCount": 18,
+    "needsReviewCount": 2,
+    "generatedAt": "2026-03-28T21:23:58.046Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:58.435Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

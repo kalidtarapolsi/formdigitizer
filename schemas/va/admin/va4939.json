@@ -1,0 +1,399 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA4939",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "complaintCaseNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COMPLAINT CASE NUMBER",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONDENT BURDEN",
+        "widget": "text"
+      }
+    },
+    "nameLastFirstMiddleInitialPleasePrint": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME (Last, first, middle initial)(Please print)",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS",
+        "widget": "text"
+      }
+    },
+    "mailingAddress4aWorkTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS4a. WORK TELEPHONE NUMBER",
+        "widget": "text"
+      }
+    },
+    "primaryTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIMARY TELEPHONE NUMBER",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field5",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field6": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field6",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field7": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field7",
+        "widget": "checkbox"
+      }
+    },
+    "areYou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ARE YOU:",
+        "widget": "text"
+      }
+    },
+    "jobTitleSeriesAndGrade": {
+      "type": "string",
+      "x-va-field": {
+        "label": "JOB TITLE, SERIES AND GRADE",
+        "widget": "text"
+      }
+    },
+    "serviceSectionProductLine": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICE/SECTION/PRODUCT LINE",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfVaFacilityWhere": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF VA FACILITY WHERE",
+        "widget": "text"
+      }
+    },
+    "basis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BASIS",
+        "widget": "text"
+      }
+    },
+    "claimS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIM(S)",
+        "widget": "text"
+      }
+    },
+    "dateOf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field15": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field15",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field16": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field16",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field17": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field17",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field18": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field18",
+        "widget": "checkbox"
+      }
+    },
+    "recent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "recent",
+        "widget": "text"
+      }
+    },
+    "remediesSoughtUseAnAdditionalSheetOfPaperIfNecessa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMEDIES SOUGHT (Use an additional sheet of paper if necessa",
+        "widget": "text"
+      }
+    },
+    "doYouHaveARepresentative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU HAVE A REPRESENTATIVE?",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field20": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field20",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field21": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field21",
+        "widget": "checkbox"
+      }
+    },
+    "ifYesIsHeOrSheAnAttorney": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF \"YES,\" IS HE OR SHE AN ATTORNEY?",
+        "widget": "text"
+      }
+    },
+    "provideTheNameAndAddressOfYour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PROVIDE THE NAME AND ADDRESS OF YOUR",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field24": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field24",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field25": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field25",
+        "widget": "checkbox"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field27": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field27",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field28": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field28",
+        "widget": "checkbox"
+      }
+    },
+    "haveYouContactedAnEeo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU CONTACTED AN EEO",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field30": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field30",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field31": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field31",
+        "widget": "checkbox"
+      }
+    },
+    "nameOfEeoCounselor13cDateOfInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF EEO COUNSELOR13c. DATE OF INITIAL",
+        "widget": "text"
+      }
+    },
+    "ifYouContactedAnEeoCounselorMoreThan_45CalendarDays": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If you contacted an EEO Counselor more than 45 calendar days",
+        "widget": "text"
+      }
+    },
+    "haveYouFiledAUnion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU FILED A UNION",
+        "widget": "text"
+      }
+    },
+    "ifYesListTheClaimS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF \"YES,\" LIST THE CLAIM(S)",
+        "widget": "text"
+      }
+    },
+    "and": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "AND",
+        "widget": "date"
+      }
+    },
+    "haveYouFiledAnAppealWithThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU FILED AN APPEAL WITH THE",
+        "widget": "text"
+      }
+    },
+    "ifYesListTheIssueS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF \"YES,\" LIST THE ISSUE(S)",
+        "widget": "text"
+      }
+    },
+    "haveYouFiledThisComplaint": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU FILED THIS COMPLAINT",
+        "widget": "text"
+      }
+    },
+    "ifYesProvideTheNameAndAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF \"YES,\" PROVIDE THE NAME AND ADDRESS",
+        "widget": "address"
+      }
+    },
+    "signatureOfComplainantSignInInkDoNotPrint_19Dat": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF COMPLAINANT (Sign in ink.  Do not print)19. DAT",
+        "widget": "signature"
+      }
+    },
+    "general": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GENERAL",
+        "widget": "text"
+      }
+    },
+    "itIsVeryImportantThatYouBePreciseAsToThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "It is very important that you be precise as to the",
+        "widget": "date"
+      }
+    },
+    "ofTheEffective": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "of the effective",
+        "widget": "date"
+      }
+    },
+    "representation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REPRESENTATION",
+        "widget": "text"
+      }
+    },
+    "whenToFile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHEN TO FILE",
+        "widget": "text"
+      }
+    },
+    "whereToFile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHERE TO FILE",
+        "widget": "text"
+      }
+    },
+    "privacyActStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT STATEMENT",
+        "widget": "select"
+      }
+    },
+    "respondentBurdenStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONDENT BURDEN STATEMENT",
+        "widget": "select"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4939.pdf",
+    "totalFields": 53,
+    "composedFields": 53,
+    "coveragePercent": 100,
+    "xfaLabelCount": 35,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:24:57.580Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:28:30.534Z",
+    "extractionSources": [
+      "acroform+text-inference",
+      "acroform",
+      "text-inference"
+    ]
+  }
+}

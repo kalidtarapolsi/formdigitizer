@@ -1,0 +1,262 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-0810",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "applicantsName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Applicants Name",
+        "widget": "text"
+      }
+    },
+    "daytimePhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Daytime Phone",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 V A File Number",
+        "widget": "text"
+      }
+    },
+    "nameOfExam": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Name Of Exam",
+        "widget": "text"
+      }
+    },
+    "organization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Organization",
+        "widget": "text"
+      }
+    },
+    "itemizeExamCost": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Itemize Exam Cost",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Remarks",
+        "widget": "text"
+      }
+    },
+    "education": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Education",
+        "widget": "text"
+      }
+    },
+    "eveningPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Evening Phone",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Address",
+        "widget": "text"
+      }
+    },
+    "dateExamTaken": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Exam Taken",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature1",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCodeIndicateHoursYouCan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code) (Indicate hours you can",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberOfApplicant": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER OF APPLICANT",
+        "widget": "ssn"
+      }
+    },
+    "remarksOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (Optional)",
+        "widget": "text"
+      }
+    },
+    "applicantSNameFirstMiddleInitialLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT'S NAME (First, Middle Initial, Last Name)",
+        "widget": "text"
+      }
+    },
+    "organizationGivingExamIndicateIfTakenOnline": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ORGANIZATION GIVING EXAM (Indicate if taken online)",
+        "widget": "text"
+      }
+    },
+    "signatureOfApplicantSignInInk_13DateSignedMmDdY": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPLICANT (Sign in ink)13. DATE SIGNED (MM/DD/Y",
+        "widget": "date"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "itemizeExamCostIncludingFeesAttachExamReceipt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEMIZE EXAM COST INCLUDING FEES (Attach exam receipt)",
+        "widget": "text"
+      }
+    },
+    "nameOfExam2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF EXAM",
+        "widget": "text"
+      }
+    },
+    "dateExamTaken2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE EXAM TAKEN",
+        "widget": "date"
+      }
+    },
+    "item_9ShowThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "ITEM 9. Show the",
+        "widget": "date"
+      }
+    },
+    "forRequiredExamFeesWeHave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "for required exam fees.) We have",
+        "widget": "radio"
+      }
+    },
+    "item_12And_13SignAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "ITEM 12 AND 13. Sign and",
+        "widget": "date"
+      }
+    },
+    "moreHelp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MORE HELP",
+        "widget": "text"
+      }
+    },
+    "addressesShownBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "addresses shown below.",
+        "widget": "address"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0810-are.pdf",
+    "status": "digitized",
+    "totalFields": 33,
+    "composedFields": 33,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:38:21.967Z",
+    "redigitizedAt": "2026-03-30T20:39:33.095Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

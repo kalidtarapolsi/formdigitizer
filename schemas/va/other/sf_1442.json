@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SF 1442",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "performanceRequirementsAndDocumentInfoForTheDescribedWorkIncludeTheDocumentTitleIdentifyingNumberAndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateIssued": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateWhenTheSealedOriginalsAndCopiesWillNoLongerBeAccepted": {
+      "type": "string",
+      "format": "date"
+    },
+    "numberOfCalendarDaysThatProvideLessThanTheMinimumNumberRequiredForGovernmentAcceptanceForAnyOffersReceivedAfterTheDateTheOffersAreDueTheseOffersWillNotBeConsideredAndWillBeRejected": {
+      "type": "string",
+      "format": "date"
+    },
+    "secondAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "thirdAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "fifthAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "sixthAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "seventhAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "eighthAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "ninthAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "tenthAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "offerDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "ifYouAreThePersonAuthorizedToSign": {
+      "type": "string",
+      "format": "date"
+    },
+    "ifYouAreTheContractingOfficer": {
+      "type": "string",
+      "format": "date"
+    },
+    "fourthAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "firstAmendmentNumberDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "clickHereToSelectSealedBidIfbInvitationForBidForThe": {
+      "type": "string"
+    },
+    "clickHereToSelectNegotiatedRfpRequestForProposalForThe": {
+      "type": "string"
+    },
+    "clickHereToSelectAwardForThe": {
+      "type": "string"
+    },
+    "clickHereToSelectYesTheContractorMustFurnishAnyRequiredPerformanceAndPaymentBonds": {
+      "type": "string"
+    },
+    "clickHereToSelectIsForRequiringAnOfferGuarantee": {
+      "type": "string"
+    },
+    "clickHereToSelectIsNotRequiredForAnOfferGuarantee": {
+      "type": "string"
+    },
+    "clickHereToSelectNoTheContractorDoesNotHaveToFurnishAnyRequiredPerformanceAndPaymentBonds": {
+      "type": "string"
+    },
+    "clickHereToSelectNoticeToProceedForThe": {
+      "type": "string"
+    },
+    "clickHereToSelectMandatoryForThePerformancePeriod": {
+      "type": "string"
+    },
+    "clickHereToSelectNegotiableForThePerformancePeriod": {
+      "type": "string"
+    },
+    "ifYesWasSelectedForItem12a": {
+      "type": "string"
+    },
+    "pricesForTheOfferorToPerformTheWorkRequiredInStrictAccordanceWithTheTermsOfThisSolicitationIfThisOfferIsAcceptedByTheGovernmentInWriting": {
+      "type": "number"
+    },
+    "toBeCompletedByTheGovernment": {
+      "type": "string"
+    },
+    "numberOfCopiesOfSealedOffersNeededToPerformTheWorkRequiredAtThePlaceSpecifiedInItem8": {
+      "type": "string"
+    },
+    "1AnyWorkRequirementsAnd2OtherProvisionsAndClausesIncorporatedInTheSolicitationInFullTextOrByReferenceThatAnyOffersAreSubjectTo": {
+      "type": "string"
+    },
+    "solicitationNumber": {
+      "type": "string"
+    },
+    "contractNumber": {
+      "type": "string"
+    },
+    "infoForWhoIssuedThisSolicitationOfferAndAwardConstructionAlternationOrRepair": {
+      "type": "string"
+    },
+    "requisitionpurchaseRequestNumber": {
+      "type": "string"
+    },
+    "issuedByCode": {
+      "type": "string"
+    },
+    "a": {
+      "type": "string"
+    },
+    "projectNumber": {
+      "type": "string"
+    },
+    "pageNumberForThisPage": {
+      "type": "string"
+    },
+    "totalNumberOfPagesForThisSolicitationOfferAndAwardConstructionAlterationOrRepair": {
+      "type": "string"
+    },
+    "numberOfCalendarDaysTheContractorHasToBeginPerformance": {
+      "type": "string"
+    },
+    "hourLocalTimeWhenTheSealedOriginalsAndCopiesWillNoLongerBeAccepted": {
+      "type": "string"
+    },
+    "numberOfCalendarDaysTheContractorHasToCompletePerformance": {
+      "type": "string"
+    },
+    "regulatoryCla": {
+      "type": "string"
+    },
+    "offerorsCode": {
+      "type": "string"
+    },
+    "firstAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "administeredByCode": {
+      "type": "string"
+    },
+    "secondAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "fourthAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "fifthAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "sixthAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "seventhAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "eighthAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "ninthAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "tenthAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "thirdAmendmentNumberIfApplicable": {
+      "type": "string"
+    },
+    "offerorsFacilityCode": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.gsa.gov/system/files/SF1442-22.pdf",
+    "totalFields": 82,
+    "composedFields": 49,
+    "coveragePercent": 60,
+    "xfaLabelCount": 82,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:12.843Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-0779",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "veteransLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans Last Name",
+        "widget": "text"
+      }
+    },
+    "veteransMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans Middle Initial",
+        "widget": "text"
+      }
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 V A File Number",
+        "widget": "text"
+      }
+    },
+    "claimantsFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Claimants First Name",
+        "widget": "text"
+      }
+    },
+    "claimantsLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Claimants Last Name",
+        "widget": "text"
+      }
+    },
+    "claimantsMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Claimants Middle Initial",
+        "widget": "text"
+      }
+    },
+    "claimantsVaFileNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Claimants V A File Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "addressOfNursingHomeNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Address Of Nursing Home Number And Street",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 City",
+        "widget": "text"
+      }
+    },
+    "apartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "zipOrPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "zipOrPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "country": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Country",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 State Or Province",
+        "widget": "text"
+      }
+    },
+    "signatureField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature Field1",
+        "widget": "text"
+      }
+    },
+    "nursingHomeOfficialsPhoneNumberAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Nursing Home Officials Phone Number Area Code",
+        "widget": "text"
+      }
+    },
+    "nursingHomeOfficialsPhoneMiddleThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Nursing Home Officials Phone Middle Three Numbers",
+        "widget": "text"
+      }
+    },
+    "nursingHomeOfficialPhoneLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Nursing Home Official Phone Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Claimants Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Claimants Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Claimants Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Amount",
+        "widget": "text"
+      }
+    },
+    "amountCents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Amount Cents",
+        "widget": "text"
+      }
+    },
+    "nameOfNursingHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Name Of Nursing Home",
+        "widget": "text"
+      }
+    },
+    "nursingHomeOfficialsName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Nursing Home Officials Name",
+        "widget": "text"
+      }
+    },
+    "nursingHomeOfficialsTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Nursing Home Officials Title",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "iCertifyThatTheClaimantIsAPatientInThisFacilityBe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I CERTIFY THAT THE CLAIMANT IS A PATIENT IN THIS FACILITY BE",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "nameOfNursingHome2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF NURSING HOME",
+        "widget": "text"
+      }
+    },
+    "addressOfNursingHomeNumberAndStreetOrRuralRouteP": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF NURSING HOME (Number and street or rural route, P",
+        "widget": "address"
+      }
+    },
+    "city2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCode": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code",
+        "widget": "zip"
+      }
+    },
+    "stateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/Province",
+        "widget": "select"
+      }
+    },
+    "dateAdmittedToNursingHomeMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE ADMITTED TO NURSING HOME (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "isTheNursingHomeAMedicaidApprovedFacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS THE NURSING HOME A MEDICAID APPROVED FACILITY?",
+        "widget": "text"
+      }
+    },
+    "hasThePatientAppliedForMedicaid": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS THE PATIENT APPLIED FOR MEDICAID?",
+        "widget": "text"
+      }
+    },
+    "14bDateMedicaidPlanBegan": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "14B. DATE MEDICAID PLAN BEGAN (",
+        "widget": "date"
+      }
+    },
+    "monthlyAmountPatientIsResponsibleForOutOfPocket": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MONTHLY AMOUNT PATIENT IS RESPONSIBLE FOR OUT OF POCKET",
+        "widget": "text"
+      }
+    },
+    "nursingHomeOfficialSNameFirstAndLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NURSING HOME OFFICIAL'S NAME (First and Last)",
+        "widget": "text"
+      }
+    },
+    "nursingHomeOfficialSOfficeTelephone": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "NURSING HOME OFFICIAL'S OFFICE TELEPHONE",
+        "widget": "phone"
+      }
+    },
+    "claimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "signatureOfNursingHomeOfficialRequired": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF NURSING HOME OFFICIAL (REQUIRED)",
+        "widget": "signature"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAdmitted": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMedicaidBegan": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0779-are.pdf",
+    "status": "digitized",
+    "totalFields": 68,
+    "composedFields": 59,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:05.155Z",
+    "postProcessedAt": "2026-03-30T20:02:41.687970+00:00",
+    "redigitizedAt": "2026-03-30T20:38:31.961Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

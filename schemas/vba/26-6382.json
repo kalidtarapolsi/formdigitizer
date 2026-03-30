@@ -1,0 +1,335 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6382",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "loanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform loan number",
+        "widget": "text"
+      }
+    },
+    "sellername": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform sellername",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform address",
+        "widget": "text"
+      }
+    },
+    "purchaser": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform purchaser",
+        "widget": "text"
+      }
+    },
+    "coPurchaser": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform co purchaser",
+        "widget": "text"
+      }
+    },
+    "serialNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform serial number",
+        "widget": "text"
+      }
+    },
+    "coserialNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform coserial number",
+        "widget": "text"
+      }
+    },
+    "mortgageDeed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform mortgage deed",
+        "widget": "text"
+      }
+    },
+    "security": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform security",
+        "widget": "text"
+      }
+    },
+    "purchaserAddress1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform purchaser address1",
+        "widget": "text"
+      }
+    },
+    "purchaserAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform purchaser address2",
+        "widget": "text"
+      }
+    },
+    "copurchaserAddress1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform copurchaser address1",
+        "widget": "text"
+      }
+    },
+    "copurchaserAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform copurchaser address2",
+        "widget": "text"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform signature1",
+        "widget": "text"
+      }
+    },
+    "signature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform signature2",
+        "widget": "text"
+      }
+    },
+    "returnAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform return address",
+        "widget": "text"
+      }
+    },
+    "source1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform source1",
+        "widget": "text"
+      }
+    },
+    "source2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform source2",
+        "widget": "text"
+      }
+    },
+    "source3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform source3",
+        "widget": "text"
+      }
+    },
+    "specify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform specify",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "price": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Price",
+        "widget": "text"
+      }
+    },
+    "amountMortgage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Mortgage",
+        "widget": "text"
+      }
+    },
+    "amountPayment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Payment",
+        "widget": "text"
+      }
+    },
+    "amountPaid": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Paid",
+        "widget": "text"
+      }
+    },
+    "amountBorrowed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Borrowed",
+        "widget": "text"
+      }
+    },
+    "statementOfPurchaserOrOwnerAssumingSellerSLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATEMENT OF PURCHASER OR OWNER ASSUMING SELLER'S LOAN",
+        "widget": "text"
+      }
+    },
+    "loanNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOAN NUMBER",
+        "widget": "text"
+      }
+    },
+    "nameOfSeller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF SELLER",
+        "widget": "text"
+      }
+    },
+    "completePropertyAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COMPLETE PROPERTY ADDRESS",
+        "widget": "text"
+      }
+    },
+    "addressComplete": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS (Complete)",
+        "widget": "text"
+      }
+    },
+    "informationOnPurchasersAndSaleOfProperty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INFORMATION ON PURCHASERS AND SALE OF PROPERTY",
+        "widget": "text"
+      }
+    },
+    "attn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Attn",
+        "widget": "text"
+      }
+    },
+    "termsOfSale": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TERMS OF SALE",
+        "widget": "text"
+      }
+    },
+    "listYourAddressesForPast_5Years": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIST YOUR ADDRESSES FOR PAST 5 YEARS",
+        "widget": "address"
+      }
+    },
+    "8b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "8B.",
+        "widget": "date"
+      }
+    },
+    "9bDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "9B. DATE (",
+        "widget": "date"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (Specify)",
+        "widget": "text"
+      }
+    },
+    "certifications": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATIONS",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6382-are.pdf",
+    "status": "digitized",
+    "totalFields": 44,
+    "composedFields": 44,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:41.582Z",
+    "redigitizedAt": "2026-03-30T20:38:46.557Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

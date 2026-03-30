@@ -1,0 +1,534 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1990e",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "yes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 Y E S",
+        "widget": "checkbox"
+      }
+    },
+    "no": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 N O",
+        "widget": "checkbox"
+      }
+    },
+    "collegeOrOtherSchool": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 C O L L E G E O R O T H E R S C H O O L",
+        "widget": "checkbox"
+      }
+    },
+    "vocationalFlightTraining": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 V O C A T I O N A L F L I G H T T R A I N I N G",
+        "widget": "checkbox"
+      }
+    },
+    "nationalTestReimbursementSatClepEtc": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 N A T I O N A L T E S T R E I M B U R S E M E N T S A T C L E P E T C",
+        "widget": "checkbox"
+      }
+    },
+    "licensingOrCertificationTestReimbursement": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 L I C E N S I N G O R C E R T I F I C A T I O N T E S T R E I M B U R S E M E N T",
+        "widget": "checkbox"
+      }
+    },
+    "apprenticeshipOrOnTheJob": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 A P P R E N T I C E S H I P O R O N T H E J O B",
+        "widget": "checkbox"
+      }
+    },
+    "correspondence": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 C O R R E S P O N D E N C E",
+        "widget": "checkbox"
+      }
+    },
+    "tuitionAssistanceTopUp": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 T U I T I O N A S S I S T A N C E T O P U P",
+        "widget": "checkbox"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 S S N",
+        "widget": "text"
+      }
+    },
+    "nameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Name First Middle Initial Last",
+        "widget": "text"
+      }
+    },
+    "numberandStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Numberand Street",
+        "widget": "text"
+      }
+    },
+    "aptUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Apt Unit Number",
+        "widget": "text"
+      }
+    },
+    "cityStateZipcode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 City State Z I P Code",
+        "widget": "text"
+      }
+    },
+    "homePhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Home Phone",
+        "widget": "text"
+      }
+    },
+    "mobilePhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Mobile Phone",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Email",
+        "widget": "text"
+      }
+    },
+    "fullNameAndAddressOfSchoolIfKnown": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 F U L L N A M E A N D A D D R E S S O F S C H O O L I F K N O W N",
+        "widget": "text"
+      }
+    },
+    "specifyYourEducationalOrCareerObjectiveIfKnown": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Specify Your Educational Or Career Objective If Known",
+        "widget": "text"
+      }
+    },
+    "routingOrTransitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Routing Or Transit Number",
+        "widget": "text"
+      }
+    },
+    "accountNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 3 Account Number",
+        "widget": "text"
+      }
+    },
+    "preparatoryCourse": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 3 P R E P A R A T O R Y C O U R S E",
+        "widget": "checkbox"
+      }
+    },
+    "ifYesSpecifyBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 If Yes Specify Below",
+        "widget": "text"
+      }
+    },
+    "nameloc1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 nameloc1",
+        "widget": "text"
+      }
+    },
+    "nameloc2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 nameloc2",
+        "widget": "text"
+      }
+    },
+    "numberandtype1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 numberandtype1",
+        "widget": "text"
+      }
+    },
+    "degree1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 degree1",
+        "widget": "text"
+      }
+    },
+    "degree2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 degree2",
+        "widget": "text"
+      }
+    },
+    "majorfield1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 majorfield1",
+        "widget": "text"
+      }
+    },
+    "majorfield2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 majorfield2",
+        "widget": "text"
+      }
+    },
+    "principalocc1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 principalocc1",
+        "widget": "text"
+      }
+    },
+    "principalocc2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 principalocc2",
+        "widget": "text"
+      }
+    },
+    "licenseorrating1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 licenseorrating1",
+        "widget": "text"
+      }
+    },
+    "licenseorrating2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 licenseorrating2",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Date Signed",
+        "widget": "text"
+      }
+    },
+    "serviceMembersBranchOfService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Service Members Branch Of Service",
+        "widget": "text"
+      }
+    },
+    "months1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 months1",
+        "widget": "text"
+      }
+    },
+    "months2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 months2",
+        "widget": "text"
+      }
+    },
+    "ssn2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 S S N2",
+        "widget": "text"
+      }
+    },
+    "serviceMembersName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Service Members Name2",
+        "widget": "text"
+      }
+    },
+    "numberandStreet2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Numberand Street2",
+        "widget": "text"
+      }
+    },
+    "aptUnitNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Apt Unit Number2",
+        "widget": "text"
+      }
+    },
+    "cityStateZipcode2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 City State Z I P Code2",
+        "widget": "text"
+      }
+    },
+    "datetraing1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 datetraing1",
+        "widget": "text"
+      }
+    },
+    "datetraing4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 datetraing4",
+        "widget": "text"
+      }
+    },
+    "datetraing3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 datetraing3",
+        "widget": "text"
+      }
+    },
+    "datetraing2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 datetraing2",
+        "widget": "text"
+      }
+    },
+    "signatureField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Signature Field1",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "secondClassMedicalCertificateOnThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "second-class medical certificate on the",
+        "widget": "text"
+      }
+    },
+    "step_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 1",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Privacy Act Notice",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "step_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 2",
+        "widget": "text"
+      }
+    },
+    "step_3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 3",
+        "widget": "text"
+      }
+    },
+    "addressesOfTheVaRegionalProcessingOffices": {
+      "type": "string",
+      "x-va-field": {
+        "label": "addresses of the VA Regional Processing Offices.",
+        "widget": "text"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberOfApplicant": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER OF APPLICANT",
+        "widget": "ssn"
+      }
+    },
+    "nameFirstMiddleInitialLast2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "applicantSAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT'S ADDRESS",
+        "widget": "address"
+      }
+    },
+    "sexOfApplicant3ApplicantSDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SEX OF APPLICANT3. APPLICANT'S DATE OF BIRTH",
+        "widget": "date"
+      }
+    },
+    "home": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Home",
+        "widget": "text"
+      }
+    },
+    "directDepositToEnrollInDirectDepositAttachAVoided": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DIRECT DEPOSIT (To enroll in direct deposit, attach a voided",
+        "widget": "text"
+      }
+    },
+    "mobile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Mobile",
+        "widget": "text"
+      }
+    },
+    "ifYesProvideDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(If \"Yes,\" provide date",
+        "widget": "date"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "16b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "16B.",
+        "widget": "date"
+      }
+    },
+    "nameAndLocationOf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND LOCATION OF",
+        "widget": "text"
+      }
+    },
+    "serviceMemberSName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICE MEMBER'S NAME",
+        "widget": "text"
+      }
+    },
+    "serviceMemberSSocialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SERVICE MEMBER'S SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "serviceMemberSAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICE  MEMBER'S ADDRESS",
+        "widget": "address"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1990e-are.pdf",
+    "status": "digitized",
+    "totalFields": 77,
+    "composedFields": 72,
+    "coveragePercent": 99,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:35:07.901Z",
+    "postProcessedAt": "2026-03-30T20:02:41.734103+00:00",
+    "redigitizedAt": "2026-03-30T20:38:03.447Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

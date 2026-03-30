@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-0309",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "nameAndAddress": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "checkingAccount": {
+      "type": "boolean"
+    },
+    "insurancePolicyNumber": {
+      "type": "string"
+    },
+    "nameOfBankOrFinancialInstitution": {
+      "type": "string"
+    },
+    "bankRoutingNumber": {
+      "type": "string"
+    },
+    "bankAccountNumber": {
+      "type": "string"
+    },
+    "savingsAccount": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0309-are.pdf",
+    "status": "digitized",
+    "totalFields": 16,
+    "composedFields": 11,
+    "coveragePercent": 69,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:27.629Z"
+  }
+}

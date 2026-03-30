@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1450",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "hospital": {
+      "type": "string"
+    },
+    "veteransNameLastFirstMiddleInitial": {
+      "type": "string"
+    },
+    "aBloodTestWasPerformedWithTheseResultsHemoglobin": {
+      "type": "string"
+    },
+    "g6pD": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1450-fill.pdf",
+    "totalFields": 6,
+    "composedFields": 4,
+    "coveragePercent": 67,
+    "xfaLabelCount": 6,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:02:10.101Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

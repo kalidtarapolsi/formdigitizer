@@ -1,0 +1,763 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-4502",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "veteransMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Middle Initial",
+        "widget": "text"
+      }
+    },
+    "veteransLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Last Name",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "veteransServiceNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Service Number",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number Area Code",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "country": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Country",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform State Or Province",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform City",
+        "widget": "text"
+      }
+    },
+    "apartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "completeMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Complete Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "ifYesGivePlaceYouAppliedForDisabilityCompensation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform If Yes Give Place You Applied For Disability Compensation",
+        "widget": "text"
+      }
+    },
+    "locationOfVaOfficeThatHasYourFile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Location Of V A Office That Has Your File",
+        "widget": "text"
+      }
+    },
+    "placeOfEntryIntoActiveDurty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Place Of Entry Into Active Durty",
+        "widget": "text"
+      }
+    },
+    "placeOfReleaseFromActiveDuty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Place Of Release From Active Duty",
+        "widget": "text"
+      }
+    },
+    "otherSpecify2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other Specify2",
+        "widget": "text"
+      }
+    },
+    "placeWhereYouAppliedForAnAutomobileOrOtherConveyance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Place Where You Applied For An Automobile Or Other Conveyance",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "iCertifyThatTheVeteranHasNotPreviouslyReceivedAnAllowanceForAutomobileOrOtherConveyanceUnder38USC39013904": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform I Certify That the veteran has not previously received an allowance for automobile or other conveyance under 38 U S C 3901 3904",
+        "widget": "checkbox"
+      }
+    },
+    "makeAndModelOfAutoOrOtherConveyance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Make And Model Of Auto Or Other Conveyance",
+        "widget": "text"
+      }
+    },
+    "nameOfSeller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Seller",
+        "widget": "text"
+      }
+    },
+    "addressOfSeller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address of Seller",
+        "widget": "text"
+      }
+    },
+    "vehicleIdentificationNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Vehicle Identification Number",
+        "widget": "text"
+      }
+    },
+    "nameAndLocationOfVaOffice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name And Location Of V A Office",
+        "widget": "text"
+      }
+    },
+    "titleOfCertifyingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Title Of Certifying Official",
+        "widget": "text"
+      }
+    },
+    "makeAndModelYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Make And Model Year",
+        "widget": "text"
+      }
+    },
+    "totalPurchasePrice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Total Purchase Price",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "theFormMailTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "the form, mail to",
+        "widget": "text"
+      }
+    },
+    "veteranServiceMemberSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/SERVICE MEMBER'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "veteranSServiceNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S SERVICE NUMBER (If applicable)",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCodecountrystateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ZIP Code/Postal CodeCountryState/Province",
+        "widget": "text"
+      }
+    },
+    "cityaptUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CityApt./Unit Number",
+        "widget": "text"
+      }
+    },
+    "typeOfConveyanceAppliedFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TYPE OF CONVEYANCE APPLIED FOR",
+        "widget": "text"
+      }
+    },
+    "branchOfService10AreYouOnActiveDuty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BRANCH OF SERVICE10. ARE YOU ON ACTIVE DUTY?",
+        "widget": "text"
+      }
+    },
+    "12bDateYouApplied": {
+      "type": "string",
+      "x-va-field": {
+        "label": "12B. DATE YOU APPLIED (",
+        "widget": "text"
+      }
+    },
+    "11bDateOfEntry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "11B. DATE OF ENTRY (",
+        "widget": "text"
+      }
+    },
+    "locationOfVaOfficeThatHasYourFileIfKnown": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOCATION OF VA OFFICE THAT HAS YOUR FILE (If known)",
+        "widget": "text"
+      }
+    },
+    "11dDateOfRelease": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11D. DATE OF RELEASE (",
+        "widget": "date"
+      }
+    },
+    "haveYouPreviouslyAppliedForAnAutomobileOrOtherConve": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU PREVIOUSLY APPLIED FOR AN AUTOMOBILE OR OTHER CONVE",
+        "widget": "text"
+      }
+    },
+    "ifYesGiveDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(If \"Yes,\" give date (",
+        "widget": "date"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "signatureOfVeteranOrServiceMemberRequired": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VETERAN OR SERVICE MEMBER (REQUIRED)",
+        "widget": "signature"
+      }
+    },
+    "place": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Place",
+        "widget": "text"
+      }
+    },
+    "stateProvincecountryzipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/ProvinceCountryZIP Code/Postal Code",
+        "widget": "select"
+      }
+    },
+    "authorizationForAllowanceForAutomobileOrOtherConveyan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Authorization for Allowance for Automobile or Other Conveyan",
+        "widget": "text"
+      }
+    },
+    "adaptiveEquipment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Adaptive Equipment",
+        "widget": "text"
+      }
+    },
+    "permanentImpairmentOfVision": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PERMANENT IMPAIRMENT OF VISION",
+        "widget": "text"
+      }
+    },
+    "amyotrophicLateralSclerosis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMYOTROPHIC LATERAL SCLEROSIS",
+        "widget": "text"
+      }
+    },
+    "severeBurnInjury": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SEVERE BURN INJURY",
+        "widget": "text"
+      }
+    },
+    "totalPurchasePrice2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL PURCHASE PRICE",
+        "widget": "text"
+      }
+    },
+    "makeAndModel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAKE AND MODEL",
+        "widget": "text"
+      }
+    },
+    "year": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YEAR",
+        "widget": "text"
+      }
+    },
+    "dateOfSale": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF SALE",
+        "widget": "date"
+      }
+    },
+    "nameOfSeller32AddressOfSeller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF SELLER32. ADDRESS OF SELLER",
+        "widget": "address"
+      }
+    },
+    "33bDateOfReceipt": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "33B. DATE OF RECEIPT (",
+        "widget": "date"
+      }
+    },
+    "vehicleIdentificationNoVin": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VEHICLE IDENTIFICATION NO. (VIN)",
+        "widget": "text"
+      }
+    },
+    "24b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "24B.",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "through": {
+      "type": "string",
+      "x-va-field": {
+        "label": "• through",
+        "widget": "radio"
+      }
+    },
+    "allowanceTowardsPurchaseOfAVehicleVeteransWhoAreR": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Allowance towards purchase of a vehicle - Veterans who are r",
+        "widget": "text"
+      }
+    },
+    "secondAutomobileOrOtherConveyanceIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "second automobile or other conveyance if",
+        "widget": "text"
+      }
+    },
+    "completeAllItemsOfSectionIAndIiAndSubmitToVaSen": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Complete all items of Section I and II and submit to VA. Sen",
+        "widget": "text"
+      }
+    },
+    "thereIs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "There is",
+        "widget": "radio"
+      }
+    },
+    "permanentImpairmentOfVisionInBothE": {
+      "type": "string",
+      "x-va-field": {
+        "label": "• permanent impairment of vision in both e",
+        "widget": "radio"
+      }
+    },
+    "makeSureThatSectionIiiOfVaForm_21_4502IsCompletedA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Make sure that Section III of VA Form 21-4502 is completed a",
+        "widget": "text"
+      }
+    },
+    "submitAnyInvoicesForAdaptiveEquipmentAndOrInstallati": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Submit any invoices for adaptive equipment and/or installati",
+        "widget": "text"
+      }
+    },
+    "reminder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Reminder",
+        "widget": "text"
+      }
+    },
+    "giveTheOriginalVaForm_21_4502ToTheSeller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Give the original VA Form 21-4502 to the seller.",
+        "widget": "text"
+      }
+    },
+    "purchaseAVehicleWhenYouReceiveTheVehicleAndTheAda": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Purchase a vehicle. When you receive the vehicle and the ada",
+        "widget": "text"
+      }
+    },
+    "prostheticAndSensoryAidsServiceAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Prosthetic and Sensory Aids Service at",
+        "widget": "text"
+      }
+    },
+    "specialDriversTrainingIsAvailableForDisabledVeterans": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Special drivers training is available for disabled veterans",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Important",
+        "widget": "text"
+      }
+    },
+    "submitTheOriginalCopyOfVaForm_21_4502AndItemizedInv": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Submit the original copy of VA Form 21-4502 and itemized inv",
+        "widget": "text"
+      }
+    },
+    "itemizedInvoiceShouldIncludeTheFollowing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "itemized invoice should include the following",
+        "widget": "text"
+      }
+    },
+    "obtainTheOriginalCopyOfVaForm_21_4502FromTheVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Obtain the original copy of VA Form 21-4502 from the veteran",
+        "widget": "text"
+      }
+    },
+    "forInitialAutomobileAllowanceGrantsDeliverTheVehicle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "For initial automobile allowance grants, deliver the vehicle",
+        "widget": "text"
+      }
+    },
+    "ifStandardTransmissionSelectedBarWeldedToClutchPeda": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If standard transmission selected, bar welded to clutch peda",
+        "widget": "text"
+      }
+    },
+    "extensionOnBrakePedalFromLeftFootOperationIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Extension on brake pedal from left foot operation if",
+        "widget": "text"
+      }
+    },
+    "handOperatedDimmerSwitch_2HandOperatedParkingBrake": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Hand-operated dimmer switch.2. Hand-operated parking brake",
+        "widget": "text"
+      }
+    },
+    "leftFootOperatedGasPedal_1HandOperatedDimmerSwitch": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Left foot-operated gas pedal.1. Hand-operated dimmer switch",
+        "widget": "text"
+      }
+    },
+    "handOperatedParkingBrake": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Hand-operated parking brake.",
+        "widget": "text"
+      }
+    },
+    "twoWayPowerSeat": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Two-way power seat.",
+        "widget": "text"
+      }
+    },
+    "steeringWheelKnobOrRing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Steering wheel knob or ring.",
+        "widget": "text"
+      }
+    },
+    "handOperatedDimmerSwitch": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Hand-operated dimmer switch.",
+        "widget": "text"
+      }
+    },
+    "handOperatedBrakeAndGasPedalInCombination": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Hand-operated brake and gas pedal in combination.",
+        "widget": "text"
+      }
+    },
+    "relocationOfControlSwitchedAsNeeded": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Relocation of control switched, as needed.",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4502-are.pdf",
+    "status": "digitized",
+    "totalFields": 107,
+    "composedFields": 105,
+    "coveragePercent": 99,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:33:46.271Z",
+    "redigitizedAt": "2026-03-30T20:37:30.210Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7959e",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "lastname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L A S T N A M E",
+        "widget": "text"
+      }
+    },
+    "firstname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform F I R S T N A M E",
+        "widget": "text"
+      }
+    },
+    "middleinitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M I D D L E I N I T I A L",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "streetaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S T R E E T A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "dateofbirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F B I R T H",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C I T Y",
+        "widget": "text"
+      }
+    },
+    "state": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S T A T E",
+        "widget": "text"
+      }
+    },
+    "zip": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Zip",
+        "widget": "text"
+      }
+    },
+    "telephonenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T E L E P H O N E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "sponsorlastname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S P O N S O R L A S T N A M E",
+        "widget": "text"
+      }
+    },
+    "sponsorfirstname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S P O N S O R F I R S T N A M E",
+        "widget": "text"
+      }
+    },
+    "sponsormiddleinitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S P O N S O R M I D D L E I N I T I A L",
+        "widget": "text"
+      }
+    },
+    "sponsorssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S P O N S O R S S N",
+        "widget": "text"
+      }
+    },
+    "dateofservice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F S E R V I C E",
+        "widget": "text"
+      }
+    },
+    "providertaxidnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P R O V I D E R T A X I D N U M B E R",
+        "widget": "text"
+      }
+    },
+    "providersignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P R O V I D E R S I G N A T U R E",
+        "widget": "text"
+      }
+    },
+    "modeoftravel": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform M O D E O F T R A V E L",
+        "widget": "checkbox"
+      }
+    },
+    "mileage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mileage",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R",
+        "widget": "text"
+      }
+    },
+    "dateoftravel1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F T R A V E L1",
+        "widget": "text"
+      }
+    },
+    "departurecity1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E P A R T U R E C I T Y1",
+        "widget": "text"
+      }
+    },
+    "departurestate1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E P A R T U R E S T A T E1",
+        "widget": "text"
+      }
+    },
+    "departuretime1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E P A R T U R E T I M E1",
+        "widget": "text"
+      }
+    },
+    "arrivalcity1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A R R I V A L C I T Y1",
+        "widget": "text"
+      }
+    },
+    "arrivalstate1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A R R I V A L S T A T E1",
+        "widget": "text"
+      }
+    },
+    "arrivaltime1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A R R I V A L T I M E1",
+        "widget": "text"
+      }
+    },
+    "dateoftravel2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F T R A V E L2",
+        "widget": "text"
+      }
+    },
+    "departurecity2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E P A R T U R E C I T Y2",
+        "widget": "text"
+      }
+    },
+    "departurestate2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E P A R T U R E S T A T E2",
+        "widget": "text"
+      }
+    },
+    "departuretime2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E P A R T U R E T I M E2",
+        "widget": "text"
+      }
+    },
+    "arrivalcity2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A R R I V A L C I T Y2",
+        "widget": "text"
+      }
+    },
+    "arrivalstate2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A R R I V A L S T A T E2",
+        "widget": "text"
+      }
+    },
+    "arrivaltime2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A R R I V A L T I M E2",
+        "widget": "text"
+      }
+    },
+    "attendantlastname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A T T E N D A N T L A S T N A M E",
+        "widget": "text"
+      }
+    },
+    "attendantfirstname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A T T E N D A N T F I R S T N A M E",
+        "widget": "text"
+      }
+    },
+    "attendantmiddleinitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A T T E N D A N T M I D D L E I N I T I A L",
+        "widget": "text"
+      }
+    },
+    "relationshiptopatient": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E L A T I O N S H I P T O P A T I E N T",
+        "widget": "text"
+      }
+    },
+    "lodgingamount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L O D G I N G Amount",
+        "widget": "text"
+      }
+    },
+    "otheramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R Amount",
+        "widget": "text"
+      }
+    },
+    "mealsamount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M E A L S Amount",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "datesigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E S I G N E D",
+        "widget": "text"
+      }
+    },
+    "certificationlastname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N L A S T N A M E",
+        "widget": "text"
+      }
+    },
+    "certificationfirstname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N F I R S T N A M E",
+        "widget": "text"
+      }
+    },
+    "certificationmiddleinitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N M I D D L E I N I T I A L",
+        "widget": "text"
+      }
+    },
+    "certificationssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N S S N",
+        "widget": "text"
+      }
+    },
+    "certificationstreetaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N S T R E E T A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "certificationcity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N C I T Y",
+        "widget": "text"
+      }
+    },
+    "certificationstate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N S T A T E",
+        "widget": "text"
+      }
+    },
+    "certificationzip": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N Zip",
+        "widget": "text"
+      }
+    },
+    "certificationtelephonenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N T E L E P H O N E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "attention": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Attention",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Note",
+        "widget": "text"
+      }
+    },
+    "lastNamefirstNamemi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LAST NAMEFIRST NAMEMI",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber_999_99_9999": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER (999-99-9999)",
+        "widget": "ssn"
+      }
+    },
+    "citystate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CITYSTATE",
+        "widget": "select"
+      }
+    },
+    "zipCode_99999_9999": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "ZIP CODE (99999-9999)",
+        "widget": "zip"
+      }
+    },
+    "service": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SERVICE",
+        "widget": "date"
+      }
+    },
+    "povRoundTripMileage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "POV (round trip) (mileage)",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (Specify)",
+        "widget": "text"
+      }
+    },
+    "lastNamefirstNamemirelationshipToPatient": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LAST NAMEFIRST NAMEMIRELATIONSHIP TO PATIENT",
+        "widget": "text"
+      }
+    },
+    "releaseOfMedicalInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Release of Medical Information",
+        "widget": "text"
+      }
+    },
+    "representActualServices": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "represent actual services,",
+        "widget": "date"
+      }
+    },
+    "theInformationSignatureAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "the information, signature and",
+        "widget": "signature"
+      }
+    },
+    "signatureTypeIfElectronicDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SIGNATURE (type if electronic)DATE (",
+        "widget": "date"
+      }
+    },
+    "willHave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "will have",
+        "widget": "radio"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Phone",
+        "widget": "phone"
+      }
+    },
+    "fax": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Fax",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7959e-fill.pdf",
+    "totalFields": 72,
+    "composedFields": 70,
+    "coveragePercent": 100,
+    "xfaLabelCount": 54,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:15:22.400Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:31.419Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

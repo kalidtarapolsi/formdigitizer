@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Research Protocol Safety Survey",
+  "type": "object",
+  "properties": {
+    "veteranFullName": {
+      "type": "string",
+      "description": "Veteran's full name (last, first, middle)"
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "description": "Social Security Number (last 4 digits)"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "description": "VA file number"
+    },
+    "vaFacilityName": {
+      "type": "string",
+      "description": "VA medical facility name"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "protocolTitle": {
+      "type": "string",
+      "description": "Research protocol title"
+    },
+    "protocolNumber": {
+      "type": "string",
+      "description": "Protocol number"
+    },
+    "safetyOfficer": {
+      "type": "string",
+      "description": "Safety officer name"
+    },
+    "hazardsIdentified": {
+      "type": "string",
+      "description": "Hazards identified"
+    },
+    "safetyMeasures": {
+      "type": "string",
+      "description": "Safety measures in place"
+    },
+    "emergencyProcedures": {
+      "type": "string",
+      "description": "Emergency procedures"
+    },
+    "reviewDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Review date"
+    },
+    "approved": {
+      "type": "boolean",
+      "description": "Safety approval status"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0398.pdf",
+    "totalFields": 15,
+    "composedFields": 15,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 6,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0519C-1(Spanish)",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row2 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row3 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row4 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row5 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row6 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row7 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "amount9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "estadoCivilYEducativoDelHijoS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ESTADO CIVIL Y EDUCATIVO DEL HIJO(S)",
+        "widget": "text"
+      }
+    },
+    "elHijo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "el hijo",
+        "widget": "text"
+      }
+    },
+    "listTheChildrenSNames": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(List the children's names,",
+        "widget": "text"
+      }
+    },
+    "notHaveASocialSecurityNumberWrite": {
+      "type": "string",
+      "x-va-field": {
+        "label": "not have a Social Security number, write \"",
+        "widget": "text"
+      }
+    },
+    "recibiUnoDeSusHijosEnEstaAdjudicacionUnSueldoEn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "¿RECIBIÓ UNO DE SUS HIJOS EN ESTA ADJUDICACION UN SUELDO EN",
+        "widget": "text"
+      }
+    },
+    "1eOrNoIsCheckedInItem_1fProvideThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1E or \"NO\" is checked in Item 1F, provide the",
+        "widget": "text"
+      }
+    },
+    "tiempoParaResponder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Tiempo para Responder",
+        "widget": "text"
+      }
+    },
+    "fechaDeCaducidad": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha de Caducidad",
+        "widget": "text"
+      }
+    },
+    "importante": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANTE",
+        "widget": "text"
+      }
+    },
+    "nota": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTA",
+        "widget": "text"
+      }
+    },
+    "if": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(If",
+        "widget": "text"
+      }
+    },
+    "reportAnnualIncomeForTheDatesIndicatedIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Report annual income for the dates indicated. If",
+        "widget": "text"
+      }
+    },
+    "fechasDates": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FECHAS (DATES) (",
+        "widget": "text"
+      }
+    },
+    "fechasDatesMmDdYyyyFechasDates": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FECHAS (DATES) (MM/DD/YYYY)FECHAS (DATES) (",
+        "widget": "text"
+      }
+    },
+    "beneficiariosOHijosReclamantes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Beneficiarios o Hijos Reclamantes",
+        "widget": "text"
+      }
+    },
+    "albaceasDeHijos": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Albaceas de Hijos",
+        "widget": "text"
+      }
+    },
+    "albaceasInstitucionales": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Albaceas Institucionales",
+        "widget": "text"
+      }
+    },
+    "6bFechaDeFirmaDateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "6B. FECHA DE FIRMA (Date signed) (",
+        "widget": "text"
+      }
+    },
+    "gastosMDicosDelHijoLeParrafo_6DeLasInstrucciones": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GASTOS MÉDICOS DEL HIJO (Leá Parrafo 6 de las instrucciones",
+        "widget": "text"
+      }
+    },
+    "gastosEducativosDelHijoLeElParrafo_7DeLasInstrucc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GASTOS EDUCATIVOS DEL HIJO (Leá el Parrafo 7 de las instrucc",
+        "widget": "text"
+      }
+    },
+    "ingresosCambiaronPorEjemplo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ingresos cambiaron; por ejemplo",
+        "widget": "text"
+      }
+    },
+    "whenDidTheIncomeChangeShowThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(When did the income change?) (Show the",
+        "widget": "text"
+      }
+    },
+    "receivedAnyNewIncomeOrThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "received any new income or the",
+        "widget": "text"
+      }
+    },
+    "albaceaCustodian": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ALBACEA (CUSTODIAN)",
+        "widget": "text"
+      }
+    },
+    "sancOn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SANCÍON",
+        "widget": "text"
+      }
+    },
+    "form1Page_1RadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Radio Button List",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable3HeaderRowSubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Header Row #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable3Row6SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row6 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable3Row7SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row7 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformSubformSubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformSubformSubformTextField": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Text Field",
+        "widget": "text"
+      }
+    },
+    "form1SubformRadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row1TextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row2TextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Text Field1",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0519c-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 49,
+    "composedFields": 49,
+    "coveragePercent": 78,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 11,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:31:52.037Z",
+    "redigitizedAt": "2026-03-30T20:35:57.262Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

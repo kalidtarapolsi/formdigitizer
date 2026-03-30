@@ -1,0 +1,157 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491E",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "answer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Answer",
+        "widget": "text"
+      }
+    },
+    "dateTimeField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field1",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "applicantSNameLastFirstMi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Applicant's Name (Last, First, MI)",
+        "widget": "text"
+      }
+    },
+    "returnThisCompletedFormTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Return this completed form to",
+        "widget": "text"
+      }
+    },
+    "hpspviompspscholarshipProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HPSPVIOMPSPScholarship Program",
+        "widget": "text"
+      }
+    },
+    "howDoYouRateTheEducationalWorkAchievementOfThisApp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "How do you rate the educational/work achievement of this app",
+        "widget": "text"
+      }
+    },
+    "howDoYouRateTheApplicantSRelationshipsWithOtherPeo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "How do you rate the applicant's relationships with other peo",
+        "widget": "text"
+      }
+    },
+    "basedOnThisApplicantSPersonalEmotionalEthicalAttri": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Based on this applicant's personal, emotional, ethical attri",
+        "widget": "text"
+      }
+    },
+    "scholarshipRecommendation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Scholarship Recommendation",
+        "widget": "text"
+      }
+    },
+    "comments": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Comments",
+        "widget": "text"
+      }
+    },
+    "conflictOfInterestStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Conflict of Interest Statement",
+        "widget": "text"
+      }
+    },
+    "evaluationRecommendationType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Evaluation/Recommendation Type",
+        "widget": "text"
+      }
+    },
+    "consent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CONSENT",
+        "widget": "text"
+      }
+    },
+    "applicantSSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Applicant's Signature",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "informationFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "information for",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field16",
+        "widget": "text"
+      }
+    },
+    "form1SubformRadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491e-fill%20(Evaluation%20and%20Recommendation)%20(1).pdf",
+    "totalFields": 19,
+    "composedFields": 19,
+    "coveragePercent": 89,
+    "xfaLabelCount": 5,
+    "needsReviewCount": 2,
+    "generatedAt": "2026-03-28T21:29:08.595Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:51.996Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

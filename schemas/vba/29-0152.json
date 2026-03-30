@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-0152",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "nameOfInsuredAndMailingAddress": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateofApplication": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "vaMaticAutomaticCheckingAccountDeduction": {
+      "type": "boolean"
+    },
+    "amountOfInsuranceToBeConverted": {
+      "type": "number"
+    },
+    "termInsuranceAmount": {
+      "type": "number"
+    },
+    "nameOfDisability": {
+      "type": "string"
+    },
+    "policyNumberToBeConverted": {
+      "type": "string"
+    },
+    "monthlyAllotmentFromRetirementActiveServicePay": {
+      "type": "string"
+    },
+    "plan1": {
+      "type": "string"
+    },
+    "plan2": {
+      "type": "string"
+    },
+    "plan3": {
+      "type": "string"
+    },
+    "plan4": {
+      "type": "string"
+    },
+    "plan5": {
+      "type": "string"
+    },
+    "plan6": {
+      "type": "string"
+    },
+    "plan7": {
+      "type": "string"
+    },
+    "plan8": {
+      "type": "string"
+    },
+    "directPaymentToVa": {
+      "type": "string"
+    },
+    "monthlyDeductionFromVaPensionOrCompensation": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "methodMonthly": {
+      "type": "string"
+    },
+    "methodAnnual": {
+      "type": "string"
+    },
+    "no2": {
+      "type": "string"
+    },
+    "yes2": {
+      "type": "string"
+    },
+    "no3": {
+      "type": "string"
+    },
+    "yes3": {
+      "type": "string"
+    },
+    "explain": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0152-are.pdf",
+    "status": "digitized",
+    "totalFields": 33,
+    "composedFields": 14,
+    "coveragePercent": 42,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:37:11.636Z"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA2345",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "date1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date1",
+        "widget": "text"
+      }
+    },
+    "printFormAndMailTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRINT FORM AND MAIL TO",
+        "widget": "text"
+      }
+    },
+    "forAdditionalInformationVisit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "For additional information, visit",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NO.",
+        "widget": "text"
+      }
+    },
+    "thisAddressIs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THIS ADDRESS IS",
+        "widget": "text"
+      }
+    },
+    "sockSizeNo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCK SIZE NO.",
+        "widget": "text"
+      }
+    },
+    "sheathSize": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SHEATH SIZE",
+        "widget": "text"
+      }
+    },
+    "tShirtCottonForShoulderDisarticulationSize": {
+      "type": "string",
+      "x-va-field": {
+        "label": "T-SHIRT, COTTON (for shoulder disarticulation), SIZE:",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA2345.pdf",
+    "totalFields": 9,
+    "composedFields": 9,
+    "coveragePercent": 89,
+    "xfaLabelCount": 2,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:26:53.935Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:24.403Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

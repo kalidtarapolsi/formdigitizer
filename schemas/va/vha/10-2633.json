@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2633",
+  "type": "object",
+  "properties": {
+    "dateOfIncident": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfReport": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateBeneficiaryWasSeenByUndersigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAndTimeReported": {
+      "type": "string",
+      "format": "date"
+    },
+    "theFollowingIsAReportOfAnIncidentAffectingTheBeneficiaryIdentifiedBelow1DescriptionOfIncidentIncludeAgeOfBeneficiaryDateOfAdmissionDiagnosisAndMedications": {
+      "type": "string",
+      "format": "date"
+    },
+    "aDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "clinicDirector": {
+      "type": "string"
+    },
+    "chiefDomiciliaryMedicalService": {
+      "type": "string"
+    },
+    "reportedToPhysician": {
+      "type": "string"
+    },
+    "titleStaffPhysicianOfficerOfTheDayOrChiefDomiciliaryOperations": {
+      "type": "string"
+    },
+    "aTitleChiefOfStaffClinicDirectorOrChiefDomiciliaryMedicalService": {
+      "type": "string"
+    },
+    "titleChiefOfStaffClinicDirectorOrChiefDomiciliaryMedicalService": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "beneficiaryIPInformation": {
+      "type": "string"
+    },
+    "toChiefOfStaff": {
+      "type": "string"
+    },
+    "noteFor": {
+      "type": "string"
+    },
+    "chiefDomiciliaryOperations": {
+      "type": "string"
+    },
+    "officerOfTheDay": {
+      "type": "string"
+    },
+    "reportedToMeByGiveNameAndTitle": {
+      "type": "string"
+    },
+    "timeOfIncident": {
+      "type": "string"
+    },
+    "aToNameAndTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "a": {
+      "type": "string"
+    },
+    "commentsAndRecommendations": {
+      "type": "string"
+    },
+    "investigationIndicated": {
+      "type": "string"
+    },
+    "toDirectorNoFurtherActionIndicated": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "isThisIncidentReportableToVACentralOfficeUnderProvisionOfChapter2SectionADMAndSMP1Part1Yes": {
+      "type": "string"
+    },
+    "noFurtherActionRequired": {
+      "type": "string"
+    },
+    "investigateIncidentAndSubmitReportAndRecommendationToMeBy": {
+      "type": "string"
+    },
+    "submitReportAndRecommendationToMeBy": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2633-fill.pdf",
+    "totalFields": 56,
+    "composedFields": 29,
+    "coveragePercent": 52,
+    "xfaLabelCount": 55,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:08.673Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

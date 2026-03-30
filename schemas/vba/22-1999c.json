@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1999c",
+  "type": "object",
+  "properties": {
+    "emailAddressOfEligiblePerson": {
+      "type": "string"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "school": {
+      "type": "string"
+    },
+    "nameofCourse": {
+      "type": "string"
+    },
+    "dropDownList1": {
+      "type": "string"
+    },
+    "nameofPerson": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1999c-are.pdf",
+    "status": "digitized",
+    "totalFields": 9,
+    "composedFields": 7,
+    "coveragePercent": 78,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:38:54.415Z"
+  }
+}

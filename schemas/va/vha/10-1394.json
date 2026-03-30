@@ -1,0 +1,441 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1394",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "vetName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform vet name",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "vetAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform vet address",
+        "widget": "text"
+      }
+    },
+    "vetPhoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Vet Phone Number",
+        "widget": "text"
+      }
+    },
+    "type1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Type1",
+        "widget": "text"
+      }
+    },
+    "year1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Year1",
+        "widget": "text"
+      }
+    },
+    "make1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Make1",
+        "widget": "text"
+      }
+    },
+    "model1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Model1",
+        "widget": "text"
+      }
+    },
+    "vin1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 V I N1",
+        "widget": "text"
+      }
+    },
+    "dateEquipment1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Date Equipment1",
+        "widget": "text"
+      }
+    },
+    "type2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Type2",
+        "widget": "text"
+      }
+    },
+    "year2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Year2",
+        "widget": "text"
+      }
+    },
+    "make2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Make2",
+        "widget": "text"
+      }
+    },
+    "model2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Model2",
+        "widget": "text"
+      }
+    },
+    "vin2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 V I N2",
+        "widget": "text"
+      }
+    },
+    "dateEquipment2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Date Equipment2",
+        "widget": "text"
+      }
+    },
+    "vetSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Vet Signature",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "dateReceived": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Received",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "providerName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Provider Name",
+        "widget": "text"
+      }
+    },
+    "providerAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Provider Address",
+        "widget": "text"
+      }
+    },
+    "approvingOfficeName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Approving Office Name",
+        "widget": "text"
+      }
+    },
+    "vafacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A Facility",
+        "widget": "text"
+      }
+    },
+    "approvingOfficialSign": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Approving Official Sign",
+        "widget": "text"
+      }
+    },
+    "authorizingOfficeName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Authorizing Office Name",
+        "widget": "text"
+      }
+    },
+    "regionalOffice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Regional Office",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "furnishTheInformationWillHave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "furnish the information will have",
+        "widget": "text"
+      }
+    },
+    "nameOfVeteranServicememberLastNameFirstNameMi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Veteran/Servicemember (Last Name, First Name, MI)",
+        "widget": "text"
+      }
+    },
+    "veteranServicememberSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veteran/Servicemember SSN",
+        "widget": "text"
+      }
+    },
+    "mailingAddressOfVeteranServicememberNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Mailing Address of Veteran/Servicemember (Number and Street",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Telephone Number",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "doYouHaveAValidDriverSLicenseOrPermitInPossession": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Do you have a valid Driver’s License or Permit in possession",
+        "widget": "text"
+      }
+    },
+    "doYouHaveAVaCertificateOfEligibilityVaForm_21_4502": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Do you have a VA Certificate of Eligibility (VA Form 21-4502",
+        "widget": "text"
+      }
+    },
+    "vehicleSForWhichAdaptiveEquipmentIsPrescribedReque": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vehicle(s) for which adaptive equipment is prescribed; reque",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Note",
+        "widget": "text"
+      }
+    },
+    "7g": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "7G.",
+        "widget": "date"
+      }
+    },
+    "certification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "signatureOfVeteranServicemember": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature of Veteran/Servicemember",
+        "widget": "signature"
+      }
+    },
+    "dateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "allDocumentationForPaymentAndReimbursementHasBeenRec": {
+      "type": "string",
+      "x-va-field": {
+        "label": "All documentation for payment and reimbursement has been rec",
+        "widget": "text"
+      }
+    },
+    "dateReceivedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Received (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "areYouApprovingPayment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Are you approving payment?",
+        "widget": "text"
+      }
+    },
+    "amountRequestedForPayment14TotalAmountToBePaidToR": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amount requested for payment14. Total amount to be paid to r",
+        "widget": "text"
+      }
+    },
+    "remitPaymentToRegisteredProvider": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Remit payment to registered provider",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address",
+        "widget": "address"
+      }
+    },
+    "areYouApprovingReimbursement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Are you approving reimbursement?",
+        "widget": "text"
+      }
+    },
+    "amountRequestedForReimbursement18TotalAmountToBeRei": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amount requested for reimbursement18. Total amount to be rei",
+        "widget": "text"
+      }
+    },
+    "approvingOfficeNameAndTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Approving Office Name and Title",
+        "widget": "text"
+      }
+    },
+    "vhaStationCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VHA Station Code",
+        "widget": "text"
+      }
+    },
+    "signatureOfApprovingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature of Approving Official",
+        "widget": "signature"
+      }
+    },
+    "authorizingOfficeNameAndTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Authorizing Office Name and Title",
+        "widget": "text"
+      }
+    },
+    "vbaRegionalOfficeCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VBA Regional Office Code",
+        "widget": "text"
+      }
+    },
+    "signatureOfAuthorizingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature of Authorizing Official",
+        "widget": "signature"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1394-fill.pdf",
+    "totalFields": 59,
+    "composedFields": 59,
+    "coveragePercent": 97,
+    "xfaLabelCount": 32,
+    "needsReviewCount": 2,
+    "generatedAt": "2026-03-28T21:35:08.276Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:01.191Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

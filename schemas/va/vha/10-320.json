@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-320",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "referralAuthorizationNumberIfKnown": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-320.pdf",
+    "totalFields": 8,
+    "composedFields": 7,
+    "coveragePercent": 88,
+    "xfaLabelCount": 8,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:37.087Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

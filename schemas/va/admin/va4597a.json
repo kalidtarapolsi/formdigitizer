@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Equal Opportunity Complaint Activity - Individual Report",
+  "type": "object",
+  "properties": {
+    "employeeName": {
+      "type": "string",
+      "description": "Employee's full name"
+    },
+    "employeeTitle": {
+      "type": "string",
+      "description": "Employee's title/position"
+    },
+    "department": {
+      "type": "string",
+      "description": "Department or service"
+    },
+    "vaFacility": {
+      "type": "string",
+      "description": "VA facility"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "supervisorName": {
+      "type": "string",
+      "description": "Supervisor's name"
+    },
+    "supervisorSignature": {
+      "type": "boolean",
+      "description": "Supervisor's signature"
+    },
+    "employeeSignature": {
+      "type": "boolean",
+      "description": "Employee's signature"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4597a.pdf",
+    "totalFields": 9,
+    "composedFields": 9,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 2,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

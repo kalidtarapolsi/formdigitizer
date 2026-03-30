@@ -1,0 +1,252 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-4555",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "jf01": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F01",
+        "widget": "text"
+      }
+    },
+    "jf02": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F02",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Of Birth",
+        "widget": "text"
+      }
+    },
+    "jf03": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F03",
+        "widget": "text"
+      }
+    },
+    "jf04": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F04",
+        "widget": "text"
+      }
+    },
+    "telephone01": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 T E L E P H O N E01",
+        "widget": "text"
+      }
+    },
+    "telephone02": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 T E L E P H O N E02",
+        "widget": "text"
+      }
+    },
+    "telephone03": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 T E L E P H O N E03",
+        "widget": "text"
+      }
+    },
+    "jf08": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F08",
+        "widget": "text"
+      }
+    },
+    "date05": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date05",
+        "widget": "text"
+      }
+    },
+    "date03": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date03",
+        "widget": "text"
+      }
+    },
+    "jf06": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F06",
+        "widget": "text"
+      }
+    },
+    "date02": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date02",
+        "widget": "text"
+      }
+    },
+    "jf05": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F05",
+        "widget": "text"
+      }
+    },
+    "jf07": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F07",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "firstNameMiddleInitialLastName2SocialSecurityNo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST NAME - MIDDLE INITIAL - LAST NAME2. SOCIAL SECURITY NO",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH",
+        "widget": "text"
+      }
+    },
+    "addressNumberAndStreetOrRuralRoutePOBoxCityS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS (Number and street or rural route, P.O. Box, City, S",
+        "widget": "address"
+      }
+    },
+    "haveYouMadePreviousApplicationForHomeImprovementAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU MADE PREVIOUS APPLICATION FOR HOME IMPROVEMENT AND",
+        "widget": "text"
+      }
+    },
+    "eMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "E-MAIL ADDRESS",
+        "widget": "address"
+      }
+    },
+    "ifYesGiveDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(If \"Yes,\" give date (",
+        "widget": "date"
+      }
+    },
+    "telephoneNumbersOfApplicantIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBERS OF APPLICANT (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "haveYouMadePreviousApplicationForSpeciallyAdaptedHou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU MADE PREVIOUS APPLICATION FOR SPECIALLY ADAPTED HOU",
+        "widget": "text"
+      }
+    },
+    "areYouConfinedToANursingHomeOrMedicalCareFacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ARE YOU CONFINED TO A NURSING HOME OR MEDICAL CARE FACILITY?",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "12bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12B. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-4555-are.pdf",
+    "status": "digitized",
+    "totalFields": 32,
+    "composedFields": 32,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:10.711Z",
+    "redigitizedAt": "2026-03-30T20:39:26.537Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

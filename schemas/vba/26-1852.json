@@ -1,0 +1,2624 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1852",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "reinforcing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Reinforcing",
+        "widget": "text"
+      }
+    },
+    "partyFoundation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Party Foundation",
+        "widget": "text"
+      }
+    },
+    "sills": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Sills",
+        "widget": "text"
+      }
+    },
+    "footingdrains": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Footingdrains",
+        "widget": "text"
+      }
+    },
+    "insulation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform insulation",
+        "widget": "text"
+      }
+    },
+    "foundationvents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform foundationvents",
+        "widget": "text"
+      }
+    },
+    "prefabricated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Prefabricated",
+        "widget": "text"
+      }
+    },
+    "flueSize": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Flue Size",
+        "widget": "text"
+      }
+    },
+    "ashdump": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Ashdump",
+        "widget": "text"
+      }
+    },
+    "mantel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform mantel",
+        "widget": "text"
+      }
+    },
+    "lining": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform lining",
+        "widget": "text"
+      }
+    },
+    "hearth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform hearth",
+        "widget": "text"
+      }
+    },
+    "waterheater": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform waterheater",
+        "widget": "text"
+      }
+    },
+    "circulator": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Circulator",
+        "widget": "text"
+      }
+    },
+    "waterproofing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Waterproofing",
+        "widget": "text"
+      }
+    },
+    "termite": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Termite",
+        "widget": "text"
+      }
+    },
+    "specialfoundations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Specialfoundations",
+        "widget": "text"
+      }
+    },
+    "material": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Material",
+        "widget": "text"
+      }
+    },
+    "fireplacefacing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Fireplacefacing",
+        "widget": "text"
+      }
+    },
+    "fluelining": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Fluelining",
+        "widget": "text"
+      }
+    },
+    "vents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Vents",
+        "widget": "text"
+      }
+    },
+    "additionalinformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Additionalinformation",
+        "widget": "text"
+      }
+    },
+    "groundCover": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Ground Cover",
+        "widget": "text"
+      }
+    },
+    "basement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Basement",
+        "widget": "text"
+      }
+    },
+    "window": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Window",
+        "widget": "text"
+      }
+    },
+    "girders": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Girders",
+        "widget": "text"
+      }
+    },
+    "columns": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Columns",
+        "widget": "text"
+      }
+    },
+    "piers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Piers",
+        "widget": "text"
+      }
+    },
+    "foundation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Foundation",
+        "widget": "text"
+      }
+    },
+    "interior": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Interior",
+        "widget": "text"
+      }
+    },
+    "caseNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C A S E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "bearingSoil": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Bearing Soil",
+        "widget": "text"
+      }
+    },
+    "footings": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Footings",
+        "widget": "text"
+      }
+    },
+    "strength": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Strength",
+        "widget": "text"
+      }
+    },
+    "propertyAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P R O P E R T Y A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "nameAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "fireplaceType": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Fireplace Type",
+        "widget": "checkbox"
+      }
+    },
+    "woodframe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Woodframe",
+        "widget": "text"
+      }
+    },
+    "joistswoodgradeandspecies": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Joistswoodgradeandspecies",
+        "widget": "text"
+      }
+    },
+    "materialgradeandspecies": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Materialgradeandspecies",
+        "widget": "text"
+      }
+    },
+    "studswoodgradeandspecies": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Studswoodgradeandspecies",
+        "widget": "text"
+      }
+    },
+    "rafterswoodgradeandspecies": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Rafterswoodgradeandspecies",
+        "widget": "text"
+      }
+    },
+    "sheathingwoodgradeandspecies": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Sheathingwoodgradeandspecies",
+        "widget": "text"
+      }
+    },
+    "roofing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform roofing",
+        "widget": "text"
+      }
+    },
+    "underlay": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform underlay",
+        "widget": "text"
+      }
+    },
+    "builtUproofing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Built uproofing",
+        "widget": "text"
+      }
+    },
+    "flashingmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Flashingmaterial",
+        "widget": "text"
+      }
+    },
+    "sizeandspacing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform sizeandspacing",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other",
+        "widget": "text"
+      }
+    },
+    "bridging": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Bridging",
+        "widget": "text"
+      }
+    },
+    "roofTrusses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Roof Trusses",
+        "widget": "text"
+      }
+    },
+    "slabmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform slabmaterial",
+        "widget": "text"
+      }
+    },
+    "sheathing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Sheathing",
+        "widget": "text"
+      }
+    },
+    "exposure": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform exposure",
+        "widget": "text"
+      }
+    },
+    "fastening": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fastening",
+        "widget": "text"
+      }
+    },
+    "weight": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform weight",
+        "widget": "text"
+      }
+    },
+    "size": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform size",
+        "widget": "text"
+      }
+    },
+    "type": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform type",
+        "widget": "text"
+      }
+    },
+    "grade": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform grade",
+        "widget": "text"
+      }
+    },
+    "shingles": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Shingles",
+        "widget": "text"
+      }
+    },
+    "stucco": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Stucco",
+        "widget": "text"
+      }
+    },
+    "masonryveneer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Masonryveneer",
+        "widget": "text"
+      }
+    },
+    "backupmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Backupmaterial",
+        "widget": "text"
+      }
+    },
+    "doorsills": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Doorsills",
+        "widget": "text"
+      }
+    },
+    "interiorsurfacesdampproofing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Interiorsurfacesdampproofing",
+        "widget": "text"
+      }
+    },
+    "exteriorpaintingmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Exteriorpaintingmaterial",
+        "widget": "text"
+      }
+    },
+    "siding": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Siding",
+        "widget": "text"
+      }
+    },
+    "thickness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform thickness",
+        "widget": "text"
+      }
+    },
+    "sqft": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform sqft",
+        "widget": "text"
+      }
+    },
+    "windowsills": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Windowsills",
+        "widget": "text"
+      }
+    },
+    "membrane": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform membrane",
+        "widget": "text"
+      }
+    },
+    "selfSupportingmix": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform self supportingmix",
+        "widget": "text"
+      }
+    },
+    "anchors": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform anchors",
+        "widget": "text"
+      }
+    },
+    "coatsof": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform coatsof",
+        "widget": "text"
+      }
+    },
+    "bonding": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform bonding",
+        "widget": "text"
+      }
+    },
+    "totalwallthickness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform totalwallthickness",
+        "widget": "text"
+      }
+    },
+    "facingthickness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform facingthickness",
+        "widget": "text"
+      }
+    },
+    "facingmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform facingmaterial",
+        "widget": "text"
+      }
+    },
+    "otherconstruction": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform otherconstruction",
+        "widget": "text"
+      }
+    },
+    "lintels": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lintels",
+        "widget": "text"
+      }
+    },
+    "furing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform furing",
+        "widget": "text"
+      }
+    },
+    "baseflashing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Baseflashing",
+        "widget": "text"
+      }
+    },
+    "width": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform width",
+        "widget": "text"
+      }
+    },
+    "lath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lath",
+        "widget": "text"
+      }
+    },
+    "buildingpaper": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Buildingpaper",
+        "widget": "text"
+      }
+    },
+    "spacedoc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform spacedoc",
+        "widget": "text"
+      }
+    },
+    "diagonal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform diagonal",
+        "widget": "text"
+      }
+    },
+    "cornerBracing": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Corner Bracing",
+        "widget": "checkbox"
+      }
+    },
+    "sheathingType": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Sheathing Type",
+        "widget": "checkbox"
+      }
+    },
+    "masonry": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Masonry",
+        "widget": "checkbox"
+      }
+    },
+    "concreteSlab": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Concrete Slab",
+        "widget": "checkbox"
+      }
+    },
+    "gableWall": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Gable Wall",
+        "widget": "checkbox"
+      }
+    },
+    "laid": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Laid",
+        "widget": "checkbox"
+      }
+    },
+    "laidRight": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Laid Right",
+        "widget": "checkbox"
+      }
+    },
+    "sheathingType1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Sheathing Type1",
+        "widget": "checkbox"
+      }
+    },
+    "surfacingmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform surfacingmaterial",
+        "widget": "text"
+      }
+    },
+    "weightorthickness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform weightorthickness",
+        "widget": "text"
+      }
+    },
+    "numberofpiles": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform numberofpiles",
+        "widget": "text"
+      }
+    },
+    "gageorweight": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform gageorweight",
+        "widget": "text"
+      }
+    },
+    "rooms": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Rooms",
+        "widget": "text"
+      }
+    },
+    "grade2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Grade",
+        "widget": "text"
+      }
+    },
+    "species": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Species",
+        "widget": "text"
+      }
+    },
+    "thickness2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Thickness",
+        "widget": "text"
+      }
+    },
+    "width2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Width",
+        "widget": "text"
+      }
+    },
+    "finish": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Finish",
+        "widget": "text"
+      }
+    },
+    "rooms2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Rooms",
+        "widget": "text"
+      }
+    },
+    "grade3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Grade",
+        "widget": "text"
+      }
+    },
+    "species2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Species",
+        "widget": "text"
+      }
+    },
+    "thickness3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Thickness",
+        "widget": "text"
+      }
+    },
+    "width3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Width",
+        "widget": "text"
+      }
+    },
+    "buildingPaper2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Building Paper",
+        "widget": "text"
+      }
+    },
+    "finish2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Finish",
+        "widget": "text"
+      }
+    },
+    "rooms3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 #subform Rooms",
+        "widget": "text"
+      }
+    },
+    "grade4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Grade",
+        "widget": "text"
+      }
+    },
+    "species3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Species",
+        "widget": "text"
+      }
+    },
+    "thickness4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Thickness",
+        "widget": "text"
+      }
+    },
+    "width4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Width",
+        "widget": "text"
+      }
+    },
+    "buildingPaper3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Building Paper",
+        "widget": "text"
+      }
+    },
+    "finish3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Finish",
+        "widget": "text"
+      }
+    },
+    "finish4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform finish",
+        "widget": "text"
+      }
+    },
+    "framematerial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Framematerial",
+        "widget": "text"
+      }
+    },
+    "saddles": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform saddles",
+        "widget": "text"
+      }
+    },
+    "stormdoorsthickness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Stormdoorsthickness",
+        "widget": "text"
+      }
+    },
+    "atticlouvers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Atticlouvers",
+        "widget": "text"
+      }
+    },
+    "basetype": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform basetype",
+        "widget": "text"
+      }
+    },
+    "dryWall": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Dry Wall",
+        "widget": "checkbox"
+      }
+    },
+    "ceilingsmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform ceilingsmaterial",
+        "widget": "text"
+      }
+    },
+    "doorstype": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Doorstype",
+        "widget": "text"
+      }
+    },
+    "windowstype": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Windowstype",
+        "widget": "text"
+      }
+    },
+    "basementwindowstype": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Basementwindowstype",
+        "widget": "text"
+      }
+    },
+    "specialwindows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform specialwindows",
+        "widget": "text"
+      }
+    },
+    "glassgrade": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform glassgrade",
+        "widget": "text"
+      }
+    },
+    "trimtype": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Trimtype",
+        "widget": "text"
+      }
+    },
+    "weatherstrippingtype": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Weatherstrippingtype",
+        "widget": "text"
+      }
+    },
+    "screenclothmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform screenclothmaterial",
+        "widget": "text"
+      }
+    },
+    "doortrimtype": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Doortrimtype",
+        "widget": "text"
+      }
+    },
+    "finishdoors": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Finishdoors",
+        "widget": "text"
+      }
+    },
+    "othertrim": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Othertrim",
+        "widget": "text"
+      }
+    },
+    "medicinecabinetsmake": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Medicinecabinetsmake",
+        "widget": "text"
+      }
+    },
+    "othercabinets": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Othercabinets",
+        "widget": "text"
+      }
+    },
+    "gradeandspecies": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform gradeandspecies",
+        "widget": "text"
+      }
+    },
+    "paint": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Paint",
+        "widget": "text"
+      }
+    },
+    "numbercoats": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform numbercoats",
+        "widget": "text"
+      }
+    },
+    "linealfeetofshelves": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform linealfeetofshelves",
+        "widget": "text"
+      }
+    },
+    "countertop": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform countertop",
+        "widget": "text"
+      }
+    },
+    "finishofcabinets": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Finishofcabinets",
+        "widget": "text"
+      }
+    },
+    "edging": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform edging",
+        "widget": "text"
+      }
+    },
+    "model": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform model",
+        "widget": "text"
+      }
+    },
+    "shelfwidth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform shelfwidth",
+        "widget": "text"
+      }
+    },
+    "number": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform number",
+        "widget": "text"
+      }
+    },
+    "railings": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Railings",
+        "widget": "text"
+      }
+    },
+    "screensnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform screensnumber",
+        "widget": "text"
+      }
+    },
+    "stormsashnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Stormsashnumber",
+        "widget": "text"
+      }
+    },
+    "typeofbalance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform typeofbalance",
+        "widget": "text"
+      }
+    },
+    "sashthickness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform sashthickness",
+        "widget": "text"
+      }
+    },
+    "headflashing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform headflashing",
+        "widget": "text"
+      }
+    },
+    "make": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform make",
+        "widget": "text"
+      }
+    },
+    "trim": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform trim",
+        "widget": "text"
+      }
+    },
+    "jointtreatment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Jointtreatment",
+        "widget": "text"
+      }
+    },
+    "guttersmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Guttersmaterial",
+        "widget": "text"
+      }
+    },
+    "downspoutsmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Downspoutsmaterial",
+        "widget": "text"
+      }
+    },
+    "shape": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform shape",
+        "widget": "text"
+      }
+    },
+    "splashBlocks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Splash Blocks",
+        "widget": "text"
+      }
+    },
+    "windows": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Windows",
+        "widget": "checkbox"
+      }
+    },
+    "screens": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Screens",
+        "widget": "checkbox"
+      }
+    },
+    "shutters": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Shutters",
+        "widget": "checkbox"
+      }
+    },
+    "connectedto": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Connectedto",
+        "widget": "checkbox"
+      }
+    },
+    "plastercoats": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Plastercoats",
+        "widget": "text"
+      }
+    },
+    "wallFinish": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Wall Finish",
+        "widget": "text"
+      }
+    },
+    "ceilingFinish": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Ceiling Finish",
+        "widget": "text"
+      }
+    },
+    "wallFinish2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row2 Wall Finish",
+        "widget": "text"
+      }
+    },
+    "ceilingFinish2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row2 Ceiling Finish",
+        "widget": "text"
+      }
+    },
+    "wallFinish3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row3 Wall Finish",
+        "widget": "text"
+      }
+    },
+    "ceilingFinish3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row3 Ceiling Finish",
+        "widget": "text"
+      }
+    },
+    "rooms4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row4 Rooms",
+        "widget": "text"
+      }
+    },
+    "wallFinish4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row4 Wall Finish",
+        "widget": "text"
+      }
+    },
+    "ceilingFinish4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row4 Ceiling Finish",
+        "widget": "text"
+      }
+    },
+    "location": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Location",
+        "widget": "text"
+      }
+    },
+    "thresholdMaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Threshold Material",
+        "widget": "text"
+      }
+    },
+    "wallBase": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Wall Base",
+        "widget": "text"
+      }
+    },
+    "underfloorMaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Underfloor Material",
+        "widget": "text"
+      }
+    },
+    "heightOverTub": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Height Over Tub",
+        "widget": "text"
+      }
+    },
+    "heightinShowers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Heightin Showers",
+        "widget": "text"
+      }
+    },
+    "height": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Height",
+        "widget": "text"
+      }
+    },
+    "makeandmodel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform makeandmodel",
+        "widget": "text"
+      }
+    },
+    "shower": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Shower",
+        "widget": "checkbox"
+      }
+    },
+    "waterSupply": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Water Supply",
+        "widget": "checkbox"
+      }
+    },
+    "sewage": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Sewage",
+        "widget": "checkbox"
+      }
+    },
+    "housedrain": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Housedrain",
+        "widget": "checkbox"
+      }
+    },
+    "housesewer": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Housesewer",
+        "widget": "checkbox"
+      }
+    },
+    "waterPiping": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Water Piping",
+        "widget": "checkbox"
+      }
+    },
+    "gasService": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Gas Service",
+        "widget": "checkbox"
+      }
+    },
+    "gasPiping": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Gas Piping",
+        "widget": "checkbox"
+      }
+    },
+    "househeating": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform househeating",
+        "widget": "checkbox"
+      }
+    },
+    "cooking": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Cooking",
+        "widget": "checkbox"
+      }
+    },
+    "accessories": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Accessories",
+        "widget": "checkbox"
+      }
+    },
+    "dischargesinto": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform dischargesinto",
+        "widget": "text"
+      }
+    },
+    "storagetankmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Storagetankmaterial",
+        "widget": "text"
+      }
+    },
+    "heatingcapacity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform heatingcapacity",
+        "widget": "text"
+      }
+    },
+    "capacity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform capacity",
+        "widget": "text"
+      }
+    },
+    "drainsConnectedto": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Drains Connectedto",
+        "widget": "checkbox"
+      }
+    },
+    "number2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Number",
+        "widget": "text"
+      }
+    },
+    "location2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Location",
+        "widget": "text"
+      }
+    },
+    "make2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Id Number",
+        "widget": "text"
+      }
+    },
+    "size2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Size",
+        "widget": "text"
+      }
+    },
+    "color": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Color",
+        "widget": "text"
+      }
+    },
+    "number3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Number",
+        "widget": "text"
+      }
+    },
+    "location3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Location",
+        "widget": "text"
+      }
+    },
+    "make3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Id Number",
+        "widget": "text"
+      }
+    },
+    "size3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Size",
+        "widget": "text"
+      }
+    },
+    "color2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Color",
+        "widget": "text"
+      }
+    },
+    "number4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Number",
+        "widget": "text"
+      }
+    },
+    "location4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Location",
+        "widget": "text"
+      }
+    },
+    "make4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Id Number",
+        "widget": "text"
+      }
+    },
+    "size4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Size",
+        "widget": "text"
+      }
+    },
+    "color3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Color",
+        "widget": "text"
+      }
+    },
+    "number5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Number",
+        "widget": "text"
+      }
+    },
+    "location5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Location",
+        "widget": "text"
+      }
+    },
+    "make5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Id Number",
+        "widget": "text"
+      }
+    },
+    "size5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Size",
+        "widget": "text"
+      }
+    },
+    "color4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Color",
+        "widget": "text"
+      }
+    },
+    "number6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Number",
+        "widget": "text"
+      }
+    },
+    "location6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Location",
+        "widget": "text"
+      }
+    },
+    "make6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Id Number",
+        "widget": "text"
+      }
+    },
+    "size6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Size",
+        "widget": "text"
+      }
+    },
+    "color5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Color",
+        "widget": "text"
+      }
+    },
+    "number7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Number",
+        "widget": "text"
+      }
+    },
+    "location7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Location",
+        "widget": "text"
+      }
+    },
+    "make7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Id Number",
+        "widget": "text"
+      }
+    },
+    "size7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Size",
+        "widget": "text"
+      }
+    },
+    "color6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Color",
+        "widget": "text"
+      }
+    },
+    "number8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row7 Number",
+        "widget": "text"
+      }
+    },
+    "location8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row7 Location",
+        "widget": "text"
+      }
+    },
+    "make8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row7 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row7 Id Number",
+        "widget": "text"
+      }
+    },
+    "size8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row7 Size",
+        "widget": "text"
+      }
+    },
+    "color7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row7 Color",
+        "widget": "text"
+      }
+    },
+    "fixture": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row8 Fixture",
+        "widget": "text"
+      }
+    },
+    "number9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row8 Number",
+        "widget": "text"
+      }
+    },
+    "location9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row8 Location",
+        "widget": "text"
+      }
+    },
+    "make9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row8 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row8 Id Number",
+        "widget": "text"
+      }
+    },
+    "size9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row8 Size",
+        "widget": "text"
+      }
+    },
+    "color8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row8 Color",
+        "widget": "text"
+      }
+    },
+    "fixture2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row9 Fixture",
+        "widget": "text"
+      }
+    },
+    "number10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row9 Number",
+        "widget": "text"
+      }
+    },
+    "location10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row9 Location",
+        "widget": "text"
+      }
+    },
+    "make10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row9 Make",
+        "widget": "text"
+      }
+    },
+    "idNumber9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row9 Id Number",
+        "widget": "text"
+      }
+    },
+    "size10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row9 Size",
+        "widget": "text"
+      }
+    },
+    "color9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row9 Color",
+        "widget": "text"
+      }
+    },
+    "heater": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Heater",
+        "widget": "checkbox"
+      }
+    },
+    "warmAir": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Warm Air",
+        "widget": "checkbox"
+      }
+    },
+    "firing": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Firing",
+        "widget": "checkbox"
+      }
+    },
+    "oilBurner": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Oil Burner",
+        "widget": "checkbox"
+      }
+    },
+    "ventilatingequipment": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Ventilatingequipment",
+        "widget": "checkbox"
+      }
+    },
+    "wiring": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Wiring",
+        "widget": "checkbox"
+      }
+    },
+    "special": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Special",
+        "widget": "checkbox"
+      }
+    },
+    "doorbell": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Doorbell",
+        "widget": "checkbox"
+      }
+    },
+    "panel": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Panel",
+        "widget": "checkbox"
+      }
+    },
+    "service": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Service",
+        "widget": "checkbox"
+      }
+    },
+    "fuel": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Fuel",
+        "widget": "checkbox"
+      }
+    },
+    "outsideAir": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Outside Air",
+        "widget": "checkbox"
+      }
+    },
+    "heating1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Heating1",
+        "widget": "checkbox"
+      }
+    },
+    "heating2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Heating2",
+        "widget": "checkbox"
+      }
+    },
+    "heating3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Heating3",
+        "widget": "checkbox"
+      }
+    },
+    "heating": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Heating",
+        "widget": "checkbox"
+      }
+    },
+    "panelcoilmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Panelcoilmaterial",
+        "widget": "text"
+      }
+    },
+    "typeofsystem": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform typeofsystem",
+        "widget": "text"
+      }
+    },
+    "ductmaterialsupply": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Ductmaterialsupply",
+        "widget": "text"
+      }
+    },
+    "control": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform control",
+        "widget": "text"
+      }
+    },
+    "electricheatingsystemtype": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Electricheatingsystemtype",
+        "widget": "text"
+      }
+    },
+    "pushButtonlocations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Push buttonlocations",
+        "widget": "text"
+      }
+    },
+    "totalnumberoffixtures": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Totalnumberoffixtures",
+        "widget": "text"
+      }
+    },
+    "nontypicalinstallation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nontypicalinstallation",
+        "widget": "text"
+      }
+    },
+    "netrating": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform netrating",
+        "widget": "text"
+      }
+    },
+    "output": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform output",
+        "widget": "text"
+      }
+    },
+    "volts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform volts",
+        "widget": "text"
+      }
+    },
+    "return": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform return",
+        "widget": "text"
+      }
+    },
+    "vaporizing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform vaporizing",
+        "widget": "text"
+      }
+    },
+    "amps": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A M Ps",
+        "widget": "text"
+      }
+    },
+    "circuits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Circuits",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "thickness5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Thickness",
+        "widget": "text"
+      }
+    },
+    "material2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Material",
+        "widget": "text"
+      }
+    },
+    "vaporBarrier": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Vapor Barrier",
+        "widget": "text"
+      }
+    },
+    "misc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Misc",
+        "widget": "text"
+      }
+    },
+    "hardware": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Hardware",
+        "widget": "text"
+      }
+    },
+    "specialEquipment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Special Equipment",
+        "widget": "text"
+      }
+    },
+    "porches": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P O R C H E S",
+        "widget": "text"
+      }
+    },
+    "terraces": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T E R R A C E S",
+        "widget": "text"
+      }
+    },
+    "garages": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform G A R A G E S",
+        "widget": "text"
+      }
+    },
+    "otheronsiteimprovements": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R O N S I T E I M P R O V E M E N T S",
+        "widget": "text"
+      }
+    },
+    "drivewaywidth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Drivewaywidth",
+        "widget": "text"
+      }
+    },
+    "lowfloweringtreesdeciduous": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lowfloweringtreesdeciduous",
+        "widget": "text"
+      }
+    },
+    "highGrowingshrubsdeciduous": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform High growingshrubsdeciduous",
+        "widget": "text"
+      }
+    },
+    "mediumGrowingshrubsdeciduous": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Medium growingshrubsdeciduous",
+        "widget": "text"
+      }
+    },
+    "lowGrowingshrubsdeciduous": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Low growingshrubsdeciduous",
+        "widget": "text"
+      }
+    },
+    "to": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform To",
+        "widget": "text"
+      }
+    },
+    "evergreentrees": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Evergreentrees",
+        "widget": "text"
+      }
+    },
+    "vines2Year": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Vines2 year",
+        "widget": "text"
+      }
+    },
+    "plants": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Plants",
+        "widget": "text"
+      }
+    },
+    "evergreenshrubs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Evergreenshrubs",
+        "widget": "text"
+      }
+    },
+    "frontYard1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Front Yard1",
+        "widget": "checkbox"
+      }
+    },
+    "planting": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Planting",
+        "widget": "checkbox"
+      }
+    },
+    "sideYard": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Side Yard",
+        "widget": "checkbox"
+      }
+    },
+    "rearyard": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform rearyard",
+        "widget": "checkbox"
+      }
+    },
+    "rearyardto": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform rearyardto",
+        "widget": "checkbox"
+      }
+    },
+    "sideYard2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Side Yard2",
+        "widget": "checkbox"
+      }
+    },
+    "topsoil": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Topsoil",
+        "widget": "text"
+      }
+    },
+    "front": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Front",
+        "widget": "text"
+      }
+    },
+    "shadetreesdeciduous": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Shadetreesdeciduous",
+        "widget": "text"
+      }
+    },
+    "side": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Side",
+        "widget": "text"
+      }
+    },
+    "rear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Rear",
+        "widget": "text"
+      }
+    },
+    "treads": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform treads",
+        "widget": "text"
+      }
+    },
+    "risers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform risers",
+        "widget": "text"
+      }
+    },
+    "cheekwalls": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Cheekwalls",
+        "widget": "text"
+      }
+    },
+    "frontwalkwidth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Frontwalkwidth",
+        "widget": "text"
+      }
+    },
+    "stepsmaterial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Stepsmaterial",
+        "widget": "text"
+      }
+    },
+    "basematerial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform basematerial",
+        "widget": "text"
+      }
+    },
+    "frontYard": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Front Yard",
+        "widget": "checkbox"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S I G N A T U R E",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "routineUsesForExample": {
+      "type": "string",
+      "x-va-field": {
+        "label": "routine uses (for example",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfLenderOrSponsor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF LENDER OR SPONSOR",
+        "widget": "text"
+      }
+    },
+    "excavation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EXCAVATION",
+        "widget": "text"
+      }
+    },
+    "foundations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FOUNDATIONS",
+        "widget": "text"
+      }
+    },
+    "chimneys": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CHIMNEYS",
+        "widget": "text"
+      }
+    },
+    "fireplaces": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIREPLACES",
+        "widget": "text"
+      }
+    },
+    "workNotSpecificallyDescribedOrShownWillNotBeConside": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Work not specifically described or shown will not be conside",
+        "widget": "text"
+      }
+    },
+    "includeNoAlternatesOrEqualPhrasesOrContradictory": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Include no alternates, \"or equal\" phrases, or contradictory",
+        "widget": "text"
+      }
+    },
+    "includeSignaturesRequiredAtTheEndOfThisForm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Include signatures required at the end of this form.",
+        "widget": "signature"
+      }
+    },
+    "theConstructionShallBeCompletedInComplianceWithTheR": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The construction shall be completed in compliance with the r",
+        "widget": "text"
+      }
+    },
+    "forAdditionalInformationOnHowThisFormIsToBeSubmitt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "For additional information on how this form is to be submitt",
+        "widget": "text"
+      }
+    },
+    "describeAllMaterialsAndEquipmentToBeUsedWhetherOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Describe all materials and equipment to be used, whether or",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfContractorOrBuilder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF CONTRACTOR OR BUILDER",
+        "widget": "address"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "exteriorWalls": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EXTERIOR WALLS",
+        "widget": "text"
+      }
+    },
+    "floorFraming": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FLOOR FRAMING",
+        "widget": "text"
+      }
+    },
+    "partitionFraming": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PARTITION FRAMING",
+        "widget": "text"
+      }
+    },
+    "ceilingFraming": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CEILING FRAMING",
+        "widget": "text"
+      }
+    },
+    "roofFraming": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ROOF FRAMING",
+        "widget": "text"
+      }
+    },
+    "roofing2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ROOFING",
+        "widget": "text"
+      }
+    },
+    "subflooring": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUBFLOORING",
+        "widget": "text"
+      }
+    },
+    "finishFlooringWoodOnlyDescribeOtherFinishFlooringU": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FINISH FLOORING (Wood only. Describe other finish flooring u",
+        "widget": "text"
+      }
+    },
+    "guttersAndDownspouts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GUTTERS AND DOWNSPOUTS",
+        "widget": "text"
+      }
+    },
+    "lathAndPlaster": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LATH AND PLASTER",
+        "widget": "text"
+      }
+    },
+    "interiorDoorsAndTrim": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INTERIOR DOORS AND TRIM",
+        "widget": "text"
+      }
+    },
+    "windows2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WINDOWS",
+        "widget": "text"
+      }
+    },
+    "entrancesAndExteriorDetail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ENTRANCES AND EXTERIOR DETAIL",
+        "widget": "text"
+      }
+    },
+    "cabinetsAndInteriorDetail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CABINETS AND INTERIOR DETAIL",
+        "widget": "text"
+      }
+    },
+    "decorating": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DECORATING",
+        "widget": "text"
+      }
+    },
+    "stairs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STAIRS",
+        "widget": "text"
+      }
+    },
+    "specialFloorsAndWainscot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPECIAL FLOORS AND WAINSCOT",
+        "widget": "text"
+      }
+    },
+    "plumbing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLUMBING",
+        "widget": "text"
+      }
+    },
+    "heating4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HEATING",
+        "widget": "text"
+      }
+    },
+    "electricalWiring": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ELECTRICAL WIRING",
+        "widget": "text"
+      }
+    },
+    "lightingFixtures": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIGHTING FIXTURES",
+        "widget": "text"
+      }
+    },
+    "insulation2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSULATION",
+        "widget": "text"
+      }
+    },
+    "miscellaneous": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MISCELLANEOUS:",
+        "widget": "text"
+      }
+    },
+    "signatureOfBuilderPleaseSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF BUILDER (Please sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "signatureOfPurchaserPleaseSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF PURCHASER (Please sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "asSpecifiedAndShownOnDrawingsasFollows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "as specified and shown on drawingsas follows",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1852-are.pdf",
+    "status": "digitized",
+    "totalFields": 374,
+    "composedFields": 371,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 6,
+    "generatedAt": "2026-03-28T17:31:47.849Z",
+    "postProcessedAt": "2026-03-30T20:02:41.742540+00:00",
+    "redigitizedAt": "2026-03-30T20:35:02.117Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

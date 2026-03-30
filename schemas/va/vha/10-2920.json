@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2920",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateTimeField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field1",
+        "widget": "text"
+      }
+    },
+    "ssn1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N1",
+        "widget": "text"
+      }
+    },
+    "radioButtonList2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List2",
+        "widget": "text"
+      }
+    },
+    "radioButtonList3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List3",
+        "widget": "text"
+      }
+    },
+    "cashorcheck": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C A S H O R C H E C K",
+        "widget": "text"
+      }
+    },
+    "releasedto": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E L E A S E D T O",
+        "widget": "text"
+      }
+    },
+    "initials": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INITIALS",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NO.",
+        "widget": "text"
+      }
+    },
+    "nameOfPayee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME  OF PAYEE",
+        "widget": "text"
+      }
+    },
+    "addressOf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS  OF",
+        "widget": "text"
+      }
+    },
+    "signatureOfPatientIfReceivingCashForIdentificationPurposesOnly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF PATIENT, IF RECEIVING CASH (For identification purposes only)",
+        "widget": "text"
+      }
+    },
+    "signatureOfDirectorOrDesignee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF DIRECTOR OR DESIGNEE",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformRadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2920-fill.pdf",
+    "totalFields": 15,
+    "composedFields": 15,
+    "coveragePercent": 80,
+    "xfaLabelCount": 6,
+    "needsReviewCount": 3,
+    "generatedAt": "2026-03-28T21:03:57.537Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:06.289Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0918e",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateSubmitted": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Submitted",
+        "widget": "text"
+      }
+    },
+    "organization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O R G A N I Z A T I O N",
+        "widget": "text"
+      }
+    },
+    "businessaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B U S I N E S S A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "businesstelephonenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B U S I N E S S T E L E P H O N E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "businesstelefaxnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B U S I N E S S T E L E F A X N U M B E R",
+        "widget": "text"
+      }
+    },
+    "businessemailaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B U S I N E S S E M A I L A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "webpageaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform W E B P A G E A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "currentnationalpresidingofficer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C U R R E N T N A T I O N A L P R E S I D I N G O F F I C E R",
+        "widget": "text"
+      }
+    },
+    "mainpurposeoforganization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M A I N P U R P O S E O F O R G A N I Z A T I O N",
+        "widget": "text"
+      }
+    },
+    "whydoyouwishtojointheveteransdaynationalcommittee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform W H Y D O Y O U W I S H T O J O I N T H E V E T E R A N S D A Y N A T I O N A L C O M M I T T E E",
+        "widget": "text"
+      }
+    },
+    "membershipsize": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M E M B E R S H I P S I Z E",
+        "widget": "text"
+      }
+    },
+    "whatpercentageofyourmembershipconsistsofveterans": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform W H A T P E R C E N T A G E O F Y O U R M E M B E R S H I P C O N S I S T S O F V E T E R A N S",
+        "widget": "text"
+      }
+    },
+    "membershipqualifications": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M E M B E R S H I P Q U A L I F I C A T I O N S",
+        "widget": "text"
+      }
+    },
+    "datefounded": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E F O U N D E D",
+        "widget": "text"
+      }
+    },
+    "numberofactivechapters": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N U M B E R O F A C T I V E C H A P T E R S",
+        "widget": "text"
+      }
+    },
+    "numberofstateswithactivechapters": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N U M B E R O F S T A T E S W I T H A C T I V E C H A P T E R S",
+        "widget": "text"
+      }
+    },
+    "nameofpublication": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F P U B L I C A T I O N",
+        "widget": "text"
+      }
+    },
+    "frequencyofpublication": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform F R E Q U E N C Y O F P U B L I C A T I O N",
+        "widget": "text"
+      }
+    },
+    "dateoffirstissue": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F F I R S T I S S U E",
+        "widget": "text"
+      }
+    },
+    "charterspubliclawnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C H A R T E R S P U B L I C L A W N U M B E R",
+        "widget": "text"
+      }
+    },
+    "onwhatdatewereyoucharteredbycongress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O N W H A T D A T E W E R E Y O U C H A R T E R E D B Y C O N G R E S S",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T I T L E",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "attn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ATTN",
+        "widget": "text"
+      }
+    },
+    "dateSubmitted2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE SUBMITTED (",
+        "widget": "text"
+      }
+    },
+    "organization2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ORGANIZATION",
+        "widget": "text"
+      }
+    },
+    "businessAddressIncludeCityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BUSINESS ADDRESS (Include City, State, and Zip Code)",
+        "widget": "text"
+      }
+    },
+    "businessFaxNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BUSINESS FAX NUMBER",
+        "widget": "text"
+      }
+    },
+    "webPageAddress7CurrentNationalPresidingOfficer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WEB PAGE ADDRESS7. CURRENT NATIONAL PRESIDING OFFICER",
+        "widget": "address"
+      }
+    },
+    "whatIsTheMainPurposeOfYourOrganization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHAT IS THE MAIN PURPOSE OF YOUR ORGANIZATION?",
+        "widget": "text"
+      }
+    },
+    "whatIsTheSizeOfYourMembership_11WhatPercentageOfY": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHAT IS THE SIZE OF YOUR MEMBERSHIP?11. WHAT PERCENTAGE OF Y",
+        "widget": "text"
+      }
+    },
+    "numberOfActive": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF ACTIVE",
+        "widget": "text"
+      }
+    },
+    "numberOfStates": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF STATES",
+        "widget": "select"
+      }
+    },
+    "doYouHaveNationalByLawsOrA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU HAVE NATIONAL BY-LAWS OR A",
+        "widget": "text"
+      }
+    },
+    "doYouHaveAnAnnualNationalConventionIfYes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU HAVE AN ANNUAL NATIONAL CONVENTION? (If yes,",
+        "widget": "text"
+      }
+    },
+    "doYouProduceAnyPeriodicPublicationsIfYesPlease": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU PRODUCE ANY PERIODIC PUBLICATIONS? (If yes, please",
+        "widget": "text"
+      }
+    },
+    "nameOfPublication20FrequencyOfPublication": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF PUBLICATION20. FREQUENCY OF PUBLICATION",
+        "widget": "text"
+      }
+    },
+    "isYourOrganizationFederallyCharteredAndOrRecognizedO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS YOUR ORGANIZATION FEDERALLY CHARTERED AND/OR RECOGNIZED O",
+        "widget": "text"
+      }
+    },
+    "onWhat": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "ON WHAT",
+        "widget": "date"
+      }
+    },
+    "isYourOrganizationClassifiedByTheInternalRevenueServ": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS YOUR ORGANIZATION CLASSIFIED BY THE INTERNAL REVENUE SERV",
+        "widget": "text"
+      }
+    },
+    "ifAcceptedAsAMemberMemberWillYourOrganizationHonor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF ACCEPTED AS A MEMBER/MEMBER, WILL YOUR ORGANIZATION HONOR",
+        "widget": "text"
+      }
+    },
+    "doYouHaveARepresentativeWhoWillAttendCommitteeMeeti": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU HAVE A REPRESENTATIVE WHO WILL ATTEND COMMITTEE MEETI",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "date"
+      }
+    },
+    "pleaseSendThisApplicationViaEmail": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "PLEASE SEND THIS APPLICATION VIA EMAIL",
+        "widget": "email"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0918e.pdf",
+    "totalFields": 53,
+    "composedFields": 47,
+    "coveragePercent": 100,
+    "xfaLabelCount": 26,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:54.001Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:28:20.686Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

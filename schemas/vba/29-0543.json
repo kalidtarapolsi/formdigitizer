@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-0543",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "date2": {
+      "type": "string",
+      "format": "date"
+    },
+    "date3": {
+      "type": "string",
+      "format": "date"
+    },
+    "date4": {
+      "type": "string",
+      "format": "date"
+    },
+    "date5": {
+      "type": "string",
+      "format": "date"
+    },
+    "date6": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "dear": {
+      "type": "string"
+    },
+    "mortgageLoanAccountNumber": {
+      "type": "string"
+    },
+    "nameOfCurrentMortgage": {
+      "type": "string"
+    },
+    "currentAccountNumber": {
+      "type": "string"
+    },
+    "yes2": {
+      "type": "string"
+    },
+    "yes3": {
+      "type": "string"
+    },
+    "yes4": {
+      "type": "string"
+    },
+    "yes5": {
+      "type": "string"
+    },
+    "yes6": {
+      "type": "string"
+    },
+    "yes7": {
+      "type": "string"
+    },
+    "no2": {
+      "type": "string"
+    },
+    "no3": {
+      "type": "string"
+    },
+    "no4": {
+      "type": "string"
+    },
+    "no5": {
+      "type": "string"
+    },
+    "no6": {
+      "type": "string"
+    },
+    "no7": {
+      "type": "string"
+    },
+    "nameOfPersonTitleShared": {
+      "type": "string"
+    },
+    "nameOfMortgageHolder": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0543-are.pdf",
+    "status": "digitized",
+    "totalFields": 32,
+    "composedFields": 14,
+    "coveragePercent": 44,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:23.666Z"
+  }
+}

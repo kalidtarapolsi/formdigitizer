@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0143",
+  "type": "object",
+  "properties": {
+    "sigDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "performance": {
+      "type": "string"
+    },
+    "grantNumber": {
+      "type": "string"
+    },
+    "grantName": {
+      "type": "string"
+    },
+    "vha100143newform0subform1textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "name1": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0143-fill.pdf",
+    "totalFields": 8,
+    "composedFields": 2,
+    "coveragePercent": 25,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:19:17.612Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

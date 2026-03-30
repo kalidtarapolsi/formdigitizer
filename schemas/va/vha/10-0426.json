@@ -1,0 +1,469 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0426",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "imageField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Image Field1",
+        "widget": "text"
+      }
+    },
+    "phoneNum1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Phone Num1",
+        "widget": "text"
+      }
+    },
+    "phoneNum2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Phone Num2",
+        "widget": "text"
+      }
+    },
+    "dateField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Date Field1",
+        "widget": "text"
+      }
+    },
+    "address1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Address1",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Address",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area City",
+        "widget": "text"
+      }
+    },
+    "state": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area State",
+        "widget": "select"
+      }
+    },
+    "zipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Zip Code",
+        "widget": "text"
+      }
+    },
+    "erythromycin": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Erythromycin",
+        "widget": "checkbox"
+      }
+    },
+    "none": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area None",
+        "widget": "checkbox"
+      }
+    },
+    "asprin": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Asprin",
+        "widget": "checkbox"
+      }
+    },
+    "cephalosporin": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Cephalosporin",
+        "widget": "checkbox"
+      }
+    },
+    "codeine": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Codeine",
+        "widget": "checkbox"
+      }
+    },
+    "tetracycline": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Tetracycline",
+        "widget": "checkbox"
+      }
+    },
+    "otherSpec1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Other Spec1",
+        "widget": "checkbox"
+      }
+    },
+    "penicillin": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Penicillin",
+        "widget": "checkbox"
+      }
+    },
+    "sulfa": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Sulfa",
+        "widget": "checkbox"
+      }
+    },
+    "nsaids": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area N S A I D S",
+        "widget": "checkbox"
+      }
+    },
+    "otherSpecifyText": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area other Specify Text",
+        "widget": "text"
+      }
+    },
+    "arthritis": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Arthritis",
+        "widget": "checkbox"
+      }
+    },
+    "asthma": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Asthma",
+        "widget": "checkbox"
+      }
+    },
+    "copd": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area C O P D",
+        "widget": "checkbox"
+      }
+    },
+    "depression": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Depression",
+        "widget": "checkbox"
+      }
+    },
+    "diabetes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Diabetes",
+        "widget": "checkbox"
+      }
+    },
+    "otherSpec2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Other Spec2",
+        "widget": "checkbox"
+      }
+    },
+    "hypertension": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Hypertension",
+        "widget": "checkbox"
+      }
+    },
+    "kidneyDisease": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Kidney Disease",
+        "widget": "checkbox"
+      }
+    },
+    "highCholesterol": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area High Cholesterol",
+        "widget": "checkbox"
+      }
+    },
+    "heartProblem": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Heart Problem",
+        "widget": "checkbox"
+      }
+    },
+    "glaucoma": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area Glaucoma",
+        "widget": "checkbox"
+      }
+    },
+    "foodAllergy": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area #area Food Allergy",
+        "widget": "checkbox"
+      }
+    },
+    "thyroid": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area #area Thyroid",
+        "widget": "checkbox"
+      }
+    },
+    "ulcerAcidRefluxGerd": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area #area Ulcer Acid Reflux G E R D",
+        "widget": "checkbox"
+      }
+    },
+    "seizuresEpilepsy": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area #area Seizures Epilepsy",
+        "widget": "checkbox"
+      }
+    },
+    "liverDisease": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area #area #area Liver Disease",
+        "widget": "checkbox"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area Date",
+        "widget": "text"
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area Last Name",
+        "widget": "text"
+      }
+    },
+    "mi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area M I",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #area #area S S N",
+        "widget": "text"
+      }
+    },
+    "firstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform First Name",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyyPatientName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Date of Birth (mm-dd-yyyy)Patient Name",
+        "widget": "text"
+      }
+    },
+    "isThisAChangeOfAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Is this a change of address?",
+        "widget": "text"
+      }
+    },
+    "isThisAPermanentChange": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Is this a permanent change?",
+        "widget": "text"
+      }
+    },
+    "isThisATemporaryChange": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Is this a temporary change?",
+        "widget": "text"
+      }
+    },
+    "nonSafetyCapRequest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NON-SAFETY CAP REQUEST",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature",
+        "widget": "text"
+      }
+    },
+    "todaySDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Today's Date",
+        "widget": "text"
+      }
+    },
+    "home": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Home",
+        "widget": "text"
+      }
+    },
+    "cell": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Cell",
+        "widget": "text"
+      }
+    },
+    "address_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address 1",
+        "widget": "address"
+      }
+    },
+    "address_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address 2",
+        "widget": "address"
+      }
+    },
+    "city2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "state2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State",
+        "widget": "select"
+      }
+    },
+    "zip": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "Zip",
+        "widget": "zip"
+      }
+    },
+    "telephone": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Telephone",
+        "widget": "phone"
+      }
+    },
+    "address2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address",
+        "widget": "address"
+      }
+    },
+    "whereToMailYourPrescriptions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Where to Mail your Prescriptions",
+        "widget": "text"
+      }
+    },
+    "listedBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "listed below",
+        "widget": "text"
+      }
+    },
+    "providerName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Provider Name",
+        "widget": "text"
+      }
+    },
+    "remainingAndThePrescriptionExpiration": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "remaining and the prescription expiration",
+        "widget": "date"
+      }
+    },
+    "howToRequestPrescriptionRefills": {
+      "type": "string",
+      "x-va-field": {
+        "label": "How to Request Prescription REFILLS",
+        "widget": "text"
+      }
+    },
+    "providerContact": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Provider Contact",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0426-fill.pdf",
+    "totalFields": 63,
+    "composedFields": 63,
+    "coveragePercent": 98,
+    "xfaLabelCount": 8,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:21:29.074Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:25:28.649Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

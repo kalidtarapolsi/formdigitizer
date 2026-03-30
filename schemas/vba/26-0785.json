@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-0785",
+  "type": "object",
+  "properties": {
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "jf09": {
+      "type": "string"
+    },
+    "jf01": {
+      "type": "string"
+    },
+    "jf08": {
+      "type": "string"
+    },
+    "jf11": {
+      "type": "string"
+    },
+    "jf05": {
+      "type": "string"
+    },
+    "jf07": {
+      "type": "string"
+    },
+    "jf02": {
+      "type": "string"
+    },
+    "jf03": {
+      "type": "string"
+    },
+    "jf04": {
+      "type": "string"
+    },
+    "jf06": {
+      "type": "string"
+    },
+    "jf03100": {
+      "type": "string"
+    },
+    "jf05100": {
+      "type": "string"
+    },
+    "jf02100": {
+      "type": "string"
+    },
+    "jf01100": {
+      "type": "string"
+    },
+    "title14": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-0785-are.pdf",
+    "status": "digitized",
+    "totalFields": 17,
+    "composedFields": 2,
+    "coveragePercent": 12,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:38:26.090Z"
+  }
+}

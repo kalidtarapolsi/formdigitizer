@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0246",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "expirationDateTwoDigit": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "paymentAmount": {
+      "type": "number"
+    },
+    "patientName": {
+      "type": "string"
+    },
+    "descriptionLine9Of9": {
+      "type": "string"
+    },
+    "billingReference": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "accountSummaryPreviousBalance": {
+      "type": "string"
+    },
+    "paymentsReceived": {
+      "type": "string"
+    },
+    "newCharges": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "string"
+    },
+    "creditCardTypeAmericanExpress": {
+      "type": "string"
+    },
+    "balanceDueBy": {
+      "type": "string"
+    },
+    "creditCardNumberFirstFourDigits": {
+      "type": "string"
+    },
+    "creditCardNumberSecondSetOfFourDigits": {
+      "type": "string"
+    },
+    "creditCardNumberThirdSetOfFourDigits": {
+      "type": "string"
+    },
+    "creditCardNumberLastSetOfFourDigits": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0246-fill.pdf",
+    "totalFields": 52,
+    "composedFields": 25,
+    "coveragePercent": 35,
+    "xfaLabelCount": 21,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:17:00.718Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "postProcessedAt": "2026-03-30T20:02:41.597681+00:00"
+  }
+}

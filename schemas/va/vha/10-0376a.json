@@ -1,0 +1,159 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0376a",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "completionDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "issueDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "expirationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "nationalPractitionerDataBaseQuerysDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "clinicalPrivilegesGrantedInProductServiceLineAttachCopy": {
+      "type": "string"
+    },
+    "typedNameOfMedicalStaffCoordinator": {
+      "type": "string"
+    },
+    "educationAndTrainingEducationDegreeOrSpecialty": {
+      "type": "string"
+    },
+    "internshipDegreeOrSpecialty": {
+      "type": "string"
+    },
+    "residencyDegreeOrSpecialtyLine1Of2": {
+      "type": "string"
+    },
+    "residencyDegreeOrSpecialtyLine2Of2": {
+      "type": "string"
+    },
+    "fellowshipDegreeOrSpecialty": {
+      "type": "string"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "identifyingDataNameLastFirstMiddleInitial": {
+      "type": "string"
+    },
+    "ofAppointment": {
+      "type": "string"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "primarySourceVerifiedYes": {
+      "type": "string"
+    },
+    "primarySourceVerifiedNo": {
+      "type": "string"
+    },
+    "verifiedNo": {
+      "type": "string"
+    },
+    "verifiedYes": {
+      "type": "string"
+    },
+    "licenseType": {
+      "type": "string"
+    },
+    "licenseNumber": {
+      "type": "string"
+    },
+    "providingFacilityName": {
+      "type": "string"
+    },
+    "remarksAttachAnAdditionalSheetIfNecessary": {
+      "type": "string"
+    },
+    "doesNotHaveAdditionalInformation": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0376a-fill.pdf",
+    "totalFields": 83,
+    "composedFields": 40,
+    "coveragePercent": 48,
+    "xfaLabelCount": 75,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:18:01.116Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

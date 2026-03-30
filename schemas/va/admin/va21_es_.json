@@ -1,0 +1,250 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA21(ES)",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name",
+        "widget": "text"
+      }
+    },
+    "homeAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Home Address",
+        "widget": "text"
+      }
+    },
+    "businessAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Business Address",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other",
+        "widget": "text"
+      }
+    },
+    "listDates": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform List Dates",
+        "widget": "text"
+      }
+    },
+    "characterDischarge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Character Discharge",
+        "widget": "text"
+      }
+    },
+    "organization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Organization",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone",
+        "widget": "text"
+      }
+    },
+    "organizatioName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Organizatio Name",
+        "widget": "text"
+      }
+    },
+    "agency": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Agency",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "certification": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Certification",
+        "widget": "checkbox"
+      }
+    },
+    "nameOrg": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Org",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox21": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box21",
+        "widget": "checkbox"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "lastNameFirstNameMiddleName2aHomeAddress2bBusi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LAST NAME - FIRST NAME - MIDDLE NAME2A. HOME ADDRESS2B. BUSI",
+        "widget": "text"
+      }
+    },
+    "branchOfService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BRANCH OF SERVICE",
+        "widget": "text"
+      }
+    },
+    "listOfDatesOfAllActiveService5CharacterOfDischarge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIST OF DATES OF ALL ACTIVE SERVICE5. CHARACTER OF DISCHARGE",
+        "widget": "text"
+      }
+    },
+    "methodOfQualification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "METHOD OF QUALIFICATION",
+        "widget": "text"
+      }
+    },
+    "areYouAPaidCountyOrTribalEmployee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ARE YOU A PAID COUNTY OR TRIBAL EMPLOYEE",
+        "widget": "text"
+      }
+    },
+    "stateTrainingAndExaminationAndCWhoWillReceive": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATE TRAINING AND EXAMINATION; AND C) WHO WILL RECEIVE",
+        "widget": "text"
+      }
+    },
+    "areYouAccreditedToAnyOtherOrganizationS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ARE YOU ACCREDITED TO ANY OTHER ORGANIZATION(S)?",
+        "widget": "text"
+      }
+    },
+    "signatureOfDesigneeNewCertificationsOnly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF DESIGNEE (NEW CERTIFICATIONS ONLY)",
+        "widget": "signature"
+      }
+    },
+    "dateOfSignatureMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF SIGNATURE (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "certification2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "signatureAndTitleOfCertifyingOfficer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE AND TITLE OF CERTIFYING OFFICER",
+        "widget": "signature"
+      }
+    },
+    "nameOfOrganization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF ORGANIZATION",
+        "widget": "text"
+      }
+    },
+    "addressOfCertifyingOfficer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF CERTIFYING OFFICER",
+        "widget": "address"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA21(ES).pdf",
+    "totalFields": 32,
+    "composedFields": 32,
+    "coveragePercent": 97,
+    "xfaLabelCount": 17,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:34:03.612Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:23.484Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

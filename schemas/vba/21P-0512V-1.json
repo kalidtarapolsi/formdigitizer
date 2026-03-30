@@ -1,0 +1,192 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0512V-1",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "dependentchildrenincustody": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform dependentchildrenincustody",
+        "widget": "text"
+      }
+    },
+    "source": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Source",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "showSource": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Show Source",
+        "widget": "text"
+      }
+    },
+    "maritalStatus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MARITAL STATUS",
+        "widget": "text"
+      }
+    },
+    "doYouReceiveAnyOtherVaBenefitsAsAVeteranParentO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU RECEIVE ANY OTHER VA BENEFITS AS A VETERAN, PARENT, O",
+        "widget": "text"
+      }
+    },
+    "didYouReceiveWagesOrWereYouEmployedAtAnyTimeDurin": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DID YOU RECEIVE WAGES OR WERE YOU EMPLOYED AT ANY TIME DURIN",
+        "widget": "text"
+      }
+    },
+    "4bShowThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4B. SHOW THE",
+        "widget": "text"
+      }
+    },
+    "1dYourSpouseSDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1D. YOUR SPOUSE'S DATE OF BIRTH (",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "feesForClaims": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FEES FOR CLAIMS",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "socialSecurity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY",
+        "widget": "text"
+      }
+    },
+    "familyMedicalExpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FAMILY MEDICAL EXPENSES",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "showThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(Show the",
+        "widget": "text"
+      }
+    },
+    "orTheDateIncomeChanged": {
+      "type": "string",
+      "x-va-field": {
+        "label": "or the date income changed (",
+        "widget": "text"
+      }
+    },
+    "9bDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "9B. DATE (",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0512v-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 24,
+    "composedFields": 24,
+    "coveragePercent": 96,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:00.210Z",
+    "redigitizedAt": "2026-03-30T20:37:40.276Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

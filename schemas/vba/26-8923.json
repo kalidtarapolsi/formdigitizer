@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8923",
+  "type": "object",
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amount1": {
+      "type": "number"
+    },
+    "amount2": {
+      "type": "number"
+    },
+    "amount5": {
+      "type": "number"
+    },
+    "amount6": {
+      "type": "number"
+    },
+    "amount7": {
+      "type": "number"
+    },
+    "amount8": {
+      "type": "number"
+    },
+    "amount10": {
+      "type": "number"
+    },
+    "amount13": {
+      "type": "number"
+    },
+    "nameoflender": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "valoannumber": {
+      "type": "string"
+    },
+    "total1": {
+      "type": "string"
+    },
+    "total2": {
+      "type": "string"
+    },
+    "subtotal1": {
+      "type": "string"
+    },
+    "subtotal2": {
+      "type": "string"
+    },
+    "subtotal3": {
+      "type": "string"
+    },
+    "total3": {
+      "type": "string"
+    },
+    "percent5": {
+      "type": "string"
+    },
+    "percent4": {
+      "type": "string"
+    },
+    "percent3": {
+      "type": "string"
+    },
+    "percent1": {
+      "type": "string"
+    },
+    "percent2": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8923-are.pdf",
+    "status": "digitized",
+    "totalFields": 28,
+    "composedFields": 12,
+    "coveragePercent": 43,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:37:36.907Z"
+  }
+}

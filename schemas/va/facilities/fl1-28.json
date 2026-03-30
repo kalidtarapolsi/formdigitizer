@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FL1-28",
+  "type": "object",
+  "properties": {
+    "dateOfLetter": {
+      "type": "string",
+      "format": "date"
+    },
+    "sincerelyYours": {
+      "type": "string"
+    },
+    "inReplyReferTo": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/FL1-28.pdf",
+    "totalFields": 5,
+    "composedFields": 1,
+    "coveragePercent": 20,
+    "xfaLabelCount": 3,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:26:58.856Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

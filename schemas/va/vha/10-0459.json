@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0459",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "fullName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Full Name",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField322": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field322",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0459-fill.pdf",
+    "totalFields": 3,
+    "composedFields": 3,
+    "coveragePercent": 67,
+    "xfaLabelCount": 1,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:35:05.873Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:42.196Z",
+    "extractionSources": [
+      "acroform+text-inference",
+      "acroform"
+    ]
+  }
+}

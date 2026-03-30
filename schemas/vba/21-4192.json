@@ -1,0 +1,411 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-4192",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "concessions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Concessions",
+        "widget": "text"
+      }
+    },
+    "nameandaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 nameandaddress",
+        "widget": "text"
+      }
+    },
+    "completeaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 completeaddress",
+        "widget": "text"
+      }
+    },
+    "timelost": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 timelost",
+        "widget": "text"
+      }
+    },
+    "typeOfWork": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Type Of Work",
+        "widget": "text"
+      }
+    },
+    "reasonVeteranNotWorking": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Reason Veteran Not Working",
+        "widget": "text"
+      }
+    },
+    "grossamount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 grossamount",
+        "widget": "text"
+      }
+    },
+    "veteransCurrentDutyStatus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans Current Duty Status",
+        "widget": "text"
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Last Name",
+        "widget": "text"
+      }
+    },
+    "middleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "vaFileNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 V A File Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "thousandsDollarAmount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Thousands Dollar Amount",
+        "widget": "text"
+      }
+    },
+    "hundredsDollarAmount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Hundreds Dollar Amount",
+        "widget": "text"
+      }
+    },
+    "centsAmount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Cents Amount",
+        "widget": "text"
+      }
+    },
+    "numberHoursWorkedDaily": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Number Hours Worked Daily",
+        "widget": "text"
+      }
+    },
+    "numberHoursWorkedWeekly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Number Hours Worked Weekly",
+        "widget": "text"
+      }
+    },
+    "typeofbenefit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform T Y P E O F B E N E F I T",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberLastFourNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberSecondTwoNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberFirstThreeNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "format": "date"
+    },
+    "thousandsDollarAmount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Thousands Dollar Amount",
+        "widget": "text"
+      }
+    },
+    "hundredsDollarAmount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Hundreds Dollar Amount",
+        "widget": "text"
+      }
+    },
+    "centsAmount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Cents Amount",
+        "widget": "text"
+      }
+    },
+    "beginningDateOfEmployment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BEGINNING DATE OF EMPLOYMENT",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "pleaseBeSureToSignAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Please be sure to sign and",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS",
+        "widget": "address"
+      }
+    },
+    "endingDateOfEmployment": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "ENDING DATE OF EMPLOYMENT",
+        "widget": "date"
+      }
+    },
+    "amountEarnedDuring_12MonthsPrecedingLastDateOf": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "AMOUNT EARNED DURING 12 MONTHS PRECEDING LAST DATE OF",
+        "widget": "date"
+      }
+    },
+    "timeLostDuring_12MonthsPrecedingLastDateOfEmployment": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "TIME LOST DURING 12 MONTHS PRECEDING LAST DATE OF EMPLOYMENT",
+        "widget": "date"
+      }
+    },
+    "typeOfWorkPerformed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TYPE OF WORK PERFORMED",
+        "widget": "text"
+      }
+    },
+    "concessionsIfAnyMadeToEmployeeByReasonOfAgeOrDi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CONCESSIONS (if any) MADE TO EMPLOYEE BY REASON OF AGE OR DI",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth_4SocialSecurityNumber": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BIRTH 4. SOCIAL SECURITY NUMBER",
+        "widget": "date"
+      }
+    },
+    "veteranBeneficiarySNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/BENEFICIARY'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "14b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "14B.",
+        "widget": "date"
+      }
+    },
+    "15a": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "15A.",
+        "widget": "date"
+      }
+    },
+    "16b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "16B.",
+        "widget": "date"
+      }
+    },
+    "grossMonthlyAmountOfBenefit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GROSS MONTHLY AMOUNT OF BENEFIT",
+        "widget": "text"
+      }
+    },
+    "isVeteranReceivingOrEntitledToReceiveAsAResultOf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS VETERAN RECEIVING OR ENTITLED TO RECEIVE, AS A RESULT OF",
+        "widget": "text"
+      }
+    },
+    "21c": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "21C.",
+        "widget": "date"
+      }
+    },
+    "23bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "23B. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "21aDateBenefitBegan_21b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "21A. DATE BENEFIT BEGAN 21B.",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4192-are.pdf",
+    "status": "digitized",
+    "totalFields": 60,
+    "composedFields": 54,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:29.209Z",
+    "redigitizedAt": "2026-03-30T20:38:15.446Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ],
+    "postProcessedAt": "2026-03-30T20:42:50.094246+00:00"
+  }
+}

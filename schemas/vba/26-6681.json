@@ -1,0 +1,588 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6681",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameOfApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Name Of Applicant",
+        "widget": "text"
+      }
+    },
+    "residenceaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 R E S I D E N C E A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "businessaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 B U S I N E S S A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "presentoccupation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 P R E S E N T O C C U P A T I O N",
+        "widget": "text"
+      }
+    },
+    "namepresentemployer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 N A M E P R E S E N T E M P L O Y E R",
+        "widget": "text"
+      }
+    },
+    "eMailaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 E M A I L A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 E M A I L",
+        "widget": "text"
+      }
+    },
+    "degreesawarded": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 D E G R E E S A W A R D E D",
+        "widget": "text"
+      }
+    },
+    "advanceeducation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 A D V A N C E E D U C A T I O N",
+        "widget": "text"
+      }
+    },
+    "professionalorg": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 P R O F E S S I O N A L O R G",
+        "widget": "text"
+      }
+    },
+    "kind1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 K I N D1",
+        "widget": "text"
+      }
+    },
+    "kind2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 K I N D2",
+        "widget": "text"
+      }
+    },
+    "kind3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 K I N D3",
+        "widget": "text"
+      }
+    },
+    "kind4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 K I N D4",
+        "widget": "text"
+      }
+    },
+    "kind5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 K I N D5",
+        "widget": "text"
+      }
+    },
+    "certification1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 C E R T I F I C A T I O N1",
+        "widget": "text"
+      }
+    },
+    "certification2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 C E R T I F I C A T I O N2",
+        "widget": "text"
+      }
+    },
+    "certification3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 C E R T I F I C A T I O N3",
+        "widget": "text"
+      }
+    },
+    "certification4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 C E R T I F I C A T I O N4",
+        "widget": "text"
+      }
+    },
+    "certification5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 C E R T I F I C A T I O N5",
+        "widget": "text"
+      }
+    },
+    "state1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 S T A T E1",
+        "widget": "text"
+      }
+    },
+    "state2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 S T A T E2",
+        "widget": "text"
+      }
+    },
+    "state3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 S T A T E3",
+        "widget": "text"
+      }
+    },
+    "state4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 S T A T E4",
+        "widget": "text"
+      }
+    },
+    "state5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 S T A T E5",
+        "widget": "text"
+      }
+    },
+    "officenameandaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 O F F I C E N A M E A N D A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 D O B",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Phone",
+        "widget": "text"
+      }
+    },
+    "years": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Years",
+        "widget": "text"
+      }
+    },
+    "expDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Exp Date",
+        "widget": "text"
+      }
+    },
+    "dateTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Date To",
+        "widget": "text"
+      }
+    },
+    "dateFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Date From",
+        "widget": "text"
+      }
+    },
+    "geoAreas": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Geo Areas",
+        "widget": "text"
+      }
+    },
+    "nameOrg": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Name Org",
+        "widget": "text"
+      }
+    },
+    "dateTo2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Date To",
+        "widget": "text"
+      }
+    },
+    "numberAssignments": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Number Assignments",
+        "widget": "text"
+      }
+    },
+    "occupation1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 O C C U P A T I O N1",
+        "widget": "text"
+      }
+    },
+    "nameofemployer1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 N A M E O F E M P L O Y E R1",
+        "widget": "text"
+      }
+    },
+    "address1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 A D D R E S S1",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "references1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 A\\ R E F E R E N C E S1",
+        "widget": "text"
+      }
+    },
+    "occupation12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 B\\ O C C U P A T I O N1",
+        "widget": "text"
+      }
+    },
+    "address12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 C\\ A D D R E S S1",
+        "widget": "text"
+      }
+    },
+    "appraisalArea": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 appraisal Area",
+        "widget": "text"
+      }
+    },
+    "signatureField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Signature Field1",
+        "widget": "text"
+      }
+    },
+    "dateAction": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Date Action",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "designationBeingAppliedFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DESIGNATION BEING APPLIED FOR",
+        "widget": "text"
+      }
+    },
+    "16c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "16C.",
+        "widget": "text"
+      }
+    },
+    "forVa": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "FOR VA (",
+        "widget": "date"
+      }
+    },
+    "educationInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EDUCATION INFORMATION",
+        "widget": "text"
+      }
+    },
+    "certificationLicenseInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION/LICENSE INFORMATION",
+        "widget": "text"
+      }
+    },
+    "dExp": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "D. EXP.",
+        "widget": "date"
+      }
+    },
+    "nameOfApplicantFirstMiddleLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF APPLICANT (First, middle, last)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BIRTH",
+        "widget": "date"
+      }
+    },
+    "residenceAddressNumberAndStreetOrRuralRouteCityOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESIDENCE ADDRESS (Number and street or rural route, city or",
+        "widget": "address"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER",
+        "widget": "phone"
+      }
+    },
+    "businessTelephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "BUSINESS TELEPHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "presentOccupation11NameAndAddressOfPresentEmployer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRESENT OCCUPATION11. NAME AND ADDRESS OF PRESENT EMPLOYER",
+        "widget": "address"
+      }
+    },
+    "advancedEducationOrTrainingVocationalBusinessOrSpe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADVANCED EDUCATION OR TRAINING, VOCATIONAL, BUSINESS, OR SPE",
+        "widget": "text"
+      }
+    },
+    "professionalOrganizationsOfWhichYou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PROFESSIONAL ORGANIZATIONS OF WHICH YOU",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "numberOfAssignmentsYouWill": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF ASSIGNMENTS YOU WILL",
+        "widget": "text"
+      }
+    },
+    "statePrincipalAssignmentsDuringAtLeastThePast_5Years": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATE PRINCIPAL ASSIGNMENTS DURING AT LEAST THE PAST 5 YEARS",
+        "widget": "select"
+      }
+    },
+    "aPeriodDates": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "A. PERIOD DATES (",
+        "widget": "date"
+      }
+    },
+    "employmentHistoryDuringThePast_10YearsAttachAddition": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMPLOYMENT HISTORY DURING THE PAST 10 YEARS (Attach addition",
+        "widget": "text"
+      }
+    },
+    "aDates": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "A. DATES (",
+        "widget": "date"
+      }
+    },
+    "referencesListAndSubmitAtLeast_2LettersAttestingTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REFERENCES - LIST AND SUBMIT AT LEAST 2 LETTERS ATTESTING TO",
+        "widget": "text"
+      }
+    },
+    "geographicAreaSOfPracticeListYourAppraisalInspecti": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GEOGRAPHIC AREA(S) OF PRACTICE (List your appraisal/inspecti",
+        "widget": "text"
+      }
+    },
+    "maximumNumberOfAssignmentsYou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAXIMUM NUMBER OF ASSIGNMENTS YOU",
+        "widget": "text"
+      }
+    },
+    "applicantSSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT'S SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "doNotPrintMustBeLegible_25DateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(DO NOT PRINT) (Must be legible)25. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "signatureOfReviewingOfficer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF REVIEWING OFFICER",
+        "widget": "signature"
+      }
+    },
+    "listedBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LISTED BELOW",
+        "widget": "text"
+      }
+    },
+    "iTheUndersignedUnderstandAndAgreeThat": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I, the undersigned, understand and agree that",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6681-are.pdf",
+    "status": "digitized",
+    "totalFields": 82,
+    "composedFields": 79,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:32:15.431Z",
+    "redigitizedAt": "2026-03-30T20:36:33.917Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

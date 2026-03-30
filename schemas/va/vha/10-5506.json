@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5506",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "theAboveCaseHasBeenReviewedAndCorrectiveActionRecom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE ABOVE CASE HAS BEEN REVIEWED AND CORRECTIVE ACTION RECOM",
+        "widget": "text"
+      }
+    },
+    "correctiveAction": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CORRECTIVE ACTION",
+        "widget": "text"
+      }
+    },
+    "descriptionOfIncident": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DESCRIPTION OF INCIDENT",
+        "widget": "text"
+      }
+    },
+    "actionTaken": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ACTION TAKEN",
+        "widget": "text"
+      }
+    },
+    "signatureAndTitleOfPersonMakingInitialReport4Date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE AND TITLE OF PERSON MAKING INITIAL REPORT4. DATE",
+        "widget": "text"
+      }
+    },
+    "patientMemberSStatementDescriptionOfIncident": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PATIENT-MEMBER’S STATEMENT?DESCRIPTION OF INCIDENT",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "findingsOfChiefDomiciliaryOperations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FINDINGS OF CHIEF, DOMICILIARY OPERATIONS",
+        "widget": "text"
+      }
+    },
+    "date8SignatureOfChiefDomiciliaryOperations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE8. SIGNATURE OF CHIEF, DOMICILIARY OPERATIONS",
+        "widget": "text"
+      }
+    },
+    "date10SignatureOfPatientMember": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE10. SIGNATURE OF PATIENT-MEMBER",
+        "widget": "text"
+      }
+    },
+    "mayPatientMemberBeReleasedFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAY PATIENT-MEMBER BE RELEASED FROM",
+        "widget": "text"
+      }
+    },
+    "date13SignatureOfChiefDomiciliaryMedicalService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE13. SIGNATURE OF CHIEF, DOMICILIARY MEDICAL SERVICE",
+        "widget": "text"
+      }
+    },
+    "date16SignatureOfDirector": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE16. SIGNATURE OF DIRECTOR",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32613": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32613",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32612": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32612",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5506-fill.pdf",
+    "totalFields": 15,
+    "composedFields": 15,
+    "coveragePercent": 80,
+    "xfaLabelCount": 2,
+    "needsReviewCount": 3,
+    "generatedAt": "2026-03-28T21:04:38.482Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:16.395Z",
+    "extractionSources": [
+      "acroform+text-inference",
+      "acroform"
+    ]
+  }
+}

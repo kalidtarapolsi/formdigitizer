@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5379a",
+  "type": "object",
+  "properties": {
+    "effectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "andEnding": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5379a.pdf",
+    "totalFields": 6,
+    "composedFields": 4,
+    "coveragePercent": 67,
+    "xfaLabelCount": 3,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:05:26.735Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

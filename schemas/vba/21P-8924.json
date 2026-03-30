@@ -1,0 +1,538 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-8924",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "veteransLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Last Name",
+        "widget": "text"
+      }
+    },
+    "veteransMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Middle Initial",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "claimantsNameFirst": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Name First",
+        "widget": "text"
+      }
+    },
+    "claimantsNameLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Name Last",
+        "widget": "text"
+      }
+    },
+    "claimantsNameMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Name Middle Initial",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "mailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "apartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform City",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform State Or Province",
+        "widget": "text"
+      }
+    },
+    "country": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Country",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberFirstThreeDigits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number First Three Digits",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberLastFourDigits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number Last Four Digits",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberSecondThreeDigits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number Second Three Digits",
+        "widget": "text"
+      }
+    },
+    "thisCalendarYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform This Calendar Year",
+        "widget": "text"
+      }
+    },
+    "lastCalendarYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Calendar Year",
+        "widget": "text"
+      }
+    },
+    "numberOfHoursWorkedPerMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Number Of Hours Worked Per Month",
+        "widget": "text"
+      }
+    },
+    "totalEarningsFromEmploymentForLastCalendarYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Total Earnings From Employment For Last Calendar Year",
+        "widget": "text"
+      }
+    },
+    "maximumExpectedEarningsFromEmploymentForThisCalendarYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Maximum Expected Earnings From Employment For This Calendar Year",
+        "widget": "text"
+      }
+    },
+    "nextCalendarYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Next Calendar Year",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other Specify",
+        "widget": "text"
+      }
+    },
+    "signatureVaofficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature V A Official",
+        "widget": "text"
+      }
+    },
+    "titleofVaoffical": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Titleof V A Offical",
+        "widget": "text"
+      }
+    },
+    "varo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A R O",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "remarksIfAny": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Remarks If any",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "nameOfClaimantFirstMiddleInitialLastSeeInstruct": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF CLAIMANT (First, Middle Initial, Last) (SEE INSTRUCT",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "branchOfService_5DateOfDeathMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "BRANCH OF SERVICE 5. DATE OF DEATH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "relationshipToVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RELATIONSHIP TO VETERAN",
+        "widget": "text"
+      }
+    },
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS",
+        "widget": "address"
+      }
+    },
+    "maritalStatus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MARITAL STATUS",
+        "widget": "text"
+      }
+    },
+    "dateOfMarriageMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF MARRIAGE (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "dateMarriageTerminatedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE MARRIAGE TERMINATED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "city2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCode": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code",
+        "widget": "zip"
+      }
+    },
+    "stateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/Province",
+        "widget": "select"
+      }
+    },
+    "eMailAddressIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "E-MAIL ADDRESS (If applicable)",
+        "widget": "address"
+      }
+    },
+    "employmentStatusPleaseSelectOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMPLOYMENT STATUS (PLEASE SELECT ONE)",
+        "widget": "text"
+      }
+    },
+    "totalEarningsFromEmploymentForLastCalendarYear2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL EARNINGS FROM EMPLOYMENT FOR LAST CALENDAR YEAR",
+        "widget": "text"
+      }
+    },
+    "maximumExpectedEarningsFromEmploymentForThis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAXIMUM EXPECTED EARNINGS FROM EMPLOYMENT FOR THIS",
+        "widget": "text"
+      }
+    },
+    "maximumExpectedEarningsFromEmploymentForNext": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAXIMUM EXPECTED EARNINGS FROM EMPLOYMENT FOR NEXT",
+        "widget": "text"
+      }
+    },
+    "remarksIfAny2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (If any)",
+        "widget": "text"
+      }
+    },
+    "23c": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "23C.",
+        "widget": "date"
+      }
+    },
+    "signatureOfClaimantCustodianOrGuardianRequired": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF CLAIMANT, CUSTODIAN, OR GUARDIAN (REQUIRED)",
+        "widget": "signature"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "survivingSpouse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SURVIVING SPOUSE",
+        "widget": "text"
+      }
+    },
+    "theseBenefitsWillTerminateWhenTheChildReachesAge_18": {
+      "type": "string",
+      "x-va-field": {
+        "label": "These benefits will terminate when the child reaches age 18,",
+        "widget": "text"
+      }
+    },
+    "child": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CHILD",
+        "widget": "text"
+      }
+    },
+    "whoIsEligible": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHO IS ELIGIBLE",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriage": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMarriageTerminated": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8924-are.pdf",
+    "status": "digitized",
+    "totalFields": 85,
+    "composedFields": 74,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:35:33.018Z",
+    "postProcessedAt": "2026-03-30T20:02:41.727649+00:00",
+    "redigitizedAt": "2026-03-30T20:38:16.884Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

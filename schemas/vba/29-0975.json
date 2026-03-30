@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-0975",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameofPersonOrOrganization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Nameof Person Or Organization",
+        "widget": "text"
+      }
+    },
+    "addressOfPersonOrOrganization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Address Of Person Or Organization",
+        "widget": "text"
+      }
+    },
+    "datefrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Datefrom",
+        "widget": "text"
+      }
+    },
+    "answer1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 answer1",
+        "widget": "text"
+      }
+    },
+    "answer5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 answer5",
+        "widget": "text"
+      }
+    },
+    "answer4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 answer4",
+        "widget": "text"
+      }
+    },
+    "answer3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 answer3",
+        "widget": "text"
+      }
+    },
+    "answer2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 answer2",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 S S N",
+        "widget": "text"
+      }
+    },
+    "phoneNum": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Phone Num",
+        "widget": "text"
+      }
+    },
+    "dateField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Date Field1",
+        "widget": "text"
+      }
+    },
+    "controlInTheFollowingCircumstances": {
+      "type": "string",
+      "x-va-field": {
+        "label": "control in the following circumstances",
+        "widget": "text"
+      }
+    },
+    "youCanMailYourCompletedFormTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "You can mail your completed form to",
+        "widget": "text"
+      }
+    },
+    "firstMiddleLastNameOfVeteranPrintClearly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST, MIDDLE, LAST NAME OF VETERAN (Print clearly)",
+        "widget": "text"
+      }
+    },
+    "firstMiddleLastNameOfAnnuitantWhoIsNotThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST, MIDDLE, LAST NAME OF ANNUITANT WHO IS NOT THE",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "fPage_2CheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 2 Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "va": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(VA",
+        "widget": "date"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "specifyTheSecurityQuestionYouWantUsedWhenVerifyingT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPECIFY THE SECURITY QUESTION YOU WANT USED WHEN VERIFYING T",
+        "widget": "text"
+      }
+    },
+    "iVeteranAnnuitantAuthorizeTheDepartmentOfVeteransA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I (veteran/annuitant) AUTHORIZE THE DEPARTMENT OF VETERANS A",
+        "widget": "text"
+      }
+    },
+    "specify": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(Specify",
+        "widget": "date"
+      }
+    },
+    "theTermsOfSuchReleaseOfInformationWillBe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE TERMS OF SUCH RELEASE OF INFORMATION WILL BE:",
+        "widget": "text"
+      }
+    },
+    "addressOfVeteranAnnuitantNumberAndStreetOrRuralRou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF VETERAN/ANNUITANT (Number and Street or rural rou",
+        "widget": "address"
+      }
+    },
+    "insurancePolicyNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSURANCE POLICY NUMBER",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "contactInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CONTACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "fromThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "From the",
+        "widget": "date"
+      }
+    },
+    "11b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11B.",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0975-are.pdf",
+    "status": "digitized",
+    "totalFields": 31,
+    "composedFields": 31,
+    "coveragePercent": 97,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:55.453Z",
+    "redigitizedAt": "2026-03-30T20:38:54.537Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

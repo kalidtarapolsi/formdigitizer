@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10068a",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateIsARequiredField": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "checkIfNew": {
+      "type": "boolean"
+    },
+    "nameOfOtherHealthInsuranceOhi": {
+      "type": "string"
+    },
+    "ohiPolicyNumber": {
+      "type": "string"
+    },
+    "workRelatedTreat": {
+      "type": "string"
+    },
+    "employerSponsoredGroup": {
+      "type": "string"
+    },
+    "relationshipToPatient": {
+      "type": "string"
+    },
+    "specify": {
+      "type": "string"
+    },
+    "outsdWrkAccdnt": {
+      "type": "string"
+    },
+    "ptntCverage": {
+      "type": "string"
+    },
+    "privateNonGroup": {
+      "type": "string"
+    },
+    "medicarePartAOrB": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068a-fill.pdf",
+    "totalFields": 40,
+    "composedFields": 35,
+    "coveragePercent": 88,
+    "xfaLabelCount": 38,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:31.794Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

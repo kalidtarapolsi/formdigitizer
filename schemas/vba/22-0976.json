@@ -1,0 +1,318 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-0976",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "submitting": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Submitting",
+        "widget": "checkbox"
+      }
+    },
+    "school": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform School",
+        "widget": "checkbox"
+      }
+    },
+    "creditHours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Credit Hours",
+        "widget": "text"
+      }
+    },
+    "totalLength": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Total Length",
+        "widget": "text"
+      }
+    },
+    "numberWeeks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Number Weeks",
+        "widget": "text"
+      }
+    },
+    "entryRequirements": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Entry Requirements",
+        "widget": "text"
+      }
+    },
+    "initials": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Initials",
+        "widget": "text"
+      }
+    },
+    "branch": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch",
+        "widget": "text"
+      }
+    },
+    "completeAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Complete Address",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name",
+        "widget": "text"
+      }
+    },
+    "officialsFacutly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Officials Facutly",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Title",
+        "widget": "text"
+      }
+    },
+    "dateGraduatingClass": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Graduating Class",
+        "widget": "text"
+      }
+    },
+    "numberStudents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Number Students",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email",
+        "widget": "text"
+      }
+    },
+    "nameOfOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Official",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "tellUsWhyYouAreSubmittingThisApplication": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELL US WHY YOU ARE SUBMITTING THIS APPLICATION",
+        "widget": "text"
+      }
+    },
+    "institutionWebsiteAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTITUTION WEBSITE ADDRESS",
+        "widget": "text"
+      }
+    },
+    "pleaseProvideTheFollowingInformationForTheEducational": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE PROVIDE THE FOLLOWING INFORMATION FOR THE EDUCATIONAL",
+        "widget": "text"
+      }
+    },
+    "nameOfDegreeProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF DEGREE PROGRAM",
+        "widget": "text"
+      }
+    },
+    "theFollowingAreRequirementsForParticipationVaMustB": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE FOLLOWING ARE REQUIREMENTS FOR PARTICIPATION.  VA MUST B",
+        "widget": "text"
+      }
+    },
+    "branchesPleaseListOtherOffCampusLocationsIncluding": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BRANCHES: PLEASE LIST OTHER OFF-CAMPUS LOCATIONS, INCLUDING",
+        "widget": "text"
+      }
+    },
+    "institutionUnderstandsTheFollowingImportantProgramRequ": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTITUTION UNDERSTANDS THE FOLLOWING IMPORTANT PROGRAM REQU",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "theInstitutionMustRetainTheRecordsAndAccountInformat": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE INSTITUTION MUST RETAIN THE RECORDS AND ACCOUNT INFORMAT",
+        "widget": "text"
+      }
+    },
+    "firstTimeUser": {
+      "type": "string",
+      "x-va-field": {
+        "label": "First Time User",
+        "widget": "text"
+      }
+    },
+    "existingUser": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing User",
+        "widget": "text"
+      }
+    },
+    "listOfSchoolGoverningBodyOfficialsAndFacultyPleas": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIST OF SCHOOL GOVERNING BODY, OFFICIALS AND FACULTY. (Pleas",
+        "widget": "text"
+      }
+    },
+    "institutionIsListedAsAMedicalSchoolInTheWorldDirec": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTITUTION IS LISTED AS A MEDICAL SCHOOL IN THE WORLD DIREC",
+        "widget": "text"
+      }
+    },
+    "theNameOfTheAccreditingAuthorityOperatingInYourCoun": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE NAME OF THE ACCREDITING AUTHORITY OPERATING IN YOUR COUN",
+        "widget": "text"
+      }
+    },
+    "institutionProvidesAndRequiresItsStudentsToComplete": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTITUTION PROVIDES (and requires its students to complete)",
+        "widget": "text"
+      }
+    },
+    "institutionGraduatedClassesDuringEachOfTheLastTwo_12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTITUTION GRADUATED CLASSES DURING EACH OF THE LAST TWO 12",
+        "widget": "text"
+      }
+    },
+    "ifYesIncludeThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(If \"YES,\" include the",
+        "widget": "text"
+      }
+    },
+    "dateOfGraduatingClassMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF GRADUATING CLASS (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "numberOfStudentsThatGraduated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF STUDENTS THAT GRADUATED",
+        "widget": "text"
+      }
+    },
+    "19cDateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "19C. DATE SIGNED (",
+        "widget": "text"
+      }
+    },
+    "18aNameOfSchoolCertifyingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "18A. NAME OF SCHOOL CERTIFYING OFFICIAL (",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "pleaseEmailTheFormToFederalApprovalsVaGov": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Please email the form to Federal.Approvals@va.gov.",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0976-are.pdf",
+    "status": "digitized",
+    "totalFields": 42,
+    "composedFields": 42,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:34:06.070Z",
+    "redigitizedAt": "2026-03-30T20:37:42.206Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

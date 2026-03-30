@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Patient Transfer Record",
+  "type": "object",
+  "properties": {
+    "veteranFullName": {
+      "type": "string",
+      "description": "Veteran's full name (last, first, middle)"
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "description": "Social Security Number (last 4 digits)"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "description": "VA file number"
+    },
+    "vaFacilityName": {
+      "type": "string",
+      "description": "VA medical facility name"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "transferFrom": {
+      "type": "string",
+      "description": "Transferring facility"
+    },
+    "transferTo": {
+      "type": "string",
+      "description": "Receiving facility"
+    },
+    "transferDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of transfer"
+    },
+    "diagnosis": {
+      "type": "string",
+      "description": "Primary diagnosis"
+    },
+    "medications": {
+      "type": "string",
+      "description": "Current medications"
+    },
+    "specialInstructions": {
+      "type": "string",
+      "description": "Special instructions"
+    },
+    "attendingPhysician": {
+      "type": "string",
+      "description": "Attending physician"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-2368.pdf",
+    "totalFields": 14,
+    "composedFields": 14,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 1,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491H",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform email",
+        "widget": "text"
+      }
+    },
+    "dateTimeField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field1",
+        "widget": "text"
+      }
+    },
+    "dateTimeField2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field2",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "studentSNameLastFirstMiddle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Student's Name (Last, First, Middle)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Social Security Number",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Email Address",
+        "widget": "text"
+      }
+    },
+    "graduationDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "graduation date",
+        "widget": "text"
+      }
+    },
+    "requirementsWillBeMet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "requirements will be met",
+        "widget": "text"
+      }
+    },
+    "iIntendToSubmitMyApplicationsForEmployment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I intend to submit my applications for employment",
+        "widget": "text"
+      }
+    },
+    "pleaseCheckApplicableBoxes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Please check applicable boxes",
+        "widget": "text"
+      }
+    },
+    "informationFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "information for",
+        "widget": "text"
+      }
+    },
+    "form1SubformRadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491h-fill%20(Notice%20of%20Approaching%20Graduation).pdf",
+    "totalFields": 15,
+    "composedFields": 15,
+    "coveragePercent": 93,
+    "xfaLabelCount": 11,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:29:44.555Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:53.782Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

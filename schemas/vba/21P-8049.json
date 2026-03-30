@@ -1,0 +1,467 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-8049",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "veteransLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Veterans Last Name",
+        "widget": "text"
+      }
+    },
+    "veteransMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Veterans Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants First Name",
+        "widget": "text"
+      }
+    },
+    "claimantsLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Last Name",
+        "widget": "text"
+      }
+    },
+    "claimantsMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Claimants Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Other Specify",
+        "widget": "text"
+      }
+    },
+    "dependentsAge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Dependents Age",
+        "widget": "text"
+      }
+    },
+    "dependentsName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Dependents Name",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Amount",
+        "widget": "text"
+      }
+    },
+    "secondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "areaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Area Code",
+        "widget": "text"
+      }
+    },
+    "explanation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Explanation",
+        "widget": "text"
+      }
+    },
+    "nameOfDeceasedPersonFirstMiddleLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Name of Deceased Person First Middle Last",
+        "widget": "text"
+      }
+    },
+    "nameOfPersonPaid": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Name of Person Paid",
+        "widget": "text"
+      }
+    },
+    "addressOfPersonPaid": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Address Of Person Paid",
+        "widget": "text"
+      }
+    },
+    "nameOfTheDeceasedFromWhoPaymentIsReceived": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Name of the Deceased From who Payment is Received",
+        "widget": "text"
+      }
+    },
+    "expectedOrActualDateOfReceipt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform Expected Or Actual Date Of Receipt",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform #subform Remarks",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform #subform Signature",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba218049form #subform #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "eMailAddressOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "E-MAIL ADDRESS (Optional)",
+        "widget": "text"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "veteranSSocialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "veteranSDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S DATE OF BIRTH",
+        "widget": "text"
+      }
+    },
+    "claimantSMailingAddressNumberAndStreetOrRuralRoute": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S MAILING ADDRESS (Number and street or rural route",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCodeStateProvinceCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code  State/Province  Country",
+        "widget": "text"
+      }
+    },
+    "claimantSRelationshipToVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S RELATIONSHIP TO VETERAN",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "claimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "claimantSSocialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "claimantSDateOfBirthMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "otherSpecify2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (Specify)",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "20cDateOfDeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "20C. DATE OF DEATH (",
+        "widget": "text"
+      }
+    },
+    "provider": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Provider",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address",
+        "widget": "text"
+      }
+    },
+    "21a_4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "21A (4).",
+        "widget": "text"
+      }
+    },
+    "nameOfTheDeceasedFromWhomPaymentIsReceived": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF THE DECEASED FROM WHOM PAYMENT IS RECEIVED.",
+        "widget": "text"
+      }
+    },
+    "21b_4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "21B (4).",
+        "widget": "text"
+      }
+    },
+    "21c_4": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "21C (4).",
+        "widget": "date"
+      }
+    },
+    "21d_4": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "21D (4).",
+        "widget": "date"
+      }
+    },
+    "remarks2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "24b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "24B.",
+        "widget": "date"
+      }
+    },
+    "statedAbove": {
+      "type": "string",
+      "x-va-field": {
+        "label": "stated above.",
+        "widget": "select"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "feesForClaims": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FEES FOR CLAIMS",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8049-are.pdf",
+    "status": "digitized",
+    "totalFields": 65,
+    "composedFields": 63,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:31:52.434Z",
+    "postProcessedAt": "2026-03-30T20:02:41.723699+00:00",
+    "redigitizedAt": "2026-03-30T20:36:14.683Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

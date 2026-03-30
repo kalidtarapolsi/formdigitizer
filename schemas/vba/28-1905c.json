@@ -1,0 +1,523 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-1905c",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "claimantsFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Claimants First Name",
+        "widget": "text"
+      }
+    },
+    "claimantsLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Claimants Last Name",
+        "widget": "text"
+      }
+    },
+    "claimantsMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Claimants Middle Initial",
+        "widget": "text"
+      }
+    },
+    "nameOfTrainingFacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Name Of Training Facility",
+        "widget": "text"
+      }
+    },
+    "addressOfTrainingFacilityNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Address Of Training Facility Number And Street",
+        "widget": "text"
+      }
+    },
+    "mailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "mailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "mailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "mailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "nameOfTrainingProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Name Of Training Program",
+        "widget": "text"
+      }
+    },
+    "facilityCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Facility Code",
+        "widget": "text"
+      }
+    },
+    "vaFileNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform V A File Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "classSession": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Class Session",
+        "widget": "text"
+      }
+    },
+    "trainingTime": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Training Time",
+        "widget": "text"
+      }
+    },
+    "jobObjectives": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Job Objectives",
+        "widget": "text"
+      }
+    },
+    "numberOfHours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Number Of Hours",
+        "widget": "text"
+      }
+    },
+    "nameOfMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Name Of Month",
+        "widget": "text"
+      }
+    },
+    "dobyear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform D O Byear",
+        "widget": "text"
+      }
+    },
+    "dropDownList11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Drop Down List11",
+        "widget": "select"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Other Specify",
+        "widget": "text"
+      }
+    },
+    "summaryOfTrainingProgressOfSkillDevelopment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Summary Of Training Progress Of Skill Development",
+        "widget": "text"
+      }
+    },
+    "numberOfHoursOfFullTimeWorkweek": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Number Of Hours Of Full Time Workweek",
+        "widget": "text"
+      }
+    },
+    "numberOfHoursCompletedForMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Number Of Hours Completed For Month",
+        "widget": "text"
+      }
+    },
+    "numberOfHoursCompletedInProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Number Of Hours Completed In Program",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "areaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Area Code",
+        "widget": "text"
+      }
+    },
+    "nameOfVRAndECounselor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Name Of V R And E Counselor",
+        "widget": "text"
+      }
+    },
+    "emailAddressOfVRAndECounselor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Email Address Of V R And E Counselor",
+        "widget": "text"
+      }
+    },
+    "checkBoxICertifyThatThisStatementAndItsInformationIsTrueAndCorrectToTheBestOfMyKnowledgeAndBelief": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Check Box I Certify That This Statement And Its Information Is True And Correct To The Best Of My Knowledge And Belief",
+        "widget": "checkbox"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "emailAddressOfCertifyingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Email Address Of Certifying Official",
+        "widget": "text"
+      }
+    },
+    "nameOfCertifyingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Name Of Certifying Official",
+        "widget": "text"
+      }
+    },
+    "emailAddressOfTrainer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Email Address Of Trainer",
+        "widget": "text"
+      }
+    },
+    "nameOfTrainer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Name Of Trainer",
+        "widget": "text"
+      }
+    },
+    "monthForWhichWagesWerePaidExample": {
+      "type": "string",
+      "x-va-field": {
+        "label": "month for which wages were paid. Example",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "s_281905c800SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "S 281905c800 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "claimantSName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME",
+        "widget": "text"
+      }
+    },
+    "nameOfTrainingFacility2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF TRAINING FACILITY",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "stateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/Province",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCode": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code",
+        "widget": "zip"
+      }
+    },
+    "addressOfTrainingFacilityNumberAndStreetOrRuralRou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF TRAINING FACILITY (Number and street or rural rou",
+        "widget": "address"
+      }
+    },
+    "nameOfTrainingProgram2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF TRAINING PROGRAM",
+        "widget": "text"
+      }
+    },
+    "facilityCode2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FACILITY CODE",
+        "widget": "text"
+      }
+    },
+    "selectAppropriateTypeOfTrainingAndSpecificProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SELECT APPROPRIATE TYPE OF TRAINING AND SPECIFIC PROGRAM.",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "attendanceInAllTrainingPrograms": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ATTENDANCE IN ALL TRAINING PROGRAMS",
+        "widget": "text"
+      }
+    },
+    "begin": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "BEGIN",
+        "widget": "date"
+      }
+    },
+    "end": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "END",
+        "widget": "date"
+      }
+    },
+    "reductionInTrainingHours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REDUCTION IN TRAINING HOURS",
+        "widget": "text"
+      }
+    },
+    "terminationOrCompleteWithdrawalFromTraining": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TERMINATION OR COMPLETE WITHDRAWAL FROM TRAINING",
+        "widget": "text"
+      }
+    },
+    "10a": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "10A.",
+        "widget": "date"
+      }
+    },
+    "apprenticeshipPaidOjtAndNonPaidWorkExperience": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPRENTICESHIP, PAID OJT, AND NON-PAID WORK EXPERIENCE",
+        "widget": "text"
+      }
+    },
+    "12cBeginDateOfRateOfPayListedInItem_12a": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12C. BEGIN DATE OF RATE OF PAY LISTED IN ITEM #12A",
+        "widget": "date"
+      }
+    },
+    "otherSpecify2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (Specify)",
+        "widget": "text"
+      }
+    },
+    "summaryOfTrainingProgressOfSkillDevelopment2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUMMARY OF TRAINING PROGRESS OF SKILL DEVELOPMENT",
+        "widget": "text"
+      }
+    },
+    "completeTheFollowingBelowForTheInitialTraineeSHourl": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COMPLETE THE FOLLOWING BELOW FOR THE INITIAL TRAINEE'S HOURL",
+        "widget": "text"
+      }
+    },
+    "nameOfVrECounselor15EmailAddressOfVrECounselor": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "NAME OF VR&E COUNSELOR15. EMAIL ADDRESS OF VR&E COUNSELOR",
+        "widget": "email"
+      }
+    },
+    "telephoneNumberOfVrECounselor": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER OF VR&E COUNSELOR",
+        "widget": "phone"
+      }
+    },
+    "21bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "21B.  DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "emailAddressOfCertifyingOfficial17NameOfCertifyingO": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS OF CERTIFYING OFFICIAL17. NAME OF CERTIFYING O",
+        "widget": "email"
+      }
+    },
+    "emailAddressOfTrainer19NameOfTrainer": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS OF TRAINER19. NAME OF TRAINER",
+        "widget": "email"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1905c-are.pdf",
+    "status": "digitized",
+    "totalFields": 72,
+    "composedFields": 70,
+    "coveragePercent": 99,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:31:50.768Z",
+    "postProcessedAt": "2026-03-30T20:02:41.757040+00:00",
+    "redigitizedAt": "2026-03-30T20:35:30.463Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

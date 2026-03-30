@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-322",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "orderingProviderMedicalSpecialty": {
+      "type": "string"
+    },
+    "thisFormIsForPublishedClinicalDeterminationsAndIndicationsCDIs": {
+      "type": "string"
+    },
+    "subjectOfQuestionEGDeviceMedicalSpecialtyCoverage": {
+      "type": "string"
+    },
+    "submitterName": {
+      "type": "string"
+    },
+    "orderingProviderName": {
+      "type": "string"
+    },
+    "questionWithDescription": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-322.pdf",
+    "totalFields": 10,
+    "composedFields": 7,
+    "coveragePercent": 70,
+    "xfaLabelCount": 10,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:12:50.816Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

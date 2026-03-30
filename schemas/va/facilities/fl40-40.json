@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FL40-40",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "jf23": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F23",
+        "widget": "text"
+      }
+    },
+    "jf10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F10",
+        "widget": "text"
+      }
+    },
+    "jf24": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F24",
+        "widget": "text"
+      }
+    },
+    "jf26": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F26",
+        "widget": "text"
+      }
+    },
+    "jf25": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F25",
+        "widget": "text"
+      }
+    },
+    "jf14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F14",
+        "widget": "text"
+      }
+    },
+    "jf20": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F20",
+        "widget": "text"
+      }
+    },
+    "jf21": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F21",
+        "widget": "text"
+      }
+    },
+    "jf22": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 J F22",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Phone",
+        "widget": "text"
+      }
+    },
+    "thePostagePaidEnvelopeSoThatNcaCanUp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "the postage-paid envelope so that NCA can up",
+        "widget": "text"
+      }
+    },
+    "fPage_1CheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "changedSurvivingSpousesWhoRemarriedAndWhose": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "changed. Surviving spouses who remarried and whose",
+        "widget": "date"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "name2SsnCServiceNo_3Section4Grave": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "NAME2. SSN/C/SERVICE NO.3. SECTION4. GRAVE",
+        "widget": "ssn"
+      }
+    },
+    "additionalInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDITIONAL INFORMATION",
+        "widget": "text"
+      }
+    },
+    "addressStreetCityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS (Street, City, State and Zip Code)",
+        "widget": "address"
+      }
+    },
+    "pleaseCheckTheAppropriateBoxBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE CHECK THE APPROPRIATE BOX BELOW",
+        "widget": "text"
+      }
+    },
+    "isTheIndividualInBlock_1DeceasedIfYesWhatIsThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS THE INDIVIDUAL IN BLOCK 1 DECEASED?  (If yes, what is the",
+        "widget": "text"
+      }
+    },
+    "printName10Signature11Date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "PRINT NAME10. SIGNATURE11. DATE",
+        "widget": "date"
+      }
+    },
+    "phoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "PHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/FL40-40.pdf",
+    "totalFields": 22,
+    "composedFields": 22,
+    "coveragePercent": 100,
+    "xfaLabelCount": 12,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:33:05.762Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:59.551Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

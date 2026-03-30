@@ -1,0 +1,364 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-10210",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Last Name",
+        "widget": "text"
+      }
+    },
+    "middleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "vaInsuranceFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform V A I N S U R A N C E F I L E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "vaFileNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform V A File Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "internationalPhoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform International Phone Number",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform E M A I L A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "ssn2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform S S N2",
+        "widget": "text"
+      }
+    },
+    "ssn1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform S S N1",
+        "widget": "text"
+      }
+    },
+    "ssn3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform S S N3",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "areaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Area Code",
+        "widget": "text"
+      }
+    },
+    "secondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "witnessFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform W I T N E S S F I R S T N A M E",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "coworkerOrSupervisorOfClaimant": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Vba210304 #subform C O W O R K E R O R S U P E R V I S O R O F C L A I M A N T",
+        "widget": "checkbox"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba210304 #subform O T H E R Specify",
+        "widget": "text"
+      }
+    },
+    "familyOrFriendOfClaimant": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Vba210304 #subform F A M I L Y O R F R I E N D O F C L A I M A N T",
+        "widget": "checkbox"
+      }
+    },
+    "servedWithClaimant": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Vba210304 #subform S E R V E D W I T H C L A I M A N T",
+        "widget": "checkbox"
+      }
+    },
+    "vba210304SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Vba210304 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "mailTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "mail to",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BIRTH",
+        "widget": "date"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressIfApplicableNumberAndStreetO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT MAILING ADDRESS (If applicable) (Number and street o",
+        "widget": "address"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "claimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "stateProvincecountryzipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/ProvinceCountryZIP Code/Postal Code",
+        "widget": "select"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreetOrRuralRouteP": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT MAILING ADDRESS (Number and street or rural route, P",
+        "widget": "address"
+      }
+    },
+    "statementNoteDescribeWhatYouYourselfKnowOrHaveObs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATEMENT (Note: Describe what you yourself know or have obs",
+        "widget": "select"
+      }
+    },
+    "witnessNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WITNESS NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "emailAddress2": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "email address.",
+        "widget": "email"
+      }
+    },
+    "relationshipToVeteranClaimantCheckAllThatApply": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RELATIONSHIP TO VETERAN/CLAIMANT (Check all that apply)",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-10210-are.pdf",
+    "status": "digitized",
+    "totalFields": 51,
+    "composedFields": 48,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:34:22.136Z",
+    "postProcessedAt": "2026-03-30T20:02:41.691732+00:00",
+    "redigitizedAt": "2026-03-30T20:37:50.338Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

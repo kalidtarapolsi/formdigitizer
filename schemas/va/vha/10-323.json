@@ -1,0 +1,185 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-323",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "numericField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Numeric Field1",
+        "widget": "text"
+      }
+    },
+    "debtmount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Debtmount",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Amount",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME",
+        "widget": "text"
+      }
+    },
+    "address_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS 1",
+        "widget": "text"
+      }
+    },
+    "address_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS 2",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CITY",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER",
+        "widget": "text"
+      }
+    },
+    "bestTimeToCall": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BEST TIME TO CALL",
+        "widget": "text"
+      }
+    },
+    "youMayAccrueAdditionalChargesForServicesYouReceiveA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "You may accrue additional charges for services you receive a",
+        "widget": "text"
+      }
+    },
+    "ifYouAreUnableToMakeYourMonthlyPaymentsPursuantTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If you are unable to make your monthly payments pursuant to",
+        "widget": "text"
+      }
+    },
+    "mailCompletedAndSignedFormTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Mail completed and signed form to",
+        "widget": "text"
+      }
+    },
+    "form1SubformSubformSubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "attn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Attn",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "text"
+      }
+    },
+    "vamcAccountNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VAMC ACCOUNT NUMBER",
+        "widget": "text"
+      }
+    },
+    "vamcStationNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VAMC STATION NUMBER",
+        "widget": "text"
+      }
+    },
+    "ifDeniedReason": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If Denied? Reason",
+        "widget": "text"
+      }
+    },
+    "signAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Sign and",
+        "widget": "text"
+      }
+    },
+    "mailTheSignedAndCompletedFormToTheConsoli": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Mail the signed and completed form to the Consoli",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-323.pdf",
+    "totalFields": 23,
+    "composedFields": 23,
+    "coveragePercent": 96,
+    "xfaLabelCount": 9,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:22:34.748Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:10.551Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

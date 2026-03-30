@@ -1,0 +1,607 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10278",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "claimantsFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Claimants First Name",
+        "widget": "text"
+      }
+    },
+    "claimantsLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Claimants Last Name",
+        "widget": "text"
+      }
+    },
+    "claimantsMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Claimants Middle Initial",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Claimants Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Claimants Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Claimants Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "mailingAddressOfClaimantNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Mailing Address Of Claimant Number And Street",
+        "widget": "text"
+      }
+    },
+    "mailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "mailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "mailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "mailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Telephone Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberSecondThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Telephone Number Second Three Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Telephone Number Area Code",
+        "widget": "text"
+      }
+    },
+    "emailAddressOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Email Address Optional",
+        "widget": "text"
+      }
+    },
+    "authorizedPersonLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Authorized Person Last Name",
+        "widget": "text"
+      }
+    },
+    "authorizedPersonMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Authorized Person Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "nameOfAuthorizedPersonFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform N A M E O F A U T H O R I Z E D P E R S O N First Name",
+        "widget": "text"
+      }
+    },
+    "addressOfPersonZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform A D D R E S S O F P E R S O N Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "addressOfPersonZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform A D D R E S S O F P E R S O N Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "addressOfPersonCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform A D D R E S S O F P E R S O N Country",
+        "widget": "text"
+      }
+    },
+    "addressOfPersonCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform A D D R E S S O F P E R S O N City",
+        "widget": "text"
+      }
+    },
+    "addressOfPersonApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform A D D R E S S O F P E R S O N Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "addressOfPersonNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform A D D R E S S O F P E R S O N Number And Street",
+        "widget": "text"
+      }
+    },
+    "nameOfOrganizationIncludeNameOfRepresentative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name of Organization Include Name Of Representative",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "country": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Country",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform City",
+        "widget": "text"
+      }
+    },
+    "apartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "addressOfOrganizationNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform A D D R E S S O F O R G A N I Z A T I O N Number And Street",
+        "widget": "text"
+      }
+    },
+    "securityQuestionAnswer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform S E C U R I T Y Q U E S T I O N Answer",
+        "widget": "text"
+      }
+    },
+    "limitedInformation": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform L I M I T E D I N F O R M A T I O N",
+        "widget": "checkbox"
+      }
+    },
+    "anyInformation": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform A N Y I N F O R M A T I O N",
+        "widget": "checkbox"
+      }
+    },
+    "statusOfPendingClaimOrAppeal": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Status Of Pending Claim Or Appeal",
+        "widget": "checkbox"
+      }
+    },
+    "currentBenefitAndRate": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform C U R R E N T B E N E F I T A N D R A T E",
+        "widget": "checkbox"
+      }
+    },
+    "paymentHistory": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform P A Y M E N T H I S T O R Y",
+        "widget": "checkbox"
+      }
+    },
+    "amountOfMoneyOwedVa": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform A M O U N T O F M O N E Y O W E D V A",
+        "widget": "checkbox"
+      }
+    },
+    "changeOfAddressOrDirectDeposit": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform C H A N G E O F A D D R E S S O R D I R E C T D E P O S I T",
+        "widget": "checkbox"
+      }
+    },
+    "otherSpecifyBelow": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform O T H E R Specify Below",
+        "widget": "checkbox"
+      }
+    },
+    "ongoingUntilWrittenNoticeIsGivenToVaToTerminate": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform O N G O I N G U N T I L W R I T T E N N O T I C E I S G I V E N T O V A T O T E R M I N A T E",
+        "widget": "checkbox"
+      }
+    },
+    "fromTheDateOfSigningBelowUntil": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform F R O M T H E D A T E O F S I G N I N G B E L O W U N T I L",
+        "widget": "checkbox"
+      }
+    },
+    "theCityAndStateYourMotherWasBornIn": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform T H E C I T Y A N D S T A T E Y O U R M O T H E R W A S B O R N I N",
+        "widget": "checkbox"
+      }
+    },
+    "theNameOfTheHighSchoolYouAttended": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform T H E N A M E O F T H E H I G H S C H O O L Y O U A T T E N D E D",
+        "widget": "checkbox"
+      }
+    },
+    "yourFirstPetsName": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Y O U R F I R S T P E T S N A M E",
+        "widget": "checkbox"
+      }
+    },
+    "yourFavoriteTeachersName": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Y O U R F A V O R I T E T E A C H E R S N A M E",
+        "widget": "checkbox"
+      }
+    },
+    "yourFathersMiddleName": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Y O U R F A T H E R S M I D D L E N A M E",
+        "widget": "checkbox"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other Specify",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "fSubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "item_11CheckTheBoxThatAppliesAndFillIn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item 11. Check the box that applies and fill in",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "mailingAddressOfClaimantNumberAndStreetOrRuralRout": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS OF CLAIMANT (Number and Street or rural rout",
+        "widget": "address"
+      }
+    },
+    "claimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "claimantSDateOfBirthMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "CLAIMANT'S DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "claimantSSocialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "CLAIMANT'S SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "city2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCode": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code",
+        "widget": "zip"
+      }
+    },
+    "stateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/Province",
+        "widget": "select"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS",
+        "widget": "email"
+      }
+    },
+    "ifYouSelectedLimitedInformationSelectAllThatApply": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YOU SELECTED \"LIMITED INFORMATION\", SELECT ALL THAT APPLY",
+        "widget": "text"
+      }
+    },
+    "specifyThePinPasswordOrSecurityQuestionYouWantUse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPECIFY THE PIN, PASSWORD, OR SECURITY QUESTION YOU WANT USE",
+        "widget": "text"
+      }
+    },
+    "specifyDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(Specify date -",
+        "widget": "date"
+      }
+    },
+    "theTimeframeForTheReleaseOfInformationIndicatedAbove": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE TIMEFRAME FOR THE RELEASE OF INFORMATION INDICATED ABOVE",
+        "widget": "text"
+      }
+    },
+    "iTheClaimantAuthorizeVaToSpeakWithThePersonOrOrg": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I, THE CLAIMANT AUTHORIZE VA TO SPEAK WITH THE PERSON OR ORG",
+        "widget": "text"
+      }
+    },
+    "cityAptUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City  Apt./Unit Number",
+        "widget": "text"
+      }
+    },
+    "otherSpecifyBelowNote": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Other (Specify below) (Note",
+        "widget": "text"
+      }
+    },
+    "fromThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "From the",
+        "widget": "date"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "claimantSSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "address.",
+        "widget": "address"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10278-are.pdf",
+    "status": "digitized",
+    "totalFields": 89,
+    "composedFields": 83,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 5,
+    "generatedAt": "2026-03-28T17:33:56.434Z",
+    "postProcessedAt": "2026-03-30T20:02:41.732599+00:00",
+    "redigitizedAt": "2026-03-30T20:37:37.418Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

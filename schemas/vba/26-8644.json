@@ -1,0 +1,215 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8644",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "loanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Loan Number",
+        "widget": "text"
+      }
+    },
+    "financialInstitution": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Financial Institution",
+        "widget": "text"
+      }
+    },
+    "institutionAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Institution Address",
+        "widget": "text"
+      }
+    },
+    "year": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B\\ Year",
+        "widget": "text"
+      }
+    },
+    "manufacturersHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C\\ Manufacturers Home",
+        "widget": "text"
+      }
+    },
+    "modelName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D\\ Model Name",
+        "widget": "text"
+      }
+    },
+    "serialNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform E\\ Serial Number",
+        "widget": "text"
+      }
+    },
+    "length": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform length",
+        "widget": "text"
+      }
+    },
+    "area": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform area",
+        "widget": "text"
+      }
+    },
+    "width": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform width",
+        "widget": "text"
+      }
+    },
+    "address1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address1",
+        "widget": "text"
+      }
+    },
+    "address1cont": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address1cont",
+        "widget": "text"
+      }
+    },
+    "vetSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Vet Signature",
+        "widget": "text"
+      }
+    },
+    "date1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date1",
+        "widget": "text"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date2",
+        "widget": "text"
+      }
+    },
+    "dealerName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dealer Name",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Title",
+        "widget": "text"
+      }
+    },
+    "dealerSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dealer Signature",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "descriptionOfManufacturedHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DESCRIPTION OF MANUFACTURED HOME",
+        "widget": "text"
+      }
+    },
+    "signatureOfVeteranReadCertificationBeforeSigning": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VETERAN (Read certification before signing)",
+        "widget": "signature"
+      }
+    },
+    "nameOfDealer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF DEALER",
+        "widget": "text"
+      }
+    },
+    "signatureOfDealer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF DEALER",
+        "widget": "signature"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE",
+        "widget": "date"
+      }
+    },
+    "title2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TITLE",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED",
+        "widget": "date"
+      }
+    },
+    "toNameOfFinancialInstitution3AddressOfFinancialI": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TO:  NAME OF FINANCIAL INSTITUTION3.  ADDRESS OF FINANCIAL I",
+        "widget": "address"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8644-are.pdf",
+    "status": "digitized",
+    "totalFields": 27,
+    "composedFields": 27,
+    "coveragePercent": 96,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:08.706Z",
+    "redigitizedAt": "2026-03-30T20:39:25.645Z",
+    "extractionSources": [
+      "acroform",
+      "text-inference"
+    ]
+  }
+}

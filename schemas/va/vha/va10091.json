@@ -1,0 +1,721 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA10091",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "stationNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Station Number",
+        "widget": "text"
+      }
+    },
+    "stationContact": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Station Contact",
+        "widget": "text"
+      }
+    },
+    "stationPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Station Phone",
+        "widget": "text"
+      }
+    },
+    "stationFax": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Station Fax",
+        "widget": "text"
+      }
+    },
+    "stationEmail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Station Email",
+        "widget": "text"
+      }
+    },
+    "payee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform payee",
+        "widget": "text"
+      }
+    },
+    "factsId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Facts I D",
+        "widget": "text"
+      }
+    },
+    "miscellaneousActions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Miscellaneous Actions",
+        "widget": "text"
+      }
+    },
+    "martinsburgFallingwaters": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform M A R T I N S B U R G F A L L I N G W A T E R S",
+        "widget": "checkbox"
+      }
+    },
+    "dunsNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Duns Number",
+        "widget": "text"
+      }
+    },
+    "duns4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Duns4",
+        "widget": "text"
+      }
+    },
+    "ssnTin": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N T I N",
+        "widget": "text"
+      }
+    },
+    "npi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N P I",
+        "widget": "text"
+      }
+    },
+    "createNew": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Create New",
+        "widget": "checkbox"
+      }
+    },
+    "payeeName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Payee Name",
+        "widget": "text"
+      }
+    },
+    "dba": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D B A",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone",
+        "widget": "text"
+      }
+    },
+    "currentAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Address",
+        "widget": "text"
+      }
+    },
+    "previousAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Previous Address",
+        "widget": "text"
+      }
+    },
+    "bankName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Bank Name",
+        "widget": "text"
+      }
+    },
+    "bankRoutingNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Bank Routing Number",
+        "widget": "text"
+      }
+    },
+    "accountNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Account Number",
+        "widget": "text"
+      }
+    },
+    "accountType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Account Type",
+        "widget": "text"
+      }
+    },
+    "nameTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Title",
+        "widget": "text"
+      }
+    },
+    "fullName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Full Name",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "purposeOfForm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Purpose of Form",
+        "widget": "text"
+      }
+    },
+    "establishOrUp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "establish or up",
+        "widget": "text"
+      }
+    },
+    "requestType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Request Type",
+        "widget": "text"
+      }
+    },
+    "chooseUp": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "choose UP",
+        "widget": "date"
+      }
+    },
+    "stationNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Station Number:",
+        "widget": "text"
+      }
+    },
+    "stationContact2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Station Contact:",
+        "widget": "text"
+      }
+    },
+    "stationPhoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Station Phone Number:",
+        "widget": "phone"
+      }
+    },
+    "stationFaxNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Station Fax Number:",
+        "widget": "text"
+      }
+    },
+    "stationEmailAddress": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "Station Email Address:",
+        "widget": "email"
+      }
+    },
+    "payeeVendorTypeRequired": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Payee Vendor Type (Required):",
+        "widget": "text"
+      }
+    },
+    "miscellaneousActionsIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Miscellaneous Actions (If applicable):",
+        "widget": "text"
+      }
+    },
+    "commercialVendorRegisteredInSamGov": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Commercial Vendor registered in Sam.gov:",
+        "widget": "text"
+      }
+    },
+    "uniqueEntityIdentifyUei": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Unique Entity Identify (UEI):",
+        "widget": "text"
+      }
+    },
+    "eftIndicator": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EFT Indicator:",
+        "widget": "text"
+      }
+    },
+    "blankOrIncorrectInformationInThisFieldMayCauseA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Blank or incorrect information in this field may cause a",
+        "widget": "text"
+      }
+    },
+    "ssnTin2": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN/TIN:",
+        "widget": "ssn"
+      }
+    },
+    "npi2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NPI:",
+        "widget": "text"
+      }
+    },
+    "smallBusiness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SMALL BUSINESS:",
+        "widget": "text"
+      }
+    },
+    "payeeVendorName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAYEE VENDOR NAME:",
+        "widget": "text"
+      }
+    },
+    "doingBusinessAsDba": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DOING BUSINESS AS (DBA):",
+        "widget": "text"
+      }
+    },
+    "payeeVendorEmail": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "PAYEE/VENDOR EMAIL:",
+        "widget": "email"
+      }
+    },
+    "emailAddressForThePersonListedInBoxes_24And_25": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "Email address for the person listed in Boxes 24 and 25.",
+        "widget": "email"
+      }
+    },
+    "payeeVendorPhoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "PAYEE/VENDOR PHONE NUMBER:",
+        "widget": "phone"
+      }
+    },
+    "currentAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT ADDRESS:",
+        "widget": "address"
+      }
+    },
+    "previousAddressRequiredForAddressChange": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PREVIOUS ADDRESS (Required for address change",
+        "widget": "address"
+      }
+    },
+    "requests": {
+      "type": "string",
+      "x-va-field": {
+        "label": "requests)",
+        "widget": "text"
+      }
+    },
+    "currentBankName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT BANK NAME:",
+        "widget": "text"
+      }
+    },
+    "currentBank_9DigitRoutingNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT BANK 9-DIGIT ROUTING NUMBER:",
+        "widget": "text"
+      }
+    },
+    "currentBankAccountNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT BANK ACCOUNT NUMBER:",
+        "widget": "text"
+      }
+    },
+    "currentAccountType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT ACCOUNT TYPE:",
+        "widget": "text"
+      }
+    },
+    "makesItACrimeTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "makes it  a  crime to",
+        "widget": "text"
+      }
+    },
+    "nameAndTitleOfAuthorizedRepresentative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND TITLE OF AUTHORIZED REPRESENTATIVE:",
+        "widget": "text"
+      }
+    },
+    "representativeIsDefinedAs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Representative is defined as",
+        "widget": "text"
+      }
+    },
+    "signatureOfAuthorizedRepresentative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF AUTHORIZED REPRESENTATIVE:",
+        "widget": "signature"
+      }
+    },
+    "statementOnThisFormCanBePunishedByFineOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "statement on this form can be punished by fine or",
+        "widget": "select"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "newVendorup": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "NEW VENDORUP",
+        "widget": "date"
+      }
+    },
+    "stationNumber3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATION NUMBER",
+        "widget": "text"
+      }
+    },
+    "stationContact3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATION CONTACT",
+        "widget": "text"
+      }
+    },
+    "stationPhoneNumber2": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "STATION PHONE NUMBER",
+        "widget": "phone"
+      }
+    },
+    "stationFaxNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATION FAX NUMBER",
+        "widget": "text"
+      }
+    },
+    "stationEmailAddress2": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "STATION EMAIL ADDRESS",
+        "widget": "email"
+      }
+    },
+    "payeeVendorTypeSelectOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAYEE/VENDOR TYPE (Select one)",
+        "widget": "text"
+      }
+    },
+    "miscellaneousActionsSelectOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MISCELLANEOUS ACTIONS (Select one)",
+        "widget": "text"
+      }
+    },
+    "commercialVendorRegisteredInSamGov2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COMMERCIAL VENDOR REGISTERED IN SAM.GOV",
+        "widget": "text"
+      }
+    },
+    "uniqueEntityIdentifierUei": {
+      "type": "string",
+      "x-va-field": {
+        "label": "UNIQUE ENTITY IDENTIFIER (UEI)",
+        "widget": "text"
+      }
+    },
+    "eftIdentifer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EFT IDENTIFER",
+        "widget": "text"
+      }
+    },
+    "ssnTin3": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN/TIN",
+        "widget": "ssn"
+      }
+    },
+    "npi3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NPI",
+        "widget": "text"
+      }
+    },
+    "smallBusiness2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SMALL BUSINESS -",
+        "widget": "text"
+      }
+    },
+    "payeeVendorName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAYEE/VENDOR NAME",
+        "widget": "text"
+      }
+    },
+    "doingBusinessAsDba2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DOING BUSINESS AS (DBA)",
+        "widget": "text"
+      }
+    },
+    "payeeVendorEmailAddress": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "PAYEE/VENDOR EMAIL ADDRESS",
+        "widget": "email"
+      }
+    },
+    "payeeVendorPhoneNumber2": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "PAYEE/VENDOR PHONE NUMBER",
+        "widget": "phone"
+      }
+    },
+    "currentAddressIncludeStreetCityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT ADDRESS (Include Street, City, State and Zip Code)",
+        "widget": "address"
+      }
+    },
+    "previousAddressIncludeStreetCityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PREVIOUS ADDRESS (Include Street, City, State and Zip Code)",
+        "widget": "address"
+      }
+    },
+    "currentBankName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT BANK NAME",
+        "widget": "text"
+      }
+    },
+    "currentBankNineDigitRoutingNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT BANK NINE-DIGIT ROUTING NUMBER",
+        "widget": "text"
+      }
+    },
+    "currentBankAccountNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT BANK ACCOUNT NUMBER",
+        "widget": "text"
+      }
+    },
+    "currentAccountType2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT ACCOUNT TYPE",
+        "widget": "text"
+      }
+    },
+    "nameAndTitleOfAuthorizedRepresentative2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND TITLE OF AUTHORIZED REPRESENTATIVE",
+        "widget": "text"
+      }
+    },
+    "signatureOfAuthorizedRepresentative2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF AUTHORIZED REPRESENTATIVE",
+        "widget": "signature"
+      }
+    },
+    "forQuestionsRegardingThisForm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FOR QUESTIONS REGARDING THIS FORM",
+        "widget": "text"
+      }
+    },
+    "vaFscCustomerEngagement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VA-FSC CUSTOMER ENGAGEMENT",
+        "widget": "text"
+      }
+    },
+    "phone2": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "PHONE",
+        "widget": "phone"
+      }
+    },
+    "email2": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL",
+        "widget": "email"
+      }
+    },
+    "forStationInquiries": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FOR STATION INQUIRIES",
+        "widget": "text"
+      }
+    },
+    "stationCareCenter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATION CARE CENTER",
+        "widget": "text"
+      }
+    },
+    "paperworkReductionActStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAPERWORK REDUCTION ACT STATEMENT",
+        "widget": "select"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10091.pdf",
+    "totalFields": 97,
+    "composedFields": 97,
+    "coveragePercent": 100,
+    "xfaLabelCount": 27,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:25:58.941Z",
+    "pageCount": 3,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:41.671Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

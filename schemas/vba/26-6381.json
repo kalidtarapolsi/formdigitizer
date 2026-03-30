@@ -1,0 +1,320 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6381",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Amount10 A\\ 1",
+        "widget": "text"
+      }
+    },
+    "2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Amount10 A\\ 2",
+        "widget": "text"
+      }
+    },
+    "12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Purpose10 A\\ 1",
+        "widget": "text"
+      }
+    },
+    "13": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform How Payable10 A\\ 1",
+        "widget": "text"
+      }
+    },
+    "22": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Purpose10 A\\ 2",
+        "widget": "text"
+      }
+    },
+    "23": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform How Payable10 A\\ 2",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address",
+        "widget": "text"
+      }
+    },
+    "valoanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A Loan Number",
+        "widget": "text"
+      }
+    },
+    "nameOfSeller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Seller",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number",
+        "widget": "text"
+      }
+    },
+    "mailingAddressOfSeller": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address Of Seller",
+        "widget": "text"
+      }
+    },
+    "addressOfProperty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address Of Property",
+        "widget": "text"
+      }
+    },
+    "mailingAddressOfLoaner": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address Of Loaner",
+        "widget": "text"
+      }
+    },
+    "statusOfSaleTransaction": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Status Of Sale Transaction",
+        "widget": "text"
+      }
+    },
+    "agreedPurchasePrice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Agreed Purchase Price",
+        "widget": "text"
+      }
+    },
+    "salePrice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Sale Price",
+        "widget": "text"
+      }
+    },
+    "amount7b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount7 B",
+        "widget": "text"
+      }
+    },
+    "lendersLoanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lenders Loan Number",
+        "widget": "text"
+      }
+    },
+    "nameOfServicer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Servicer",
+        "widget": "text"
+      }
+    },
+    "amountOfMonthlyLoanPayment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Of Monthly Loan Payment",
+        "widget": "text"
+      }
+    },
+    "approximateLoanBalance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Approximate Loan Balance",
+        "widget": "text"
+      }
+    },
+    "providedVaforms": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Provided V A Forms",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other",
+        "widget": "text"
+      }
+    },
+    "paymentsEnclosedForCreditReport": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Payments Enclosed For Credit Report",
+        "widget": "text"
+      }
+    },
+    "nameOfLoaner": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Loaner",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "returnTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RETURN TO",
+        "widget": "text"
+      }
+    },
+    "addressComplete": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS (Complete)",
+        "widget": "address"
+      }
+    },
+    "attn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Attn",
+        "widget": "text"
+      }
+    },
+    "cityOrPOBoxStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "city or P.O. Box, State and ZIP Code)",
+        "widget": "select"
+      }
+    },
+    "haveAgreedOnPurchasePriceBut": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Have agreed on purchase price but",
+        "widget": "radio"
+      }
+    },
+    "assessmentsAndOrOtherLiensOutstanding": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ASSESSMENTS AND/OR OTHER LIENS OUTSTANDING",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "haveVaForms_26_6382And_26_6807BeenProvidedToYourPurc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE VA FORMS 26-6382 AND 26-6807 BEEN PROVIDED TO YOUR PURC",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "12bDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12B. DATE (",
+        "widget": "date"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Other (Specify)",
+        "widget": "text"
+      }
+    },
+    "informationAboutPurchaserOrOwnerOfPropertyWhoWillAs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INFORMATION ABOUT PURCHASER OR OWNER OF PROPERTY WHO WILL AS",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6381-are.pdf",
+    "status": "digitized",
+    "totalFields": 42,
+    "composedFields": 42,
+    "coveragePercent": 86,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 6,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:37:27.902Z",
+    "redigitizedAt": "2026-03-30T20:39:08.032Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

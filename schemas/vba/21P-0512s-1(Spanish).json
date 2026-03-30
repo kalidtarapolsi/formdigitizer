@@ -1,0 +1,359 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0512s-1(Spanish)",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "estadocivil": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform E S T A D O C I V I L",
+        "widget": "checkbox"
+      }
+    },
+    "vafilenospan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A F I L E N O S P A N",
+        "widget": "text"
+      }
+    },
+    "vafilenoeng": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A F I L E N O E N G",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "dependentsInYourCustody": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dependents In Your Custody",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "medicaidCoverNursingHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M E D I C A I D C O V E R N U R S I N G H O M E",
+        "widget": "text"
+      }
+    },
+    "nursingHomePatient": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N U R S I N G H O M E P A T I E N T",
+        "widget": "text"
+      }
+    },
+    "receiveWages": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E C E I V E W A G E S",
+        "widget": "text"
+      }
+    },
+    "receiveBenefits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E C E I V E B E N E F I T S",
+        "widget": "text"
+      }
+    },
+    "whatchanged": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform W H A T C H A N G E D",
+        "widget": "text"
+      }
+    },
+    "whatchanged2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform W H A T C H A N G E D2",
+        "widget": "text"
+      }
+    },
+    "when": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform W H E N",
+        "widget": "text"
+      }
+    },
+    "when2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform W H E N2",
+        "widget": "text"
+      }
+    },
+    "how": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform H O W",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "source": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Source",
+        "widget": "text"
+      }
+    },
+    "antigua": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Antigua,",
+        "widget": "text"
+      }
+    },
+    "numDeOmbAprobado": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Num de OMB Aprobado",
+        "widget": "text"
+      }
+    },
+    "tiempoParaResponder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Tiempo para Responder",
+        "widget": "text"
+      }
+    },
+    "fechaDeCaducidad": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha de Caducidad",
+        "widget": "text"
+      }
+    },
+    "que": {
+      "type": "string",
+      "x-va-field": {
+        "label": "QUE",
+        "widget": "text"
+      }
+    },
+    "1aNumeroDeSeguroSocialDelVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1A. NUMERO DE SEGURO SOCIAL DEL VETERA",
+        "widget": "text"
+      }
+    },
+    "estadoCivilMarqueUnaCasillaMaritalStatusCheckOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ESTADO CIVIL (Marque una casilla) (MARITAL STATUS (Check one",
+        "widget": "text"
+      }
+    },
+    "1cSuFecheDeNacimientoMesDiAnYour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1C. SU FECHE DE NACIMIENTO (Mes, dià, anô) (YOUR",
+        "widget": "text"
+      }
+    },
+    "3bCantidadContribuidaAHijosQue": {
+      "type": "string",
+      "x-va-field": {
+        "label": "3B. CANTIDAD CONTRIBUIDA A HIJOS QUE",
+        "widget": "text"
+      }
+    },
+    "recibeCualquierOtroBeneficioDeVaComoVeteranoPadre": {
+      "type": "string",
+      "x-va-field": {
+        "label": "¿RECIBE CUALQUIER OTRO BENEFICIO DE VA COMO VETERANO, PADRE",
+        "widget": "text"
+      }
+    },
+    "recibiSueldoOTuvoEmpleoEnCualquierPeriodoDuranteL": {
+      "type": "string",
+      "x-va-field": {
+        "label": "¿RECIBIÓ SUELDO O TUVO EMPLEO EN CUALQUIER PERIODO DURANTE L",
+        "widget": "text"
+      }
+    },
+    "nombreSegundoNombreApellidoDelVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOMBRE, SEGUNDO NOMBRE, APELLIDO DEL VETERA",
+        "widget": "radio"
+      }
+    },
+    "enteredTheNursingHome": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "entered the nursing home (",
+        "widget": "date"
+      }
+    },
+    "meVolviACasarDespuesQueFallecioElVeteranoPeroElMa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ME VOLVI A CASAR DESPUES QUE FALLECIO EL VETERANO PERO EL MA",
+        "widget": "text"
+      }
+    },
+    "fechaUstedSeVolvioACasarPeroActualmente": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(fecha) (Usted se volvio a casar pero actualmente",
+        "widget": "radio"
+      }
+    },
+    "diedByMarriageEndedByDeathOrDivorceOn": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "died by marriage ended by death or divorce on",
+        "widget": "date"
+      }
+    },
+    "meVolviACasarEnFechaYSigoCasada": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ME VOLVI A CASAR EN                 (fecha) (Y SIGO CASADA)",
+        "widget": "text"
+      }
+    },
+    "noMeHeVueltoACasarDesdeQueFallecioElVeteranoNoS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NO ME HE VUELTO A CASAR DESDE QUE FALLECIO EL VETERANO (No s",
+        "widget": "text"
+      }
+    },
+    "importante": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANTE",
+        "widget": "text"
+      }
+    },
+    "cualesIngresosCambiaronPorEjemplo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "cuales ingresos cambiaron; por ejemplo",
+        "widget": "text"
+      }
+    },
+    "showThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(Show the",
+        "widget": "date"
+      }
+    },
+    "umerosTelFonicosIncluyCodigoDeAreaTelephoneNumb": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "ÑUMEROS TELÉFONICOS (Incluyá Codigo de Area) (TELEPHONE NUMB",
+        "widget": "phone"
+      }
+    },
+    "thereWere": {
+      "type": "string",
+      "x-va-field": {
+        "label": "there were",
+        "widget": "radio"
+      }
+    },
+    "9bFechaDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "9B. FECHA (DATE (",
+        "widget": "date"
+      }
+    },
+    "recibePensionLeyAntiguaNote": {
+      "type": "string",
+      "x-va-field": {
+        "label": "recibe Pension Ley Antigua.  (NOTE",
+        "widget": "text"
+      }
+    },
+    "youHave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "you have",
+        "widget": "radio"
+      }
+    },
+    "gastosMedCosFamiliaresLeaParrafo_6DeLasInstruccione": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GASTOS MEDÍCOS FAMILIARES (Lea Parrafo 6 de las instruccione",
+        "widget": "text"
+      }
+    },
+    "nota": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTA",
+        "widget": "text"
+      }
+    },
+    "sanciN": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SANCIÓN",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0512s-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 47,
+    "composedFields": 47,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:00.986Z",
+    "redigitizedAt": "2026-03-30T20:38:00.233Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

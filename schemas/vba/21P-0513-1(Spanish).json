@@ -1,0 +1,290 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0513-1(Spanish)",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Table1 Row1 Amount",
+        "widget": "text"
+      }
+    },
+    "amount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Table1 Row2 Amount",
+        "widget": "text"
+      }
+    },
+    "amount3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Table1 Row3 Amount",
+        "widget": "text"
+      }
+    },
+    "amount4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Table1 Row4 Amount",
+        "widget": "text"
+      }
+    },
+    "amount5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Table1 Row5 Amount",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 #subform #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "dateSigned3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "amount6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Amount",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "nMDeOmbAprobado": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Núm de OMB Aprobado",
+        "widget": "text"
+      }
+    },
+    "tiempoParaResponder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Tiempo para Responder",
+        "widget": "text"
+      }
+    },
+    "fechaDeCaducidad": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha de Caducidad",
+        "widget": "text"
+      }
+    },
+    "estaAdjudicacionSiElHijo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "esta adjudicacion. Si el hijo",
+        "widget": "text"
+      }
+    },
+    "nota": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTA",
+        "widget": "text"
+      }
+    },
+    "estadoCivilYEducativoDeHijoSCivilAndEducationalS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ESTADO CIVIL Y EDUCATIVO DE HIJO(S) (CIVIL AND EDUCATIONAL S",
+        "widget": "text"
+      }
+    },
+    "reporteDeIngresosYValorNetoReportOfIncomeAndNetW": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REPORTE DE INGRESOS Y VALOR NETO (Report of Income and Net W",
+        "widget": "text"
+      }
+    },
+    "si": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(Si",
+        "widget": "text"
+      }
+    },
+    "if": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(If",
+        "widget": "text"
+      }
+    },
+    "que": {
+      "type": "string",
+      "x-va-field": {
+        "label": "QUE",
+        "widget": "text"
+      }
+    },
+    "listTheChildrenSNames": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(List the children's names,",
+        "widget": "text"
+      }
+    },
+    "notHaveASocialSecurityNumberWrite": {
+      "type": "string",
+      "x-va-field": {
+        "label": "not have a Social Security number, write \"",
+        "widget": "text"
+      }
+    },
+    "cambiaronPorEjemplo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "cambiaron; por ejemplo",
+        "widget": "text"
+      }
+    },
+    "theDatesYouReceivedAnyNewIncomeOrThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "the dates you received any new income or the",
+        "widget": "text"
+      }
+    },
+    "sucedi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "sucedió",
+        "widget": "text"
+      }
+    },
+    "signatureReadParagraph_9OfTheEvrInstructionsBeforeSigning": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE (Read Paragraph 9 of the EVR instructions before signing))",
+        "widget": "text"
+      }
+    },
+    "nMerosTelefNicosIncluyaCDigoDeReaTelephoneNumb": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NÚMEROS TELEFÓNICOS (Incluya Código de Área) (TELEPHONE NUMB",
+        "widget": "text"
+      }
+    },
+    "4bFechaDeFirma": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4B. FECHA DE FIRMA (",
+        "widget": "text"
+      }
+    },
+    "gastosMedCosDelHijoLeaParrafo_6DeLasInstrucciones": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GASTOS MEDÍCOS DEL HIJO (Lea Parrafo 6 de las instrucciones",
+        "widget": "text"
+      }
+    },
+    "fechasDates": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FECHAS (DATES) (",
+        "widget": "text"
+      }
+    },
+    "hijoChild": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HIJO (CHILD)",
+        "widget": "text"
+      }
+    },
+    "fechasDatesMmDdYyyyFechasDates": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FECHAS (DATES) (MM/DD/YYYY)FECHAS (DATES) (",
+        "widget": "text"
+      }
+    },
+    "fPage_1Table1HeaderRowSubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Table1 Header Row #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_1Table1Row6SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Table1 Row6 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_2SubformSubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 #subform #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_2TextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_2RadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Radio Button List",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0513-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 38,
+    "composedFields": 38,
+    "coveragePercent": 95,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 2,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:32:05.956Z",
+    "redigitizedAt": "2026-03-30T20:36:26.264Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-1905m",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "telephoneLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Telephone Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneMiddleThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Telephone Middle Three Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Telephone Number Area Code",
+        "widget": "text"
+      }
+    },
+    "emailAddressOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Email Address Optional",
+        "widget": "text"
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Last Name",
+        "widget": "text"
+      }
+    },
+    "middleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "claimantsFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Claimants First Name",
+        "widget": "text"
+      }
+    },
+    "vaFileNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 V A File Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "country": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Country",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 State Or Province",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 City",
+        "widget": "text"
+      }
+    },
+    "apartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "addressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "rehabilitationPlanGoal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Rehabilitation Plan Goal",
+        "widget": "text"
+      }
+    },
+    "quantity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Quantity",
+        "widget": "text"
+      }
+    },
+    "nameOfItemServicesAndDescription": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Name Of Item Services And Description",
+        "widget": "text"
+      }
+    },
+    "estimatedCostCents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Estimated Cost Cents",
+        "widget": "text"
+      }
+    },
+    "estimatedCost": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Estimated Cost",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "country2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Country",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform State Or Province",
+        "widget": "text"
+      }
+    },
+    "city2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform City",
+        "widget": "text"
+      }
+    },
+    "apartmentOrUnitNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfTrainingFacilityOrEmployerNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name And Address Of Training Facility Or Employer Number And Street",
+        "widget": "text"
+      }
+    },
+    "checkBoxICertifyThatIHaveFilledInThisFormCompletelyAndThatItIsTrueAndCorrectToTheBestOfMyKnowledgeAndBelief": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Check Box I Certify That I Have Filled In This Form Completely And That It Is True And Correct To The Best Of My Knowledge And Belief",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxICertifyThatTheItemsListedInSection2Item7AreRequiredOfAllStudentsOrAllEmployees": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Check Box I Certify That The Items Listed In Section 2 Item 7 Are Required Of All Students Or All Employees",
+        "widget": "checkbox"
+      }
+    },
+    "lastName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Last Name",
+        "widget": "text"
+      }
+    },
+    "middleInitial12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "nameOfCaseManagerFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Case Manager First Name",
+        "widget": "text"
+      }
+    },
+    "nameOfTrainingFacilityOrEmployer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Training Facility Or Employer",
+        "widget": "text"
+      }
+    },
+    "quantity2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Quantity",
+        "widget": "text"
+      }
+    },
+    "nameOfItemServicesAndDescription2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Item Services And Description",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "titleOfTrainingFacilityOrEmployerRepresentative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Title Of Training Facility Or Employer Representative",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "estimatedCost2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Estimated Cost",
+        "widget": "text"
+      }
+    },
+    "estimatedCostCents2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Estimated Cost Cents",
+        "widget": "text"
+      }
+    },
+    "regionalOfficeNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Regional Office Number",
+        "widget": "text"
+      }
+    },
+    "nameOfItemsOrServices": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Items Or Services",
+        "widget": "text"
+      }
+    },
+    "authorizedCertifyingOfficialFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Authorized Certifying Official First Name",
+        "widget": "text"
+      }
+    },
+    "titleOfAuthorizedCertifyingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Title Of Authorized Certifying Official",
+        "widget": "text"
+      }
+    },
+    "nameOfPayeeFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Payee First Name",
+        "widget": "text"
+      }
+    },
+    "actualAmountToBeReimbursedCents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Actual Amount To Be Reimbursed Cents",
+        "widget": "text"
+      }
+    },
+    "actualAmountToBeReimbursed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Actual Amount To Be Reimbursed",
+        "widget": "text"
+      }
+    },
+    "fPage_2CheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 2 Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "fSubformCheckBox": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Check Box",
+        "widget": "checkbox"
+      }
+    },
+    "itemServicesReceived": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEM/SERVICES RECEIVED",
+        "widget": "text"
+      }
+    },
+    "onThis": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "ON THIS",
+        "widget": "date"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "nameOfItemServices": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF ITEM/SERVICES",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER  (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "emailAddressOptional2": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS (Optional)",
+        "widget": "email"
+      }
+    },
+    "claimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "rehabilitationPlanGoal2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REHABILITATION PLAN GOAL",
+        "widget": "text"
+      }
+    },
+    "zipCode": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "ZIP Code",
+        "widget": "zip"
+      }
+    },
+    "city3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "addressWhereSuppliesWillBeDeliveredToClaimantNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS WHERE SUPPLIES WILL BE DELIVERED TO CLAIMANT (Number",
+        "widget": "address"
+      }
+    },
+    "quantity3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "QUANTITY",
+        "widget": "text"
+      }
+    },
+    "estimatedCost3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ESTIMATED COST",
+        "widget": "text"
+      }
+    },
+    "actualCost": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ACTUAL COST",
+        "widget": "text"
+      }
+    },
+    "12bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12B.  DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "stateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/Province",
+        "widget": "select"
+      }
+    },
+    "13cDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "13C.  DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "14cDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "14C.  DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "nameOfTrainingFacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Training Facility",
+        "widget": "text"
+      }
+    },
+    "16eDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "16E.  DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "regionalOfficeNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REGIONAL OFFICE NUMBER",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TITLE",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1905m-are.pdf",
+    "status": "digitized",
+    "totalFields": 84,
+    "composedFields": 77,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:31:51.012Z",
+    "postProcessedAt": "2026-03-30T20:42:50.169808+00:00",
+    "redigitizedAt": "2026-03-30T20:35:36.577Z",
+    "extractionSources": [
+      "acroform",
+      "text-inference"
+    ]
+  }
+}

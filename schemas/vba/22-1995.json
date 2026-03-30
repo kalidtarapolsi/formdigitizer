@@ -1,0 +1,579 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1995",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "enterNameOfApplicantFirstMiddleLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Name Of Applicant First Middle Last",
+        "widget": "text"
+      }
+    },
+    "enterMailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Mailing Address",
+        "widget": "text"
+      }
+    },
+    "enterDayTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Day Telephone Number",
+        "widget": "text"
+      }
+    },
+    "enterEveningTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Evening Telephone Number",
+        "widget": "text"
+      }
+    },
+    "fileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter V\\ A\\ File Number",
+        "widget": "text"
+      }
+    },
+    "enterApplicantsEMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Applicants E mail Address",
+        "widget": "text"
+      }
+    },
+    "enterApplicantsSocialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Applicants Social Security Number",
+        "widget": "text"
+      }
+    },
+    "benefits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B E N E F I T S",
+        "widget": "text"
+      }
+    },
+    "checkBox3a": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3 A",
+        "widget": "checkbox"
+      }
+    },
+    "checkBox3b": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3 B",
+        "widget": "checkbox"
+      }
+    },
+    "checkBox3c": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3 C",
+        "widget": "checkbox"
+      }
+    },
+    "checkBox3d": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3 D",
+        "widget": "checkbox"
+      }
+    },
+    "checkBox3e": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3 E",
+        "widget": "checkbox"
+      }
+    },
+    "checkBox3f": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3 F",
+        "widget": "checkbox"
+      }
+    },
+    "checkBox3g": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3 G",
+        "widget": "checkbox"
+      }
+    },
+    "checkBox3h": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3 H",
+        "widget": "checkbox"
+      }
+    },
+    "enterGoal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Goal",
+        "widget": "text"
+      }
+    },
+    "enterNameOfProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Name Of Program",
+        "widget": "text"
+      }
+    },
+    "enterNewSchoolAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter New School Address",
+        "widget": "text"
+      }
+    },
+    "enterOldOrCurrentSchoolAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Old Or Current School Address",
+        "widget": "text"
+      }
+    },
+    "enterWhyTrainingStopped": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Why Training Stopped",
+        "widget": "text"
+      }
+    },
+    "routingNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Routing Number",
+        "widget": "text"
+      }
+    },
+    "accountnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A C C O U N T N U M B E R",
+        "widget": "text"
+      }
+    },
+    "enterNameofFinancialInstitution": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Nameof Financial Institution",
+        "widget": "text"
+      }
+    },
+    "yesNo6a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No6 A",
+        "widget": "text"
+      }
+    },
+    "yesNo6b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No6 B1",
+        "widget": "text"
+      }
+    },
+    "yesNo6b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No6 B2",
+        "widget": "text"
+      }
+    },
+    "yesNo6b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No6 B3",
+        "widget": "text"
+      }
+    },
+    "yesNo6c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No6 C",
+        "widget": "text"
+      }
+    },
+    "enterBranchOfService1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Enter Branch Of Service1",
+        "widget": "text"
+      }
+    },
+    "enterActiveDates1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Enter Active Dates1",
+        "widget": "text"
+      }
+    },
+    "enterCharacterD1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Enter Character D1",
+        "widget": "text"
+      }
+    },
+    "enterTypeOfDutyE1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Enter Type Of Duty E1",
+        "widget": "text"
+      }
+    },
+    "enterBranceOfService2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Enter Brance Of Service2",
+        "widget": "text"
+      }
+    },
+    "enterActiveDutyDates3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Enter Active Duty Dates3",
+        "widget": "text"
+      }
+    },
+    "enterCharacterD2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Enter Character D2",
+        "widget": "text"
+      }
+    },
+    "enterTypeOfDutyE2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Enter Type Of Duty E2",
+        "widget": "text"
+      }
+    },
+    "enterBranchOfService4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Enter Branch Of Service4",
+        "widget": "text"
+      }
+    },
+    "enterActiveDutyDates4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Enter Active Duty Dates4",
+        "widget": "text"
+      }
+    },
+    "enterCharacterD3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Enter Character D3",
+        "widget": "text"
+      }
+    },
+    "enterTypeOfDutyE3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Enter Type Of Duty E3",
+        "widget": "text"
+      }
+    },
+    "enterBranchOfService5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Enter Branch Of Service5",
+        "widget": "text"
+      }
+    },
+    "enterActiveDutyDates5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Enter Active Duty Dates5",
+        "widget": "text"
+      }
+    },
+    "enterCharacterD4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Enter Character D4",
+        "widget": "text"
+      }
+    },
+    "enterTypeOfDutyE4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Enter Type Of Duty E4",
+        "widget": "text"
+      }
+    },
+    "enterBranchOfService6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Enter Branch Of Service6",
+        "widget": "text"
+      }
+    },
+    "enterActiveDutyDates6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Enter Active Duty Dates6",
+        "widget": "text"
+      }
+    },
+    "enterCharacterD5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Enter Character D5",
+        "widget": "text"
+      }
+    },
+    "enterTypeOfDutyE5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Enter Type Of Duty E5",
+        "widget": "text"
+      }
+    },
+    "enterBranchOfService62": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Enter Branch Of Service6",
+        "widget": "text"
+      }
+    },
+    "enterActiveDutyDates62": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Enter Active Duty Dates6",
+        "widget": "text"
+      }
+    },
+    "enterCharacterD6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Enter Character D6",
+        "widget": "text"
+      }
+    },
+    "enterTypeOfDutyE6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Enter Type Of Duty E6",
+        "widget": "text"
+      }
+    },
+    "enterRemarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Remarks",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature",
+        "widget": "text"
+      }
+    },
+    "enterDateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Date Signed",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "educationBenefitYouWantToReceiveOnlySelectOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EDUCATION BENEFIT YOU WANT TO RECEIVE (Only Select One)",
+        "widget": "text"
+      }
+    },
+    "howWillYouTakeTraining": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HOW WILL YOU TAKE TRAINING?",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "informationOnDependentsCompleteThisItemOnlyIfYouSe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INFORMATION ON DEPENDENTS (COMPLETE THIS ITEM ONLY IF YOU SE",
+        "widget": "text"
+      }
+    },
+    "recentPeriodsOfServicePeriodsOfActiveDutySinceYour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RECENT PERIODS OF SERVICE (PERIODS OF ACTIVE DUTY SINCE YOUR",
+        "widget": "text"
+      }
+    },
+    "if": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(If",
+        "widget": "text"
+      }
+    },
+    "doYouExpectToReceiveEducationalBenefitsUnderTheGove": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU EXPECT TO RECEIVE EDUCATIONAL BENEFITS UNDER THE GOVE",
+        "widget": "text"
+      }
+    },
+    "areYouReceivingOrDoYouAnticipateReceivingAnyMoney": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ARE YOU RECEIVING OR DO YOU ANTICIPATE RECEIVING ANY MONEY (",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "11bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11B. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "useThisFormWhen": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Use this form when",
+        "widget": "text"
+      }
+    },
+    "items_5aThrough_5d": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Items #5A through #5D",
+        "widget": "text"
+      }
+    },
+    "item_6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item #6",
+        "widget": "text"
+      }
+    },
+    "item_6a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item #6A",
+        "widget": "text"
+      }
+    },
+    "toFileThisForm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TO FILE THIS FORM",
+        "widget": "text"
+      }
+    },
+    "step_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 1",
+        "widget": "text"
+      }
+    },
+    "step_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 2",
+        "widget": "text"
+      }
+    },
+    "step_3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 3",
+        "widget": "text"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1995-are.pdf",
+    "status": "digitized",
+    "totalFields": 80,
+    "composedFields": 79,
+    "coveragePercent": 99,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:34:50.273Z",
+    "redigitizedAt": "2026-03-30T20:37:59.230Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

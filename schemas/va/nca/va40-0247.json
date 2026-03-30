@@ -1,0 +1,263 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA40-0247",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameofveteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F V E T E R A N",
+        "widget": "text"
+      }
+    },
+    "veteranssnorservicenumberorvafilenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V E T E R A N S S N O R S E R V I C E N U M B E R O R V A F I L E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "race": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform R A C E",
+        "widget": "checkbox"
+      }
+    },
+    "dateofbirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F B I R T H",
+        "widget": "text"
+      }
+    },
+    "dateofdeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F D E A T H",
+        "widget": "text"
+      }
+    },
+    "nameofpersonrequestingcertificate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F P E R S O N R E Q U E S T I N G C E R T I F I C A T E",
+        "widget": "text"
+      }
+    },
+    "mailingaddressofpersonrequestingcertificate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M A I L I N G A D D R E S S O F P E R S O N R E Q U E S T I N G C E R T I F I C A T E",
+        "widget": "text"
+      }
+    },
+    "homeorworktelephonenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform H O M E O R W O R K T E L E P H O N E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "requestoremailaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E Q U E S T O R E M A I L A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "numberofcertificatesrequested": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N U M B E R O F C E R T I F I C A T E S R E Q U E S T E D",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "casemanagername": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C A S E M A N A G E R N A M E",
+        "widget": "text"
+      }
+    },
+    "pmcidnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P M C I D N U M B E R",
+        "widget": "text"
+      }
+    },
+    "casemanageremail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C A S E M A N A G E R E M A I L",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "email address.",
+        "widget": "text"
+      }
+    },
+    "militaryDischargeDocuments": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Military/Discharge Documents",
+        "widget": "text"
+      }
+    },
+    "nameAndMailingAddressOfPersonRequestingCertificate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name and Mailing Address of Person Requesting Certificate",
+        "widget": "address"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Privacy Act Information",
+        "widget": "text"
+      }
+    },
+    "nameOfVeteranFirstMiddleLast_2VeteranSsnOrServi": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "NAME OF VETERAN (First, Middle, Last)2. VETERAN SSN OR SERVI",
+        "widget": "ssn"
+      }
+    },
+    "raceOrEthnicityYouMaySelectMoreThanOneInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RACE OR ETHNICITY (You may select more than one. Information",
+        "widget": "text"
+      }
+    },
+    "sexOptionalInformationWillBeUsedForStatisticalPurp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SEX (Optional. Information will be used for statistical purp",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyy_6DateOfDeathMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BIRTH (MM/DD/YYYY)6. DATE OF DEATH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "nameOfPersonRequestingCertificate8MailingAddressOfP": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF PERSON REQUESTING CERTIFICATE8. MAILING ADDRESS OF P",
+        "widget": "address"
+      }
+    },
+    "homeOrWorkTelephoneNumberIncludeAreaCode_999_999": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "HOME OR WORK TELEPHONE NUMBER (Include area code) ((999) 999",
+        "widget": "phone"
+      }
+    },
+    "requestorEmailAddress11NumberOfCertificatesRequested": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "REQUESTOR EMAIL ADDRESS11. NUMBER OF CERTIFICATES REQUESTED",
+        "widget": "email"
+      }
+    },
+    "typeOfRequest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TYPE OF REQUEST",
+        "widget": "text"
+      }
+    },
+    "certification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "signatureOfPersonRequestingCertificateRequired": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF PERSON REQUESTING CERTIFICATE (Required)",
+        "widget": "signature"
+      }
+    },
+    "mailYourClaimAndSupportingDocumentsTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAIL your claim and supporting documents to",
+        "widget": "text"
+      }
+    },
+    "documentsTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "documents to",
+        "widget": "text"
+      }
+    },
+    "caseManagerName15PmcIdNumber16CaseManagerEmail": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "CASE MANAGER NAME15. PMC ID NUMBER16. CASE MANAGER EMAIL",
+        "widget": "email"
+      }
+    },
+    "allVersionsOfThisForm": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "ALL VERSIONS OF THIS FORM",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0247.pdf",
+    "totalFields": 34,
+    "composedFields": 33,
+    "coveragePercent": 100,
+    "xfaLabelCount": 15,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:25:41.657Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:52.375Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

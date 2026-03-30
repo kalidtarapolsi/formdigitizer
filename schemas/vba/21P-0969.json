@@ -1,0 +1,2976 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0969",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "5": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(5).",
+        "widget": "date"
+      }
+    },
+    "dateReceivedByVa": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 4 Date Received By V A",
+        "widget": "checkbox"
+      }
+    },
+    "first": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Veterans Name\\ First",
+        "widget": "text"
+      }
+    },
+    "mi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Veterans Name\\ M I",
+        "widget": "text"
+      }
+    },
+    "last": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Veterans Name\\ Last",
+        "widget": "text"
+      }
+    },
+    "veteransSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Veterans S S N",
+        "widget": "text"
+      }
+    },
+    "veteransFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Veterans File Number",
+        "widget": "text"
+      }
+    },
+    "last2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Claimants Name\\ Last",
+        "widget": "text"
+      }
+    },
+    "mi2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Claimants Name\\ M I",
+        "widget": "text"
+      }
+    },
+    "first2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Claimants Name\\ First",
+        "widget": "text"
+      }
+    },
+    "claimantsSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Claimants S S N",
+        "widget": "text"
+      }
+    },
+    "claimantTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Claimant Telephone Number",
+        "widget": "text"
+      }
+    },
+    "typeofClaimant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Typeof Claimant",
+        "widget": "text"
+      }
+    },
+    "dateStarting": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Date Starting",
+        "widget": "text"
+      }
+    },
+    "dateEnding": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Date Ending",
+        "widget": "text"
+      }
+    },
+    "dependentsReceiving3a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Dependents Receiving3a",
+        "widget": "text"
+      }
+    },
+    "incomeRecipients3b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Income Recipients3b1",
+        "widget": "text"
+      }
+    },
+    "other3b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Other3b1",
+        "widget": "text"
+      }
+    },
+    "nameofIncomeRecipient3b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Nameof Income Recipient3b2",
+        "widget": "text"
+      }
+    },
+    "typeOfIncome3b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Type Of Income3b3",
+        "widget": "text"
+      }
+    },
+    "other3b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Other3b3",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome13b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Gross Monthly Income1 3b4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome23b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Gross Monthly Income2 3b4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome33b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Gross Monthly Income3 3b4",
+        "widget": "text"
+      }
+    },
+    "incomePayer3b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Income Payer3b5",
+        "widget": "text"
+      }
+    },
+    "incomeRecipients3c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Income Recipients3c1",
+        "widget": "text"
+      }
+    },
+    "other3c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Other3c1",
+        "widget": "text"
+      }
+    },
+    "nameofIncomeRecipient3c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Nameof Income Recipient3c2",
+        "widget": "text"
+      }
+    },
+    "typeOfIncome3c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Type Of Income3c3",
+        "widget": "text"
+      }
+    },
+    "other3c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Other3c3",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome13c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Gross Monthly Income1 3c4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome23c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Gross Monthly Income2 3c4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome33c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Gross Monthly Income3 3c4",
+        "widget": "text"
+      }
+    },
+    "incomePayer3c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 4 Income Payer3c5",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient3d1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Recipient3d1",
+        "widget": "text"
+      }
+    },
+    "other3d1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other3d1",
+        "widget": "text"
+      }
+    },
+    "nameofIncomeRecipient3d2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Nameof Income Recipient3d2",
+        "widget": "text"
+      }
+    },
+    "typeOfIncome3d3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Type Of Income3d3",
+        "widget": "text"
+      }
+    },
+    "other3d3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other3d3",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome13d4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income1 3d4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome23d4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income2 3d4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome33d4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income3 3d4",
+        "widget": "text"
+      }
+    },
+    "incomePayer3d5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Payer3d5",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient3e1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Recipient3e1",
+        "widget": "text"
+      }
+    },
+    "other3e1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other3e1",
+        "widget": "text"
+      }
+    },
+    "nameofIncomeRecipient3e2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Nameof Income Recipient3e2",
+        "widget": "text"
+      }
+    },
+    "typeOfIncome3e3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Type Of Income3e3",
+        "widget": "text"
+      }
+    },
+    "other3e3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other3e3",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome13e4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income1 3e4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome23e4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income2 3e4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome33e4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income3 3e4",
+        "widget": "text"
+      }
+    },
+    "incomePayer3e5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Payer3e5",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient3f1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Recipient3f1",
+        "widget": "text"
+      }
+    },
+    "other3f1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other3f1",
+        "widget": "text"
+      }
+    },
+    "nameofIncomeRecipient3f2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Nameof Income Recipient3f2",
+        "widget": "text"
+      }
+    },
+    "typeOfIncome3f3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Type Of Income3f3",
+        "widget": "text"
+      }
+    },
+    "other3f3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other3f3",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome13f4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income1 3f4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome23f4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income2 3f4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome33f4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income3 3f4",
+        "widget": "text"
+      }
+    },
+    "incomePayer3f5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Payer3f5",
+        "widget": "text"
+      }
+    },
+    "dependentsReceiving4a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Dependents Receiving4a",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient4b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Recipient4b1",
+        "widget": "text"
+      }
+    },
+    "typeOfIncomeEarned4b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Type Of Income Earned4b4",
+        "widget": "text"
+      }
+    },
+    "other4b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other4b1",
+        "widget": "text"
+      }
+    },
+    "other4b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other4b4",
+        "widget": "text"
+      }
+    },
+    "nameofIncomeRecipient4b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Nameof Income Recipient4b2",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome14b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income1 4b5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome24b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income2 4b5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome34b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income3 4b5",
+        "widget": "text"
+      }
+    },
+    "incomePayer4b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Payer4b3",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount14b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account1 4b6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount24b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account2 4b6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount44b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account4 4b6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount34b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account3 4b6",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient4c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Recipient4c1",
+        "widget": "text"
+      }
+    },
+    "typeOfIncomeEarned4c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Type Of Income Earned4c4",
+        "widget": "text"
+      }
+    },
+    "other4c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other4c1",
+        "widget": "text"
+      }
+    },
+    "other4c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other4c4",
+        "widget": "text"
+      }
+    },
+    "nameofIncomeRecipient4c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Nameof Income Recipient4c2",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome14c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income1 4c5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome24c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income2 4c5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome34c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income3 4c5",
+        "widget": "text"
+      }
+    },
+    "incomePayer4c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Payer4c3",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount14c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account1 4c6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount24c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account2 4c6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount44c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account4 4c6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount34c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account3 4c6",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient4d1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Recipient4d1",
+        "widget": "text"
+      }
+    },
+    "typeOfIncomeEarned4d4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Type Of Income Earned4d4",
+        "widget": "text"
+      }
+    },
+    "other4d1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other4d1",
+        "widget": "text"
+      }
+    },
+    "other4d4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Other4d4",
+        "widget": "text"
+      }
+    },
+    "nameofIncomeRecipient4d2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Nameof Income Recipient4d2",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome14d5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income1 4d5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome24d5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income2 4d5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome34d5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Gross Monthly Income3 4d5",
+        "widget": "text"
+      }
+    },
+    "incomePayer4d3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Income Payer4d3",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount14d6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account1 4d6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount24d6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account2 4d6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount44d6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account4 4d6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount34d6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 6 Value Of Account3 4d6",
+        "widget": "text"
+      }
+    },
+    "typeOfAsset5c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Type Of Asset5c3",
+        "widget": "text"
+      }
+    },
+    "nameOfIncomeRecipient5c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Name Of Income Recipient5c2",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfTheProperty35c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Your Portion Of The Property3 5c5",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfTheProperty5c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Your Portion Of The Property 5c5",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfTheProperty25c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Your Portion Of The Property2 5c5",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfTheProperty15c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Your Portion Of The Property1 5c5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome35c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income3 5c4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome25c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income2 5c4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome15c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income1 5c4",
+        "widget": "text"
+      }
+    },
+    "other5c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Other5c1",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient5c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Income Recipient5c1",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient4e1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Income Recipient4e1",
+        "widget": "text"
+      }
+    },
+    "typeOfIncomeEarned4e4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Type Of Income Earned4e4",
+        "widget": "text"
+      }
+    },
+    "other4e1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Other4e1",
+        "widget": "text"
+      }
+    },
+    "other4e4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Other4e4",
+        "widget": "text"
+      }
+    },
+    "nameOfIncomeRecipient4e2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Name Of Income Recipient4e2",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome14e5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income1 4e5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome24e5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income2 4e5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome44e5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income4 4e5",
+        "widget": "text"
+      }
+    },
+    "incomePayer4e3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Income Payer4e3",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount14e6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Account1 4e6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount24e6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Account2 4e6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount44e6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Account4 4e6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount34e6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Account3 4e6",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient4f1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Income Recipient4f1",
+        "widget": "text"
+      }
+    },
+    "typeOfIncomeEarned4f4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Type Of Income Earned4f4",
+        "widget": "text"
+      }
+    },
+    "other4f1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Other4f1",
+        "widget": "text"
+      }
+    },
+    "other4f4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Other4f4",
+        "widget": "text"
+      }
+    },
+    "nameOfIncomeRecipient4f2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Name Of Income Recipient4f2",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome14f5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income1 4f5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome24f5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income2 4f5",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome34f5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income3 4f5",
+        "widget": "text"
+      }
+    },
+    "incomePayer4f3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Income Payer4f3",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount14f6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Account1 4f6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount24f6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Account2 4f6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount44f6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Account4 4f6",
+        "widget": "text"
+      }
+    },
+    "valueOfAccount34f6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Account3 4f6",
+        "widget": "text"
+      }
+    },
+    "dependentsReceiving5a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Dependents Receiving5a",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient5b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Income Recipient5b1",
+        "widget": "text"
+      }
+    },
+    "other5b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Other5b1",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome15b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income1 5b4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome25b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income2 5b4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome35b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Gross Monthly Income3 5b4",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfTheProperty15b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Your Portion Of The Property1 5b5",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfTheProperty25b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Your Portion Of The Property2 5b5",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfTheProperty45b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Your Portion Of The Property4 5b5",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfTheProperty35b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Value Of Your Portion Of The Property3 5b5",
+        "widget": "text"
+      }
+    },
+    "nameOfIncomeRecipient5b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Name Of Income Recipient5b2",
+        "widget": "text"
+      }
+    },
+    "typeOfAsset5b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 8 Type Of Asset5b3",
+        "widget": "text"
+      }
+    },
+    "dependentsReceiving6a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Dependents Receiving6a",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient6b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Income Recipient6b1",
+        "widget": "text"
+      }
+    },
+    "other6b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Other6b1",
+        "widget": "text"
+      }
+    },
+    "nameOfIncomeRecipient6b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Name Of Income Recipient6b2",
+        "widget": "text"
+      }
+    },
+    "howIncomeIsGenerated6b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 How Income Is Generated6b3",
+        "widget": "text"
+      }
+    },
+    "other6b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Other6b3",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome16b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gross Monthly Income1 6b4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome26b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gross Monthly Income2 6b4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome36b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gross Monthly Income3 6b4",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue16b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value1 6b5",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue26b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value2 6b5",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue46b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value4 6b5",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue36b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value3 6b5",
+        "widget": "text"
+      }
+    },
+    "canAssetBeSold6b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Can Asset Be Sold6b6",
+        "widget": "text"
+      }
+    },
+    "mitigatingCircumstances6b7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Mitigating Circumstances6b7",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient6c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Income Recipient6c1",
+        "widget": "text"
+      }
+    },
+    "other6c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Other6c1",
+        "widget": "text"
+      }
+    },
+    "nameOfIncomeRecipient6c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Name Of Income Recipient6c2",
+        "widget": "text"
+      }
+    },
+    "howIncomeIsGenerated6c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 How Income Is Generated6c3",
+        "widget": "text"
+      }
+    },
+    "other6c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Other6c3",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome16c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gross Monthly Income1 6c4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome26c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gross Monthly Income2 6c4",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyIncome36c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gross Monthly Income3 6c4",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue16c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value1 6c5",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue26c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value2 6c5",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue46c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value4 6c5",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue36c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value3 6c5",
+        "widget": "text"
+      }
+    },
+    "canAssetBeSold6c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Can Asset Be Sold6c6",
+        "widget": "text"
+      }
+    },
+    "mitigatingCircumstances6c7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Mitigating Circumstances6c7",
+        "widget": "text"
+      }
+    },
+    "dependentsSellAssets7a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Dependents Sell Assets7a",
+        "widget": "text"
+      }
+    },
+    "relationshiptoVeteran7b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Relationshipto Veteran7b1",
+        "widget": "text"
+      }
+    },
+    "other7b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Other7b1",
+        "widget": "text"
+      }
+    },
+    "dateOfTransferMonth7b7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Date Of Transfer Month7b7",
+        "widget": "text"
+      }
+    },
+    "dateOfTransferDay7b7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Date Of Transfer Day7b7",
+        "widget": "text"
+      }
+    },
+    "dateOfTransferYear7b7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Date Of Transfer Year7b7",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue17b9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value1 7b9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue27b9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value2 7b9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue47b9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value4 7b9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue37b9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Fair Market Value3 7b9",
+        "widget": "text"
+      }
+    },
+    "wasAssetTransferred7b8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Was Asset Transferred7b8",
+        "widget": "text"
+      }
+    },
+    "howAssetTransferred7b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 How Asset Transferred7b2",
+        "widget": "text"
+      }
+    },
+    "other7b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Other7b2",
+        "widget": "text"
+      }
+    },
+    "whatAssetWasTransferred7b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 What Asset Was Transferred7b3",
+        "widget": "text"
+      }
+    },
+    "whoReceivedAsset7b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Who Received Asset7b4",
+        "widget": "text"
+      }
+    },
+    "relationshipToNewOwner7b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Relationship To New Owner7b5",
+        "widget": "text"
+      }
+    },
+    "wasSaleReportedToIrs7b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Was Sale Reported To I R S7b6",
+        "widget": "text"
+      }
+    },
+    "salePrice17b10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Sale Price1 7b10",
+        "widget": "text"
+      }
+    },
+    "salePrice27b10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Sale Price2 7b10",
+        "widget": "text"
+      }
+    },
+    "salePrice47b10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Sale Price4 7b10",
+        "widget": "text"
+      }
+    },
+    "salePrice37b10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Sale Price3 7b10",
+        "widget": "text"
+      }
+    },
+    "gain17b11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gain1 7b11",
+        "widget": "text"
+      }
+    },
+    "gain27b11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gain2 7b11",
+        "widget": "text"
+      }
+    },
+    "gain47b11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gain4 7b11",
+        "widget": "text"
+      }
+    },
+    "gain37b11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 9 Gain3 7b11",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue17c9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Fair Market Value1 7c9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue27c9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Fair Market Value2 7c9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue47c9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Fair Market Value4 7c9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue37c9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Fair Market Value3 7c9",
+        "widget": "text"
+      }
+    },
+    "wasAssetTransferred7c8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Was Asset Transferred7c8",
+        "widget": "text"
+      }
+    },
+    "howAssetWasTransferred7c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 How Asset Was Transferred7c2",
+        "widget": "text"
+      }
+    },
+    "other7c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Other7c2",
+        "widget": "text"
+      }
+    },
+    "whatAssetWasTransferred7c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 What Asset Was Transferred7c3",
+        "widget": "text"
+      }
+    },
+    "whoReceivedAsset7c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Who Received Asset7c4",
+        "widget": "text"
+      }
+    },
+    "relationshipToNewOwner7c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Relationship To New Owner7c5",
+        "widget": "text"
+      }
+    },
+    "salePrice17c10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Sale Price1 7c10",
+        "widget": "text"
+      }
+    },
+    "salePrice27c10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Sale Price2 7c10",
+        "widget": "text"
+      }
+    },
+    "salePrice47c10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Sale Price4 7c10",
+        "widget": "text"
+      }
+    },
+    "salePrice37c10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Sale Price3 7c10",
+        "widget": "text"
+      }
+    },
+    "gain17c11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Gain1 7c11",
+        "widget": "text"
+      }
+    },
+    "gain27c11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Gain2 7c11",
+        "widget": "text"
+      }
+    },
+    "gain47c11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Gain4 7c11",
+        "widget": "text"
+      }
+    },
+    "gain37c11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Gain3 7c11",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue17d9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Fair Market Value1 7d9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue27d9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Fair Market Value2 7d9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue47d9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Fair Market Value4 7d9",
+        "widget": "text"
+      }
+    },
+    "fairMarketValue37d9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Fair Market Value3 7d9",
+        "widget": "text"
+      }
+    },
+    "howAssetWasTransferred7d2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 How Asset Was Transferred7d2",
+        "widget": "text"
+      }
+    },
+    "other7d2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Other7d2",
+        "widget": "text"
+      }
+    },
+    "whatAssetWasTransferred7d3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 What Asset Was Transferred7d3",
+        "widget": "text"
+      }
+    },
+    "whoReceivedAsset7d4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Who Received Asset7d4",
+        "widget": "text"
+      }
+    },
+    "relationshipToNewOwner7d5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Relationship To New Owner7d5",
+        "widget": "text"
+      }
+    },
+    "salePrice17d10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Sale Price1 7d10",
+        "widget": "text"
+      }
+    },
+    "salePrice27d10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Sale Price2 7d10",
+        "widget": "text"
+      }
+    },
+    "salePrice47d10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Sale Price4 7d10",
+        "widget": "text"
+      }
+    },
+    "salePrice37d10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Sale Price3 7d10",
+        "widget": "text"
+      }
+    },
+    "gain17d11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Gain1 7d11",
+        "widget": "text"
+      }
+    },
+    "gain27d11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Gain2 7d11",
+        "widget": "text"
+      }
+    },
+    "gain47d11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Gain4 7d11",
+        "widget": "text"
+      }
+    },
+    "gain37d11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Gain3 7d11",
+        "widget": "text"
+      }
+    },
+    "dependentsEstablishedAtrust": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Dependents Established A Trust",
+        "widget": "text"
+      }
+    },
+    "month8b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Month8b",
+        "widget": "text"
+      }
+    },
+    "day8b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Day8b",
+        "widget": "text"
+      }
+    },
+    "year8b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Year8b",
+        "widget": "text"
+      }
+    },
+    "marketValue18c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Market Value1 8c",
+        "widget": "text"
+      }
+    },
+    "marketValue28c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Market Value2 8c",
+        "widget": "text"
+      }
+    },
+    "marketValue48c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Market Value4 8c",
+        "widget": "text"
+      }
+    },
+    "marketValue38c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Market Value3 8c",
+        "widget": "text"
+      }
+    },
+    "typeOfTrust8d": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Type Of Trust8d",
+        "widget": "text"
+      }
+    },
+    "addedAdditionalFunds8e": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Added Additional Funds8e",
+        "widget": "text"
+      }
+    },
+    "howMuchTransferred18g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 How Much Transferred1 8g",
+        "widget": "text"
+      }
+    },
+    "howMuchTransferred38g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 How Much Transferred3 8g",
+        "widget": "text"
+      }
+    },
+    "howMuchTransferred28g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 How Much Transferred2 8g",
+        "widget": "text"
+      }
+    },
+    "receivingIncome8h": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Receiving Income8h",
+        "widget": "text"
+      }
+    },
+    "receiveAnnually18i": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Receive Annually1 8i",
+        "widget": "text"
+      }
+    },
+    "receiveAnnually38i": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Receive Annually3 8i",
+        "widget": "text"
+      }
+    },
+    "receiveAnnually28i": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Receive Annually2 8i",
+        "widget": "text"
+      }
+    },
+    "trustUsedToPay8j": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Trust Used To Pay8j",
+        "widget": "text"
+      }
+    },
+    "establishedForChild8l": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Established For Child8l",
+        "widget": "text"
+      }
+    },
+    "additionalAuthority8m": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Additional Authority8m",
+        "widget": "text"
+      }
+    },
+    "reimbursedMonthly18k": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Reimbursed Monthly1 8k",
+        "widget": "text"
+      }
+    },
+    "reimbursedMonthly38k": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Reimbursed Monthly3 8k",
+        "widget": "text"
+      }
+    },
+    "reimbursedMonthly28k": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Reimbursed Monthly2 8k",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran7c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Relationship To Veteran7c1",
+        "widget": "text"
+      }
+    },
+    "other10b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Other10b1",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran7d1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 10 Relationship To Veteran7d1",
+        "widget": "text"
+      }
+    },
+    "dependentsEstablishedAnnuity9a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Dependents Established Annuity9a",
+        "widget": "text"
+      }
+    },
+    "marketAnnuity19c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Market Annuity1 9c",
+        "widget": "text"
+      }
+    },
+    "marketAnnuity29c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Market Annuity2 9c",
+        "widget": "text"
+      }
+    },
+    "marketAnnuity49c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Market Annuity4 9c",
+        "widget": "text"
+      }
+    },
+    "marketAnnuity39c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Market Annuity3 9c",
+        "widget": "text"
+      }
+    },
+    "addedFundsToAnnuity9d": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Added Funds To Annuity9d",
+        "widget": "text"
+      }
+    },
+    "howMuchTransferred19f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform How Much Transferred1 9f",
+        "widget": "text"
+      }
+    },
+    "howMuchTransferred29f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform How Much Transferred2 9f",
+        "widget": "text"
+      }
+    },
+    "howMuchTransferred49f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform How Much Transferred4 9f",
+        "widget": "text"
+      }
+    },
+    "howMuchTransferred39f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform How Much Transferred3 9f",
+        "widget": "text"
+      }
+    },
+    "annuity9g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Annuity9g",
+        "widget": "text"
+      }
+    },
+    "receiveIncomeFromAnnuity9h": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Receive Income From Annuity9h",
+        "widget": "text"
+      }
+    },
+    "annualAmountReceived19i": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Annual Amount Received1 9i",
+        "widget": "text"
+      }
+    },
+    "annualAmountReceived29i": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Annual Amount Received2 9i",
+        "widget": "text"
+      }
+    },
+    "annualAmountReceived49i": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Annual Amount Received4 9i",
+        "widget": "text"
+      }
+    },
+    "annualAmountReceived39i": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Annual Amount Received3 9i",
+        "widget": "text"
+      }
+    },
+    "surrenderValue19k": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Surrender Value1 9k",
+        "widget": "text"
+      }
+    },
+    "surrenderValue29k": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Surrender Value2 9k",
+        "widget": "text"
+      }
+    },
+    "surrenderValue49k": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Surrender Value4 9k",
+        "widget": "text"
+      }
+    },
+    "surrenderValue39k": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Surrender Value3 9k",
+        "widget": "text"
+      }
+    },
+    "annuityLiquidated9j": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Annuity Liquidated9j",
+        "widget": "text"
+      }
+    },
+    "dependentsHaveAssetsNotReported10a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Dependents Have Assets Not Reported10a",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran10b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Veteran10b1",
+        "widget": "text"
+      }
+    },
+    "other10b12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other10b1",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty110b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property1 10b3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty210b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property2 10b3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty410b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property4 10b3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty310b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property3 10b3",
+        "widget": "text"
+      }
+    },
+    "assetLocation10b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Asset Location10b4",
+        "widget": "text"
+      }
+    },
+    "typeOfAsset10b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Type Of Asset10b2",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran10c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Veteran10c1",
+        "widget": "text"
+      }
+    },
+    "other10c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other10c1",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty110c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property1 10c3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty210c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property2 10c3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty410c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property4 10c3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty310c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property3 10c3",
+        "widget": "text"
+      }
+    },
+    "assetLocation10c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Asset Location10c4",
+        "widget": "text"
+      }
+    },
+    "typeOfAsset10c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Type Of Asset10c2",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran10d1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Veteran10d1",
+        "widget": "text"
+      }
+    },
+    "other10d1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other10d1",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty110d3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property1 10d3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty210d3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property2 10d3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty410d3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property4 10d3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty310d3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property3 10d3",
+        "widget": "text"
+      }
+    },
+    "assetLocation10d4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Asset Location10d4",
+        "widget": "text"
+      }
+    },
+    "typeOfAsset10d2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Type Of Asset10d2",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran10e1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Veteran10e1",
+        "widget": "text"
+      }
+    },
+    "other10e1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other10e1",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty110e3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property1 10e3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty210e3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property2 10e3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty410e3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property4 10e3",
+        "widget": "text"
+      }
+    },
+    "valueOfYourPortionOfProperty310e3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Value Of Your Portion Of Property3 10e3",
+        "widget": "text"
+      }
+    },
+    "assetLocation10e4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Asset Location10e4",
+        "widget": "text"
+      }
+    },
+    "typeOfAsset10e2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Type Of Asset10e2",
+        "widget": "text"
+      }
+    },
+    "incomeWillNotResume12b5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Income Will Not Resume12b5",
+        "widget": "checkbox"
+      }
+    },
+    "dependentReceiveIncome11a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Dependent Receive Income11a",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran11b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Veteran11b1",
+        "widget": "text"
+      }
+    },
+    "other11b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other11b1",
+        "widget": "text"
+      }
+    },
+    "dateIncomeLastPaidMonth11b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Income Last Paid Month11b6",
+        "widget": "text"
+      }
+    },
+    "dateIncomeLastPaidMonthDay11b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Income Last Paid Month Day11b6",
+        "widget": "text"
+      }
+    },
+    "dateIncomeLastPaidMonthYear11b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Income Last Paid Month Year11b6",
+        "widget": "text"
+      }
+    },
+    "frequencyOfIncomeReceived11b5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Frequency Of Income Received11b5",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient11b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Income Recipient11b2",
+        "widget": "text"
+      }
+    },
+    "incomePayer11b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Income Payer11b3",
+        "widget": "text"
+      }
+    },
+    "grossAnnualAmount111b7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Gross Annual Amount1 11b7",
+        "widget": "text"
+      }
+    },
+    "grossAnnualAmount311b7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Gross Annual Amount3 11b7",
+        "widget": "text"
+      }
+    },
+    "grossAnnualAmount211b7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Gross Annual Amount2 11b7",
+        "widget": "text"
+      }
+    },
+    "typeOfIncomeReceived11b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Type Of Income Received11b4",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran11c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Veteran11c1",
+        "widget": "text"
+      }
+    },
+    "other11c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other11c1",
+        "widget": "text"
+      }
+    },
+    "dateIncomeLastPaidMonth11c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Income Last Paid Month11c6",
+        "widget": "text"
+      }
+    },
+    "dateIncomeLastPaidMonthDay11c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Income Last Paid Month Day11c6",
+        "widget": "text"
+      }
+    },
+    "dateIncomeLastPaidMonthYear11c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Income Last Paid Month Year11c6",
+        "widget": "text"
+      }
+    },
+    "frequencyOfIncomeReceived11c5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Frequency Of Income Received11c5",
+        "widget": "text"
+      }
+    },
+    "incomeRecipient11c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Income Recipient11c2",
+        "widget": "text"
+      }
+    },
+    "incomePayer11c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Income Payer11c3",
+        "widget": "text"
+      }
+    },
+    "grossAnnualAmount111c7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Gross Annual Amount1 11c7",
+        "widget": "text"
+      }
+    },
+    "grossAnnualAmount311c7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Gross Annual Amount3 11c7",
+        "widget": "text"
+      }
+    },
+    "grossAnnualAmount211c7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Gross Annual Amount2 11c7",
+        "widget": "text"
+      }
+    },
+    "typeOfIncomeReceived11c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Type Of Income Received11c4",
+        "widget": "text"
+      }
+    },
+    "dependentsWaiveReceiptsOfIncome12a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Dependents Waive Receipts Of Income12a",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran12b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Veteran12b1",
+        "widget": "text"
+      }
+    },
+    "other121b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other121b",
+        "widget": "text"
+      }
+    },
+    "nameOfIncomeRecipient12b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Income Recipient12b2",
+        "widget": "text"
+      }
+    },
+    "incomePayer12b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Income Payer12b3",
+        "widget": "text"
+      }
+    },
+    "waivedGrossMonthlyIncome112b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Waived Gross Monthly Income1 12b6",
+        "widget": "text"
+      }
+    },
+    "waivedGrossMonthlyIncome312b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Waived Gross Monthly Income3 12b6",
+        "widget": "text"
+      }
+    },
+    "waivedGrossMonthlyIncome212b6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Waived Gross Monthly Income2 12b6",
+        "widget": "text"
+      }
+    },
+    "amountExpected112b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Amount Expected1 12b4",
+        "widget": "text"
+      }
+    },
+    "amountExpected312b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Amount Expected3 12b4",
+        "widget": "text"
+      }
+    },
+    "amountExpected212b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Amount Expected2 12b4",
+        "widget": "text"
+      }
+    },
+    "incomeWillNotResume12c5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Income Will Not Resume12c5",
+        "widget": "checkbox"
+      }
+    },
+    "relationshipToVeteran12c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Veteran12c1",
+        "widget": "text"
+      }
+    },
+    "other12c1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Other12c1",
+        "widget": "text"
+      }
+    },
+    "nameOfIncomeRecipient12c2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Income Recipient12c2",
+        "widget": "text"
+      }
+    },
+    "incomePayer12c3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Income Payer12c3",
+        "widget": "text"
+      }
+    },
+    "waivedGrossMonthlyIncome112c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Waived Gross Monthly Income1 12c6",
+        "widget": "text"
+      }
+    },
+    "waivedGrossMonthlyIncome312c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Waived Gross Monthly Income3 12c6",
+        "widget": "text"
+      }
+    },
+    "waivedGrossMonthlyIncome212c6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Waived Gross Monthly Income2 12c6",
+        "widget": "text"
+      }
+    },
+    "amountExpected112c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Amount Expected1 12c4",
+        "widget": "text"
+      }
+    },
+    "amountExpected312c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Amount Expected3 12c4",
+        "widget": "text"
+      }
+    },
+    "amountExpected212c4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Amount Expected2 12c4",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "dateSigned13bMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Signed13b Month",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince14c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform State Or Province14c",
+        "widget": "text"
+      }
+    },
+    "country14c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Country14c",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers14c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Z I P Or Postal Code First Five Numbers14c",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers14c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Z I P Or Postal Code Last Four Numbers14c",
+        "widget": "text"
+      }
+    },
+    "firstWitnessNameFirst": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform First Witness Name First",
+        "widget": "text"
+      }
+    },
+    "firstWitnessNameMi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform First Witness Name M I",
+        "widget": "text"
+      }
+    },
+    "firstWitnessNameLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform First Witness Name Last",
+        "widget": "text"
+      }
+    },
+    "streetAddress14c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Street Address14c",
+        "widget": "text"
+      }
+    },
+    "apartmentNumber14c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Apartment Number14c",
+        "widget": "text"
+      }
+    },
+    "city14c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform City14c",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince14f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform State Or Province14f",
+        "widget": "text"
+      }
+    },
+    "country14f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Country14f",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers14f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Z I P Or Postal Code First Five Numbers14f",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers14f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Z I P Or Postal Code Last Four Numbers14f",
+        "widget": "text"
+      }
+    },
+    "secondWitnessNameFirst": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Second Witness Name First",
+        "widget": "text"
+      }
+    },
+    "secondWitnessNameMi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Second Witness Name M I",
+        "widget": "text"
+      }
+    },
+    "secondWitnessNameLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Second Witness Name Last",
+        "widget": "text"
+      }
+    },
+    "streetAddress14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Street Address14",
+        "widget": "text"
+      }
+    },
+    "apartmentNumber14f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Apartment Number14f",
+        "widget": "text"
+      }
+    },
+    "city14f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform City14f",
+        "widget": "text"
+      }
+    },
+    "submitTheFollowingFormsIfYouNeedToUp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Submit the following forms if you need to up",
+        "widget": "text"
+      }
+    },
+    "toUp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "• To up",
+        "widget": "text"
+      }
+    },
+    "ifYouAreAParentYouMustReportIncomeFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If you are a Parent, you must report income for**",
+        "widget": "text"
+      }
+    },
+    "include": {
+      "type": "string",
+      "x-va-field": {
+        "label": "include",
+        "widget": "text"
+      }
+    },
+    "annuity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "annuity",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "theseIncomesAreTypicallyClassifiedAs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "These incomes are typically classified as",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONDENT BURDEN",
+        "widget": "text"
+      }
+    },
+    "feesForClaims": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FEES FOR CLAIMS",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "first3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "First",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (Specify)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityretirementPensionwagesunemployment": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITYRETIREMENT/PENSIONWAGESUNEMPLOYMENT",
+        "widget": "ssn"
+      }
+    },
+    "7SpecifyDateOfTransfer": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(7). SPECIFY DATE OF TRANSFER (",
+        "widget": "date"
+      }
+    },
+    "8b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "8B.",
+        "widget": "date"
+      }
+    },
+    "thanOneDateSubmitAVaForm_21_4138WithAll": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "than one date, submit a VA Form 21-4138 with all",
+        "widget": "date"
+      }
+    },
+    "9bSpecify": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "9B. SPECIFY",
+        "widget": "date"
+      }
+    },
+    "9eWhenDidYouAddFunds": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "9E. WHEN DID YOU ADD FUNDS? (",
+        "widget": "date"
+      }
+    },
+    "9iIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "9I. IF",
+        "widget": "radio"
+      }
+    },
+    "9kIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "9K. IF",
+        "widget": "radio"
+      }
+    },
+    "9jCanTheAnnuityBeLiqui": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "9J. CAN THE ANNUITY BE LIQUI",
+        "widget": "date"
+      }
+    },
+    "addressEtc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "address, etc.)",
+        "widget": "address"
+      }
+    },
+    "13bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "13B. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCodeStateProvinceCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code  State/Province  Country",
+        "widget": "select"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "dateOfTransfer7c7": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfTransfer7d7": {
+      "type": "string",
+      "format": "date"
+    },
+    "transfer8f": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAnnuityWasEstablished": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAdditionalFundsTransferred": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentsResume": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateIncomeLastPaidMonth": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0969-are.pdf",
+    "status": "digitized",
+    "totalFields": 436,
+    "composedFields": 423,
+    "coveragePercent": 99,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 4,
+    "pageCount": 11,
+    "generatedAt": "2026-03-28T17:31:49.593Z",
+    "postProcessedAt": "2026-03-30T20:02:41.714097+00:00",
+    "redigitizedAt": "2026-03-30T20:35:19.702Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

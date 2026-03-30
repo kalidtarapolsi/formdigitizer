@@ -1,0 +1,358 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-10286",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Name",
+        "widget": "text"
+      }
+    },
+    "middleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Middle Initial",
+        "widget": "text"
+      }
+    },
+    "firstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform First Name",
+        "widget": "text"
+      }
+    },
+    "mailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "mailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "mailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "mailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "mailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "mailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "areaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Area Code",
+        "widget": "text"
+      }
+    },
+    "vaFileNumberLastFour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A F I L E N U M B E R L A S T F O U R",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "claimantSName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME",
+        "widget": "text"
+      }
+    },
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyy_2VaFileNumberLastFour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH (MM/DD/YYYY)2. VA FILE NUMBER (Last Four)",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "didYouReceiveAKickerPayment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DID YOU RECEIVE A KICKER PAYMENT?",
+        "widget": "text"
+      }
+    },
+    "doYouRequestMovementOfEntitlementForApprovedRetroact": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU REQUEST MOVEMENT OF ENTITLEMENT FOR APPROVED RETROACT",
+        "widget": "text"
+      }
+    },
+    "stateProvincecountryzipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/ProvinceCountryZIP Code/Postal Code",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "retroactiveInductionStartDateRequestedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "RETROACTIVE INDUCTION START DATE REQUESTED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "didYouReceiveTheEdithNourseRogersScienceTechnologyE": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DID YOU RECEIVE THE EDITH NOURSE ROGERS SCIENCE TECHNOLOGY E",
+        "widget": "text"
+      }
+    },
+    "doYouRequestRetroactiveInductionForTheDifferenceInW": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU REQUEST RETROACTIVE INDUCTION FOR THE DIFFERENCE IN W",
+        "widget": "text"
+      }
+    },
+    "iVerifyThatTheInformationProvidedAboveIsAccurateAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I VERIFY THAT THE INFORMATION PROVIDED ABOVE IS ACCURATE AND",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "noteYouWillHave_60DaysFromThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(NOTE:You will have 60 days from the",
+        "widget": "date"
+      }
+    },
+    "ifIReceivedKickerPaymentsIAcknowledgeThatAnOverpay": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF I RECEIVED KICKER PAYMENTS, I ACKNOWLEDGE THAT AN OVERPAY",
+        "widget": "text"
+      }
+    },
+    "ifIReceivedStemPaymentsIAcknowledgeThatTheTotalAm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF I RECEIVED STEM PAYMENTS, I ACKNOWLEDGE THAT THE TOTAL AM",
+        "widget": "text"
+      }
+    },
+    "iWishToWithdrawMyClaimForARetroactiveInductionFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I WISH TO WITHDRAW MY CLAIM FOR A RETROACTIVE INDUCTION FOR",
+        "widget": "text"
+      }
+    },
+    "yesIfYesSignAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "YES (If \"Yes,\" sign and",
+        "widget": "date"
+      }
+    },
+    "18bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "18B. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "mustUp": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "must up",
+        "widget": "date"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "delimiting": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "delimiting",
+        "widget": "date"
+      }
+    },
+    "differencesBetweenTheTwoChapters": {
+      "type": "string",
+      "x-va-field": {
+        "label": "differences between the two chapters",
+        "widget": "text"
+      }
+    },
+    "youMustProvideTheFollowingDocumentation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "you must provide the following documentation",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-10286-are.pdf",
+    "status": "digitized",
+    "totalFields": 50,
+    "composedFields": 47,
+    "coveragePercent": 96,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:36:51.659Z",
+    "postProcessedAt": "2026-03-30T20:02:41.754241+00:00",
+    "redigitizedAt": "2026-03-30T20:38:51.965Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

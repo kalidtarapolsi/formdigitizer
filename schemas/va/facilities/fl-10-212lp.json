@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FL-10-212LP",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "statusOfAuthorizedRepresentativeGuardianpoa": {
+      "type": "string"
+    },
+    "fftext2": {
+      "type": "string"
+    },
+    "referTo": {
+      "type": "string"
+    },
+    "historyAndPhysicalExam": {
+      "type": "string"
+    },
+    "fl102120subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield16": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield17": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield18": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield19": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "fl102120subform0textfield110": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "printPatientNameOrAuthorizedRepresentative": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-FL-10-212LP-fill%20(1).pdf",
+    "totalFields": 28,
+    "composedFields": 4,
+    "coveragePercent": 14,
+    "xfaLabelCount": 3,
+    "needsReviewCount": 11,
+    "generatedAt": "2026-03-28T21:32:50.987Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

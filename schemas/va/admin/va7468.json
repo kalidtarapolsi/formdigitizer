@@ -1,0 +1,349 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA7468",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "to": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O",
+        "widget": "text"
+      }
+    },
+    "orgOffice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Org Office",
+        "widget": "text"
+      }
+    },
+    "mailRoutingSymbol": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mail Routing Symbol",
+        "widget": "text"
+      }
+    },
+    "roomBuilding": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Room Building",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone",
+        "widget": "text"
+      }
+    },
+    "titleDescription": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Title Description",
+        "widget": "text"
+      }
+    },
+    "typeRecord": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Type Record",
+        "widget": "checkbox"
+      }
+    },
+    "specifyOther1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Specify Other1",
+        "widget": "text"
+      }
+    },
+    "dateFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date From",
+        "widget": "text"
+      }
+    },
+    "dateThru": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Thru",
+        "widget": "text"
+      }
+    },
+    "numberContainers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Number Containers",
+        "widget": "text"
+      }
+    },
+    "typeContainer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Type Container",
+        "widget": "text"
+      }
+    },
+    "specifyOther2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Specify Other2",
+        "widget": "text"
+      }
+    },
+    "cubicFeet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Cubic Feet",
+        "widget": "text"
+      }
+    },
+    "linearFeet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Linear Feet",
+        "widget": "text"
+      }
+    },
+    "destroy": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Destroy",
+        "widget": "checkbox"
+      }
+    },
+    "destroyAfterDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Destroy After Date",
+        "widget": "text"
+      }
+    },
+    "depositionDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Deposition Date",
+        "widget": "text"
+      }
+    },
+    "recordsControlSchedule": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Records Control Schedule",
+        "widget": "text"
+      }
+    },
+    "itemNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Item Number",
+        "widget": "text"
+      }
+    },
+    "pageNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Page Number",
+        "widget": "text"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature1",
+        "widget": "text"
+      }
+    },
+    "dateSigned1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed1",
+        "widget": "text"
+      }
+    },
+    "signature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature2",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed2",
+        "widget": "text"
+      }
+    },
+    "signature3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature3",
+        "widget": "text"
+      }
+    },
+    "dateSigned3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed3",
+        "widget": "text"
+      }
+    },
+    "mailRouting": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAIL ROUTING",
+        "widget": "text"
+      }
+    },
+    "room": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ROOM/",
+        "widget": "text"
+      }
+    },
+    "name2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME",
+        "widget": "text"
+      }
+    },
+    "phoneNo_999_999_9999": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "PHONE NO. ((999) 999-9999)",
+        "widget": "phone"
+      }
+    },
+    "titleAndDescriptionOfRecords": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TITLE AND DESCRIPTION OF RECORDS",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "datesOfRecordsInclusive": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATES OF RECORDS (Inclusive)",
+        "widget": "date"
+      }
+    },
+    "fromMmDdYyyyThru": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "FROM (MM/DD/YYYY)THRU (",
+        "widget": "date"
+      }
+    },
+    "noAndTypeOfContainers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NO. AND TYPE OF CONTAINERS",
+        "widget": "text"
+      }
+    },
+    "fileSequence": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FILE SEQUENCE:",
+        "widget": "text"
+      }
+    },
+    "cubicFeet13LinearFeet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CUBIC FEET13. LINEAR FEET",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "date"
+      }
+    },
+    "14eDestroyAfter": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "14E. DESTROY AFTER",
+        "widget": "date"
+      }
+    },
+    "deposition": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DEPOSITION",
+        "widget": "date"
+      }
+    },
+    "16bDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "16B. DATE (",
+        "widget": "date"
+      }
+    },
+    "17bDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "17B. DATE (",
+        "widget": "date"
+      }
+    },
+    "18bDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "18B. DATE (",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA7468.pdf",
+    "totalFields": 45,
+    "composedFields": 45,
+    "coveragePercent": 98,
+    "xfaLabelCount": 29,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:30:07.734Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:28:34.714Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

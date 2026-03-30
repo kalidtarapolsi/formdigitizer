@@ -1,0 +1,386 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0514-1(Spanish)",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "maritalStatus": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Marital Status",
+        "widget": "checkbox"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 #subform #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row1 Amount",
+        "widget": "text"
+      }
+    },
+    "amount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row2 Amount",
+        "widget": "text"
+      }
+    },
+    "amount3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row3 Amount",
+        "widget": "text"
+      }
+    },
+    "amount4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row4 Amount",
+        "widget": "text"
+      }
+    },
+    "amount5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row5 Amount",
+        "widget": "text"
+      }
+    },
+    "numericField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row6 #subform Numeric Field1",
+        "widget": "text"
+      }
+    },
+    "numericField2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row6 #subform Numeric Field2",
+        "widget": "text"
+      }
+    },
+    "numericField4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row7 #subform Numeric Field4",
+        "widget": "text"
+      }
+    },
+    "numericField3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row7 #subform Numeric Field3",
+        "widget": "text"
+      }
+    },
+    "dateSigned3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "amount6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Amount",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "source": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Source",
+        "widget": "text"
+      }
+    },
+    "2CasadoViviendoConCNyugeQue": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(2) CASADO - VIVIENDO CON CÓNYUGE QUE",
+        "widget": "text"
+      }
+    },
+    "1CasadoViviendoConElOtroPadreDelVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(1) CASADO - VIVIENDO CON EL OTRO PADRE DEL VETERA",
+        "widget": "text"
+      }
+    },
+    "recibeCualquerOtroBeneficioDeVaComoVeteranoPadreO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "¿RECIBE CUALQUER OTRO BENEFICIO DE VA COMO VETERANO, PADRE O",
+        "widget": "text"
+      }
+    },
+    "recibiSueldoOTuvoEmpleoEnCualquierPeriodoDuranteL": {
+      "type": "string",
+      "x-va-field": {
+        "label": "¿RECIBIÓ SUELDO O TUVO EMPLEO EN CUALQUIER PERIODO DURANTE L",
+        "widget": "text"
+      }
+    },
+    "duringThe_12MonthPeriodPrecedingThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DURING THE 12 MONTH PERIOD PRECEDING THE",
+        "widget": "text"
+      }
+    },
+    "enteredTheNursingHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ENTERED THE NURSING HOME) (",
+        "widget": "text"
+      }
+    },
+    "telefo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEFO",
+        "widget": "text"
+      }
+    },
+    "zipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ZIP Code)",
+        "widget": "text"
+      }
+    },
+    "nMDeOmbAprobado": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Núm de OMB Aprobado",
+        "widget": "text"
+      }
+    },
+    "tiempoParaResponder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Tiempo para Responder",
+        "widget": "text"
+      }
+    },
+    "fechaDeCaducidad": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha de Caducidad",
+        "widget": "text"
+      }
+    },
+    "fileNumberOfTheOtherBenefit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "file number of the other benefit)",
+        "widget": "text"
+      }
+    },
+    "viveElOtroPadreDelVeteranoIsTheOtherParentOfTh": {
+      "type": "string",
+      "x-va-field": {
+        "label": "¿VIVE EL OTRO PADRE DEL VETERANO? (IS THE OTHER PARENT OF TH",
+        "widget": "text"
+      }
+    },
+    "nombreSegundoNombreApellidoDelVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOMBRE, SEGUNDO NOMBRE, APELLIDO DEL VETERA",
+        "widget": "text"
+      }
+    },
+    "nameOfVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF VETERAN)",
+        "widget": "text"
+      }
+    },
+    "nMeroDeSeguroSocialDelVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NÚMERO DE SEGURO SOCIAL DEL VETERA",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER)",
+        "widget": "text"
+      }
+    },
+    "1cSuFechaDeNacimientoMesDAAOYour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1C. SU FECHA DE NACIMIENTO (Mes, día, año)  (YOUR",
+        "widget": "text"
+      }
+    },
+    "spouseSDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPOUSE'S DATE OF BIRTH) (",
+        "widget": "text"
+      }
+    },
+    "estadoCivilMarqueUnaCasillaSolamenteMaritalStatus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ESTADO CIVIL (Marque una casilla solamente)  (MARITAL STATUS",
+        "widget": "text"
+      }
+    },
+    "fechaDeDivorcioDateOfDivorceMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha de divorcio (Date of divorce) (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "fechaDeMuerteDelCNyuge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha de muerte del cónyuge (",
+        "widget": "text"
+      }
+    },
+    "ingresosCambiaronPorEjemplo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ingresos cambiaron; por ejemplo",
+        "widget": "text"
+      }
+    },
+    "incomeChangeShowThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "INCOME CHANGE?) (Show the",
+        "widget": "date"
+      }
+    },
+    "newIncomeOrThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "new income or the",
+        "widget": "date"
+      }
+    },
+    "queSucedi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "que sucedió",
+        "widget": "text"
+      }
+    },
+    "gastosMDicosLeaPRrafo_6DeLasInstruccionesDelEvr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GASTOS MÉDICOS (Lea Párrafo 6 de las instrucciones del EVR)",
+        "widget": "text"
+      }
+    },
+    "9bFechaDeFirmaDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "9B. FECHA DE FIRMA (DATE SIGNED) (",
+        "widget": "date"
+      }
+    },
+    "ingresosBrutosMensualesSi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INGRESOS BRUTOS MENSUALES. Si",
+        "widget": "radio"
+      }
+    },
+    "grossMonthlyAmountsIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(GROSS MONTHLY AMOUNTS) (If",
+        "widget": "radio"
+      }
+    },
+    "if": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(If",
+        "widget": "radio"
+      }
+    },
+    "deFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DE (FROM)",
+        "widget": "text"
+      }
+    },
+    "fechasDateMmDdYyyyFechasDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "FECHAS (DATE) (MM/DD/YYYY)FECHAS (DATE) (",
+        "widget": "date"
+      }
+    },
+    "aThru": {
+      "type": "string",
+      "x-va-field": {
+        "label": "A (THRU)",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0514-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 51,
+    "composedFields": 51,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:33:58.026Z",
+    "redigitizedAt": "2026-03-30T20:37:39.302Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

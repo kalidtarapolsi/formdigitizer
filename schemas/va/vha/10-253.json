@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-253",
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "endorsement": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%20Form%20253%20Ecclesiastical%20Endorsement%20for%20Veterans%20Affairs%20Chaplaincy%20Fill.pdf",
+    "totalFields": 14,
+    "composedFields": 13,
+    "coveragePercent": 93,
+    "xfaLabelCount": 2,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:09.999Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7008a",
+  "type": "object",
+  "properties": {
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "field_form1_0___subform_0__CheckBox11_0_": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__CheckBox12_0_": {
+      "type": "string"
+    },
+    "isClearedFor": {
+      "type": "string"
+    },
+    "isPrescribed": {
+      "type": "string"
+    },
+    "toChiefPhysicalMedicineAndRehabilitationService117InformationAboutThePatient": {
+      "type": "string"
+    },
+    "informationAboutTheMember": {
+      "type": "string"
+    },
+    "informationAboutTheGroup": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7008A-fill.pdf",
+    "totalFields": 15,
+    "composedFields": 8,
+    "coveragePercent": 53,
+    "xfaLabelCount": 9,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:04:27.125Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

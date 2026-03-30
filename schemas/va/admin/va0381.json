@@ -1,0 +1,230 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0381",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateTimeField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F P1 Date Time Field1",
+        "widget": "text"
+      }
+    },
+    "radioButtonList1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F P1 Radio Button List1",
+        "widget": "text"
+      }
+    },
+    "radioButtonList2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F P1 Radio Button List2",
+        "widget": "text"
+      }
+    },
+    "radioButtonList3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F P1 Radio Button List3",
+        "widget": "text"
+      }
+    },
+    "staticText21": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F P1 Static Text21",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated burden",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "completeTheFormWillHave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "complete the form will have",
+        "widget": "text"
+      }
+    },
+    "nameLastFirstMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME (Last, First, Middle Initial)",
+        "widget": "text"
+      }
+    },
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfVaFacilityOrOtherAgencyWhereDiscri": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF VA FACILITY OR OTHER AGENCY WHERE DISCRI",
+        "widget": "text"
+      }
+    },
+    "nameOfServiceProductLineWhereDiscriminationOccurred": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF SERVICE/PRODUCT LINE WHERE DISCRIMINATION OCCURRED.",
+        "widget": "text"
+      }
+    },
+    "fP1CheckBox5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F P1 Check Box5",
+        "widget": "checkbox"
+      }
+    },
+    "nameOfIndividualIfKnownWhoDiscriminatedInclude": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF INDIVIDUAL (If known)  WHO DISCRIMINATED (Include",
+        "widget": "text"
+      }
+    },
+    "fP1CheckBox4": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F P1 Check Box4",
+        "widget": "checkbox"
+      }
+    },
+    "phoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "phone number)",
+        "widget": "text"
+      }
+    },
+    "dateOfDiscrimination": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF DISCRIMINATION",
+        "widget": "text"
+      }
+    },
+    "includeTheMostRecent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(Include the most recent",
+        "widget": "text"
+      }
+    },
+    "basis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BASIS",
+        "widget": "text"
+      }
+    },
+    "issueSIfYourComplaintConcernsDiscriminationInTheD": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ISSUE(S) (If your complaint concerns discrimination in the d",
+        "widget": "text"
+      }
+    },
+    "listTheMostConvenientTimeAndPlaceForYouToBeContac": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIST THE MOST CONVENIENT TIME AND PLACE FOR YOU TO BE CONTAC",
+        "widget": "text"
+      }
+    },
+    "pleaseProvideTheNameAddressAndTelephoneNumberOfYo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE PROVIDE THE NAME, ADDRESS, AND TELEPHONE NUMBER OF YO",
+        "widget": "text"
+      }
+    },
+    "ifTheDiscrimnatoryActDescribedAboveOccurredMoreThan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF THE DISCRIMNATORY ACT DESCRIBED ABOVE OCCURRED MORE THAN",
+        "widget": "text"
+      }
+    },
+    "fP1CheckBox2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F P1 Check Box2",
+        "widget": "checkbox"
+      }
+    },
+    "listAnyPersonWitnessFellowEmployeeWhoCanSupportY": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIST ANY PERSON (Witness, fellow employee) WHO CAN SUPPORT Y",
+        "widget": "text"
+      }
+    },
+    "nameAddressTelephoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "name, address, telephone number)",
+        "widget": "phone"
+      }
+    },
+    "haveYouFiledThisComplaintWithAnotherAgencyIfYes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU FILED THIS COMPLAINT WITH ANOTHER AGENCY? (If yes,",
+        "widget": "text"
+      }
+    },
+    "signatureSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE (Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "dateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (mm/dd/yyyy)",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0381.pdf",
+    "totalFields": 29,
+    "composedFields": 29,
+    "coveragePercent": 100,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:56.617Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:28:00.990Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

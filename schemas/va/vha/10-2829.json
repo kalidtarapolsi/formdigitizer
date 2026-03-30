@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2829",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateOfCall": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateEnteredService": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfDischarge": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "travelAuthorizedTravelAuthorizedAtGovernmentExpense": {
+      "type": "number"
+    },
+    "forHospitalization": {
+      "type": "string"
+    },
+    "outpatientTreatment": {
+      "type": "string"
+    },
+    "physiciansFees": {
+      "type": "string"
+    },
+    "numberOfTreatments": {
+      "type": "string"
+    },
+    "remarksIncludeAllStipulationsConditionsEtc": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "otherFeesSpecify": {
+      "type": "string"
+    },
+    "travel": {
+      "type": "string"
+    },
+    "hourOfCall": {
+      "type": "string"
+    },
+    "natureOfEmergencyAlleged": {
+      "type": "string"
+    },
+    "tentativeNumberOfDays": {
+      "type": "string"
+    },
+    "perDiemRate": {
+      "type": "string"
+    },
+    "specialNursingFees": {
+      "type": "string"
+    },
+    "xrayFees": {
+      "type": "string"
+    },
+    "laboratoryFees": {
+      "type": "string"
+    },
+    "modeOfTravel": {
+      "type": "string"
+    },
+    "between": {
+      "type": "string"
+    },
+    "and": {
+      "type": "string"
+    },
+    "extras": {
+      "type": "string"
+    },
+    "eligibilityAction": {
+      "type": "string"
+    },
+    "eligibilityClerksInitials": {
+      "type": "string"
+    },
+    "station": {
+      "type": "string"
+    },
+    "seviceConnectedForEmergencyAlleged": {
+      "type": "string"
+    },
+    "nonserviceconnectedForEmergencyAlleged": {
+      "type": "string"
+    },
+    "primaFacieEligibility": {
+      "type": "string"
+    },
+    "receivingPensionOrCompensationYes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2829.pdf",
+    "totalFields": 44,
+    "composedFields": 24,
+    "coveragePercent": 55,
+    "xfaLabelCount": 44,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:12:52.088Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

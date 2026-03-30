@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0056A",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfInspection": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "deficienciesIndicatedByCheckLoungeWiring": {
+      "type": "boolean"
+    },
+    "to": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__TextField4_0_": {
+      "type": "string"
+    },
+    "inspectors": {
+      "type": "string"
+    },
+    "loungeAppliances": {
+      "type": "string"
+    },
+    "loungeExtensionCords": {
+      "type": "string"
+    },
+    "loungeExits": {
+      "type": "string"
+    },
+    "loungeFireProtection": {
+      "type": "string"
+    },
+    "loungeHousekeeping": {
+      "type": "string"
+    },
+    "mechanicalRoomsAppliances": {
+      "type": "string"
+    },
+    "laundryExtensionCords": {
+      "type": "string"
+    },
+    "mechanicalRoomsStorage": {
+      "type": "string"
+    },
+    "hallsObstructions": {
+      "type": "string"
+    },
+    "storageRoomsHazardousMaterials": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "bathroomsHeating": {
+      "type": "string"
+    },
+    "bathroomsFireBlankets": {
+      "type": "string"
+    },
+    "exteriorFDConnectors": {
+      "type": "string"
+    },
+    "exteriorVegetation": {
+      "type": "string"
+    },
+    "explainNatureOfViolationGiveExactLocationsIncludingRoomNumbersIndicateSectionsOfOSHAMP3OrNFPA101IfApplicable": {
+      "type": "string"
+    },
+    "serviceChiefListCorrectiveActionAndProposedCorrectiveDates": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0056A.pdf",
+    "totalFields": 96,
+    "composedFields": 44,
+    "coveragePercent": 46,
+    "xfaLabelCount": 30,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:30:08.574Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

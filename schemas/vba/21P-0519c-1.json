@@ -1,0 +1,409 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0519c-1",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "maritalstatus1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 M A R I T A L S T A T U S1",
+        "widget": "text"
+      }
+    },
+    "schoolstatus1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S C H O O L S T A T U S1",
+        "widget": "text"
+      }
+    },
+    "attendedschool1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 A T T E N D E D S C H O O L1",
+        "widget": "text"
+      }
+    },
+    "receiveaward": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 R E C E I V E A W A R D",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "maritalstatus2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 M A R I T A L S T A T U S2",
+        "widget": "text"
+      }
+    },
+    "schoolstatus2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S C H O O L S T A T U S2",
+        "widget": "text"
+      }
+    },
+    "attendedschool2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 A T T E N D E D S C H O O L2",
+        "widget": "text"
+      }
+    },
+    "maritalstatus3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 M A R I T A L S T A T U S3",
+        "widget": "text"
+      }
+    },
+    "schoolstatus3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S C H O O L S T A T U S3",
+        "widget": "text"
+      }
+    },
+    "attendedschool3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 A T T E N D E D S C H O O L3",
+        "widget": "text"
+      }
+    },
+    "maritalstatus4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 M A R I T A L S T A T U S4",
+        "widget": "text"
+      }
+    },
+    "schoolstatus4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S C H O O L S T A T U S4",
+        "widget": "text"
+      }
+    },
+    "attendedschool4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 A T T E N D E D S C H O O L4",
+        "widget": "text"
+      }
+    },
+    "maritalstatus5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 M A R I T A L S T A T U S5",
+        "widget": "text"
+      }
+    },
+    "schoolstatus5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S C H O O L S T A T U S5",
+        "widget": "text"
+      }
+    },
+    "attendedschool5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 A T T E N D E D S C H O O L5",
+        "widget": "text"
+      }
+    },
+    "maritalstatus6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 M A R I T A L S T A T U S6",
+        "widget": "text"
+      }
+    },
+    "schoolstatus6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S C H O O L S T A T U S6",
+        "widget": "text"
+      }
+    },
+    "attendedschool6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 A T T E N D E D S C H O O L6",
+        "widget": "text"
+      }
+    },
+    "martialstatus7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 M A R T I A L S T A T U S7",
+        "widget": "text"
+      }
+    },
+    "schoolstatus7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S C H O O L S T A T U S7",
+        "widget": "text"
+      }
+    },
+    "attendedschool7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 A T T E N D E D S C H O O L7",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Amount",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "listTheChildrenSNames": {
+      "type": "string",
+      "x-va-field": {
+        "label": "List the children's names,",
+        "widget": "text"
+      }
+    },
+    "doesNotHaveASocialSecurityNumberWrite": {
+      "type": "string",
+      "x-va-field": {
+        "label": "does not have a Social Security number, write \"",
+        "widget": "text"
+      }
+    },
+    "1b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1B.",
+        "widget": "text"
+      }
+    },
+    "didAnyChildOnThisAwardReceiveWagesAtAnyTimeDuring": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DID ANY CHILD ON THIS AWARD RECEIVE WAGES AT ANY TIME DURING",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "importantNoteAboutItems_3aThrough_3g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT NOTE ABOUT ITEMS 3A THROUGH 3G",
+        "widget": "text"
+      }
+    },
+    "childClaimantsOrPayees": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Child Claimants or Payees",
+        "widget": "text"
+      }
+    },
+    "sourcecustodian": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOURCECUSTODIAN",
+        "widget": "text"
+      }
+    },
+    "child": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CHILD",
+        "widget": "text"
+      }
+    },
+    "socialSecurity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY",
+        "widget": "text"
+      }
+    },
+    "showThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(Show the",
+        "widget": "text"
+      }
+    },
+    "orTheDateIncomeChanged": {
+      "type": "string",
+      "x-va-field": {
+        "label": "or the date income changed (",
+        "widget": "text"
+      }
+    },
+    "reportAnnualIncomeForTheDatesIndicatedIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Report annual income for the dates indicated. If",
+        "widget": "text"
+      }
+    },
+    "childSMedicalExpensesReadParagraph_6OfTheEvrInstr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CHILD'S MEDICAL EXPENSES (Read Paragraph 6 of the EVR  Instr",
+        "widget": "text"
+      }
+    },
+    "noIfNoGoToItem_3g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NO  (If \"NO,\" go to Item 3G.)",
+        "widget": "text"
+      }
+    },
+    "custodiansOfChildren": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Custodians of Children",
+        "widget": "text"
+      }
+    },
+    "institutionalCustodians": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Institutional Custodians",
+        "widget": "text"
+      }
+    },
+    "custodian": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CUSTODIAN",
+        "widget": "text"
+      }
+    },
+    "fromMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FROM (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "toMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TO (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "fromMmDdYyyyFromMmDdYyyyFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FROM (MM/DD/YYYY):FROM (MM/DD/YYYY):FROM (",
+        "widget": "text"
+      }
+    },
+    "toMmDdYyyyToMmDdYyyyToMmDdYyyyTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TO (MM/DD/YYYY):TO (MM/DD/YYYY):TO (MM/DD/YYYY):TO",
+        "widget": "text"
+      }
+    },
+    "childSEducationalExpensesInDollarsReadParagraph_7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CHILD'S EDUCATIONAL EXPENSES (in dollars) (Read Paragraph 7",
+        "widget": "text"
+      }
+    },
+    "6bDateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "6B. DATE SIGNED (",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "fPage_2TextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Text Field1",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0519c-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 55,
+    "composedFields": 55,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:31:54.434Z",
+    "redigitizedAt": "2026-03-30T20:36:18.739Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

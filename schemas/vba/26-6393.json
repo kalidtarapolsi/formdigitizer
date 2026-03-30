@@ -1,0 +1,860 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6393",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "recommendApplicationApproved": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Recommend Application Approved",
+        "widget": "checkbox"
+      }
+    },
+    "recommendApplicationDisapproved": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Recommend Application Disapproved",
+        "widget": "checkbox"
+      }
+    },
+    "nameOfBorrower": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Name Of Borrower",
+        "widget": "text"
+      }
+    },
+    "amountOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Amount Of Loan",
+        "widget": "text"
+      }
+    },
+    "cashDownPaymentOnPurchasePrice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Cash Down Payment On Purchase Price",
+        "widget": "text"
+      }
+    },
+    "occupationOfApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Occupation Of Applicant",
+        "widget": "text"
+      }
+    },
+    "numberOfYearsAtPresentEmploymentApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Number Of Years At Present Employment A P P L I C A N T",
+        "widget": "text"
+      }
+    },
+    "liquidAssets": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Liquid Assets",
+        "widget": "text"
+      }
+    },
+    "currentMonthlyHousingExpense": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Current Monthly Housing Expense",
+        "widget": "text"
+      }
+    },
+    "numberOfYearsAtPresentEmploymentSpouse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Number Of Years At Present Employment S P O U S E",
+        "widget": "text"
+      }
+    },
+    "occupationOfSpouse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Occupation Of Spouse",
+        "widget": "text"
+      }
+    },
+    "ageOfDependents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Age Of Dependents",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "borrower43": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Borrower43",
+        "widget": "text"
+      }
+    },
+    "termOfLoanYrs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Term Of Loan Y R S",
+        "widget": "text"
+      }
+    },
+    "amount15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount15",
+        "widget": "text"
+      }
+    },
+    "amount16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount16",
+        "widget": "text"
+      }
+    },
+    "amount17": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount17",
+        "widget": "text"
+      }
+    },
+    "amount18": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount18",
+        "widget": "text"
+      }
+    },
+    "amount19": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount19",
+        "widget": "text"
+      }
+    },
+    "amount20": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount20",
+        "widget": "text"
+      }
+    },
+    "total1a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total1a",
+        "widget": "text"
+      }
+    },
+    "amount22": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount22",
+        "widget": "text"
+      }
+    },
+    "amount23": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount23",
+        "widget": "text"
+      }
+    },
+    "amount24": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount24",
+        "widget": "text"
+      }
+    },
+    "amount25": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount25",
+        "widget": "text"
+      }
+    },
+    "amount26": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount26",
+        "widget": "text"
+      }
+    },
+    "amount27": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount27",
+        "widget": "text"
+      }
+    },
+    "amount28": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount28",
+        "widget": "text"
+      }
+    },
+    "amount29": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount29",
+        "widget": "text"
+      }
+    },
+    "total1b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total1b",
+        "widget": "text"
+      }
+    },
+    "amount22a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount22a",
+        "widget": "text"
+      }
+    },
+    "amount23a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount23a",
+        "widget": "text"
+      }
+    },
+    "amount24a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount24a",
+        "widget": "text"
+      }
+    },
+    "amount25a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount25a",
+        "widget": "text"
+      }
+    },
+    "amount26a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount26a",
+        "widget": "text"
+      }
+    },
+    "amount27a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount27a",
+        "widget": "text"
+      }
+    },
+    "amount28a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount28a",
+        "widget": "text"
+      }
+    },
+    "total1c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total1c",
+        "widget": "text"
+      }
+    },
+    "items1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Items1",
+        "widget": "text"
+      }
+    },
+    "items2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Items2",
+        "widget": "text"
+      }
+    },
+    "items3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Items3",
+        "widget": "text"
+      }
+    },
+    "items4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Items4",
+        "widget": "text"
+      }
+    },
+    "items5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Items5",
+        "widget": "text"
+      }
+    },
+    "items6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Items6",
+        "widget": "text"
+      }
+    },
+    "items7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Items7",
+        "widget": "text"
+      }
+    },
+    "total2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total2",
+        "widget": "text"
+      }
+    },
+    "amount32": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount32",
+        "widget": "text"
+      }
+    },
+    "amount32a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount32a",
+        "widget": "text"
+      }
+    },
+    "amount33": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount33",
+        "widget": "text"
+      }
+    },
+    "amount33a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount33a",
+        "widget": "text"
+      }
+    },
+    "amount34": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount34",
+        "widget": "text"
+      }
+    },
+    "amount35": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount35",
+        "widget": "text"
+      }
+    },
+    "amount36": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount36",
+        "widget": "text"
+      }
+    },
+    "amount34a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount34a",
+        "widget": "text"
+      }
+    },
+    "amount35a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount35a",
+        "widget": "text"
+      }
+    },
+    "amount36a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount36a",
+        "widget": "text"
+      }
+    },
+    "total3a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total3a",
+        "widget": "text"
+      }
+    },
+    "total4a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total4a",
+        "widget": "text"
+      }
+    },
+    "total5a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total5a",
+        "widget": "text"
+      }
+    },
+    "total6a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total6a",
+        "widget": "text"
+      }
+    },
+    "total4b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total4b",
+        "widget": "text"
+      }
+    },
+    "total5b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total5b",
+        "widget": "text"
+      }
+    },
+    "total6b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total6b",
+        "widget": "text"
+      }
+    },
+    "total3c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total3c",
+        "widget": "text"
+      }
+    },
+    "total4c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total4c",
+        "widget": "text"
+      }
+    },
+    "total5c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total5c",
+        "widget": "text"
+      }
+    },
+    "total6c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total6c",
+        "widget": "text"
+      }
+    },
+    "total7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total7",
+        "widget": "text"
+      }
+    },
+    "total8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total8",
+        "widget": "text"
+      }
+    },
+    "total9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total9",
+        "widget": "text"
+      }
+    },
+    "total10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total10",
+        "widget": "text"
+      }
+    },
+    "total3b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 total3b",
+        "widget": "text"
+      }
+    },
+    "signatureOfVaApprovedUnderwriter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature Of V A Approved Underwriter",
+        "widget": "text"
+      }
+    },
+    "incomeDebtRatio": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 income debt ratio",
+        "widget": "text"
+      }
+    },
+    "interest1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Interest1",
+        "widget": "text"
+      }
+    },
+    "applicantAge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Applicant Age",
+        "widget": "text"
+      }
+    },
+    "spousesAge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Spouses Age",
+        "widget": "text"
+      }
+    },
+    "signatureAndTitleOfApprovingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature And Title Of Approving Official",
+        "widget": "text"
+      }
+    },
+    "specifyother": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Specifyother",
+        "widget": "text"
+      }
+    },
+    "borrowerMedianCreditScore": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Borrower Median Credit Score",
+        "widget": "text"
+      }
+    },
+    "coBorrowerMedianCreditScore": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Co Borrower Median Credit Score",
+        "widget": "text"
+      }
+    },
+    "coBorrowerCaivrs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Co Borrower Caivrs",
+        "widget": "text"
+      }
+    },
+    "borrowersCaivrs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Borrowers Caivrs",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 R E M A R K S",
+        "widget": "text"
+      }
+    },
+    "vaapprovedUnderwriterId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 V A Approved Underwriter I D",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "fPage_1CheckBox22": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box22",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1CheckBox23": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box23",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1CheckBox24": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box24",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1CheckBox25": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box25",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1CheckBox26": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box26",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1CheckBox27": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box27",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1CheckBox28": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box28",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1CheckBox29": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box29",
+        "widget": "checkbox"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "nameOfBorrower_2AmountOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF BORROWER 2. AMOUNT OF LOAN",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "cashDownPaymentOnPurchase": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CASH DOWN PAYMENT ON PURCHASE",
+        "widget": "text"
+      }
+    },
+    "applicantSAge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT'S AGE",
+        "widget": "text"
+      }
+    },
+    "utilitiesIncluded": {
+      "type": "string",
+      "x-va-field": {
+        "label": "UTILITIES INCLUDED",
+        "widget": "text"
+      }
+    },
+    "occupationOfApplicant2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OCCUPATION OF APPLICANT",
+        "widget": "text"
+      }
+    },
+    "occupationOfSpouse2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OCCUPATION OF SPOUSE",
+        "widget": "text"
+      }
+    },
+    "numberOfYearsAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF YEARS AT",
+        "widget": "text"
+      }
+    },
+    "liquidAssets2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIQUID ASSETS",
+        "widget": "text"
+      }
+    },
+    "currentMonthly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT MONTHLY",
+        "widget": "text"
+      }
+    },
+    "ageOfDependents2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AGE OF DEPENDENTS",
+        "widget": "text"
+      }
+    },
+    "dateSigned_55SignatureOfVaApprovedUnderwriter": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED 55. SIGNATURE OF VA APPROVED UNDERWRITER",
+        "widget": "date"
+      }
+    },
+    "finalAction_57DateSigned_58SignatureAndTitleOfApp": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "FINAL ACTION 57. DATE SIGNED 58. SIGNATURE  AND TITLE OF APP",
+        "widget": "date"
+      }
+    },
+    "wasAnAutomatedUnderwritingSystemUsed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WAS AN AUTOMATED UNDERWRITING SYSTEM USED?",
+        "widget": "text"
+      }
+    },
+    "termOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TERM OF LOAN",
+        "widget": "text"
+      }
+    },
+    "realtyTaxes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REALTY TAXES",
+        "widget": "text"
+      }
+    },
+    "stateIncomeTax": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATE INCOME TAX",
+        "widget": "select"
+      }
+    },
+    "selectSystemUsedCheckAppropriateBox": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SELECT SYSTEM USED (Check appropriate box)",
+        "widget": "text"
+      }
+    },
+    "riskClassification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RISK CLASSIFICATION",
+        "widget": "text"
+      }
+    },
+    "borrowerMedianCreditScore47BorrowerCaivrs48CoBorrow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BORROWER MEDIAN CREDIT SCORE47. BORROWER CAIVRS48. CO-BORROW",
+        "widget": "text"
+      }
+    },
+    "pastCreditRecord": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAST CREDIT RECORD",
+        "widget": "text"
+      }
+    },
+    "doesLoanMeetVaCreditStandardsGiveReasonsFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DOES LOAN MEET VA CREDIT STANDARDS? (Give reasons for",
+        "widget": "text"
+      }
+    },
+    "remarksIfAdditionalSpaceIsNeededUseReverseOrAttac": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (If additional space is needed, use reverse or attac",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6393-are.pdf",
+    "status": "digitized",
+    "totalFields": 120,
+    "composedFields": 119,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:33:17.232Z",
+    "redigitizedAt": "2026-03-30T20:37:17.741Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

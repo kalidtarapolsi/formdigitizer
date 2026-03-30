@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA8824i",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateSignedByCaatsApprovingOfficial": {
+      "type": "string",
+      "format": "date"
+    },
+    "line15RoleReadOnlyCheckBox": {
+      "type": "boolean"
+    },
+    "cCompany": {
+      "type": "string"
+    },
+    "actionRequested": {
+      "type": "string"
+    },
+    "customerInformationAFullNameFirstNameLastName": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__FacilityNo___0_": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__FacilityNo___1_": {
+      "type": "string"
+    },
+    "hVendorCodeTaxIdentificationNumber": {
+      "type": "string"
+    },
+    "line15ObligationNumbercontractNumber": {
+      "type": "string"
+    },
+    "caatsApprovingOfficialTitle": {
+      "type": "string"
+    },
+    "caatsApprovingOfficial": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA8824i.pdf",
+    "totalFields": 78,
+    "composedFields": 51,
+    "coveragePercent": 65,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:27:39.680Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1817",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 V A File Number",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressUnmarriedSurvivingSpouse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Name And Address Unmarried Surviving Spouse",
+        "widget": "text"
+      }
+    },
+    "serviceNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Service Number",
+        "widget": "text"
+      }
+    },
+    "branchOfService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Branch Of Service",
+        "widget": "text"
+      }
+    },
+    "periodsOfService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Periods Of Service",
+        "widget": "text"
+      }
+    },
+    "reasonApplicantNotEligible": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Reason Applicant Not Eligible",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Title",
+        "widget": "text"
+      }
+    },
+    "addressOfProperty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Address Of Property",
+        "widget": "text"
+      }
+    },
+    "valoanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 V A Loan Number",
+        "widget": "text"
+      }
+    },
+    "applicantsEmailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Applicants Email Address",
+        "widget": "text"
+      }
+    },
+    "veteranFirstMiddleLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veteran First Middle Last Name",
+        "widget": "text"
+      }
+    },
+    "veteransServiceNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans Service Number",
+        "widget": "text"
+      }
+    },
+    "includingAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Applicants Daytime Telephone No\\ Including Area Code",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "dateFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date From",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "haveYouPreviouslySecuredAVaDirectGuaranteedOrInsur": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU PREVIOUSLY SECURED A VA DIRECT, GUARANTEED OR INSUR",
+        "widget": "text"
+      }
+    },
+    "certification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE",
+        "widget": "text"
+      }
+    },
+    "title2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TITLE",
+        "widget": "text"
+      }
+    },
+    "addressOfProperty2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF PROPERTY",
+        "widget": "address"
+      }
+    },
+    "dateOfLoan": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF LOAN",
+        "widget": "date"
+      }
+    },
+    "indicateWhatYouAreSeekingAVaGuaranteedHomeLoanFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INDICATE WHAT YOU ARE SEEKING A VA-GUARANTEED HOME LOAN FOR",
+        "widget": "text"
+      }
+    },
+    "4dVeteranSDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "4D. VETERAN'S DATE OF BIRTH (",
+        "widget": "date"
+      }
+    },
+    "ifApplicable_4eDateOfVeteranSDeath": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(If applicable)4E. DATE OF VETERAN'S DEATH (",
+        "widget": "date"
+      }
+    },
+    "doYouStillOwnThis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU STILL OWN THIS",
+        "widget": "text"
+      }
+    },
+    "oneTimeRestorationNote": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ONE-TIME RESTORATION (NOTE",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1817-are.pdf",
+    "status": "digitized",
+    "totalFields": 33,
+    "composedFields": 33,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:22.131Z",
+    "redigitizedAt": "2026-03-30T20:39:05.451Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2614d-2a",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "before": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Before",
+        "widget": "text"
+      }
+    },
+    "hour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Hour",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Date",
+        "widget": "text"
+      }
+    },
+    "asleep": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Asleep",
+        "widget": "checkbox"
+      }
+    },
+    "awake": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Awake",
+        "widget": "checkbox"
+      }
+    },
+    "warning": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Warning",
+        "widget": "text"
+      }
+    },
+    "duration": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Duration",
+        "widget": "text"
+      }
+    },
+    "mild": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Mild",
+        "widget": "checkbox"
+      }
+    },
+    "face": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Face",
+        "widget": "checkbox"
+      }
+    },
+    "arms": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Arms",
+        "widget": "checkbox"
+      }
+    },
+    "legs": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Legs",
+        "widget": "checkbox"
+      }
+    },
+    "all": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 All",
+        "widget": "checkbox"
+      }
+    },
+    "pale": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Pale",
+        "widget": "checkbox"
+      }
+    },
+    "red": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Red",
+        "widget": "checkbox"
+      }
+    },
+    "blue": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Blue",
+        "widget": "checkbox"
+      }
+    },
+    "petitMal": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Petit Mal",
+        "widget": "checkbox"
+      }
+    },
+    "myoclonic": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Myoclonic",
+        "widget": "checkbox"
+      }
+    },
+    "akinetic": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 A Kinetic",
+        "widget": "checkbox"
+      }
+    },
+    "headSide": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Head Side",
+        "widget": "text"
+      }
+    },
+    "eyesSide": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Eyes Side",
+        "widget": "text"
+      }
+    },
+    "whichConfinedSide": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Which Confined Side",
+        "widget": "text"
+      }
+    },
+    "whichMoreSide": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Which More Side",
+        "widget": "text"
+      }
+    },
+    "sleep": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Sleep",
+        "widget": "text"
+      }
+    },
+    "headache": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Headache",
+        "widget": "text"
+      }
+    },
+    "irrational": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Irrational",
+        "widget": "text"
+      }
+    },
+    "reflexes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Reflexes",
+        "widget": "text"
+      }
+    },
+    "otherDetail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Other Detail",
+        "widget": "text"
+      }
+    },
+    "describeSpread": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Describe Spread",
+        "widget": "text"
+      }
+    },
+    "moderate": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Moderate",
+        "widget": "checkbox"
+      }
+    },
+    "severe": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Severe",
+        "widget": "checkbox"
+      }
+    },
+    "automatic": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Automatic",
+        "widget": "checkbox"
+      }
+    },
+    "amnesia": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Amnesia",
+        "widget": "checkbox"
+      }
+    },
+    "vomiting": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Vomiting",
+        "widget": "text"
+      }
+    },
+    "weaknessofLimb": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Weaknessof Limb",
+        "widget": "text"
+      }
+    },
+    "confused": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Confused",
+        "widget": "text"
+      }
+    },
+    "violent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Violent",
+        "widget": "text"
+      }
+    },
+    "relieve": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Relieve",
+        "widget": "text"
+      }
+    },
+    "speechDisturbance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Speech Disturbance",
+        "widget": "text"
+      }
+    },
+    "reportedBy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Reported By",
+        "widget": "text"
+      }
+    },
+    "descriptionNonConvulsive": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Description Non Convulsive",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Signature",
+        "widget": "text"
+      }
+    },
+    "patientId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Patient I D",
+        "widget": "text"
+      }
+    },
+    "durationSeizure": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Duration Seizure",
+        "widget": "text"
+      }
+    },
+    "patientSpread": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Patient Spread",
+        "widget": "select"
+      }
+    },
+    "seizureGeneralized": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Seizure Generalized",
+        "widget": "select"
+      }
+    },
+    "movementSpread": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Movement Spread",
+        "widget": "select"
+      }
+    },
+    "cry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Cry",
+        "widget": "select"
+      }
+    },
+    "incontinence": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Incontinence",
+        "widget": "select"
+      }
+    },
+    "drooling": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Drooling",
+        "widget": "select"
+      }
+    },
+    "tongue": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Tongue",
+        "widget": "select"
+      }
+    },
+    "knows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Knows",
+        "widget": "select"
+      }
+    },
+    "remember": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Remember",
+        "widget": "select"
+      }
+    },
+    "unconcious": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Unconcious",
+        "widget": "select"
+      }
+    },
+    "fall": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Fall",
+        "widget": "select"
+      }
+    },
+    "injury": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Injury",
+        "widget": "select"
+      }
+    },
+    "page1BodyStiff": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Body Stiff",
+        "widget": "select"
+      }
+    },
+    "pupilsDilated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Pupils Dilated",
+        "widget": "select"
+      }
+    },
+    "pupilsReact": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Pupils React",
+        "widget": "select"
+      }
+    },
+    "moreOneSide": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 More One Side",
+        "widget": "select"
+      }
+    },
+    "confinedOneSide": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Confined One Side",
+        "widget": "select"
+      }
+    },
+    "seizureBegin": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Seizure Begin",
+        "widget": "select"
+      }
+    },
+    "turningEyes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Turning Eyes",
+        "widget": "select"
+      }
+    },
+    "turningHead": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Turning Head",
+        "widget": "select"
+      }
+    },
+    "jerking": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Jerking",
+        "widget": "select"
+      }
+    },
+    "hour2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HOUR",
+        "widget": "text"
+      }
+    },
+    "seizureInsert": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SEIZURE (Insert",
+        "widget": "text"
+      }
+    },
+    "groups": {
+      "type": "string",
+      "x-va-field": {
+        "label": "groups;",
+        "widget": "radio"
+      }
+    },
+    "enterInSpaceBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Enter in space below",
+        "widget": "text"
+      }
+    },
+    "signature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "signature"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2614d-2a.pdf",
+    "totalFields": 69,
+    "composedFields": 69,
+    "coveragePercent": 99,
+    "xfaLabelCount": 65,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:05:29.654Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:02.881Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

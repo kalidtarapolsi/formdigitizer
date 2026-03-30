@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-390",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "relatedmedicalclaim": {
+      "type": "string"
+    },
+    "completeAsMuchAsPossible14NameOfProviderBusinessFacilityOrPractice": {
+      "type": "string"
+    },
+    "otherSpecify": {
+      "type": "string"
+    },
+    "howtosubmit": {
+      "type": "string"
+    },
+    "nameFirstLast": {
+      "type": "string"
+    },
+    "locationDepartmentOfVAEmployee": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "section3ProviderInformation13IDoNotKnowAnyProviderInformation": {
+      "type": "string"
+    },
+    "sameInformationAsSubmitter": {
+      "type": "string"
+    },
+    "providerNPIOrNationalProviderIDIfKnown": {
+      "type": "string"
+    },
+    "programtype": {
+      "type": "string"
+    },
+    "aListOfAllPartiesInvolved": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-390.pdf",
+    "totalFields": 37,
+    "composedFields": 25,
+    "coveragePercent": 68,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:38.416Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

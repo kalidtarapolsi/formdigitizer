@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-8485a",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "policynumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 298485 #subform policynumber",
+        "widget": "text"
+      }
+    },
+    "insfilenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 298485 #subform insfilenumber",
+        "widget": "text"
+      }
+    },
+    "firstmiddlelast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 298485 #subform firstmiddlelast",
+        "widget": "text"
+      }
+    },
+    "mailingaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 298485 #subform mailingaddress",
+        "widget": "text"
+      }
+    },
+    "daytimephone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 298485 #subform daytimephone",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 298485 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 298485 #subform Signature",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "S 298485 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS",
+        "widget": "text"
+      }
+    },
+    "insuranceFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSURANCE FILE NUMBER",
+        "widget": "text"
+      }
+    },
+    "firstNameMiddleNameLastNameOfInsured": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST NAME - MIDDLE NAME - LAST NAME OF INSURED",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "pleaseSubmitThisApplicationWithYourFirstPremiumPayme": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE SUBMIT THIS APPLICATION WITH YOUR FIRST PREMIUM PAYME",
+        "widget": "text"
+      }
+    },
+    "dateOfApplication": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF APPLICATION",
+        "widget": "date"
+      }
+    },
+    "amountOfInsuranceAppliedFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMOUNT OF INSURANCE APPLIED FOR",
+        "widget": "text"
+      }
+    },
+    "daytimeTelephoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "DAYTIME TELEPHONE NUMBER",
+        "widget": "phone"
+      }
+    },
+    "signatureOfInsuredDoNotPrintSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF INSURED (Do not print) (Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "mailTheCompletedFormTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAIL THE COMPLETED FORM TO",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-8485a-are.pdf",
+    "status": "digitized",
+    "totalFields": 19,
+    "composedFields": 19,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:57.853Z",
+    "redigitizedAt": "2026-03-30T20:39:37.589Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

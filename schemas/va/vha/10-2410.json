@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2410",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateWillAcceptThePatientIntoMyHome": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "nameOfPatientSPhysician": {
+      "type": "string"
+    },
+    "nameOfSocialWorker": {
+      "type": "string"
+    },
+    "nameOfVaStation": {
+      "type": "string"
+    },
+    "nameOfPatient": {
+      "type": "string"
+    },
+    "claimNo": {
+      "type": "string"
+    },
+    "agreeToCareForThePatientAtTheMonthlyRateOf": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2410-fill.pdf",
+    "totalFields": 13,
+    "composedFields": 9,
+    "coveragePercent": 69,
+    "xfaLabelCount": 13,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:50.495Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0517-1",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameofVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nameof Veteran",
+        "widget": "text"
+      }
+    },
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "varegionalAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A Regional Address",
+        "widget": "text"
+      }
+    },
+    "nameofSpouse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nameof Spouse",
+        "widget": "text"
+      }
+    },
+    "maritalStatus": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Marital Status",
+        "widget": "checkbox"
+      }
+    },
+    "vafileNumberofother": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Numberofother",
+        "widget": "text"
+      }
+    },
+    "nursingHomeInfo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nursing Home Info",
+        "widget": "text"
+      }
+    },
+    "yourSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Your S S N",
+        "widget": "text"
+      }
+    },
+    "yourSpouseSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Your Spouse S S N",
+        "widget": "text"
+      }
+    },
+    "spouseDob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Spouse D O B",
+        "widget": "text"
+      }
+    },
+    "dateEntered": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered",
+        "widget": "text"
+      }
+    },
+    "dateOfSeparation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Separation",
+        "widget": "text"
+      }
+    },
+    "dateOfDivorceDeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Divorce Death",
+        "widget": "text"
+      }
+    },
+    "amountContributed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Contributed",
+        "widget": "text"
+      }
+    },
+    "fullnameChild1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fullname child1",
+        "widget": "text"
+      }
+    },
+    "fullnameChild2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fullname child2",
+        "widget": "text"
+      }
+    },
+    "fullnameChild3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fullname child3",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D O B",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "childname1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childname1",
+        "widget": "text"
+      }
+    },
+    "childname3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childname3",
+        "widget": "text"
+      }
+    },
+    "childname2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childname2",
+        "widget": "text"
+      }
+    },
+    "childaddress1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childaddress1",
+        "widget": "text"
+      }
+    },
+    "childaddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childaddress2",
+        "widget": "text"
+      }
+    },
+    "childaddress3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childaddress3",
+        "widget": "text"
+      }
+    },
+    "liveswith3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform liveswith3",
+        "widget": "text"
+      }
+    },
+    "liveswith2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform liveswith2",
+        "widget": "text"
+      }
+    },
+    "liveswith1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform liveswith1",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "source": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Source",
+        "widget": "text"
+      }
+    },
+    "dateFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date From",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "source1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Source1",
+        "widget": "text"
+      }
+    },
+    "incomeChanged": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Income Changed",
+        "widget": "text"
+      }
+    },
+    "incomeChangedWhen": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Income Changed When",
+        "widget": "text"
+      }
+    },
+    "incomeChangedHow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Income Changed How",
+        "widget": "text"
+      }
+    },
+    "daytime": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Daytime",
+        "widget": "text"
+      }
+    },
+    "evening": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Evening",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "childName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Child Name",
+        "widget": "text"
+      }
+    },
+    "firstNameMiddleNameLastNameOfVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST NAME - MIDDLE NAME - LAST NAME OF VETERAN",
+        "widget": "text"
+      }
+    },
+    "maritalStatusCheckOnlyOneBox": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MARITAL STATUS (Check only one box)",
+        "widget": "text"
+      }
+    },
+    "4bShowThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4B. SHOW THE",
+        "widget": "text"
+      }
+    },
+    "didEitherYouOrYourSpouseReceiveAnyWagesOrWereEith": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DID EITHER YOU OR YOUR SPOUSE RECEIVE ANY WAGES OR WERE EITH",
+        "widget": "text"
+      }
+    },
+    "doYouReceiveAnyOtherVaBenefitsAsAVeteranParentO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU RECEIVE ANY OTHER VA BENEFITS AS A VETERAN, PARENT, O",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "1dSpouseSDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1D. SPOUSE'S DATE OF BIRTH (",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH",
+        "widget": "text"
+      }
+    },
+    "socialSecurity": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY",
+        "widget": "ssn"
+      }
+    },
+    "nameOfEachChild": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF EACH CHILD",
+        "widget": "text"
+      }
+    },
+    "nameOfPersonChildLives": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF PERSON CHILD LIVES",
+        "widget": "text"
+      }
+    },
+    "sourceveteranspousechild": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOURCEVETERANSPOUSECHILD",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyAmountsIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GROSS MONTHLY AMOUNTS (If",
+        "widget": "radio"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "spousechild": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPOUSECHILD",
+        "widget": "text"
+      }
+    },
+    "from": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FROM",
+        "widget": "text"
+      }
+    },
+    "medicalExpensesReadParagraph_6OfTheEvrInstructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MEDICAL EXPENSES (Read Paragraph 6 of the EVR Instructions)",
+        "widget": "text"
+      }
+    },
+    "showThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(Show the",
+        "widget": "date"
+      }
+    },
+    "orThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "or the",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "11b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11B.",
+        "widget": "date"
+      }
+    },
+    "thru": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THRU",
+        "widget": "text"
+      }
+    },
+    "familyMaintenanceHardshipExpensesForTheNext_12Month": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FAMILY MAINTENANCE (Hardship) EXPENSES FOR THE NEXT 12 MONTH",
+        "widget": "text"
+      }
+    },
+    "veteranSEducationalAndVocationalRehabilitationExpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S EDUCATIONAL AND VOCATIONAL REHABILITATION EXPENSES",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0517-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 65,
+    "composedFields": 65,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:31:51.940Z",
+    "redigitizedAt": "2026-03-30T20:35:54.705Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7008",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateTimeField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field1",
+        "widget": "text"
+      }
+    },
+    "lastNameFirstNameMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LAST NAME, FIRST NAME, MIDDLE INITIAL",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNo_3WardNo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NO.3.  WARD NO.",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "namesOnReverseSide": {
+      "type": "string",
+      "x-va-field": {
+        "label": "names on reverse side.",
+        "widget": "text"
+      }
+    },
+    "informationAboutThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INFORMATION ABOUT THE",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox11": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box11",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformCheckBox12": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box12",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformTextfield": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform textfield",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox4": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box4",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformCheckBox13": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box13",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformCheckBox14": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box14",
+        "widget": "checkbox"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7008-fill.pdf",
+    "totalFields": 13,
+    "composedFields": 13,
+    "coveragePercent": 54,
+    "xfaLabelCount": 6,
+    "needsReviewCount": 6,
+    "generatedAt": "2026-03-28T21:04:25.384Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:17.762Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

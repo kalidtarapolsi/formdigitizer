@@ -1,0 +1,383 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-352",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "fmlname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fmlname",
+        "widget": "text"
+      }
+    },
+    "insurancePolicyNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Insurance Policy Number",
+        "widget": "text"
+      }
+    },
+    "mailaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform mailaddress",
+        "widget": "text"
+      }
+    },
+    "vaclaim": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform vaclaim",
+        "widget": "text"
+      }
+    },
+    "daytime": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform daytime",
+        "widget": "text"
+      }
+    },
+    "policyno": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform policyno",
+        "widget": "text"
+      }
+    },
+    "planofins": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform planofins",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amountReinstated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Reinstated",
+        "widget": "text"
+      }
+    },
+    "amountSentIns": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Sent I N S",
+        "widget": "text"
+      }
+    },
+    "amountSentTdip": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Sent T D I P",
+        "widget": "text"
+      }
+    },
+    "totalAmountSent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Total Amount Sent",
+        "widget": "text"
+      }
+    },
+    "monthlyPremium1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Monthly Premium1",
+        "widget": "text"
+      }
+    },
+    "monthlyPremium2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Monthly Premium2",
+        "widget": "text"
+      }
+    },
+    "dateLapse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Lapse",
+        "widget": "text"
+      }
+    },
+    "notworking": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform notworking",
+        "widget": "text"
+      }
+    },
+    "remarks17": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform remarks17",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "feet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Feet",
+        "widget": "text"
+      }
+    },
+    "inches": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Inches",
+        "widget": "text"
+      }
+    },
+    "weight": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Weight",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "monthsAfterThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "months after the",
+        "widget": "text"
+      }
+    },
+    "amountOfPaymentNeededForReinstatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amount of payment needed for reinstatement",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "upload": {
+      "type": "string",
+      "x-va-field": {
+        "label": "UPLOAD",
+        "widget": "text"
+      }
+    },
+    "onlineBillPay": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ONLINE BILL PAY",
+        "widget": "text"
+      }
+    },
+    "mailingAddressForInsurancePurposesNumberAndStreetOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS FOR INSURANCE PURPOSES (Number and street or",
+        "widget": "text"
+      }
+    },
+    "iUnderstandThat": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I UNDERSTAND THAT",
+        "widget": "text"
+      }
+    },
+    "theAmountOfPaymentNeededMustBeSentBeforeOrWithThi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The amount of payment needed must be sent before or with thi",
+        "widget": "text"
+      }
+    },
+    "theDepartmentOfVeteransAffairsWillIfNecessaryAskF": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The Department of Veterans Affairs will, if necessary, ask f",
+        "widget": "text"
+      }
+    },
+    "totalAmountSent2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL AMOUNT SENT",
+        "widget": "text"
+      }
+    },
+    "daytimeTelephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DAYTIME TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "policyNumberSToBeReinstated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "POLICY NUMBER(S) TO BE REINSTATED",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "7c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "7C.",
+        "widget": "text"
+      }
+    },
+    "uploadTheFormUsingOurSecureWebsiteAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Upload the form using our secure website at",
+        "widget": "text"
+      }
+    },
+    "someBanksMayAlsoRequireYouToEnter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Some banks may also require you to enter",
+        "widget": "text"
+      }
+    },
+    "7g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "7G.",
+        "widget": "text"
+      }
+    },
+    "haveYouEverHadOrBeenTreatedForAnyOfTheFollowing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU EVER HAD OR BEEN TREATED FOR ANY OF THE FOLLOWING?",
+        "widget": "text"
+      }
+    },
+    "hasAnyApplicationYouHaveMadeForPrivateOrGovernment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS ANY APPLICATION YOU HAVE MADE FOR PRIVATE OR GOVERNMENT",
+        "widget": "text"
+      }
+    },
+    "remarksGiveCompleteDetailsToYesAnswersIncludeDates": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (Give complete details to YES answers. Include dates",
+        "widget": "text"
+      }
+    },
+    "areYouNowOrHaveYouEver": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ARE YOU NOW OR HAVE YOU EVER",
+        "widget": "text"
+      }
+    },
+    "haveYouEverAppliedFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU EVER APPLIED FOR",
+        "widget": "text"
+      }
+    },
+    "doYouHaveAny": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU HAVE ANY",
+        "widget": "text"
+      }
+    },
+    "18b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "18B.",
+        "widget": "date"
+      }
+    },
+    "withinThePast_5YearsHaveYou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WITHIN THE PAST 5 YEARS, HAVE YOU",
+        "widget": "text"
+      }
+    },
+    "information": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INFORMATION",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-352-are.pdf",
+    "status": "digitized",
+    "totalFields": 51,
+    "composedFields": 51,
+    "coveragePercent": 96,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 2,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:26.437Z",
+    "redigitizedAt": "2026-03-30T20:38:37.427Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

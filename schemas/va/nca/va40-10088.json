@@ -1,0 +1,371 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA40-10088",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameofdeceasedveteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F D E C E A S E D V E T E R A N",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "servicenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S E R V I C E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "dateofdeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F D E A T H",
+        "widget": "text"
+      }
+    },
+    "race": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform R A C E",
+        "widget": "checkbox"
+      }
+    },
+    "ageattimeofdeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A G E A T T I M E O F D E A T H",
+        "widget": "text"
+      }
+    },
+    "nameoffuneralhomerepresentative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F F U N E R A L H O M E R E P R E S E N T A T I V E",
+        "widget": "text"
+      }
+    },
+    "telephonenumberoffuneralhome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T E L E P H O N E N U M B E R O F F U N E R A L H O M E",
+        "widget": "text"
+      }
+    },
+    "addressoffuneralhome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A D D R E S S O F F U N E R A L H O M E",
+        "widget": "text"
+      }
+    },
+    "nameofapplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F A P P L I C A N T",
+        "widget": "text"
+      }
+    },
+    "telephonenumberofapplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T E L E P H O N E N U M B E R O F A P P L I C A N T",
+        "widget": "text"
+      }
+    },
+    "addressofapplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A D D R E S S O F A P P L I C A N T",
+        "widget": "text"
+      }
+    },
+    "applicanteMailaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A P P L I C A N T E M A I L A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "followingattachments": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform F O L L O W I N G A T T A C H M E N T S",
+        "widget": "checkbox"
+      }
+    },
+    "vendorid": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V E N D O R I D",
+        "widget": "text"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature1",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "casketUrn": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Casket Urn",
+        "widget": "checkbox"
+      }
+    },
+    "casket": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform C A S K E T",
+        "widget": "checkbox"
+      }
+    },
+    "sealednotleaking": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform S E A L E D N O T L E A K I N G",
+        "widget": "checkbox"
+      }
+    },
+    "explain": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform E X P L A I N",
+        "widget": "text"
+      }
+    },
+    "printednameofvanationalstateortribalcemeteryofficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P R I N T E D N A M E O F V A N A T I O N A L S T A T E O R T R I B A L C E M E T E R Y O F F I C I A L",
+        "widget": "text"
+      }
+    },
+    "cemeteryname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E M E T E R Y N A M E",
+        "widget": "text"
+      }
+    },
+    "cemeterystate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C E M E T E R Y S T A T E",
+        "widget": "text"
+      }
+    },
+    "signatureofvanationalstateortribalcemeteryofficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S I G N A T U R E O F V A N A T I O N A L S T A T E O R T R I B A L C E M E T E R Y O F F I C I A L",
+        "widget": "text"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date2",
+        "widget": "text"
+      }
+    },
+    "applicantacknowledgmentofobservationssignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A P P L I C A N T A C K N O W L E D G M E N T O F O B S E R V A T I O N S S I G N A T U R E",
+        "widget": "text"
+      }
+    },
+    "date3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date3",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "socialSecurity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY",
+        "widget": "text"
+      }
+    },
+    "serviceNumberIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICE NUMBER (if",
+        "widget": "text"
+      }
+    },
+    "raceOrEthnicityOptionalYouMaySelectMoreThanOneI": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RACE OR ETHNICITY (Optional. You may select more than one. I",
+        "widget": "text"
+      }
+    },
+    "sexOptionalInformationWillBeUsedForStatisticalPurp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SEX (Optional. Information will be used for statistical purp",
+        "widget": "text"
+      }
+    },
+    "ageAtTimeOfDeathOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AGE AT TIME OF DEATH (Optional)",
+        "widget": "text"
+      }
+    },
+    "nameOfFuneralHomeRepresentativeIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF FUNERAL HOME REPRESENTATIVE (If applicable)",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberOfFuneralHome_999_999_9999": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER OF FUNERAL HOME ((999) 999-9999)",
+        "widget": "phone"
+      }
+    },
+    "telephoneNumberOfApplicant_999_999_9999": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER OF APPLICANT ((999) 999-9999)",
+        "widget": "phone"
+      }
+    },
+    "pleaseIncludeTheFollowingAttachmentsPleaseEnsureDece": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE INCLUDE THE FOLLOWING ATTACHMENTS (Please ensure dece",
+        "widget": "text"
+      }
+    },
+    "supportingDocumentsReflecting": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUPPORTING DOCUMENTS REFLECTING",
+        "widget": "radio"
+      }
+    },
+    "vendorIdTaxId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VENDOR ID (Tax ID)",
+        "widget": "text"
+      }
+    },
+    "bySigningBelowICertifyTheFollowing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "By signing below I certify the following",
+        "widget": "text"
+      }
+    },
+    "signatureOfPersonAuthorizedToCertifyInkSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF PERSON AUTHORIZED TO CERTIFY (Ink signature)",
+        "widget": "signature"
+      }
+    },
+    "dateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "beforeAllowanceForTheCasketOrUrnCanBeProcessedAll": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BEFORE ALLOWANCE FOR THE CASKET OR URN CAN BE PROCESSED, ALL",
+        "widget": "text"
+      }
+    },
+    "mustBeObserved": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MUST BE OBSERVED",
+        "widget": "text"
+      }
+    },
+    "printedNameOfVaNationalStateOrTribalCemeteryOffic": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRINTED NAME OF VA NATIONAL, STATE, OR TRIBAL CEMETERY OFFIC",
+        "widget": "select"
+      }
+    },
+    "cemeteryStationNumber5CemeteryState": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CEMETERY STATION NUMBER5. CEMETERY STATE",
+        "widget": "select"
+      }
+    },
+    "applicantAcknowledgmentOfObservationsSignatureInkSi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT ACKNOWLEDGMENT OF OBSERVATIONS (SIGNATURE) (Ink si",
+        "widget": "signature"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10088.pdf",
+    "totalFields": 56,
+    "composedFields": 49,
+    "coveragePercent": 100,
+    "xfaLabelCount": 30,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:24:17.870Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:54.639Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

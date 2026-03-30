@@ -1,0 +1,699 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-601",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "veteransLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Last Name",
+        "widget": "text"
+      }
+    },
+    "veteransMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "veteransSocialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "veteransSocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "veteransSocialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "nameOfDeceasedBeneficiaryFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Deceased Beneficiary First Name",
+        "widget": "text"
+      }
+    },
+    "nameOfDeceasedBeneficiaryLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Deceased Beneficiary Last Name",
+        "widget": "text"
+      }
+    },
+    "nameOfDeceasedBeneficiaryMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Deceased Beneficiary Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "claimantsLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Last Name",
+        "widget": "text"
+      }
+    },
+    "claimantsFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants First Name",
+        "widget": "text"
+      }
+    },
+    "claimantsMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsSocialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsCurrentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "claimantsTelephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Telephone Number Include Area Code",
+        "widget": "text"
+      }
+    },
+    "preferredemailaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Preferredemailaddress",
+        "widget": "text"
+      }
+    },
+    "claimantsRelationshipToDeceasedBeneficiary": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claimants Relationship To Deceased Beneficiary",
+        "widget": "text"
+      }
+    },
+    "checkBoxSpouse": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Spouse",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxChildOrChildren": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Child Or Children",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxParent": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Parent",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxNone": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box None",
+        "widget": "checkbox"
+      }
+    },
+    "nameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name First Middle Initial Last",
+        "widget": "text"
+      }
+    },
+    "completeMailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Complete Mailing Address",
+        "widget": "text"
+      }
+    },
+    "relationshipToBeneficiary": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Relationship To Beneficiary",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Birth M M D D Y Y Y Y",
+        "widget": "text"
+      }
+    },
+    "nameOfPersonOrFirm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Person Or Firm",
+        "widget": "text"
+      }
+    },
+    "natureOfExpense": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nature Of Expense",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "nameOfPersonOrEstate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Person Or Estate",
+        "widget": "text"
+      }
+    },
+    "natureOfDebt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nature Of Debt",
+        "widget": "text"
+      }
+    },
+    "yes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Y E S",
+        "widget": "text"
+      }
+    },
+    "nameOfUnpaidCreditorOrFirmNumber1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Unpaid Creditor Or Firm Number 1",
+        "widget": "text"
+      }
+    },
+    "addressOfCreditorOrFirm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address Of Creditor Or Firm",
+        "widget": "text"
+      }
+    },
+    "signatureOfCreditorOrPersonSigningForFirm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Of Creditor Or Person Signing For Firm",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Title",
+        "widget": "text"
+      }
+    },
+    "dateField2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Field2",
+        "widget": "text"
+      }
+    },
+    "enterAmountAndSource": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Enter Amount And Source",
+        "widget": "text"
+      }
+    },
+    "nameOfUnpaidCreditorNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Unpaid Creditor Number 2",
+        "widget": "text"
+      }
+    },
+    "nameOfUnpaidCreditorOrFirmNumber3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Unpaid Creditor Or Firm Number 3",
+        "widget": "text"
+      }
+    },
+    "signatureOfClaimant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Of Claimant",
+        "widget": "text"
+      }
+    },
+    "signatureOfWitness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Of Witness",
+        "widget": "text"
+      }
+    },
+    "printedNameAndAddressOfWitness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Printed Name And Address Of Witness",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "isDependentUponTheVeteranAtThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "is dependent upon the veteran at the",
+        "widget": "text"
+      }
+    },
+    "definitions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Definitions",
+        "widget": "text"
+      }
+    },
+    "the": {
+      "type": "string",
+      "x-va-field": {
+        "label": "the",
+        "widget": "text"
+      }
+    },
+    "exception": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Exception",
+        "widget": "text"
+      }
+    },
+    "furnishACopyOfTheDeathCertificateUnlessTheBeneficia": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Furnish a copy of the death certificate unless the beneficia",
+        "widget": "text"
+      }
+    },
+    "ifAnExecutorOrAdministratorOfTheBeneficiarySEstate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If an executor or administrator of the beneficiary's estate",
+        "widget": "text"
+      }
+    },
+    "ifYouAreClaimingReimbursementForLastIllnessAndOrBu": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If you are claiming reimbursement for last illness and/or bu",
+        "widget": "text"
+      }
+    },
+    "makeSureYouSignAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Make sure you sign and",
+        "widget": "date"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "ifThereAre": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If  there are",
+        "widget": "radio"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "claimOrALater": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "claim (or a  later",
+        "widget": "date"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONDENT BURDEN",
+        "widget": "text"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "veteranSSocialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "VETERAN'S SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "beneficiaryDateOfDeathMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "BENEFICIARY DATE OF DEATH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "veteranSFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S FILE NUMBER",
+        "widget": "text"
+      }
+    },
+    "nameOfDeceasedBeneficiaryIfOtherThanVeteranFirst": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF DECEASED BENEFICIARY (If other than veteran - First,",
+        "widget": "text"
+      }
+    },
+    "claimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "claimantSSocialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "CLAIMANT'S SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "claimantSDateOfBirthMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "CLAIMANT'S DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "claimaintSCurrentMailingAddressNumberAndStreetOrRu": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMAINT'S CURRENT MAILING ADDRESS (Number and street or ru",
+        "widget": "address"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCode": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code",
+        "widget": "zip"
+      }
+    },
+    "stateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/Province",
+        "widget": "select"
+      }
+    },
+    "preferredEMailAddressIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PREFERRED E-MAIL ADDRESS (If applicable)",
+        "widget": "address"
+      }
+    },
+    "claimantSRelationship": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S RELATIONSHIP",
+        "widget": "text"
+      }
+    },
+    "relativesSurvivingBeneficiaryAtTimeOfDeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RELATIVES SURVIVING BENEFICIARY AT TIME OF DEATH",
+        "widget": "text"
+      }
+    },
+    "14c": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "14C.",
+        "widget": "date"
+      }
+    },
+    "whoAreTheDeceasedBeneficiarySSurvivingRelativesChe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHO ARE THE DECEASED BENEFICIARY'S SURVIVING RELATIVES? (Che",
+        "widget": "text"
+      }
+    },
+    "listTheExpensesOfLastSicknessAndBurialInItems_15aT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIST THE EXPENSES OF LAST SICKNESS AND BURIAL IN ITEMS 15A T",
+        "widget": "text"
+      }
+    },
+    "haveYouBeenReimbursedFromAnySourceForAnyOfTheExpe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU BEEN REIMBURSED FROM ANY SOURCE FOR ANY OF THE EXPE",
+        "widget": "text"
+      }
+    },
+    "didTheBeneficiaryLeaveAnyOtherDebts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DID THE BENEFICIARY LEAVE ANY OTHER DEBTS?",
+        "widget": "text"
+      }
+    },
+    "listTheOtherDebtsInItems_18aAnd_18b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIST THE OTHER DEBTS IN ITEMS 18A AND 18B.",
+        "widget": "text"
+      }
+    },
+    "hasOrWillTheBeneficiarySEstateBeLegallyAdministered": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS OR WILL THE BENEFICIARY'S ESTATE BE LEGALLY ADMINISTERED",
+        "widget": "select"
+      }
+    },
+    "20eDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "20E.  DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "21eDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "21E.  DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "22eDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "22E.  DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "23bTodaySDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "23B.  TODAY'S DATE  (",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "beneficiaryDateOfDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "claimantsDateOfBirth": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-601-are.pdf",
+    "status": "digitized",
+    "totalFields": 100,
+    "composedFields": 95,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 5,
+    "generatedAt": "2026-03-28T17:33:10.913Z",
+    "postProcessedAt": "2026-03-30T20:02:41.723031+00:00",
+    "redigitizedAt": "2026-03-30T20:37:11.875Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

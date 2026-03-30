@@ -1,0 +1,496 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-4790",
+  "type": "object",
+  "properties": {
+    "ffrectangle2": {
+      "type": "string"
+    },
+    "fromDriverRehabilitationCenterVamc": {
+      "type": "string"
+    },
+    "forFiscalYear": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine2a": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine1": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine2b": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine2c": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine2d": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine2e": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine3": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine4a": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine4b": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine4c": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine4d": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine4e": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine4f": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine5": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine6": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine7": {
+      "type": "string"
+    },
+    "spinalChordInjuryLine8": {
+      "type": "string"
+    },
+    "hemilegiaLine1": {
+      "type": "string"
+    },
+    "hemilegiaLine2a": {
+      "type": "string"
+    },
+    "hemilegiaLine2b": {
+      "type": "string"
+    },
+    "hemilegiaLine2c": {
+      "type": "string"
+    },
+    "hemilegiaLine2d": {
+      "type": "string"
+    },
+    "hemilegiaLine2e": {
+      "type": "string"
+    },
+    "hemilegiaLine3": {
+      "type": "string"
+    },
+    "hemilegiaLine4a": {
+      "type": "string"
+    },
+    "hemilegiaLine4b": {
+      "type": "string"
+    },
+    "hemilegiaLine4c": {
+      "type": "string"
+    },
+    "hemilegiaLine4d": {
+      "type": "string"
+    },
+    "hemilegiaLine4e": {
+      "type": "string"
+    },
+    "hemilegiaLine4f": {
+      "type": "string"
+    },
+    "hemilegiaLine5": {
+      "type": "string"
+    },
+    "hemilegiaLine6": {
+      "type": "string"
+    },
+    "hemilegiaLine7": {
+      "type": "string"
+    },
+    "hemilegiaLine8": {
+      "type": "string"
+    },
+    "otherNeurolLine1": {
+      "type": "string"
+    },
+    "otherNeurolLine2a": {
+      "type": "string"
+    },
+    "otherNeurolLine2b": {
+      "type": "string"
+    },
+    "otherNeurolLine2c": {
+      "type": "string"
+    },
+    "otherNeurolLine2d": {
+      "type": "string"
+    },
+    "otherNeurolLine2e": {
+      "type": "string"
+    },
+    "otherNeurolLine3": {
+      "type": "string"
+    },
+    "otherNeurolLine4a": {
+      "type": "string"
+    },
+    "otherNeurolLine4b": {
+      "type": "string"
+    },
+    "otherNeurolLine4c": {
+      "type": "string"
+    },
+    "otherNeurolLine4d": {
+      "type": "string"
+    },
+    "otherNeurolLine4e": {
+      "type": "string"
+    },
+    "otherNeurolLine4f": {
+      "type": "string"
+    },
+    "otherNeurolLine5": {
+      "type": "string"
+    },
+    "otherNeurolLine6": {
+      "type": "string"
+    },
+    "otherNeurolLine7": {
+      "type": "string"
+    },
+    "otherNeurolLine8": {
+      "type": "string"
+    },
+    "amputeeLine1": {
+      "type": "string"
+    },
+    "amputeeLine2a": {
+      "type": "string"
+    },
+    "amputeeLine2b": {
+      "type": "string"
+    },
+    "amputeeLine2c": {
+      "type": "string"
+    },
+    "amputeeLine2d": {
+      "type": "string"
+    },
+    "amputeeLine2e": {
+      "type": "string"
+    },
+    "amputeeLine3": {
+      "type": "string"
+    },
+    "amputeeLine4a": {
+      "type": "string"
+    },
+    "amputeeLine4b": {
+      "type": "string"
+    },
+    "amputeeLine4c": {
+      "type": "string"
+    },
+    "amputeeLine4d": {
+      "type": "string"
+    },
+    "amputeeLine4e": {
+      "type": "string"
+    },
+    "amputeeLine4f": {
+      "type": "string"
+    },
+    "amputeeLine5": {
+      "type": "string"
+    },
+    "amputeeLine6": {
+      "type": "string"
+    },
+    "amputeeLine7": {
+      "type": "string"
+    },
+    "amputeeLine8": {
+      "type": "string"
+    },
+    "orthopedicLine1": {
+      "type": "string"
+    },
+    "orthopedicLine2a": {
+      "type": "string"
+    },
+    "orthopedicLine2b": {
+      "type": "string"
+    },
+    "orthopedicLine2c": {
+      "type": "string"
+    },
+    "orthopedicLine2d": {
+      "type": "string"
+    },
+    "orthopedicLine2e": {
+      "type": "string"
+    },
+    "orthopedicLine3": {
+      "type": "string"
+    },
+    "orthopedicLine4a": {
+      "type": "string"
+    },
+    "orthopedicLine4b": {
+      "type": "string"
+    },
+    "orthopedicLine4c": {
+      "type": "string"
+    },
+    "orthopedicLine4d": {
+      "type": "string"
+    },
+    "orthopedicLine4e": {
+      "type": "string"
+    },
+    "orthopedicLine4f": {
+      "type": "string"
+    },
+    "orthopedicLine5": {
+      "type": "string"
+    },
+    "orthopedicLine6": {
+      "type": "string"
+    },
+    "orthopedicLine7": {
+      "type": "string"
+    },
+    "orthopedicLine8": {
+      "type": "string"
+    },
+    "matureDriverLine1": {
+      "type": "string"
+    },
+    "matureDriverLine2a": {
+      "type": "string"
+    },
+    "matureDriverLine2b": {
+      "type": "string"
+    },
+    "matureDriverLine2c": {
+      "type": "string"
+    },
+    "matureDriverLine2d": {
+      "type": "string"
+    },
+    "matureDriverLine2e": {
+      "type": "string"
+    },
+    "matureDriverLine3": {
+      "type": "string"
+    },
+    "matureDriverLine4a": {
+      "type": "string"
+    },
+    "matureDriverLine4b": {
+      "type": "string"
+    },
+    "matureDriverLine4c": {
+      "type": "string"
+    },
+    "matureDriverLine4d": {
+      "type": "string"
+    },
+    "matureDriverLine4e": {
+      "type": "string"
+    },
+    "matureDriverLine4f": {
+      "type": "string"
+    },
+    "matureDriverLine5": {
+      "type": "string"
+    },
+    "matureDriverLine6": {
+      "type": "string"
+    },
+    "matureDriverLine7": {
+      "type": "string"
+    },
+    "matureDriverLine8": {
+      "type": "string"
+    },
+    "psychLine1": {
+      "type": "string"
+    },
+    "psychLine2a": {
+      "type": "string"
+    },
+    "psychLine2b": {
+      "type": "string"
+    },
+    "psychLine2c": {
+      "type": "string"
+    },
+    "psychLine2d": {
+      "type": "string"
+    },
+    "psychLine2e": {
+      "type": "string"
+    },
+    "psychLine3": {
+      "type": "string"
+    },
+    "psychLine4a": {
+      "type": "string"
+    },
+    "psychLine4b": {
+      "type": "string"
+    },
+    "psychLine4c": {
+      "type": "string"
+    },
+    "psychLine4d": {
+      "type": "string"
+    },
+    "psychLine4e": {
+      "type": "string"
+    },
+    "psychLine4f": {
+      "type": "string"
+    },
+    "psychLine5": {
+      "type": "string"
+    },
+    "psychLine6": {
+      "type": "string"
+    },
+    "psychLine7": {
+      "type": "string"
+    },
+    "psychLine8": {
+      "type": "string"
+    },
+    "otherLine1": {
+      "type": "string"
+    },
+    "otherLine2a": {
+      "type": "string"
+    },
+    "otherLine2b": {
+      "type": "string"
+    },
+    "otherLine2c": {
+      "type": "string"
+    },
+    "otherLine2d": {
+      "type": "string"
+    },
+    "otherLine2e": {
+      "type": "string"
+    },
+    "otherLine3": {
+      "type": "string"
+    },
+    "otherLine4a": {
+      "type": "string"
+    },
+    "otherLine4b": {
+      "type": "string"
+    },
+    "otherLine4c": {
+      "type": "string"
+    },
+    "otherLine4d": {
+      "type": "string"
+    },
+    "otherLine4e": {
+      "type": "string"
+    },
+    "otherLine4f": {
+      "type": "string"
+    },
+    "otherLine5": {
+      "type": "string"
+    },
+    "otherLine6": {
+      "type": "string"
+    },
+    "otherLine7": {
+      "type": "string"
+    },
+    "otherLine8": {
+      "type": "string"
+    },
+    "totalLine1": {
+      "type": "string"
+    },
+    "totalLine2a": {
+      "type": "string"
+    },
+    "totalLine2b": {
+      "type": "string"
+    },
+    "totalLine2c": {
+      "type": "string"
+    },
+    "totalLine2d": {
+      "type": "string"
+    },
+    "totalLine2e": {
+      "type": "string"
+    },
+    "totalLine3": {
+      "type": "string"
+    },
+    "totalLine4a": {
+      "type": "string"
+    },
+    "totalLine4b": {
+      "type": "string"
+    },
+    "totalLine4c": {
+      "type": "string"
+    },
+    "totalLine4d": {
+      "type": "string"
+    },
+    "totalLine4e": {
+      "type": "string"
+    },
+    "totalLine4f": {
+      "type": "string"
+    },
+    "totalLine5": {
+      "type": "string"
+    },
+    "totalLine6": {
+      "type": "string"
+    },
+    "totalLine7": {
+      "type": "string"
+    },
+    "totalLine8": {
+      "type": "string"
+    },
+    "averageHrsWeek": {
+      "type": "string"
+    },
+    "s_1047900subform0button10": {
+      "type": "string",
+      "x-needs-review": true
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-4790-fill.pdf",
+    "totalFields": 161,
+    "composedFields": 0,
+    "coveragePercent": 0,
+    "xfaLabelCount": 3,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:04:22.879Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

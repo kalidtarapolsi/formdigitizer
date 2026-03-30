@@ -1,0 +1,383 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-1900",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform First Name",
+        "widget": "text"
+      }
+    },
+    "middleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Middle Initial",
+        "widget": "text"
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Name",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "secondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "areaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Area Code",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "newAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform New Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "newAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform New Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "newAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform New Address City",
+        "widget": "text"
+      }
+    },
+    "newAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform New Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "newAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform New Address Country",
+        "widget": "text"
+      }
+    },
+    "newAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform New Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "newAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform New Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "numberOfYearsOfEducation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Number Of Years Of Education",
+        "widget": "text"
+      }
+    },
+    "ifIdontGiveMyInfo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform If I Dont Give My Info",
+        "widget": "checkbox"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "claimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "3VaFileNumberIfDifferentFromItem_2_4": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "3. VA FILE NUMBER (If different from Item 2) 4.",
+        "widget": "date"
+      }
+    },
+    "mailingAddressNumberAndStreetOrRuralRouteCitySta": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS (Number and street or rural route, City, Sta",
+        "widget": "address"
+      }
+    },
+    "stateProvincecountryzipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/ProvinceCountryZIP Code/Postal Code",
+        "widget": "select"
+      }
+    },
+    "mainTelephoneNumberIncludeAreaCodeOrCheckNoneIf": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "MAIN TELEPHONE NUMBER (Include Area Code, or check \"None\" if",
+        "widget": "phone"
+      }
+    },
+    "cellPhoneNumberIncludeAreaCodeOrCheckNoneIfNo": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "CELL PHONE NUMBER (Include Area Code, or check \"None\" if no",
+        "widget": "phone"
+      }
+    },
+    "eMailAddressOfClaimantiAgreeToReceiveElectronicCorr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "E-MAIL ADDRESS OF CLAIMANTI agree to receive electronic corr",
+        "widget": "address"
+      }
+    },
+    "ifYouAreMovingWithinTheNext_30DaysProvideYourNew": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YOU ARE MOVING WITHIN THE NEXT 30 DAYS, PROVIDE YOUR NEW",
+        "widget": "text"
+      }
+    },
+    "numberOfYearsOfEducation2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF YEARS OF EDUCATION",
+        "widget": "text"
+      }
+    },
+    "pleaseRead": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE READ",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "11b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11B.",
+        "widget": "date"
+      }
+    },
+    "aInformationAndAssistance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "A.     INFORMATION AND ASSISTANCE",
+        "widget": "text"
+      }
+    },
+    "bApplicationProcessing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "B.     APPLICATION PROCESSING",
+        "widget": "text"
+      }
+    },
+    "beEligible": {
+      "type": "string",
+      "x-va-field": {
+        "label": "be eligible",
+        "widget": "text"
+      }
+    },
+    "ifYouHaveAlreadySubmittedARequestForASupplementalC": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If you have already submitted a request for a Supplemental C",
+        "widget": "text"
+      }
+    },
+    "ifYourCaseWasClosedWithinOneYearFromTheDateYourC": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "If your case was closed within one year from the date your c",
+        "widget": "date"
+      }
+    },
+    "ifYourCaseWasClosedAsDiscontinuedOrRehabilitatedMor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If your case was closed as discontinued or rehabilitated mor",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1900-are.pdf",
+    "status": "digitized",
+    "totalFields": 55,
+    "composedFields": 51,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:36:47.681Z",
+    "postProcessedAt": "2026-03-30T20:02:41.755526+00:00",
+    "redigitizedAt": "2026-03-30T20:38:50.944Z",
+    "extractionSources": [
+      "acroform",
+      "text-inference"
+    ]
+  }
+}

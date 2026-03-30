@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-306",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "namesOrLocationsOfVAMedicalCentersThatHaveIssuedYouAPCAFCDecision": {
+      "type": "string"
+    },
+    "relationshipToIndividual": {
+      "type": "string"
+    },
+    "section1IndividualRequestingInformationListOnlyOneIndividualIfMoreThanOneIndividualIsRequestingInformationEachPersonMustCompleteASeparateVAForm10306LastNameFirstNameMiddleName": {
+      "type": "string"
+    },
+    "mailingAddressIncludingNumberAndStreetOrRuralRoutePoBoxCityStateZipCodeAndCountry": {
+      "type": "string"
+    },
+    "apply": {
+      "type": "string"
+    },
+    "printNameOfPersonalRepresentativeIfApplicable": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-306.pdf",
+    "totalFields": 11,
+    "composedFields": 7,
+    "coveragePercent": 64,
+    "xfaLabelCount": 12,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:12.313Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

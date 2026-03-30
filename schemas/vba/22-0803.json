@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-0803",
+  "type": "object",
+  "properties": {
+    "datelastAttendance": {
+      "type": "string"
+    },
+    "mailing": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateTest1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTest2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTest3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTest4": {
+      "type": "string",
+      "format": "date"
+    },
+    "box1": {
+      "type": "string"
+    },
+    "box2": {
+      "type": "string"
+    },
+    "box5": {
+      "type": "string"
+    },
+    "box4": {
+      "type": "string"
+    },
+    "box3": {
+      "type": "string"
+    },
+    "yes6a": {
+      "type": "string"
+    },
+    "no6a": {
+      "type": "string"
+    },
+    "nameapp": {
+      "type": "string"
+    },
+    "nameTest1": {
+      "type": "string"
+    },
+    "nameTest4": {
+      "type": "string"
+    },
+    "nameTest3": {
+      "type": "string"
+    },
+    "nameTest2": {
+      "type": "string"
+    },
+    "testResults1": {
+      "type": "string"
+    },
+    "testResults2": {
+      "type": "string"
+    },
+    "testResults3": {
+      "type": "string"
+    },
+    "testResults4": {
+      "type": "string"
+    },
+    "completeName1": {
+      "type": "string"
+    },
+    "completeName4": {
+      "type": "string"
+    },
+    "completeName3": {
+      "type": "string"
+    },
+    "completeName2": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "costTest2": {
+      "type": "string"
+    },
+    "costTest4": {
+      "type": "string"
+    },
+    "costTest3": {
+      "type": "string"
+    },
+    "costTest1": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0803-are.pdf",
+    "status": "digitized",
+    "totalFields": 40,
+    "composedFields": 10,
+    "coveragePercent": 25,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:49.936Z"
+  }
+}

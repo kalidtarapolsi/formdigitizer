@@ -1,0 +1,351 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA9",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameofveteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F V E T E R A N",
+        "widget": "text"
+      }
+    },
+    "claimfileno": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C L A I M F I L E N O",
+        "widget": "text"
+      }
+    },
+    "insurancefilenoorloanno": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform I N S U R A N C E F I L E N O O R L O A N N O",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform other",
+        "widget": "text"
+      }
+    },
+    "homePhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Home Phone",
+        "widget": "text"
+      }
+    },
+    "workPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Work Phone",
+        "widget": "text"
+      }
+    },
+    "nameifnotveteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E I F N O T V E T E R A N",
+        "widget": "text"
+      }
+    },
+    "appeal": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform A P P E A L",
+        "widget": "checkbox"
+      }
+    },
+    "listofissuesyouareappealing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Listofissuesyouareappealing",
+        "widget": "text"
+      }
+    },
+    "justification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform J U S T I F I C A T I O N",
+        "widget": "text"
+      }
+    },
+    "boardhearing": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform B O A R D H E A R I N G",
+        "widget": "checkbox"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature1",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "continuationsheetforitem9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O N T I N U A T I O N S H E E T F O R I T E M9",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "nameOfVeteranLastNameFirstNameMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF VETERAN (Last Name, First Name, Middle Initial)",
+        "widget": "text"
+      }
+    },
+    "claimFileNoIncludePrefix": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIM FILE NO. (Include prefix)",
+        "widget": "text"
+      }
+    },
+    "insuranceFileNoOrLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSURANCE FILE NO., OR LOAN",
+        "widget": "text"
+      }
+    },
+    "iAmThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I AM THE:",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (Specify)",
+        "widget": "text"
+      }
+    },
+    "telephoneNumbers": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBERS",
+        "widget": "phone"
+      }
+    },
+    "myAddressIsNumberStreetOrPostOfficeBoxCitySta": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MY ADDRESS IS (Number & Street or Post Office Box, City, Sta",
+        "widget": "address"
+      }
+    },
+    "ifIAmNotTheVeteranMyNameIsLastNameFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF I AM NOT THE VETERAN, MY NAME IS (Last Name, First Name,",
+        "widget": "text"
+      }
+    },
+    "theseAreTheIssuesIWantToAppealToTheBoardBeSure": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THESE ARE THE ISSUES I WANT TO APPEAL TO THE BOARD (Be sure",
+        "widget": "text"
+      }
+    },
+    "hereIsWhyIThinkThatVaDecidedMyCaseIncorrectlyBe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HERE IS WHY I THINK THAT VA DECIDED MY CASE INCORRECTLY (Be",
+        "widget": "text"
+      }
+    },
+    "optionalBoardHearing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OPTIONAL BOARD HEARING",
+        "widget": "text"
+      }
+    },
+    "followingBoxes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "following boxes",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "iWantAnOptionalBoardHearing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I WANT AN OPTIONAL BOARD HEARING",
+        "widget": "text"
+      }
+    },
+    "signatureOfPersonMakingThisAppeal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF PERSON MAKING THIS APPEAL",
+        "widget": "signature"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE",
+        "widget": "date"
+      }
+    },
+    "signatureOfAppointedRepresentativeIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPOINTED REPRESENTATIVE, IF",
+        "widget": "signature"
+      }
+    },
+    "considerGettingAssistanceWeHaveTriedToGiveYouTheGe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CONSIDER GETTING ASSISTANCE:We have tried to give you the ge",
+        "widget": "text"
+      }
+    },
+    "whatIsThisFormForYouToldYourLocalVaOfficeThatYou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHAT IS THIS FORM FOR?You told your local VA office that you",
+        "widget": "text"
+      }
+    },
+    "doIHaveToFillOutThisFormAndFileItFillOutThisFo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO I HAVE TO FILL OUT THIS FORM AND FILE IT?Fill out this fo",
+        "widget": "text"
+      }
+    },
+    "howLongDoIHaveToCompleteThisFormAndFileItUnderC": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HOW LONG DO I HAVE TO COMPLETE THIS FORM AND FILE IT?Under c",
+        "widget": "text"
+      }
+    },
+    "cYourLocalVaOfficeMayHaveSentYouAnUp": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(c) Your local VA office may have sent you an up",
+        "widget": "date"
+      }
+    },
+    "whatIfINeedMoreTimeIfYouNeedMoreTimeToCompleteT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHAT IF I NEED MORE TIME?If you need more time to complete t",
+        "widget": "text"
+      }
+    },
+    "thePostmark": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "the postmark",
+        "widget": "date"
+      }
+    },
+    "whatKindOfInformationDoINeedToIncludeWhenIFillOu": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHAT KIND OF INFORMATION DO I NEED TO INCLUDE WHEN I FILL OU",
+        "widget": "text"
+      }
+    },
+    "whereDoIFileTheFormOnceIHaveCompletedItWhenYouH": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHERE DO I FILE THE FORM ONCE I HAVE COMPLETED IT?When you h",
+        "widget": "text"
+      }
+    },
+    "otherSourcesOfInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER SOURCES OF INFORMATION:",
+        "widget": "text"
+      }
+    },
+    "appealOnTheInternetAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Appeal” on the Internet at",
+        "widget": "text"
+      }
+    },
+    "eligibilityCanBeFoundOnTheInternetAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "eligibility can be found on the Internet at",
+        "widget": "text"
+      }
+    },
+    "specialNoteForAttorneysAndVaAccreditedAgentsThereAr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPECIAL NOTE FOR ATTORNEYS AND VA ACCREDITED AGENTS.There ar",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA9.pdf",
+    "totalFields": 46,
+    "composedFields": 46,
+    "coveragePercent": 100,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:27:59.587Z",
+    "pageCount": 5,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:28:37.469Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-1546",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "name1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 name1",
+        "widget": "text"
+      }
+    },
+    "insurancePolicyNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Insurance Policy Number",
+        "widget": "text"
+      }
+    },
+    "daytime5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 daytime5",
+        "widget": "text"
+      }
+    },
+    "mailing3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 mailing3",
+        "widget": "text"
+      }
+    },
+    "radioButtonList2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Radio Button List2",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "nameOfFinancialInstitution": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Name Of Financial Institution",
+        "widget": "text"
+      }
+    },
+    "transitRoutingNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Transit Routing Number",
+        "widget": "text"
+      }
+    },
+    "depositorAccountNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Depositor Account Number",
+        "widget": "text"
+      }
+    },
+    "policy4p2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 policy4p2",
+        "widget": "text"
+      }
+    },
+    "name12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 name1",
+        "widget": "text"
+      }
+    },
+    "daytime52": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 daytime5",
+        "widget": "text"
+      }
+    },
+    "mailing32": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 mailing3",
+        "widget": "text"
+      }
+    },
+    "ssn2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 S S N",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Amount",
+        "widget": "text"
+      }
+    },
+    "signature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Signature",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "insurancePolicyNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Insurance Policy Number",
+        "widget": "text"
+      }
+    },
+    "nameOfFinancialInstitution2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Name Of Financial Institution",
+        "widget": "text"
+      }
+    },
+    "transitRoutingNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Transit Routing Number",
+        "widget": "text"
+      }
+    },
+    "depositorAccountNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Depositor Account Number",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "firstMiddleLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST-MIDDLE-LAST NAME",
+        "widget": "text"
+      }
+    },
+    "insurancePolicyNumber3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSURANCE POLICY NUMBER",
+        "widget": "text"
+      }
+    },
+    "netOptions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NET OPTIONS",
+        "widget": "text"
+      }
+    },
+    "paymentInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAYMENT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "mailingAddressMustBeCompleted": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS (Must be completed)",
+        "widget": "address"
+      }
+    },
+    "daytimeTelephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "DAYTIME TELEPHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "futureDividendOption": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FUTURE DIVIDEND OPTION",
+        "widget": "text"
+      }
+    },
+    "iHerebySurrenderMy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I HEREBY SURRENDER MY:",
+        "widget": "text"
+      }
+    },
+    "fullSignatureOfInsuredDoNotPrintSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FULL SIGNATURE OF INSURED (Do not print - Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "dateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "orMailTheCompletedFormTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OR MAIL THE COMPLETED FORM TO",
+        "widget": "text"
+      }
+    },
+    "31USC_3332EJMan": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "31 U.S.C. § 3332(e)-(j) man",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "onTheAnniversary": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "on the anniversary",
+        "widget": "date"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "amountOfLoanDesiredCheckOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMOUNT OF LOAN DESIRED (Check one)",
+        "widget": "text"
+      }
+    },
+    "doYouWishToUseDividendsToReduceTheLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU WISH TO USE DIVIDENDS TO REDUCE THE LOAN?",
+        "widget": "text"
+      }
+    },
+    "policyNumberSOnWhichLoanIsRequested": {
+      "type": "string",
+      "x-va-field": {
+        "label": "POLICY NUMBER(S) ON WHICH LOAN IS REQUESTED",
+        "widget": "text"
+      }
+    },
+    "amount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMOUNT",
+        "widget": "text"
+      }
+    },
+    "militaryRetirement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MILITARY RETIREMENT",
+        "widget": "text"
+      }
+    },
+    "firstMiddleLastNameTypeOrPrint": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST-MIDDLE-LAST NAME (Type or print)",
+        "widget": "text"
+      }
+    },
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS",
+        "widget": "address"
+      }
+    },
+    "insurancePolicyNumberIfMoreThanOnePolicy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSURANCE POLICY NUMBER (If more than one policy,",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-1546-are.pdf",
+    "status": "digitized",
+    "totalFields": 48,
+    "composedFields": 48,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:26.218Z",
+    "redigitizedAt": "2026-03-30T20:39:06.562Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA-40-10232",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "applicantName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Applicant Name",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email",
+        "widget": "text"
+      }
+    },
+    "nameDeceased": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Deceased",
+        "widget": "text"
+      }
+    },
+    "dateInterment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Interment",
+        "widget": "text"
+      }
+    },
+    "nameCemetery": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Cemetery",
+        "widget": "text"
+      }
+    },
+    "stationId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Station I D",
+        "widget": "text"
+      }
+    },
+    "burialSiteId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Burial Site I D",
+        "widget": "text"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature1",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "signature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature2",
+        "widget": "text"
+      }
+    },
+    "cemeteryOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Cemetery Official",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Title",
+        "widget": "text"
+      }
+    },
+    "stateAgency": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform State Agency",
+        "widget": "text"
+      }
+    },
+    "federalId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Federal I D",
+        "widget": "text"
+      }
+    },
+    "vendorId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Vendor I D",
+        "widget": "text"
+      }
+    },
+    "year": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Year",
+        "widget": "text"
+      }
+    },
+    "cemeteryName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform Cemetery Name",
+        "widget": "text"
+      }
+    },
+    "stationId2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform Station I D",
+        "widget": "text"
+      }
+    },
+    "qty1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform Q T Y1",
+        "widget": "text"
+      }
+    },
+    "allowance1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform A L L O W A N C E1",
+        "widget": "text"
+      }
+    },
+    "amount1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform A M O U N T1",
+        "widget": "text"
+      }
+    },
+    "qty2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform Q T Y2",
+        "widget": "text"
+      }
+    },
+    "allowance2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform A L L O W A N C E2",
+        "widget": "text"
+      }
+    },
+    "amount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform A M O U N T2",
+        "widget": "text"
+      }
+    },
+    "qty3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform Q T Y3",
+        "widget": "text"
+      }
+    },
+    "allowance3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform A L L O W A N C E3",
+        "widget": "text"
+      }
+    },
+    "amount3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform A M O U N T3",
+        "widget": "text"
+      }
+    },
+    "qty4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform Q T Y4",
+        "widget": "text"
+      }
+    },
+    "allowance4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform A L L O W A N C E4",
+        "widget": "text"
+      }
+    },
+    "amount4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform A M O U N T4",
+        "widget": "text"
+      }
+    },
+    "total": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 #subform T O T A L",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "applicantName2Address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT NAME2. ADDRESS",
+        "widget": "address"
+      }
+    },
+    "phone_999_999_9999": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "PHONE ((999) 999-9999)",
+        "widget": "phone"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS",
+        "widget": "email"
+      }
+    },
+    "nameOfDeceased": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF DECEASED",
+        "widget": "text"
+      }
+    },
+    "dateOfIntermentMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF INTERMENT (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "nameOfCemeteryWhereInterred8StationId9BurialSiteI": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF CEMETERY WHERE INTERRED8. STATION ID9. BURIAL SITE I",
+        "widget": "text"
+      }
+    },
+    "signatureOfApplicantSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPLICANT (Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "dateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "signatureOfCemeteryOfficialSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF CEMETERY OFFICIAL (Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "typeOrPrintedNameOfCemeteryOfficial15Title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TYPE OR PRINTED NAME OF CEMETERY OFFICIAL15. TITLE",
+        "widget": "text"
+      }
+    },
+    "email2": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL",
+        "widget": "email"
+      }
+    },
+    "stateAgencyOrTribalOrganization2FederalAcquisitionId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATE AGENCY OR TRIBAL ORGANIZATION2. FEDERAL ACQUISITION ID",
+        "widget": "select"
+      }
+    },
+    "periodOfRequest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PERIOD OF REQUEST",
+        "widget": "text"
+      }
+    },
+    "cemeteryNamebStationId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CEMETERY NAMEb. STATION ID",
+        "widget": "text"
+      }
+    },
+    "bySigningBelowICertifyTheFollowing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "By signing below, I certify the following",
+        "widget": "text"
+      }
+    },
+    "thisRequestForPaymentIncludesOnlyCasketedIntermentsW": {
+      "type": "string",
+      "x-va-field": {
+        "label": "This request for payment includes only casketed interments w",
+        "widget": "text"
+      }
+    },
+    "outerBurialReceptaclesUsedWerePaidForByTheStateOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Outer burial receptacles used were paid for by the State or",
+        "widget": "select"
+      }
+    },
+    "noFeesForSuchOuterBurialReceptacleWereChargedToThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "No fees for such outer burial receptacle were charged to the",
+        "widget": "text"
+      }
+    },
+    "signatureOfAuthorizedStateOrTribalOfficialSignInIn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF AUTHORIZED STATE OR TRIBAL OFFICIAL (Sign in in",
+        "widget": "select"
+      }
+    },
+    "typeOrPrintedNameOfStateOrTribalCemeteryOfficial9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TYPE OR PRINTED NAME OF STATE OR TRIBAL CEMETERY OFFICIAL9.",
+        "widget": "select"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10232.pdf",
+    "totalFields": 56,
+    "composedFields": 56,
+    "coveragePercent": 100,
+    "xfaLabelCount": 32,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:34:04.936Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:47.809Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

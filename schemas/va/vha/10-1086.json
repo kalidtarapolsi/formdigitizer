@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1086",
+  "type": "object",
+  "properties": {
+    "dateMmddyyyy": {
+      "type": "string",
+      "format": "date"
+    },
+    "subjectName": {
+      "type": "string"
+    },
+    "titleOfStudy": {
+      "type": "string"
+    },
+    "principleInvestigator": {
+      "type": "string"
+    },
+    "vamc": {
+      "type": "string"
+    },
+    "descriptionOfResearchByInvestigator": {
+      "type": "string"
+    },
+    "subjectsIdentification": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1086.pdf",
+    "totalFields": 7,
+    "composedFields": 1,
+    "coveragePercent": 14,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:40.945Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

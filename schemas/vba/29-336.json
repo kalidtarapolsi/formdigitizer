@@ -1,0 +1,630 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-336",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "checkBoxIfAddressHasChanged": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box If Address Has Changed",
+        "widget": "checkbox"
+      }
+    },
+    "veteransMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "mailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "mailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "mailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "mailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "mailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "veteransLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans Last Name",
+        "widget": "text"
+      }
+    },
+    "veteransMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans Middle Initial",
+        "widget": "text"
+      }
+    },
+    "daytimeTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Daytime Telephone Number",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Email Address",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberFirstThreeNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberSecondTwoNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberLastFourNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "thirdPrincipalBeneficiaryFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Third Principal Beneficiary First Name",
+        "widget": "text"
+      }
+    },
+    "thirdPrincipalBeneficiaryLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Third Principal Beneficiary Last Name",
+        "widget": "text"
+      }
+    },
+    "thirdPrincipalBeneficiaryMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Third Principal Beneficiary Middle Initial",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "emailAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "daytimeTelephoneNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Daytime Telephone Number",
+        "widget": "text"
+      }
+    },
+    "lumpSumSharePercentage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Lump Sum Share Percentage",
+        "widget": "text"
+      }
+    },
+    "printNameOfFirstWitness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Print Name Of First Witness",
+        "widget": "text"
+      }
+    },
+    "mailingAddressOfFirstWitness": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Mailing Address Of First Witness",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Telephone Number",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "ofPrecedence": {
+      "type": "string",
+      "x-va-field": {
+        "label": "of precedence",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "checkBoxIfYourAddressHasChanged": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CHECK BOX IF YOUR ADDRESS HAS CHANGED \u25ba",
+        "widget": "text"
+      }
+    },
+    "firstNameMiddleInitialLastNameOfVeteranInsured": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST NAME - MIDDLE INITIAL - LAST NAME OF VETERAN/INSURED",
+        "widget": "text"
+      }
+    },
+    "veteranInsuredSocialSecurityNo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/INSURED SOCIAL SECURITY NO.",
+        "widget": "text"
+      }
+    },
+    "daytimeTelephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DAYTIME TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "veteranInsuredMailingAddressNumberAndStreetOrRural": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/INSURED MAILING ADDRESS (Number and Street or Rural",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code",
+        "widget": "text"
+      }
+    },
+    "stateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/Province",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "emailAddress3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS",
+        "widget": "text"
+      }
+    },
+    "listAllPolicyNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LIST ALL POLICY NUMBERS",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "individual": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual",
+        "widget": "text"
+      }
+    },
+    "iE": {
+      "type": "string",
+      "x-va-field": {
+        "label": "i.e.",
+        "widget": "text"
+      }
+    },
+    "estate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estate",
+        "widget": "text"
+      }
+    },
+    "probatedIE": {
+      "type": "string",
+      "x-va-field": {
+        "label": "probated. i.e.",
+        "widget": "text"
+      }
+    },
+    "funeralHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Funeral Home",
+        "widget": "text"
+      }
+    },
+    "charitableInstituteOrOrganization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Charitable Institute or Organization",
+        "widget": "text"
+      }
+    },
+    "nameBlock": {
+      "type": "string",
+      "x-va-field": {
+        "label": "name block.",
+        "widget": "text"
+      }
+    },
+    "trusts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Trusts",
+        "widget": "text"
+      }
+    },
+    "firstNameMiddleInitialLastNameOfPrincipalBeneficiary": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST NAME - MIDDLE INITIAL - LAST NAME OF PRINCIPAL BENEFICIARY",
+        "widget": "text"
+      }
+    },
+    "principalBeneficiary": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRINCIPAL BENEFICIARY",
+        "widget": "text"
+      }
+    },
+    "theFollowing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE FOLLOWING",
+        "widget": "text"
+      }
+    },
+    "firstNameMiddleInitialLastNameOfContingentBeneficiary": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST NAME - MIDDLE INITIAL - LAST NAME OF CONTINGENT BENEFICIARY",
+        "widget": "text"
+      }
+    },
+    "contingentBeneficiary": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "CONTINGENT BENEFICIARY",
+        "widget": "date"
+      }
+    },
+    "forEachTrusteeFillInTheTitleAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "for each trustee. Fill in the title and",
+        "widget": "date"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Instructions",
+        "widget": "text"
+      }
+    },
+    "examplesOnHowToDesignateVariousTrusts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Examples on how to designate various trusts",
+        "widget": "text"
+      }
+    },
+    "nameOfTrust": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF TRUST",
+        "widget": "text"
+      }
+    },
+    "dateOfTrust": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF TRUST (",
+        "widget": "date"
+      }
+    },
+    "trusteeNameFirstMiLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TRUSTEE NAME (FIRST, MI, LAST)",
+        "widget": "text"
+      }
+    },
+    "trusteeAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TRUSTEE ADDRESS",
+        "widget": "address"
+      }
+    },
+    "trusteeDaytimePhoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TRUSTEE DAYTIME PHONE NUMBER",
+        "widget": "phone"
+      }
+    },
+    "trusteeEmailAddress": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "TRUSTEE EMAIL ADDRESS",
+        "widget": "email"
+      }
+    },
+    "signatureOfVeteranInsuredSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VETERAN/INSURED (Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "importantTheVeteranInsuredMustSignAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "IMPORTANT - The Veteran/Insured must sign and",
+        "widget": "date"
+      }
+    },
+    "securelyAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "securely at",
+        "widget": "text"
+      }
+    },
+    "thisCompletedFormMayBeSubmittedBy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THIS COMPLETED FORM MAY BE SUBMITTED BY",
+        "widget": "text"
+      }
+    },
+    "myInsuranceWillBePaidAccordingToTheAutomaticSurvivo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "My insurance will be paid according to the automatic survivo",
+        "widget": "text"
+      }
+    },
+    "thisChangeCancelsAllPriorBeneficiaryAndOptionSelecti": {
+      "type": "string",
+      "x-va-field": {
+        "label": "This change cancels all prior beneficiary and option selecti",
+        "widget": "text"
+      }
+    },
+    "forAllProgramsOtherThanValifeIfADesignatedPrincipa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "For all programs other than VALife. If a designated principa",
+        "widget": "text"
+      }
+    },
+    "yearsOfThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "years of the",
+        "widget": "date"
+      }
+    },
+    "forValifeIfTheDesignatedBeneficiaryDoesNotFileACl": {
+      "type": "string",
+      "x-va-field": {
+        "label": "For VALife. If the designated beneficiary does not file a cl",
+        "widget": "text"
+      }
+    },
+    "namedAsABeneficiaryOnThisForm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "named as a beneficiary on this form.",
+        "widget": "text"
+      }
+    },
+    "signatureOfFirstWitnessSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF FIRST WITNESS (Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "signatureOfSecondWitnessSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF SECOND WITNESS (Sign in ink)",
+        "widget": "signature"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-336-are.pdf",
+    "status": "digitized",
+    "totalFields": 94,
+    "composedFields": 86,
+    "coveragePercent": 99,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 6,
+    "generatedAt": "2026-03-28T17:31:51.284Z",
+    "postProcessedAt": "2026-03-30T20:42:50.174125+00:00",
+    "redigitizedAt": "2026-03-30T20:35:41.701Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

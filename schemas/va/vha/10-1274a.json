@@ -1,0 +1,288 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1274A",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "date1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform date1",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform address",
+        "widget": "text"
+      }
+    },
+    "nameinstrument": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform nameinstrument",
+        "widget": "text"
+      }
+    },
+    "nametitleinvestigator": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform nametitleinvestigator",
+        "widget": "text"
+      }
+    },
+    "namerdcommittee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform namerdcommittee",
+        "widget": "text"
+      }
+    },
+    "justification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform justification",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform signature",
+        "widget": "text"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform date2",
+        "widget": "text"
+      }
+    },
+    "datevamcnotified": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform datevamcnotified",
+        "widget": "text"
+      }
+    },
+    "signature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform signature2",
+        "widget": "text"
+      }
+    },
+    "date3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform date3",
+        "widget": "text"
+      }
+    },
+    "withdrawn": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform withdrawn",
+        "widget": "checkbox"
+      }
+    },
+    "new": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform new",
+        "widget": "checkbox"
+      }
+    },
+    "ongoing": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform ongoing",
+        "widget": "checkbox"
+      }
+    },
+    "careerdev": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform careerdev",
+        "widget": "checkbox"
+      }
+    },
+    "verifyinitials": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform verifyinitials",
+        "widget": "checkbox"
+      }
+    },
+    "nonfunded": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform nonfunded",
+        "widget": "checkbox"
+      }
+    },
+    "rehabrd": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform rehabrd",
+        "widget": "checkbox"
+      }
+    },
+    "coopstudy": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform coopstudy",
+        "widget": "checkbox"
+      }
+    },
+    "hsrd": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform hsrd",
+        "widget": "checkbox"
+      }
+    },
+    "blcsrd": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform blcsrd",
+        "widget": "checkbox"
+      }
+    },
+    "other": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform other",
+        "widget": "checkbox"
+      }
+    },
+    "approved": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform approved",
+        "widget": "checkbox"
+      }
+    },
+    "disapproved": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform disapproved",
+        "widget": "checkbox"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE",
+        "widget": "text"
+      }
+    },
+    "addressInclude_3DigitStationNoAndEMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS (include 3-digit Station No. and E-mail Address)",
+        "widget": "text"
+      }
+    },
+    "nameOfInstrumentRequestedOnlyOneInstrumentPerForm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF INSTRUMENT REQUESTED (Only one instrument per form)",
+        "widget": "text"
+      }
+    },
+    "nameAndTitleOfInvestigatorSWhoWillBeUsingInstrume": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND TITLE OF INVESTIGATOR(S) WHO WILL BE USING INSTRUME",
+        "widget": "text"
+      }
+    },
+    "nameOfRDCommitteeApprovedResearchProjectSForWhic": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF R/D COMMITTEE APPROVED RESEARCH PROJECT (S) FOR WHIC",
+        "widget": "text"
+      }
+    },
+    "justificationOfInstrumentNeedIncludingUse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "JUSTIFICATION OF INSTRUMENT NEED INCLUDING USE",
+        "widget": "text"
+      }
+    },
+    "signatureOfAssociateChiefOfStaffForRD11Date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SIGNATURE OF ASSOCIATE CHIEF OF STAFF FOR R&D11. DATE",
+        "widget": "date"
+      }
+    },
+    "dateVamcNotifiedOfAction": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE VAMC NOTIFIED OF ACTION",
+        "widget": "date"
+      }
+    },
+    "signature14Date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SIGNATURE14. DATE",
+        "widget": "date"
+      }
+    },
+    "thisProjectIs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THIS PROJECT IS",
+        "widget": "text"
+      }
+    },
+    "programIsFundedByCheckAllThatApply": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PROGRAM IS FUNDED BY (Check ALL that apply)",
+        "widget": "text"
+      }
+    },
+    "careerDevelopmentmeritReview": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "CAREER DEVELOPMENTMERIT REVIEW (",
+        "widget": "date"
+      }
+    },
+    "items_3_7HaveBeenVerifiedByAaAcosRD": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEMS 3-7 HAVE BEEN VERIFIED BY AA/ACOS/R&D",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1274A-fill.pdf",
+    "totalFields": 37,
+    "composedFields": 37,
+    "coveragePercent": 100,
+    "xfaLabelCount": 23,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:31:27.689Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:26:22.562Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

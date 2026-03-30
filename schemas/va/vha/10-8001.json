@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-8001",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "letterGenerationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "admissionDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "reasonForRefusalToTransferOptionalNoteThisInformationIsForDatatrackingPurposesOnlyReasonForRefusalDoesNotImpactVAsCoverageOfExpenses": {
+      "type": "string"
+    },
+    "iElectToContinueMyHealthCareTreatmentAtThisNonVAFacilityAtMyOwnExpenseAndToNotUseVABenefitsRelativeToThisEpisodeOfCare38Usc17031725Or1728": {
+      "type": "number"
+    },
+    "nonvAMedicalCareOffice": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "veteranName": {
+      "type": "string"
+    },
+    "printVeteransFullName": {
+      "type": "string"
+    },
+    "readFormInstructionsAndPrivacyActInformationAboveVAFacilityName": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__FormSubmitter_0_": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "nonvAFacility": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8001.pdf",
+    "totalFields": 32,
+    "composedFields": 26,
+    "coveragePercent": 81,
+    "xfaLabelCount": 27,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:06:58.644Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-4193",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "lengthOfSentence": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform L E N G T H O F S E N T E N C E",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Remarks",
+        "widget": "text"
+      }
+    },
+    "nameAndAdressFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Name And Adress From",
+        "widget": "text"
+      }
+    },
+    "veteranLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Veteran Last Name",
+        "widget": "text"
+      }
+    },
+    "veteranMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Veteran Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "veteranFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Veteran First Name",
+        "widget": "text"
+      }
+    },
+    "veteranBeneficiarySocialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Veteran Beneficiary Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "veteranBeneficiarySocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Veteran Beneficiary Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "veteranBeneficiarySocialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Veteran Beneficiary Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "veteransServiceNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Veterans Service Number",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteranIfOtherThanVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Relationship To Veteran If Other Than Veteran",
+        "widget": "text"
+      }
+    },
+    "dateOffenseCommittedMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform D A T E O F F E N S E C O M M I T T E D Month",
+        "widget": "text"
+      }
+    },
+    "day2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Day",
+        "widget": "text"
+      }
+    },
+    "dateOfConvictionMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform D A T E O F C O N V I C T I O N Month",
+        "widget": "text"
+      }
+    },
+    "scheduledReleaseDateMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform S C H E D U L E D R E L E A S E D A T E Month",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Name And Address To",
+        "widget": "text"
+      }
+    },
+    "dateOfConfinementFollowingConvictionMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform D A T E O F C O N F I N E M E N T F O L L O W I N G C O N V I C T I O N Month",
+        "widget": "text"
+      }
+    },
+    "dateEnteredProgramMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform D A T E E N T E R E D P R O G R A M Month",
+        "widget": "text"
+      }
+    },
+    "nameAndTitleOfInstitutionalOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Name And Title Of Institutional Official",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Telephone Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberSecondThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Telephone Number Second Three Numbers",
+        "widget": "text"
+      }
+    },
+    "institutionTelephoneNumberAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform Institution Telephone Number Area Code",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V B A214193 #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "dateOffenseWasCommitted": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OFFENSE WAS COMMITTED",
+        "widget": "text"
+      }
+    },
+    "typeOfOffenseForWhichCommitted": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TYPE OF OFFENSE FOR WHICH COMMITTED",
+        "widget": "text"
+      }
+    },
+    "10b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "10B.",
+        "widget": "date"
+      }
+    },
+    "scheduledReleaseDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SCHEDULED RELEASE DATE",
+        "widget": "date"
+      }
+    },
+    "13b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "13B.",
+        "widget": "date"
+      }
+    },
+    "nameAndAddressOfInstitution": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF INSTITUTION",
+        "widget": "address"
+      }
+    },
+    "veteranBeneficiarySNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/BENEFICIARY'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "veteranSDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "VETERAN'S DATE OF BIRTH",
+        "widget": "date"
+      }
+    },
+    "veteranSServiceNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S SERVICE NUMBER (If applicable)",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteranIfOtherThanVeteran2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RELATIONSHIP TO VETERAN (If other than veteran)",
+        "widget": "text"
+      }
+    },
+    "10a": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "10A.",
+        "widget": "date"
+      }
+    },
+    "60DaysFollowing": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "60 DAYS FOLLOWING",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "nameAndTitleOfInstitutionalOfficial2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND TITLE OF INSTITUTIONAL OFFICIAL",
+        "widget": "text"
+      }
+    },
+    "signatureOfInstitutionalOfficialRequired": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF INSTITUTIONAL OFFICIAL (Required)",
+        "widget": "signature"
+      }
+    },
+    "institutionTelephoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "INSTITUTION TELEPHONE NUMBER",
+        "widget": "phone"
+      }
+    },
+    "tollFreePhone": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Toll Free Phone",
+        "widget": "phone"
+      }
+    },
+    "tollFreeFax": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Toll Free Fax",
+        "widget": "text"
+      }
+    },
+    "veteranDateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4193-are.pdf",
+    "status": "digitized",
+    "totalFields": 55,
+    "composedFields": 49,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:36:18.487Z",
+    "postProcessedAt": "2026-03-30T20:02:41.698250+00:00",
+    "redigitizedAt": "2026-03-30T20:38:34.982Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

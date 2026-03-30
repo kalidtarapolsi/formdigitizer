@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8731a",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "phone1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone1",
+        "widget": "text"
+      }
+    },
+    "date1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date1",
+        "widget": "text"
+      }
+    },
+    "pressureYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Pressure Yes",
+        "widget": "checkbox"
+      }
+    },
+    "airTestNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Air Test No",
+        "widget": "checkbox"
+      }
+    },
+    "floodTestNa": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Flood Test N A",
+        "widget": "checkbox"
+      }
+    },
+    "floodTestYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Flood Test Yes",
+        "widget": "checkbox"
+      }
+    },
+    "floodTestNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Flood Test No",
+        "widget": "checkbox"
+      }
+    },
+    "fixtureYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Fixture Yes",
+        "widget": "checkbox"
+      }
+    },
+    "fixtureNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Fixture No",
+        "widget": "checkbox"
+      }
+    },
+    "airTestYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Air Test Yes",
+        "widget": "checkbox"
+      }
+    },
+    "airTestNa": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Air Test N A",
+        "widget": "checkbox"
+      }
+    },
+    "pressureNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Pressure No",
+        "widget": "checkbox"
+      }
+    },
+    "noteToInspector": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE TO INSPECTOR",
+        "widget": "text"
+      }
+    },
+    "certificationOfWaterSystem": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION OF WATER SYSTEM",
+        "widget": "text"
+      }
+    },
+    "testedAndShow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "tested and show",
+        "widget": "text"
+      }
+    },
+    "licenseNoSignatureOfInspector": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LICENSE NO.SIGNATURE OF INSPECTOR",
+        "widget": "signature"
+      }
+    },
+    "nameOfInspectornameAndAddressOfFirm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF INSPECTORNAME AND ADDRESS OF FIRM",
+        "widget": "address"
+      }
+    },
+    "fixtureTestThePlumbingFixturesShallBeSubjectedToA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIXTURE TEST - The plumbing fixtures shall be subjected to a",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8731a-are.pdf",
+    "status": "digitized",
+    "totalFields": 18,
+    "composedFields": 18,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:13.813Z",
+    "redigitizedAt": "2026-03-30T20:39:28.094Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

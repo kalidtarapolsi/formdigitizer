@@ -1,0 +1,256 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8736b",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "yesNo3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No3",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo4": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No4",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No5",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo6": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No6",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo7": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No7",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo8": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No8",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo9": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No9",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo10": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No10",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo11": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No11",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo12": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No12",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo13": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No13",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo14": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No14",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No1",
+        "widget": "checkbox"
+      }
+    },
+    "yesNo2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Yes No2",
+        "widget": "checkbox"
+      }
+    },
+    "numericField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Numeric Field1",
+        "widget": "text"
+      }
+    },
+    "approval": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Approval",
+        "widget": "checkbox"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Title",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "doesListOfInvestorsShowEffective": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DOES LIST OF INVESTORS SHOW EFFECTIVE",
+        "widget": "text"
+      }
+    },
+    "nameOfLenderhomeOfficeAddressOfLender": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF LENDERHOME OFFICE ADDRESS OF LENDER",
+        "widget": "text"
+      }
+    },
+    "qualityOfLoanSubmissionsOnPriorApprovalBasis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "QUALITY OF LOAN SUBMISSIONS ON PRIOR APPROVAL BASIS",
+        "widget": "text"
+      }
+    },
+    "approvalActionCheckAppropriateBox": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPROVAL ACTION (Check appropriate box)",
+        "widget": "text"
+      }
+    },
+    "signatureAndTitleOfReviewer26Date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE AND TITLE OF REVIEWER26. DATE",
+        "widget": "text"
+      }
+    },
+    "frequencyOfLoanTerminations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FREQUENCY OF LOAN TERMINATIONS",
+        "widget": "text"
+      }
+    },
+    "qualityOfServicing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "QUALITY OF SERVICING",
+        "widget": "text"
+      }
+    },
+    "completenessOfLoanSubmissions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COMPLETENESS OF LOAN SUBMISSIONS",
+        "widget": "text"
+      }
+    },
+    "qualityOfLoanSubmissions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "QUALITY OF LOAN SUBMISSIONS",
+        "widget": "text"
+      }
+    },
+    "percentOfRejectedLoanSubmissionsToTotalApplicationVo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PERCENT OF REJECTED LOAN SUBMISSIONS TO TOTAL APPLICATION VO",
+        "widget": "text"
+      }
+    },
+    "responsivenessToTrainingAndCounseling": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONSIVENESS TO TRAINING AND COUNSELING",
+        "widget": "text"
+      }
+    },
+    "timelinessAndCooperativenessInProvidingRequestedSupple": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TIMELINESS AND COOPERATIVENESS IN PROVIDING REQUESTED SUPPLE",
+        "widget": "text"
+      }
+    },
+    "instancesOfDemonstratedInabilityToUnderstandVaRequire": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTANCES OF DEMONSTRATED INABILITY TO UNDERSTAND VA REQUIRE",
+        "widget": "text"
+      }
+    },
+    "anyOtherSignificantFactorsToBeConsidered": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ANY OTHER SIGNIFICANT FACTORS TO BE CONSIDERED",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8736b-are.pdf",
+    "status": "digitized",
+    "totalFields": 33,
+    "composedFields": 33,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:11.353Z",
+    "redigitizedAt": "2026-03-30T20:38:33.306Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-8416b",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "serviceNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "eCompensationpaidby5": {
+      "type": "string"
+    },
+    "nameOfProvider5": {
+      "type": "string"
+    },
+    "aPurpose5": {
+      "type": "string"
+    },
+    "eCompensationpaidby6": {
+      "type": "string"
+    },
+    "nameOfProvider6": {
+      "type": "string"
+    },
+    "aPurpose6": {
+      "type": "string"
+    },
+    "eCompensationpaidby7": {
+      "type": "string"
+    },
+    "nameOfProvider7": {
+      "type": "string"
+    },
+    "aPurpose7": {
+      "type": "string"
+    },
+    "eCompensationpaidby8": {
+      "type": "string"
+    },
+    "nameOfProvider8": {
+      "type": "string"
+    },
+    "aPurpose8": {
+      "type": "string"
+    },
+    "eCompensationpaidby9": {
+      "type": "string"
+    },
+    "nameOfProvider9": {
+      "type": "string"
+    },
+    "aPurpose9": {
+      "type": "string"
+    },
+    "eCompensationpaidby10": {
+      "type": "string"
+    },
+    "nameOfProvider10": {
+      "type": "string"
+    },
+    "aPurpose10": {
+      "type": "string"
+    },
+    "eCompensationpaidby11": {
+      "type": "string"
+    },
+    "nameOfProvider11": {
+      "type": "string"
+    },
+    "aPurpose11": {
+      "type": "string"
+    },
+    "eCompensationpaidby12": {
+      "type": "string"
+    },
+    "nameOfProvider12": {
+      "type": "string"
+    },
+    "aPurpose12": {
+      "type": "string"
+    },
+    "eCompensationpaidby13": {
+      "type": "string"
+    },
+    "nameOfProvider13": {
+      "type": "string"
+    },
+    "aPurpose13": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8416b-are.pdf",
+    "status": "digitized",
+    "totalFields": 168,
+    "composedFields": 48,
+    "coveragePercent": 50,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:31:51.870Z",
+    "postProcessedAt": "2026-03-30T20:02:41.726907+00:00"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0394b",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "servicePeriodBeginDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "servicePeriodEndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "servicePeriodAmount": {
+      "type": "number"
+    },
+    "applicantsName": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0394B.pdf",
+    "totalFields": 20,
+    "composedFields": 19,
+    "coveragePercent": 95,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:05:22.687Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

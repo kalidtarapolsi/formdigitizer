@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-8941",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameOfClaimant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Name Of Claimant",
+        "widget": "text"
+      }
+    },
+    "dateQuitWorking": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Quit Working",
+        "widget": "text"
+      }
+    },
+    "dateOfMarriage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Of Marriage",
+        "widget": "text"
+      }
+    },
+    "nameAddressEmployer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Name Address Employer",
+        "widget": "text"
+      }
+    },
+    "marriedName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Married Name",
+        "widget": "text"
+      }
+    },
+    "nameOfVeteranChild": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Name Of Veteran Child",
+        "widget": "text"
+      }
+    },
+    "dateChildLeftYourCare": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Child Left Your Care",
+        "widget": "text"
+      }
+    },
+    "childNoLongerInCare": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Child No Longer In Care",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Remarks",
+        "widget": "text"
+      }
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Of Signature",
+        "widget": "text"
+      }
+    },
+    "hoursWorkedWeekly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Hours Worked Weekly",
+        "widget": "text"
+      }
+    },
+    "hoursWorkedPerWeek": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Hours Worked Per Week",
+        "widget": "text"
+      }
+    },
+    "daytimeTelephone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Daytime Telephone",
+        "widget": "text"
+      }
+    },
+    "eveningTelephone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Evening Telephone",
+        "widget": "text"
+      }
+    },
+    "grossEarnings": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Gross Earnings",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature",
+        "widget": "text"
+      }
+    },
+    "veteranSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veteran S S N",
+        "widget": "text"
+      }
+    },
+    "claimantSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Claimant S S N",
+        "widget": "text"
+      }
+    },
+    "dateBeganWorking": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Began Working",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "employmentHistory": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMPLOYMENT HISTORY",
+        "widget": "text"
+      }
+    },
+    "maritalStatus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MARITAL STATUS",
+        "widget": "text"
+      }
+    },
+    "statusOfYoungestDependentChildInYourCareWhileAge_16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATUS OF YOUNGEST DEPENDENT CHILD IN YOUR CARE WHILE AGE 16",
+        "widget": "text"
+      }
+    },
+    "thisYearTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THIS YEAR TO",
+        "widget": "text"
+      }
+    },
+    "eExplainWhyChildIs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "E. EXPLAIN WHY CHILD IS",
+        "widget": "text"
+      }
+    },
+    "remarks2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "9bDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "9B. DATE (",
+        "widget": "date"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "andEnding": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "and ending",
+        "widget": "date"
+      }
+    },
+    "ifYouDoNotCompleteItem_2b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YOU DO NOT COMPLETE ITEM 2B,",
+        "widget": "radio"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8941-are.pdf",
+    "status": "digitized",
+    "totalFields": 32,
+    "composedFields": 32,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:34.759Z",
+    "redigitizedAt": "2026-03-30T20:39:11.734Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

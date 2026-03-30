@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2636",
+  "type": "object",
+  "required": [
+    "fullName"
+  ],
+  "properties": {
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "datesLine1Of3": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesLine2Of3": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesLine3Of3": {
+      "type": "string",
+      "format": "date"
+    },
+    "ptIdNumber": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2636-fill.pdf",
+    "totalFields": 7,
+    "composedFields": 6,
+    "coveragePercent": 86,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:09.623Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA40-0895-3",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "optionalWashBay1OpenOrOpen3SidesOrClosedProposedByApplicant": {
+      "type": "string"
+    },
+    "optionalWashBay1OpenOrOpen3SidesOrClosedTotalVAAllowed": {
+      "type": "string"
+    },
+    "withOptionalWashEquipmentRoomTbdProposedByApplicant": {
+      "type": "string"
+    },
+    "withOptionalWashEquipmentRoomTbdTotalVAAllowed": {
+      "type": "string"
+    },
+    "optionalHeavyLiftIfEquipmentIsNotSentOutForMaintenanceProposedByApplicant": {
+      "type": "string"
+    },
+    "optionalHeavyLiftIfEquipmentIsNotSentOutForMaintenanceTotalVAAllowed": {
+      "type": "string"
+    },
+    "forRoutineMaintenanceWithWorkBenchAtRearOrSideHeatedAndAirconditionedByClimateLocationProposedByApplicant": {
+      "type": "string"
+    },
+    "forRoutineMaintenanceWithWorkBenchAtRearOrSideHeatedAndAirconditionedByClimateLocationTotalVAAllowed": {
+      "type": "string"
+    },
+    "operationsCopyworkfilesProposedByApplicant": {
+      "type": "string"
+    },
+    "operationsCopyworkfilesTotalVAAllowed": {
+      "type": "string"
+    },
+    "projectLocation": {
+      "type": "string"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "projectFAIFederalApplicationIdentifierNumber": {
+      "type": "string"
+    },
+    "buildingNumber1SupportFacilities2555NsfProposedByApplicant": {
+      "type": "string"
+    },
+    "buildingNumber1SupportFacilities2555NsfTotalVAAllowed": {
+      "type": "string"
+    },
+    "aPublicInformationCenterPic660Nsf112NgMultiplierProposedByApplicant": {
+      "type": "string"
+    },
+    "aPublicInformationCenterPic660Nsf112NgMultiplierTotalVAAllowed": {
+      "type": "string"
+    },
+    "entryVestibuleProposedByApplicant": {
+      "type": "string"
+    },
+    "entryVestibuleTotalVAAllowed": {
+      "type": "string"
+    },
+    "withKioskGraveLocatorProposedByApplicant": {
+      "type": "string"
+    },
+    "withKioskGraveLocatorTotalVAAllowed": {
+      "type": "string"
+    },
+    "lobbyProposedByApplicant": {
+      "type": "string"
+    },
+    "lobbyTotalVAAllowed": {
+      "type": "string"
+    },
+    "kioskClosetIncludedProposedByApplicant": {
+      "type": "string"
+    },
+    "kioskClosetIncludedTotalVAAllowed": {
+      "type": "string"
+    },
+    "electricWaterCoolers2IncludedProposedByApplicant": {
+      "type": "string"
+    },
+    "electricWaterCoolers2IncludedTotalVAAllowed": {
+      "type": "string"
+    },
+    "janitorClosetWithUtilitySinkIncludedProposedByApplicant": {
+      "type": "string"
+    },
+    "janitorClosetWithUtilitySinkIncludedTotalVAAllowed": {
+      "type": "string"
+    },
+    "toiletsMenWomen1Each115NsfEachProposedByApplicant": {
+      "type": "string"
+    },
+    "toiletsMenWomen1Each115NsfEachTotalVAAllowed": {
+      "type": "string"
+    },
+    "bAdministrativeOffices1030Nsf124NgMultiplierProposedByApplicant": {
+      "type": "string"
+    },
+    "bAdministrativeOffices1030Nsf124NgMultiplierTotalVAAllowed": {
+      "type": "string"
+    },
+    "waitingRoomSeats46PersonsProposedByApplicant": {
+      "type": "string"
+    },
+    "waitingRoomSeats46PersonsTotalVAAllowed": {
+      "type": "string"
+    },
+    "receptionsecretarycemeteryRepresentativeProposedByApplicant": {
+      "type": "string"
+    },
+    "receptionsecretarycemeteryRepresentativeTotalVAAllowed": {
+      "type": "string"
+    },
+    "closetCoatsStorageProposedByApplicant": {
+      "type": "string"
+    },
+    "closetCoatsStorageTotalVAAllowed": {
+      "type": "string"
+    },
+    "directorProposedByApplicant": {
+      "type": "string"
+    },
+    "directorTotalVAAllowed": {
+      "type": "string"
+    },
+    "conferenceProposedByApplicant": {
+      "type": "string"
+    },
+    "conferenceTotalVAAllowed": {
+      "type": "string"
+    },
+    "hallProposedByApplicant": {
+      "type": "string"
+    },
+    "hallTotalVAAllowed": {
+      "type": "string"
+    },
+    "toilet1UnisexWheelchairAccessibleProposedByApplicant": {
+      "type": "string"
+    },
+    "toilet1UnisexWheelchairAccessibleTotalVAAllowed": {
+      "type": "string"
+    },
+    "mechanicalelectricalCommunicationsProposedByApplicant": {
+      "type": "string"
+    },
+    "mechanicalelectricalCommunicationsTotalVAAllowed": {
+      "type": "string"
+    },
+    "cSharedhonGdmaintenanceStaff865Nsf124NgMultiplierProposedByApplicant": {
+      "type": "string"
+    },
+    "cSharedhonGdmaintenanceStaff865Nsf124NgMultiplierTotalVAAllowed": {
+      "type": "string"
+    },
+    "honorGuardMeetingRoomWith12TableschairsProposedByApplicant": {
+      "type": "string"
+    },
+    "honorGuardMeetingRoomWith12TableschairsTotalVAAllowed": {
+      "type": "string"
+    },
+    "lockersbenchInChangingAreaIncludedProposedByApplicant": {
+      "type": "string"
+    },
+    "lockersbenchInChangingAreaIncludedTotalVAAllowed": {
+      "type": "string"
+    },
+    "toiletUnisexIncludedProposedByApplicant": {
+      "type": "string"
+    },
+    "toiletUnisexIncludedTotalVAAllowed": {
+      "type": "string"
+    },
+    "maintenanceStaffProposedByApplicant": {
+      "type": "string"
+    },
+    "maintenanceStaffTotalVAAllowed": {
+      "type": "string"
+    },
+    "1ForemanProposedByApplicant": {
+      "type": "string"
+    },
+    "1ForemanTotalVAAllowed": {
+      "type": "string"
+    },
+    "2BootsLockersWithBenchToChangeShoesProposedByApplicant": {
+      "type": "string"
+    },
+    "2BootsLockersWithBenchToChangeShoesTotalVAAllowed": {
+      "type": "string"
+    },
+    "3ClosetHousekeepingProposedByApplicant": {
+      "type": "string"
+    },
+    "3ClosetHousekeepingTotalVAAllowed": {
+      "type": "string"
+    },
+    "4ShowerToilet1UnisexProposedByApplicant": {
+      "type": "string"
+    },
+    "4ShowerToilet1UnisexTotalVAAllowed": {
+      "type": "string"
+    },
+    "5HallProposedByApplicant": {
+      "type": "string"
+    },
+    "5HallTotalVAAllowed": {
+      "type": "string"
+    },
+    "6BreakRoomProposedByApplicant": {
+      "type": "string"
+    },
+    "6BreakRoomTotalVAAllowed": {
+      "type": "string"
+    },
+    "buidlingNumber2MaintenanceServicegarage2465NsfProposedByApplicant": {
+      "type": "string"
+    },
+    "buidlingNumber2MaintenanceServicegarage2465NsfTotalVAAllowed": {
+      "type": "string"
+    },
+    "aMaintenanceServiceAreaProposedByApplicant": {
+      "type": "string"
+    },
+    "aMaintenanceServiceAreaTotalVAAllowed": {
+      "type": "string"
+    },
+    "serviceBay12ProposedByApplicant": {
+      "type": "string"
+    },
+    "serviceBay12TotalVAAllowed": {
+      "type": "string"
+    },
+    "partsAndToolStorageCageProposedByApplicant": {
+      "type": "string"
+    },
+    "partsAndToolStorageCageTotalVAAllowed": {
+      "type": "string"
+    },
+    "airCompressorRoomProposedByApplicant": {
+      "type": "string"
+    },
+    "airCompressorRoomTotalVAAllowed": {
+      "type": "string"
+    },
+    "flammableStorageCabinetProposedByApplicant": {
+      "type": "string"
+    },
+    "flammableStorageCabinetTotalVAAllowed": {
+      "type": "string"
+    },
+    "bVehicleAndEquipmentStorageGarageProposedByApplicant": {
+      "type": "string"
+    },
+    "bVehicleAndEquipmentStorageGarageTotalVAAllowed": {
+      "type": "string"
+    },
+    "unheatedAreaAtMostLocationsProposedByApplicant": {
+      "type": "string"
+    },
+    "unheatedAreaAtMostLocationsTotalVAAllowed": {
+      "type": "string"
+    },
+    "buidlingNumber3CommittalShelterProposedByApplicant": {
+      "type": "string"
+    },
+    "buidlingNumber3CommittalShelterTotalVAAllowed": {
+      "type": "string"
+    },
+    "coveredAreaOpenOn3SidesProposedByApplicant": {
+      "type": "string"
+    },
+    "coveredAreaOpenOn3SidesTotalVAAllowed": {
+      "type": "string"
+    },
+    "withBierToHoldCasketSeatingFor20PersonsWith2SpeakersProposedByApplicant": {
+      "type": "string"
+    },
+    "withBierToHoldCasketSeatingFor20PersonsWith2SpeakersTotalVAAllowed": {
+      "type": "string"
+    },
+    "storageClosetProposedByApplicant": {
+      "type": "string"
+    },
+    "storageClosetTotalVAAllowed": {
+      "type": "string"
+    },
+    "locateBehindTheBierWith2WallSconcesAndThe5serviceSealsLocateAtTheFrontOfTheShelterIncludeShelfForEquipmentToPlayTapsIncludeStorageOfCleaningEquipmentPressureWashIncludeStorageToStackExtraChairsProposedByApplicant": {
+      "type": "string"
+    },
+    "locateBehindTheBierWith2WallSconcesAndThe5serviceSealsLocateAtTheFrontOfTheShelterIncludeShelfForEquipmentToPlayTapsIncludeStorageOfCleaningEquipmentPressureWashIncludeStorageToStackExtraChairsTotalVAAllowed": {
+      "type": "string"
+    },
+    "uncoveredPavedAreaProposedByApplicant": {
+      "type": "string"
+    },
+    "uncoveredPavedAreaTotalVAAllowed": {
+      "type": "string"
+    },
+    "withStandingRoomFor2030AdditionalPersonsProposedByApplicant": {
+      "type": "string"
+    },
+    "withStandingRoomFor2030AdditionalPersonsTotalVAAllowed": {
+      "type": "string"
+    },
+    "proposedByApplicant": {
+      "type": "string"
+    },
+    "totalVAAllowed": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-3.pdf",
+    "totalFields": 105,
+    "composedFields": 12,
+    "coveragePercent": 11,
+    "xfaLabelCount": 105,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:24:39.241Z",
+    "pageCount": 3,
+    "status": "digitized"
+  }
+}

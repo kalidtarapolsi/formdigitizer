@@ -1,0 +1,452 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-8960",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "fileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 File Number",
+        "widget": "text"
+      }
+    },
+    "nameofStudent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Nameof Student",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 D O B",
+        "widget": "text"
+      }
+    },
+    "veteranFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veteran First Name",
+        "widget": "text"
+      }
+    },
+    "veteranMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veteran Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "veteranLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veteran Last Name",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "secondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 V A File Number",
+        "widget": "text"
+      }
+    },
+    "veteransServiceNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Veterans Service Number",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Phone",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Email",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "giveTheDateAndTheReasonSchoolAttendanceTerminated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Give The Date And The Reason School Attendance Terminated",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "secondTwoNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "enterAllTheDatesOfStudentsSchoolAttendance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Enter All The Dates Of Students School Attendance",
+        "widget": "text"
+      }
+    },
+    "dateOfMarriageMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Of Marriage Month",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    },
+    "nameOfLastSchooLAttended": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Last Schoo L Attended",
+        "widget": "text"
+      }
+    },
+    "nameOfAnyOtherSchoolsAttended": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Name Of Any Other Schools Attended",
+        "widget": "text"
+      }
+    },
+    "dateStudentExpectsToGraduateOrOtherwiseTerminateTheCourseOfStudy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Student Expects To Graduate Or Otherwise Terminate The Course Of Study",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "relationshipToStudent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Relationship To Student",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "fileNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "File Number",
+        "widget": "text"
+      }
+    },
+    "birthDateOfStudentMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Birth Date of Student (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "returnWithin_60DaysTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "return within 60 days to",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "veteranBeneficiaryNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/BENEFICIARY NAME  (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber3VaFileNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER3. VA FILE NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "dateOfBirthMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "veteranSServiceNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S SERVICE NUMBER (If applicable)",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode_7EMailAddressOpti": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER  (Include Area Code)7. E-MAIL ADDRESS (Opti",
+        "widget": "phone"
+      }
+    },
+    "mailingAddressNumberAndStreetOrRuralRoutePOBox": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS (Number and street or rural route, P. O. Box",
+        "widget": "address"
+      }
+    },
+    "stateProvinceCountryZipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/Province  Country  ZIP Code/Postal Code",
+        "widget": "select"
+      }
+    },
+    "isTheStudentNowInSchool": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS THE STUDENT NOW IN SCHOOL?",
+        "widget": "text"
+      }
+    },
+    "hasTheStudentAttendedSchoolFromTheOfficialBeginning": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS THE STUDENT ATTENDED SCHOOL FROM THE OFFICIAL BEGINNING",
+        "widget": "text"
+      }
+    },
+    "noIfNoEnterAllTheDates": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "NO (If \"NO,\" enter all the dates (",
+        "widget": "date"
+      }
+    },
+    "isTheStudentMarried": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS THE STUDENT MARRIED?",
+        "widget": "text"
+      }
+    },
+    "yesIfYesGiveThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "YES (If \"YES,\" give the",
+        "widget": "date"
+      }
+    },
+    "dateOfMarriage": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF MARRIAGE (",
+        "widget": "date"
+      }
+    },
+    "hasTheStudentAttendedAnyOtherSchoolSThisYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS THE STUDENT ATTENDED ANY OTHER SCHOOL(S) THIS YEAR?",
+        "widget": "text"
+      }
+    },
+    "whenDoesTheStudentExpectToGraduateOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WHEN DOES THE STUDENT EXPECT TO GRADUATE OR",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "date) (",
+        "widget": "date"
+      }
+    },
+    "hasTheStudentBegunReceivingOrAppliedForVaDependents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS THE STUDENT BEGUN RECEIVING OR APPLIED FOR VA DEPENDENTS",
+        "widget": "text"
+      }
+    },
+    "veteranClaimantStudentSSignatureRequired": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/CLAIMANT/STUDENT'S SIGNATURE (REQUIRED)",
+        "widget": "signature"
+      }
+    },
+    "relationshipToStudent2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RELATIONSHIP TO STUDENT",
+        "widget": "text"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8960-are.pdf",
+    "status": "digitized",
+    "totalFields": 66,
+    "composedFields": 60,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:43.736Z",
+    "postProcessedAt": "2026-03-30T20:42:50.100761+00:00",
+    "redigitizedAt": "2026-03-30T20:38:47.755Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7055",
+  "type": "object",
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "dateFormIsSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateApplicationReviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "ifYouAreFemaleSelectThisBox": {
+      "type": "string"
+    },
+    "inYourLastFirstAndMiddleInitial": {
+      "type": "string"
+    },
+    "inYourMailingAddress": {
+      "type": "string"
+    },
+    "ifYouHaveOne": {
+      "type": "string"
+    },
+    "anyOrganizationsYouBelongTo": {
+      "type": "string"
+    },
+    "anySpecialSkillsAndorAbilitiesYouHave": {
+      "type": "string"
+    },
+    "anyRestrictionsOrLimitationsOfServiceYouMayHave": {
+      "type": "string"
+    },
+    "daysAndTimeFramesYouWillBeAvailableToVolunteer": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-7055-fill.pdf",
+    "totalFields": 25,
+    "composedFields": 18,
+    "coveragePercent": 72,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:20:50.111Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

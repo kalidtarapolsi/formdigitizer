@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10068c",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "updatetoPreviousInsuranceRadioButton1": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0__EffectiveDate_PrimaryInsurance_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0__EndDate_PriamryInsurance_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0__EffectiveDate_SecondaryInsurance_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0__EndDate_SecondaryInsurance_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0___subform_1__Date_MedicarePartA_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0___subform_1__Date_MedicarePartB_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "pleaseFillInTheMedicareAdvantageEffectiveDateUsingTwoNumbersForMonthTwoNumbersForDayFourNumbersForTheYear": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0___subform_1__Date_MedicarePartD_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0___subform_1__Date_TriCare_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0___subform_1__Date_CHAMPVA_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0__Date_PrimaryInsurance_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "date_form1_0___subform_0__Date_SecondaryInsurance_0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "signatureDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "endtoPreviousInsuranceRadioButton1": {
+      "type": "string"
+    },
+    "doYouhealthinsRadioButton1": {
+      "type": "string"
+    },
+    "pharmacyBenefitsRadioButtonList": {
+      "type": "string"
+    },
+    "nameOfPriorHealthCareCoverage": {
+      "type": "string"
+    },
+    "otherHealthCareCoverage": {
+      "type": "string"
+    },
+    "nameOfPrimaryInsurance": {
+      "type": "string"
+    },
+    "secondaryInsuranceHmo": {
+      "type": "string"
+    },
+    "secondaryInsurancePpo": {
+      "type": "string"
+    },
+    "nameOfSecondaryInsurance": {
+      "type": "string"
+    },
+    "yesIWouldLikeToReceiveCorrespondenceViaRegularMail": {
+      "type": "string"
+    },
+    "medicarePartA": {
+      "type": "string"
+    },
+    "medicarePartB": {
+      "type": "string"
+    },
+    "medicareAdvantage": {
+      "type": "string"
+    },
+    "medicarePartD": {
+      "type": "string"
+    },
+    "tricare": {
+      "type": "string"
+    },
+    "champva": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068c-fill.pdf",
+    "totalFields": 60,
+    "composedFields": 53,
+    "coveragePercent": 88,
+    "xfaLabelCount": 64,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:59.352Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

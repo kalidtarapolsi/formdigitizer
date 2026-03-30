@@ -1,0 +1,170 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-5345a",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "radiologyReportsNameAndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "labResultsDateRange": {
+      "type": "string",
+      "format": "date"
+    },
+    "specificTestsNameAndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "operativeClinicalProceduresNameAndDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "specificProvidersNameAndDateRange": {
+      "type": "string",
+      "format": "date"
+    },
+    "specificClinicsNameAndDateRange": {
+      "type": "string",
+      "format": "date"
+    },
+    "progressNotes": {
+      "type": "string",
+      "format": "date"
+    },
+    "labResults": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "vaccinationDoseLotNumberDateAndLocation": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "radiologyReports": {
+      "type": "string"
+    },
+    "ofActiveMedications": {
+      "type": "string"
+    },
+    "specificClinics": {
+      "type": "string"
+    },
+    "operativeClinicalProcedures": {
+      "type": "string"
+    },
+    "listOfActiveMedications": {
+      "type": "string"
+    },
+    "otherDescribe": {
+      "type": "string"
+    },
+    "describeOtherLine1Of2": {
+      "type": "string"
+    },
+    "describeOtherLine2Of2": {
+      "type": "string"
+    },
+    "inpatientDischargeSummary": {
+      "type": "string"
+    },
+    "mailTo": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "lastNameFirstNameMiddleName": {
+      "type": "string"
+    },
+    "seePrivacyActInformationAboveToDepartmentOfVeteransAffairsNameAndLocationOfTheVAHealthCareFacility": {
+      "type": "string"
+    },
+    "legalHealthRecordsForTorts": {
+      "type": "string"
+    },
+    "specificProviders": {
+      "type": "string"
+    },
+    "specificTests": {
+      "type": "string"
+    },
+    "vaccination": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%20Form%2010-5345a%20Fill-revision.pdf",
+    "totalFields": 43,
+    "composedFields": 28,
+    "coveragePercent": 65,
+    "xfaLabelCount": 40,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:21:25.925Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

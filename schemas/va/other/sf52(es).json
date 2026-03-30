@@ -1,0 +1,402 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SF52(ES)",
+  "type": "object",
+  "properties": {
+    "agencyName": {
+      "type": "string",
+      "description": "Agency name"
+    },
+    "agencyCode": {
+      "type": "string",
+      "description": "Agency code"
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Effective date"
+    },
+    "employeeName": {
+      "type": "string",
+      "description": "Employee name"
+    },
+    "employeeNumber": {
+      "type": "string",
+      "description": "Employee number"
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "description": "Social Security Number"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "dateOfAppointment": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of appointment"
+    },
+    "currentPosition": {
+      "type": "string",
+      "description": "Current position title"
+    },
+    "currentGrade": {
+      "type": "string",
+      "description": "Current grade"
+    },
+    "currentStep": {
+      "type": "string",
+      "description": "Current step"
+    },
+    "currentSalary": {
+      "type": "number",
+      "description": "Current salary"
+    },
+    "currentDutyStation": {
+      "type": "string",
+      "description": "Current duty station"
+    },
+    "newPosition": {
+      "type": "string",
+      "description": "New position title"
+    },
+    "newGrade": {
+      "type": "string",
+      "description": "New grade"
+    },
+    "newStep": {
+      "type": "string",
+      "description": "New step"
+    },
+    "newSalary": {
+      "type": "number",
+      "description": "New salary"
+    },
+    "newDutyStation": {
+      "type": "string",
+      "description": "New duty station"
+    },
+    "typeOfAction": {
+      "type": "string",
+      "description": "Type of action"
+    },
+    "promotionType": {
+      "type": "string",
+      "description": "Promotion type"
+    },
+    "performanceRating": {
+      "type": "string",
+      "description": "Performance rating"
+    },
+    "serviceRecognition": {
+      "type": "boolean",
+      "description": "Service recognition"
+    },
+    "yearsOfService": {
+      "type": "string",
+      "description": "Years of service"
+    },
+    "previousAgency": {
+      "type": "string",
+      "description": "Previous agency"
+    },
+    "previousPosition": {
+      "type": "string",
+      "description": "Previous position"
+    },
+    "previousGrade": {
+      "type": "string",
+      "description": "Previous grade"
+    },
+    "creditableService": {
+      "type": "string",
+      "description": "Creditable service"
+    },
+    "debtLimitAdjustment": {
+      "type": "boolean",
+      "description": "Debt limit adjustment"
+    },
+    "adjustedAmount": {
+      "type": "number",
+      "description": "Adjusted amount"
+    },
+    "retirementPlan": {
+      "type": "string",
+      "description": "Retirement plan"
+    },
+    "retirementAccount": {
+      "type": "string",
+      "description": "Retirement account number"
+    },
+    "thriftSavingsPlan": {
+      "type": "boolean",
+      "description": "Thrift savings plan"
+    },
+    "tspaAccountNumber": {
+      "type": "string",
+      "description": "TSP account number"
+    },
+    "healthInsurance": {
+      "type": "boolean",
+      "description": "Health insurance election"
+    },
+    "healthPlan": {
+      "type": "string",
+      "description": "Health plan selected"
+    },
+    "lifeInsurance": {
+      "type": "boolean",
+      "description": "Life insurance election"
+    },
+    "lifeInsuranceAmount": {
+      "type": "number",
+      "description": "Life insurance amount"
+    },
+    "travelAuth": {
+      "type": "boolean",
+      "description": "Travel authorized"
+    },
+    "travelAuthExpiration": {
+      "type": "string",
+      "format": "date",
+      "description": "Travel auth expiration"
+    },
+    "flexibleWorkSchedule": {
+      "type": "boolean",
+      "description": "Flexible work schedule"
+    },
+    "teleworkApproved": {
+      "type": "boolean",
+      "description": "Telework approved"
+    },
+    "teleworkDays": {
+      "type": "string",
+      "description": "Telework days per week"
+    },
+    "securityClearance": {
+      "type": "string",
+      "description": "Security clearance level"
+    },
+    "clearanceExpiration": {
+      "type": "string",
+      "format": "date",
+      "description": "Clearance expiration"
+    },
+    "backgroundInvestigation": {
+      "type": "string",
+      "description": "Background investigation type"
+    },
+    "polygraphTest": {
+      "type": "boolean",
+      "description": "Polygraph test required"
+    },
+    "medicalExamination": {
+      "type": "boolean",
+      "description": "Medical examination required"
+    },
+    "physicalFitnessTest": {
+      "type": "boolean",
+      "description": "Physical fitness test"
+    },
+    "trainingRequired": {
+      "type": "boolean",
+      "description": "Training required"
+    },
+    "trainingDescription": {
+      "type": "string",
+      "description": "Training description"
+    },
+    "supervisorName": {
+      "type": "string",
+      "description": "Supervisor name"
+    },
+    "supervisorTitle": {
+      "type": "string",
+      "description": "Supervisor title"
+    },
+    "directorName": {
+      "type": "string",
+      "description": "Director name"
+    },
+    "directorTitle": {
+      "type": "string",
+      "description": "Director title"
+    },
+    "personnelOfficerName": {
+      "type": "string",
+      "description": "Personnel officer name"
+    },
+    "personnelOfficerTitle": {
+      "type": "string",
+      "description": "Personnel officer title"
+    },
+    "payrollOfficer": {
+      "type": "string",
+      "description": "Payroll officer name"
+    },
+    "payrollOfficerTitle": {
+      "type": "string",
+      "description": "Payroll officer title"
+    },
+    "medicalOfficer": {
+      "type": "string",
+      "description": "Medical officer name"
+    },
+    "securityOfficer": {
+      "type": "string",
+      "description": "Security officer name"
+    },
+    "trainingOfficer": {
+      "type": "string",
+      "description": "Training officer name"
+    },
+    "benefitsOfficer": {
+      "type": "string",
+      "description": "Benefits officer name"
+    },
+    "budgetCode": {
+      "type": "string",
+      "description": "Budget code"
+    },
+    "costCenter": {
+      "type": "string",
+      "description": "Cost center"
+    },
+    "accountCode": {
+      "type": "string",
+      "description": "Account code"
+    },
+    "fundingSource": {
+      "type": "string",
+      "description": "Funding source"
+    },
+    "appropriation": {
+      "type": "string",
+      "description": "Appropriation"
+    },
+    "authorityReference": {
+      "type": "string",
+      "description": "Authority reference"
+    },
+    "relocationAllowance": {
+      "type": "number",
+      "description": "Relocation allowance"
+    },
+    "settlementCosts": {
+      "type": "number",
+      "description": "Settlement costs"
+    },
+    "temporaryDutyAllowance": {
+      "type": "number",
+      "description": "Temporary duty allowance"
+    },
+    "continuousServiceBonus": {
+      "type": "boolean",
+      "description": "Continuous service bonus"
+    },
+    "incentiveAward": {
+      "type": "boolean",
+      "description": "Incentive award"
+    },
+    "awardAmount": {
+      "type": "number",
+      "description": "Award amount"
+    },
+    "payHistoryRequested": {
+      "type": "boolean",
+      "description": "Pay history requested"
+    },
+    "employmentHistoryRequested": {
+      "type": "boolean",
+      "description": "Employment history requested"
+    },
+    "referenceContactsProvided": {
+      "type": "boolean",
+      "description": "Reference contacts provided"
+    },
+    "backgroundCheckWaived": {
+      "type": "boolean",
+      "description": "Background check waived"
+    },
+    "waiverReason": {
+      "type": "string",
+      "description": "Waiver reason"
+    },
+    "approverSignature": {
+      "type": "boolean",
+      "description": "Approver signature"
+    },
+    "approvalDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Approval date"
+    },
+    "effectivenessDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Effectiveness date"
+    },
+    "classificationDetails": {
+      "type": "string",
+      "description": "Classification details"
+    },
+    "performanceGoals": {
+      "type": "string",
+      "description": "Performance goals"
+    },
+    "developmentPlan": {
+      "type": "string",
+      "description": "Development plan"
+    },
+    "mentorship": {
+      "type": "boolean",
+      "description": "Mentorship provided"
+    },
+    "successorsIdentified": {
+      "type": "boolean",
+      "description": "Successors identified"
+    },
+    "retirementPlanning": {
+      "type": "boolean",
+      "description": "Retirement planning discussed"
+    },
+    "careerCounseling": {
+      "type": "boolean",
+      "description": "Career counseling provided"
+    },
+    "specialAssignments": {
+      "type": "string",
+      "description": "Special assignments"
+    },
+    "projectsLed": {
+      "type": "string",
+      "description": "Projects led"
+    },
+    "additionalResponsibilities": {
+      "type": "string",
+      "description": "Additional responsibilities"
+    },
+    "additionalComments": {
+      "type": "string",
+      "description": "Additional comments"
+    },
+    "verificationStatement": {
+      "type": "string",
+      "description": "Verification statement"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/SF52(ES).pdf",
+    "totalFields": 104,
+    "composedFields": 104,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 5,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

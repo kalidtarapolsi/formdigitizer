@@ -1,0 +1,320 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10176",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "startDateMmddyyyyRow1": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow1": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow2": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow2": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow3": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow3": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow4": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow4": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow5": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow5": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow12": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow12": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow22": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow22": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow32": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow32": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow42": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow42": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow52": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow52": {
+      "type": "string",
+      "format": "date"
+    },
+    "startDateMmddyyyyRow6": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDateMmddyyyyRow6": {
+      "type": "string",
+      "format": "date"
+    },
+    "maritalStatus1Married2Divorced3Separated4Widowed5SingleNeverMarried6Other": {
+      "type": "string"
+    },
+    "militaryOccupationsRow1": {
+      "type": "string"
+    },
+    "militaryOccupationsRow2": {
+      "type": "string"
+    },
+    "militaryOccupationsRow3": {
+      "type": "string"
+    },
+    "militaryOccupationsRow4": {
+      "type": "string"
+    },
+    "militaryOccupationsRow5": {
+      "type": "string"
+    },
+    "militaryOccupationsRow6": {
+      "type": "string"
+    },
+    "sex": {
+      "type": "string"
+    },
+    "branchOfServiceRow1": {
+      "type": "string"
+    },
+    "remarksDeployedToRow1": {
+      "type": "string"
+    },
+    "branchOfServiceRow2": {
+      "type": "string"
+    },
+    "remarksDeployedToRow2": {
+      "type": "string"
+    },
+    "branchOfServiceRow3": {
+      "type": "string"
+    },
+    "remarksDeployedToRow3": {
+      "type": "string"
+    },
+    "branchOfServiceRow4": {
+      "type": "string"
+    },
+    "remarksDeployedToRow4": {
+      "type": "string"
+    },
+    "branchOfServiceRow5": {
+      "type": "string"
+    },
+    "remarksDeployedToRow5": {
+      "type": "string"
+    },
+    "1Observer2Proxy3SelfIdentification4UnknownRow1": {
+      "type": "string"
+    },
+    "1Observer2Proxy3SelfIdentification4UnknownRow2": {
+      "type": "string"
+    },
+    "1Observer2Proxy3SelfIdentification4UnknownRow3": {
+      "type": "string"
+    },
+    "1Observer2Proxy3SelfIdentification4UnknownRow4": {
+      "type": "string"
+    },
+    "1Observer2Proxy3SelfIdentification4UnknownRow5": {
+      "type": "string"
+    },
+    "1Observer2Proxy3SelfIdentification4UnknownRow6": {
+      "type": "string"
+    },
+    "exposureCodeRow1": {
+      "type": "string"
+    },
+    "serviceLocationRow1": {
+      "type": "string"
+    },
+    "locationDescriptionRow1": {
+      "type": "string"
+    },
+    "exposureCodeRow2": {
+      "type": "string"
+    },
+    "serviceLocationRow2": {
+      "type": "string"
+    },
+    "locationDescriptionRow2": {
+      "type": "string"
+    },
+    "exposureCodeRow3": {
+      "type": "string"
+    },
+    "serviceLocationRow3": {
+      "type": "string"
+    },
+    "locationDescriptionRow3": {
+      "type": "string"
+    },
+    "exposureCodeRow4": {
+      "type": "string"
+    },
+    "serviceLocationRow4": {
+      "type": "string"
+    },
+    "locationDescriptionRow4": {
+      "type": "string"
+    },
+    "exposureCodeRow5": {
+      "type": "string"
+    },
+    "serviceLocationRow5": {
+      "type": "string"
+    },
+    "locationDescriptionRow5": {
+      "type": "string"
+    },
+    "exposureCodeRow6": {
+      "type": "string"
+    },
+    "serviceLocationRow6": {
+      "type": "string"
+    },
+    "locationDescriptionRow6": {
+      "type": "string"
+    },
+    "shrapnelInjuriesWithRetainedFragmentsYYesNNo": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-10176.pdf",
+    "totalFields": 81,
+    "composedFields": 56,
+    "coveragePercent": 69,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:14:33.461Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

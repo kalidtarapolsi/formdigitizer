@@ -1,0 +1,297 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8712",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "condition30": {
+      "type": "string"
+    },
+    "condition29": {
+      "type": "string"
+    },
+    "condition28": {
+      "type": "string"
+    },
+    "condition27": {
+      "type": "string"
+    },
+    "condition26": {
+      "type": "string"
+    },
+    "condition25": {
+      "type": "string"
+    },
+    "condition24": {
+      "type": "string"
+    },
+    "condition23": {
+      "type": "string"
+    },
+    "condition21": {
+      "type": "string"
+    },
+    "condition22": {
+      "type": "string"
+    },
+    "condition20": {
+      "type": "string"
+    },
+    "condition19": {
+      "type": "string"
+    },
+    "condition18": {
+      "type": "string"
+    },
+    "condition17": {
+      "type": "string"
+    },
+    "condition16": {
+      "type": "string"
+    },
+    "condition15": {
+      "type": "string"
+    },
+    "condition14": {
+      "type": "string"
+    },
+    "condition13": {
+      "type": "string"
+    },
+    "condition12": {
+      "type": "string"
+    },
+    "condition11": {
+      "type": "string"
+    },
+    "condition10": {
+      "type": "string"
+    },
+    "condition9": {
+      "type": "string"
+    },
+    "condition8": {
+      "type": "string"
+    },
+    "condition7": {
+      "type": "string"
+    },
+    "condition6": {
+      "type": "string"
+    },
+    "condition5": {
+      "type": "string"
+    },
+    "condition4": {
+      "type": "string"
+    },
+    "condition3": {
+      "type": "string"
+    },
+    "condition2": {
+      "type": "string"
+    },
+    "condition1": {
+      "type": "string"
+    },
+    "multispecify": {
+      "type": "string"
+    },
+    "ifPresently": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "loanNumber": {
+      "type": "string"
+    },
+    "locationOfManufactured": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "modelNumber": {
+      "type": "string"
+    },
+    "serialNumber": {
+      "type": "string"
+    },
+    "length": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "single": {
+      "type": "string"
+    },
+    "multi": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "unable": {
+      "type": "string"
+    },
+    "occupied": {
+      "type": "string"
+    },
+    "vacant": {
+      "type": "string"
+    },
+    "cost1": {
+      "type": "string"
+    },
+    "cost2": {
+      "type": "string"
+    },
+    "cost3": {
+      "type": "string"
+    },
+    "cost4": {
+      "type": "string"
+    },
+    "cost5": {
+      "type": "string"
+    },
+    "cost6": {
+      "type": "string"
+    },
+    "cost7": {
+      "type": "string"
+    },
+    "cost8": {
+      "type": "string"
+    },
+    "cost9": {
+      "type": "string"
+    },
+    "cost10": {
+      "type": "string"
+    },
+    "cost11": {
+      "type": "string"
+    },
+    "cost12": {
+      "type": "string"
+    },
+    "cost13": {
+      "type": "string"
+    },
+    "cost14": {
+      "type": "string"
+    },
+    "cost15": {
+      "type": "string"
+    },
+    "cost16": {
+      "type": "string"
+    },
+    "cost17": {
+      "type": "string"
+    },
+    "cost18": {
+      "type": "string"
+    },
+    "cost19": {
+      "type": "string"
+    },
+    "cost20": {
+      "type": "string"
+    },
+    "cost21": {
+      "type": "string"
+    },
+    "cost22": {
+      "type": "string"
+    },
+    "cost23": {
+      "type": "string"
+    },
+    "cost24": {
+      "type": "string"
+    },
+    "cost25": {
+      "type": "string"
+    },
+    "cost26": {
+      "type": "string"
+    },
+    "cost27": {
+      "type": "string"
+    },
+    "cost28": {
+      "type": "string"
+    },
+    "cost29": {
+      "type": "string"
+    },
+    "cost30": {
+      "type": "string"
+    },
+    "additional": {
+      "type": "string"
+    },
+    "totalCost": {
+      "type": "string"
+    },
+    "emergency": {
+      "type": "string"
+    },
+    "smoke": {
+      "type": "string"
+    },
+    "twoexit": {
+      "type": "string"
+    },
+    "physicalLife": {
+      "type": "string"
+    },
+    "nameOfbook": {
+      "type": "string"
+    },
+    "asis": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "retailBookValue": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8712-are.pdf",
+    "status": "digitized",
+    "totalFields": 94,
+    "composedFields": 33,
+    "coveragePercent": 35,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:33:34.431Z"
+  }
+}

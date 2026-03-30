@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FL-10-215",
+  "type": "object",
+  "properties": {
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "thisCardIsFurnishedAsInitialIssue": {
+      "type": "string"
+    },
+    "replacementForALostOrDestroyedCard": {
+      "type": "string"
+    },
+    "replacementBeca": {
+      "type": "string"
+    },
+    "routineReplacementBeca": {
+      "type": "string"
+    },
+    "field_form1_0___subform_0__CheckBox5_0_": {
+      "type": "string"
+    },
+    "uponPresentationOfThisCardAtAnyCommercialRepairShopOrVAOrthoticsLaboratoryInAnySectionOfTheUnitedStatesOrPuertoRicoYouWillBeEntitledToImmediateRepairServiceToTheEquipmentListedOnTheCardCommercialRepairsAreLimitedTo": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/FL%2010-215-fill.pdf",
+    "totalFields": 7,
+    "composedFields": 1,
+    "coveragePercent": 14,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:32:51.922Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

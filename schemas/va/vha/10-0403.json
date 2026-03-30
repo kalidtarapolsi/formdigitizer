@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0403",
+  "type": "object",
+  "properties": {
+    "qComment": {
+      "type": "string"
+    },
+    "oAnalyticGoalsStudyProtocol": {
+      "type": "string"
+    },
+    "oIRBNotRequired": {
+      "type": "string"
+    },
+    "pRequestApprovalYes": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0403-fill.pdf",
+    "totalFields": 24,
+    "composedFields": 16,
+    "coveragePercent": 67,
+    "xfaLabelCount": 4,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:05:15.786Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

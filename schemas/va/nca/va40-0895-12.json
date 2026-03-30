@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA40-0895-12",
+  "type": "object",
+  "properties": {
+    "nameAndAddressOfCompany": {
+      "type": "string"
+    },
+    "projectFAIFederalApplicationIdentifierNumber": {
+      "type": "string"
+    },
+    "nameOfLowerTierParticipant": {
+      "type": "string"
+    },
+    "titleOfLowerTierParticipant": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-12.pdf",
+    "totalFields": 4,
+    "composedFields": 1,
+    "coveragePercent": 25,
+    "xfaLabelCount": 4,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:24:40.160Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

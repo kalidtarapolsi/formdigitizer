@@ -1,0 +1,465 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-0845",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "veteransLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Veterans Last Name",
+        "widget": "text"
+      }
+    },
+    "veteransMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Veterans Middle Initial",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 V A File Number",
+        "widget": "text"
+      }
+    },
+    "veteransServiceNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Veterans Service Number",
+        "widget": "text"
+      }
+    },
+    "beneficiaryClaimantWhoIsNotTheVeteranFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Beneficiary Claimant Who Is Not The Veteran First Name",
+        "widget": "text"
+      }
+    },
+    "beneficiaryClaimantWhoIsNotTheVeteranLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Beneficiary Claimant Who Is Not The Veteran Last Name",
+        "widget": "text"
+      }
+    },
+    "beneficiaryClaimantWhoIsNotTheVeteranMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Beneficiary Claimant Who Is Not The Veteran Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "emailAddressOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Email Address Optional",
+        "widget": "text"
+      }
+    },
+    "authorizedPersonLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Authorized Person Last Name",
+        "widget": "text"
+      }
+    },
+    "authorizedPersonMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Authorized Person Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "nameOfAuthorizedPersonFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 N A M E O F A U T H O R I Z E D P E R S O N First Name",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "secondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "secondThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Second Three Numbers",
+        "widget": "text"
+      }
+    },
+    "areaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Area Code",
+        "widget": "text"
+      }
+    },
+    "nameOfOrg1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Name of Org1",
+        "widget": "text"
+      }
+    },
+    "nameOfOrg2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Name of Org2",
+        "widget": "text"
+      }
+    },
+    "nameOfOrg3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Name of Org3",
+        "widget": "text"
+      }
+    },
+    "securityQuestionAnswer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform S E C U R I T Y Q U E S T I O N Answer",
+        "widget": "text"
+      }
+    },
+    "checklist12": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Checklist12",
+        "widget": "checkbox"
+      }
+    },
+    "checklist14": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F #subform Checklist14",
+        "widget": "checkbox"
+      }
+    },
+    "radioButtonList11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Radio Button List11",
+        "widget": "text"
+      }
+    },
+    "specifyOther": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Specify Other",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "secondTwoNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F #subform Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "fPage_2CheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 2 Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "fileNumber": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "file number,",
+        "widget": "date"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "nameOfBeneficiaryClaimantWhoIsNotTheVeteranFirst": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF BENEFICIARY/CLAIMANT WHO IS NOT THE VETERAN (First,",
+        "widget": "text"
+      }
+    },
+    "addressOfBeneficiaryClaimantNumberAndStreetOrRural": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF BENEFICIARY/CLAIMANT (Number and Street or rural",
+        "widget": "address"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "veteranSDateOfBirthMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "VETERAN'S DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "veteranSSocialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "VETERAN'S SOCIAL SECURITY NUMBER",
+        "widget": "ssn"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "emailAddressOptional2": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS (Optional)",
+        "widget": "email"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "stateProvincecountryzipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/ProvinceCountryZIP Code/Postal Code",
+        "widget": "select"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "ifYouSelectedLimitedInformationCheckAllThatApply": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YOU SELECTED \"LIMITED INFORMATION\", CHECK ALL THAT APPLY:",
+        "widget": "text"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "specifyTheSecurityQuestionYouWantUsedWhenVerifyingT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPECIFY THE SECURITY QUESTION YOU WANT USED WHEN VERIFYING T",
+        "widget": "text"
+      }
+    },
+    "veteranBeneficiaryClaimantSSignatureRequired": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/BENEFICIARY/CLAIMANT'S SIGNATURE (REQUIRED)",
+        "widget": "signature"
+      }
+    },
+    "ifYouSelectedAnyInformationTheTermsOfSuchRelease": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YOU SELECTED \"ANY INFORMATION\", THE TERMS OF SUCH RELEASE",
+        "widget": "text"
+      }
+    },
+    "iTheVeteranBeneficiaryClaimantAuthorizeVaToContact": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I, THE VETERAN/BENEFICIARY/CLAIMANT AUTHORIZE VA TO CONTACT",
+        "widget": "text"
+      }
+    },
+    "otherSpecifyBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Other (Specify below)",
+        "widget": "text"
+      }
+    },
+    "fromTheDateOfSigningBelowUntilSpecifyDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "From the date of signing below until (Specify Date",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0845-are.pdf",
+    "status": "digitized",
+    "totalFields": 68,
+    "composedFields": 62,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:34:12.791Z",
+    "postProcessedAt": "2026-03-30T20:42:50.085285+00:00",
+    "redigitizedAt": "2026-03-30T20:37:46.478Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

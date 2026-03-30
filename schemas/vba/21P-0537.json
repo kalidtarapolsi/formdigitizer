@@ -1,0 +1,223 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0537",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page1 Date Field1",
+        "widget": "text"
+      }
+    },
+    "terminationReason": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T E R M I N A T I O N R E A S O N",
+        "widget": "text"
+      }
+    },
+    "veteransSocialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "veteransSocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "veteransSocialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "veteransLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Last Name",
+        "widget": "text"
+      }
+    },
+    "veteransMiddleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "veteransFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans First Name",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "daytime1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Daytime1",
+        "widget": "text"
+      }
+    },
+    "daytime2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Daytime2",
+        "widget": "text"
+      }
+    },
+    "daytime3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Daytime3",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature",
+        "widget": "text"
+      }
+    },
+    "daysOfThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "days of the",
+        "widget": "text"
+      }
+    },
+    "inReplyReferTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "In Reply Refer  To",
+        "widget": "text"
+      }
+    },
+    "ifYou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If you",
+        "widget": "text"
+      }
+    },
+    "contactUsAtAskVa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Contact us at Ask VA",
+        "widget": "text"
+      }
+    },
+    "hereIsWhatToDo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Here is what to do",
+        "widget": "text"
+      }
+    },
+    "5bDateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "5B. DATE SIGNED (",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "1b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "1B.",
+        "widget": "date"
+      }
+    },
+    "eMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "E-MAIL ADDRESS",
+        "widget": "address"
+      }
+    },
+    "ssnor": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSNOR",
+        "widget": "ssn"
+      }
+    },
+    "1dSpouseDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "1D. SPOUSE DATE OF BIRTH (",
+        "widget": "date"
+      }
+    },
+    "2bDateOfTermination": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "2B. DATE OF TERMINATION (",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0537-are.pdf",
+    "status": "digitized",
+    "totalFields": 30,
+    "composedFields": 28,
+    "coveragePercent": 96,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:37:01.039Z",
+    "redigitizedAt": "2026-03-30T20:38:58.192Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

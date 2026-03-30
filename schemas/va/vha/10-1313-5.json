@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1313-5",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name",
+        "widget": "text"
+      }
+    },
+    "nameLocationOfInstitution": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Location of Institution",
+        "widget": "text"
+      }
+    },
+    "degree": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Degree",
+        "widget": "text"
+      }
+    },
+    "yearAward": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Year Award",
+        "widget": "text"
+      }
+    },
+    "interest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Interest",
+        "widget": "text"
+      }
+    },
+    "research": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Research",
+        "widget": "text"
+      }
+    },
+    "honors": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Honors",
+        "widget": "text"
+      }
+    },
+    "nameLocationOfInstitutiondegreeyearAward": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME, LOCATION OF INSTITUTIONDEGREEYEAR AWARD",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-5-fill.pdf",
+    "totalFields": 8,
+    "composedFields": 8,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:46.071Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:26:24.157Z",
+    "extractionSources": [
+      "acroform",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-0788",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameveteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 N A M E V E T E R A N",
+        "widget": "text"
+      }
+    },
+    "nameveteran2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 N A M E V E T E R A N2",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 V A File Number",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Email",
+        "widget": "text"
+      }
+    },
+    "signatureField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Signature Field1",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Remarks",
+        "widget": "text"
+      }
+    },
+    "nameveteran3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 N A M E V E T E R A N",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "filedYourClaimOrALater": {
+      "type": "string",
+      "x-va-field": {
+        "label": "filed your claim (or a later",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH ( MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "yourNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YOUR NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "relationshipToVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RELATIONSHIP TO VETERAN",
+        "widget": "text"
+      }
+    },
+    "yourAddressNumberAndStreetOrRuralRoutePOBoxCi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YOUR ADDRESS (Number and street or rural route, P.O. Box, Ci",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "eMailAddressOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "E-MAIL ADDRESS (Optional)",
+        "widget": "text"
+      }
+    },
+    "personSYouAreRequestingAnApportionmentFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PERSON(S) YOU ARE REQUESTING AN APPORTIONMENT FOR:",
+        "widget": "text"
+      }
+    },
+    "ifAnyPersonListedIn_10aIsTheVeteranSStepchildIsT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF ANY PERSON LISTED IN 10A IS THE VETERAN'S STEPCHILD, IS T",
+        "widget": "text"
+      }
+    },
+    "noIfNoProvideThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NO  (If “NO,” provide the",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "15b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "15B.",
+        "widget": "text"
+      }
+    },
+    "remarksIfAny": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (If any)",
+        "widget": "text"
+      }
+    },
+    "hasTheVeteranSChildRenForWhomTheApportionmentIsC": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS THE VETERAN'S CHILD(REN) FOR WHOM THE APPORTIONMENT IS C",
+        "widget": "text"
+      }
+    },
+    "nameOfFacilityaddressOfFacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF FACILITYADDRESS OF FACILITY",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "form1Page_2RadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Radio Button List",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0788-are.pdf",
+    "status": "digitized",
+    "totalFields": 31,
+    "composedFields": 31,
+    "coveragePercent": 97,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:50.268Z",
+    "redigitizedAt": "2026-03-30T20:38:29.052Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

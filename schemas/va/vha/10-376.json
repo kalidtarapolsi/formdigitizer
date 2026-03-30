@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-376",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 D O B",
+        "widget": "text"
+      }
+    },
+    "drName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Dr Name",
+        "widget": "text"
+      }
+    },
+    "regarding": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Regarding",
+        "widget": "text"
+      }
+    },
+    "procedure": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Procedure",
+        "widget": "text"
+      }
+    },
+    "diagnosis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Diagnosis",
+        "widget": "text"
+      }
+    },
+    "hold": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Hold",
+        "widget": "text"
+      }
+    },
+    "daysPrior": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Days Prior",
+        "widget": "text"
+      }
+    },
+    "daysAfter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Days After",
+        "widget": "text"
+      }
+    },
+    "recommendations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Recommendations",
+        "widget": "text"
+      }
+    },
+    "results": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Results",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Telephone Number",
+        "widget": "text"
+      }
+    },
+    "fax": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Fax",
+        "widget": "text"
+      }
+    },
+    "at": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 At",
+        "widget": "text"
+      }
+    },
+    "dateMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Date (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "dobMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DOB (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "procedure2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Procedure",
+        "widget": "text"
+      }
+    },
+    "with": {
+      "type": "string",
+      "x-va-field": {
+        "label": "With",
+        "widget": "text"
+      }
+    },
+    "relatedToADiagnosisOf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "related to a diagnosis of",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date (",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-376-Cardiac_Pre-Operative_Evaluation_Risk_Stratification_Request%20(1).pdf",
+    "totalFields": 21,
+    "composedFields": 21,
+    "coveragePercent": 95,
+    "xfaLabelCount": 20,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:07:50.551Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:14.251Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

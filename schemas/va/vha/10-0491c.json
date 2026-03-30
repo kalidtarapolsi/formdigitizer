@@ -1,0 +1,244 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491C",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dateTimeField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field1",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform email",
+        "widget": "text"
+      }
+    },
+    "phoneNum": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone Num",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Social Security Number",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "participantSNameLastFirstMi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Participant's Name (Last, First, MI)",
+        "widget": "text"
+      }
+    },
+    "inTheProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "in the Program",
+        "widget": "text"
+      }
+    },
+    "start": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Start",
+        "widget": "text"
+      }
+    },
+    "whatPgyHasBeenCompleted": {
+      "type": "string",
+      "x-va-field": {
+        "label": "What  PGY has been Completed",
+        "widget": "text"
+      }
+    },
+    "nameOfPgyProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of PGY Program",
+        "widget": "text"
+      }
+    },
+    "anticipated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Anticipated",
+        "widget": "text"
+      }
+    },
+    "obligation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Obligation",
+        "widget": "text"
+      }
+    },
+    "addressOfPgyProgramStreetAddressCityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address of PGY Program (Street Address, City, State, and ZIP Code)",
+        "widget": "text"
+      }
+    },
+    "addressIncludeStreetAddressCityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address (Include Street Address, City, State, and ZIP Code)",
+        "widget": "text"
+      }
+    },
+    "scholarshipParticipantSSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Scholarship Participant's Signature",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Email Address",
+        "widget": "text"
+      }
+    },
+    "phoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Phone Number",
+        "widget": "text"
+      }
+    },
+    "clinicalProgramWhileInSchool": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Clinical Program while in school",
+        "widget": "text"
+      }
+    },
+    "addressOfFacilityIncludeStreetAddressCityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address of Facility (Include Street Address, City, State, and ZIP Code)",
+        "widget": "text"
+      }
+    },
+    "dateDegreeConferred": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Date Degree Conferred",
+        "widget": "text"
+      }
+    },
+    "nameOfVaFacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of VA Facility",
+        "widget": "text"
+      }
+    },
+    "myCurrentPositionTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "My Current Position Title",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Phone",
+        "widget": "phone"
+      }
+    },
+    "comments": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Comments",
+        "widget": "text"
+      }
+    },
+    "serviceObligationStartDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Service Obligation Start Date",
+        "widget": "date"
+      }
+    },
+    "gradeAndStep": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade and Step",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Note",
+        "widget": "text"
+      }
+    },
+    "hpspViompspVhvmaesp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HPSP/VIOMPSP/VHVMAESP",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491c-fill%20(Annual%20Deferment).pdf",
+    "totalFields": 31,
+    "composedFields": 31,
+    "coveragePercent": 97,
+    "xfaLabelCount": 13,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:29:03.526Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:48.318Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

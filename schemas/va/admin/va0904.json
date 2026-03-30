@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Position Risk and Sensitivity Level Designation",
+  "type": "object",
+  "properties": {
+    "employeeName": {
+      "type": "string",
+      "description": "Employee's full name"
+    },
+    "employeeTitle": {
+      "type": "string",
+      "description": "Employee's title/position"
+    },
+    "department": {
+      "type": "string",
+      "description": "Department or service"
+    },
+    "vaFacility": {
+      "type": "string",
+      "description": "VA facility"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "supervisorName": {
+      "type": "string",
+      "description": "Supervisor's name"
+    },
+    "supervisorSignature": {
+      "type": "boolean",
+      "description": "Supervisor's signature"
+    },
+    "employeeSignature": {
+      "type": "boolean",
+      "description": "Employee's signature"
+    },
+    "positionTitle": {
+      "type": "string",
+      "description": "Position title"
+    },
+    "positionNumber": {
+      "type": "string",
+      "description": "Position number"
+    },
+    "organizationalUnit": {
+      "type": "string",
+      "description": "Organizational unit"
+    },
+    "riskLevel": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Moderate",
+        "High"
+      ],
+      "description": "Risk level designation"
+    },
+    "sensitivityLevel": {
+      "type": "string",
+      "enum": [
+        "Non-Sensitive",
+        "Moderate Risk",
+        "High Risk",
+        "Special-Sensitive"
+      ],
+      "description": "Sensitivity level"
+    },
+    "backgroundInvestigation": {
+      "type": "string",
+      "description": "Type of background investigation required"
+    },
+    "designatedBy": {
+      "type": "string",
+      "description": "Designated by"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0904.pdf",
+    "totalFields": 16,
+    "composedFields": 16,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 2,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

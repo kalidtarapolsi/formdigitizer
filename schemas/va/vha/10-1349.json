@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1349",
+  "type": "object",
+  "properties": {
+    "date_topmostSubform_0__Page1_0__SOCIAL_WORK_SERVICE___REPORTS_AND_SUMMARIES___COMMENTS____Each_entry_must_be_dated_and_followed_by_the_typed_printed_name_and_signature_of_the_social_worker____0_": {
+      "type": "string",
+      "format": "date"
+    },
+    "imprintFromPatientDataCard": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1349-fill.pdf",
+    "totalFields": 2,
+    "composedFields": 1,
+    "coveragePercent": 50,
+    "xfaLabelCount": 2,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:02:05.648Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

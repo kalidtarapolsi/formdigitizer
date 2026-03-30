@@ -1,0 +1,195 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10272",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "phoneNum": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone Num",
+        "widget": "text"
+      }
+    },
+    "dateField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Field1",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "applicantSNameFirstMiddleInitialLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT'S NAME: (First, Middle Initial, Last Name)",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER:",
+        "widget": "text"
+      }
+    },
+    "nameOfTest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF TEST",
+        "widget": "text"
+      }
+    },
+    "nameOfOrganizationAwardingLicenseOrCertificationIncl": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF ORGANIZATION AWARDING LICENSE OR CERTIFICATION (Incl",
+        "widget": "text"
+      }
+    },
+    "nameOfCourse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF COURSE",
+        "widget": "text"
+      }
+    },
+    "organizationGivingPrepCoursePleaseIncludeAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ORGANIZATION GIVING PREP COURSE (Please include address)",
+        "widget": "text"
+      }
+    },
+    "11aCourseStartDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "11A. COURSE START DATE (",
+        "widget": "text"
+      }
+    },
+    "11bCourseEndDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "11B. COURSE END DATE (",
+        "widget": "text"
+      }
+    },
+    "itemizePrepCourseCostIncludingFeesAttachReceipt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEMIZE PREP COURSE COST INCLUDING FEES (Attach receipt)",
+        "widget": "text"
+      }
+    },
+    "payeeNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAYEE NUMBER (If applicable)",
+        "widget": "text"
+      }
+    },
+    "includeVerificationOfEnrollmentFromYourPrepCoursePro": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INCLUDE VERIFICATION OF ENROLLMENT FROM YOUR PREP COURSE PRO",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "signatureOfApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPLICANT",
+        "widget": "text"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "item_11ShowThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "ITEM 11. Show the",
+        "widget": "date"
+      }
+    },
+    "moreHelp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MORE HELP",
+        "widget": "text"
+      }
+    },
+    "addressesShownBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "addresses shown below.",
+        "widget": "address"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10272-are.pdf",
+    "status": "digitized",
+    "totalFields": 24,
+    "composedFields": 24,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:38:06.685Z",
+    "redigitizedAt": "2026-03-30T20:39:24.455Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

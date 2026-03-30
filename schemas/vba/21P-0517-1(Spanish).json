@@ -1,0 +1,485 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0517-1(Spanish)",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameofVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nameof Veteran",
+        "widget": "text"
+      }
+    },
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Mailing Address",
+        "widget": "text"
+      }
+    },
+    "vafileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "varegionalAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A Regional Address",
+        "widget": "text"
+      }
+    },
+    "nameofSpouse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nameof Spouse",
+        "widget": "text"
+      }
+    },
+    "maritalStatus": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Marital Status",
+        "widget": "checkbox"
+      }
+    },
+    "vafileNumberofother": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Numberofother",
+        "widget": "text"
+      }
+    },
+    "nursingHomeInfo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nursing Home Info",
+        "widget": "text"
+      }
+    },
+    "yourSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Your S S N",
+        "widget": "text"
+      }
+    },
+    "yourSpouseSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Your Spouse S S N",
+        "widget": "text"
+      }
+    },
+    "spouseDob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Spouse D O B",
+        "widget": "text"
+      }
+    },
+    "dateEntered": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered",
+        "widget": "text"
+      }
+    },
+    "dateOfSeparation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Separation",
+        "widget": "text"
+      }
+    },
+    "dateOfDivorceDeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Divorce Death",
+        "widget": "text"
+      }
+    },
+    "amountContributed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Contributed",
+        "widget": "text"
+      }
+    },
+    "fullnameChild1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fullname child1",
+        "widget": "text"
+      }
+    },
+    "fullnameChild2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fullname child2",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D O B",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "childname1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childname1",
+        "widget": "text"
+      }
+    },
+    "childname2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childname2",
+        "widget": "text"
+      }
+    },
+    "childaddress1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childaddress1",
+        "widget": "text"
+      }
+    },
+    "childaddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform childaddress2",
+        "widget": "text"
+      }
+    },
+    "liveswith2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform liveswith2",
+        "widget": "text"
+      }
+    },
+    "liveswith1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform liveswith1",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "source": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Source",
+        "widget": "text"
+      }
+    },
+    "incomeChanged": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Income Changed",
+        "widget": "text"
+      }
+    },
+    "incomeChangedWhen": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Income Changed When",
+        "widget": "text"
+      }
+    },
+    "incomeChangedHow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Income Changed How",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "daytime": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Daytime",
+        "widget": "text"
+      }
+    },
+    "evening": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Evening",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "pensiNMejorDaVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENSIÓN MEJORÁDA (Vetera",
+        "widget": "text"
+      }
+    },
+    "estadoCivilMarqueSoloUnEncacillado": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ESTADO CIVIL (Marque solo un encacillado)",
+        "widget": "text"
+      }
+    },
+    "showThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(SHOW THE",
+        "widget": "text"
+      }
+    },
+    "addressAndTelephoneNumberOfNursingHomePleaseInclude": {
+      "type": "string",
+      "x-va-field": {
+        "label": "address, and telephone number of nursing home (Please include",
+        "widget": "text"
+      }
+    },
+    "zipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ZIP Code)",
+        "widget": "text"
+      }
+    },
+    "recibiUstedOSuConyugeAlgunSueldoOAlgunoDeUstedes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "¿RECIBIÓ USTED O SU CONYUGE ALGUN SUELDO O ALGUNO DE USTEDES",
+        "widget": "text"
+      }
+    },
+    "recibeAlgunOtroBeneficioDeVaComoVeteranoPadreOC": {
+      "type": "string",
+      "x-va-field": {
+        "label": "¿RECIBE ALGUN OTRO BENEFICIO DE VA COMO VETERANO, PADRE O CÓ",
+        "widget": "text"
+      }
+    },
+    "tiempoParaResponder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Tiempo para Responder",
+        "widget": "text"
+      }
+    },
+    "fechaDeCaducidad": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha de caducidad",
+        "widget": "text"
+      }
+    },
+    "siSuMatrimonioTermi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Si su matrimonio termi",
+        "widget": "text"
+      }
+    },
+    "1dFechaDeNacimientoDeSuCNyuge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1D. FECHA DE NACIMIENTO DE SU CÓNYUGE (",
+        "widget": "text"
+      }
+    },
+    "spouseSDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(SPOUSE'S DATE OF BIRTH) (",
+        "widget": "text"
+      }
+    },
+    "2Casado": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(2) CASADO -",
+        "widget": "text"
+      }
+    },
+    "administraciNDeAsuntosAlVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Administración de Asuntos al Vetera",
+        "widget": "text"
+      }
+    },
+    "importante": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANTE",
+        "widget": "text"
+      }
+    },
+    "vetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERA",
+        "widget": "text"
+      }
+    },
+    "fuenteSourceVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FUENTE (SOURCE)VETERA",
+        "widget": "text"
+      }
+    },
+    "cantidadesBrutasMensualesSi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CANTIDADES BRUTAS MENSUALES (Si",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyAmountsIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(GROSS MONTHLY AMOUNTS) (If",
+        "widget": "text"
+      }
+    },
+    "nota": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTA",
+        "widget": "text"
+      }
+    },
+    "if": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(If",
+        "widget": "radio"
+      }
+    },
+    "whenDidTheIncomeChangeShowThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(WHEN DID THE INCOME CHANGE?) (Show the",
+        "widget": "date"
+      }
+    },
+    "receivedAnyNewIncomeOrThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "received any new income or the",
+        "widget": "date"
+      }
+    },
+    "fechasDates": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "FECHAS (DATES) (",
+        "widget": "date"
+      }
+    },
+    "fechasDatesMmDdYyyyFechasDates": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "FECHAS (DATES) (MM/DD/YYYY)FECHAS (DATES) (",
+        "widget": "date"
+      }
+    },
+    "11aFirmaDelVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "11A. FIRMA DEL VETERA",
+        "widget": "radio"
+      }
+    },
+    "oaceptacionFraudulentaDeCualquierPagoQue": {
+      "type": "string",
+      "x-va-field": {
+        "label": "oaceptacion fraudulenta de cualquier pago que",
+        "widget": "radio"
+      }
+    },
+    "11bFechaDeFirmaMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11B. FECHA DE FIRMA (MM/DD/YYYY) (",
+        "widget": "date"
+      }
+    },
+    "gastosMDicosLeaPRrafo_6DeLasInstruccionesDelEvr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GASTOS MÉDICOS (Lea Párrafo 6 de las instrucciones del EVR)",
+        "widget": "text"
+      }
+    },
+    "gastosDeManutencionFamiliarPrivaciNLosProximos_12M": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GASTOS DE MANUTENCION FAMILIAR (PRIVACIÓN) LOS PROXIMOS 12 M",
+        "widget": "text"
+      }
+    },
+    "gastosEducativosYDeRehabilitacionProfesionalDelVetera": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GASTOS EDUCATIVOS Y DE REHABILITACION PROFESIONAL DEL VETERA",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0517-1(spanish)-are.pdf",
+    "status": "digitized",
+    "totalFields": 65,
+    "composedFields": 65,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:32:10.631Z",
+    "redigitizedAt": "2026-03-30T20:36:29.664Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

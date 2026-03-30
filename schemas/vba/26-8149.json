@@ -1,0 +1,1084 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8149",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "totalCostToVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L C O S T T O V E T E R A N",
+        "widget": "text"
+      }
+    },
+    "vaLoanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A Loan Number",
+        "widget": "text"
+      }
+    },
+    "fullNameAndPresentAddressOfVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Full Name And Present Address Of Veteran",
+        "widget": "text"
+      }
+    },
+    "veteransPhoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Phone Number",
+        "widget": "text"
+      }
+    },
+    "nameOfManufacturer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Manufacturer",
+        "widget": "text"
+      }
+    },
+    "years": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Y E A R S",
+        "widget": "text"
+      }
+    },
+    "dateOfReport": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Report",
+        "widget": "text"
+      }
+    },
+    "dateOfNoteSecurityInstrumentOrOtherEvidenceOfObligation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Note Security Instrument Or Other Evidence Of Obligation",
+        "widget": "text"
+      }
+    },
+    "lendersLoanNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lenders Loan Number",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfNearestRelativeNotLivingWithVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name And Address Of Nearest Relative Not Living With Veteran",
+        "widget": "text"
+      }
+    },
+    "checkBoxNotHispanicOrLatino": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Not Hispanic Or Latino",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxHispanicOrLatino": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Hispanic Or Latino",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxAmercianIndianOrAlaskanNative": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Amercian Indian Or Alaskan Native",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxNativeHawaiianOrPacificIslander": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Native Hawaiian Or Pacific Islander",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxAsian": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box A S I A N",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxBlackorafricanamerican": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box B L A C K O R A F R I C A N A M E R I C A N",
+        "widget": "checkbox"
+      }
+    },
+    "initials": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform I N I T I A L S",
+        "widget": "text"
+      }
+    },
+    "checkBoxFemale": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box F E M A L E",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxMale": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box M A L E",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxWhite": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box W H I T E",
+        "widget": "checkbox"
+      }
+    },
+    "months": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M O N T H S",
+        "widget": "text"
+      }
+    },
+    "amountOfLoanUnit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Of Loan U N I T",
+        "widget": "text"
+      }
+    },
+    "interestRateCombinationUnitAndLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Interest Rate C O M B I N A T I O N U N I T A N D L O T",
+        "widget": "text"
+      }
+    },
+    "unit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform U N I T",
+        "widget": "text"
+      }
+    },
+    "lot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L O T",
+        "widget": "text"
+      }
+    },
+    "total": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L",
+        "widget": "text"
+      }
+    },
+    "modelNameNumberAndYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M O D E L N A M E N U M B E R A N D Y E A R",
+        "widget": "text"
+      }
+    },
+    "serialNumberIfKnown": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S E R I A L N U M B E R If known",
+        "widget": "text"
+      }
+    },
+    "sizeLengthWidthSquareFoot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S I Z E Length Width Square foot",
+        "widget": "text"
+      }
+    },
+    "locationOfManufacturedHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L O C A T I O N O F M A N U F A C T U R E D H O M E",
+        "widget": "text"
+      }
+    },
+    "dateOfFinalDisbursement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Final Disbursement",
+        "widget": "text"
+      }
+    },
+    "namesOfPersonsInWhomTitlesWillBeVested": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Names Of Persons In Whom Titles Will Be Vested",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R Specify",
+        "widget": "text"
+      }
+    },
+    "dateOfLeaseholdExpiration": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Leasehold Expiration",
+        "widget": "text"
+      }
+    },
+    "amountOfHazardInsuranceCoverageOnSecurity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Of Hazard Insurance Coverage On Security",
+        "widget": "text"
+      }
+    },
+    "monthlyAmountForTaxesAndInsuranceRenewalIfKnown": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Monthly Amount For Taxes And Insurance Renewal If Known",
+        "widget": "text"
+      }
+    },
+    "annualRealEstateTaxes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Annual Real Estate Taxes",
+        "widget": "text"
+      }
+    },
+    "annualFloodInsurancePremium": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Annual Flood Insurance Premium",
+        "widget": "text"
+      }
+    },
+    "annualMaintenanceAssessment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Annual Maintenance Assessment",
+        "widget": "text"
+      }
+    },
+    "balanceDueIfNoneEnterNone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Balance Due If None Enter None",
+        "widget": "text"
+      }
+    },
+    "monthlyPayment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Monthly Payment",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other",
+        "widget": "text"
+      }
+    },
+    "termsOfLeaseOnRentalSiteMonthlyRental": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Terms Of Lease On Rental Site Monthly Rental",
+        "widget": "text"
+      }
+    },
+    "otherSpecify2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other Specify",
+        "widget": "text"
+      }
+    },
+    "manufacturedHomeUnit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M A N U F A C T U R E D H O M E U N I T",
+        "widget": "text"
+      }
+    },
+    "manufacturedHomeLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M A N U F A C T U R E D H O M E L O T",
+        "widget": "text"
+      }
+    },
+    "costOfNecessarySitePreparation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O S T O F N E C E S S A R Y S I T E P R E P A R A T I O N",
+        "widget": "text"
+      }
+    },
+    "sitePreparation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Site Preparation",
+        "widget": "text"
+      }
+    },
+    "annualTaxes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Annual Taxes",
+        "widget": "text"
+      }
+    },
+    "checkboxNo": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Checkbox N O",
+        "widget": "checkbox"
+      }
+    },
+    "checkboxYes": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Checkbox Y E S",
+        "widget": "checkbox"
+      }
+    },
+    "totalAllowableFeesAndCharges": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L A L L O W A B L E F E E S A N D C H A R G E S",
+        "widget": "text"
+      }
+    },
+    "costOfPhysicalDamageInsurance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O S T O F P H Y S I C A L D A M A G E I N S U R A N C E",
+        "widget": "text"
+      }
+    },
+    "costOfVsiCoverage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O S T O F V S I C O V E R A G E",
+        "widget": "text"
+      }
+    },
+    "transportationFreight": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T R A N S P O R T A T I O N F R E I G H T",
+        "widget": "text"
+      }
+    },
+    "setupCharges": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S E T U P C H A R G E S",
+        "widget": "text"
+      }
+    },
+    "salesTaxLocalAndState": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S A L E S T A X L O C A L A N D S T A T E",
+        "widget": "text"
+      }
+    },
+    "recordingFeesAndDocumentaryStampTaxIfAny": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E C O R D I N G F E E S A N D D O C U M E N T A R Y S T A M P T A X I F A N Y",
+        "widget": "text"
+      }
+    },
+    "totalCostOfManufacturedHomeAndOrLotAndNecessarySitePreparation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L C O S T O F M A N U F A C T U R E D H O M E A N D O R L O T A N D N E C E S S A R Y S I T E P R E P A R A T I O N",
+        "widget": "text"
+      }
+    },
+    "totalCostOfManufacturedHomeAndOrLotAndAllowableFeesAndCharges": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L C O S T O F M A N U F A C T U R E D H O M E A N D O R L O T A N D A L L O W A B L E F E E S A N D C H A R G E S",
+        "widget": "text"
+      }
+    },
+    "totalClosingCosts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L C L O S I N G C O S T S",
+        "widget": "text"
+      }
+    },
+    "creditReport": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C R E D I T R E P O R T",
+        "widget": "text"
+      }
+    },
+    "appraisalFees": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A P P R A I S A L F E E S",
+        "widget": "text"
+      }
+    },
+    "recordingFeesAndTaxesLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E C O R D I N G F E E S A N D T A X E S L O T",
+        "widget": "text"
+      }
+    },
+    "surveyLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S U R V E Y L O T",
+        "widget": "text"
+      }
+    },
+    "titleExaminationAndTitleInsuranceLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T I T L E E X A M I N A T I O N A N D T I T L E I N S U R A N C E L O T",
+        "widget": "text"
+      }
+    },
+    "lendersOriginationFee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L E N D E R S O R I G I N A T I O N F E E",
+        "widget": "text"
+      }
+    },
+    "totalPrepaidItems": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L P R E P A I D I T E M S",
+        "widget": "text"
+      }
+    },
+    "amountOfLoanLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Of Loan Lot",
+        "widget": "text"
+      }
+    },
+    "amountOfLoanTotal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount Of Loan T O T A L",
+        "widget": "text"
+      }
+    },
+    "interestRateUnit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform I N T E R E S T R A T E U N I T",
+        "widget": "text"
+      }
+    },
+    "cash": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C A S H",
+        "widget": "text"
+      }
+    },
+    "otherCredits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R C R E D I T S",
+        "widget": "text"
+      }
+    },
+    "totalCredits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L C R E D I T S",
+        "widget": "text"
+      }
+    },
+    "amountOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A M O U N T O F L O A N",
+        "widget": "text"
+      }
+    },
+    "dateOfFirstPayment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of First Payment",
+        "widget": "text"
+      }
+    },
+    "salesTaxLocalEnterAmount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S A L E S T A X L O C A L E N T E R A M O U N T",
+        "widget": "text"
+      }
+    },
+    "salesTaxStateEnterAmount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S A L E S T A X S T A T E E N T E R A M O U N T",
+        "widget": "text"
+      }
+    },
+    "checkBoxUnitOnlyOrCombinationUnitAndLotLoan": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Unit Only Or Combination Unit And Lot Loan",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxSpouseOfActiveDutyBorrower": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Spouse Of Active Duty Borrower",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxLotOnlyLoan": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Lot Only Loan",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxNewUnitOnlyOrCombinationUnitAndLotLoan": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box New Unit Only Or Combination Unit And Lot Loan",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxVeteranCertificationICertifyThatIHaveNotBeenDischargedOrReleasedFromActiveDutySinceTheDateMyCertificateOfEligibilityWasIssued": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Veteran Certification I Certify That I have Not Been Discharged Or Released From Active Duty Since The Date My Certificate Of Eligibility Was Issued",
+        "widget": "checkbox"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "checkBoxLenderCertificationAnyImprovementsHaveBeenCompletedProperly": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Lender Certification Any Improvements have been completed properly",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxUsedManufacturedHomeIs": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Used Manufactured Home Is",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxTheLotIs": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box The Lot Is",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxNecessarySitePreparationForTheLotIOwnIs": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box Necessary Site Preparation For The Lot I Own Is",
+        "widget": "checkbox"
+      }
+    },
+    "nameAndAddressOfLender": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name And Address Of Lender",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T E L E P H O N E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "titeleOfOfficerOrLender": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T I T E L E O F O F F I C E R O R L E N D E R",
+        "widget": "text"
+      }
+    },
+    "totalCostOfManufacturedHomeAndOrLotAndAllowableFee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL COST OF MANUFACTURED HOME AND/OR LOT AND ALLOWABLE FEE",
+        "widget": "text"
+      }
+    },
+    "feesAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FEES AND",
+        "widget": "text"
+      }
+    },
+    "interestRate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INTEREST RATE",
+        "widget": "text"
+      }
+    },
+    "totalCostToVeteranAddItems_27Through_29ColumnB": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL COST TO VETERAN (Add items 27 through 29, Column B)",
+        "widget": "text"
+      }
+    },
+    "taxAndInsuranceExpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TAX AND INSURANCE EXPENSES",
+        "widget": "text"
+      }
+    },
+    "lotAlreadyOwnedByVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOT ALREADY OWNED BY VETERAN",
+        "widget": "text"
+      }
+    },
+    "fullNameAndPresentAddressOfVeteranIncludeZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FULL NAME AND PRESENT ADDRESS OF VETERAN (Include ZIP Code)",
+        "widget": "address"
+      }
+    },
+    "securityInstrumentOnManufacturedHomeUnitOrCombinatio": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SECURITY INSTRUMENT ON MANUFACTURED HOME (Unit or Combinatio",
+        "widget": "text"
+      }
+    },
+    "dateOfFirstPayment2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF FIRST PAYMENT",
+        "widget": "date"
+      }
+    },
+    "realEstateLienLotOrCombinationLoansOnly": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REAL ESTATE LIEN (Lot or Combination loans only)",
+        "widget": "select"
+      }
+    },
+    "titleInLandWillBe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TITLE IN LAND WILL BE",
+        "widget": "text"
+      }
+    },
+    "dateOfReport2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF REPORT",
+        "widget": "date"
+      }
+    },
+    "nameAndAddressOfNearestRelativeNotLivingWith": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF NEAREST RELATIVE NOT LIVING WITH",
+        "widget": "address"
+      }
+    },
+    "purposeOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PURPOSE OF LOAN",
+        "widget": "text"
+      }
+    },
+    "termsOfLoan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TERMS OF LOAN",
+        "widget": "text"
+      }
+    },
+    "amountOfLoan2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMOUNT OF LOAN",
+        "widget": "text"
+      }
+    },
+    "descriptionOfManufacturedHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DESCRIPTION OF MANUFACTURED HOME",
+        "widget": "text"
+      }
+    },
+    "monthlyPaymentPrincipalAndInterest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MONTHLY PAYMENT (Principal and Interest)",
+        "widget": "text"
+      }
+    },
+    "locationOfManufacturedHomeSiteIncludeNameOfSubdivis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOCATION OF MANUFACTURED HOME SITE (Include name of subdivis",
+        "widget": "text"
+      }
+    },
+    "dateOfNoteSecurityInstrumentOrOtherEvidenceOf": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF NOTE, SECURITY INSTRUMENT OR OTHER EVIDENCE OF",
+        "widget": "date"
+      }
+    },
+    "dateOfFinalDisbursement2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF FINAL DISBURSEMENT",
+        "widget": "date"
+      }
+    },
+    "nameSOfPersonSInWhom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME(S) OF PERSON(S) IN WHOM",
+        "widget": "text"
+      }
+    },
+    "showExpiration": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(Show expiration",
+        "widget": "date"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "termsOfLeaseOnRentalSite": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TERMS OF LEASE ON RENTAL SITE",
+        "widget": "text"
+      }
+    },
+    "costOf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COST OF",
+        "widget": "text"
+      }
+    },
+    "closingCosts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLOSING COSTS",
+        "widget": "text"
+      }
+    },
+    "totalPrepaidItemsSeeInstructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL PREPAID ITEMS (See Instructions)",
+        "widget": "text"
+      }
+    },
+    "amountOfLoanItem_30LessItem_31ColumnB": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMOUNT OF LOAN (Item 30 less Item 31, Column B)",
+        "widget": "text"
+      }
+    },
+    "credits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CREDITS",
+        "widget": "text"
+      }
+    },
+    "asAGiHomeLoanBorrowerIWillBeLegallyObligatedToMa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "As a GI home loan borrower I will be legally obligated to ma",
+        "widget": "text"
+      }
+    },
+    "iTheUndersignedVeteranCertifyThat": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I, THE UNDERSIGNED VETERAN, CERTIFY THAT",
+        "widget": "text"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "signatureOfVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VETERAN",
+        "widget": "signature"
+      }
+    },
+    "iTheUndersignedLenderCertifyThat": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I, THE UNDERSIGNED LENDER, CERTIFY THAT:",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED",
+        "widget": "date"
+      }
+    },
+    "nameAndAddressOfLenderIncludeZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF LENDER (Include ZIP Code)",
+        "widget": "address"
+      }
+    },
+    "telephoneNoIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NO. (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "signatureAndTitleOfOfficerOrLender": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE AND TITLE OF OFFICER OR LENDER",
+        "widget": "signature"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "inAllCasesTheLenderMustSubmitAsSupportingExhibits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "In ALL cases the lender must submit as supporting exhibits",
+        "widget": "text"
+      }
+    },
+    "fromTheVaFormWebsiteAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "from the VA form website at",
+        "widget": "text"
+      }
+    },
+    "fromTheVaFormsWebsiteAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "from the VA forms website at",
+        "widget": "text"
+      }
+    },
+    "unitOnlyInRespectToSiteApproval": {
+      "type": "string",
+      "x-va-field": {
+        "label": "UNIT ONLY: In respect to site approval:",
+        "widget": "text"
+      }
+    },
+    "rentalParkInspectedAndApprovedByVa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "rental park inspected and approved by VA,",
+        "widget": "radio"
+      }
+    },
+    "veteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "veteran,",
+        "widget": "radio"
+      }
+    },
+    "unitOnlyOrCombinationUnitAndLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "UNIT ONLY OR COMBINATION UNIT AND LOT",
+        "widget": "text"
+      }
+    },
+    "representativeOfTheManufacturer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "representative of the manufacturer",
+        "widget": "text"
+      }
+    },
+    "lotOnlyOrCombinationUnitAndLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOT ONLY OR COMBINATION UNIT AND LOT:",
+        "widget": "text"
+      }
+    },
+    "lotOnlyCopyOfTitleToManufacturedHomeUnitToBe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOT ONLY: Copy of title to manufactured home unit to be",
+        "widget": "text"
+      }
+    },
+    "following": {
+      "type": "string",
+      "x-va-field": {
+        "label": "following",
+        "widget": "text"
+      }
+    },
+    "andCombinationUnitAndLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AND COMBINATION UNIT AND LOT",
+        "widget": "text"
+      }
+    },
+    "aNewManufacturedHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "A. New Manufactured Home",
+        "widget": "text"
+      }
+    },
+    "including": {
+      "type": "string",
+      "x-va-field": {
+        "label": "including",
+        "widget": "text"
+      }
+    },
+    "usedManufacturedHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Used Manufactured Home",
+        "widget": "text"
+      }
+    },
+    "bLot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "B. Lot",
+        "widget": "text"
+      }
+    },
+    "cNecessarySitePreparation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "C. Necessary Site Preparation",
+        "widget": "text"
+      }
+    },
+    "theVeteranAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "the veteran and",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8149-are.pdf",
+    "status": "digitized",
+    "totalFields": 151,
+    "composedFields": 150,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:33:12.739Z",
+    "redigitizedAt": "2026-03-30T20:37:13.694Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

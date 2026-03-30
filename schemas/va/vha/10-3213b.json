@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-3213B",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "priorityacceptedByAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIORITYACCEPTED BY AND",
+        "widget": "text"
+      }
+    },
+    "39_41Release": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(39-41) RELEASE",
+        "widget": "text"
+      }
+    },
+    "signatureOfApprovingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPROVING OFFICIAL",
+        "widget": "text"
+      }
+    },
+    "signatureOfRequester": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF REQUESTER",
+        "widget": "text"
+      }
+    },
+    "dateemployeeSNamehours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATEEMPLOYEE'S NAMEHOURS",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32611": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32611",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32612": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32612",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32615": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32615",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32616": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32616",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32613": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32613",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32614": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32614",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32618": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32618",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32617": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32617",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox41": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box41",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformTextField326110": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field326110",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField32619": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field32619",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-3213b-fill.pdf",
+    "totalFields": 16,
+    "composedFields": 16,
+    "coveragePercent": 31,
+    "xfaLabelCount": 8,
+    "needsReviewCount": 11,
+    "generatedAt": "2026-03-28T21:32:24.306Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:09.305Z",
+    "extractionSources": [
+      "acroform+text-inference",
+      "acroform"
+    ]
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0514-1",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "namefml": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform namefml",
+        "widget": "text"
+      }
+    },
+    "parentname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform parentname",
+        "widget": "text"
+      }
+    },
+    "vafile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform vafile",
+        "widget": "text"
+      }
+    },
+    "parentaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform parentaddress",
+        "widget": "text"
+      }
+    },
+    "vaaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform vaaddress",
+        "widget": "text"
+      }
+    },
+    "maritalStatus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform Marital Status",
+        "widget": "text"
+      }
+    },
+    "otherbenefit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform otherbenefit",
+        "widget": "text"
+      }
+    },
+    "nursinghome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform nursinghome",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform D O B",
+        "widget": "text"
+      }
+    },
+    "dateSeparation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform Date Separation",
+        "widget": "text"
+      }
+    },
+    "dateDeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform Date Death",
+        "widget": "text"
+      }
+    },
+    "dateEnteredHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform Date Entered Home",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "otheryou6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform otheryou6",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "otheryour6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform otheryour6",
+        "widget": "text"
+      }
+    },
+    "changed7d1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform changed7d1",
+        "widget": "text"
+      }
+    },
+    "when7e1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform when7e1",
+        "widget": "text"
+      }
+    },
+    "how7f1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform how7f1",
+        "widget": "text"
+      }
+    },
+    "changed7d2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform changed7d2",
+        "widget": "text"
+      }
+    },
+    "when7e2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform when7e2",
+        "widget": "text"
+      }
+    },
+    "how7f2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform how7f2",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vba2105141 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "maritalStatus2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MARITAL STATUS",
+        "widget": "text"
+      }
+    },
+    "isTheOtherParentOfTheVeteranLiving": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS THE OTHER PARENT OF THE VETERAN LIVING?",
+        "widget": "text"
+      }
+    },
+    "4bShowThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4B. SHOW THE",
+        "widget": "text"
+      }
+    },
+    "wereYouOrYourSpouseEmployedAtAnyTimeDuringThe_12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WERE YOU OR YOUR SPOUSE EMPLOYED AT ANY TIME DURING THE 12",
+        "widget": "text"
+      }
+    },
+    "monthPeriodPrecedingThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MONTH PERIOD PRECEDING THE",
+        "widget": "text"
+      }
+    },
+    "doYouReceiveAnyOtherVaBenefitsAsAVeteranParentO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU RECEIVE ANY OTHER VA BENEFITS AS A VETERAN, PARENT, O",
+        "widget": "text"
+      }
+    },
+    "dateOfSpouseSDeathMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of spouse's death (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "1cYour": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "1C. YOUR",
+        "widget": "date"
+      }
+    },
+    "mmDdYyyy_1dYourSpouseSDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(MM/DD/YYYY)1D. YOUR SPOUSE'S DATE OF BIRTH (",
+        "widget": "date"
+      }
+    },
+    "dateOfDivorceMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of divorce (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "medicalExpensesReadParagraph_6OfTheEvrInstructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MEDICAL EXPENSES (Read Paragraph 6 of the EVR Instructions)",
+        "widget": "text"
+      }
+    },
+    "showThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(Show the",
+        "widget": "date"
+      }
+    },
+    "incomeOrThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "income or the",
+        "widget": "date"
+      }
+    },
+    "if": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(If",
+        "widget": "radio"
+      }
+    },
+    "grossMonthlyAmountsIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GROSS MONTHLY AMOUNTS (If",
+        "widget": "radio"
+      }
+    },
+    "socialSecurity": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY",
+        "widget": "ssn"
+      }
+    },
+    "dates": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATES (",
+        "widget": "date"
+      }
+    },
+    "from": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FROM",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0514-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 43,
+    "composedFields": 43,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:04.339Z",
+    "redigitizedAt": "2026-03-30T20:37:41.165Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

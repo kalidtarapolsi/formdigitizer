@@ -1,0 +1,440 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1839",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "first": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform First",
+        "widget": "checkbox"
+      }
+    },
+    "second": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Second",
+        "widget": "checkbox"
+      }
+    },
+    "third": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Third",
+        "widget": "checkbox"
+      }
+    },
+    "first2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform First2",
+        "widget": "checkbox"
+      }
+    },
+    "reinspections": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform R E I N S P E C T I O N S",
+        "widget": "checkbox"
+      }
+    },
+    "special": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform S P E C I A L",
+        "widget": "checkbox"
+      }
+    },
+    "a": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform A",
+        "widget": "checkbox"
+      }
+    },
+    "b": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform B",
+        "widget": "checkbox"
+      }
+    },
+    "c": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform C",
+        "widget": "checkbox"
+      }
+    },
+    "d": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform D",
+        "widget": "checkbox"
+      }
+    },
+    "e": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform E",
+        "widget": "checkbox"
+      }
+    },
+    "reportA": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Report A",
+        "widget": "checkbox"
+      }
+    },
+    "reportB": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Report B",
+        "widget": "checkbox"
+      }
+    },
+    "caseNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Case Number",
+        "widget": "text"
+      }
+    },
+    "propertyId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Property I D",
+        "widget": "text"
+      }
+    },
+    "lenderInfo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lender Info",
+        "widget": "text"
+      }
+    },
+    "nameofBuilder": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nameof Builder",
+        "widget": "text"
+      }
+    },
+    "reinspections1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E I N S P E C T I O N S1",
+        "widget": "text"
+      }
+    },
+    "special1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S P E C I A L1",
+        "widget": "text"
+      }
+    },
+    "itemized1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemized1",
+        "widget": "text"
+      }
+    },
+    "itemized2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemized2",
+        "widget": "text"
+      }
+    },
+    "itemized3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemized3",
+        "widget": "text"
+      }
+    },
+    "itemized4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemized4",
+        "widget": "text"
+      }
+    },
+    "itemized5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemized5",
+        "widget": "text"
+      }
+    },
+    "itemized6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemized6",
+        "widget": "text"
+      }
+    },
+    "itemize7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemize7",
+        "widget": "text"
+      }
+    },
+    "reinspectRequired": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Reinspect Required",
+        "widget": "checkbox"
+      }
+    },
+    "describeAs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Describe As",
+        "widget": "text"
+      }
+    },
+    "describeAs2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Describe As2",
+        "widget": "text"
+      }
+    },
+    "define1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Define1",
+        "widget": "text"
+      }
+    },
+    "define2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Define2",
+        "widget": "text"
+      }
+    },
+    "estimatedCost": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Estimated Cost",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature",
+        "widget": "text"
+      }
+    },
+    "signatureofChief": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signatureof Chief",
+        "widget": "text"
+      }
+    },
+    "dropDownList1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Drop Down List1",
+        "widget": "select"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date2",
+        "widget": "text"
+      }
+    },
+    "dateOfCompletion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Completion",
+        "widget": "text"
+      }
+    },
+    "continu": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O N T I N U",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "itemizedAndDescribedAsFollows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEMIZED AND DESCRIBED AS FOLLOWS",
+        "widget": "text"
+      }
+    },
+    "reinspectionOfWorkPreviouslyInspectedAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REINSPECTION OF WORK PREVIOUSLY INSPECTED AT",
+        "widget": "text"
+      }
+    },
+    "asFollows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AS FOLLOWS",
+        "widget": "text"
+      }
+    },
+    "inspectionOfOffsiteImprovements": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSPECTION OF OFFSITE IMPROVEMENTS",
+        "widget": "text"
+      }
+    },
+    "signatureOfDesignatedComplianceInspector": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF DESIGNATED COMPLIANCE INSPECTOR",
+        "widget": "signature"
+      }
+    },
+    "certificationICertifyThatIHaveCarefullyInspectedTh": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION - I CERTIFY THAT I have carefully inspected th",
+        "widget": "text"
+      }
+    },
+    "signatureOfValuationOfficerOrDesignee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VALUATION OFFICER, OR DESIGNEE",
+        "widget": "signature"
+      }
+    },
+    "estimatedCostOfIncompleteOnsiteWorkAsReportedAtThir": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ESTIMATED COST OF INCOMPLETE ONSITE WORK AS REPORTED AT THIR",
+        "widget": "text"
+      }
+    },
+    "probable": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "PROBABLE",
+        "widget": "date"
+      }
+    },
+    "asDefinedInItem_1AndDescribedAsFollows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AS DEFINED IN ITEM 1, AND DESCRIBED AS FOLLOWS",
+        "widget": "text"
+      }
+    },
+    "inspectionOfOnsiteBuildingImprovementsWasMadeAtInspe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSPECTION OF ONSITE BUILDING IMPROVEMENTS WAS MADE AT INSPE",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfLenderCompleteMailingAddressIncludingZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF LENDER (Complete mailing address including ZIP Code)",
+        "widget": "address"
+      }
+    },
+    "headingTheFollowingEntriesAreMade": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HEADING.  The following entries are made",
+        "widget": "text"
+      }
+    },
+    "addressOrLotAndBlockNumberBuilderSNameAndAddressAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "address or lot and block number, builder's name and address and",
+        "widget": "address"
+      }
+    },
+    "withTheFollowing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "with the following",
+        "widget": "text"
+      }
+    },
+    "conditionA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition \"A.\"  (",
+        "widget": "radio"
+      }
+    },
+    "conditionIsIndicated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "condition is indicated,",
+        "widget": "radio"
+      }
+    },
+    "completedAsFollows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "completed as follows",
+        "widget": "text"
+      }
+    },
+    "incompleteOnsiteWorkAndTheExpected": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "incomplete onsite work and the expected",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1839-are.pdf",
+    "status": "digitized",
+    "totalFields": 60,
+    "composedFields": 59,
+    "coveragePercent": 92,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 5,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:36:39.150Z",
+    "redigitizedAt": "2026-03-30T20:38:45.414Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

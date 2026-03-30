@@ -1,0 +1,402 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10275",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "fc9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fc9",
+        "widget": "text"
+      }
+    },
+    "fc8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fc8",
+        "widget": "text"
+      }
+    },
+    "fc3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fc3",
+        "widget": "text"
+      }
+    },
+    "fc2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fc2",
+        "widget": "text"
+      }
+    },
+    "fc1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fc1",
+        "widget": "text"
+      }
+    },
+    "fc4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fc4",
+        "widget": "text"
+      }
+    },
+    "fc5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fc5",
+        "widget": "text"
+      }
+    },
+    "fc6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fc6",
+        "widget": "text"
+      }
+    },
+    "nameofinstitution": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform nameofinstitution",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform address",
+        "widget": "text"
+      }
+    },
+    "titleofauthorizing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform titleofauthorizing",
+        "widget": "text"
+      }
+    },
+    "signatureField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field1",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform E M A I L",
+        "widget": "text"
+      }
+    },
+    "nameFirstMiddleLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E F I R S T M I D D L E L A S T",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "authorizingOfficialAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "authorizing official and",
+        "widget": "text"
+      }
+    },
+    "listAllParticipatingLocationsBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "List all participating locations below",
+        "widget": "text"
+      }
+    },
+    "provideStudentsWhoAreUtilizingVeteransEducationBenef": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Provide students who are utilizing veterans' education benef",
+        "widget": "text"
+      }
+    },
+    "informStudentsWhoAreEligibleToReceiveVeteransEducat": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Inform students who are eligible to receive veterans' educat",
+        "widget": "text"
+      }
+    },
+    "avoidFraudulentAndUndulyAggressiveRecruitingTechniques": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Avoid fraudulent and unduly aggressive recruiting techniques",
+        "widget": "text"
+      }
+    },
+    "ensureAllNewCoursesOrProgramOfferingsAreAccreditedP": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Ensure all new courses or program offerings are accredited p",
+        "widget": "text"
+      }
+    },
+    "accommodateServiceMembersAndReservistsToBeReadmitted": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Accommodate service members and reservists to be readmitted",
+        "widget": "text"
+      }
+    },
+    "alignInstitutionalRefundPoliciesWithThoseUnderTitleI": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Align institutional refund policies with those under Title I",
+        "widget": "text"
+      }
+    },
+    "provideEducationalPlansForAllMilitaryAndVeteranEduca": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Provide educational plans for all military and veteran educa",
+        "widget": "text"
+      }
+    },
+    "designateAPointOfContactToProvideAcademicAndFinanci": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Designate a point of contact to provide academic and financi",
+        "widget": "text"
+      }
+    },
+    "agreedTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AGREED TO",
+        "widget": "text"
+      }
+    },
+    "signatureOfAuthorizingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF AUTHORIZING OFFICIAL",
+        "widget": "text"
+      }
+    },
+    "nameFirstMiddleLast2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME (First, middle, last)",
+        "widget": "text"
+      }
+    },
+    "email2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS",
+        "widget": "text"
+      }
+    },
+    "background": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Background",
+        "widget": "text"
+      }
+    },
+    "nameAddressFacilityCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME, ADDRESS, & FACILITY CODE",
+        "widget": "text"
+      }
+    },
+    "and": {
+      "type": "string",
+      "x-va-field": {
+        "label": "and",
+        "widget": "text"
+      }
+    },
+    "thisFormMustBeSubmittedInTheFollowingManner": {
+      "type": "string",
+      "x-va-field": {
+        "label": "This form must be submitted in the following manner",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row3TextField14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Text Field14",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row3TextField15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Text Field15",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row4TextField16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Text Field16",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row4TextField17": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Text Field17",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row4TextField18": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Text Field18",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row4TextField19": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Text Field19",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row4TextField20": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Text Field20",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row5TextField21": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Text Field21",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row5TextField22": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Text Field22",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row5TextField23": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Text Field23",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row5TextField24": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Text Field24",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row5TextField25": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Text Field25",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row6TextField26": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Text Field26",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row6TextField27": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Text Field27",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row6TextField28": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Text Field28",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row6TextField29": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Text Field29",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable1Row6TextField30": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Text Field30",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10275-are.pdf",
+    "status": "digitized",
+    "totalFields": 54,
+    "composedFields": 54,
+    "coveragePercent": 69,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 17,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:35:36.278Z",
+    "redigitizedAt": "2026-03-30T20:38:20.377Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

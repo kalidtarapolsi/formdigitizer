@@ -1,0 +1,311 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491I",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "#field": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #field",
+        "widget": "checkbox"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dateTimeField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field11",
+        "widget": "text"
+      }
+    },
+    "dateTimeField12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field12",
+        "widget": "text"
+      }
+    },
+    "numericField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Numeric Field1",
+        "widget": "text"
+      }
+    },
+    "numericField2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Numeric Field2",
+        "widget": "text"
+      }
+    },
+    "dateTimeField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field1",
+        "widget": "text"
+      }
+    },
+    "dateTimeField2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field2",
+        "widget": "text"
+      }
+    },
+    "dateTimeField3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field3",
+        "widget": "text"
+      }
+    },
+    "dateTimeField4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field4",
+        "widget": "text"
+      }
+    },
+    "dateTimeField5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field5",
+        "widget": "text"
+      }
+    },
+    "dateTimeField6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field6",
+        "widget": "text"
+      }
+    },
+    "dateTimeField7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field7",
+        "widget": "text"
+      }
+    },
+    "dateTimeField8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field8",
+        "widget": "text"
+      }
+    },
+    "dateTimeField9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field9",
+        "widget": "text"
+      }
+    },
+    "dateTimeField10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field10",
+        "widget": "text"
+      }
+    },
+    "numericField3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Numeric Field3",
+        "widget": "text"
+      }
+    },
+    "numericField4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Numeric Field4",
+        "widget": "text"
+      }
+    },
+    "advisorComments": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Advisor comments",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "ssnLast_4Only": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SSN (Last 4 Only)",
+        "widget": "text"
+      }
+    },
+    "participantSSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Participant's Signature:",
+        "widget": "text"
+      }
+    },
+    "advisorSSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Advisor's Signature:",
+        "widget": "text"
+      }
+    },
+    "nameChange": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Change",
+        "widget": "text"
+      }
+    },
+    "from": {
+      "type": "string",
+      "x-va-field": {
+        "label": "From",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box2",
+        "widget": "checkbox"
+      }
+    },
+    "addressChange": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address Change",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3",
+        "widget": "checkbox"
+      }
+    },
+    "completion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Completion",
+        "widget": "text"
+      }
+    },
+    "newAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "New Address",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Date",
+        "widget": "text"
+      }
+    },
+    "newSchoolProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "New School/Program",
+        "widget": "text"
+      }
+    },
+    "submitTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Submit to",
+        "widget": "text"
+      }
+    },
+    "dateOfPriorApproval": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Date of Prior Approval",
+        "widget": "text"
+      }
+    },
+    "start": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Start",
+        "widget": "text"
+      }
+    },
+    "endDatestartDateend": {
+      "type": "string",
+      "x-va-field": {
+        "label": "End DateStart DateEnd",
+        "widget": "text"
+      }
+    },
+    "informationFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "information for",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField41": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field41",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField42": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field42",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox4": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box4",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformRadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491i-fill%20(Notice%20of%20Change).pdf",
+    "totalFields": 41,
+    "composedFields": 41,
+    "coveragePercent": 85,
+    "xfaLabelCount": 28,
+    "needsReviewCount": 6,
+    "generatedAt": "2026-03-28T21:29:46.198Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:55.947Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

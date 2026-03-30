@@ -1,0 +1,355 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-4555c",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "monthly1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 monthly1",
+        "widget": "text"
+      }
+    },
+    "phonenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 phonenumber",
+        "widget": "text"
+      }
+    },
+    "filenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 filenumber",
+        "widget": "text"
+      }
+    },
+    "dayphone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 dayphone",
+        "widget": "text"
+      }
+    },
+    "evephone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 evephone",
+        "widget": "text"
+      }
+    },
+    "name1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 name1",
+        "widget": "text"
+      }
+    },
+    "address3a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 address3a",
+        "widget": "text"
+      }
+    },
+    "ssn4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N4",
+        "widget": "text"
+      }
+    },
+    "grants": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Grants",
+        "widget": "text"
+      }
+    },
+    "name1a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 name1a",
+        "widget": "text"
+      }
+    },
+    "telephone1c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 telephone1c",
+        "widget": "text"
+      }
+    },
+    "name1b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 name1b",
+        "widget": "text"
+      }
+    },
+    "location": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 location",
+        "widget": "text"
+      }
+    },
+    "specify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Specify",
+        "widget": "text"
+      }
+    },
+    "taxesa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 taxesa",
+        "widget": "text"
+      }
+    },
+    "specialb": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 specialb",
+        "widget": "text"
+      }
+    },
+    "insurancec": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 insurancec",
+        "widget": "text"
+      }
+    },
+    "heatd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 heatd",
+        "widget": "text"
+      }
+    },
+    "misce": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 misce",
+        "widget": "text"
+      }
+    },
+    "totalf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 totalf",
+        "widget": "text"
+      }
+    },
+    "amountb": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amountb",
+        "widget": "text"
+      }
+    },
+    "remaining": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 remaining",
+        "widget": "text"
+      }
+    },
+    "amount3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 amount3",
+        "widget": "text"
+      }
+    },
+    "interest5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 interest5",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature",
+        "widget": "text"
+      }
+    },
+    "signatureField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature Field1",
+        "widget": "text"
+      }
+    },
+    "monthlyIncome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MONTHLY INCOME",
+        "widget": "text"
+      }
+    },
+    "forRoutineUsesForExample": {
+      "type": "string",
+      "x-va-field": {
+        "label": "for routine uses (for example",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "stateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State and ZIP Code)",
+        "widget": "text"
+      }
+    },
+    "iWishToApplyForAGrantUnderChapter_21Title_38US": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I WISH TO APPLY FOR A GRANT UNDER CHAPTER 21, TITLE 38, U.S.",
+        "widget": "text"
+      }
+    },
+    "servicememberNeeding": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICEMEMBER NEEDING",
+        "widget": "text"
+      }
+    },
+    "eMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "E-MAIL ADDRESS",
+        "widget": "text"
+      }
+    },
+    "locationOfPropertyToBeAdaptedIfKnownIncludeLotAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOCATION OF PROPERTY TO BE ADAPTED IF KNOWN (Include lot and",
+        "widget": "text"
+      }
+    },
+    "addressIfAvailable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "address if available)",
+        "widget": "text"
+      }
+    },
+    "sourceSOfIncome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOURCE(S) OF INCOME",
+        "widget": "text"
+      }
+    },
+    "doYouHaveADurablePowerOfAttorneyConservatorOrCour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU HAVE A DURABLE POWER OF ATTORNEY, CONSERVATOR OR COUR",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "hFinancingBy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "H. FINANCING BY",
+        "widget": "text"
+      }
+    },
+    "annualCostOfMaintainingTheSubjectPropertyIsEstimated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ANNUAL COST OF MAINTAINING THE SUBJECT PROPERTY IS ESTIMATED",
+        "widget": "text"
+      }
+    },
+    "loanData": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOAN DATA",
+        "widget": "text"
+      }
+    },
+    "signatureOfVeteranServicememberOrFiduciary": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VETERAN, SERVICEMEMBER, OR FIDUCIARY",
+        "widget": "signature"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "iAmOfTheOpinionThatTheTermsOfPaymentRequiredInTh": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I AM OF THE OPINION THAT THE TERMS OF PAYMENT REQUIRED IN TH",
+        "widget": "text"
+      }
+    },
+    "housingUnit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HOUSING UNIT",
+        "widget": "text"
+      }
+    },
+    "signatureOfVaPersonnel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VA PERSONNEL",
+        "widget": "signature"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-4555c-are.pdf",
+    "status": "digitized",
+    "totalFields": 47,
+    "composedFields": 47,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:36:30.054Z",
+    "redigitizedAt": "2026-03-30T20:38:38.791Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1833",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateofloan": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofforeclosuer": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofjudgement": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateassigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "date23": {
+      "type": "string",
+      "format": "date"
+    },
+    "amount1": {
+      "type": "number"
+    },
+    "amount2": {
+      "type": "number"
+    },
+    "amount3": {
+      "type": "number"
+    },
+    "amount4": {
+      "type": "number"
+    },
+    "amount5": {
+      "type": "number"
+    },
+    "amount6": {
+      "type": "number"
+    },
+    "amount7": {
+      "type": "number"
+    },
+    "amountofjudgment": {
+      "type": "number"
+    },
+    "tofinance": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "nameofveterans": {
+      "type": "string"
+    },
+    "valoanno": {
+      "type": "string"
+    },
+    "serviceserialnumber": {
+      "type": "string"
+    },
+    "nameofcoob": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "nameofveteran": {
+      "type": "string"
+    },
+    "coObligor": {
+      "type": "string"
+    },
+    "liabilityorrelease1": {
+      "type": "string"
+    },
+    "liabilityorrelease2": {
+      "type": "string"
+    },
+    "liabilityorrelease3": {
+      "type": "string"
+    },
+    "liabilityorrelease4": {
+      "type": "string"
+    },
+    "liabilityorrelease5": {
+      "type": "string"
+    },
+    "indemnity1": {
+      "type": "string"
+    },
+    "indemnity2": {
+      "type": "string"
+    },
+    "indemnity3": {
+      "type": "string"
+    },
+    "indemnity4": {
+      "type": "string"
+    },
+    "indemnity5": {
+      "type": "string"
+    },
+    "subrogation1": {
+      "type": "string"
+    },
+    "subrogation2": {
+      "type": "string"
+    },
+    "subrogation3": {
+      "type": "string"
+    },
+    "subrogation4": {
+      "type": "string"
+    },
+    "subrogation5": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "recording21": {
+      "type": "string"
+    },
+    "fore1": {
+      "type": "string"
+    },
+    "fore2": {
+      "type": "string"
+    },
+    "sig23": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1833-are.pdf",
+    "status": "digitized",
+    "totalFields": 56,
+    "composedFields": 26,
+    "coveragePercent": 46,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:35:47.189Z"
+  }
+}

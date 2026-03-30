@@ -1,0 +1,423 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "29-357",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "datedisabilityprevented": {
+      "type": "string",
+      "format": "date"
+    },
+    "datereturnedtogainfulemployment": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofadmission1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofadmission2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofadmission3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofrelease1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofrelease2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofrelease3": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetreatmentbegan1": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetreatmentbegan2": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetreatmentbegan3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofsig": {
+      "type": "string",
+      "format": "date"
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "date2": {
+      "type": "string",
+      "format": "date"
+    },
+    "date3": {
+      "type": "string",
+      "format": "date"
+    },
+    "date5": {
+      "type": "string",
+      "format": "date"
+    },
+    "date4": {
+      "type": "string",
+      "format": "date"
+    },
+    "date6": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateA": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateB": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateC": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFrom1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateFrom2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTo1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTo2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateofreport10": {
+      "type": "string",
+      "format": "date"
+    },
+    "vadisability": {
+      "type": "string"
+    },
+    "hospital1": {
+      "type": "string"
+    },
+    "hospital2": {
+      "type": "string"
+    },
+    "hospital3": {
+      "type": "string"
+    },
+    "nameofphysician1": {
+      "type": "string"
+    },
+    "nameofphysician2": {
+      "type": "string"
+    },
+    "nameofphysician3": {
+      "type": "string"
+    },
+    "objectivesymptoms": {
+      "type": "string"
+    },
+    "diagnosis": {
+      "type": "string"
+    },
+    "condition1": {
+      "type": "string"
+    },
+    "condition2": {
+      "type": "string"
+    },
+    "diagnosisc": {
+      "type": "string"
+    },
+    "occupation1": {
+      "type": "string"
+    },
+    "occupation2": {
+      "type": "string"
+    },
+    "occupation3": {
+      "type": "string"
+    },
+    "training": {
+      "type": "string"
+    },
+    "namefield": {
+      "type": "string"
+    },
+    "grade1": {
+      "type": "string"
+    },
+    "grade2": {
+      "type": "string"
+    },
+    "grade3": {
+      "type": "string"
+    },
+    "grade4": {
+      "type": "string"
+    },
+    "grade5": {
+      "type": "string"
+    },
+    "grade6": {
+      "type": "string"
+    },
+    "grade7": {
+      "type": "string"
+    },
+    "grade8": {
+      "type": "string"
+    },
+    "grade1hs": {
+      "type": "string"
+    },
+    "grade2hs": {
+      "type": "string"
+    },
+    "grade3hs": {
+      "type": "string"
+    },
+    "grade4hs": {
+      "type": "string"
+    },
+    "grade4hsc": {
+      "type": "string"
+    },
+    "grade1hsc": {
+      "type": "string"
+    },
+    "grade2hsc": {
+      "type": "string"
+    },
+    "grade3hsc": {
+      "type": "string"
+    },
+    "vapension": {
+      "type": "string"
+    },
+    "disease": {
+      "type": "string"
+    },
+    "weeklyhours1": {
+      "type": "string"
+    },
+    "weeklyearnings1": {
+      "type": "string"
+    },
+    "reason1": {
+      "type": "string"
+    },
+    "weeklyearnings2": {
+      "type": "string"
+    },
+    "weeklyhours2": {
+      "type": "string"
+    },
+    "reason2": {
+      "type": "string"
+    },
+    "weeklyhours3": {
+      "type": "string"
+    },
+    "weeklyearnings3": {
+      "type": "string"
+    },
+    "reason3": {
+      "type": "string"
+    },
+    "sig17": {
+      "type": "string"
+    },
+    "typeandprint": {
+      "type": "string"
+    },
+    "insfileno": {
+      "type": "string"
+    },
+    "claimnu": {
+      "type": "string"
+    },
+    "frequencyD": {
+      "type": "string"
+    },
+    "objfindings": {
+      "type": "string"
+    },
+    "yesd": {
+      "type": "string"
+    },
+    "nod": {
+      "type": "string"
+    },
+    "noe": {
+      "type": "string"
+    },
+    "yese": {
+      "type": "string"
+    },
+    "aha1": {
+      "type": "string"
+    },
+    "aha2": {
+      "type": "string"
+    },
+    "aha3": {
+      "type": "string"
+    },
+    "aha4": {
+      "type": "string"
+    },
+    "cbg1": {
+      "type": "string"
+    },
+    "cbg2": {
+      "type": "string"
+    },
+    "cbg3": {
+      "type": "string"
+    },
+    "cbg4": {
+      "type": "string"
+    },
+    "cbg5": {
+      "type": "string"
+    },
+    "improve": {
+      "type": "string"
+    },
+    "worse": {
+      "type": "string"
+    },
+    "remain": {
+      "type": "string"
+    },
+    "sig11": {
+      "type": "string"
+    },
+    "title11": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-357-are.pdf",
+    "status": "digitized",
+    "totalFields": 122,
+    "composedFields": 70,
+    "coveragePercent": 57,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:32:33.178Z"
+  }
+}

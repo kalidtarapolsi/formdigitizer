@@ -1,0 +1,555 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1805",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "vaLoanIdentificationNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A Loan Identification Number",
+        "widget": "text"
+      }
+    },
+    "apnLotNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A P N Lot Number",
+        "widget": "text"
+      }
+    },
+    "latitudeLongitudeGrid": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Latitude Longitude Grid",
+        "widget": "text"
+      }
+    },
+    "businessLenderStreetAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Business Lender Street Address",
+        "widget": "text"
+      }
+    },
+    "salesPrice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Sales Price",
+        "widget": "text"
+      }
+    },
+    "builderName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Builder Name",
+        "widget": "text"
+      }
+    },
+    "builderId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Builder I D",
+        "widget": "text"
+      }
+    },
+    "builderPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Builder Phone",
+        "widget": "text"
+      }
+    },
+    "veteranSellerWorksNights": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform V E T E R A N S E L L E R W O R K S N I G H T S",
+        "widget": "checkbox"
+      }
+    },
+    "petsOnPremises": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform P E T S O N P R E M I S E S",
+        "widget": "checkbox"
+      }
+    },
+    "houseAlarm": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform H O U S E A L A R M",
+        "widget": "checkbox"
+      }
+    },
+    "gatedCommunity": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform G A T E D C O M M U N I T Y",
+        "widget": "checkbox"
+      }
+    },
+    "otherSpecialInstructionsOrInvoiceInformationPleaseDescribe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other Special Instructions Or Invoice Information Please Describe",
+        "widget": "text"
+      }
+    },
+    "numberPages": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Number Pages",
+        "widget": "text"
+      }
+    },
+    "lenderPointOfContactName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lender Point Of Contact Name",
+        "widget": "text"
+      }
+    },
+    "lenderPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lender Phone",
+        "widget": "text"
+      }
+    },
+    "lenderPointOfContactEmail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Lender Point Of Contact Email",
+        "widget": "text"
+      }
+    },
+    "veteranPointOfContactName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran Point Of Contact Name",
+        "widget": "text"
+      }
+    },
+    "veteranPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran Phone",
+        "widget": "text"
+      }
+    },
+    "veteranPointOfContactEmail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran Point Of Contact Email",
+        "widget": "text"
+      }
+    },
+    "buyerAgentPointOfContactName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Buyer Agent Point Of Contact Name",
+        "widget": "text"
+      }
+    },
+    "buyerAgentPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Buyer Agent Phone",
+        "widget": "text"
+      }
+    },
+    "buyerAgentPointOfContactEmail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Buyer Agent Point Of Contact Email",
+        "widget": "text"
+      }
+    },
+    "sellerAgentPointOfContactName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Seller Agent Point Of Contact Name",
+        "widget": "text"
+      }
+    },
+    "sellerAgentPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Seller Agent Phone",
+        "widget": "text"
+      }
+    },
+    "sellerAgentPointOfContactEmail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Seller Agent Point Of Contact Email",
+        "widget": "text"
+      }
+    },
+    "sellerOwnerPointOfContactName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Seller Owner Point Of Contact Name",
+        "widget": "text"
+      }
+    },
+    "sellerOwnerPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Seller Owner Phone",
+        "widget": "text"
+      }
+    },
+    "sellerOwnerPointOfContactEmail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Seller Owner Point Of Contact Email",
+        "widget": "text"
+      }
+    },
+    "builderrPointOfContactName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Builderr Point Of Contact Name",
+        "widget": "text"
+      }
+    },
+    "builderPointOfContactEmail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Builder Point Of Contact Email",
+        "widget": "text"
+      }
+    },
+    "businessLenderName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Business Lender Name",
+        "widget": "text"
+      }
+    },
+    "requesterName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Requester Name",
+        "widget": "text"
+      }
+    },
+    "requesterTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Requester Title",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone",
+        "widget": "text"
+      }
+    },
+    "requesterEMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Requester E Mail Address",
+        "widget": "text"
+      }
+    },
+    "institutionCaseNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Institution Case Number",
+        "widget": "text"
+      }
+    },
+    "sponsorID": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Sponsor I D",
+        "widget": "text"
+      }
+    },
+    "veteranNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran Name First Middle Initial Last",
+        "widget": "text"
+      }
+    },
+    "veteranEMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran E mail Address",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "personAuthorizingRequestTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Person Authorizing Request Title",
+        "widget": "text"
+      }
+    },
+    "appraisalDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Appraisal Date",
+        "widget": "text"
+      }
+    },
+    "appraiserName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Appraiser Name",
+        "widget": "text"
+      }
+    },
+    "assignedAppraiserEMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Assigned Appraiser E mail Address",
+        "widget": "text"
+      }
+    },
+    "appraisalAssignmentDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Appraisal Assignment Date",
+        "widget": "text"
+      }
+    },
+    "appraisalOrderDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Appraisal Order Date",
+        "widget": "text"
+      }
+    },
+    "appraisalDueDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Appraisal Due Date",
+        "widget": "text"
+      }
+    },
+    "appraisalFee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Appraisal Fee",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "lenderPointOfContactInformationPoc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LENDER POINT OF CONTACT INFORMATION (POC)",
+        "widget": "text"
+      }
+    },
+    "veteranBorrowerPointOfContactPocInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/BORROWER POINT OF CONTACT (POC) INFORMATION",
+        "widget": "text"
+      }
+    },
+    "buyerAgentPointOfContactPocInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BUYER AGENT POINT OF CONTACT (POC) INFORMATION",
+        "widget": "text"
+      }
+    },
+    "sellerAgentPointOfContactPocInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SELLER AGENT POINT OF CONTACT (POC) INFORMATION",
+        "widget": "text"
+      }
+    },
+    "sellerHomeOwnerPointOfContactPocInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SELLER/HOME OWNER POINT OF CONTACT (POC) INFORMATION",
+        "widget": "text"
+      }
+    },
+    "builderSalesOfficePointOfContactPocInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BUILDER SALES OFFICE POINT OF CONTACT (POC) INFORMATION",
+        "widget": "text"
+      }
+    },
+    "tidewaterPointOfContactPocInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TIDEWATER POINT OF CONTACT (POC) INFORMATION",
+        "widget": "text"
+      }
+    },
+    "businessLenderName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BUSINESS/LENDER NAME",
+        "widget": "text"
+      }
+    },
+    "requesterName_13RequesterTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REQUESTER NAME 13. REQUESTER TITLE",
+        "widget": "text"
+      }
+    },
+    "requesterPhoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "REQUESTER PHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "requesterEMailAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REQUESTER E-MAIL ADDRESS",
+        "widget": "address"
+      }
+    },
+    "businessLenderAddressNoStreetCityStateAndZipCo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BUSINESS/LENDER ADDRESS (No., Street, City, State and ZIP Co",
+        "widget": "address"
+      }
+    },
+    "institutionCaseNumber18SponsorType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTITUTION CASE NUMBER18.  SPONSOR TYPE",
+        "widget": "text"
+      }
+    },
+    "canAssistedAppraisalProcessingProgramAappBeUtilized": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CAN ASSISTED APPRAISAL PROCESSING PROGRAM (AAPP) BE UTILIZED",
+        "widget": "text"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "otherBorrowerNameSSpousePartnerEtc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER BORROWER NAME(S) (Spouse, Partner, etc.)",
+        "widget": "text"
+      }
+    },
+    "veteranSAddressNoStreetCityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S ADDRESS (No., Street, City, State and ZIP Code)",
+        "widget": "address"
+      }
+    },
+    "veteranSPhoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "VETERAN'S PHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "veteranSEMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S E-MAIL ADDRESS",
+        "widget": "address"
+      }
+    },
+    "26cAppraisalRequest": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "26C. APPRAISAL REQUEST",
+        "widget": "date"
+      }
+    },
+    "27dAppraiserAssignmentDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "27D. APPRAISER ASSIGNMENT DATE (",
+        "widget": "date"
+      }
+    },
+    "27eAppraisalOrderDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "27E. APPRAISAL ORDER DATE (",
+        "widget": "date"
+      }
+    },
+    "warning": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WARNING",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1805-are.pdf",
+    "status": "digitized",
+    "totalFields": 76,
+    "composedFields": 75,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:47.918Z",
+    "redigitizedAt": "2026-03-30T20:37:57.146Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

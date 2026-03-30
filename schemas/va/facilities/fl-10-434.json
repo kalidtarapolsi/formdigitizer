@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Energy Management Report",
+  "type": "object",
+  "properties": {
+    "facilityName": {
+      "type": "string",
+      "description": "VA facility name"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "buildingNumber": {
+      "type": "string",
+      "description": "Building number"
+    },
+    "roomNumber": {
+      "type": "string",
+      "description": "Room/area number"
+    },
+    "requestedBy": {
+      "type": "string",
+      "description": "Name of person making request"
+    },
+    "department": {
+      "type": "string",
+      "description": "Department or service"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Contact phone number"
+    },
+    "dateRequested": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of request"
+    },
+    "priorityLevel": {
+      "type": "string",
+      "enum": [
+        "Routine",
+        "Urgent",
+        "Emergency"
+      ],
+      "description": "Priority level"
+    },
+    "descriptionOfWork": {
+      "type": "string",
+      "description": "Description of work needed"
+    },
+    "workOrderNumber": {
+      "type": "string",
+      "description": "Work order number"
+    },
+    "completionDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date completed"
+    },
+    "completedBy": {
+      "type": "string",
+      "description": "Name of person completing work"
+    },
+    "supervisorApproval": {
+      "type": "boolean",
+      "description": "Supervisor approval"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/FL_10-434.pdf",
+    "totalFields": 15,
+    "composedFields": 15,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 1,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

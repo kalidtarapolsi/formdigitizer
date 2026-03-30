@@ -1,0 +1,550 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6705b",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "datefrom": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateto": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateto1": {
+      "type": "string",
+      "format": "date"
+    },
+    "datefrom1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateto3": {
+      "type": "string",
+      "format": "date"
+    },
+    "datefrom3": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateto17b": {
+      "type": "string",
+      "format": "date"
+    },
+    "datefrom17b": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned1": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned2": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned24": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned25": {
+      "type": "string",
+      "format": "date"
+    },
+    "rehabiltationamount": {
+      "type": "number"
+    },
+    "monthlyincome": {
+      "type": "number"
+    },
+    "monthlyincome15": {
+      "type": "number"
+    },
+    "monthlyincome17": {
+      "type": "number"
+    },
+    "monthlyincome16": {
+      "type": "number"
+    },
+    "spouseselfemployed": {
+      "type": "string"
+    },
+    "spouseselfemployed2": {
+      "type": "string"
+    },
+    "sigspouse": {
+      "type": "string"
+    },
+    "childsupport1": {
+      "type": "string"
+    },
+    "childsupport2": {
+      "type": "string"
+    },
+    "jobtitlebusiness": {
+      "type": "string"
+    },
+    "jobtitlebusiness15": {
+      "type": "string"
+    },
+    "jobtitlebusiness16": {
+      "type": "string"
+    },
+    "jobtitlebusiness17": {
+      "type": "string"
+    },
+    "employer14c": {
+      "type": "string"
+    },
+    "employer15c": {
+      "type": "string"
+    },
+    "employers16": {
+      "type": "string"
+    },
+    "employers17": {
+      "type": "string"
+    },
+    "selfemployed1": {
+      "type": "string"
+    },
+    "theapplicant3": {
+      "type": "string"
+    },
+    "homestatus": {
+      "type": "string"
+    },
+    "aaincom": {
+      "type": "string"
+    },
+    "separatecredit": {
+      "type": "string"
+    },
+    "other11": {
+      "type": "string"
+    },
+    "theapplicant1": {
+      "type": "string"
+    },
+    "theapplicant2": {
+      "type": "string"
+    },
+    "selfemployed2": {
+      "type": "string"
+    },
+    "vapropertyidentifier": {
+      "type": "string"
+    },
+    "rent": {
+      "type": "string"
+    },
+    "own": {
+      "type": "string"
+    },
+    "married": {
+      "type": "string"
+    },
+    "unmarried": {
+      "type": "string"
+    },
+    "separated": {
+      "type": "string"
+    },
+    "agesofdependants": {
+      "type": "string"
+    },
+    "other21": {
+      "type": "string"
+    },
+    "coapp": {
+      "type": "string"
+    },
+    "relativename": {
+      "type": "string"
+    },
+    "relativezc": {
+      "type": "string"
+    },
+    "aother": {
+      "type": "string"
+    },
+    "cash": {
+      "type": "string"
+    },
+    "saveing": {
+      "type": "string"
+    },
+    "stocks": {
+      "type": "string"
+    },
+    "otherj": {
+      "type": "string"
+    },
+    "otheri": {
+      "type": "string"
+    },
+    "otherh": {
+      "type": "string"
+    },
+    "vehicleg": {
+      "type": "string"
+    },
+    "ffhg": {
+      "type": "string"
+    },
+    "gvehicle": {
+      "type": "string"
+    },
+    "hother": {
+      "type": "string"
+    },
+    "iother": {
+      "type": "string"
+    },
+    "jother": {
+      "type": "string"
+    },
+    "purchaseoffernumber": {
+      "type": "string"
+    },
+    "appsig": {
+      "type": "string"
+    },
+    "requestedloan": {
+      "type": "string"
+    },
+    "downpayment": {
+      "type": "string"
+    },
+    "termpercent": {
+      "type": "string"
+    },
+    "ternyears": {
+      "type": "string"
+    },
+    "balance1": {
+      "type": "string"
+    },
+    "balance4": {
+      "type": "string"
+    },
+    "balance5": {
+      "type": "string"
+    },
+    "balance3": {
+      "type": "string"
+    },
+    "balance2": {
+      "type": "string"
+    },
+    "bOrrower1": {
+      "type": "string"
+    },
+    "bOrrower2": {
+      "type": "string"
+    },
+    "bOrrower3": {
+      "type": "string"
+    },
+    "bOrrower4": {
+      "type": "string"
+    },
+    "bOrrower5": {
+      "type": "string"
+    },
+    "bOrrower6": {
+      "type": "string"
+    },
+    "coApplicant1": {
+      "type": "string"
+    },
+    "coApplicant2": {
+      "type": "string"
+    },
+    "coApplicant3": {
+      "type": "string"
+    },
+    "coApplicant4": {
+      "type": "string"
+    },
+    "coApplicant5": {
+      "type": "string"
+    },
+    "coApplicant6": {
+      "type": "string"
+    },
+    "presenthome6": {
+      "type": "string"
+    },
+    "presenthome5": {
+      "type": "string"
+    },
+    "presenthome4": {
+      "type": "string"
+    },
+    "presenthome3": {
+      "type": "string"
+    },
+    "presenthome2": {
+      "type": "string"
+    },
+    "presenthome1": {
+      "type": "string"
+    },
+    "requestedloan6": {
+      "type": "string"
+    },
+    "requestedloan5": {
+      "type": "string"
+    },
+    "requestedloan4": {
+      "type": "string"
+    },
+    "requestedloan3": {
+      "type": "string"
+    },
+    "requestedloan2": {
+      "type": "string"
+    },
+    "requestedloan1": {
+      "type": "string"
+    },
+    "other21a": {
+      "type": "string"
+    },
+    "alimony1": {
+      "type": "string"
+    },
+    "alimony2": {
+      "type": "string"
+    },
+    "balance221": {
+      "type": "string"
+    },
+    "balance222": {
+      "type": "string"
+    },
+    "balance223": {
+      "type": "string"
+    },
+    "balance224": {
+      "type": "string"
+    },
+    "balance225": {
+      "type": "string"
+    },
+    "payment22d5": {
+      "type": "string"
+    },
+    "payment22d4": {
+      "type": "string"
+    },
+    "payment22d3": {
+      "type": "string"
+    },
+    "payment22d2": {
+      "type": "string"
+    },
+    "payment22d1": {
+      "type": "string"
+    },
+    "yes23": {
+      "type": "string"
+    },
+    "no23": {
+      "type": "string"
+    },
+    "sig24a": {
+      "type": "string"
+    },
+    "sig25a": {
+      "type": "string"
+    },
+    "initials26": {
+      "type": "string"
+    },
+    "initials27": {
+      "type": "string"
+    },
+    "asian26": {
+      "type": "string"
+    },
+    "americanindian26": {
+      "type": "string"
+    },
+    "black26": {
+      "type": "string"
+    },
+    "hispanic26": {
+      "type": "string"
+    },
+    "white26": {
+      "type": "string"
+    },
+    "other26": {
+      "type": "string"
+    },
+    "female26": {
+      "type": "string"
+    },
+    "male26": {
+      "type": "string"
+    },
+    "female27": {
+      "type": "string"
+    },
+    "male27": {
+      "type": "string"
+    },
+    "other27": {
+      "type": "string"
+    },
+    "white27": {
+      "type": "string"
+    },
+    "hispanic27": {
+      "type": "string"
+    },
+    "black27": {
+      "type": "string"
+    },
+    "americanindian27": {
+      "type": "string"
+    },
+    "asian27": {
+      "type": "string"
+    },
+    "bank1": {
+      "type": "string"
+    },
+    "bank2": {
+      "type": "string"
+    },
+    "bank3": {
+      "type": "string"
+    },
+    "bank4": {
+      "type": "string"
+    },
+    "bank5": {
+      "type": "string"
+    },
+    "account1": {
+      "type": "string"
+    },
+    "account2": {
+      "type": "string"
+    },
+    "account3": {
+      "type": "string"
+    },
+    "account4": {
+      "type": "string"
+    },
+    "account5": {
+      "type": "string"
+    },
+    "ifyes": {
+      "type": "string"
+    },
+    "creditor1": {
+      "type": "string"
+    },
+    "creditor2": {
+      "type": "string"
+    },
+    "creditor3": {
+      "type": "string"
+    },
+    "creditor4": {
+      "type": "string"
+    },
+    "creditor5": {
+      "type": "string"
+    },
+    "account22b1": {
+      "type": "string"
+    },
+    "account22b2": {
+      "type": "string"
+    },
+    "account22b3": {
+      "type": "string"
+    },
+    "account22b4": {
+      "type": "string"
+    },
+    "account22b5": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6705b-are.pdf",
+    "status": "digitized",
+    "totalFields": 170,
+    "composedFields": 46,
+    "coveragePercent": 27,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:31:51.680Z"
+  }
+}

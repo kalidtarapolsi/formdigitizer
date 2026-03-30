@@ -1,0 +1,427 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8630",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "loanDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "loanDateA": {
+      "type": "string",
+      "format": "date"
+    },
+    "loanDateB": {
+      "type": "string",
+      "format": "date"
+    },
+    "judgementDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "publishedsaleDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "repossessedDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "saleDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "fileclaimDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesRecdA": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesRecdB": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMade2": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMade1": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateMade3": {
+      "type": "string",
+      "format": "date"
+    },
+    "signDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "percentageClaimed": {
+      "type": "number"
+    },
+    "percentageGuaranty": {
+      "type": "number"
+    },
+    "loanAmount": {
+      "type": "number"
+    },
+    "guarantyAmount": {
+      "type": "number"
+    },
+    "payAmountA": {
+      "type": "number"
+    },
+    "payAmountB": {
+      "type": "number"
+    },
+    "indebtnessAtclaim": {
+      "type": "number"
+    },
+    "indebtnessAtsale": {
+      "type": "number"
+    },
+    "indebtnessA": {
+      "type": "number"
+    },
+    "indebtnessB": {
+      "type": "number"
+    },
+    "indebtnessTotal": {
+      "type": "number"
+    },
+    "amountClaimed": {
+      "type": "number"
+    },
+    "repoExpense": {
+      "type": "number"
+    },
+    "repossessed": {
+      "type": "string"
+    },
+    "judgement": {
+      "type": "string"
+    },
+    "publishedsale": {
+      "type": "string"
+    },
+    "lot": {
+      "type": "string"
+    },
+    "comboLoan": {
+      "type": "string"
+    },
+    "claimantName": {
+      "type": "string"
+    },
+    "loanNumber": {
+      "type": "string"
+    },
+    "obligorName": {
+      "type": "string"
+    },
+    "titleholderName": {
+      "type": "string"
+    },
+    "origAmtA": {
+      "type": "string"
+    },
+    "origAmtB": {
+      "type": "string"
+    },
+    "faceamtA": {
+      "type": "string"
+    },
+    "faceamtB": {
+      "type": "string"
+    },
+    "durationA": {
+      "type": "string"
+    },
+    "durationB": {
+      "type": "string"
+    },
+    "finaldisburseB": {
+      "type": "string"
+    },
+    "finaldisburseA": {
+      "type": "string"
+    },
+    "interestAtA": {
+      "type": "string"
+    },
+    "interestAtB": {
+      "type": "string"
+    },
+    "numPaymentsA": {
+      "type": "string"
+    },
+    "numPaymentsB": {
+      "type": "string"
+    },
+    "lien": {
+      "type": "string"
+    },
+    "explainNote": {
+      "type": "string"
+    },
+    "underlyingSecurity": {
+      "type": "string"
+    },
+    "interestAtclaim": {
+      "type": "string"
+    },
+    "liquidation": {
+      "type": "string"
+    },
+    "advances": {
+      "type": "string"
+    },
+    "totalE": {
+      "type": "string"
+    },
+    "lessBalance": {
+      "type": "string"
+    },
+    "liquidationproceeds": {
+      "type": "string"
+    },
+    "amtClaimed": {
+      "type": "string"
+    },
+    "originalprincipalA": {
+      "type": "string"
+    },
+    "adjustedprincipalA": {
+      "type": "string"
+    },
+    "interestbalanceA": {
+      "type": "string"
+    },
+    "principalchargesA": {
+      "type": "string"
+    },
+    "creditsPrincipalA": {
+      "type": "string"
+    },
+    "accruedinterestA": {
+      "type": "string"
+    },
+    "interestpaidA": {
+      "type": "string"
+    },
+    "creditsPrincipalB": {
+      "type": "string"
+    },
+    "accruedinterestB": {
+      "type": "string"
+    },
+    "interestpaidB": {
+      "type": "string"
+    },
+    "originalprincipalB": {
+      "type": "string"
+    },
+    "adjustedprincipalB": {
+      "type": "string"
+    },
+    "interestbalanceB": {
+      "type": "string"
+    },
+    "principalchargesB": {
+      "type": "string"
+    },
+    "originalprincipalTotal": {
+      "type": "string"
+    },
+    "creditsPrincipaltotal": {
+      "type": "string"
+    },
+    "adjustedprincipalTotal": {
+      "type": "string"
+    },
+    "interestbalanceTotal": {
+      "type": "string"
+    },
+    "principalchargesTotal": {
+      "type": "string"
+    },
+    "prepaymentsA": {
+      "type": "string"
+    },
+    "paymentsA": {
+      "type": "string"
+    },
+    "paymentsB": {
+      "type": "string"
+    },
+    "interestappliedB": {
+      "type": "string"
+    },
+    "interestappliedA": {
+      "type": "string"
+    },
+    "principalappliedA": {
+      "type": "string"
+    },
+    "principalappliedB": {
+      "type": "string"
+    },
+    "prepaymentsB": {
+      "type": "string"
+    },
+    "uncuredDefaultB": {
+      "type": "string"
+    },
+    "uncuredDefaultA": {
+      "type": "string"
+    },
+    "interestCollectedB": {
+      "type": "string"
+    },
+    "interestCollectedA": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "string"
+    },
+    "advance1": {
+      "type": "string"
+    },
+    "advance2": {
+      "type": "string"
+    },
+    "advance3": {
+      "type": "string"
+    },
+    "purpose1": {
+      "type": "string"
+    },
+    "purpose2": {
+      "type": "string"
+    },
+    "purpose3": {
+      "type": "string"
+    },
+    "disbursed3": {
+      "type": "string"
+    },
+    "disbursed2": {
+      "type": "string"
+    },
+    "disbursed1": {
+      "type": "string"
+    },
+    "disbursedA": {
+      "type": "string"
+    },
+    "disbursedB": {
+      "type": "string"
+    },
+    "disbursedC": {
+      "type": "string"
+    },
+    "attorneyFee": {
+      "type": "string"
+    },
+    "sheriffFee": {
+      "type": "string"
+    },
+    "trusteeCommission": {
+      "type": "string"
+    },
+    "advertising": {
+      "type": "string"
+    },
+    "documentaryStamp": {
+      "type": "string"
+    },
+    "salesCommission": {
+      "type": "string"
+    },
+    "repossession": {
+      "type": "string"
+    },
+    "repair": {
+      "type": "string"
+    },
+    "otherA": {
+      "type": "string"
+    },
+    "otherB": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "credits": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "claimant": {
+      "type": "string"
+    },
+    "officialTitle": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8630-are.pdf",
+    "status": "digitized",
+    "totalFields": 126,
+    "composedFields": 32,
+    "coveragePercent": 25,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:32:22.284Z"
+  }
+}

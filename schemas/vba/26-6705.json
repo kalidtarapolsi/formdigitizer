@@ -1,0 +1,255 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-6705",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "datesoflatestservice": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned11b": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesigned13b": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateaccepted": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amountofvendeeloan": {
+      "type": "number"
+    },
+    "amountofearnestmoneydeposit": {
+      "type": "number"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "purchaseofferno": {
+      "type": "string"
+    },
+    "propertyidentifier": {
+      "type": "string"
+    },
+    "nameofpurchaser": {
+      "type": "string"
+    },
+    "nameofpurchaser1": {
+      "type": "string"
+    },
+    "yes5": {
+      "type": "string"
+    },
+    "no5": {
+      "type": "string"
+    },
+    "no5a": {
+      "type": "string"
+    },
+    "yes5a": {
+      "type": "string"
+    },
+    "serviceserialnumber": {
+      "type": "string"
+    },
+    "yes6a": {
+      "type": "string"
+    },
+    "no6a": {
+      "type": "string"
+    },
+    "no6b": {
+      "type": "string"
+    },
+    "yes6b": {
+      "type": "string"
+    },
+    "no6d": {
+      "type": "string"
+    },
+    "yes6d": {
+      "type": "string"
+    },
+    "no6c": {
+      "type": "string"
+    },
+    "yes6c": {
+      "type": "string"
+    },
+    "cashoffer": {
+      "type": "string"
+    },
+    "termoffer": {
+      "type": "string"
+    },
+    "nameofprincipalbroker": {
+      "type": "string"
+    },
+    "nameofsalesperson": {
+      "type": "string"
+    },
+    "thesecretaryofveteransaffairs": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "offeredprice": {
+      "type": "string"
+    },
+    "totaldeductions": {
+      "type": "string"
+    },
+    "nettova": {
+      "type": "string"
+    },
+    "discountpoints": {
+      "type": "string"
+    },
+    "loanoriginationfee": {
+      "type": "string"
+    },
+    "closingcosts": {
+      "type": "string"
+    },
+    "sales": {
+      "type": "string"
+    },
+    "listing": {
+      "type": "string"
+    },
+    "salesbonus": {
+      "type": "string"
+    },
+    "purchasersagree": {
+      "type": "string"
+    },
+    "offeredprice8": {
+      "type": "string"
+    },
+    "downpaymentless": {
+      "type": "string"
+    },
+    "fundingfee": {
+      "type": "string"
+    },
+    "downpaymentplus": {
+      "type": "string"
+    },
+    "sales8": {
+      "type": "string"
+    },
+    "listing8": {
+      "type": "string"
+    },
+    "salesbonus8": {
+      "type": "string"
+    },
+    "cashequivalentfactor": {
+      "type": "string"
+    },
+    "cashequivalentvalue": {
+      "type": "string"
+    },
+    "additionstocev": {
+      "type": "string"
+    },
+    "cashequivalentvalueoftotal": {
+      "type": "string"
+    },
+    "totaldeductions8": {
+      "type": "string"
+    },
+    "nettova8": {
+      "type": "string"
+    },
+    "interestrate": {
+      "type": "string"
+    },
+    "monthlypipayment": {
+      "type": "string"
+    },
+    "jf44": {
+      "type": "string"
+    },
+    "ofyears": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6705-are.pdf",
+    "status": "digitized",
+    "totalFields": 72,
+    "composedFields": 22,
+    "coveragePercent": 31,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:37.050Z"
+  }
+}

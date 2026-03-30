@@ -1,0 +1,474 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0383",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "patientName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Patient Name",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "otherInfo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Other Info",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Date",
+        "widget": "text"
+      }
+    },
+    "dateInitiated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Date Initiated",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform D O B",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Address",
+        "widget": "text"
+      }
+    },
+    "residentialPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Residential Phone",
+        "widget": "text"
+      }
+    },
+    "businessPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Business Phone",
+        "widget": "text"
+      }
+    },
+    "veteranRepName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Veteran Rep Name",
+        "widget": "text"
+      }
+    },
+    "repPhone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Rep Phone",
+        "widget": "text"
+      }
+    },
+    "disabledConditions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Disabled Conditions",
+        "widget": "text"
+      }
+    },
+    "conditions1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Conditions1",
+        "widget": "text"
+      }
+    },
+    "recordReviewDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Record Review Date",
+        "widget": "text"
+      }
+    },
+    "clinicalExamneeded": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Clinical Examneeded",
+        "widget": "text"
+      }
+    },
+    "clinicalExamDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Clinical Exam Date",
+        "widget": "text"
+      }
+    },
+    "conditions2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Conditions2",
+        "widget": "text"
+      }
+    },
+    "catdis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform C A T D I S",
+        "widget": "text"
+      }
+    },
+    "as": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform A S",
+        "widget": "text"
+      }
+    },
+    "assessmentTool": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Assessment Tool",
+        "widget": "select"
+      }
+    },
+    "rationale": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform Rationale",
+        "widget": "text"
+      }
+    },
+    "approval": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform approval",
+        "widget": "text"
+      }
+    },
+    "notifyphone": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Vha101349 #subform notifyphone",
+        "widget": "checkbox"
+      }
+    },
+    "notifymail": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Vha101349 #subform notifymail",
+        "widget": "checkbox"
+      }
+    },
+    "notifydate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform notifydate",
+        "widget": "text"
+      }
+    },
+    "notifyinit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha101349 #subform notifyinit",
+        "widget": "text"
+      }
+    },
+    "vha101349SubformCheckBox5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Vha101349 #subform Check Box5",
+        "widget": "checkbox"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "quadriplegiaAndQuadriparesis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Quadriplegia and quadriparesis",
+        "widget": "text"
+      }
+    },
+    "paraplegia": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Paraplegia",
+        "widget": "text"
+      }
+    },
+    "legalBlindnessDefinedAsVisualImpairmentOf_20_200OrLe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Legal blindness defined as visual impairment of 20/200 or le",
+        "widget": "text"
+      }
+    },
+    "persistentVegetativeState": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Persistent vegetative state",
+        "widget": "select"
+      }
+    },
+    "theVeteranIsCatastrophicallyDisabledIfTheVeteranPerm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE VETERAN IS CATASTROPHICALLY DISABLED IF THE VETERAN PERM",
+        "widget": "text"
+      }
+    },
+    "theFollowingSection": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THE FOLLOWING SECTION",
+        "widget": "text"
+      }
+    },
+    "amputationDetachmentOrReAmputationOfOrThroughTheH": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation, detachment, or re-amputation of or through the h",
+        "widget": "text"
+      }
+    },
+    "disarticulationDetachmentOrReAmputationOfOrThrough": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Disarticulation, detachment, or re-amputation of or through",
+        "widget": "text"
+      }
+    },
+    "amputationDetachmentOrReAmputationOfTheForearmAtO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation, detachment, or re-amputation of the forearm at o",
+        "widget": "text"
+      }
+    },
+    "amputationDetachmentOrDisarticulationOfTheForearmAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation, detachment, or disarticulation of the forearm at",
+        "widget": "text"
+      }
+    },
+    "amputationDetachmentOrReAmputationOfTheArmAtOrTh": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation, detachment, or re-amputation of the arm at or th",
+        "widget": "text"
+      }
+    },
+    "disarticulationOrDetachmentOfTheOfTheArmAtOrThroug": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Disarticulation or detachment of the of the arm at or throug",
+        "widget": "text"
+      }
+    },
+    "interthoracoscapularForequarterAmputationOrDetachment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Interthoracoscapular (forequarter) amputation or detachment",
+        "widget": "text"
+      }
+    },
+    "amputationDetachmentOrReAmputationOfTheLegAtOrTh": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation, detachment, or re-amputation of the leg at or th",
+        "widget": "text"
+      }
+    },
+    "amputationOrDetachmentOfOrThroughTheGreatToe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation or detachment of or through the great toe",
+        "widget": "text"
+      }
+    },
+    "amputationOrDetachmentOfOrThroughTheFoot": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation or detachment of or through the foot",
+        "widget": "text"
+      }
+    },
+    "disarticulationOrDetachmentOfTheFootAtOrThroughThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Disarticulation or detachment of the foot at or through the",
+        "widget": "text"
+      }
+    },
+    "amputationOrDetachmentOfTheFootAtOrThroughMalleoli": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation or detachment of the foot at or through malleoli",
+        "widget": "text"
+      }
+    },
+    "amputationOrDetachmentOfTheLowerLegAtOrThroughThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation or detachment of the lower leg at or through the",
+        "widget": "text"
+      }
+    },
+    "amputationDetachmentOrReAmputationOfTheLegAtOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Amputation, detachment, or re-amputation of the leg at or",
+        "widget": "text"
+      }
+    },
+    "disarticulationOrDetachmentOfTheLegAtOrThroughTheH": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Disarticulation or detachment of the leg at or through the h",
+        "widget": "text"
+      }
+    },
+    "interpelviaabdominalHindquarterAmputationOrDetachment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Interpelviaabdominal (hindquarter) amputation or detachment",
+        "widget": "text"
+      }
+    },
+    "dependentScoreOf_0InThreeOrMoreActivitiesOfDaily": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Dependent (score of 0) in three or more activities of daily",
+        "widget": "text"
+      }
+    },
+    "aScoreOf_2OrLowerOnAtLeast_4ItemsOfTheCombinedSe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "A score of 2 or lower on at least 4 items of the combined se",
+        "widget": "text"
+      }
+    },
+    "aScoreOf_30OrLowerUsingTheGlobalAssessmentOfFuncti": {
+      "type": "string",
+      "x-va-field": {
+        "label": "A score of 30 or lower using the global assessment of functi",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "signatureDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(Signature)DATE (",
+        "widget": "date"
+      }
+    },
+    "dateInitiated2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE INITIATED (",
+        "widget": "date"
+      }
+    },
+    "patientNameLastFirstAndMiddleDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "PATIENT NAME (Last, First and Middle)DATE OF BIRTH",
+        "widget": "date"
+      }
+    },
+    "addressresidentialPhoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "ADDRESSRESIDENTIAL PHONE NUMBER",
+        "widget": "phone"
+      }
+    },
+    "recordReviewDate2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "RECORD REVIEW DATE (",
+        "widget": "date"
+      }
+    },
+    "ifYesClinicalExaminationDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(If Yes, Clinical Examination Date) (",
+        "widget": "date"
+      }
+    },
+    "recommendedBySignatureDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "RECOMMENDED BY (Signature)DATE (",
+        "widget": "date"
+      }
+    },
+    "firstNotificationDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "FIRST NOTIFICATION DATE (",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0383.pdf",
+    "totalFields": 63,
+    "composedFields": 63,
+    "coveragePercent": 98,
+    "xfaLabelCount": 34,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:15:13.223Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:25:15.556Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

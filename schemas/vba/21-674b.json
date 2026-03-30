@@ -1,0 +1,307 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-674b",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform First Name",
+        "widget": "text"
+      }
+    },
+    "middleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Middle Initial",
+        "widget": "text"
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Name",
+        "widget": "text"
+      }
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "firstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "secondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "lastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "typeOfBenefit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Type Of Benefit",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "relationshipToStudent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Relationship To Student",
+        "widget": "text"
+      }
+    },
+    "areaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Area Code",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "reasonForTerminationOfSchoolAttendance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Reason For Termination Of School Attendance",
+        "widget": "text"
+      }
+    },
+    "titleOfSchoolOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T I T L E O F S C H O O L O F F I C I A L",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Remarks",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "veteranClaimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "studentSNameFirstMiddleInitialLastNoteVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STUDENT'S NAME (First, Middle Initial, Last) (NOTE: Veteran'",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber6aHasStudentMarried": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER6A. HAS STUDENT MARRIED?",
+        "widget": "ssn"
+      }
+    },
+    "6bDateOfMarriage": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "6B. DATE OF MARRIAGE (",
+        "widget": "date"
+      }
+    },
+    "7aOfficialBeginning": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "7A. OFFICIAL BEGINNING",
+        "widget": "date"
+      }
+    },
+    "noIfNoEnterReasonInSectionVii": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NO (If \"No,\" enter reason in Section VII",
+        "widget": "text"
+      }
+    },
+    "7c": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "7C.",
+        "widget": "date"
+      }
+    },
+    "8cDatePaymentsBegan": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "8C. DATE PAYMENTS BEGAN (",
+        "widget": "date"
+      }
+    },
+    "10aDateSchoolAttendanceTerminated": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "10A. DATE SCHOOL ATTENDANCE TERMINATED (",
+        "widget": "date"
+      }
+    },
+    "10bIsThisTheOfficialEnding": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "10B. IS THIS THE OFFICIAL ENDING",
+        "widget": "date"
+      }
+    },
+    "yesIfYesCompleteItem_11a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YES (If \"Yes,\" complete Item 11A)",
+        "widget": "radio"
+      }
+    },
+    "11aBeginning": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11A. BEGINNING",
+        "widget": "date"
+      }
+    },
+    "the": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "THE",
+        "widget": "date"
+      }
+    },
+    "11bOfficialEndingDateOfRegularTerm": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11B. OFFICIAL ENDING DATE OF REGULAR TERM (",
+        "widget": "date"
+      }
+    },
+    "reasonForTerminationOfSchoolAttendanceIfAdditionalS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REASON FOR TERMINATION OF SCHOOL ATTENDANCE (If additional s",
+        "widget": "text"
+      }
+    },
+    "13aSignatureOfSchoolOfficialRequired_13b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "13A. SIGNATURE OF SCHOOL OFFICIAL (REQUIRED)13B.",
+        "widget": "signature"
+      }
+    },
+    "remarksIfAny": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (If any)",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-674b-are.pdf",
+    "status": "digitized",
+    "totalFields": 41,
+    "composedFields": 39,
+    "coveragePercent": 95,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:57.145Z",
+    "postProcessedAt": "2026-03-30T20:02:41.701867+00:00",
+    "redigitizedAt": "2026-03-30T20:38:30.616Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

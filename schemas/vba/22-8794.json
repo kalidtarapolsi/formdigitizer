@@ -1,0 +1,288 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-8794",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfSchoolOrTrainingEstablishment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform N A M E A N D A D D R E S S O F S C H O O L O R T R A I N I N G E S T A B L I S H M E N T",
+        "widget": "text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform T I T L E",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform T E L E P H O N E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform E M A I L",
+        "widget": "text"
+      }
+    },
+    "jf01": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform J F01",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform D A T E",
+        "widget": "text"
+      }
+    },
+    "vaFacilityCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform V A Facility Code",
+        "widget": "text"
+      }
+    },
+    "digitalSignature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E",
+        "widget": "text"
+      }
+    },
+    "title2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T I T L E",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T E L E P H O N E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "email2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform E M A I L",
+        "widget": "text"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform E M A I L A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "printNameAndTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P R I N T N A M E A N D T I T L E",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E M A R K S",
+        "widget": "text"
+      }
+    },
+    "theIndividualMustVali": {
+      "type": "string",
+      "x-va-field": {
+        "label": "•  The individual must vali",
+        "widget": "text"
+      }
+    },
+    "newlyDesignatedCertifyingOfficials": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Newly Designated Certifying Officials",
+        "widget": "text"
+      }
+    },
+    "newlyApprovedInstitutions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Newly Approved Institutions",
+        "widget": "text"
+      }
+    },
+    "existingCertifyingOfficials": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing Certifying Officials",
+        "widget": "text"
+      }
+    },
+    "items_4And_5SignAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Items 4 and 5. Sign and",
+        "widget": "text"
+      }
+    },
+    "purpose": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PURPOSE",
+        "widget": "text"
+      }
+    },
+    "name2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "text"
+      }
+    },
+    "email3": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL",
+        "widget": "email"
+      }
+    },
+    "nameAndAddressOfSchoolOrTrainingEstablishmentInclud": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF SCHOOL OR TRAINING ESTABLISHMENT (Includ",
+        "widget": "address"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "orTrainingEstablishment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OR TRAINING ESTABLISHMENT",
+        "widget": "text"
+      }
+    },
+    "signatureOfDesignatingOfficialSeeSpecificInstructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF DESIGNATING OFFICIAL (See Specific Instructions",
+        "widget": "signature"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "printNameAndTitle2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRINT NAME AND TITLE",
+        "widget": "text"
+      }
+    },
+    "emailAddress2": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS",
+        "widget": "email"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "date3": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE",
+        "widget": "date"
+      }
+    },
+    "remarks2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "orTrainingEstablishmentContinued": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OR TRAINING ESTABLISHMENT (Continued)",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-8794-are.pdf",
+    "status": "digitized",
+    "totalFields": 37,
+    "composedFields": 37,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:34:45.852Z",
+    "redigitizedAt": "2026-03-30T20:37:56.099Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

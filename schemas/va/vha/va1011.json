@@ -1,0 +1,214 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA1011",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "deliveredByDepartmentOfVeteransAffairsDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "totalChecks": {
+      "type": "boolean"
+    },
+    "valuablesEnclosedInPackageWithSF215CheckBox": {
+      "type": "boolean"
+    },
+    "vAForm1551CheckBox": {
+      "type": "boolean"
+    },
+    "vAForm5216CheckBox": {
+      "type": "boolean"
+    },
+    "bankSlipCheckBox": {
+      "type": "boolean"
+    },
+    "purposeOfShipmentCheckAppropriateBoxExchangeOfCashForBankDraftCheckBox": {
+      "type": "boolean"
+    },
+    "replenishmentCheckExchangedForCashCheckBox": {
+      "type": "boolean"
+    },
+    "carsCollectionsCheckBox": {
+      "type": "boolean"
+    },
+    "forDepositToFederalDepositoryCheckBox": {
+      "type": "boolean"
+    },
+    "insuranceCollectionsToVAInsuranceOfficeCheckBox": {
+      "type": "boolean"
+    },
+    "methodOfTransportationCheckAppropriateBoxPersonalDeliveryCheckBox": {
+      "type": "boolean"
+    },
+    "armoredCarServiceCheckBox": {
+      "type": "boolean"
+    },
+    "registeredMailCheckBox": {
+      "type": "boolean"
+    },
+    "aMCheckBox": {
+      "type": "boolean"
+    },
+    "pMCheckBox": {
+      "type": "boolean"
+    },
+    "amountLine1Of7": {
+      "type": "number"
+    },
+    "amountLine2Of7": {
+      "type": "number"
+    },
+    "amountLine3Of7": {
+      "type": "number"
+    },
+    "amountLine4Of7": {
+      "type": "number"
+    },
+    "amountLine5Of7": {
+      "type": "number"
+    },
+    "amountLine6Of7": {
+      "type": "number"
+    },
+    "amountLine7Of7": {
+      "type": "number"
+    },
+    "amountLine1Of6": {
+      "type": "number"
+    },
+    "amountLine2Of6": {
+      "type": "number"
+    },
+    "amountLine3Of6": {
+      "type": "number"
+    },
+    "amountLine4Of6": {
+      "type": "number"
+    },
+    "amountLine5Of6": {
+      "type": "number"
+    },
+    "amountLine6Of6": {
+      "type": "number"
+    },
+    "nameAndLocationOfVAStation": {
+      "type": "string"
+    },
+    "serialNumber": {
+      "type": "string"
+    },
+    "currencyLine1Of7": {
+      "type": "string"
+    },
+    "currencyLine2Of7": {
+      "type": "string"
+    },
+    "currencyLine3Of7": {
+      "type": "string"
+    },
+    "currencyLine4Of7": {
+      "type": "string"
+    },
+    "currencyLine5Of7": {
+      "type": "string"
+    },
+    "currencyLine6Of7": {
+      "type": "string"
+    },
+    "currencyLine7Of7": {
+      "type": "string"
+    },
+    "coinsLine1Of6": {
+      "type": "string"
+    },
+    "coinsLine2Of6": {
+      "type": "string"
+    },
+    "coinsLine4Of6": {
+      "type": "string"
+    },
+    "coinsLine5Of6": {
+      "type": "string"
+    },
+    "coinsLine6Of6": {
+      "type": "string"
+    },
+    "totalCurrencyAndCoins": {
+      "type": "string"
+    },
+    "totalValue": {
+      "type": "string"
+    },
+    "numberedFrom": {
+      "type": "string"
+    },
+    "numberedTo": {
+      "type": "string"
+    },
+    "registeredMailNumber": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "otherValuablesItemize": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA1011.pdf",
+    "totalFields": 58,
+    "composedFields": 36,
+    "coveragePercent": 62,
+    "xfaLabelCount": 58,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:33:44.586Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

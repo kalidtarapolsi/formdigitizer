@@ -1,0 +1,413 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "27-2008",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "namefml": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 namefml",
+        "widget": "text"
+      }
+    },
+    "othernameused": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 othernameused",
+        "widget": "text"
+      }
+    },
+    "militaryservicenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 militaryservicenumber",
+        "widget": "text"
+      }
+    },
+    "vafilenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 vafilenumber",
+        "widget": "text"
+      }
+    },
+    "name14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 name14",
+        "widget": "text"
+      }
+    },
+    "address14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 address14",
+        "widget": "text"
+      }
+    },
+    "relationship14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 relationship14",
+        "widget": "text"
+      }
+    },
+    "remarks15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 remarks15",
+        "widget": "text"
+      }
+    },
+    "relationshiptodeceased": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 relationshiptodeceased",
+        "widget": "text"
+      }
+    },
+    "addressofapplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 addressofapplicant",
+        "widget": "text"
+      }
+    },
+    "specother": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Specother",
+        "widget": "text"
+      }
+    },
+    "telephonenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 telephonenumber",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signature",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONDENT BURDEN",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "postmasterOrOtherIssuingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Postmaster or other issuing official",
+        "widget": "text"
+      }
+    },
+    "maidenNameOrOtherNameSVeteranUsedWhileOnActive": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAIDEN NAME OR OTHER NAME(S) VETERAN USED WHILE ON ACTIVE",
+        "widget": "text"
+      }
+    },
+    "branchOfServiceCheckBox": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BRANCH OF SERVICE (Check box)",
+        "widget": "text"
+      }
+    },
+    "dateOfBurialMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BURIAL (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "hasDocumentationBeenPresentedOrAttachedThatShowsThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAS DOCUMENTATION BEEN PRESENTED OR ATTACHED THAT SHOWS THE",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber3VaFileNumber5MilitaryServiceN": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER3. VA FILE NUMBER5. MILITARY SERVICE N",
+        "widget": "ssn"
+      }
+    },
+    "placeOfBurial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLACE OF BURIAL",
+        "widget": "text"
+      }
+    },
+    "dateReleasedFrom": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE RELEASED FROM",
+        "widget": "date"
+      }
+    },
+    "reserve": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Reserve) (",
+        "widget": "date"
+      }
+    },
+    "dateOfBirthMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "signatureOfApplicantSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPLICANT (Sign in INK)",
+        "widget": "signature"
+      }
+    },
+    "dateOfDeathMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF DEATH (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "addressOfApplicantNumberAndStreetOrRuralRoutePO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF APPLICANT (Number and street or rural route, P.O.",
+        "widget": "address"
+      }
+    },
+    "stateZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State, ZIP Code)",
+        "widget": "select"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "signatureOfPersonReceivingFlagSignInInk_21DateFla": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SIGNATURE OF PERSON RECEIVING FLAG (Sign in INK)21. DATE FLA",
+        "widget": "date"
+      }
+    },
+    "firstMiddleLastNameOfVeteranPrintOrType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FIRST, MIDDLE, LAST NAME OF VETERAN (Print or type)",
+        "widget": "text"
+      }
+    },
+    "relationshipToDeceasedVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RELATIONSHIP TO DECEASED VETERAN",
+        "widget": "text"
+      }
+    },
+    "dateEnteredActive": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE ENTERED ACTIVE",
+        "widget": "date"
+      }
+    },
+    "selectedServiceSeeSectionC_3OnPage_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SELECTED SERVICE (See Section C(3) on page 2)",
+        "widget": "text"
+      }
+    },
+    "otherSeeSectionC_1OnPage_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (See Section C(1) on page 2)",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "whenThereIs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "When there is",
+        "widget": "radio"
+      }
+    },
+    "makingARequestForItIfThereIs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "making a request for it. If there is",
+        "widget": "radio"
+      }
+    },
+    "thisFlagIsIssuedOnBehalfOfTheDepartmentOfVeterans": {
+      "type": "string",
+      "x-va-field": {
+        "label": "This flag is issued on behalf of the Department of Veterans",
+        "widget": "text"
+      }
+    },
+    "whenUsedToDrapeTheCasketTheFlagShouldBePlacedAs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "When used to drape the casket, the flag should be placed as",
+        "widget": "text"
+      }
+    },
+    "follows": {
+      "type": "string",
+      "x-va-field": {
+        "label": "follows",
+        "widget": "text"
+      }
+    },
+    "duringAMilitaryCommitmentCeremonyTheFlagWhichWasUs": {
+      "type": "string",
+      "x-va-field": {
+        "label": "During a military commitment ceremony, the flag which was us",
+        "widget": "text"
+      }
+    },
+    "foldingTheFlagSeeIllustrationBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Folding the flag (see illustration below):",
+        "widget": "text"
+      }
+    },
+    "theFlagShouldNotBeLoweredIntoTheGraveOrAllowedTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The flag should not be lowered into the grave or allowed to",
+        "widget": "text"
+      }
+    },
+    "theFlagShouldFormADistinctiveFeatureOfTheCeremonyO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The flag should form a distinctive feature of the ceremony o",
+        "widget": "text"
+      }
+    },
+    "theFlagShouldNeverBeFastenedDisplayedUsedOrStowe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The flag should never be fastened, displayed, used, or stowe",
+        "widget": "text"
+      }
+    },
+    "theFlagShouldNeverHavePlacedUponItNorAnyPartOfI": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The flag should never have placed upon it, nor any part of i",
+        "widget": "text"
+      }
+    },
+    "theFlagShouldNeverBeUsedAsAReceptacleForReceiving": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The flag should never be used as a  receptacle for receiving",
+        "widget": "text"
+      }
+    },
+    "theFlagWhenBadlyWornTornOrSoiledShouldNoLonger": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The flag, when badly worn, torn, or soiled should no longer",
+        "widget": "text"
+      }
+    },
+    "mannerAsToConvey": {
+      "type": "string",
+      "x-va-field": {
+        "label": "manner as to convey",
+        "widget": "radio"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-27-2008-are.pdf",
+    "status": "digitized",
+    "totalFields": 54,
+    "composedFields": 54,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:37:49.468Z",
+    "redigitizedAt": "2026-03-30T20:39:15.018Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

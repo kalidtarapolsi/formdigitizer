@@ -1,0 +1,479 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10068b",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "patientName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Patient Name",
+        "widget": "text"
+      }
+    },
+    "dateofBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dateof Birth",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "bladderCancer": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Bladder Cancer",
+        "widget": "checkbox"
+      }
+    },
+    "breastCancer": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Breast Cancer",
+        "widget": "checkbox"
+      }
+    },
+    "esophagealCancer": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Esophageal Cancer",
+        "widget": "checkbox"
+      }
+    },
+    "kidneyCancer": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Kidney Cancer",
+        "widget": "checkbox"
+      }
+    },
+    "lungCancer": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Lung Cancer",
+        "widget": "checkbox"
+      }
+    },
+    "leukemia": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Leukemia",
+        "widget": "checkbox"
+      }
+    },
+    "multipleMyeloma": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Multiple Myeloma",
+        "widget": "checkbox"
+      }
+    },
+    "myelodysplasticSyndrome": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Myelodysplastic Syndrome",
+        "widget": "checkbox"
+      }
+    },
+    "nonHodgkinsLymphoma": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Non Hodgkins Lymphoma",
+        "widget": "checkbox"
+      }
+    },
+    "scleroderma": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Scleroderma",
+        "widget": "checkbox"
+      }
+    },
+    "hepaticSteatosis": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Hepatic Steatosis",
+        "widget": "checkbox"
+      }
+    },
+    "renalToxicity": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Renal Toxicity",
+        "widget": "checkbox"
+      }
+    },
+    "neurobehavioralEffects": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Neurobehavioral Effects",
+        "widget": "checkbox"
+      }
+    },
+    "femaleInfertility": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Female Infertility",
+        "widget": "checkbox"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "miscarriage": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Miscarriage",
+        "widget": "checkbox"
+      }
+    },
+    "whatisYourDiagnosis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Whatis Your Diagnosis",
+        "widget": "text"
+      }
+    },
+    "icd9code": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform I C D 9 Code",
+        "widget": "text"
+      }
+    },
+    "dateofDiagnosis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dateof Diagnosis",
+        "widget": "text"
+      }
+    },
+    "dateRecentVisit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Recent Visit",
+        "widget": "text"
+      }
+    },
+    "specifyOther": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Specify Other",
+        "widget": "text"
+      }
+    },
+    "radiation": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Radiation",
+        "widget": "checkbox"
+      }
+    },
+    "startDate1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Start Date1",
+        "widget": "text"
+      }
+    },
+    "endDate1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform End Date1",
+        "widget": "text"
+      }
+    },
+    "chemotherapy": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Chemotherapy",
+        "widget": "checkbox"
+      }
+    },
+    "surgery": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Surgery",
+        "widget": "checkbox"
+      }
+    },
+    "otherTreatment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other Treatment",
+        "widget": "text"
+      }
+    },
+    "ongoingTreatment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Ongoing Treatment",
+        "widget": "text"
+      }
+    },
+    "narrative": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Narrative",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "physicianName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Physician Name",
+        "widget": "text"
+      }
+    },
+    "streetAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Street Address",
+        "widget": "text"
+      }
+    },
+    "taxId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Tax I D",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform City",
+        "widget": "text"
+      }
+    },
+    "state": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform State",
+        "widget": "text"
+      }
+    },
+    "zipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Zip Code",
+        "widget": "text"
+      }
+    },
+    "npinumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N P I Number",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone",
+        "widget": "text"
+      }
+    },
+    "specialty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Specialty",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "patientSNameLastFirstMiddleDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Patient's Name (Last, First, Middle)Date of Birth",
+        "widget": "text"
+      }
+    },
+    "ifYes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If Yes",
+        "widget": "text"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date (",
+        "widget": "date"
+      }
+    },
+    "icd_9_10CodeS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ICD-9/10 code(s)",
+        "widget": "text"
+      }
+    },
+    "dateOfDiagnosisMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Diagnosis (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "after": {
+      "type": "string",
+      "x-va-field": {
+        "label": "after)",
+        "widget": "text"
+      }
+    },
+    "startDateMmDdYyyyAnticipatedTreatmentEnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Start Date (MM/DD/YYYY)Anticipated Treatment End",
+        "widget": "date"
+      }
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Start Date (",
+        "widget": "date"
+      }
+    },
+    "otherTreatment2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Other treatment",
+        "widget": "text"
+      }
+    },
+    "ongoingFutureTreatment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Ongoing/future treatment",
+        "widget": "text"
+      }
+    },
+    "narrative2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Narrative",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "signatureOfPhysician": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature of Physician",
+        "widget": "signature"
+      }
+    },
+    "nameOfPhysicianPleasePrint": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Physician (Please print)",
+        "widget": "text"
+      }
+    },
+    "citystatezipCodenationalProviderIdentifierNpi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CityStateZip CodeNational Provider Identifier (NPI)",
+        "widget": "select"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "Email Address",
+        "widget": "email"
+      }
+    },
+    "phoneNumber_999_999_9999": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Phone Number ((999) 999-9999)",
+        "widget": "phone"
+      }
+    },
+    "forMoreInformationGoTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "For more information go to",
+        "widget": "text"
+      }
+    },
+    "noteToPhysician": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE TO PHYSICIAN",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068b-fill.pdf",
+    "totalFields": 64,
+    "composedFields": 64,
+    "coveragePercent": 100,
+    "xfaLabelCount": 48,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:33.627Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:26:13.821Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

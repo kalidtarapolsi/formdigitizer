@@ -1,0 +1,287 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-4185",
+  "type": "object",
+  "required": [
+    "ssn",
+    "fullName"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10
+        }
+      },
+      "required": [
+        "first",
+        "last"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "date1": {
+      "type": "string",
+      "format": "date"
+    },
+    "date2": {
+      "type": "string",
+      "format": "date"
+    },
+    "date3": {
+      "type": "string",
+      "format": "date"
+    },
+    "date4": {
+      "type": "string",
+      "format": "date"
+    },
+    "date40": {
+      "type": "string",
+      "format": "date"
+    },
+    "date30": {
+      "type": "string",
+      "format": "date"
+    },
+    "date20": {
+      "type": "string",
+      "format": "date"
+    },
+    "date10": {
+      "type": "string",
+      "format": "date"
+    },
+    "date14b": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "col1amount1": {
+      "type": "number"
+    },
+    "col1amount2": {
+      "type": "number"
+    },
+    "col1amount3": {
+      "type": "number"
+    },
+    "col1amount4": {
+      "type": "number"
+    },
+    "col1amount5": {
+      "type": "number"
+    },
+    "col1amount6": {
+      "type": "number"
+    },
+    "col2amount1": {
+      "type": "number"
+    },
+    "col2amount2": {
+      "type": "number"
+    },
+    "col2amount3": {
+      "type": "number"
+    },
+    "col2amount4": {
+      "type": "number"
+    },
+    "col2amount5": {
+      "type": "number"
+    },
+    "col2amount6": {
+      "type": "number"
+    },
+    "col1amount7": {
+      "type": "number"
+    },
+    "col1amount8": {
+      "type": "number"
+    },
+    "col1amount9": {
+      "type": "number"
+    },
+    "col1amount10": {
+      "type": "number"
+    },
+    "col1amount11": {
+      "type": "number"
+    },
+    "col1amount12": {
+      "type": "number"
+    },
+    "col2amount7": {
+      "type": "number"
+    },
+    "col2amount8": {
+      "type": "number"
+    },
+    "col2amount9": {
+      "type": "number"
+    },
+    "col2amount10": {
+      "type": "number"
+    },
+    "col2amount11": {
+      "type": "number"
+    },
+    "col2amount12": {
+      "type": "number"
+    },
+    "col1expense1": {
+      "type": "number"
+    },
+    "col2expense1": {
+      "type": "number"
+    },
+    "col2expense3": {
+      "type": "number"
+    },
+    "col2expense5": {
+      "type": "number"
+    },
+    "col2expense4": {
+      "type": "number"
+    },
+    "col2expense2": {
+      "type": "number"
+    },
+    "col1expense2": {
+      "type": "number"
+    },
+    "col1expense3": {
+      "type": "number"
+    },
+    "col1expense5": {
+      "type": "number"
+    },
+    "col1expense4": {
+      "type": "number"
+    },
+    "businessadress": {
+      "type": "string"
+    },
+    "portions": {
+      "type": "string"
+    },
+    "rentalprop": {
+      "type": "string"
+    },
+    "briefdescript": {
+      "type": "string"
+    },
+    "typeornature": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "remarks13": {
+      "type": "string"
+    },
+    "listnames": {
+      "type": "string"
+    },
+    "printedname1": {
+      "type": "string"
+    },
+    "printedname2": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4185-are.pdf",
+    "status": "digitized",
+    "totalFields": 77,
+    "composedFields": 67,
+    "coveragePercent": 87,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:34:17.636Z"
+  }
+}

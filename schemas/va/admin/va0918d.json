@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA0918d",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "sitename": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S I T E N A M E",
+        "widget": "text"
+      }
+    },
+    "sponsoringorganizationname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S P O N S O R I N G O R G A N I Z A T I O N N A M E",
+        "widget": "text"
+      }
+    },
+    "businessmailingaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B U S I N E S S M A I L I N G A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "businessphone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B U S I N E S S P H O N E",
+        "widget": "text"
+      }
+    },
+    "businessfax": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B U S I N E S S F A X",
+        "widget": "text"
+      }
+    },
+    "businessemailaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B U S I N E S S E M A I L A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "listanddescribe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L I S T A N D D E S C R I B E",
+        "widget": "text"
+      }
+    },
+    "website": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform W E B S I T E",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date",
+        "widget": "text"
+      }
+    },
+    "describeactivities": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E S C R I B E A C T I V I T I E S",
+        "widget": "text"
+      }
+    },
+    "describeactivitiespage2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E S C R I B E A C T I V I T I E S P A G E2",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "attn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ATTN",
+        "widget": "text"
+      }
+    },
+    "webSiteIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WEB SITE (If applicable)",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0918d.pdf",
+    "totalFields": 19,
+    "composedFields": 17,
+    "coveragePercent": 100,
+    "xfaLabelCount": 14,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:13:52.200Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:28:17.837Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

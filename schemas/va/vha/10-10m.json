@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10M",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateTimeOfDischargeReadOnlyFieldValueFromFirstPage": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "currentMedications": {
+      "type": "string"
+    },
+    "section2ForPatient1DispositionClinicAppointmentReadOnlyFieldValueFromFirstPage": {
+      "type": "string"
+    },
+    "conditionImprovedReadOnlyFieldValueFromFirstPage": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "sexMale": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "temperature": {
+      "type": "string"
+    },
+    "pulse": {
+      "type": "string"
+    },
+    "respiration": {
+      "type": "string"
+    },
+    "bloodPressure": {
+      "type": "string"
+    },
+    "aAllergies": {
+      "type": "string"
+    },
+    "diagnosticImpressions": {
+      "type": "string"
+    },
+    "aAttendingOfRecord": {
+      "type": "string"
+    },
+    "followUpActivityLimitationsReadOnlyFieldValueFromFirstPage": {
+      "type": "string"
+    },
+    "aM": {
+      "type": "string"
+    },
+    "pm": {
+      "type": "string"
+    },
+    "dueToInjuryNo": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "homelessYes": {
+      "type": "string"
+    },
+    "female": {
+      "type": "string"
+    },
+    "onArrivalPatientWasAmbulatory": {
+      "type": "string"
+    },
+    "stretcher": {
+      "type": "string"
+    },
+    "wheelchair": {
+      "type": "string"
+    },
+    "triage": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "string"
+    },
+    "patientInstructionsReadOnlyFieldValueFromFirstPage": {
+      "type": "string"
+    },
+    "historyAndPhysical": {
+      "type": "string"
+    },
+    "noReadOnlyFieldValueFromFirstPage": {
+      "type": "string"
+    },
+    "afterCareSheetGivenYesReadOnlyFieldValueFromFirstPage": {
+      "type": "string"
+    },
+    "satisfactoryReadOnlyFieldValueFromFirstPage": {
+      "type": "string"
+    },
+    "unchangedReadOnlyFieldValueFromFirstPage": {
+      "type": "string"
+    },
+    "orders": {
+      "type": "string"
+    },
+    "effectiveness": {
+      "type": "string"
+    },
+    "continuationFromFrontProgressNote": {
+      "type": "string"
+    },
+    "studiesRequestedLine1Of6": {
+      "type": "string"
+    },
+    "results": {
+      "type": "string"
+    },
+    "studiesRequestedLine2Of6": {
+      "type": "string"
+    },
+    "studiesRequestedLine3Of6": {
+      "type": "string"
+    },
+    "studiesRequestedLine4Of6": {
+      "type": "string"
+    },
+    "studiesRequestedLine5Of6": {
+      "type": "string"
+    },
+    "studiesRequestedLine6Of6": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10m.pdf",
+    "totalFields": 108,
+    "composedFields": 42,
+    "coveragePercent": 39,
+    "xfaLabelCount": 89,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:27:01.790Z",
+    "pageCount": 3,
+    "status": "digitized"
+  }
+}

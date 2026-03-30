@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2641",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "dateOfRequest": {
+      "type": "string",
+      "format": "date"
+    },
+    "section2ToBeCompletedByCentralOfficeDateReceived": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfAction": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePurchased": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "specificDisabilityRequiringSpecialItemAndICD9Code": {
+      "type": "string"
+    },
+    "fullMedicalJustificationForSpecialItem": {
+      "type": "string"
+    },
+    "nameTitleAndMedicalSpecialtyOfPrescribingPhysician": {
+      "type": "string"
+    },
+    "veteransAddress": {
+      "type": "string"
+    },
+    "nSC": {
+      "type": "string"
+    },
+    "nameAndLocationOfRequestingStation": {
+      "type": "string"
+    },
+    "disapproved": {
+      "type": "string"
+    },
+    "concurrencesSymbolLine2Of5": {
+      "type": "string"
+    },
+    "remarksAndorInstructionsReasonForDisapproval": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2641.pdf",
+    "totalFields": 41,
+    "composedFields": 22,
+    "coveragePercent": 54,
+    "xfaLabelCount": 19,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:27.904Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

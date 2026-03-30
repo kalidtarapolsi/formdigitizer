@@ -1,0 +1,419 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-307",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Mailing Address",
+        "widget": "text"
+      }
+    },
+    "ssn2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 S S N2",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Phone",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Other",
+        "widget": "text"
+      }
+    },
+    "veteranName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Veteran Name",
+        "widget": "text"
+      }
+    },
+    "ssn1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 S S N1",
+        "widget": "text"
+      }
+    },
+    "dateDecision": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Date Decision",
+        "widget": "text"
+      }
+    },
+    "area": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Area",
+        "widget": "checkbox"
+      }
+    },
+    "elaborate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Elaborate",
+        "widget": "text"
+      }
+    },
+    "pages": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Pages",
+        "widget": "text"
+      }
+    },
+    "dateSigned1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Date Signed1",
+        "widget": "text"
+      }
+    },
+    "signature2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Signature2",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Date Signed2",
+        "widget": "text"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Signature1",
+        "widget": "text"
+      }
+    },
+    "nameRelationship": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Name Relationship",
+        "widget": "text"
+      }
+    },
+    "nameRelationship2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Name Relationship2",
+        "widget": "text"
+      }
+    },
+    "reason": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page3 Reason",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "applicationDecisionADecisionThatYouAre": {
+      "type": "string",
+      "x-va-field": {
+        "label": "application decision, a decision that you are",
+        "widget": "radio"
+      }
+    },
+    "mailYourCompletedNodTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Mail your completed NOD to",
+        "widget": "text"
+      }
+    },
+    "paperworkReductionActStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAPERWORK REDUCTION ACT STATEMENT",
+        "widget": "select"
+      }
+    },
+    "privacyActStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT STATEMENT",
+        "widget": "select"
+      }
+    },
+    "box_9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Box 9",
+        "widget": "text"
+      }
+    },
+    "aDifferentFormForEachDecision": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "a different form for each decision",
+        "widget": "date"
+      }
+    },
+    "box_10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Box 10",
+        "widget": "text"
+      }
+    },
+    "ofYou": {
+      "type": "string",
+      "x-va-field": {
+        "label": "of you",
+        "widget": "radio"
+      }
+    },
+    "box_11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Box 11",
+        "widget": "text"
+      }
+    },
+    "box_12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Box 12",
+        "widget": "text"
+      }
+    },
+    "pleaseSignAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Please sign and",
+        "widget": "date"
+      }
+    },
+    "13bPleaseEnterThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "13B: Please enter the",
+        "widget": "date"
+      }
+    },
+    "14bPleaseEnterThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "14B: Please enter the",
+        "widget": "date"
+      }
+    },
+    "ifBothTheVeteranSAndCaregiverSSignaturesAreNotPro": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If both the Veteran’s and caregiver’s signatures are not pro",
+        "widget": "signature"
+      }
+    },
+    "include": {
+      "type": "string",
+      "x-va-field": {
+        "label": "include",
+        "widget": "text"
+      }
+    },
+    "veteranSNameLastNameFirstNameMiddleName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veteran’s Name (Last name, First name, Middle name)",
+        "widget": "text"
+      }
+    },
+    "caregiverSTelephoneNumberIncludingAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Caregiver’s Telephone Number (including area code)",
+        "widget": "phone"
+      }
+    },
+    "caregiverSMailingAddressIncludingNumberAndStreetOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Caregiver’s Mailing Address (including number and street or",
+        "widget": "address"
+      }
+    },
+    "zipCodeAndCountry": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "ZIP Code and Country)",
+        "widget": "zip"
+      }
+    },
+    "caregiverSSocialSecurityNumberLast_4Digits_5Caregiv": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "Caregiver’s Social Security Number (last 4 digits)5. Caregiv",
+        "widget": "ssn"
+      }
+    },
+    "veteranSSocialSecurityNumberLast_4Digits": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "Veteran’s Social Security Number (last 4 digits)",
+        "widget": "ssn"
+      }
+    },
+    "veteranSMailingAddressIncludingNumberAndStreetOrRu": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veteran’s Mailing Address (including number and street or ru",
+        "widget": "address"
+      }
+    },
+    "veteranSTelephoneNumberIncludingAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Veteran’s Telephone Number (including area code)",
+        "widget": "phone"
+      }
+    },
+    "dateOfDecisionPleaseProvideTheSpecificDateOfTheDe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Decision (Please provide the specific date of the de",
+        "widget": "date"
+      }
+    },
+    "decisionsIssuedOnMultiple": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "decisions issued on multiple",
+        "widget": "date"
+      }
+    },
+    "areaOfDisagreementSelectAllThatApplyForTheDateOf": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Area of Disagreement (Select all that apply for the date of",
+        "widget": "date"
+      }
+    },
+    "inTheSpaceBelowOrOnASeparatePageOrPagesYouMay": {
+      "type": "string",
+      "x-va-field": {
+        "label": "In the space below, or on a separate page or pages, you may",
+        "widget": "text"
+      }
+    },
+    "didYouAttachAdditionalPagesToThisNod": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Did you attach additional pages to this NOD?",
+        "widget": "text"
+      }
+    },
+    "ifYesHowManyPages": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If yes, how many pages",
+        "widget": "text"
+      }
+    },
+    "other2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Other",
+        "widget": "text"
+      }
+    },
+    "13aVeteranSignatureSignInInk_13bDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "13A. Veteran Signature (sign in ink)13B. Date (",
+        "widget": "date"
+      }
+    },
+    "14bDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "14B. Date (",
+        "widget": "date"
+      }
+    },
+    "ifTheSignaturesOfBothTheVeteranAndCaregiverOrThei": {
+      "type": "string",
+      "x-va-field": {
+        "label": "If the signatures of both the Veteran and caregiver, or thei",
+        "widget": "signature"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-307.pdf",
+    "totalFields": 54,
+    "composedFields": 54,
+    "coveragePercent": 100,
+    "xfaLabelCount": 19,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:13.567Z",
+    "pageCount": 3,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:26:54.035Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

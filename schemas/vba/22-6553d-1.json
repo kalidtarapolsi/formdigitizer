@@ -1,0 +1,246 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-6553d-1",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameandfacilitycodeoftrainingfacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E A N D F A C I L I T Y C O D E O F T R A I N I N G F A C I L I T Y",
+        "widget": "text"
+      }
+    },
+    "traineesnameandaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T R A I N E E S N A M E A N D A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "vafilenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A F I L E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "payeenumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P A Y E E N U M B E R",
+        "widget": "text"
+      }
+    },
+    "dateToBeCertified": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform Date To Be Certified",
+        "widget": "text"
+      }
+    },
+    "ofHours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #subform No\\ Of Hours",
+        "widget": "text"
+      }
+    },
+    "dateToBeCertified2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Row Date To Be Certified",
+        "widget": "text"
+      }
+    },
+    "ofHours2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Row No\\ Of Hours",
+        "widget": "text"
+      }
+    },
+    "dateTerminated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Terminated",
+        "widget": "text"
+      }
+    },
+    "reasonfortermination": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E A S O N F O R T E R M I N A T I O N",
+        "widget": "text"
+      }
+    },
+    "rate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R A T E",
+        "widget": "text"
+      }
+    },
+    "effectivedate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform E F F E C T I V E D A T E",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E M A R K S",
+        "widget": "text"
+      }
+    },
+    "certification": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform C E R T I F I C A T I O N",
+        "widget": "checkbox"
+      }
+    },
+    "printednameandtitleofcertifyingofficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P R I N T E D N A M E A N D T I T L E O F C E R T I F Y I N G O F F I C I A L",
+        "widget": "text"
+      }
+    },
+    "datesigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E S I G N E D",
+        "widget": "text"
+      }
+    },
+    "signature1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature1",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "nameAndFacilityCodeOfTrainingFacilityTraineeSNameAndAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND FACILITY CODE OF TRAINING FACILITY TRAINEE'S NAME AND ADDRESS",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "rateAndTheEffective": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "rate and the effective",
+        "widget": "date"
+      }
+    },
+    "monthSYearToBe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MONTH(S)/YEAR TO BE",
+        "widget": "text"
+      }
+    },
+    "numberOfHours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF HOURS",
+        "widget": "text"
+      }
+    },
+    "wasTraineePursingTheApprovedProgramForThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WAS TRAINEE PURSING THE APPROVED PROGRAM FOR THE",
+        "widget": "text"
+      }
+    },
+    "dateTerminated2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE TERMINATED",
+        "widget": "date"
+      }
+    },
+    "6cEffective": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "6C. EFFECTIVE",
+        "widget": "date"
+      }
+    },
+    "remarks2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "8b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "8B.",
+        "widget": "date"
+      }
+    },
+    "signatureOfCertifyingOfficialSignInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF CERTIFYING OFFICIAL (Sign in ink)",
+        "widget": "signature"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-6553d-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 32,
+    "composedFields": 31,
+    "coveragePercent": 97,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:30.614Z",
+    "redigitizedAt": "2026-03-30T20:39:09.144Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

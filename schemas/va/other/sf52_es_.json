@@ -1,0 +1,752 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SF52(ES)",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "actionsRequested2RequestNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ACTIONS REQUESTED2. REQUEST NUMBER",
+        "widget": "text"
+      }
+    },
+    "forAdditionalInformationCall": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FOR ADDITIONAL INFORMATION CALL",
+        "widget": "text"
+      }
+    },
+    "proposedEffectiveDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PROPOSED EFFECTIVE DATE",
+        "widget": "text"
+      }
+    },
+    "actionRequestedBy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ACTION REQUESTED BY",
+        "widget": "text"
+      }
+    },
+    "typedNameTitleSignatureAndRequest": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(Typed Name, Title, Signature, and Request",
+        "widget": "text"
+      }
+    },
+    "nameLastFirstMiddle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME (Last, First, Middle)",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber3DateOfBirth4EffectiveDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER3. DATE OF BIRTH4. EFFECTIVE DATE",
+        "widget": "text"
+      }
+    },
+    "fromPositionTitleAndNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FROM:  Position Title and Number",
+        "widget": "text"
+      }
+    },
+    "payPlan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Pay Plan",
+        "widget": "text"
+      }
+    },
+    "occCode10GradeOrLevel11StepOrRate12TotalSalary1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Occ. Code10. Grade or Level11. Step or Rate12. TOTAL SALARY1",
+        "widget": "text"
+      }
+    },
+    "nameAndLocationOfPositionSOrganization": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND LOCATION OF POSITION'S ORGANIZATION",
+        "widget": "text"
+      }
+    },
+    "toPositionTitleAndNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TO:  Position Title and Number",
+        "widget": "text"
+      }
+    },
+    "occCode18GradeOrLevel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Occ. Code18. Grade or Level",
+        "widget": "text"
+      }
+    },
+    "stepOrRate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step or Rate",
+        "widget": "text"
+      }
+    },
+    "totalSalaryAward": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL SALARY/AWARD",
+        "widget": "text"
+      }
+    },
+    "payBasis": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAY BASIS",
+        "widget": "text"
+      }
+    },
+    "veteransPreference": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERANS PREFERENCE",
+        "widget": "text"
+      }
+    },
+    "tenure": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TENURE",
+        "widget": "text"
+      }
+    },
+    "agencyUse": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AGENCY USE",
+        "widget": "text"
+      }
+    },
+    "veteransPreferenceFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERANS PREFERENCE FOR",
+        "widget": "text"
+      }
+    },
+    "fegli28AnnuitantIndicator29PayRateDeterminant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FEGLI28. ANNUITANT INDICATOR29. PAY RATE DETERMINANT",
+        "widget": "text"
+      }
+    },
+    "retirementPlan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RETIREMENT PLAN",
+        "widget": "text"
+      }
+    },
+    "serviceCompDateLeave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICE COMP. DATE (LEAVE)",
+        "widget": "text"
+      }
+    },
+    "workSchedule": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WORK SCHEDULE",
+        "widget": "text"
+      }
+    },
+    "partTimeHoursPer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PART-TIME HOURS PER",
+        "widget": "text"
+      }
+    },
+    "positionOccupied": {
+      "type": "string",
+      "x-va-field": {
+        "label": "POSITION OCCUPIED",
+        "widget": "text"
+      }
+    },
+    "flsaCategory": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FLSA CATEGORY",
+        "widget": "text"
+      }
+    },
+    "appropriationCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPROPRIATION CODE",
+        "widget": "text"
+      }
+    },
+    "bargainingUnitStatus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BARGAINING UNIT STATUS",
+        "widget": "text"
+      }
+    },
+    "dutyStationCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DUTY STATION CODE",
+        "widget": "text"
+      }
+    },
+    "dutyStation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DUTY STATION",
+        "widget": "text"
+      }
+    },
+    "agencyDataIaPos_41NewPosition42RegradedPosition43": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AGENCY DATA IA POS.41. NEW POSITION42. REGRADED POSITION43.",
+        "widget": "text"
+      }
+    },
+    "educationalLevel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EDUCATIONAL LEVEL",
+        "widget": "text"
+      }
+    },
+    "yrDegreeTrained": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YR. DEGREE TRAINED",
+        "widget": "text"
+      }
+    },
+    "academicDiscipline": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ACADEMIC DISCIPLINE",
+        "widget": "text"
+      }
+    },
+    "functionalClass49Citizenship": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FUNCTIONAL CLASS49. CITIZENSHIP",
+        "widget": "text"
+      }
+    },
+    "vietnamEraVet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VIETNAM ERA VET.",
+        "widget": "text"
+      }
+    },
+    "v": {
+      "type": "string",
+      "x-va-field": {
+        "label": "V -",
+        "widget": "text"
+      }
+    },
+    "supervisoryStatus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUPERVISORY STATUS",
+        "widget": "text"
+      }
+    },
+    "officeFunction": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OFFICE/FUNCTION",
+        "widget": "text"
+      }
+    },
+    "initialsSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INITIALS/SIGNATURE",
+        "widget": "text"
+      }
+    },
+    "approvalICertifyThatTheInformationEnteredOnThisFo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Approval:  I certify that the information entered on this fo",
+        "widget": "text"
+      }
+    },
+    "signatureapproval": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATUREAPPROVAL",
+        "widget": "text"
+      }
+    },
+    "stateAgencyInConnectionWithAdministrationOfUnemploymentCompensation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State agency in connection with administration of unemployment compensation",
+        "widget": "text"
+      }
+    },
+    "mayResultInYourNotReceiving": {
+      "type": "string",
+      "x-va-field": {
+        "label": "may result in your not receiving",
+        "widget": "text"
+      }
+    },
+    "reasonsForResignationRetirementNoteYourReasonsAreU": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REASONS FOR RESIGNATION/RETIREMENT (NOTE: Your reasons are u",
+        "widget": "text"
+      }
+    },
+    "effectiveDate3YourSignature4DateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EFFECTIVE DATE3. YOUR SIGNATURE4 DATE SIGNED",
+        "widget": "text"
+      }
+    },
+    "forwardingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FORWARDING ADDRESS",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field47": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field47",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field48": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field48",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field49": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field49",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field50": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field50",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field51": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field51",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field52": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field52",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field53": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field53",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field54": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field54",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field55": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field55",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field56": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field56",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field57": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field57",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field58": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field58",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field59": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field59",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field60": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field60",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field61": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field61",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field62": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field62",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field63": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field63",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field64": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field64",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field65": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field65",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field66": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field66",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field67": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field67",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field68": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field68",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field69": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field69",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field70": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field70",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field71": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field71",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field72": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field72",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field73": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field73",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field74": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field74",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field75": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field75",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field76": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field76",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field77": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field77",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field78": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field78",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field79": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field79",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field80": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field80",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field81": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field81",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field82": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field82",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field83": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field83",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field84": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field84",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field85": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field85",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field86": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Field86",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_1Field87": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field87",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field88": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field88",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field89": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field89",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field90": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field90",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field91": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field91",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field92": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field92",
+        "widget": "text"
+      }
+    },
+    "fPage_1Field93": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Field93",
+        "widget": "text"
+      }
+    },
+    "fPage_2Field94": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 2 Field94",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_2Field95": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 2 Field95",
+        "widget": "checkbox"
+      }
+    },
+    "fPage_2Field96": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Field96",
+        "widget": "text"
+      }
+    },
+    "fPage_2Field97": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Field97",
+        "widget": "text"
+      }
+    },
+    "fPage_2Field98": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Field98",
+        "widget": "text"
+      }
+    },
+    "fPage_2Field99": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Field99",
+        "widget": "text"
+      }
+    },
+    "fPage_2Field100": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Field100",
+        "widget": "text"
+      }
+    },
+    "fPage_2Field101": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Field101",
+        "widget": "text"
+      }
+    },
+    "fPage_2Field102": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Field102",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/SF52.pdf",
+    "totalFields": 104,
+    "composedFields": 104,
+    "coveragePercent": 99,
+    "xfaLabelCount": 102,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:13:30.707Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:28:40.964Z",
+    "extractionSources": [
+      "acroform+text-inference",
+      "acroform"
+    ]
+  }
+}

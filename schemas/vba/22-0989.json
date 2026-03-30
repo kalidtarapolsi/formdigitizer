@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-0989",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameOfApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Name Of Applicant",
+        "widget": "text"
+      }
+    },
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Mailing Address",
+        "widget": "text"
+      }
+    },
+    "vafilenumberOrSocialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 V A F I L E N U M B E R Or Social Security Number",
+        "widget": "text"
+      }
+    },
+    "emailaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 E M A I L A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "homeTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Home Telephone Number",
+        "widget": "text"
+      }
+    },
+    "nameofYourSchoolThatClosedOrWhereYourProgramWasWithdrawn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Nameof Your School That Closed Or Where Your Program Was Withdrawn",
+        "widget": "text"
+      }
+    },
+    "dateOfWithdrawalFromSchool": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Date Of Withdrawal From School",
+        "widget": "text"
+      }
+    },
+    "nameofYourNewSchoolAndProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Nameof Your New School And Program",
+        "widget": "text"
+      }
+    },
+    "lastDateOfAttendance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Last Date Of Attendance",
+        "widget": "text"
+      }
+    },
+    "remarksIfany": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Remarks Ifany",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "mobileTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Mobile Telephone Number",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONDENT BURDEN",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreetOrRuralRouteC": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT MAILING ADDRESS (Number and street or rural route, c",
+        "widget": "text"
+      }
+    },
+    "nameOfApplicantFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF APPLICANT (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "8bProvideThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "8B. PROVIDE THE",
+        "widget": "text"
+      }
+    },
+    "ifYouAttendedANonCollegeDegreeNcdSchoolThatWas": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YOU ATTENDED A NON-COLLEGE DEGREE (NCD) SCHOOL THAT WAS",
+        "widget": "text"
+      }
+    },
+    "whatWasYourLastDateOfAttendanceAtTheClosed": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "WHAT WAS YOUR LAST DATE OF ATTENDANCE AT THE CLOSED",
+        "widget": "date"
+      }
+    },
+    "mobile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MOBILE",
+        "widget": "text"
+      }
+    },
+    "home": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HOME",
+        "widget": "text"
+      }
+    },
+    "attestationOfHoursTransferred": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ATTESTATION OF HOURS TRANSFERRED",
+        "widget": "text"
+      }
+    },
+    "12OrMoreCreditsFromSuchProgramAtALater": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12 or more credits from such program at a later",
+        "widget": "date"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "yes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YES",
+        "widget": "radio"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0989-are.pdf",
+    "status": "digitized",
+    "totalFields": 29,
+    "composedFields": 27,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:38:04.048Z",
+    "redigitizedAt": "2026-03-30T20:39:22.809Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

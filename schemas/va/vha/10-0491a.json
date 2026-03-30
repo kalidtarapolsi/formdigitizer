@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491A",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "schoolName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform School Name",
+        "widget": "text"
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Name",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "altPhoneNum": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Alt Phone Num",
+        "widget": "text"
+      }
+    },
+    "altEmail": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Alt Email",
+        "widget": "text"
+      }
+    },
+    "commentsNewInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Comments/New Information",
+        "widget": "text"
+      }
+    },
+    "nameOfApplicantLastFirstMi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Applicant (Last, First, MI)",
+        "widget": "text"
+      }
+    },
+    "ssn2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SSN",
+        "widget": "text"
+      }
+    },
+    "phoneNumberIncludeAreaCodeEMailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Phone Number (include area code)E-mail Address",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox6": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box6",
+        "widget": "checkbox"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Other",
+        "widget": "text"
+      }
+    },
+    "reasonForAddendum": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Reason for addendum",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491a-fill%20(Application%20Addendum)%20(002).pdf",
+    "totalFields": 13,
+    "composedFields": 13,
+    "coveragePercent": 92,
+    "xfaLabelCount": 7,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:29:05.819Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:46.480Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

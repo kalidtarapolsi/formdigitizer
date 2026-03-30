@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0400",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "nameOfVeteran": {
+      "type": "string"
+    },
+    "section1ToBeCompletedByTheVsoRequestingAccessNameOfRepresenative": {
+      "type": "string"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "additionalComments": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0400.pdf",
+    "totalFields": 8,
+    "composedFields": 5,
+    "coveragePercent": 63,
+    "xfaLabelCount": 8,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:17:59.667Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

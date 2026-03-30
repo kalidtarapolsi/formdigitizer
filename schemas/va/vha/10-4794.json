@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-4794",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "year": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YEAR",
+        "widget": "text"
+      }
+    },
+    "physicalDescription": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PHYSICAL DESCRIPTION",
+        "widget": "text"
+      }
+    },
+    "titleSubtitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TITLE , SUBTITLE",
+        "widget": "text"
+      }
+    },
+    "language": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LANGUAGE",
+        "widget": "text"
+      }
+    },
+    "statementOfResponsibilityProducerPublisher": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATEMENT OF RESPONSIBILITY  (Producer/Publisher)",
+        "widget": "text"
+      }
+    },
+    "editionOtherThan_1st": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EDITION OTHER THAN 1ST",
+        "widget": "text"
+      }
+    },
+    "accompanyingMaterials": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ACCOMPANYING MATERIALS",
+        "widget": "text"
+      }
+    },
+    "notesOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTES (Optional)",
+        "widget": "text"
+      }
+    },
+    "summaryContentOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUMMARY/CONTENT (Optional)",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field3",
+        "widget": "text"
+      }
+    },
+    "form1SubformButton1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Button1",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-4794-fill.pdf",
+    "totalFields": 12,
+    "composedFields": 12,
+    "coveragePercent": 75,
+    "xfaLabelCount": 3,
+    "needsReviewCount": 3,
+    "generatedAt": "2026-03-28T21:04:22.225Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:15.220Z",
+    "extractionSources": [
+      "acroform+text-inference",
+      "acroform"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491K",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address",
+        "widget": "text"
+      }
+    },
+    "phoneNum": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone Num",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform email",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "applicantSLastFirstMi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Applicant's (Last, First, MI)",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Social Security Number",
+        "widget": "text"
+      }
+    },
+    "pleaseUp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Please up",
+        "widget": "text"
+      }
+    },
+    "completeThisFormAndReturnImmediatelyTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Complete this form and return immediately to",
+        "widget": "text"
+      }
+    },
+    "applicantSSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Applicant's Signature",
+        "widget": "text"
+      }
+    },
+    "nameOfFinancialInstitution": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Financial Institution",
+        "widget": "text"
+      }
+    },
+    "pleaseIndicateAccountType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Please indicate Account Type",
+        "widget": "text"
+      }
+    },
+    "useDisclosureOfTheInformationFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "use\" disclosure of the information for",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField44": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field44",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491k-fill%20(Offer%20Response).pdf",
+    "totalFields": 15,
+    "composedFields": 15,
+    "coveragePercent": 87,
+    "xfaLabelCount": 10,
+    "needsReviewCount": 2,
+    "generatedAt": "2026-03-28T21:29:48.773Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:57.688Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA1107",
+  "type": "object",
+  "properties": {
+    "dateMailedMmddyyyy": {
+      "type": "string",
+      "format": "date"
+    },
+    "feedbackCheckBox": {
+      "type": "boolean"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA1107.pdf",
+    "totalFields": 20,
+    "composedFields": 12,
+    "coveragePercent": 60,
+    "xfaLabelCount": 3,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:26:17.487Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-1313-13",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "dateOfSignature": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "applyingAsANonclinician": {
+      "type": "string"
+    },
+    "rehabilitationRAndDServiceRRAndD": {
+      "type": "string"
+    },
+    "revsionChangedFromPreviousLOI": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "responseToSpecificAnnouncementProvideRFATitleAndNumber": {
+      "type": "string"
+    },
+    "usCitizenYes": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-13-fill.pdf",
+    "totalFields": 46,
+    "composedFields": 26,
+    "coveragePercent": 57,
+    "xfaLabelCount": 12,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:15:14.458Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

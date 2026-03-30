@@ -1,0 +1,367 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0519s-1",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "maritalStatus": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Marital Status",
+        "widget": "checkbox"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Amount",
+        "widget": "text"
+      }
+    },
+    "amount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row2 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row3 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row4 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row5 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row6 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row7 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "dateFrom": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Date From",
+        "widget": "text"
+      }
+    },
+    "amount9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Amount",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "1cYourDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1C. YOUR DATE OF BIRTH (",
+        "widget": "text"
+      }
+    },
+    "maritalStatus2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MARITAL STATUS",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH",
+        "widget": "text"
+      }
+    },
+    "socialSecurity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY",
+        "widget": "text"
+      }
+    },
+    "nameOfChild": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF CHILD",
+        "widget": "text"
+      }
+    },
+    "nameOfPersonChild": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF PERSON CHILD",
+        "widget": "text"
+      }
+    },
+    "doYouReceiveAnyOtherVaBenefitsAsAVeteranParentO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU RECEIVE ANY OTHER VA BENEFITS AS A VETERAN, PARENT, O",
+        "widget": "text"
+      }
+    },
+    "4bShowThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4B. SHOW THE",
+        "widget": "text"
+      }
+    },
+    "didYouReceiveWagesOrWereYouEmployedAtAnyTimeDurin": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DID YOU RECEIVE WAGES OR WERE YOU EMPLOYED AT ANY TIME DURIN",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "butYouAreNotCurrentlyMarriedShowThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "but you are not currently married.) (Show the",
+        "widget": "text"
+      }
+    },
+    "2IRemarriedOnDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(2) I REMARRIED ON    (Date) (",
+        "widget": "text"
+      }
+    },
+    "marriedEnterThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "married. Enter the",
+        "widget": "text"
+      }
+    },
+    "reportAnnualIncomeForTheDatesIndicatedIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Report annual income for the dates indicated.  If",
+        "widget": "text"
+      }
+    },
+    "showThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(Show the",
+        "widget": "text"
+      }
+    },
+    "the": {
+      "type": "string",
+      "x-va-field": {
+        "label": "the",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "grossMonthlyAmountsIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GROSS MONTHLY AMOUNTS (If",
+        "widget": "text"
+      }
+    },
+    "11bDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "11B. DATE (",
+        "widget": "text"
+      }
+    },
+    "familyMedicalExpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FAMILY MEDICAL EXPENSES",
+        "widget": "text"
+      }
+    },
+    "familyMaintenanceHardshipExpensesForNext_12MonthsR": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FAMILY MAINTENANCE (HARDSHIP) EXPENSES FOR NEXT 12 MONTHS (R",
+        "widget": "text"
+      }
+    },
+    "survivingSpouseSEducationalAndVocationalRehabilitation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SURVIVING SPOUSE'S EDUCATIONAL AND VOCATIONAL REHABILITATION",
+        "widget": "text"
+      }
+    },
+    "child": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CHILD",
+        "widget": "text"
+      }
+    },
+    "from": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FROM",
+        "widget": "text"
+      }
+    },
+    "thru": {
+      "type": "string",
+      "x-va-field": {
+        "label": "THRU",
+        "widget": "text"
+      }
+    },
+    "dateMmYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE (MM/YYYY)",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "fPage_2SubformSubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 #subform #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_2Table1HeaderRowSubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Header Row #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_2Table1Row6SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row6 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_2Table1Row7SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Table1 Row7 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_2TextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Text Field1",
+        "widget": "text"
+      }
+    },
+    "fPage_2RadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 2 Radio Button List",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0519s-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 49,
+    "composedFields": 49,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:31:52.322Z",
+    "redigitizedAt": "2026-03-30T20:36:09.731Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "7031D",
+  "type": "object",
+  "properties": {
+    "date5": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "optionalText5": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    },
+    "cityState5": {
+      "type": "string"
+    },
+    "appreciation": {
+      "type": "string"
+    },
+    "years3": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-7031D%20Voluntary%20Service%20Award%20for%20Hours%20and%20Years%20of%20Service_final%20(002).pdf",
+    "totalFields": 9,
+    "composedFields": 4,
+    "coveragePercent": 44,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:32:45.468Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

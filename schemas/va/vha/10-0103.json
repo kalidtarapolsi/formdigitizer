@@ -1,0 +1,198 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0103",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform Date",
+        "widget": "text"
+      }
+    },
+    "time": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform Time",
+        "widget": "text"
+      }
+    },
+    "nameVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform Name Veteran",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "vafileNum": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform V A File Num",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform Address",
+        "widget": "text"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform Phone",
+        "widget": "text"
+      }
+    },
+    "namePerson": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform Name Person",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform Signature",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Vha100103 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "ifYesGiveDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(If \"Yes\", give date (",
+        "widget": "date"
+      }
+    },
+    "nameOfVeteranLastFirstMiThisIsAMandatoryField": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF VETERAN (Last, First, MI) (This is a mandatory field",
+        "widget": "text"
+      }
+    },
+    "ssnThisIsAMandatoryField": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN (This is a mandatory field)",
+        "widget": "ssn"
+      }
+    },
+    "addressNumberAndStreetOrRuralRoutePOBoxCityS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS (Number and street or rural route, P.O. Box, City, S",
+        "widget": "address"
+      }
+    },
+    "telephoneNumberOfVeteranIncludeAreaCode": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER OF VETERAN (Include Area Code)",
+        "widget": "phone"
+      }
+    },
+    "nameOfPersonOrFirmWithWhomISatisfactorilyBidForNe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF PERSON OR FIRM WITH WHOM I SATISFACTORILY BID FOR NE",
+        "widget": "text"
+      }
+    },
+    "iAcknowledgeThatTheVaAssumes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "• I acknowledge that the VA assumes",
+        "widget": "radio"
+      }
+    },
+    "installationAssumes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "installation; assumes",
+        "widget": "radio"
+      }
+    },
+    "devicesInstalledAndAssumes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "devices installed; and assumes",
+        "widget": "radio"
+      }
+    },
+    "ifApprovedForHisaBenefitsAreYouRequestingAnAdvance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF APPROVED FOR HISA BENEFITS, ARE YOU REQUESTING AN ADVANCE",
+        "widget": "text"
+      }
+    },
+    "signatureOfVeteranSignFullNameInInk": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF VETERAN (Sign Full Name in Ink)",
+        "widget": "signature"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0103-fill.pdf",
+    "totalFields": 24,
+    "composedFields": 24,
+    "coveragePercent": 100,
+    "xfaLabelCount": 12,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:20:47.051Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:25:11.158Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

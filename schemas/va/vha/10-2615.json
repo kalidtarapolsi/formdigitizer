@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Report of Drug Accountability Discrepancy",
+  "type": "object",
+  "properties": {
+    "veteranFullName": {
+      "type": "string",
+      "description": "Veteran's full name (last, first, middle)"
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "description": "Social Security Number (last 4 digits)"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "description": "VA file number"
+    },
+    "vaFacilityName": {
+      "type": "string",
+      "description": "VA medical facility name"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "drugName": {
+      "type": "string",
+      "description": "Drug name"
+    },
+    "dosage": {
+      "type": "string",
+      "description": "Dosage"
+    },
+    "frequency": {
+      "type": "string",
+      "description": "Frequency of administration"
+    },
+    "route": {
+      "type": "string",
+      "description": "Route of administration"
+    },
+    "quantity": {
+      "type": "string",
+      "description": "Quantity"
+    },
+    "refills": {
+      "type": "string",
+      "description": "Number of refills"
+    },
+    "prescriberName": {
+      "type": "string",
+      "description": "Prescriber's name"
+    },
+    "prescriberSignature": {
+      "type": "boolean",
+      "description": "Prescriber's signature"
+    },
+    "pharmacistName": {
+      "type": "string",
+      "description": "Pharmacist's name"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2615.pdf",
+    "totalFields": 16,
+    "composedFields": 16,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 1,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

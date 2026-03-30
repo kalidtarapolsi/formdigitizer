@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2553",
+  "type": "object",
+  "properties": {
+    "date5": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "optionalText5": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    },
+    "cityState5": {
+      "type": "string"
+    },
+    "appreciation": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-2553%20Certificate%20of%20Residency_Blank%20Template.pdf",
+    "totalFields": 7,
+    "composedFields": 4,
+    "coveragePercent": 57,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:15:26.004Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

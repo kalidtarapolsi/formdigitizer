@@ -1,0 +1,227 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0491D",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dateTimeField2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field2",
+        "widget": "text"
+      }
+    },
+    "numericField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Numeric Field1",
+        "widget": "text"
+      }
+    },
+    "phoneNum": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone Num",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform email",
+        "widget": "text"
+      }
+    },
+    "#field": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #field",
+        "widget": "checkbox"
+      }
+    },
+    "addressOfParentVaFacilityAsApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address of parent VA Facility (as applicable)",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "ssn2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SSN",
+        "widget": "text"
+      }
+    },
+    "participantSNameLastFirstMiddle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Participant's Name (Last, First, Middle)",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature",
+        "widget": "text"
+      }
+    },
+    "clinicalProgram": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Clinical Program:",
+        "widget": "text"
+      }
+    },
+    "dateOfLicensureCertification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Date of Licensure/Certification",
+        "widget": "text"
+      }
+    },
+    "nameOfVaFacilityActualWorkSiteFacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of VA Facility (actual work site facility)",
+        "widget": "text"
+      }
+    },
+    "addressOfVaFacilityActualWorkSiteFacility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Address of VA Facility (actual work site facility)",
+        "widget": "text"
+      }
+    },
+    "appointmentStartDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Appointment/Start Date",
+        "widget": "text"
+      }
+    },
+    "phoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Phone Number",
+        "widget": "text"
+      }
+    },
+    "email2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Email",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Date",
+        "widget": "text"
+      }
+    },
+    "facility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Facility",
+        "widget": "text"
+      }
+    },
+    "contact": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Contact",
+        "widget": "text"
+      }
+    },
+    "nameOfParentVaFacilityAsApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of parent VA Facility (as applicable.)",
+        "widget": "text"
+      }
+    },
+    "serviceObligationUp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICE OBLIGATION UP",
+        "widget": "text"
+      }
+    },
+    "submitTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Submit to",
+        "widget": "text"
+      }
+    },
+    "informationFor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "information for",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field8",
+        "widget": "text"
+      }
+    },
+    "form1SubformRadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field9",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field15",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491d-fill%20(Education%20Program%20Completion).pdf",
+    "totalFields": 29,
+    "composedFields": 29,
+    "coveragePercent": 86,
+    "xfaLabelCount": 13,
+    "needsReviewCount": 4,
+    "generatedAt": "2026-03-28T21:28:42.571Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:50.176Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

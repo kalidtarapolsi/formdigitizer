@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1919",
+  "type": "object",
+  "properties": {
+    "institutionNameAndAddress": {
+      "type": "string"
+    },
+    "vaFileNumber": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 9
+    },
+    "datesOfEnrollmentWithYourSchoolFrom": {
+      "type": "string",
+      "format": "date"
+    },
+    "datesOfEnrollmentWithYourSchoolTo": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "descriptionOfAssociationWithSchool": {
+      "type": "string"
+    },
+    "employeesNameAndTitle1": {
+      "type": "string"
+    },
+    "employeesNameAndTitle2": {
+      "type": "string"
+    },
+    "nameOfPresident": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1919-are.pdf",
+    "status": "digitized",
+    "totalFields": 11,
+    "composedFields": 7,
+    "coveragePercent": 64,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 1,
+    "generatedAt": "2026-03-28T17:38:47.997Z"
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-1990n",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "checking": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform checking",
+        "widget": "checkbox"
+      }
+    },
+    "savings": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform savings",
+        "widget": "checkbox"
+      }
+    },
+    "type9a1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform type9 A 1",
+        "widget": "checkbox"
+      }
+    },
+    "type9a2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform type9 A 2",
+        "widget": "checkbox"
+      }
+    },
+    "type9a3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform type9 A 3",
+        "widget": "checkbox"
+      }
+    },
+    "type9a4": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform type9 A 4",
+        "widget": "checkbox"
+      }
+    },
+    "type9a5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform type9 A 5",
+        "widget": "checkbox"
+      }
+    },
+    "type9a6": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform type9 A 6",
+        "widget": "checkbox"
+      }
+    },
+    "fullname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform fullname",
+        "widget": "text"
+      }
+    },
+    "pleasespecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform pleasespecify",
+        "widget": "text"
+      }
+    },
+    "namemiddle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform namemiddle",
+        "widget": "text"
+      }
+    },
+    "checkifapplicable": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform checkifapplicable",
+        "widget": "checkbox"
+      }
+    },
+    "ssna1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform ssna1",
+        "widget": "text"
+      }
+    },
+    "ssna2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform ssna2",
+        "widget": "text"
+      }
+    },
+    "ssna3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform ssna3",
+        "widget": "text"
+      }
+    },
+    "namefirst1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform namefirst1",
+        "widget": "text"
+      }
+    },
+    "noandstreet1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform noandstreet1",
+        "widget": "text"
+      }
+    },
+    "aptno1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform aptno1",
+        "widget": "text"
+      }
+    },
+    "city1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform city1",
+        "widget": "text"
+      }
+    },
+    "areacodep1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform areacodep1",
+        "widget": "text"
+      }
+    },
+    "routingno1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform routingno1",
+        "widget": "text"
+      }
+    },
+    "accountno1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform accountno1",
+        "widget": "text"
+      }
+    },
+    "email1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform email1",
+        "widget": "text"
+      }
+    },
+    "primaryphone1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform primaryphone1",
+        "widget": "text"
+      }
+    },
+    "primaryphone4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform primaryphone4",
+        "widget": "text"
+      }
+    },
+    "areacodes1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform areacodes1",
+        "widget": "text"
+      }
+    },
+    "secondaryphone1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform secondaryphone1",
+        "widget": "text"
+      }
+    },
+    "secondaryphone4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform secondaryphone4",
+        "widget": "text"
+      }
+    },
+    "state1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform state1",
+        "widget": "text"
+      }
+    },
+    "zip1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform zip1",
+        "widget": "text"
+      }
+    },
+    "namelast1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform namelast1",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "format": "date"
+    },
+    "yes100": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform yes100",
+        "widget": "checkbox"
+      }
+    },
+    "no100": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform no100",
+        "widget": "checkbox"
+      }
+    },
+    "no200": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform no200",
+        "widget": "checkbox"
+      }
+    },
+    "yes200": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform yes200",
+        "widget": "checkbox"
+      }
+    },
+    "dateentered1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dateentered1",
+        "widget": "text"
+      }
+    },
+    "dateentered2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dateentered2",
+        "widget": "text"
+      }
+    },
+    "dateentered3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dateentered3",
+        "widget": "text"
+      }
+    },
+    "dateentered4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dateentered4",
+        "widget": "text"
+      }
+    },
+    "dateentered5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dateentered5",
+        "widget": "text"
+      }
+    },
+    "dateentered6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Dateentered6",
+        "widget": "text"
+      }
+    },
+    "datesep1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datesep1",
+        "widget": "text"
+      }
+    },
+    "datesep2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datesep2",
+        "widget": "text"
+      }
+    },
+    "datesep3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datesep3",
+        "widget": "text"
+      }
+    },
+    "datesep4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datesep4",
+        "widget": "text"
+      }
+    },
+    "datesep5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datesep5",
+        "widget": "text"
+      }
+    },
+    "datesep6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datesep6",
+        "widget": "text"
+      }
+    },
+    "servicecomp1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servicecomp1",
+        "widget": "text"
+      }
+    },
+    "servicecomp2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servicecomp2",
+        "widget": "text"
+      }
+    },
+    "servicecomp3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servicecomp3",
+        "widget": "text"
+      }
+    },
+    "servicecomp4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servicecomp4",
+        "widget": "text"
+      }
+    },
+    "servicecomp5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servicecomp5",
+        "widget": "text"
+      }
+    },
+    "servicecomp6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servicecomp6",
+        "widget": "text"
+      }
+    },
+    "servstatus1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servstatus1",
+        "widget": "text"
+      }
+    },
+    "servstatus2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servstatus2",
+        "widget": "text"
+      }
+    },
+    "servstatus3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servstatus3",
+        "widget": "text"
+      }
+    },
+    "servstatus4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servstatus4",
+        "widget": "text"
+      }
+    },
+    "servstatus5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servstatus5",
+        "widget": "text"
+      }
+    },
+    "servstatus6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform servstatus6",
+        "widget": "text"
+      }
+    },
+    "part5yes1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform part5yes1",
+        "widget": "checkbox"
+      }
+    },
+    "part5no1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform part5no1",
+        "widget": "checkbox"
+      }
+    },
+    "part5no10": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform part5no10",
+        "widget": "checkbox"
+      }
+    },
+    "part5yes10": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform part5yes10",
+        "widget": "checkbox"
+      }
+    },
+    "part5no100": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform part5no100",
+        "widget": "checkbox"
+      }
+    },
+    "part5yes100": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform part5yes100",
+        "widget": "checkbox"
+      }
+    },
+    "signatureofapp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signatureofapp",
+        "widget": "text"
+      }
+    },
+    "datesigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Datesigned",
+        "widget": "text"
+      }
+    },
+    "ifyes11c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Ifyes11c",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "secondClassMedicalCertificateOnThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "second-class medical certificate on the",
+        "widget": "date"
+      }
+    },
+    "beSureToDoTheFollowing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Be sure to do the following",
+        "widget": "text"
+      }
+    },
+    "step_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 1",
+        "widget": "text"
+      }
+    },
+    "step_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 2",
+        "widget": "text"
+      }
+    },
+    "step_3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 3",
+        "widget": "text"
+      }
+    },
+    "addressesOfTheseVaRegionalProcessingOffices": {
+      "type": "string",
+      "x-va-field": {
+        "label": "addresses of these VA Regional Processing Offices.",
+        "widget": "address"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Privacy Act Notice",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberOfApplicant": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER OF APPLICANT",
+        "widget": "ssn"
+      }
+    },
+    "nameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "cityStateZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City, State, ZIP Code",
+        "widget": "select"
+      }
+    },
+    "applicantSAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLICANT'S ADDRESS",
+        "widget": "address"
+      }
+    },
+    "sexOfApplicant_3ApplicantSDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SEX OF APPLICANT 3. APPLICANT'S DATE OF BIRTH",
+        "widget": "date"
+      }
+    },
+    "home": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Home",
+        "widget": "text"
+      }
+    },
+    "directDepositToEnrollInDirectDepositAttachAVoided": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DIRECT DEPOSIT (To enroll in direct deposit, attach a voided",
+        "widget": "text"
+      }
+    },
+    "mobile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Mobile",
+        "widget": "text"
+      }
+    },
+    "12b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12B.",
+        "widget": "date"
+      }
+    },
+    "pleaseCompleteTheFollowingForEachPeriodOfMilitarySe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PLEASE COMPLETE THE FOLLOWING FOR EACH PERIOD OF MILITARY SE",
+        "widget": "text"
+      }
+    },
+    "ifSoPleaseSignAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "IF SO, PLEASE SIGN AND",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1990n-are.pdf",
+    "status": "digitized",
+    "totalFields": 93,
+    "composedFields": 91,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:34:24.885Z",
+    "postProcessedAt": "2026-03-30T20:42:50.134793+00:00",
+    "redigitizedAt": "2026-03-30T20:37:51.511Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

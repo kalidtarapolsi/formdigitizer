@@ -1,0 +1,141 @@
+{
+  "generated": "2026-03-28T21:56:35.138Z",
+  "totalForms": 344,
+  "organizations": [
+    {
+      "id": "admin",
+      "label": "VA Administration & General",
+      "directory": "admin/",
+      "formCount": 31,
+      "digitized": 25,
+      "flatPdfs": 6
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities & Logistics",
+      "directory": "facilities/",
+      "formCount": 35,
+      "digitized": 14,
+      "flatPdfs": 21
+    },
+    {
+      "id": "nca",
+      "label": "National Cemetery Administration (NCA)",
+      "directory": "nca/",
+      "formCount": 17,
+      "digitized": 17,
+      "flatPdfs": 0
+    },
+    {
+      "id": "other",
+      "label": "Standard Forms & Other",
+      "directory": "other/",
+      "formCount": 6,
+      "digitized": 6,
+      "flatPdfs": 0
+    },
+    {
+      "id": "vha",
+      "label": "Veterans Health Administration (VHA)",
+      "directory": "vha/",
+      "formCount": 255,
+      "digitized": 194,
+      "flatPdfs": 61
+    }
+  ],
+  "summary": {
+    "totalFields": 8220,
+    "totalComposed": 3957,
+    "totalNeedsReview": 176,
+    "averageCoverage": 59,
+    "medianCoverage": 63,
+    "highCoverage": 62,
+    "mediumCoverage": 126,
+    "lowCoverage": 54,
+    "flatPdfs": 88,
+    "digitized": 256,
+    "formsRequiringRouting": 49
+  },
+  "routingSummary": {
+    "physician": {
+      "count": 40,
+      "forms": [
+        "10-0376a",
+        "10-0395",
+        "10-0426",
+        "10-0430",
+        "10-0464a",
+        "10-0525a",
+        "10-10068b",
+        "10-10068c",
+        "10-10145",
+        "10-10M",
+        "10-1313-1",
+        "10-1313-13",
+        "10-1394",
+        "10-2409",
+        "10-2410",
+        "10-2431",
+        "10-2614d-2a",
+        "10-2614d-3a",
+        "10-2633",
+        "10-2641",
+        "10-2829",
+        "10-313",
+        "10-3203",
+        "10-322",
+        "10-329",
+        "10-3542",
+        "10-376",
+        "10-379",
+        "10-390",
+        "10-5345",
+        "10-5345a",
+        "10-7008",
+        "10-7108",
+        "10-7959e",
+        "10-8001",
+        "VA Form 40-10190",
+        "VA0730b",
+        "VA0730i",
+        "VA2793",
+        "VA4939"
+      ]
+    },
+    "attorney": {
+      "count": 5,
+      "forms": [
+        "10-0525",
+        "10-0525a",
+        "10-259",
+        "10-5345",
+        "VA4939"
+      ]
+    },
+    "pharmacist": {
+      "count": 2,
+      "forms": [
+        "10-10068c",
+        "10-1371"
+      ]
+    },
+    "dentist": {
+      "count": 3,
+      "forms": [
+        "10-2804a",
+        "10-2804b",
+        "10-2804c"
+      ]
+    },
+    "nextOfKin": {
+      "count": 5,
+      "forms": [
+        "10-379",
+        "VA10091",
+        "FL-10-212",
+        "FL-10-212LP",
+        "VA0730b"
+      ]
+    }
+  }
+}

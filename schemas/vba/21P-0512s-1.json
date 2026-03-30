@@ -1,0 +1,339 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21P-0512s-1",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "maritalStatus": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Marital Status",
+        "widget": "checkbox"
+      }
+    },
+    "children": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C H I L D R E N",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row1 Amount",
+        "widget": "text"
+      }
+    },
+    "amount3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row2 Amount",
+        "widget": "text"
+      }
+    },
+    "amount4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row3 Amount",
+        "widget": "text"
+      }
+    },
+    "amount5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row4 Amount",
+        "widget": "text"
+      }
+    },
+    "amount6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row5 Amount",
+        "widget": "text"
+      }
+    },
+    "amount7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row6 Amount",
+        "widget": "text"
+      }
+    },
+    "amount8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table1 Row7 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Amount",
+        "widget": "text"
+      }
+    },
+    "amount10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row2 Amount",
+        "widget": "text"
+      }
+    },
+    "amount11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row3 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "amount12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row4 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "dateSigned3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row2 Date Signed",
+        "widget": "text"
+      }
+    },
+    "amount13": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table4 Row1 Amount",
+        "widget": "text"
+      }
+    },
+    "amount14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table4 Row2 Amount",
+        "widget": "text"
+      }
+    },
+    "amount15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table4 Row3 Amount",
+        "widget": "text"
+      }
+    },
+    "amount16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table4 Row4 Amount",
+        "widget": "text"
+      }
+    },
+    "amount17": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table4 Row5 Amount",
+        "widget": "text"
+      }
+    },
+    "amount18": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table4 Row6 Amount",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "1cYourDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1C. YOUR DATE OF BIRTH (",
+        "widget": "text"
+      }
+    },
+    "maritalStatusCheckOneBox": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MARITAL STATUS (Check one box)",
+        "widget": "text"
+      }
+    },
+    "butYouAreNotCurrentlyMarriedShowThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "but you are not currently married.) Show the",
+        "widget": "text"
+      }
+    },
+    "2IRemarriedOnDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(2) I REMARRIED ON    (Date) (",
+        "widget": "text"
+      }
+    },
+    "marriedEnterThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "married. Enter the",
+        "widget": "text"
+      }
+    },
+    "4bShowTheDateYouEnteredTheNursingHome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4B. SHOW THE DATE YOU ENTERED THE NURSING HOME (",
+        "widget": "text"
+      }
+    },
+    "didYouReceiveWagesOrWereYouEmployedAtAnyTime": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DID YOU RECEIVE WAGES OR WERE YOU EMPLOYED AT ANY TIME",
+        "widget": "text"
+      }
+    },
+    "doYouReceiveAnyOtherVaBenefitsAsAVeteranParentO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DO YOU RECEIVE ANY OTHER VA BENEFITS AS A VETERAN, PARENT, O",
+        "widget": "text"
+      }
+    },
+    "noteIfYouHave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE:If you have",
+        "widget": "text"
+      }
+    },
+    "socialSecurity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY",
+        "widget": "text"
+      }
+    },
+    "7eWhenDidTheIncomeChangeShowThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "7E. WHEN DID THE INCOME CHANGE? (Show the",
+        "widget": "text"
+      }
+    },
+    "youReceivedAnyNewIncomeOrThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "you received any new income or the",
+        "widget": "text"
+      }
+    },
+    "familyMedicalExpensesReadParagraph_6OfTheEvrInstruc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FAMILY MEDICAL EXPENSES (Read Paragraph 6 of the EVR Instruc",
+        "widget": "text"
+      }
+    },
+    "telephoneNumbersIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBERS (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable2Row4SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row4 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformRadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable3Row1TextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row1 Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformTable3Row2TextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table3 Row2 Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0512s-1-are.pdf",
+    "status": "digitized",
+    "totalFields": 45,
+    "composedFields": 45,
+    "coveragePercent": 89,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 5,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:35:40.949Z",
+    "redigitizedAt": "2026-03-30T20:38:23.122Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

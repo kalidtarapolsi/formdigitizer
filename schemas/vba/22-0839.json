@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-0839",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "maxLength": 10
+    },
+    "datesigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Signature certification"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "nameofinstitution": {
+      "type": "string"
+    },
+    "degreeLevel": {
+      "type": "string"
+    },
+    "fc9": {
+      "type": "string"
+    },
+    "fc8": {
+      "type": "string"
+    },
+    "fc3": {
+      "type": "string"
+    },
+    "fc2": {
+      "type": "string"
+    },
+    "fc1": {
+      "type": "string"
+    },
+    "fc4": {
+      "type": "string"
+    },
+    "fc5": {
+      "type": "string"
+    },
+    "fc6": {
+      "type": "string"
+    },
+    "line1of12": {
+      "type": "string"
+    },
+    "line2of12": {
+      "type": "string"
+    },
+    "line11of12": {
+      "type": "string"
+    },
+    "line10of12": {
+      "type": "string"
+    },
+    "line9of12": {
+      "type": "string"
+    },
+    "line8of12": {
+      "type": "string"
+    },
+    "line7of12": {
+      "type": "string"
+    },
+    "line6of12": {
+      "type": "string"
+    },
+    "line5of12": {
+      "type": "string"
+    },
+    "line4of12": {
+      "type": "string"
+    },
+    "line3of12": {
+      "type": "string"
+    },
+    "form10subform0textfield10": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "newOpenEndedAgreement": {
+      "type": "string"
+    },
+    "modificationToExistingAgreement": {
+      "type": "string"
+    },
+    "withdrawalOfYellowRibbonAgreement": {
+      "type": "string"
+    },
+    "form10subform0textfield11": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield12": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield13": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield14": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "form10subform0textfield15": {
+      "type": "string",
+      "x-needs-review": true
+    },
+    "maxNumberStudents": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "titleofauthorizing": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0839-are.pdf",
+    "status": "digitized",
+    "totalFields": 98,
+    "composedFields": 27,
+    "coveragePercent": 28,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 6,
+    "pageCount": 6,
+    "generatedAt": "2026-03-28T17:33:24.476Z"
+  }
+}

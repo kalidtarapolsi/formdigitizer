@@ -1,0 +1,420 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-3542",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "facilityId": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Facility I D",
+        "widget": "text"
+      }
+    },
+    "claimReceivedDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Claim Received Date",
+        "widget": "text"
+      }
+    },
+    "nameofpersonclaimingtravelreimbursement1a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F P E R S O N C L A I M I N G T R A V E L R E I M B U R S E M E N T1 A",
+        "widget": "text"
+      }
+    },
+    "claimantsssn1b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C L A I M A N T S S S N1 B",
+        "widget": "text"
+      }
+    },
+    "claimantsdateofbirth1c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C L A I M A N T S D A T E O F B I R T H1 C",
+        "widget": "text"
+      }
+    },
+    "other": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R",
+        "widget": "text"
+      }
+    },
+    "nameofveteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N A M E O F V E T E R A N",
+        "widget": "text"
+      }
+    },
+    "veteranssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V E T E R A N S S N",
+        "widget": "text"
+      }
+    },
+    "veterandateofbirth1c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V E T E R A N D A T E O F B I R T H1 C",
+        "widget": "text"
+      }
+    },
+    "iamclaimingtravelreimbursementfromaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform I A M C L A I M I N G T R A V E L R E I M B U R S E M E N T F R O M A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "datetripbegan": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E T R I P B E G A N",
+        "widget": "text"
+      }
+    },
+    "travelby": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T R A V E L B Y",
+        "widget": "text"
+      }
+    },
+    "other2a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R2 A",
+        "widget": "text"
+      }
+    },
+    "datetripended": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E T R I P E N D E D",
+        "widget": "text"
+      }
+    },
+    "travelby2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T R A V E L B Y2",
+        "widget": "text"
+      }
+    },
+    "itemizedexpensesforreimbursement3a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemizedexpensesforreimbursement3 A",
+        "widget": "text"
+      }
+    },
+    "itemizedexpensesforreimbursement3b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemizedexpensesforreimbursement3 B",
+        "widget": "text"
+      }
+    },
+    "itemizedexpensesforreimbursement3c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemizedexpensesforreimbursement3 C",
+        "widget": "text"
+      }
+    },
+    "itemizedexpensesforreimbursement3d": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Itemizedexpensesforreimbursement3 D",
+        "widget": "text"
+      }
+    },
+    "treatingfacilityname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T R E A T I N G F A C I L I T Y N A M E",
+        "widget": "text"
+      }
+    },
+    "treatingfacilityaddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T R E A T I N G F A C I L I T Y A D D R E S S",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S I G N A T U R E",
+        "widget": "text"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "claimReceivedDate2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIM RECEIVED DATE (",
+        "widget": "text"
+      }
+    },
+    "1cClaimantSDateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "1C. CLAIMANT'S DATE OF BIRTH (",
+        "widget": "text"
+      }
+    },
+    "other2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER",
+        "widget": "text"
+      }
+    },
+    "3cVeteranSDateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "3C. VETERAN'S DATE OF BIRTH (",
+        "widget": "date"
+      }
+    },
+    "2bDateTripEnded": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "2B. DATE TRIP ENDED (",
+        "widget": "date"
+      }
+    },
+    "iAmClaimingReimbursementOfExpensesOtherThanMileage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I AM CLAIMING REIMBURSEMENT OF EXPENSES OTHER THAN MILEAGE,",
+        "widget": "text"
+      }
+    },
+    "treatingFacilityNameVaOrNonVaLocation_5TreatingF": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TREATING FACILITY NAME (VA or Non-VA location) 5. TREATING F",
+        "widget": "text"
+      }
+    },
+    "penaltyStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY STATEMENT",
+        "widget": "select"
+      }
+    },
+    "certification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "signatureOfClaimant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF CLAIMANT",
+        "widget": "signature"
+      }
+    },
+    "date2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "date"
+      }
+    },
+    "veteransRatedByVa_30OrMoreServiceConnectedForTrave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans rated by VA 30% or more service-connected for trave",
+        "widget": "text"
+      }
+    },
+    "veteransRatedByVaLessThan_30ForTravelRelatingToTh": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans rated by VA less than 30% for travel relating to th",
+        "widget": "text"
+      }
+    },
+    "veteransReceivingVaPensionBenefitsForTravelRelatingT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans receiving VA pension benefits for travel relating t",
+        "widget": "text"
+      }
+    },
+    "veteransWithAnnualIncomeBelowTheMaximumApplicableAnn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans with annual income below the maximum applicable ann",
+        "widget": "text"
+      }
+    },
+    "veteransWhoAreUnableToDefrayTheCostOfTravelAsDef": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans who are unable to defray the cost of travel (as def",
+        "widget": "text"
+      }
+    },
+    "veteransTravelingInRelationToACompensationAndPension": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans traveling in relation to a Compensation and Pension",
+        "widget": "text"
+      }
+    },
+    "certainVeteransInCertainEmergencySituations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Certain Veterans in certain emergency situations",
+        "widget": "text"
+      }
+    },
+    "beneficiariesOfOtherFederalAgenciesWhenAuthorizedByT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Beneficiaries of other Federal Agencies when authorized by t",
+        "widget": "text"
+      }
+    },
+    "alliedBeneficiariesWhenAuthorizedByAppropriateForeign": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Allied beneficiaries when authorized by appropriate foreign",
+        "widget": "text"
+      }
+    },
+    "certainNonVeteransWhenRelatedToCareOfAVeteranCare": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Certain non-Veterans when related to care of a Veteran (Care",
+        "widget": "text"
+      }
+    },
+    "theClaimantOrLegalRepresentativeOfClaimantMayComplet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The claimant or legal representative of claimant may complet",
+        "widget": "text"
+      }
+    },
+    "alliedBeneficiariesAndBeneficiariesOfOtherFederalAgen": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Allied beneficiaries and beneficiaries of other federal agen",
+        "widget": "text"
+      }
+    },
+    "thisFormMayBeSubmittedInPersonOrMailedToTheVaHea": {
+      "type": "string",
+      "x-va-field": {
+        "label": "This form may be submitted in person or mailed to the VA hea",
+        "widget": "text"
+      }
+    },
+    "healthCareFacilitiesCanBeFoundAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "health care facilities can be found at",
+        "widget": "text"
+      }
+    },
+    "applicationForTravelReimbursementMustBeSubmittedOnlin": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Application for travel reimbursement must be submitted onlin",
+        "widget": "text"
+      }
+    },
+    "completionException": {
+      "type": "string",
+      "x-va-field": {
+        "label": "completion. Exception",
+        "widget": "text"
+      }
+    },
+    "receiptsAreRequiredForAllowableNonMileageExpensesFo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Receipts are required for allowable non-mileage expenses, fo",
+        "widget": "text"
+      }
+    },
+    "verificationOfAttendanceClaimsForExpensesOfTravelTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Verification of attendance. Claims for expenses of travel to",
+        "widget": "text"
+      }
+    },
+    "applicationsDeterminedEligibleForTravelBenefitsWillBe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Applications determined eligible for travel benefits will be",
+        "widget": "text"
+      }
+    },
+    "paymentWillBeMadeByElectronicFundsTransferEftUnle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Payment will be made by electronic funds transfer (EFT) unle",
+        "widget": "text"
+      }
+    },
+    "forAssistanceInCompletingTheFormCall_1_877_222Vets": {
+      "type": "string",
+      "x-va-field": {
+        "label": "For assistance in completing the form, call 1-877-222-VETS (",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-3542.pdf",
+    "totalFields": 56,
+    "composedFields": 56,
+    "coveragePercent": 100,
+    "xfaLabelCount": 25,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:19:52.343Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:12.531Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

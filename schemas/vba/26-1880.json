@@ -1,0 +1,527 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-1880",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameOfVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Veteran",
+        "widget": "text"
+      }
+    },
+    "addressNumberandStreetorRuralRouteCityOrPoStateZipcode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address Numberand Streetor Rural Route City or P O State Z I P Code",
+        "widget": "text"
+      }
+    },
+    "vaclaimNumberIfKnown": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A Claim Number If Known",
+        "widget": "text"
+      }
+    },
+    "otherNamesUsedDuringMilitaryService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Other Names Used During Military Service",
+        "widget": "text"
+      }
+    },
+    "completeAddress14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O M P L E T E A D D R E S S14",
+        "widget": "text"
+      }
+    },
+    "loanNumber14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L O A N N U M B E R14",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Birth",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "serviceNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Service Number",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email",
+        "widget": "text"
+      }
+    },
+    "branchOfService11a1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch Of Service11 A1",
+        "widget": "text"
+      }
+    },
+    "dateEntered11a1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered11 A1",
+        "widget": "text"
+      }
+    },
+    "dateSeparated11a1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Separated11 A1",
+        "widget": "text"
+      }
+    },
+    "branchOfService11a2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch Of Service11 A2",
+        "widget": "text"
+      }
+    },
+    "dateEntered11a2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered11 A2",
+        "widget": "text"
+      }
+    },
+    "dateSeparated11a2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Separated11 A2",
+        "widget": "text"
+      }
+    },
+    "branchOfService11a3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch Of Service11 A3",
+        "widget": "text"
+      }
+    },
+    "dateEntered11a3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered11 A3",
+        "widget": "text"
+      }
+    },
+    "dateSeparated11a3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Separated11 A3",
+        "widget": "text"
+      }
+    },
+    "branchOfService11a4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch Of Service11 A4",
+        "widget": "text"
+      }
+    },
+    "dateEntered11a4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered11 A4",
+        "widget": "text"
+      }
+    },
+    "dateSeparated11a4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Separated11 A4",
+        "widget": "text"
+      }
+    },
+    "branchOfService11b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch Of Service11 B1",
+        "widget": "text"
+      }
+    },
+    "dateEntered11b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered11 B1",
+        "widget": "text"
+      }
+    },
+    "dateSeparated11b1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Separated11 B1",
+        "widget": "text"
+      }
+    },
+    "branchOfService11b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch Of Service11 B2",
+        "widget": "text"
+      }
+    },
+    "dateEntered11b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered11 B2",
+        "widget": "text"
+      }
+    },
+    "dateSeparated11b2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Separated11 B2",
+        "widget": "text"
+      }
+    },
+    "branchOfService11b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch Of Service11 B3",
+        "widget": "text"
+      }
+    },
+    "dateEntered11b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered11 B3",
+        "widget": "text"
+      }
+    },
+    "dateSeparated11b3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Separated11 B3",
+        "widget": "text"
+      }
+    },
+    "branchOfService11b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Branch Of Service11 B4",
+        "widget": "text"
+      }
+    },
+    "dateEntered11b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Entered11 B4",
+        "widget": "text"
+      }
+    },
+    "dateSeparated11b4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Separated11 B4",
+        "widget": "text"
+      }
+    },
+    "dateOfLoan14": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F L O A N14",
+        "widget": "text"
+      }
+    },
+    "completeAddress15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O M P L E T E A D D R E S S15",
+        "widget": "text"
+      }
+    },
+    "loanNumber15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L O A N N U M B E R15",
+        "widget": "text"
+      }
+    },
+    "dateOfLoan15": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F L O A N15",
+        "widget": "text"
+      }
+    },
+    "completeAddress16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O M P L E T E A D D R E S S16",
+        "widget": "text"
+      }
+    },
+    "loanNumber16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform L O A N N U M B E R16",
+        "widget": "text"
+      }
+    },
+    "dateOfLoan16": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F L O A N16",
+        "widget": "text"
+      }
+    },
+    "dateOfLoan17b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Loan17 B",
+        "widget": "text"
+      }
+    },
+    "dateOfLoss": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Of Loss",
+        "widget": "text"
+      }
+    },
+    "addressOfProperty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address Of Property",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Remarks",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "nameOfVeteranToAppearOnCoeFirstMiddleInitialLas": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF VETERAN TO APPEAR ON COE (First, Middle Initial, Las",
+        "widget": "text"
+      }
+    },
+    "dateOfBirthMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "emailAddressIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS (If applicable)",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreetOrRuralRouteP": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT MAILING ADDRESS (Number and street or rural route, P",
+        "widget": "text"
+      }
+    },
+    "serviceNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICE NUMBER (If applicable)",
+        "widget": "text"
+      }
+    },
+    "pleaseProvideYour": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Please provide your",
+        "widget": "text"
+      }
+    },
+    "dateSeparated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE SEPARATED",
+        "widget": "text"
+      }
+    },
+    "indicateHowYouWillUseYourCertificateOfEligibility": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INDICATE HOW YOU WILL USE YOUR CERTIFICATE OF ELIGIBILITY?",
+        "widget": "text"
+      }
+    },
+    "14c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "14C.",
+        "widget": "text"
+      }
+    },
+    "oneTimeRestorationNote": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ONE-TIME RESTORATION (NOTE",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "19bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "19B. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "17b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "17B.",
+        "widget": "date"
+      }
+    },
+    "monthAndYear_17c": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(Month and Year)17C.",
+        "widget": "date"
+      }
+    },
+    "remarksIfAny": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (If any)",
+        "widget": "text"
+      }
+    },
+    "15c": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "15C.",
+        "widget": "date"
+      }
+    },
+    "16c": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "16C.",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "item_11aActiveService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item 11A - Active Service",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1880-are.pdf",
+    "status": "digitized",
+    "totalFields": 71,
+    "composedFields": 71,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:35:38.771Z",
+    "redigitizedAt": "2026-03-30T20:38:22.125Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

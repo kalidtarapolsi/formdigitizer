@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2770",
+  "type": "object",
+  "properties": {
+    "dateSent": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateReturned": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "veteransIdentification": {
+      "type": "string"
+    },
+    "leftHeelInches": {
+      "type": "string"
+    },
+    "leftBallInches": {
+      "type": "string"
+    },
+    "leftToeInches": {
+      "type": "string"
+    },
+    "rightHeelInches": {
+      "type": "string"
+    },
+    "rightBallInches": {
+      "type": "string"
+    },
+    "rightToeInches": {
+      "type": "string"
+    },
+    "nameOfVendorAndContractNumber": {
+      "type": "string"
+    },
+    "modifications": {
+      "type": "string"
+    },
+    "rebuildingContractItemNumber": {
+      "type": "string"
+    },
+    "leftExtensionContractItemNumber": {
+      "type": "string"
+    },
+    "rightExtensionContractItemNumber": {
+      "type": "string"
+    },
+    "stirrupContractItemNumber": {
+      "type": "string"
+    },
+    "rebuildingCost": {
+      "type": "string"
+    },
+    "leftExtensionCost": {
+      "type": "string"
+    },
+    "rightExtensionCost": {
+      "type": "string"
+    },
+    "stirrupCost": {
+      "type": "string"
+    },
+    "totalCost": {
+      "type": "string"
+    },
+    "ofSoles": {
+      "type": "string"
+    },
+    "heelsAndBases": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "theAboveServiceWasOrderedAndReceivedAndPaymentIsRecommendedWithTheFollowingException": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2770-fill.pdf",
+    "totalFields": 87,
+    "composedFields": 12,
+    "coveragePercent": 14,
+    "xfaLabelCount": 87,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:52.102Z",
+    "pageCount": 4,
+    "status": "digitized"
+  }
+}

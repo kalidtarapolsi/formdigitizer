@@ -1,0 +1,357 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SF-1442",
+  "type": "object",
+  "properties": {
+    "claimantName": {
+      "type": "string",
+      "description": "Claimant's name"
+    },
+    "claimantAddress": {
+      "type": "string",
+      "description": "Address"
+    },
+    "city": {
+      "type": "string",
+      "description": "City"
+    },
+    "state": {
+      "type": "string",
+      "description": "State"
+    },
+    "postalCode": {
+      "type": "string",
+      "description": "Postal code"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "description": "Phone number"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Email address"
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "description": "Social Security Number"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "veteranStatus": {
+      "type": "string",
+      "description": "Veteran status"
+    },
+    "dateOfClaim": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of claim"
+    },
+    "previousClaim": {
+      "type": "boolean",
+      "description": "Previous claim filed"
+    },
+    "claimType": {
+      "type": "string",
+      "description": "Type of claim"
+    },
+    "benefitRequested": {
+      "type": "string",
+      "description": "Benefit requested"
+    },
+    "amountClaimed": {
+      "type": "number",
+      "description": "Amount claimed"
+    },
+    "supportingDocuments": {
+      "type": "boolean",
+      "description": "Supporting documents attached"
+    },
+    "militaryServiceBranch": {
+      "type": "string",
+      "description": "Military service branch"
+    },
+    "serviceNumber": {
+      "type": "string",
+      "description": "Service number"
+    },
+    "dateOfEntry": {
+      "type": "string",
+      "format": "date",
+      "description": "Date entered service"
+    },
+    "dateOfSeparation": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of separation"
+    },
+    "typeOfDischarge": {
+      "type": "string",
+      "description": "Type of discharge"
+    },
+    "dischargeNumber": {
+      "type": "string",
+      "description": "Discharge number"
+    },
+    "rank": {
+      "type": "string",
+      "description": "Final rank"
+    },
+    "unitAssigned": {
+      "type": "string",
+      "description": "Last unit assigned"
+    },
+    "combatServiceIndicator": {
+      "type": "boolean",
+      "description": "Combat service indicator"
+    },
+    "disabledInService": {
+      "type": "boolean",
+      "description": "Disabled in service"
+    },
+    "designatedBeneficiary": {
+      "type": "string",
+      "description": "Designated beneficiary name"
+    },
+    "beneficiaryRelationship": {
+      "type": "string",
+      "description": "Beneficiary relationship"
+    },
+    "beneficiaryAddress": {
+      "type": "string",
+      "description": "Beneficiary address"
+    },
+    "maritalStatus": {
+      "type": "string",
+      "description": "Marital status"
+    },
+    "spouseName": {
+      "type": "string",
+      "description": "Spouse name"
+    },
+    "numberOfChildren": {
+      "type": "string",
+      "description": "Number of children"
+    },
+    "childrenNames": {
+      "type": "string",
+      "description": "Children's names"
+    },
+    "parentalSupport": {
+      "type": "boolean",
+      "description": "Parental support provided"
+    },
+    "dateMarried": {
+      "type": "string",
+      "format": "date",
+      "description": "Date married"
+    },
+    "annualIncome": {
+      "type": "number",
+      "description": "Annual income"
+    },
+    "incomeSource": {
+      "type": "string",
+      "description": "Source of income"
+    },
+    "netWorth": {
+      "type": "number",
+      "description": "Net worth"
+    },
+    "bankAccount": {
+      "type": "boolean",
+      "description": "Has bank account"
+    },
+    "investmentPortfolio": {
+      "type": "boolean",
+      "description": "Has investments"
+    },
+    "propertyOwned": {
+      "type": "boolean",
+      "description": "Property owned"
+    },
+    "homeAddress": {
+      "type": "string",
+      "description": "Home address"
+    },
+    "rentalIncome": {
+      "type": "number",
+      "description": "Rental income"
+    },
+    "mortgageAmount": {
+      "type": "number",
+      "description": "Mortgage amount"
+    },
+    "monthlyPayment": {
+      "type": "number",
+      "description": "Monthly payment"
+    },
+    "medicalConditions": {
+      "type": "string",
+      "description": "Medical conditions"
+    },
+    "priorTreatment": {
+      "type": "string",
+      "description": "Prior treatment"
+    },
+    "hospitalization": {
+      "type": "string",
+      "description": "Hospitalization history"
+    },
+    "medication": {
+      "type": "string",
+      "description": "Current medications"
+    },
+    "healthInsurance": {
+      "type": "boolean",
+      "description": "Has health insurance"
+    },
+    "insuranceCarrier": {
+      "type": "string",
+      "description": "Insurance carrier"
+    },
+    "policyNumber": {
+      "type": "string",
+      "description": "Policy number"
+    },
+    "employmentStatus": {
+      "type": "string",
+      "description": "Employment status"
+    },
+    "currentEmployer": {
+      "type": "string",
+      "description": "Current employer"
+    },
+    "jobTitle": {
+      "type": "string",
+      "description": "Job title"
+    },
+    "yearsEmployed": {
+      "type": "string",
+      "description": "Years employed"
+    },
+    "priorEmployment": {
+      "type": "string",
+      "description": "Prior employment"
+    },
+    "workingCapacity": {
+      "type": "string",
+      "description": "Working capacity"
+    },
+    "employmentPlan": {
+      "type": "string",
+      "description": "Employment plan"
+    },
+    "referralSource": {
+      "type": "string",
+      "description": "How heard about benefit"
+    },
+    "previousBenefits": {
+      "type": "string",
+      "description": "Previous benefits received"
+    },
+    "benefitTermination": {
+      "type": "string",
+      "description": "Benefit termination reason"
+    },
+    "representativeAuthorized": {
+      "type": "boolean",
+      "description": "Representative authorized"
+    },
+    "representativeName": {
+      "type": "string",
+      "description": "Representative name"
+    },
+    "representativeAddress": {
+      "type": "string",
+      "description": "Representative address"
+    },
+    "representativePhone": {
+      "type": "string",
+      "description": "Representative phone"
+    },
+    "powerOfAttorney": {
+      "type": "boolean",
+      "description": "Power of attorney"
+    },
+    "declarationUnderPenalty": {
+      "type": "boolean",
+      "description": "Declaration under penalty of perjury"
+    },
+    "signatureDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Signature date"
+    },
+    "claimantSignature": {
+      "type": "boolean",
+      "description": "Claimant signature"
+    },
+    "witnessName": {
+      "type": "string",
+      "description": "Witness name"
+    },
+    "witnessSignature": {
+      "type": "boolean",
+      "description": "Witness signature"
+    },
+    "witnessAddress": {
+      "type": "string",
+      "description": "Witness address"
+    },
+    "approvalDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Approval date"
+    },
+    "approverName": {
+      "type": "string",
+      "description": "Approver name"
+    },
+    "approverTitle": {
+      "type": "string",
+      "description": "Approver title"
+    },
+    "claimNumber": {
+      "type": "string",
+      "description": "Claim number"
+    },
+    "dateAssigned": {
+      "type": "string",
+      "format": "date",
+      "description": "Date assigned"
+    },
+    "processingStatus": {
+      "type": "string",
+      "description": "Processing status"
+    },
+    "followUpRequired": {
+      "type": "boolean",
+      "description": "Follow-up required"
+    },
+    "followUpDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Follow-up date"
+    },
+    "additionalComments": {
+      "type": "string",
+      "description": "Additional comments"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/SF1442.pdf",
+    "totalFields": 82,
+    "composedFields": 82,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 4,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

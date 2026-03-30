@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA21(ES)",
+  "type": "object",
+  "properties": {
+    "employeeName": {
+      "type": "string",
+      "description": "Employee's full name"
+    },
+    "employeeTitle": {
+      "type": "string",
+      "description": "Employee's title/position"
+    },
+    "department": {
+      "type": "string",
+      "description": "Department or service"
+    },
+    "vaFacility": {
+      "type": "string",
+      "description": "VA facility"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "supervisorName": {
+      "type": "string",
+      "description": "Supervisor's name"
+    },
+    "supervisorSignature": {
+      "type": "boolean",
+      "description": "Supervisor's signature"
+    },
+    "employeeSignature": {
+      "type": "boolean",
+      "description": "Employee's signature"
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "description": "SSN (last 4)"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "homeAddress": {
+      "type": "string",
+      "description": "Home address"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "description": "Phone number"
+    },
+    "emergencyContact": {
+      "type": "string",
+      "description": "Emergency contact"
+    },
+    "emergencyPhone": {
+      "type": "string",
+      "description": "Emergency contact phone"
+    },
+    "positionTitle": {
+      "type": "string",
+      "description": "Position title"
+    },
+    "gradeLevel": {
+      "type": "string",
+      "description": "Grade/step level"
+    },
+    "officeLocation": {
+      "type": "string",
+      "description": "Office location"
+    },
+    "mailStop": {
+      "type": "string",
+      "description": "Mail stop"
+    },
+    "officePhone": {
+      "type": "string",
+      "description": "Office phone number"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Email address"
+    },
+    "dateOfAppointment": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of appointment"
+    },
+    "priorServiceRecord": {
+      "type": "string",
+      "description": "Prior service record"
+    },
+    "medicalClearance": {
+      "type": "boolean",
+      "description": "Medical clearance obtained"
+    },
+    "backgroundCheck": {
+      "type": "boolean",
+      "description": "Background check completed"
+    },
+    "trainingSessions": {
+      "type": "string",
+      "description": "Training sessions attended"
+    },
+    "performanceRating": {
+      "type": "string",
+      "description": "Performance rating"
+    },
+    "performanceDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Performance review date"
+    },
+    "securityClearance": {
+      "type": "string",
+      "description": "Security clearance level"
+    },
+    "clearanceDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Clearance date"
+    },
+    "certifications": {
+      "type": "string",
+      "description": "Professional certifications"
+    },
+    "assignmentType": {
+      "type": "string",
+      "description": "Assignment type"
+    },
+    "workSchedule": {
+      "type": "string",
+      "description": "Work schedule"
+    },
+    "directSupervisor": {
+      "type": "string",
+      "description": "Direct supervisor name"
+    },
+    "comments": {
+      "type": "string",
+      "description": "Additional comments"
+    },
+    "approvalSignature": {
+      "type": "boolean",
+      "description": "Manager approval"
+    },
+    "approvalDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Approval date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA21(ES).pdf",
+    "totalFields": 38,
+    "composedFields": 38,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 2,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

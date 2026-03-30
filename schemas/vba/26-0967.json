@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-0967",
+  "type": "object",
+  "properties": {
+    "explainWhyParticipantIsUnableToCertifyToStatements": {
+      "type": "string"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "nameOfCompany": {
+      "type": "string"
+    },
+    "companyTaxIdentificationNumber": {
+      "type": "string"
+    },
+    "nameOfAuthorizedRepresentativ": {
+      "type": "string"
+    },
+    "projectDescription": {
+      "type": "string"
+    },
+    "projectLocation": {
+      "type": "string"
+    },
+    "faiNumber": {
+      "type": "string"
+    },
+    "titleOfAuthorizedRepresentative": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-0967-are.pdf",
+    "status": "digitized",
+    "totalFields": 9,
+    "composedFields": 4,
+    "coveragePercent": 44,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:38:51.735Z"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Emergency Response Record",
+  "type": "object",
+  "properties": {
+    "incidentDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of incident"
+    },
+    "incidentTime": {
+      "type": "string",
+      "description": "Time of incident"
+    },
+    "incidentLocation": {
+      "type": "string",
+      "description": "Location of incident"
+    },
+    "vaFacility": {
+      "type": "string",
+      "description": "VA facility"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "reportingOfficer": {
+      "type": "string",
+      "description": "Reporting officer's name"
+    },
+    "badgeNumber": {
+      "type": "string",
+      "description": "Badge/ID number"
+    },
+    "incidentType": {
+      "type": "string",
+      "description": "Type of incident"
+    },
+    "involvedPersonName": {
+      "type": "string",
+      "description": "Name of person(s) involved"
+    },
+    "narrativeDescription": {
+      "type": "string",
+      "description": "Narrative description of incident"
+    },
+    "witnessNames": {
+      "type": "string",
+      "description": "Names of witnesses"
+    },
+    "actionTaken": {
+      "type": "string",
+      "description": "Action taken"
+    },
+    "supervisorNotified": {
+      "type": "boolean",
+      "description": "Supervisor notified"
+    },
+    "followUpRequired": {
+      "type": "boolean",
+      "description": "Follow-up required"
+    },
+    "officerSignature": {
+      "type": "boolean",
+      "description": "Officer's signature"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-9051-fill%20(2).pdf",
+    "totalFields": 16,
+    "composedFields": 16,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 2,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

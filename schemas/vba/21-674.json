@@ -1,0 +1,475 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-674",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "vaFileNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform V A File Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Social Security Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "veteransSocialSecurityNumberSecondTwoNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veterans Social Security Number Second Two Numbers",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Social Security Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Last Name",
+        "widget": "text"
+      }
+    },
+    "middleInitial1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Middle Initial1",
+        "widget": "text"
+      }
+    },
+    "veteranClaimantFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran Claimant First Name",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "studentsNameFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Students Name First Name",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "country": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Country",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform State Or Province",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform City",
+        "widget": "text"
+      }
+    },
+    "apartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "addressOfStudentNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Address Of Student Number And Street",
+        "widget": "text"
+      }
+    },
+    "beginningDateOfRegularTermOrCourseMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Beginning Date Of Regular Term Or Course Month",
+        "widget": "text"
+      }
+    },
+    "dateStudentStartedOrExpectsToStartCourseMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Student Started Or Expects To Start Course Month",
+        "widget": "text"
+      }
+    },
+    "expectedDateOfGraduationMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Expected Date Of Graduation Month",
+        "widget": "text"
+      }
+    },
+    "beginningDateOfLastTermMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Beginning Date Of Last Term Month",
+        "widget": "text"
+      }
+    },
+    "endingDateOfLastTermMonth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Ending Date Of Last Term Month",
+        "widget": "text"
+      }
+    },
+    "typeOfProgramOrBenefit": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Type Of Program Or Benefit",
+        "widget": "text"
+      }
+    },
+    "federallyFundedSchoolOrProgrm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Federally Funded School Or Progrm",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A M O U N T",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Remarks",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number Area Code",
+        "widget": "text"
+      }
+    },
+    "telephoneMiddleThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Middle Three Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "useThisFormToDetermineEntitlementToBenefitsForAVet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Use this form to determine entitlement to benefits for a vet",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "veteranClaimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN/CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "studentSNameFirstMiddleInitialLastNoteVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STUDENT'S NAME (First, Middle Initial, Last) (NOTE: Veteran'",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF BIRTH",
+        "widget": "date"
+      }
+    },
+    "7b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "7B.",
+        "widget": "date"
+      }
+    },
+    "addressOfStudentNumberAndStreetOrRuralRoutePOB": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESS OF STUDENT (Number and street or rural route, P.O. B",
+        "widget": "address"
+      }
+    },
+    "zipCodePostalCodeCountryStateProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code  Country  State/Province",
+        "widget": "select"
+      }
+    },
+    "cityAptUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City  Apt./Unit Number",
+        "widget": "text"
+      }
+    },
+    "9cDatePaymentsBegan": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "9C. DATE PAYMENTS BEGAN (",
+        "widget": "date"
+      }
+    },
+    "noIfNoAddThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "NO (If \"No,\" add the",
+        "widget": "date"
+      }
+    },
+    "11aOfficialBeginning": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11A. OFFICIAL BEGINNING",
+        "widget": "date"
+      }
+    },
+    "11b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11B.",
+        "widget": "date"
+      }
+    },
+    "11cExpected": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "11C. EXPECTED",
+        "widget": "date"
+      }
+    },
+    "12bBeginning": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12B. BEGINNING",
+        "widget": "date"
+      }
+    },
+    "12cEnding": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "12C. ENDING",
+        "widget": "date"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "valueOfEstate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VALUE OF ESTATE",
+        "widget": "select"
+      }
+    },
+    "reportOfIncomeByCalendarYear": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REPORT OF INCOME BY CALENDAR YEAR",
+        "widget": "text"
+      }
+    },
+    "remarksIfAny": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (If any)",
+        "widget": "text"
+      }
+    },
+    "survivingSpouseGuardianOrCustodianWillSign": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "surviving spouse, guardian or custodian will sign,",
+        "widget": "date"
+      }
+    },
+    "16b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "16B.",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "improvedPension": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Improved Pension",
+        "widget": "text"
+      }
+    },
+    "amountSPaidAnd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "amount(s) paid and",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "address": {
+      "type": "string",
+      "x-va-field": {
+        "label": "address.",
+        "widget": "address"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfMarriage": {
+      "type": "string",
+      "format": "date"
+    },
+    "datePaymentsBegan": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateStoppedAttending": {
+      "type": "string",
+      "format": "date"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-674-are.pdf",
+    "status": "digitized",
+    "totalFields": 75,
+    "composedFields": 65,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 3,
+    "generatedAt": "2026-03-28T17:33:05.737Z",
+    "postProcessedAt": "2026-03-30T20:02:41.701259+00:00",
+    "redigitizedAt": "2026-03-30T20:37:08.346Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

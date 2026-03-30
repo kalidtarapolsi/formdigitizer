@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-0388-8",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "projectlocation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P R O J E C T L O C A T I O N",
+        "widget": "text"
+      }
+    },
+    "dateTimeField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Time Field1",
+        "widget": "text"
+      }
+    },
+    "authorizedStateOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Authorized State Official",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "date"
+      }
+    },
+    "nameOfAuthorizedStateOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF AUTHORIZED STATE OFFICIAL",
+        "widget": "select"
+      }
+    },
+    "employeeWill": {
+      "type": "string",
+      "x-va-field": {
+        "label": "employee will",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-8-fill.pdf",
+    "totalFields": 8,
+    "composedFields": 8,
+    "coveragePercent": 100,
+    "xfaLabelCount": 1,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:20:41.743Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:25:22.127Z",
+    "extractionSources": [
+      "acroform",
+      "text-inference"
+    ]
+  }
+}

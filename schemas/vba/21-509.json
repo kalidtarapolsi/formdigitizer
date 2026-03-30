@@ -1,0 +1,246 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "21-509",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "amount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Amount",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature",
+        "widget": "text"
+      }
+    },
+    "useVaForm_21_509If": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Use VA Form 21-509 if",
+        "widget": "text"
+      }
+    },
+    "youAreAVeteranWhoseParentsAreDependentOnYouForSup": {
+      "type": "string",
+      "x-va-field": {
+        "label": "You are a veteran whose parents are dependent on you for sup",
+        "widget": "text"
+      }
+    },
+    "youAreTheParentOfADeceasedVeteranWho": {
+      "type": "string",
+      "x-va-field": {
+        "label": "You are the parent of a deceased veteran who:",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "parentSMustSignAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Parent(s) must sign and",
+        "widget": "text"
+      }
+    },
+    "asDependentSMustAlso": {
+      "type": "string",
+      "x-va-field": {
+        "label": "as dependent(s) must also",
+        "widget": "text"
+      }
+    },
+    "claimOrALater": {
+      "type": "string",
+      "x-va-field": {
+        "label": "claim (or a later",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONDENT BURDEN",
+        "widget": "text"
+      }
+    },
+    "statementOfDependencyOfParentS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATEMENT OF DEPENDENCY OF PARENT(S)",
+        "widget": "text"
+      }
+    },
+    "nameOfVeteranFirstNameMiddleNameLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF VETERAN (First Name, Middle Name, Last Name)",
+        "widget": "text"
+      }
+    },
+    "3b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "3B.",
+        "widget": "text"
+      }
+    },
+    "3d": {
+      "type": "string",
+      "x-va-field": {
+        "label": "3D.",
+        "widget": "text"
+      }
+    },
+    "4b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4B.",
+        "widget": "text"
+      }
+    },
+    "4d": {
+      "type": "string",
+      "x-va-field": {
+        "label": "4D.",
+        "widget": "text"
+      }
+    },
+    "netWorth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NET WORTH",
+        "widget": "text"
+      }
+    },
+    "income": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INCOME",
+        "widget": "text"
+      }
+    },
+    "precedingThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "preceding the",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "ifExpensesExceedIncomeStateFromWhatSourceSuchExpen": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF EXPENSES EXCEED INCOME, STATE FROM WHAT SOURCE SUCH EXPEN",
+        "widget": "text"
+      }
+    },
+    "informationRelatingToPersonsSolelyDependentUponParent": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INFORMATION RELATING TO PERSONS SOLELY DEPENDENT UPON PARENT",
+        "widget": "text"
+      }
+    },
+    "11aDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "11A. DATE (",
+        "widget": "text"
+      }
+    },
+    "12aDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "12A. DATE (",
+        "widget": "text"
+      }
+    },
+    "13aDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "13A. DATE (",
+        "widget": "text"
+      }
+    },
+    "form1SubformTextField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Text Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformRadioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Radio Button List",
+        "widget": "text"
+      }
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-509-are.pdf",
+    "status": "digitized",
+    "totalFields": 34,
+    "composedFields": 32,
+    "coveragePercent": 78,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 6,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:32:13.400Z",
+    "postProcessedAt": "2026-03-30T20:02:41.699137+00:00",
+    "redigitizedAt": "2026-03-30T20:36:31.596Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference"
+    ]
+  }
+}

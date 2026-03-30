@@ -1,0 +1,449 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-7959C",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "applicantLastName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform applicant Last Name2",
+        "widget": "text"
+      }
+    },
+    "applicantFirstName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform applicant First Name2",
+        "widget": "text"
+      }
+    },
+    "applicantMiddleInitial2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform applicant Middle Initial2",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "applicantStreetAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform applicant Street Address2",
+        "widget": "text"
+      }
+    },
+    "applicantCity2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform applicant City2",
+        "widget": "text"
+      }
+    },
+    "applicantState2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform applicant State2",
+        "widget": "text"
+      }
+    },
+    "zip": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Zip",
+        "widget": "text"
+      }
+    },
+    "countryCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Country Code",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "phone2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Phone2",
+        "widget": "text"
+      }
+    },
+    "newAddressBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform New Address Box 1",
+        "widget": "checkbox"
+      }
+    },
+    "applicantSexRadioButtons2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform applicant Sex Radio Buttons2",
+        "widget": "text"
+      }
+    },
+    "partAradioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Part A Radio Button List",
+        "widget": "text"
+      }
+    },
+    "effectiveDateA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Effective Date A",
+        "widget": "text"
+      }
+    },
+    "partBradioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Part B Radio Button List",
+        "widget": "text"
+      }
+    },
+    "effectiveDateB": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Effective Date B",
+        "widget": "text"
+      }
+    },
+    "partCradioButtonList": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Part C Radio Button List",
+        "widget": "text"
+      }
+    },
+    "medicareAdvantageReplacementPlanCarrierName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Medicare Advantage Replacement Plan Carrier Name",
+        "widget": "text"
+      }
+    },
+    "effectiveDateC": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Effective Date C",
+        "widget": "text"
+      }
+    },
+    "mbi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M B I",
+        "widget": "text"
+      }
+    },
+    "effectiveDateD": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Effective Date D",
+        "widget": "text"
+      }
+    },
+    "terminationDateD": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Termination Date D",
+        "widget": "text"
+      }
+    },
+    "doyouhaveotherinsyesno": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Doyouhaveotherinsyesno",
+        "widget": "text"
+      }
+    },
+    "nameofInsurance1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nameof Insurance 1",
+        "widget": "text"
+      }
+    },
+    "effectiveDate1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Effective Date1",
+        "widget": "text"
+      }
+    },
+    "terminationDate1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Termination Date1",
+        "widget": "text"
+      }
+    },
+    "typeOfInsurance1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Type Of Insurance1",
+        "widget": "checkbox"
+      }
+    },
+    "dropDownListMedigap1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Drop Down List Medigap 1",
+        "widget": "select"
+      }
+    },
+    "commentsIns1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Comments Ins 1",
+        "widget": "text"
+      }
+    },
+    "nameofInsurance2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Nameof Insurance 2",
+        "widget": "text"
+      }
+    },
+    "effectiveDate2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Effective Date2",
+        "widget": "text"
+      }
+    },
+    "terminationDate2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Termination Date2",
+        "widget": "text"
+      }
+    },
+    "typeOfInsurance2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Type Of Insurance2",
+        "widget": "checkbox"
+      }
+    },
+    "commentsIns2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Comments Ins 2",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "customerServiceCenter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Customer Service Center",
+        "widget": "text"
+      }
+    },
+    "attention": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ATTENTION",
+        "widget": "text"
+      }
+    },
+    "lastNamefirstNamemi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Last NameFirst NameMI",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "Social Security Number",
+        "widget": "ssn"
+      }
+    },
+    "citystate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CityState",
+        "widget": "select"
+      }
+    },
+    "zipCode_99999_9999": {
+      "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "x-va-field": {
+        "label": "Zip Code (99999-9999)",
+        "widget": "zip"
+      }
+    },
+    "phoneNumberWithAreaCode_999_999_9999": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "Phone Number (with area code) ((999) 999-9999)",
+        "widget": "phone"
+      }
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Effective Date (",
+        "widget": "date"
+      }
+    },
+    "terminationDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Termination Date (",
+        "widget": "date"
+      }
+    },
+    "nameOfInsurance_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of insurance #1",
+        "widget": "text"
+      }
+    },
+    "effectiveDateMmDdYyyyTerminationDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Effective Date (MM/DD/YYYY)Termination Date (",
+        "widget": "date"
+      }
+    },
+    "nameOfInsurance_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of insurance #2",
+        "widget": "text"
+      }
+    },
+    "signatureTypeIfElectronic": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE (type if electronic)",
+        "widget": "signature"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "date"
+      }
+    },
+    "reCertificationUp": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "• Re-certification - up",
+        "widget": "date"
+      }
+    },
+    "ohi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OHI",
+        "widget": "text"
+      }
+    },
+    "terminationDate3": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Termination date",
+        "widget": "date"
+      }
+    },
+    "reissuedIsNotTheTermination": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "reissued is not the termination",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "authority": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Authority",
+        "widget": "text"
+      }
+    },
+    "informationWillHave": {
+      "type": "string",
+      "x-va-field": {
+        "label": "information will have",
+        "widget": "radio"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959c.pdf",
+    "totalFields": 59,
+    "composedFields": 59,
+    "coveragePercent": 100,
+    "xfaLabelCount": 45,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:31:26.198Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:28.427Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

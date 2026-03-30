@@ -1,0 +1,529 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-10289",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "currentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "veteranServiceMemberLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran Service Member Last Name",
+        "widget": "text"
+      }
+    },
+    "veteranServiceMemberMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran Service Member Middle Initial",
+        "widget": "text"
+      }
+    },
+    "veteranServiceMemberFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Veteran Service Member First Name",
+        "widget": "text"
+      }
+    },
+    "stateIdentificationNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform State Identification Number",
+        "widget": "text"
+      }
+    },
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Email Address",
+        "widget": "text"
+      }
+    },
+    "stateWorkforceCaseManagersNameAndTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform State Workforce Case Managers Name And Title",
+        "widget": "text"
+      }
+    },
+    "employmentGoal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Employment Goal",
+        "widget": "text"
+      }
+    },
+    "medical": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Medical",
+        "widget": "checkbox"
+      }
+    },
+    "vacationTimeOff": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Vacation Time Off",
+        "widget": "checkbox"
+      }
+    },
+    "fourOOneK": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Four O One K",
+        "widget": "checkbox"
+      }
+    },
+    "lifeInsurance": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Life Insurance",
+        "widget": "checkbox"
+      }
+    },
+    "education": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Education",
+        "widget": "checkbox"
+      }
+    },
+    "startDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Start Date",
+        "widget": "text"
+      }
+    },
+    "jobTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Job Title",
+        "widget": "text"
+      }
+    },
+    "nameOfEmployer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Employer",
+        "widget": "text"
+      }
+    },
+    "employerAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Employer Address",
+        "widget": "text"
+      }
+    },
+    "hours": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Hours",
+        "widget": "text"
+      }
+    },
+    "salary": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Salary",
+        "widget": "text"
+      }
+    },
+    "nameOfSupervisor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Name Of Supervisor",
+        "widget": "text"
+      }
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Telephone Number",
+        "widget": "text"
+      }
+    },
+    "dateReferred": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Referred",
+        "widget": "text"
+      }
+    },
+    "employer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Employer",
+        "widget": "text"
+      }
+    },
+    "jobSearchEfforts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Job Search Efforts",
+        "widget": "text"
+      }
+    },
+    "caseManagersJobSearchAssistance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Case Managers Job Search Assistance",
+        "widget": "text"
+      }
+    },
+    "additionalInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Additional Information",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field11",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "youCanContactUsOnlineThroughAskVa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "you can contact us online through Ask VA",
+        "widget": "text"
+      }
+    },
+    "emailItToTheAssignedVeteranReadinessEmploymentCaseManagerOrMailTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "email it to the assigned Veteran Readiness & Employment Case Manager or mail to",
+        "widget": "text"
+      }
+    },
+    "veteranSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "stateIdentificationNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATE IDENTIFICATION NUMBER",
+        "widget": "text"
+      }
+    },
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAILING ADDRESS",
+        "widget": "text"
+      }
+    },
+    "zipCodePostalCodeStateProvinceCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ZIP Code/Postal Code  State/Province  Country",
+        "widget": "text"
+      }
+    },
+    "todaySDateMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TODAY'S DATE (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "emailAddressOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS (Optional)",
+        "widget": "text"
+      }
+    },
+    "referralDateMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REFERRAL DATE (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "dateOfLastContactMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF LAST CONTACT (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "jobSearchEfforts2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "JOB SEARCH EFFORTS:",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "employmentGoal2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMPLOYMENT GOAL",
+        "widget": "text"
+      }
+    },
+    "positionType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "POSITION TYPE",
+        "widget": "text"
+      }
+    },
+    "workType": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WORK TYPE",
+        "widget": "text"
+      }
+    },
+    "benefits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BENEFITS",
+        "widget": "text"
+      }
+    },
+    "dateReferred2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE REFERRED",
+        "widget": "text"
+      }
+    },
+    "jobTitle25Employer": {
+      "type": "string",
+      "x-va-field": {
+        "label": "JOB TITLE25. EMPLOYER",
+        "widget": "text"
+      }
+    },
+    "applied": {
+      "type": "string",
+      "x-va-field": {
+        "label": "APPLIED/",
+        "widget": "text"
+      }
+    },
+    "startDateMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "START DATE (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "jobTitle2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "JOB TITLE",
+        "widget": "text"
+      }
+    },
+    "nameOfEmployer2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF EMPLOYER",
+        "widget": "text"
+      }
+    },
+    "employerAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMPLOYER ADDRESS",
+        "widget": "text"
+      }
+    },
+    "hoursPerWeek17Salary": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HOURS PER WEEK17. SALARY",
+        "widget": "text"
+      }
+    },
+    "nameOfSupervisor2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF SUPERVISOR",
+        "widget": "text"
+      }
+    },
+    "vrEParticipantSJobSearchEfforts": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VR&E PARTICIPANT'S JOB SEARCH EFFORTS",
+        "widget": "text"
+      }
+    },
+    "dvopAjcCaseManagerSJobSearchAssistance": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DVOP/AJC CASE MANAGER'S JOB SEARCH ASSISTANCE",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "caseManagerSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CASE MANAGER SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "required_31DateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(REQUIRED)31. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "referralDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfLastContact": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-10289-are.pdf",
+    "status": "digitized",
+    "totalFields": 80,
+    "composedFields": 73,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:32:21.730Z",
+    "postProcessedAt": "2026-03-30T20:02:41.754868+00:00",
+    "redigitizedAt": "2026-03-30T20:36:37.664Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

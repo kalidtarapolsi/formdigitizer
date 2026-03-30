@@ -1,0 +1,416 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10215",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "institutionName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Institution Name",
+        "widget": "text"
+      }
+    },
+    "facilityCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Facility Code",
+        "widget": "text"
+      }
+    },
+    "programName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Program Name",
+        "widget": "text"
+      }
+    },
+    "numberOfSupportedStudentsFte": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Number Of Supported Students F T E",
+        "widget": "text"
+      }
+    },
+    "numberOfNonSupportedStudentsFte": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Number Of Non Supported Students F T E",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "supportedStudentPercentageFte": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Supported Student Percentage F T E",
+        "widget": "text"
+      }
+    },
+    "dateOfCalculation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row1 Date Of Calculation",
+        "widget": "text"
+      }
+    },
+    "regionalOffice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row2 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row2 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row3 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row3 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row4 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row4 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice4": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row5 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row5 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row6 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row6 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice6": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row7 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row7 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice7": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row8 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row8 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice8": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row9 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row9 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice9": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row10 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row10 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row11 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row11 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "regionalOffice11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row12 Regional Office",
+        "widget": "text"
+      }
+    },
+    "totalEnrollment12": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Table2 Row12 Total Enrollment",
+        "widget": "text"
+      }
+    },
+    "schoolOfficialPrintedName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform School Official Printed Name",
+        "widget": "text"
+      }
+    },
+    "schoolOfficialTitle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform School Official Title",
+        "widget": "text"
+      }
+    },
+    "digitalSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Digital Signature",
+        "widget": "text"
+      }
+    },
+    "dateField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Field1",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "statementOfAssuranceOfComplianceWith_85PercentEnrollmentRatios": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATEMENT OF ASSURANCE OF COMPLIANCE WITH 85 PERCENT ENROLLMENT RATIOS",
+        "widget": "select"
+      }
+    },
+    "specialNoteForAccreditedSchools": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPECIAL NOTE FOR ACCREDITED SCHOOLS",
+        "widget": "text"
+      }
+    },
+    "noLaterThan_30DaysAfterTheBeginningOfEachRegularSc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "No later than 30 days after the beginning of each regular sc",
+        "widget": "text"
+      }
+    },
+    "noLaterThan_30DaysAfterTheBeginningOfEachEnrollment": {
+      "type": "string",
+      "x-va-field": {
+        "label": "No later than 30 days after the beginning of each enrollment",
+        "widget": "text"
+      }
+    },
+    "forExample": {
+      "type": "string",
+      "x-va-field": {
+        "label": "For example",
+        "widget": "text"
+      }
+    },
+    "enrollmentPeriodstartDatereportDue": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Enrollment PeriodStart DateReport Due",
+        "widget": "date"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Note",
+        "widget": "text"
+      }
+    },
+    "block_3TermStart": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "BLOCK 3 - TERM START",
+        "widget": "date"
+      }
+    },
+    "provideTheStart": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Provide the start",
+        "widget": "date"
+      }
+    },
+    "start": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "start",
+        "widget": "date"
+      }
+    },
+    "block_4CalculationDateProvideThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "BLOCK 4 - CALCULATION DATE. Provide the",
+        "widget": "date"
+      }
+    },
+    "thereAre": {
+      "type": "string",
+      "x-va-field": {
+        "label": "• There are",
+        "widget": "radio"
+      }
+    },
+    "theFollowingCriteria": {
+      "type": "string",
+      "x-va-field": {
+        "label": "the following criteria",
+        "widget": "text"
+      }
+    },
+    "totalEnrolledFteColumn_5f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Enrolled FTE (Column 5F)",
+        "widget": "text"
+      }
+    },
+    "privacyActNotice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT NOTICE",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RESPONDENT BURDEN",
+        "widget": "text"
+      }
+    },
+    "institutionName2FacilityCode3TermStartDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "INSTITUTION NAME2. FACILITY CODE3. TERM START DATE",
+        "widget": "date"
+      }
+    },
+    "85_15PercentCalculation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "85/15 PERCENT CALCULATION",
+        "widget": "text"
+      }
+    },
+    "calculationDate": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "CALCULATION DATE",
+        "widget": "date"
+      }
+    },
+    "schoolOfficialPrintedName7SchoolOfficialTitle8Signa": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SCHOOL OFFICIAL PRINTED NAME7. SCHOOL OFFICIAL TITLE8. SIGNA",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10215-are.pdf",
+    "status": "digitized",
+    "totalFields": 55,
+    "composedFields": 55,
+    "coveragePercent": 98,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 1,
+    "pageCount": 5,
+    "generatedAt": "2026-03-28T17:32:36.976Z",
+    "redigitizedAt": "2026-03-30T20:36:46.359Z",
+    "extractionSources": [
+      "acroform",
+      "text-inference"
+    ]
+  }
+}

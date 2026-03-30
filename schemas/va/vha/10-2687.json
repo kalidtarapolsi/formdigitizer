@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2687",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "gratuitousBenefitsDepositedByVaMayOnlyBePaidToWifeChildDependentParentOrForExpensesOfLastIllnessOrBurialPl86146": {
+      "type": "number"
+    },
+    "inventoryReason": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "itemDesc": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "otherFundsDesc": {
+      "type": "string"
+    },
+    "gratuitousBenefitsAmt": {
+      "type": "string"
+    },
+    "otherFundsAmt": {
+      "type": "string"
+    },
+    "grandTotal": {
+      "type": "string"
+    },
+    "disposition": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2687-fill.pdf",
+    "totalFields": 71,
+    "composedFields": 8,
+    "coveragePercent": 11,
+    "xfaLabelCount": 13,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:03:48.710Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

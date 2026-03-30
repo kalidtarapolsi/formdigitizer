@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-10216",
+  "type": "object",
+  "properties": {
+    "statementOfAssuranceOfComplianceWith85PercentEnrollmentRatio": {
+      "type": "string"
+    },
+    "termStartDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOfCalculation": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "institutionName": {
+      "type": "string"
+    },
+    "schoolOfficialPrintedName": {
+      "type": "string"
+    },
+    "schoolOfficialTitle": {
+      "type": "string"
+    },
+    "facilityCode": {
+      "type": "string"
+    },
+    "vaBeneficiaryStudents": {
+      "type": "string"
+    },
+    "totalNumberOfStudents": {
+      "type": "string"
+    },
+    "vaBeneficiaryStudentsBeneficiary": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10216-are.pdf",
+    "status": "digitized",
+    "totalFields": 11,
+    "composedFields": 7,
+    "coveragePercent": 64,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:38:45.483Z"
+  }
+}

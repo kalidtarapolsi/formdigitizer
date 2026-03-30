@@ -1,0 +1,634 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VA 10079",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateofcostcomparison": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D A T E O F C O S T C O M P A R I S O N",
+        "widget": "text"
+      }
+    },
+    "travelersname": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T R A V E L E R S N A M E",
+        "widget": "text"
+      }
+    },
+    "departuredate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E P A R T U R E D A T E",
+        "widget": "text"
+      }
+    },
+    "returndate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E T U R N D A T E",
+        "widget": "text"
+      }
+    },
+    "gsaapplicablerate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform G S A A P P L I C A B L E R A T E",
+        "widget": "text"
+      }
+    },
+    "numberofmiles": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform N U M B E R O F M I L E S",
+        "widget": "text"
+      }
+    },
+    "totalcostofmileage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T O T A L C O S T O F M I L E A G E",
+        "widget": "text"
+      }
+    },
+    "addltvldayperdiemtotdy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A D D L T V L D A Y P E R D I E M T O T D Y",
+        "widget": "text"
+      }
+    },
+    "addltvldayperdiemfromtdy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A D D L T V L D A Y P E R D I E M F R O M T D Y",
+        "widget": "text"
+      }
+    },
+    "personallyprocuredairfare": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform P E R S O N A L L Y P R O C U R E D A I R F A R E",
+        "widget": "text"
+      }
+    },
+    "baggagefees": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B A G G A G E F E E S",
+        "widget": "text"
+      }
+    },
+    "other9c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9c",
+        "widget": "text"
+      }
+    },
+    "other9cDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9c dollaramount",
+        "widget": "text"
+      }
+    },
+    "other9d": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9d",
+        "widget": "text"
+      }
+    },
+    "other9dDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9d dollaramount",
+        "widget": "text"
+      }
+    },
+    "other9e": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9e",
+        "widget": "text"
+      }
+    },
+    "other9eDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9e dollaramount",
+        "widget": "text"
+      }
+    },
+    "other9f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9f",
+        "widget": "text"
+      }
+    },
+    "other9fDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9f dollaramount",
+        "widget": "text"
+      }
+    },
+    "other9g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9g",
+        "widget": "text"
+      }
+    },
+    "other9gDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9g dollaramount",
+        "widget": "text"
+      }
+    },
+    "other9h": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9h",
+        "widget": "text"
+      }
+    },
+    "other9hDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R9h dollaramount",
+        "widget": "text"
+      }
+    },
+    "subtotalofestimatedexpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S U B T O T A L O F E S T I M A T E D E X P E N S E S",
+        "widget": "text"
+      }
+    },
+    "additionalremarks11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A D D I T I O N A L R E M A R K S11",
+        "widget": "text"
+      }
+    },
+    "travelersestimatedactualtotal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T R A V E L E R S E S T I M A T E D A C T U A L T O T A L",
+        "widget": "text"
+      }
+    },
+    "departuredateGov": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D E P A R T U R E D A T E G O V",
+        "widget": "text"
+      }
+    },
+    "returndateGov": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E T U R N D A T E G O V",
+        "widget": "text"
+      }
+    },
+    "modeoftraveldetails": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform M O D E O F T R A V E L D E T A I L S",
+        "widget": "text"
+      }
+    },
+    "directedmodecost": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform D I R E C T E D M O D E C O S T",
+        "widget": "text"
+      }
+    },
+    "terminaltnctaxishuttle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform T E R M I N A L T N C T A X I S H U T T L E",
+        "widget": "text"
+      }
+    },
+    "baggagefees17b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform B A G G A G E F E E S17b",
+        "widget": "text"
+      }
+    },
+    "rentalcarattdysite": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform R E N T A L C A R A T T D Y S I T E",
+        "widget": "text"
+      }
+    },
+    "fuelfortdyrentalcare": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform F U E L F O R T D Y R E N T A L C A R E",
+        "widget": "text"
+      }
+    },
+    "other17e": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17e",
+        "widget": "text"
+      }
+    },
+    "other17eDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17e dollaramount",
+        "widget": "text"
+      }
+    },
+    "other17f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17f",
+        "widget": "text"
+      }
+    },
+    "other17fDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17f dollaramount",
+        "widget": "text"
+      }
+    },
+    "other17g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17g",
+        "widget": "text"
+      }
+    },
+    "other17gDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17g dollaramount",
+        "widget": "text"
+      }
+    },
+    "other17h": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17h",
+        "widget": "text"
+      }
+    },
+    "other17hDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17h dollaramount",
+        "widget": "text"
+      }
+    },
+    "other17i": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17i",
+        "widget": "text"
+      }
+    },
+    "other17iDollaramount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform O T H E R17i dollaramount",
+        "widget": "text"
+      }
+    },
+    "subtotalofestimatedexpensesgov": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S U B T O T A L O F E S T I M A T E D E X P E N S E S G O V",
+        "widget": "text"
+      }
+    },
+    "additionalremarks19": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform A D D I T I O N A L R E M A R K S19",
+        "widget": "text"
+      }
+    },
+    "governmentsestimatedtotal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform G O V E R N M E N T S E S T I M A T E D T O T A L",
+        "widget": "text"
+      }
+    },
+    "costcomparisonamounttobereimbursedtotravler": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform C O S T C O M P A R I S O N A M O U N T T O B E R E I M B U R S E D T O T R A V L E R",
+        "widget": "text"
+      }
+    },
+    "dateOfCostComparisonMmDdYyyy_2TravelerSNameLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF COST COMPARISON (MM/DD/YYYY)2. TRAVELER'S NAME (Last",
+        "widget": "text"
+      }
+    },
+    "departureDateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DEPARTURE DATE (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "returnDateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "RETURN DATE (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "modeOfTravel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MODE OF TRAVEL",
+        "widget": "text"
+      }
+    },
+    "numberOfMilesRoundTrip": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF MILES (round trip)",
+        "widget": "text"
+      }
+    },
+    "otherEstimatedTravelerExpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER ESTIMATED TRAVELER EXPENSES",
+        "widget": "text"
+      }
+    },
+    "subtotalOfEstExpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUBTOTAL OF EST. EXPENSES",
+        "widget": "text"
+      }
+    },
+    "additionalRemarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDITIONAL REMARKS",
+        "widget": "text"
+      }
+    },
+    "modeOfTravelDetailsAirplaneTrainRentalCarGov": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MODE OF TRAVEL DETAILS (Airplane, Train, Rental Car, GOV,",
+        "widget": "text"
+      }
+    },
+    "etcNote_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "etc.) NOTE 1",
+        "widget": "text"
+      }
+    },
+    "otherEstimatedGovernmentExpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER ESTIMATED GOVERNMENT EXPENSES",
+        "widget": "text"
+      }
+    },
+    "fuelForTdyRentalCar": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FUEL FOR TDY RENTAL CAR",
+        "widget": "text"
+      }
+    },
+    "costComparisonAmountToBeReimbursedToTraveler": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COST COMPARISON AMOUNT TO BE REIMBURSED TO TRAVELER",
+        "widget": "text"
+      }
+    },
+    "dateOfCostComparisonEnterTheDateTheCostComparison": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE OF COST COMPARISON:  Enter the date the cost comparison",
+        "widget": "date"
+      }
+    },
+    "travelerSNameSelfExplanatory": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TRAVELER'S NAME: Self-explanatory.",
+        "widget": "text"
+      }
+    },
+    "departureDateEnterThePlannedTravelDateOfficialOrP": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DEPARTURE DATE: Enter the planned Travel Date (official or p",
+        "widget": "date"
+      }
+    },
+    "returnDateEnterThePlannedTravelDateOfficialOrPers": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "RETURN DATE: Enter the planned Travel Date (official or pers",
+        "widget": "date"
+      }
+    },
+    "modeOfTravelSelectTheMethodOfTravelThatTheTravele": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MODE OF TRAVEL: Select the method of travel that the travele",
+        "widget": "text"
+      }
+    },
+    "numberOfMilesIfAirplaneOrTrainIsSelectedOn_5The": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NUMBER OF MILES: If Airplane or Train is selected on #5, the",
+        "widget": "text"
+      }
+    },
+    "totalCostOfMileageThisBlockWillAutoComputeBasedOn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL COST OF MILEAGE: This block will auto compute based on",
+        "widget": "text"
+      }
+    },
+    "addLTvlDayPerDiemToTdyIfTheTravelWillRequireA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADD'L TVL DAY PER DIEM TO TDY: If the travel will require “a",
+        "widget": "text"
+      }
+    },
+    "addLTvlDayPerDiemFromTdyIfTheTravelWillRequire": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADD'L TVL DAY PER DIEM FROM TDY: If the travel will require",
+        "widget": "text"
+      }
+    },
+    "otherEstimatedTravelExpenses_9aThrough_9hEnterAnyOt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER ESTIMATED TRAVEL EXPENSES: 9a through 9h. Enter any ot",
+        "widget": "text"
+      }
+    },
+    "subtotalOfEstExpensesBlock_9SThisBlockWillAuto": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUBTOTAL OF EST. EXPENSES (block 9's): This block will auto",
+        "widget": "text"
+      }
+    },
+    "additionalRemarksEnterAnyAdditionalCommentsThatMayP": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDITIONAL REMARKS: Enter any additional comments that may p",
+        "widget": "text"
+      }
+    },
+    "travelerSEstimatedActualTotalThisBlockWillAutoComp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TRAVELER'S ESTIMATED/ACTUAL TOTAL: This block will auto comp",
+        "widget": "text"
+      }
+    },
+    "departureDateEnterTheOfficialTravelDateThatTheTrav": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DEPARTURE DATE: Enter the official travel date that the trav",
+        "widget": "date"
+      }
+    },
+    "returnDateEnterTheOfficialReturnDateOfTheTravelIf": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "RETURN DATE: Enter the official return date of the travel if",
+        "widget": "date"
+      }
+    },
+    "modeOfTravelDetailsEnterTheModeOfTravelTheGovernm": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MODE OF TRAVEL DETAILS: Enter the mode of travel the Governm",
+        "widget": "text"
+      }
+    },
+    "directedModeCostEnterTheCostOfTheGovernmentModeOf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DIRECTED MODE COST: Enter the cost of the Government mode of",
+        "widget": "text"
+      }
+    },
+    "otherEstimatedGovernmentExpenses2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER ESTIMATED GOVERNMENT EXPENSES:",
+        "widget": "text"
+      }
+    },
+    "terminalTncTaxiShuttleEnterTheAuthorizedExpenseOfT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TERMINAL TNC/TAXI/SHUTTLE: Enter the authorized expense of t",
+        "widget": "text"
+      }
+    },
+    "baggageFeeEnterTheApplicableCostOfBaggageUsingThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BAGGAGE FEE: Enter the applicable cost of baggage using the",
+        "widget": "text"
+      }
+    },
+    "rentalCarAtTdySiteFillInThisBlockOnlyIfARental": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RENTAL CAR AT TDY SITE: Fill in this block ONLY if a rental",
+        "widget": "text"
+      }
+    },
+    "fuelForTdyRentalCarEnterEstimatedFuelCostIfRental": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FUEL FOR TDY RENTAL CAR: Enter estimated fuel cost if rental",
+        "widget": "text"
+      }
+    },
+    "subtotalOfEstExpensesBlock_17SThisBlockWillAuto": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SUBTOTAL OF EST. EXPENSES (block 17's): This block will auto",
+        "widget": "text"
+      }
+    },
+    "governmentSEstimatedTotalThisBlockWillAutoCompute": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GOVERNMENT'S ESTIMATED TOTAL:  This block will auto compute",
+        "widget": "text"
+      }
+    },
+    "costComparisonAmountToBeReimbursedToTravelerThisA": {
+      "type": "string",
+      "x-va-field": {
+        "label": "COST COMPARISON AMOUNT TO BE REIMBURSED TO TRAVELER:  This a",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10079.pdf",
+    "totalFields": 96,
+    "composedFields": 86,
+    "coveragePercent": 100,
+    "xfaLabelCount": 52,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:34:26.594Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:40.617Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

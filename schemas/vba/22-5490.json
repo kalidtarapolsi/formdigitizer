@@ -1,0 +1,815 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "22-5490",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "mailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Mailing Address",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 N A M E",
+        "widget": "text"
+      }
+    },
+    "homeTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Home Telephone Number",
+        "widget": "text"
+      }
+    },
+    "mobileTelephoneNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Mobile Telephone Number",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 E M A I L",
+        "widget": "text"
+      }
+    },
+    "name2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Name",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberOrVaFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Social Security Number Or V A File Number",
+        "widget": "text"
+      }
+    },
+    "branchOfService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Branch Of Service",
+        "widget": "text"
+      }
+    },
+    "bankRoutingOrTransitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Bank Routing Or Transit Number",
+        "widget": "text"
+      }
+    },
+    "bankAccountNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Bank Account Number",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberOfApplicant": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Social Security Number Of Applicant",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Date Of Birth",
+        "widget": "text"
+      }
+    },
+    "dateListedAsMissingInAction": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Date Listed As Missing In Action",
+        "widget": "text"
+      }
+    },
+    "dateOfRemarriage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Date Of Remarriage",
+        "widget": "text"
+      }
+    },
+    "dateOfMarriageToQualifyingIndividual": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Date Of Marriage To Qualifying Individual",
+        "widget": "text"
+      }
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 1 Date Of Death",
+        "widget": "text"
+      }
+    },
+    "spouseOrSurviving": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 2 Spouse Or Surviving",
+        "widget": "checkbox"
+      }
+    },
+    "spouseOrSurvivingSpouse": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 2 Spouse Or Surviving Spouse",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxChapter35dea": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 2 Check Box Chapter35 D E A",
+        "widget": "checkbox"
+      }
+    },
+    "checkBoxChapter33Fryscholarship": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 2 Check Box Chapter33 F R Y Scholarship",
+        "widget": "checkbox"
+      }
+    },
+    "iAmApplyingForChapter35DeaBenefits": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 2 I Am Applying For Chapter 35 D E A Benefits",
+        "widget": "checkbox"
+      }
+    },
+    "iAmApplyingForChapter33FryScholarshipBenefits": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 2 I Am Applying For Chapter 33 Fry Scholarship Benefits",
+        "widget": "checkbox"
+      }
+    },
+    "dateOfGraduation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Date Of Graduation",
+        "widget": "text"
+      }
+    },
+    "dateReceivedGED": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Date Received G E D",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberOfApplicant2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 2 Social Security Number Of Applicant",
+        "widget": "text"
+      }
+    },
+    "nameOfIndividualOnWhoseAccountYouPreviouslyClaimedBenefits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Name Of Individual On Whose Account You Previously Claimed Benefits",
+        "widget": "text"
+      }
+    },
+    "disabilityCompensationOrPension": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 3 Disability Compensation Or Pension",
+        "widget": "checkbox"
+      }
+    },
+    "dependentsIndemnityCompensationDIC": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 3 Dependents Indemnity Compensation D I C",
+        "widget": "checkbox"
+      }
+    },
+    "veteranReadinessAndEmploymentBenefits": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 3 Veteran Readiness And Employment Benefits",
+        "widget": "checkbox"
+      }
+    },
+    "veteransEducationAssistanceBasedOnYourOwnService": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 3 Veterans Education Assistance Based On Your Own Service",
+        "widget": "checkbox"
+      }
+    },
+    "veteransEducationAssistanceBasedOnSomeoneElsesService": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 3 Veterans Education Assistance Based On Someone Elses Service",
+        "widget": "checkbox"
+      }
+    },
+    "other": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 3 Other",
+        "widget": "checkbox"
+      }
+    },
+    "specifyBenefits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Specify Benefits",
+        "widget": "text"
+      }
+    },
+    "otherBenefitsSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Other Benefits Specify",
+        "widget": "text"
+      }
+    },
+    "branchOfServiceOrReserveGuard1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Branch Of Service Or Reserve Guard1",
+        "widget": "text"
+      }
+    },
+    "characterOfDischarge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Character Of Discharge",
+        "widget": "text"
+      }
+    },
+    "ssn1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 S S N1",
+        "widget": "text"
+      }
+    },
+    "dateEnteredActiveDuty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Date Entered Active Duty",
+        "widget": "text"
+      }
+    },
+    "dateSeparatedFromActiveDuty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Date Separated From Active Duty",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Date Of Birth",
+        "widget": "text"
+      }
+    },
+    "dob2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 D O B2",
+        "widget": "text"
+      }
+    },
+    "otherBenefits": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Other Benefits",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Date Signed",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "nameOfParentGuardianOrCustodian": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Name Of Parent Guardian Or Custodian",
+        "widget": "text"
+      }
+    },
+    "nameAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Name And Street",
+        "widget": "text"
+      }
+    },
+    "cityStateAndZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 City State And Z I P Code",
+        "widget": "text"
+      }
+    },
+    "apartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "mobileTelephoneNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Mobile Telephone Number",
+        "widget": "text"
+      }
+    },
+    "homeTelephoneNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Home Telephone Number",
+        "widget": "text"
+      }
+    },
+    "emailAddressOfParentGuardianCustodian": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Email Address Of Parent Guardian Custodian",
+        "widget": "text"
+      }
+    },
+    "parentGuardianCustodian": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 Page 3 Parent Guardian Custodian",
+        "widget": "checkbox"
+      }
+    },
+    "dateSigned2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Date Signed2",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberOfApplicant3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 Page 3 Social Security Number Of Applicant",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER(S)",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "sex": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SEX",
+        "widget": "text"
+      }
+    },
+    "name3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME",
+        "widget": "text"
+      }
+    },
+    "emailAddressIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS (If applicable)",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT MAILING ADDRESS",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumberOrVaFileNumber2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER OR VA FILE NUMBER",
+        "widget": "text"
+      }
+    },
+    "branchOfService2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BRANCH OF SERVICE",
+        "widget": "text"
+      }
+    },
+    "isQualifyingIndividualParentOrSpouseCurrentlyOnAct": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IS QUALIFYING INDIVIDUAL (PARENT OR SPOUSE) CURRENTLY ON ACT",
+        "widget": "text"
+      }
+    },
+    "nameOfQualifyingIndividualParentOrSpouseOnWhoseAc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF QUALIFYING INDIVIDUAL (PARENT OR SPOUSE) ON WHOSE AC",
+        "widget": "text"
+      }
+    },
+    "directDepositProvideTheInformationRequestedBelowSee": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DIRECT DEPOSIT (Provide the information requested below. See",
+        "widget": "text"
+      }
+    },
+    "dateListedAsMissingInActionOrPOWMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE LISTED AS MISSING IN ACTION OR P.O.W. (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "yourRelationshipToQualifyingIndividualCheckOnlyOne": {
+      "type": "string",
+      "x-va-field": {
+        "label": "YOUR RELATIONSHIP TO QUALIFYING INDIVIDUAL (Check only one)",
+        "widget": "text"
+      }
+    },
+    "ifYouAreTheSurvivingSpouseHaveYouRemarried": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF YOU ARE THE SURVIVING SPOUSE, HAVE YOU REMARRIED?",
+        "widget": "text"
+      }
+    },
+    "ifYesPleaseProvideDateOfRemarriage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "(If \"Yes,\" please provide date of remarriage)(",
+        "widget": "text"
+      }
+    },
+    "17a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "17A.",
+        "widget": "text"
+      }
+    },
+    "13d": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "13D.",
+        "widget": "date"
+      }
+    },
+    "socialSecurityNumberOfApplicant4": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER OF APPLICANT",
+        "widget": "ssn"
+      }
+    },
+    "iCertifyThatIUnderstandTheEffectsThatThisElectionT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I CERTIFY THAT I UNDERSTAND THE EFFECTS THAT THIS ELECTION T",
+        "widget": "text"
+      }
+    },
+    "spouseSurvivingSpouseSelectTheBenefitThatYouAreAppl": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SPOUSE/SURVIVING SPOUSE SELECT THE BENEFIT THAT YOU ARE APPL",
+        "widget": "text"
+      }
+    },
+    "biolgicalChildStepchildAdoptedChildSelectTheBenefitT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "BIOLGICAL CHILD/STEPCHILD/ADOPTED CHILD SELECT THE BENEFIT T",
+        "widget": "text"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "ifTheApplicantIsUnderAge_18HasTheApplicantGraduate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IF THE APPLICANT IS UNDER AGE 18, HAS THE APPLICANT GRADUATE",
+        "widget": "text"
+      }
+    },
+    "ifYesPleaseProvideThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(If \"Yes,\" please provide the",
+        "widget": "date"
+      }
+    },
+    "dateOfGraduationOrExpected": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Graduation or Expected",
+        "widget": "date"
+      }
+    },
+    "ifNoPleaseProvideTheExpected": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "(If \"No,\" please provide the expected",
+        "widget": "date"
+      }
+    },
+    "dateReceivedGedOrExpected": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Received GED or Expected",
+        "widget": "date"
+      }
+    },
+    "wouldYouLikeToReceiveVocationalAndEducationalCounsel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "WOULD YOU LIKE TO RECEIVE VOCATIONAL AND EDUCATIONAL COUNSEL",
+        "widget": "text"
+      }
+    },
+    "priorToThisApplicationHaveYouEverAppliedForOrRece": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIOR TO THIS APPLICATION, HAVE YOU EVER APPLIED FOR OR RECE",
+        "widget": "text"
+      }
+    },
+    "haveYouEverServedOnActiveDutyInTheArmedForcesIf": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HAVE YOU EVER SERVED ON ACTIVE DUTY IN THE ARMED FORCES? (If",
+        "widget": "text"
+      }
+    },
+    "informationAboutYourPeriodSOfActiveDuty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INFORMATION ABOUT YOUR PERIOD(S) OF ACTIVE DUTY",
+        "widget": "text"
+      }
+    },
+    "nameOfIndividualOnWhoseAccountYouPreviouslyClaimedB": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF INDIVIDUAL ON WHOSE ACCOUNT YOU PREVIOUSLY CLAIMED B",
+        "widget": "text"
+      }
+    },
+    "fOtherSpecifyBenefitS": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F. OTHER (Specify benefit(s))",
+        "widget": "text"
+      }
+    },
+    "28b": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "28B.",
+        "widget": "date"
+      }
+    },
+    "28c": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "28C.",
+        "widget": "date"
+      }
+    },
+    "claimedBenefitsOrThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "CLAIMED BENEFITS OR THE",
+        "widget": "date"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "signatureOfApplicantDoNotPrintYouMustBeAtLeast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF APPLICANT (DO NOT PRINT) (You must be at least",
+        "widget": "signature"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "nameOfParentGuardianOrCustodianFirstMiddleInitia": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF PARENT, GUARDIAN, OR CUSTODIAN (First, Middle Initia",
+        "widget": "text"
+      }
+    },
+    "cityStateZipCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City, State, ZIP Code",
+        "widget": "select"
+      }
+    },
+    "35aSignatureOf_35bDateSigned": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "35A. SIGNATURE OF: 35B. DATE SIGNED (",
+        "widget": "date"
+      }
+    },
+    "item_13a": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEM 13A",
+        "widget": "text"
+      }
+    },
+    "inItem_8WillUp": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "in Item 8 will up",
+        "widget": "date"
+      }
+    },
+    "item_13b": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEM 13B",
+        "widget": "text"
+      }
+    },
+    "item_13c": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEM 13C",
+        "widget": "text"
+      }
+    },
+    "giBillWebsiteAt": {
+      "type": "string",
+      "x-va-field": {
+        "label": "GI Bill website at",
+        "widget": "text"
+      }
+    },
+    "step_3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 3",
+        "widget": "text"
+      }
+    },
+    "step_1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 1",
+        "widget": "text"
+      }
+    },
+    "step_2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Step 2",
+        "widget": "text"
+      }
+    },
+    "sureToDoTheFollowing": {
+      "type": "string",
+      "x-va-field": {
+        "label": "sure to do the following",
+        "widget": "text"
+      }
+    },
+    "easternRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Eastern Region",
+        "widget": "text"
+      }
+    },
+    "westernRegion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Western Region",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-5490-are.pdf",
+    "status": "digitized",
+    "totalFields": 111,
+    "composedFields": 111,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 7,
+    "generatedAt": "2026-03-28T17:34:10.351Z",
+    "redigitizedAt": "2026-03-30T20:37:44.840Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2804b",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "anterior": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Anterior",
+        "widget": "text"
+      }
+    },
+    "posterior": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Posterior",
+        "widget": "text"
+      }
+    },
+    "toothShade": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Tooth Shade",
+        "widget": "text"
+      }
+    },
+    "gingivalTint": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Gingival Tint",
+        "widget": "select"
+      }
+    },
+    "clicktochooseone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Clicktochooseone",
+        "widget": "select"
+      }
+    },
+    "impression": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Impression",
+        "widget": "checkbox"
+      }
+    },
+    "bite": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Bite",
+        "widget": "checkbox"
+      }
+    },
+    "articulator": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Articulator",
+        "widget": "checkbox"
+      }
+    },
+    "masterCast": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Master Cast",
+        "widget": "checkbox"
+      }
+    },
+    "opposingCast": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Opposing Cast",
+        "widget": "checkbox"
+      }
+    },
+    "submittingFacilityCityandState": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Submitting Facility Cityand State",
+        "widget": "text"
+      }
+    },
+    "campus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Campus",
+        "widget": "text"
+      }
+    },
+    "submittingDentist": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Submitting Dentist",
+        "widget": "text"
+      }
+    },
+    "patientSsnumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Patient S S Number",
+        "widget": "text"
+      }
+    },
+    "patientLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Patient Last Name",
+        "widget": "text"
+      }
+    },
+    "patientFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Patient First Name",
+        "widget": "text"
+      }
+    },
+    "designedStudyCast": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Designed Study Cast",
+        "widget": "checkbox"
+      }
+    },
+    "instructionsdesign": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Instructionsdesign",
+        "widget": "text"
+      }
+    },
+    "dateMailed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Mailed",
+        "widget": "text"
+      }
+    },
+    "chromeCobalt": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Chrome Cobalt",
+        "widget": "checkbox"
+      }
+    },
+    "valplast": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Valplast",
+        "widget": "checkbox"
+      }
+    },
+    "mandibular": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Mandibular",
+        "widget": "checkbox"
+      }
+    },
+    "maxillary": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Maxillary",
+        "widget": "checkbox"
+      }
+    },
+    "removablePartialDentures": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Removable Partial Dentures",
+        "widget": "text"
+      }
+    },
+    "anterior2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Anterior",
+        "widget": "text"
+      }
+    },
+    "posterior2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Posterior",
+        "widget": "text"
+      }
+    },
+    "gingivalTint2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Gingival Tint",
+        "widget": "text"
+      }
+    },
+    "enclosedWithCase": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Enclosed with case:",
+        "widget": "text"
+      }
+    },
+    "campus2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Campus:",
+        "widget": "text"
+      }
+    },
+    "submittingDentist2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Submitting Dentist:",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature:",
+        "widget": "signature"
+      }
+    },
+    "completePatientSsn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "Complete Patient SSN:",
+        "widget": "ssn"
+      }
+    },
+    "patientLastName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Patient Last Name:",
+        "widget": "text"
+      }
+    },
+    "patientFirstName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Patient First Name:",
+        "widget": "text"
+      }
+    },
+    "dentalClass": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Dental Class:",
+        "widget": "text"
+      }
+    },
+    "instructionsDesiredDesignCastMetalRedWroughtW": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Instructions (Desired Design):  Cast Metal - Red  Wrought  W",
+        "widget": "text"
+      }
+    },
+    "dateMailed2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Mailed:",
+        "widget": "date"
+      }
+    },
+    "rx": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx #",
+        "widget": "text"
+      }
+    },
+    "station": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Station #",
+        "widget": "text"
+      }
+    },
+    "dateReceived": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Received",
+        "widget": "date"
+      }
+    },
+    "dateShipped": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Shipped",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804b_fill.pdf",
+    "totalFields": 43,
+    "composedFields": 41,
+    "coveragePercent": 98,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 1,
+    "generatedAt": "2026-03-28T21:03:59.961Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:26:45.846Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

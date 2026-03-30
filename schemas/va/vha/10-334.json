@@ -1,0 +1,199 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-334",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "veteransName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Veterans Name",
+        "widget": "text"
+      }
+    },
+    "street": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Street",
+        "widget": "text"
+      }
+    },
+    "state": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 State",
+        "widget": "text"
+      }
+    },
+    "zip": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Zip",
+        "widget": "text"
+      }
+    },
+    "email": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Email",
+        "widget": "text"
+      }
+    },
+    "localMedCenter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Local Med Center",
+        "widget": "text"
+      }
+    },
+    "county": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 County",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 City",
+        "widget": "text"
+      }
+    },
+    "dob": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 D O B",
+        "widget": "text"
+      }
+    },
+    "memberIdSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Member I D S S N",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "estimatedBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Estimated Burden",
+        "widget": "text"
+      }
+    },
+    "addressBelow": {
+      "type": "string",
+      "x-va-field": {
+        "label": "address below",
+        "widget": "address"
+      }
+    },
+    "pleaseMailDocumentsTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Please mail documents to",
+        "widget": "text"
+      }
+    },
+    "veteransNameLastFirstMiddle_2DateOfBirthMmDd": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "VETERANS NAME (Last, First, Middle)*2. DATE OF BIRTH (MM/DD/",
+        "widget": "date"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE",
+        "widget": "date"
+      }
+    },
+    "paperworkReductionActStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PAPERWORK REDUCTION ACT STATEMENT",
+        "widget": "select"
+      }
+    },
+    "privactActStatement": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACT ACT STATEMENT",
+        "widget": "select"
+      }
+    },
+    "important": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER*",
+        "widget": "ssn"
+      }
+    },
+    "emailAddress": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS",
+        "widget": "email"
+      }
+    },
+    "localVaMedicalCenter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "LOCAL VA MEDICAL CENTER",
+        "widget": "text"
+      }
+    },
+    "veteranTelephoneNumberPleaseSelectTheBestTimeOfDay": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "x-va-field": {
+        "label": "VETERAN TELEPHONE NUMBER (Please select the best time of day",
+        "widget": "phone"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE*",
+        "widget": "signature"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-334%20Tribal%20Documentation%20Form.pdf",
+    "totalFields": 24,
+    "composedFields": 24,
+    "coveragePercent": 100,
+    "xfaLabelCount": 13,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:22:35.758Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:27:07.729Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

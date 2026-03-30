@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-493b",
+  "type": "object",
+  "required": [
+    "ssn"
+  ],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11
+    },
+    "insertVeteranbeneficiarysFullName": {
+      "type": "string"
+    },
+    "direccin": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "cdigoPostal": {
+      "type": "string"
+    },
+    "inserteLaFecha": {
+      "type": "string"
+    },
+    "inserteElNombreDelCentroDeTratamientoMdicoApropiado": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "nombreYApellidoDelVeterano": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%2010-493b%20CHAMP%20Benefits%20Election%20Affirmation-espanol.pdf",
+    "totalFields": 10,
+    "composedFields": 2,
+    "coveragePercent": 20,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:32:25.054Z",
+    "pageCount": 1,
+    "status": "digitized"
+  }
+}

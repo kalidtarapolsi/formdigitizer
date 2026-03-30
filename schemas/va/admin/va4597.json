@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Equal Opportunity Complaint Activity Report",
+  "type": "object",
+  "properties": {
+    "employeeName": {
+      "type": "string",
+      "description": "Employee's full name"
+    },
+    "employeeTitle": {
+      "type": "string",
+      "description": "Employee's title/position"
+    },
+    "department": {
+      "type": "string",
+      "description": "Department or service"
+    },
+    "vaFacility": {
+      "type": "string",
+      "description": "VA facility"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "supervisorName": {
+      "type": "string",
+      "description": "Supervisor's name"
+    },
+    "supervisorSignature": {
+      "type": "boolean",
+      "description": "Supervisor's signature"
+    },
+    "employeeSignature": {
+      "type": "boolean",
+      "description": "Employee's signature"
+    },
+    "reportingPeriod": {
+      "type": "string",
+      "description": "Reporting period"
+    },
+    "complaintsFiled": {
+      "type": "string",
+      "description": "Number of complaints filed"
+    },
+    "complaintsResolved": {
+      "type": "string",
+      "description": "Number of complaints resolved"
+    },
+    "complaintsPending": {
+      "type": "string",
+      "description": "Number of complaints pending"
+    },
+    "formalComplaints": {
+      "type": "string",
+      "description": "Number of formal complaints"
+    },
+    "informalComplaints": {
+      "type": "string",
+      "description": "Number of informal complaints"
+    },
+    "preparedBy": {
+      "type": "string",
+      "description": "Prepared by"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4597.pdf",
+    "totalFields": 16,
+    "composedFields": 16,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 2,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

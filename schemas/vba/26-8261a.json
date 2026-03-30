@@ -1,0 +1,244 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "26-8261a",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "nameofVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Nameof Veteran",
+        "widget": "text"
+      }
+    },
+    "dischargeReturnedTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Discharge Returned To",
+        "widget": "text"
+      }
+    },
+    "addressofVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Addressof Veteran",
+        "widget": "text"
+      }
+    },
+    "vaclaimNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 V A Claim Number",
+        "widget": "text"
+      }
+    },
+    "signatureofVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Signatureof Veteran",
+        "widget": "text"
+      }
+    },
+    "fileReference": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 File Reference",
+        "widget": "text"
+      }
+    },
+    "serviceNumberorSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Service Numberor S S N",
+        "widget": "text"
+      }
+    },
+    "returnTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Return To",
+        "widget": "text"
+      }
+    },
+    "otherSpecify": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Other Specify",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page 1 Date Signed",
+        "widget": "text"
+      }
+    },
+    "mailThisFormTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MAIL THIS FORM TO",
+        "widget": "text"
+      }
+    },
+    "addresses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ADDRESSES.",
+        "widget": "text"
+      }
+    },
+    "nameLastFirstMiddleOfVeteran_2AddressOfVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME (Last, First, Middle) OF VETERAN:2. ADDRESS OF VETERAN",
+        "widget": "text"
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE OF BIRTH",
+        "widget": "text"
+      }
+    },
+    "periodOfActiveService": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PERIOD OF ACTIVE SERVICE",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME",
+        "widget": "text"
+      }
+    },
+    "serviceNumberOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SERVICE NUMBER OR",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "fPage_1CheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page 1 Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "dischargeOrSeparationPapersReturnedTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DISCHARGE OR SEPARATION PAPERS RETURNED TO",
+        "widget": "text"
+      }
+    },
+    "signatureOfVeteranSignInInk_8DateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SIGNATURE OF VETERAN (Sign in ink):8. DATE (MM/DD/YYYY):",
+        "widget": "date"
+      }
+    },
+    "fileReference_9aNameOfVeteran": {
+      "type": "string",
+      "x-va-field": {
+        "label": "FILE REFERENCE:9A. NAME OF VETERAN:",
+        "widget": "text"
+      }
+    },
+    "dateMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE  (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "returnTo2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "RETURN TO:",
+        "widget": "text"
+      }
+    },
+    "enclosures": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ENCLOSURES",
+        "widget": "text"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "importantInstructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "IMPORTANT INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "otherSpecify2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "OTHER (Specify)",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8261a-are.pdf",
+    "status": "digitized",
+    "totalFields": 31,
+    "composedFields": 31,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 2,
+    "generatedAt": "2026-03-28T17:37:32.659Z",
+    "redigitizedAt": "2026-03-30T20:39:10.614Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

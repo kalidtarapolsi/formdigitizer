@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-3203",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 50
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode"
+      ]
+    },
+    "dateMMDDYYYY": {
+      "type": "string",
+      "format": "date"
+    },
+    "signature": {
+      "type": "boolean",
+      "description": "Veteran/claimant signature certification"
+    },
+    "educationPurposesTraining": {
+      "type": "string"
+    },
+    "thePhotographDigitalImageAndOrVideoOrAudioRecordingWillBeProducedWhileIAmDescribeTheActivityOrSituationToBeCompletedByTheDepartmentOfVeteranAffairsIfApplicable": {
+      "type": "string"
+    },
+    "vAOnlyUseOtherSpecify": {
+      "type": "string"
+    },
+    "iHerebyVoluntarilyAndWithoutCompensationAuthorizeNameOfFacilityToObtainOr": {
+      "type": "string"
+    },
+    "nameOfFacility": {
+      "type": "string"
+    },
+    "externallySharedOutsideVA": {
+      "type": "string"
+    },
+    "vAOnlyUseHealthCareOperations": {
+      "type": "string"
+    },
+    "researchActivitiesStudy": {
+      "type": "string"
+    },
+    "vAOnlyUseAllOfTheAbove": {
+      "type": "string"
+    },
+    "seeNoteAndInformationAbovePrintFullNameFirstAndLastName": {
+      "type": "string"
+    },
+    "otherVAOnlyUse": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-3203%20Fill.pdf",
+    "totalFields": 35,
+    "composedFields": 17,
+    "coveragePercent": 49,
+    "xfaLabelCount": 17,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:31:23.855Z",
+    "pageCount": 2,
+    "status": "digitized"
+  }
+}

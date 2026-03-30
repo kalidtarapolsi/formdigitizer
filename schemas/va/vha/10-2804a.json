@@ -1,0 +1,597 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2804a",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "blank": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Blank",
+        "widget": "text"
+      }
+    },
+    "#field": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform #field",
+        "widget": "text"
+      }
+    },
+    "blankfield": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Blankfield",
+        "widget": "text"
+      }
+    },
+    "clicktochooseone": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Clicktochooseone",
+        "widget": "select"
+      }
+    },
+    "impression": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Impression",
+        "widget": "checkbox"
+      }
+    },
+    "bite": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Bite",
+        "widget": "checkbox"
+      }
+    },
+    "articulator": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Articulator",
+        "widget": "checkbox"
+      }
+    },
+    "masterCasts": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Master Casts",
+        "widget": "checkbox"
+      }
+    },
+    "opposingCasts": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Opposing Casts",
+        "widget": "checkbox"
+      }
+    },
+    "submittingFacilityCityandState": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Submitting Facility Cityand State",
+        "widget": "text"
+      }
+    },
+    "campus": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Campus",
+        "widget": "text"
+      }
+    },
+    "submittingDentist": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Submitting Dentist",
+        "widget": "text"
+      }
+    },
+    "dateMailed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Date Mailed",
+        "widget": "text"
+      }
+    },
+    "completePatientSsn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Complete Patient S S N",
+        "widget": "text"
+      }
+    },
+    "patientLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Patient Last Name",
+        "widget": "text"
+      }
+    },
+    "patientFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Patient First Name",
+        "widget": "text"
+      }
+    },
+    "verificationJig": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Verification Jig",
+        "widget": "checkbox"
+      }
+    },
+    "diagnosticCast": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Diagnostic Cast",
+        "widget": "checkbox"
+      }
+    },
+    "crowns": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Crowns",
+        "widget": "checkbox"
+      }
+    },
+    "analogs": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Analogs",
+        "widget": "checkbox"
+      }
+    },
+    "splintedCrowns": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Splinted Crowns",
+        "widget": "checkbox"
+      }
+    },
+    "abutmentToothNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Abutment Tooth Numbers",
+        "widget": "text"
+      }
+    },
+    "ponticToothNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Pontic Tooth Numbers",
+        "widget": "text"
+      }
+    },
+    "porcelainFusedtoMetal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Porcelain Fusedto Metal",
+        "widget": "select"
+      }
+    },
+    "undercut": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Undercut",
+        "widget": "text"
+      }
+    },
+    "guidePlanes": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Guide Planes",
+        "widget": "text"
+      }
+    },
+    "rests": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Rests",
+        "widget": "text"
+      }
+    },
+    "allCeramicRestorations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform All Ceramic Restorations",
+        "widget": "select"
+      }
+    },
+    "buccalMarginDesign": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Buccal Margin Design",
+        "widget": "select"
+      }
+    },
+    "shade": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Shade",
+        "widget": "text"
+      }
+    },
+    "gingival": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Gingival",
+        "widget": "text"
+      }
+    },
+    "middle": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Middle",
+        "widget": "text"
+      }
+    },
+    "incisal": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Incisal",
+        "widget": "text"
+      }
+    },
+    "diagnosticWaxup": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Diagnostic Waxup",
+        "widget": "checkbox"
+      }
+    },
+    "ridgeRelief": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Ridge Relief",
+        "widget": "select"
+      }
+    },
+    "occlusion": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Occlusion",
+        "widget": "select"
+      }
+    },
+    "fixedImplants": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Fixed Implants",
+        "widget": "checkbox"
+      }
+    },
+    "removableImplants": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Removable Implants",
+        "widget": "checkbox"
+      }
+    },
+    "diameter": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Diameter",
+        "widget": "text"
+      }
+    },
+    "length": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Length",
+        "widget": "text"
+      }
+    },
+    "components": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Components",
+        "widget": "text"
+      }
+    },
+    "brandName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Brand Name",
+        "widget": "text"
+      }
+    },
+    "abutments": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Abutments",
+        "widget": "checkbox"
+      }
+    },
+    "instructions10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Instructions 10",
+        "widget": "text"
+      }
+    },
+    "impressionTransfer": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Impression Transfer",
+        "widget": "checkbox"
+      }
+    },
+    "od4": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform O D4",
+        "widget": "checkbox"
+      }
+    },
+    "od1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform O D1",
+        "widget": "checkbox"
+      }
+    },
+    "od2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform O D2",
+        "widget": "checkbox"
+      }
+    },
+    "od3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform O D3",
+        "widget": "checkbox"
+      }
+    },
+    "od5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform O D5",
+        "widget": "checkbox"
+      }
+    },
+    "bx1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform bx1",
+        "widget": "checkbox"
+      }
+    },
+    "bx6": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform bx6",
+        "widget": "checkbox"
+      }
+    },
+    "bx5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform bx5",
+        "widget": "checkbox"
+      }
+    },
+    "bx4": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform bx4",
+        "widget": "checkbox"
+      }
+    },
+    "bx3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform bx3",
+        "widget": "checkbox"
+      }
+    },
+    "bx2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform bx2",
+        "widget": "checkbox"
+      }
+    },
+    "a3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform A3",
+        "widget": "checkbox"
+      }
+    },
+    "b3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform B3",
+        "widget": "checkbox"
+      }
+    },
+    "c3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform C3",
+        "widget": "checkbox"
+      }
+    },
+    "allMetalRestorations": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform #subform All Metal Restorations",
+        "widget": "select"
+      }
+    },
+    "rx": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx #",
+        "widget": "text"
+      }
+    },
+    "station": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Station #",
+        "widget": "text"
+      }
+    },
+    "form1SubformSubformCheckBox12": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform #subform Check Box12",
+        "widget": "checkbox"
+      }
+    },
+    "dateReceived": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Received",
+        "widget": "date"
+      }
+    },
+    "dateShipped": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Shipped",
+        "widget": "date"
+      }
+    },
+    "ceramicsCrownBridge": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Ceramics/Crown & Bridge",
+        "widget": "text"
+      }
+    },
+    "instructionsDesiredDesign": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Instructions (Desired Design):",
+        "widget": "text"
+      }
+    },
+    "campus2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Campus:",
+        "widget": "text"
+      }
+    },
+    "submittingDentist2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Submitting Dentist:",
+        "widget": "text"
+      }
+    },
+    "dateMailed2": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Mailed:",
+        "widget": "date"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Signature",
+        "widget": "signature"
+      }
+    },
+    "completePatientSsn2": {
+      "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "Complete Patient SSN:",
+        "widget": "ssn"
+      }
+    },
+    "patientLastName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Patient Last Name:",
+        "widget": "text"
+      }
+    },
+    "patientFirstName2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Patient First Name:",
+        "widget": "text"
+      }
+    },
+    "dentalClass": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Dental Class:",
+        "widget": "text"
+      }
+    },
+    "enclosedWithCase": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Enclosed with Case:",
+        "widget": "text"
+      }
+    },
+    "shade2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Shade",
+        "widget": "text"
+      }
+    },
+    "gingival2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Gingival",
+        "widget": "text"
+      }
+    },
+    "middle2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Middle",
+        "widget": "text"
+      }
+    },
+    "incisal2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Incisal",
+        "widget": "text"
+      }
+    },
+    "diameter2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Diameter",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804a_fill.pdf",
+    "totalFields": 83,
+    "composedFields": 81,
+    "coveragePercent": 94,
+    "xfaLabelCount": 34,
+    "needsReviewCount": 5,
+    "generatedAt": "2026-03-28T21:03:50.616Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:40:04.665Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-2068a",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "dateofDeath": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Dateof Death",
+        "widget": "text"
+      }
+    },
+    "signatureDate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Signature Date",
+        "widget": "text"
+      }
+    },
+    "signature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Signature",
+        "widget": "text"
+      }
+    },
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 S S N",
+        "widget": "text"
+      }
+    },
+    "name": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Name",
+        "widget": "text"
+      }
+    },
+    "claimNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Claim Number",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Remarks",
+        "widget": "text"
+      }
+    },
+    "funeralDirector": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Funeral Director",
+        "widget": "text"
+      }
+    },
+    "acceptableA": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Acceptable A",
+        "widget": "checkbox"
+      }
+    },
+    "acceptableB": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Acceptable B",
+        "widget": "checkbox"
+      }
+    },
+    "acceptableC": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Acceptable C",
+        "widget": "checkbox"
+      }
+    },
+    "unAcceptableD": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Un Acceptable D",
+        "widget": "checkbox"
+      }
+    },
+    "unAcceptableA": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Un Acceptable A",
+        "widget": "checkbox"
+      }
+    },
+    "unAcceptableB": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Un Acceptable B",
+        "widget": "checkbox"
+      }
+    },
+    "unAcceptableC": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Un Acceptable C",
+        "widget": "checkbox"
+      }
+    },
+    "acceptableD": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Topmost Subform Page1 Acceptable D",
+        "widget": "checkbox"
+      }
+    },
+    "nameOfDeceased": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME OF DECEASED",
+        "widget": "text"
+      }
+    },
+    "remarks2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfContractFuneralDirector": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF CONTRACT FUNERAL DIRECTOR",
+        "widget": "address"
+      }
+    },
+    "signatureOfAVaRepresentative9Date": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SIGNATURE OF A VA REPRESENTATIVE9. DATE",
+        "widget": "date"
+      }
+    },
+    "socialSecurityNumber_3ClaimNumber4DateOfDeath": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER 3. CLAIM NUMBER4. DATE OF DEATH",
+        "widget": "date"
+      }
+    },
+    "inspection": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSPECTION",
+        "widget": "text"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2068a.pdf",
+    "totalFields": 22,
+    "composedFields": 22,
+    "coveragePercent": 100,
+    "xfaLabelCount": 16,
+    "needsReviewCount": 0,
+    "generatedAt": "2026-03-28T21:02:08.584Z",
+    "pageCount": 1,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:26:29.684Z",
+    "extractionSources": [
+      "acroform",
+      "text-inference"
+    ]
+  }
+}

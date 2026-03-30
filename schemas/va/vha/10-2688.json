@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Report of Examination of Body After Death",
+  "type": "object",
+  "properties": {
+    "veteranFullName": {
+      "type": "string",
+      "description": "Veteran's full name (last, first, middle)"
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "description": "Social Security Number (last 4 digits)"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "description": "VA file number"
+    },
+    "vaFacilityName": {
+      "type": "string",
+      "description": "VA medical facility name"
+    },
+    "stationNumber": {
+      "type": "string",
+      "description": "Station number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date"
+    },
+    "deceasedName": {
+      "type": "string",
+      "description": "Name of deceased"
+    },
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of death"
+    },
+    "timeOfDeath": {
+      "type": "string",
+      "description": "Time of death"
+    },
+    "causeOfDeath": {
+      "type": "string",
+      "description": "Cause of death"
+    },
+    "mannerOfDeath": {
+      "type": "string",
+      "description": "Manner of death"
+    },
+    "attendingPhysician": {
+      "type": "string",
+      "description": "Attending physician"
+    },
+    "autopsyRequested": {
+      "type": "boolean",
+      "description": "Autopsy requested"
+    },
+    "nextOfKinNotified": {
+      "type": "boolean",
+      "description": "Next of kin notified"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/102688.PDF",
+    "totalFields": 15,
+    "composedFields": 15,
+    "coveragePercent": 100,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "status": "digitized",
+    "pageCount": 1,
+    "generatedAt": "2026-03-29T14:14:58.000Z",
+    "generationMethod": "template-based-inference"
+  }
+}

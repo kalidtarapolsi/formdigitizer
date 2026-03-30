@@ -1,0 +1,723 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "28-0968",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "internationalTelephoneNumberIfApplicable": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 International Telephone Number If Applicable",
+        "widget": "text"
+      }
+    },
+    "emailAddressOptional": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Email Address Optional",
+        "widget": "text"
+      }
+    },
+    "vaFileNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 V A File Number",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfIssuingOffice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Name And Address Of Issuing Office",
+        "widget": "text"
+      }
+    },
+    "streetAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Street Address",
+        "widget": "text"
+      }
+    },
+    "centsPerMile": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Cents Per Mile",
+        "widget": "text"
+      }
+    },
+    "claimantsLastName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Claimants Last Name",
+        "widget": "text"
+      }
+    },
+    "claimantsMiddleInitial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Claimants Middle Initial",
+        "widget": "text"
+      }
+    },
+    "claimantsFirstName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Claimants First Name",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCity": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Current Mailing Address City",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressNumberAndStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Current Mailing Address Number And Street",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressApartmentOrUnitNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Current Mailing Address Apartment Or Unit Number",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressStateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Current Mailing Address State Or Province",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressCountry": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Current Mailing Address Country",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Current Mailing Address Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Current Mailing Address Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberFirstThreeNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Telephone Number First Three Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Telephone Number Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Telephone Number Area Code",
+        "widget": "text"
+      }
+    },
+    "city": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 City",
+        "widget": "text"
+      }
+    },
+    "stateOrProvince": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 State Or Province",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeFirstFiveNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Z I P Or Postal Code First Five Numbers",
+        "widget": "text"
+      }
+    },
+    "ziporPostalCodeLastFourNumbers": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Z I P Or Postal Code Last Four Numbers",
+        "widget": "text"
+      }
+    },
+    "remarks": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page1 Remarks",
+        "widget": "text"
+      }
+    },
+    "dollarAmount": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Dollar Amount",
+        "widget": "text"
+      }
+    },
+    "cents": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Cents",
+        "widget": "text"
+      }
+    },
+    "travelToAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Travel To Address",
+        "widget": "text"
+      }
+    },
+    "travelTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Travel To",
+        "widget": "text"
+      }
+    },
+    "milesTraveledRoundTrip": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Miles Traveled Round Trip",
+        "widget": "text"
+      }
+    },
+    "travelFromAddress": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Travel From Address",
+        "widget": "text"
+      }
+    },
+    "signatureField11": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "parking": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Parking",
+        "widget": "text"
+      }
+    },
+    "tolls": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 T O L L S",
+        "widget": "text"
+      }
+    },
+    "lodging": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Lodging",
+        "widget": "text"
+      }
+    },
+    "meals": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Meals",
+        "widget": "text"
+      }
+    },
+    "otherExpenses": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Other Expenses",
+        "widget": "text"
+      }
+    },
+    "totalAmountClaimedItems24a24f": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Total Amount Claimed Items 24 A 24 F",
+        "widget": "text"
+      }
+    },
+    "totalAmountClaimedItems2224g": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page2 Total Amount Claimed Items 22 24 G",
+        "widget": "text"
+      }
+    },
+    "titleOfAuthorizingOfficial": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page3 Title O F Authorizing Official",
+        "widget": "text"
+      }
+    },
+    "voucherAuditor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page3 Voucher Auditor",
+        "widget": "text"
+      }
+    },
+    "signatureField112": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page3 Signature Field11",
+        "widget": "text"
+      }
+    },
+    "cents2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page3 Cents",
+        "widget": "text"
+      }
+    },
+    "dollarAmount2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page3 Dollar Amount",
+        "widget": "text"
+      }
+    },
+    "remarks2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "F Page3 Remarks",
+        "widget": "text"
+      }
+    },
+    "fPage1CheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "F Page1 Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "respondentBurden": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Respondent Burden",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NOTE",
+        "widget": "text"
+      }
+    },
+    "telephoneNumberIncludeAreaCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TELEPHONE NUMBER (Include Area Code)",
+        "widget": "text"
+      }
+    },
+    "emailAddressOptional2": {
+      "type": "string",
+      "format": "email",
+      "x-va-field": {
+        "label": "EMAIL ADDRESS (Optional)",
+        "widget": "email"
+      }
+    },
+    "travelAtGovernmentSExpense": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TRAVEL AT GOVERNMENT'S EXPENSE",
+        "widget": "text"
+      }
+    },
+    "claimantSNameFirstMiddleInitialLast": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
+        "widget": "text"
+      }
+    },
+    "currentMailingAddressIfApplicableNumberAndStreetO": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CURRENT MAILING ADDRESS (If applicable) (Number and street o",
+        "widget": "address"
+      }
+    },
+    "reasonForReportingChooseItem": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REASON FOR REPORTING (Choose item)",
+        "widget": "text"
+      }
+    },
+    "nameAndAddressOfIssuingVrEOffice": {
+      "type": "string",
+      "x-va-field": {
+        "label": "NAME AND ADDRESS OF ISSUING VR&E OFFICE",
+        "widget": "address"
+      }
+    },
+    "reportingDateForScheduledAppointment": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "REPORTING DATE FOR SCHEDULED APPOINTMENT",
+        "widget": "date"
+      }
+    },
+    "remarksIndicateTypeOfAuthorizedTravelTicketsEtc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS (Indicate Type of authorized travel, tickets, etc.)",
+        "widget": "text"
+      }
+    },
+    "authorizedPeriodMmDdYyyy": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AUTHORIZED PERIOD (MM/DD/YYYY)",
+        "widget": "text"
+      }
+    },
+    "authorizedMileageRate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AUTHORIZED MILEAGE RATE",
+        "widget": "text"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "x-va-field": {
+        "label": "INSTRUCTIONS",
+        "widget": "text"
+      }
+    },
+    "stateProvincecountryzipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/ProvinceCountryZIP Code/Postal Code",
+        "widget": "select"
+      }
+    },
+    "city2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "City",
+        "widget": "text"
+      }
+    },
+    "stateProvincezipCodePostalCode": {
+      "type": "string",
+      "x-va-field": {
+        "label": "State/ProvinceZIP Code/Postal Code",
+        "widget": "select"
+      }
+    },
+    "statementsAndCertifications": {
+      "type": "string",
+      "x-va-field": {
+        "label": "STATEMENTS AND CERTIFICATIONS",
+        "widget": "select"
+      }
+    },
+    "mealAndLodgingRate": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MEAL AND LODGING RATE",
+        "widget": "text"
+      }
+    },
+    "authority_16FiscalSymbol": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AUTHORITY 16. FISCAL SYMBOL",
+        "widget": "text"
+      }
+    },
+    "estimatedCostToTravel": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ESTIMATED COST TO TRAVEL",
+        "widget": "text"
+      }
+    },
+    "signatureOfAuthorizingOfficialCaseManager": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE OF AUTHORIZING OFFICIAL (CASE MANAGER)",
+        "widget": "signature"
+      }
+    },
+    "milesTraveledRoundTrip2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "MILES TRAVELED (Round Trip)",
+        "widget": "text"
+      }
+    },
+    "amountClaimedAtAuthorizedMileageRate_22TotalMileage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMOUNT CLAIMED AT AUTHORIZED MILEAGE RATE  22. TOTAL MILEAGE",
+        "widget": "text"
+      }
+    },
+    "iAmClaimingReimbursementOfExpensesOtherThanMileage": {
+      "type": "string",
+      "x-va-field": {
+        "label": "I AM CLAIMING REIMBURSEMENT OF EXPENSES OTHER THAN MILEAGE,",
+        "widget": "text"
+      }
+    },
+    "itemizeExpensesBelowAndProvideAReceiptForEachClaime": {
+      "type": "string",
+      "x-va-field": {
+        "label": "ITEMIZE EXPENSES BELOW AND PROVIDE A RECEIPT FOR EACH CLAIME",
+        "widget": "text"
+      }
+    },
+    "totalAmountClaimed": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TOTAL AMOUNT CLAIMED",
+        "widget": "text"
+      }
+    },
+    "claimantCertification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "CLAIMANT CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "travelFromAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TRAVEL FROM (ADDRESS)",
+        "widget": "address"
+      }
+    },
+    "travelToAddress2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TRAVEL TO (ADDRESS)",
+        "widget": "address"
+      }
+    },
+    "dateSignedMmDdYyyy_26ClaimantSignatureRequired": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)26. CLAIMANT SIGNATURE (REQUIRED)",
+        "widget": "date"
+      }
+    },
+    "authorizingOfficialSCertification": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AUTHORIZING OFFICIAL'S CERTIFICATION",
+        "widget": "text"
+      }
+    },
+    "forTheAuthorizedRehabilitationServicesOnThe": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "for the authorized rehabilitation services on the",
+        "widget": "date"
+      }
+    },
+    "authorizingOfficialSignature": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AUTHORIZING OFFICIAL SIGNATURE",
+        "widget": "signature"
+      }
+    },
+    "remarks3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "REMARKS",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "titleOfAuthorizingOfficialCaseManager": {
+      "type": "string",
+      "x-va-field": {
+        "label": "TITLE OF AUTHORIZING OFFICIAL (CASE MANAGER)",
+        "widget": "text"
+      }
+    },
+    "amountDue34VoucherAuditor": {
+      "type": "string",
+      "x-va-field": {
+        "label": "AMOUNT DUE34. VOUCHER AUDITOR",
+        "widget": "text"
+      }
+    },
+    "dateSignedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PRIVACY ACT INFORMATION",
+        "widget": "text"
+      }
+    },
+    "theClaimantIsScheduledToReportToADesignatedPlaceFo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The claimant is scheduled to report to a designated place fo",
+        "widget": "text"
+      }
+    },
+    "theClaimantIsParticipatingInARehabilitationProgramOr": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The claimant is participating in a rehabilitation program or",
+        "widget": "text"
+      }
+    },
+    "theClaimantRequiresTheServicesOfAnAttendantToAccomp": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The claimant requires the services of an attendant to accomp",
+        "widget": "text"
+      }
+    },
+    "vrEStaffMustUseThisFormToCertifyThatTheClaimantR": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VR&E staff must use this form to certify that the claimant r",
+        "widget": "text"
+      }
+    },
+    "theClaimantOrLegalRepresentativeOfTheClaimantMustSi": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The claimant or legal representative of the claimant must si",
+        "widget": "text"
+      }
+    },
+    "claimForReimbursementOfTravelExpensesOnThisFormMay": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Claim for reimbursement of travel expenses on this form may",
+        "widget": "text"
+      }
+    },
+    "theCalculationOfMileageRequestForReimbursementIsCalc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The calculation of mileage request for reimbursement is calc",
+        "widget": "text"
+      }
+    },
+    "theActualCostOfBusTrainTaxiOrOtherPublicTranspo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The actual cost of bus, train, taxi, or other public transpo",
+        "widget": "text"
+      }
+    },
+    "receiptsAreRequiredForAllowableNonMileageExpensesSuc": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Receipts are required for allowable non-mileage expenses suc",
+        "widget": "text"
+      }
+    },
+    "theClaimantMustRequestHisOrHerTravelReimbursementTo": {
+      "type": "string",
+      "x-va-field": {
+        "label": "The claimant must request his or her travel reimbursement to",
+        "widget": "text"
+      }
+    },
+    "paymentForTheTravelReimbursementWillBeSentDirectlyT": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Payment for the travel reimbursement will be sent directly t",
+        "widget": "text"
+      }
+    },
+    "reportingDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "authorizedPeriodTo": {
+      "type": "string",
+      "format": "date"
+    },
+    "authorizedPeriodFrom": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateSigned": {
+      "type": "string",
+      "format": "date"
+    },
+    "": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-0968-are.pdf",
+    "status": "digitized",
+    "totalFields": 111,
+    "composedFields": 101,
+    "coveragePercent": 99,
+    "xfaLabelCount": 0,
+    "needsReviewCount": 0,
+    "pageCount": 4,
+    "generatedAt": "2026-03-28T17:33:53.631Z",
+    "postProcessedAt": "2026-03-30T20:02:41.753433+00:00",
+    "redigitizedAt": "2026-03-30T20:37:34.324Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}

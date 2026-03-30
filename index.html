@@ -1,0 +1,3917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquia Form Digitizer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Aquia Brand Palette */
+            --midnight: #030940;
+            --royal: #050F69;
+            --azure: #2071C6;
+            --sky: #68B4E7;
+            --silver: #CECBD2;
+            --ice: #E7F1FB;
+            --offwhite: #FAFAFA;
+            --white: #FFFFFF;
+            /* Data viz accents (charts only) */
+            --orange: #CC5800;
+            --crimson: #E11A0C;
+            --gold: #FFC107;
+            --amethyst: #7751A8;
+            /* Semantic aliases */
+            --navy: var(--midnight);
+            --blue: var(--azure);
+            --red: var(--crimson);
+            --light-gray: var(--offwhite);
+            --dark-gray: #4A4A5A;
+            --border: var(--silver);
+            --success: #1a8a3e;
+            --focus: var(--amethyst);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark-gray);
+            background-color: var(--offwhite);
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--midnight) 0%, var(--royal) 100%);
+            color: white;
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .header-logos {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .header-logos img {
+            height: 36px;
+            width: auto;
+            display: block;
+        }
+
+        .header-logos .logo-divider {
+            width: 1px;
+            height: 28px;
+            background: rgba(255,255,255,0.3);
+        }
+
+        .header-text { flex: 1; }
+
+        .header h1 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+        }
+
+        .header p {
+            font-size: 0.8rem;
+            opacity: 0.75;
+            margin-top: 0.1rem;
+            font-weight: 300;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .header-nav a {
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .header-nav a:hover {
+            color: white;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .header-nav a.active {
+            color: white;
+            background: rgba(255,255,255,0.15);
+        }
+
+        .container {
+            display: flex;
+            height: calc(100vh - 64px);
+        }
+
+        .sidebar {
+            width: 35%;
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            background-color: var(--white);
+        }
+
+        .upload-zone {
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+            background: var(--ice);
+        }
+
+        .upload-zone.dragover {
+            background-color: #d4e8f9;
+            border-color: var(--azure);
+        }
+
+        .upload-area {
+            border: 2px dashed var(--silver);
+            border-radius: 12px;
+            padding: 2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: var(--white);
+        }
+
+        .upload-zone.dragover .upload-area {
+            border-color: var(--azure);
+            background-color: rgba(32, 113, 198, 0.04);
+        }
+
+        .upload-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .upload-area h3 {
+            color: var(--midnight);
+            margin-bottom: 0.35rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .upload-area p {
+            color: var(--dark-gray);
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+
+        .upload-button {
+            background: linear-gradient(135deg, var(--azure) 0%, var(--royal) 100%);
+            color: white;
+            border: none;
+            padding: 0.7rem 1.75rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            letter-spacing: 0.2px;
+        }
+
+        .upload-button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(32, 113, 198, 0.3);
+        }
+
+        .upload-button:active {
+            transform: translateY(0);
+        }
+
+        #fileInput {
+            display: none;
+        }
+
+        .pdf-preview {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .pdf-canvas {
+            max-width: 100%;
+            border: 1px solid var(--silver);
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(3, 9, 64, 0.08);
+            margin-top: 1rem;
+        }
+
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: var(--offwhite);
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid var(--silver);
+            background-color: var(--white);
+        }
+
+        .tab-button {
+            flex: 1;
+            padding: 0.85rem 1rem;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--dark-gray);
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+            text-align: center;
+            letter-spacing: 0.1px;
+        }
+
+        .tab-button.active {
+            color: var(--azure);
+            border-bottom-color: var(--azure);
+            background-color: var(--white);
+            font-weight: 600;
+        }
+
+        .tab-button:hover:not(.active) {
+            background-color: var(--ice);
+            color: var(--midnight);
+        }
+
+        .tab-content {
+            display: none;
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+        }
+
+        .tab-content.active {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .editor-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .editor-section h3 {
+            font-size: 0.9rem;
+            color: var(--midnight);
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--silver);
+            font-weight: 600;
+            letter-spacing: 0.1px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 0.7rem 1rem;
+            border: 1px solid var(--silver);
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 400;
+            background: var(--white);
+            transition: all 0.2s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--azure);
+            box-shadow: 0 0 0 3px rgba(32, 113, 198, 0.1);
+        }
+
+        .fields-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .field-item {
+            background: var(--white);
+            border: 1px solid var(--silver);
+            border-radius: 10px;
+            padding: 1rem;
+            cursor: move;
+            transition: all 0.2s;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.75rem;
+        }
+
+        .field-item.dragging {
+            opacity: 0.5;
+            background-color: var(--ice);
+        }
+
+        .field-item:hover {
+            border-color: var(--sky);
+            box-shadow: 0 2px 8px rgba(3, 9, 64, 0.08);
+        }
+
+        .field-item.needs-review {
+            border-color: #f59e0b;
+            border-left: 4px solid #f59e0b;
+            background: #fffbeb;
+        }
+
+        .review-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 700;
+            background: #fef3c7;
+            color: #92400e;
+            white-space: nowrap;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+        }
+
+        .xfa-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 700;
+            background: #dbeafe;
+            color: #1e40af;
+            white-space: nowrap;
+            letter-spacing: 0.3px;
+        }
+
+        .field-header {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .drag-handle {
+            cursor: grab;
+            color: #999;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .drag-handle:active {
+            cursor: grabbing;
+        }
+
+        .field-label-input {
+            flex: 1;
+            padding: 0.5rem 0.75rem;
+            border: 1px solid var(--silver);
+            border-radius: 6px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--midnight);
+        }
+
+        .field-label-input:focus {
+            outline: none;
+            border-color: var(--azure);
+            box-shadow: 0 0 0 3px rgba(32, 113, 198, 0.1);
+        }
+
+        .field-controls {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+        }
+
+        .field-control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .field-control-group label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .field-control-group select,
+        .field-control-group input[type="text"] {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid var(--silver);
+            border-radius: 6px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.85rem;
+        }
+
+        .field-control-group select:focus,
+        .field-control-group input[type="text"]:focus {
+            outline: none;
+            border-color: var(--azure);
+            box-shadow: 0 0 0 3px rgba(32, 113, 198, 0.1);
+        }
+
+        .field-checkboxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+        }
+
+        .checkbox-group input[type="checkbox"]:focus {
+            outline: none;
+        }
+
+        .field-actions {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: flex-end;
+        }
+
+        .btn-small {
+            padding: 0.45rem 0.75rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .btn-duplicate {
+            background-color: var(--ice);
+            color: var(--azure);
+            border: 1px solid var(--azure);
+        }
+
+        .btn-duplicate:hover {
+            background-color: #d4e8f9;
+        }
+
+        .btn-delete {
+            background-color: #fef2f2;
+            color: var(--crimson);
+            border: 1px solid var(--crimson);
+        }
+
+        .btn-delete:hover {
+            background-color: #fde8e8;
+        }
+
+        .add-field-button {
+            background: linear-gradient(135deg, var(--azure) 0%, var(--royal) 100%);
+            color: white;
+            border: none;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin-top: 1rem;
+            width: 100%;
+            transition: all 0.2s;
+            letter-spacing: 0.2px;
+        }
+
+        .add-field-button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(32, 113, 198, 0.3);
+        }
+
+        .form-preview {
+            background: var(--white);
+            border: 1px solid var(--silver);
+            border-radius: 10px;
+            padding: 1.5rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-section-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--midnight);
+            margin-top: 1.75rem;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 2px solid var(--sky);
+        }
+
+        .form-group:first-child .form-section-title {
+            margin-top: 0;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 0.4rem;
+            color: var(--midnight);
+            font-size: 0.88rem;
+        }
+
+        .form-label.required::after {
+            content: ' *';
+            color: var(--crimson);
+        }
+
+        .form-input,
+        .form-textarea,
+        .form-select {
+            width: 100%;
+            padding: 0.65rem 0.85rem;
+            border: 1px solid var(--silver);
+            border-radius: 8px;
+            font-size: 0.88rem;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.2s;
+            background: var(--white);
+        }
+
+        .form-input:focus,
+        .form-textarea:focus,
+        .form-select:focus {
+            outline: none;
+            border-color: var(--azure);
+            box-shadow: 0 0 0 3px rgba(32, 113, 198, 0.1);
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-radio-group,
+        .form-checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-radio-item,
+        .form-checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .form-radio-item input[type="radio"],
+        .form-checkbox-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .form-radio-item label,
+        .form-checkbox-item label {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .form-radio-item input:focus,
+        .form-checkbox-item input:focus {
+            outline: 2px solid var(--azure);
+            outline-offset: 2px;
+        }
+
+        .signature-box {
+            border: 2px dashed var(--silver);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--ice);
+            font-size: 0.85rem;
+            color: var(--dark-gray);
+            font-weight: 300;
+        }
+
+        .export-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .export-button {
+            background: linear-gradient(135deg, var(--azure) 0%, var(--royal) 100%);
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 0.88rem;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            letter-spacing: 0.2px;
+        }
+
+        .export-button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(32, 113, 198, 0.3);
+        }
+
+        .export-button.secondary {
+            background: var(--white);
+            color: var(--midnight);
+            border: 1px solid var(--silver);
+        }
+
+        .export-button.secondary:hover {
+            background-color: var(--ice);
+            border-color: var(--sky);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(3, 9, 64, 0.06);
+        }
+
+        .code-block {
+            background-color: var(--midnight);
+            border: 1px solid var(--royal);
+            border-radius: 10px;
+            padding: 1rem;
+            overflow-x: auto;
+            max-height: 400px;
+            overflow-y: auto;
+            font-family: 'SF Mono', Monaco, Consolas, monospace;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            color: #d4d4d4;
+        }
+
+        .code-block code {
+            white-space: pre;
+        }
+
+        .empty-state {
+            padding: 3rem 2rem;
+            text-align: center;
+            color: var(--silver);
+        }
+
+        .empty-state p {
+            font-size: 1rem;
+            margin-bottom: 0.35rem;
+            font-weight: 400;
+            color: var(--dark-gray);
+        }
+
+        .empty-state-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            opacity: 0.4;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 0.85rem 1.5rem;
+            background-color: var(--midnight);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(3, 9, 64, 0.2);
+            z-index: 1000;
+            animation: slideUp 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 400;
+        }
+
+        .toast.success {
+            background-color: var(--success);
+        }
+
+        .toast.error {
+            background-color: var(--crimson);
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            color: var(--dark-gray);
+            font-weight: 300;
+        }
+
+        .spinner {
+            width: 22px;
+            height: 22px;
+            border: 3px solid var(--ice);
+            border-top-color: var(--azure);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 0.75rem;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .section-detection {
+            background-color: var(--ice);
+            border: 1px solid var(--silver);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+        }
+
+        .section-detection-header {
+            font-weight: 600;
+            color: var(--midnight);
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        .section-detection-item {
+            padding: 0.25rem 0;
+            color: var(--dark-gray);
+            font-weight: 300;
+        }
+
+        .help-text {
+            font-size: 0.78rem;
+            color: var(--dark-gray);
+            margin-top: 0.25rem;
+            font-weight: 300;
+        }
+
+        /* Automate Tab Styles */
+        .automate-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+        .automate-card {
+            background: var(--white);
+            border: 1px solid var(--silver);
+            border-radius: 10px;
+            padding: 1.25rem;
+        }
+        .automate-card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .automate-card-header h3 {
+            font-size: 0.95rem;
+            color: var(--midnight);
+            font-weight: 600;
+            margin: 0;
+            border: none;
+            padding: 0;
+        }
+        .automate-card-icon {
+            font-size: 1.1rem;
+        }
+        .automate-help {
+            font-size: 0.8rem;
+            color: var(--dark-gray);
+            font-weight: 300;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+        .automate-row {
+            margin-bottom: 0.75rem;
+        }
+        .automate-row label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 0.3rem;
+            letter-spacing: 0.3px;
+        }
+        .automate-input,
+        .automate-select {
+            width: 100%;
+            padding: 0.6rem 0.85rem;
+            border: 1px solid var(--silver);
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.85rem;
+            background: var(--white);
+            transition: all 0.2s;
+        }
+        .automate-input:focus,
+        .automate-select:focus {
+            outline: none;
+            border-color: var(--azure);
+            box-shadow: 0 0 0 3px rgba(32, 113, 198, 0.1);
+        }
+        .automate-hint {
+            font-size: 0.72rem;
+            color: #999;
+            margin-top: 0.25rem;
+            font-weight: 300;
+        }
+        .automate-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            padding: 0.6rem 1.25rem;
+            border: 1px solid var(--azure);
+            border-radius: 8px;
+            background: var(--ice);
+            color: var(--azure);
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .automate-btn:hover {
+            background: #d4e8f9;
+            transform: translateY(-1px);
+        }
+        .automate-btn.primary {
+            background: linear-gradient(135deg, var(--azure) 0%, var(--royal) 100%);
+            color: white;
+            border: none;
+        }
+        .automate-btn.primary:hover {
+            box-shadow: 0 4px 12px rgba(32, 113, 198, 0.3);
+            transform: translateY(-1px);
+        }
+        .automate-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+        .automate-result {
+            background: var(--ice);
+            border: 1px solid #b8d4ee;
+            border-radius: 8px;
+            padding: 0.85rem;
+            font-size: 0.82rem;
+        }
+        .automate-result.error {
+            background: #fef2f2;
+            border-color: #fca5a5;
+            color: var(--crimson);
+        }
+        .automate-result.success {
+            background: #f0fdf4;
+            border-color: #86efac;
+            color: #166534;
+        }
+        .automate-result-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.5rem;
+        }
+        .automate-result-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .automate-result-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+        }
+        .automate-result-value {
+            font-size: 0.82rem;
+            font-weight: 500;
+            color: var(--midnight);
+            font-family: 'Courier New', monospace;
+        }
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                max-height: 40vh;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+            }
+
+            .pdf-preview {
+                display: none;
+            }
+
+            .upload-zone {
+                padding: 1rem;
+            }
+
+            .upload-area {
+                padding: 1rem;
+            }
+
+            .upload-icon {
+                font-size: 1.75rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .upload-area h3 {
+                font-size: 0.9rem;
+            }
+
+            .upload-area p {
+                font-size: 0.8rem;
+            }
+
+            .tabs {
+                flex-wrap: wrap;
+            }
+
+            .tab-button {
+                padding: 0.75rem;
+                font-size: 0.85rem;
+            }
+
+            .form-preview {
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .header h1 {
+                font-size: 1.25rem;
+            }
+
+            .field-controls {
+                grid-template-columns: 1fr;
+            }
+
+            .field-checkboxes {
+                grid-template-columns: 1fr;
+            }
+
+            .tab-button {
+                font-size: 0.75rem;
+                padding: 0.5rem;
+            }
+
+            .tabs {
+                overflow-x: auto;
+            }
+        }
+
+        /* Preview Toggle & Side-by-Side */
+        .preview-toggle {
+            display: flex;
+            gap: 0.25rem;
+            margin-bottom: 1.25rem;
+            background: var(--ice);
+            padding: 0.3rem;
+            border-radius: 10px;
+        }
+        .toggle-btn {
+            flex: 1;
+            padding: 0.55rem 0.75rem;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: var(--dark-gray);
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        .toggle-btn.active {
+            background: var(--white);
+            color: var(--midnight);
+            font-weight: 600;
+            box-shadow: 0 1px 4px rgba(3, 9, 64, 0.1);
+        }
+        .toggle-btn:hover:not(.active) { background: rgba(255,255,255,0.6); }
+
+        .preview-panels {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.25rem;
+        }
+        .preview-panels.side-by-side {
+            grid-template-columns: 1fr 1fr;
+        }
+        .preview-panel {
+            border: 1px solid var(--silver);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .preview-panel-header {
+            background: var(--ice);
+            padding: 0.6rem 1rem;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--midnight);
+            border-bottom: 1px solid var(--silver);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .preview-panel-header .badge {
+            display: inline-block;
+            padding: 0.15rem 0.5rem;
+            border-radius: 5px;
+            font-size: 0.68rem;
+            font-weight: 500;
+        }
+        .badge-pdf { background: #fef2f2; color: var(--crimson); }
+        .badge-vagov { background: var(--ice); color: var(--azure); }
+        .preview-panel-body { padding: 1rem; }
+
+        /* Composed field indicator */
+        .composed-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            font-size: 0.68rem;
+            color: var(--azure);
+            background: var(--ice);
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+            margin-left: 0.5rem;
+            font-weight: 500;
+        }
+        .va-section-header {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--midnight);
+            margin: 1.25rem 0 0.75rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 2px solid var(--sky);
+        }
+        .va-section-header:first-child { margin-top: 0; }
+        .va-property-name {
+            font-family: 'SF Mono', Monaco, Consolas, monospace;
+            font-size: 0.72rem;
+            color: var(--dark-gray);
+            margin-bottom: 0.25rem;
+            opacity: 0.7;
+        }
+        .va-field-meta {
+            font-size: 0.68rem;
+            color: var(--dark-gray);
+            margin-top: 0.2rem;
+            opacity: 0.6;
+        }
+        .va-field-meta code {
+            background: var(--ice);
+            padding: 0.05rem 0.3rem;
+            border-radius: 4px;
+            font-size: 0.68rem;
+        }
+
+        /* Definition ref tag */
+        .def-ref {
+            display: inline-block;
+            font-size: 0.68rem;
+            background: #efe8ff;
+            color: var(--amethyst);
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 900px) {
+            .preview-panels.side-by-side { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-logos">
+            <img src="https://images.squarespace-cdn.com/content/v1/6209762bbb7641327e69acc0/21737a6d-1c02-42eb-89e0-afff7da79c68/Aquia+Inc+Website+Header+Logo_Deep+Blue+Background.png?format=300w" alt="Aquia Inc.">
+            <div class="logo-divider"></div>
+            <img src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/header-logo.png" alt="VA" style="height: 32px;">
+        </div>
+        <div class="header-text">
+            <h1>Aquia Form Digitizer</h1>
+            <p>Transform PDF forms into fillable digital forms</p>
+        </div>
+        <nav class="header-nav">
+            <a href="forms.html">Forms</a>
+            <a href="index.html" class="active">Digitizer</a>
+            <a href="report.html">Report</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="upload-zone" id="uploadZone">
+                <div class="upload-area">
+                    <div class="upload-icon">📄</div>
+                    <h3>Upload PDF Form</h3>
+                    <p>Drag and drop your VA form PDF here, or click to browse</p>
+                    <button class="upload-button" id="uploadButton">Choose File</button>
+                </div>
+                <input type="file" id="fileInput" accept=".pdf" />
+            </div>
+            <div class="pdf-preview" id="pdfPreview" style="display: none;">
+                <canvas id="pdfCanvas" class="pdf-canvas"></canvas>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="editor">Field Editor</button>
+                <button class="tab-button" data-tab="preview">Form Preview</button>
+                <button class="tab-button" data-tab="export">Export</button>
+            </div>
+
+            <!-- Field Editor Tab -->
+            <div class="tab-content active" id="editor-tab">
+                <div class="search-box">
+                    <input type="text" id="searchFields" placeholder="Search fields..." />
+                </div>
+
+                <div class="editor-section">
+                    <h3>Detected Sections</h3>
+                    <div class="section-detection" id="sectionDetection">
+                        <div class="empty-state-icon">📋</div>
+                        <p style="color: #999;">No PDF loaded yet</p>
+                    </div>
+                </div>
+
+                <div class="editor-section">
+                    <h3>Fields (<span id="fieldCount">0</span>)</h3>
+                    <div class="fields-list" id="fieldsList"></div>
+                    <button class="add-field-button" id="addFieldButton">+ Add Field</button>
+                </div>
+            </div>
+
+            <!-- Form Preview Tab -->
+            <div class="tab-content" id="preview-tab">
+                <div class="preview-toggle" id="previewToggle" style="display: none;">
+                    <button class="toggle-btn active" data-mode="pdf" onclick="app.switchPreviewMode('pdf')">PDF Faithful</button>
+                    <button class="toggle-btn" data-mode="vagov" onclick="app.switchPreviewMode('vagov')">VA.gov Schema</button>
+                    <button class="toggle-btn" data-mode="sidebyside" onclick="app.switchPreviewMode('sidebyside')">Side by Side</button>
+                </div>
+                <div id="previewContainer" class="empty-state">
+                    <div class="empty-state-icon">👁️</div>
+                    <p>No fields to preview</p>
+                    <p style="font-size: 0.875rem; margin-top: 1rem;">Add fields in the Field Editor to see the preview</p>
+                </div>
+            </div>
+
+            <!-- Export Tab -->
+            <div class="tab-content" id="export-tab">
+                <div class="export-section">
+
+                    <!-- Auto-detected route info (appears after PDF upload) -->
+                    <div id="routeInfoBar" class="automate-card" style="display:none; margin-bottom:1.25rem; background: var(--ice); border-color: #b8d4ee;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                            <div style="display:flex; align-items:center; gap:0.5rem;">
+                                <span style="font-size:1.1rem;">🗂️</span>
+                                <strong style="font-size:0.85rem; color:var(--midnight);" id="routeFormLabel">—</strong>
+                            </div>
+                            <span class="automate-result-value" id="routeOrgBadge" style="background:var(--white); padding:0.2rem 0.6rem; border-radius:6px; font-size:0.75rem;">—</span>
+                        </div>
+                        <div class="automate-result-grid" style="font-size:0.78rem;">
+                            <div class="automate-result-item">
+                                <span class="automate-result-label">Schema Path</span>
+                                <span class="automate-result-value" id="routePath" style="font-size:0.78rem;">—</span>
+                            </div>
+                            <div class="automate-result-item">
+                                <span class="automate-result-label">Index File</span>
+                                <span class="automate-result-value" id="routeIndex" style="font-size:0.78rem;">—</span>
+                            </div>
+                        </div>
+                        <div style="margin-top:0.5rem;">
+                            <div style="display:flex; gap:0.5rem; align-items:center;">
+                                <input type="text" id="autoFormNumber" class="automate-input" style="flex:1; padding:0.4rem 0.6rem; font-size:0.8rem;" placeholder="Override form number..." />
+                                <button class="automate-btn" onclick="app.detectRoute()" style="padding:0.4rem 0.8rem; font-size:0.78rem;">Re-detect</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 style="margin-bottom: 1rem;">PDF-Faithful Export</h3>
+                        <button class="export-button" id="exportHtmlButton">
+                            <span>📥</span> Download as HTML Form
+                        </button>
+                        <p class="help-text" style="margin-top: 0.5rem;">Standalone fillable HTML form (matches PDF layout)</p>
+                    </div>
+
+                    <div>
+                        <button class="export-button secondary" id="downloadJsonButton">
+                            <span>📥</span> Download PDF Schema (JSON)
+                        </button>
+                        <p class="help-text" style="margin-top: 0.5rem;">Flat field definitions matching PDF structure</p>
+                    </div>
+
+                    <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid var(--silver);">
+                        <h3 style="margin-bottom: 1rem;">VA.gov-Aligned Export</h3>
+
+                        <!-- AI Enrichment inline -->
+                        <div id="aiEnrichSection" class="automate-card" style="margin-bottom:1rem; display:none;">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+                                <div style="display:flex; align-items:center; gap:0.4rem;">
+                                    <span style="font-size:0.95rem;">🤖</span>
+                                    <strong style="font-size:0.82rem; color:var(--midnight);">AI Enrichment</strong>
+                                </div>
+                                <button class="automate-btn" onclick="document.getElementById('aiSettingsPanel').style.display = document.getElementById('aiSettingsPanel').style.display === 'none' ? 'block' : 'none'" style="padding:0.3rem 0.6rem; font-size:0.72rem;">Settings</button>
+                            </div>
+                            <div id="aiSettingsPanel" style="display:none; margin-bottom:0.75rem;">
+                                <div class="automate-row" style="margin-bottom:0.5rem;">
+                                    <label>Provider</label>
+                                    <select id="aiProvider" class="automate-select" onchange="app.onProviderChange()" style="padding:0.4rem 0.6rem; font-size:0.8rem;">
+                                        <option value="anthropic">Anthropic (Claude)</option>
+                                        <option value="openai">OpenAI (GPT)</option>
+                                        <option value="google">Google (Gemini)</option>
+                                        <option value="ollama">Ollama (Local)</option>
+                                        <option value="custom">Custom (OpenAI-Compatible)</option>
+                                    </select>
+                                </div>
+                                <div class="automate-row" style="margin-bottom:0.5rem;">
+                                    <label>Model</label>
+                                    <input type="text" id="aiModel" class="automate-input" value="claude-sonnet-4-20250514" style="padding:0.4rem 0.6rem; font-size:0.8rem;" />
+                                </div>
+                                <div class="automate-row" id="aiApiKeyRow" style="margin-bottom:0.5rem;">
+                                    <label>API Key</label>
+                                    <input type="password" id="aiApiKey" class="automate-input" placeholder="sk-..." style="padding:0.4rem 0.6rem; font-size:0.8rem;" />
+                                    <p class="automate-hint">Stored in browser memory only.</p>
+                                </div>
+                                <div class="automate-row" id="aiBaseUrlRow" style="display:none; margin-bottom:0.5rem;">
+                                    <label>Custom Base URL</label>
+                                    <input type="text" id="aiBaseUrl" class="automate-input" placeholder="https://your-api.com/v1/chat/completions" style="padding:0.4rem 0.6rem; font-size:0.8rem;" />
+                                </div>
+                            </div>
+                            <button class="automate-btn primary" id="enrichBtn" onclick="app.runEnrichment()" style="width:100%; padding:0.5rem;">
+                                <span id="enrichBtnText">Enhance labels and sections with AI</span>
+                                <span id="enrichSpinner" style="display:none;" class="spinner"></span>
+                            </button>
+                            <div id="enrichResult" class="automate-result" style="display:none; margin-top:0.5rem; font-size:0.8rem;"></div>
+                        </div>
+
+                        <button class="export-button" id="downloadVAJsonButton" style="background: linear-gradient(135deg, var(--sky) 0%, var(--azure) 100%);">
+                            <span>📥</span> Download VA.gov Schema (JSON)
+                        </button>
+                        <p class="help-text" style="margin-top: 0.5rem;">Composed schema with definitions, matching VA.gov conventions</p>
+                    </div>
+
+                    <div>
+                        <button class="export-button secondary" id="copyVAJsonButton">
+                            <span>📋</span> Copy VA.gov Schema
+                        </button>
+                        <p class="help-text" style="margin-top: 0.5rem;">Copy composed schema to clipboard</p>
+                    </div>
+
+                    <!-- Publish to GitHub (inline) -->
+                    <div id="publishSection" style="display:none; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid var(--silver);">
+                        <h3 style="margin-bottom: 1rem;">Publish to GitHub</h3>
+                        <div class="automate-card" style="margin-bottom:0.75rem;">
+                            <div class="automate-row" style="margin-bottom:0.5rem;">
+                                <label>GitHub Token</label>
+                                <input type="password" id="ghToken" class="automate-input" placeholder="ghp_..." style="padding:0.4rem 0.6rem; font-size:0.8rem;" />
+                            </div>
+                            <div class="automate-row" style="margin-bottom:0.5rem;">
+                                <label>Repository</label>
+                                <input type="text" id="ghRepo" class="automate-input" value="kalidtaraclaw/aquiaformbuilder" style="padding:0.4rem 0.6rem; font-size:0.8rem;" />
+                            </div>
+                            <div class="automate-row" style="margin-bottom:0;">
+                                <label>Branch</label>
+                                <input type="text" id="ghBranch" class="automate-input" value="main" style="padding:0.4rem 0.6rem; font-size:0.8rem;" />
+                            </div>
+                        </div>
+                        <div style="display:flex; gap:0.5rem; align-items:center;">
+                            <div style="flex:1; font-size:0.78rem; color:var(--dark-gray);">
+                                <span id="publishSchemaPath"></span>
+                            </div>
+                            <button class="automate-btn primary" id="publishBtn" onclick="app.publishToGitHub()" style="padding:0.5rem 1.25rem;">
+                                <span id="publishBtnText">Publish</span>
+                                <span id="publishSpinner" style="display:none;" class="spinner"></span>
+                            </button>
+                        </div>
+                        <div id="publishResult" class="automate-result" style="display:none; margin-top:0.5rem; font-size:0.8rem;"></div>
+                    </div>
+
+                    <div>
+                        <h3 style="margin-bottom: 1rem; margin-top: 1.5rem;">JSON Schema</h3>
+                        <button class="export-button secondary" id="copyJsonButton" style="width: 100%; justify-content: flex-start;">
+                            <span>📋</span> Copy JSON to Clipboard
+                        </button>
+                        <div class="code-block" id="jsonBlock" style="margin-top: 1rem; display: none;">
+                            <code id="jsonCode"></code>
+                        </div>
+                    </div>
+
+                    <div class="empty-state" id="exportEmpty">
+                        <div class="empty-state-icon">📤</div>
+                        <p>No fields to export</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Set PDF.js worker
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+        // Application State
+        const app = {
+            pdf: null,
+            fields: [],
+            sections: [],
+            currentPage: 0,
+            filteredFields: [],
+            draggedItem: null,
+            draggedFromIndex: null,
+            previewMode: 'pdf',
+
+            init() {
+                this.setupEventListeners();
+                this.renderFields();
+            },
+
+            setupEventListeners() {
+                // File upload
+                document.getElementById('fileInput').addEventListener('change', (e) => this.handleFileUpload(e));
+                document.getElementById('uploadButton').addEventListener('click', () => {
+                    document.getElementById('fileInput').click();
+                });
+
+                // Drag and drop
+                const uploadZone = document.getElementById('uploadZone');
+                uploadZone.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    uploadZone.classList.add('dragover');
+                });
+                uploadZone.addEventListener('dragleave', () => {
+                    uploadZone.classList.remove('dragover');
+                });
+                uploadZone.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    uploadZone.classList.remove('dragover');
+                    const file = e.dataTransfer.files[0];
+                    if (file && file.type === 'application/pdf') {
+                        this.processPDF(file);
+                    } else {
+                        this.showToast('Please upload a PDF file', 'error');
+                    }
+                });
+
+                // Tab switching
+                document.querySelectorAll('.tab-button').forEach(button => {
+                    button.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
+                });
+
+                // Field search
+                document.getElementById('searchFields').addEventListener('input', (e) => this.filterFields(e.target.value));
+
+                // Add field button
+                document.getElementById('addFieldButton').addEventListener('click', () => this.addField());
+
+                // Export buttons
+                document.getElementById('exportHtmlButton').addEventListener('click', () => this.exportHTML());
+                document.getElementById('downloadJsonButton').addEventListener('click', () => this.downloadJSON());
+                document.getElementById('copyJsonButton').addEventListener('click', () => this.copyJSON());
+                document.getElementById('downloadVAJsonButton').addEventListener('click', () => this.downloadVAJSON());
+                document.getElementById('copyVAJsonButton').addEventListener('click', () => this.copyVAJSON());
+            },
+
+            // --- XFA Label Extraction (uses pdf-lib global PDFLib) ---
+            async extractXFALabels(uint8Array) {
+                const labels = {};
+                try {
+                    const pdfDoc = await PDFLib.PDFDocument.load(uint8Array, { ignoreEncryption: true });
+                    const catalog = pdfDoc.catalog;
+                    const acroFormDict = catalog.lookup(PDFLib.PDFName.of('AcroForm'));
+                    if (!acroFormDict) return labels;
+
+                    const xfa = acroFormDict.lookup(PDFLib.PDFName.of('XFA'));
+                    if (!xfa) return labels;
+
+                    // XFA is an array of [name, stream] pairs
+                    let templateStream = null;
+                    if (typeof xfa.asArray === 'function') {
+                        const arr = xfa.asArray();
+                        for (let i = 0; i < arr.length - 1; i++) {
+                            const entry = arr[i];
+                            if (entry && typeof entry.asString === 'function' && entry.asString() === 'template') {
+                                templateStream = arr[i + 1];
+                                break;
+                            }
+                            if (entry && typeof entry.decodeText === 'function' && entry.decodeText() === 'template') {
+                                templateStream = arr[i + 1];
+                                break;
+                            }
+                        }
+                    }
+                    if (!templateStream) return labels;
+
+                    // Resolve PDFRef if needed (XFA array entries are often indirect references)
+                    let resolvedStream = templateStream;
+                    if (typeof templateStream.getContents !== 'function' && pdfDoc.context) {
+                        try {
+                            resolvedStream = pdfDoc.context.lookup(templateStream);
+                        } catch (e) {
+                            console.warn('XFA: could not resolve template ref:', e.message);
+                            return labels;
+                        }
+                    }
+                    if (!resolvedStream || typeof resolvedStream.getContents !== 'function') return labels;
+
+                    // Get raw compressed bytes
+                    const rawBytes = resolvedStream.getContents();
+                    if (!rawBytes || rawBytes.length === 0) return labels;
+
+                    // Decompress with DecompressionStream API
+                    let xmlText = '';
+                    try {
+                        const ds = new DecompressionStream('deflate');
+                        const writer = ds.writable.getWriter();
+                        writer.write(rawBytes);
+                        writer.close();
+                        const reader = ds.readable.getReader();
+                        const chunks = [];
+                        while (true) {
+                            const { done, value } = await reader.read();
+                            if (done) break;
+                            chunks.push(value);
+                        }
+                        const totalLen = chunks.reduce((s, c) => s + c.length, 0);
+                        const merged = new Uint8Array(totalLen);
+                        let offset = 0;
+                        for (const c of chunks) {
+                            merged.set(c, offset);
+                            offset += c.length;
+                        }
+                        xmlText = new TextDecoder().decode(merged);
+                    } catch (decompErr) {
+                        // Try raw decode if not compressed
+                        xmlText = new TextDecoder().decode(rawBytes);
+                    }
+
+                    if (!xmlText || xmlText.length === 0) return labels;
+
+                    // Parse field name → toolTip mappings using DOMParser
+                    try {
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(xmlText, 'text/xml');
+                        const fields = doc.querySelectorAll('field');
+                        for (const field of fields) {
+                            const name = field.getAttribute('name');
+                            if (!name) continue;
+                            const assist = field.querySelector('assist');
+                            if (assist) {
+                                const toolTip = assist.querySelector('toolTip');
+                                if (toolTip && toolTip.textContent.trim()) {
+                                    labels[name] = toolTip.textContent.trim();
+                                }
+                            }
+                        }
+                    } catch (parseErr) {
+                        console.warn('XFA: XML parse failed, falling back to regex');
+                        const fieldRegex = /<field[^>]*name="([^"]*)"[^>]*>[\s\S]*?<toolTip>([\s\S]*?)<\/toolTip>/g;
+                        let match;
+                        while ((match = fieldRegex.exec(xmlText)) !== null) {
+                            if (match[2].trim()) labels[match[1]] = match[2].trim();
+                        }
+                    }
+                    console.log(`XFA: extracted ${Object.keys(labels).length} labels from template`);
+                } catch (e) {
+                    console.warn('XFA label extraction failed:', e.message);
+                }
+                return labels;
+            },
+
+            // --- Label Cleaning / Humanization ---
+            cleanFieldLabel(raw) {
+                if (!raw || raw.length === 0) return raw;
+                let label = raw;
+                // Strip numbered prefixes like "2. ", "3a. "
+                label = label.replace(/^\d+[a-z]?\.\s*/i, '');
+                // Remove trailing periods and dashes
+                label = label.replace(/[\.\-\s]+$/, '');
+                // Strip instructional filler
+                label = label.replace(/^(please\s+)?(enter|provide|give|specify|type|input|indicate|list|state)\s+(your\s+|the\s+)?/i, '');
+                // Remove trailing instructions like "(Enter 2-digit month...)" or "- Enter nine digit..."
+                label = label.replace(/\s*[-–]\s*(enter|type|please|format|use)\s.*$/i, '');
+                label = label.replace(/\s*\(?(enter|type|please|format|use)\s[^)]*\)?\s*$/i, '');
+                // Clean up trailing dashes/periods again after instruction removal
+                label = label.replace(/[\.\-\s]+$/, '');
+                // Strip array indices
+                label = label.replace(/\[\d+\]/g, '');
+                // Normalize whitespace
+                label = label.replace(/\s+/g, ' ').trim();
+                // Title-case ALL CAPS text
+                if (label === label.toUpperCase() && label.length > 3) {
+                    label = label.replace(/\b\w+/g, w =>
+                        w.length <= 2 ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()
+                    );
+                }
+                // Ensure first letter is capitalized
+                if (label.length > 0) {
+                    label = label.charAt(0).toUpperCase() + label.slice(1);
+                }
+                return label;
+            },
+
+            // --- Generic XFA Field Name Detection ---
+            isGenericFieldName(name) {
+                const leaf = name.split('.').pop().replace(/\[\d+\]$/, '');
+                return /^(TextField|DateTimeField|NumericField|Button|ImageField|#field)\d*$/i.test(leaf);
+            },
+
+            // --- Humanize dotted/underscored field names ---
+            humanizeFieldName(name) {
+                // Take last segment of dotted path
+                let label = name.split('.').pop();
+                // Remove array indices
+                label = label.replace(/\[\d+\]/g, '');
+                // Split camelCase
+                label = label.replace(/([a-z])([A-Z])/g, '$1 $2');
+                // Replace underscores/hyphens with spaces
+                label = label.replace(/[_-]/g, ' ');
+                // Title case
+                label = label.replace(/\b\w/g, c => c.toUpperCase());
+                return label.trim();
+            },
+
+            async handleFileUpload(event) {
+                const file = event.target.files[0];
+                if (file) {
+                    this.processPDF(file);
+                }
+            },
+
+            async processPDF(file) {
+                try {
+                    const arrayBuffer = await file.arrayBuffer();
+                    const uint8Array = new Uint8Array(arrayBuffer);
+                    const pdf = await pdfjsLib.getDocument({ data: arrayBuffer.slice(0) }).promise;
+                    this.pdf = pdf;
+                    this.currentPage = 0;
+
+                    // Extract XFA labels from pdf-lib (parallel with pdf.js load)
+                    const xfaLabels = await this.extractXFALabels(uint8Array);
+
+                    // Extract fields from AcroForm, enhanced with XFA labels
+                    this.fields = this.extractAcroFormFields(pdf, xfaLabels);
+
+                    // Infer fields from text patterns
+                    const inferredFields = await this.inferFieldsFromText(pdf);
+                    this.fields.push(...inferredFields);
+
+                    // Remove duplicates
+                    this.fields = this.deduplicateFields(this.fields);
+
+                    // Detect sections
+                    await this.detectSections(pdf);
+
+                    // Render PDF preview
+                    await this.renderPDFPreview(pdf);
+
+                    // Update UI
+                    document.getElementById('pdfPreview').style.display = 'flex';
+                    this.renderFields();
+                    this.renderSectionDetection();
+
+                    // Auto-detect form number from PDF text
+                    await this.autoDetectFormNumber(pdf, file.name);
+
+                    const xfaCount = this.fields.filter(f => f.source === 'xfa').length;
+                    const reviewCount = this.fields.filter(f => f.needsReview).length;
+                    let msg = `Loaded PDF with ${this.fields.length} fields`;
+                    if (xfaCount > 0) msg += ` (${xfaCount} XFA-resolved)`;
+                    if (reviewCount > 0) msg += ` (${reviewCount} need review)`;
+                    if (this.detectedFormNumber) msg += ` | Form: ${this.detectedFormNumber}`;
+                    this.showToast(msg, 'success');
+
+                    // Update automate tab
+                    this.updateAutomateUI();
+                } catch (error) {
+                    console.error('Error processing PDF:', error);
+                    this.showToast('Error loading PDF: ' + error.message, 'error');
+                }
+            },
+
+            extractAcroFormFields(pdf, xfaLabels = {}) {
+                const fields = [];
+                const hasXFA = Object.keys(xfaLabels).length > 0;
+                try {
+                    if (pdf._pdfInfo && pdf._pdfInfo.acroForm) {
+                        const acroForm = pdf._pdfInfo.acroForm;
+                        if (acroForm.fields) {
+                            acroForm.fields.forEach((field, index) => {
+                                if (field.name) {
+                                    const rawName = field.name.replace(/[\[\]]/g, '');
+                                    const isGeneric = this.isGenericFieldName(rawName);
+
+                                    // Determine the best label
+                                    let label = rawName;
+                                    let source = 'acroform';
+
+                                    // Check XFA labels (match by leaf name or full path)
+                                    const leafName = rawName.split('.').pop().replace(/\[\d+\]$/, '');
+                                    const xfaLabel = xfaLabels[rawName] || xfaLabels[leafName] || xfaLabels[field.name];
+                                    if (xfaLabel) {
+                                        label = this.cleanFieldLabel(xfaLabel);
+                                        source = 'xfa';
+                                    } else if (!isGeneric) {
+                                        // Humanize descriptive AcroForm names
+                                        label = this.cleanFieldLabel(this.humanizeFieldName(rawName));
+                                    }
+
+                                    // Flag generic fields that have no XFA label
+                                    const needsReview = isGeneric && !xfaLabel;
+
+                                    fields.push({
+                                        id: `acro-${index}`,
+                                        label: label,
+                                        rawName: rawName,
+                                        type: this.inferFieldType(field),
+                                        required: false,
+                                        placeholder: '',
+                                        options: [],
+                                        section: 'Default Section',
+                                        source: source,
+                                        needsReview: needsReview
+                                    });
+                                }
+                            });
+                        }
+                    }
+                } catch (e) {
+                    console.log('Note: AcroForm extraction may be limited');
+                }
+                return fields;
+            },
+
+            inferFieldType(field) {
+                const name = (field.name || '').toLowerCase();
+                const fieldType = field.fieldType || '';
+
+                if (fieldType.includes('radio')) return 'radio';
+                if (fieldType.includes('check')) return 'checkbox';
+                if (fieldType.includes('choice')) return 'select';
+                if (fieldType.includes('text')) {
+                    if (name.includes('date')) return 'date';
+                    if (name.includes('phone') || name.includes('tel')) return 'phone';
+                    if (name.includes('email') || name.includes('mail')) return 'email';
+                    if (name.includes('ssn') || name.includes('social')) return 'ssn';
+                    if (name.includes('zip') || name.includes('zip code')) return 'text';
+                    return 'text';
+                }
+                return 'text';
+            },
+
+            async inferFieldsFromText(pdf) {
+                const fields = [];
+                const seenLabels = new Set();
+
+                try {
+                    // Sample first few pages
+                    const pagesToSample = Math.min(3, pdf.numPages);
+
+                    for (let pageNum = 1; pageNum <= pagesToSample; pageNum++) {
+                        const page = await pdf.getPage(pageNum);
+                        const textContent = await page.getTextContent();
+
+                        let currentSection = 'Default Section';
+                        let lineBuffer = '';
+
+                        for (const item of textContent.items) {
+                            if (!item.str) continue;
+
+                            const text = item.str.trim();
+                            if (!text) continue;
+
+                            // Detect section headers (all caps, usually longer)
+                            if (text === text.toUpperCase() && text.length > 5 && /^[A-Z\s]+$/.test(text)) {
+                                currentSection = text;
+                                lineBuffer = '';
+                                continue;
+                            }
+
+                            lineBuffer += text + ' ';
+
+                            // Check for field patterns
+                            if (lineBuffer.includes(':') || lineBuffer.includes('____')) {
+                                const patterns = [
+                                    { regex: /^([^:]+):\s*____+/, type: 'text' },
+                                    { regex: /^([^:]+):\s*(YES|NO)/, type: 'checkbox' },
+                                    { regex: /^([^:]+):\s*(Yes\s*\[\s*\]|No\s*\[\s*\])/, type: 'radio' },
+                                    { regex: /^([^:]+?)\s*\(?MM\/DD\/YYYY\)?/, type: 'date' },
+                                    { regex: /^([^:]+):\s*\(\d+\)/, type: 'phone' }
+                                ];
+
+                                for (const pattern of patterns) {
+                                    const match = lineBuffer.match(pattern.regex);
+                                    if (match) {
+                                        const label = match[1].trim();
+                                        if (label && !seenLabels.has(label) && label.length > 2) {
+                                            seenLabels.add(label);
+                                            fields.push({
+                                                id: `inferred-${Date.now()}-${Math.random()}`,
+                                                label: label,
+                                                type: pattern.type,
+                                                required: false,
+                                                placeholder: '',
+                                                options: [],
+                                                section: currentSection
+                                            });
+                                        }
+                                        lineBuffer = '';
+                                        break;
+                                    }
+                                }
+                            }
+
+                            // Limit buffer size
+                            if (lineBuffer.length > 200) {
+                                lineBuffer = lineBuffer.slice(-100);
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.log('Text inference note:', e.message);
+                }
+
+                return fields;
+            },
+
+            deduplicateFields(fields) {
+                const seen = new Map();
+                return fields.filter(field => {
+                    const key = field.label.toLowerCase();
+                    if (seen.has(key)) {
+                        return false;
+                    }
+                    seen.set(key, true);
+                    return true;
+                });
+            },
+
+            async detectSections(pdf) {
+                this.sections = [];
+                const sectionSet = new Set();
+
+                this.fields.forEach(field => {
+                    if (field.section && !sectionSet.has(field.section)) {
+                        sectionSet.add(field.section);
+                        this.sections.push(field.section);
+                    }
+                });
+
+                if (this.sections.length === 0) {
+                    this.sections = ['Default Section'];
+                }
+            },
+
+            async renderPDFPreview(pdf) {
+                try {
+                    const page = await pdf.getPage(1);
+                    const viewport = page.getViewport({ scale: 1.5 });
+                    const canvas = document.getElementById('pdfCanvas');
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
+
+                    const context = canvas.getContext('2d');
+                    await page.render({
+                        canvasContext: context,
+                        viewport: viewport
+                    }).promise;
+                } catch (e) {
+                    console.log('PDF preview note:', e.message);
+                }
+            },
+
+            addField() {
+                const newField = {
+                    id: `field-${Date.now()}-${Math.random()}`,
+                    label: 'New Field',
+                    type: 'text',
+                    required: false,
+                    placeholder: '',
+                    options: [],
+                    section: this.sections[0] || 'Default Section'
+                };
+                this.fields.push(newField);
+                this.renderFields();
+                this.updatePreview();
+            },
+
+            updateField(id, updates) {
+                const field = this.fields.find(f => f.id === id);
+                if (field) {
+                    Object.assign(field, updates);
+                    this.renderFields();
+                    this.updatePreview();
+                }
+            },
+
+            deleteField(id) {
+                const index = this.fields.findIndex(f => f.id === id);
+                if (index > -1) {
+                    this.fields.splice(index, 1);
+                    this.renderFields();
+                    this.updatePreview();
+                }
+            },
+
+            duplicateField(id) {
+                const field = this.fields.find(f => f.id === id);
+                if (field) {
+                    const newField = {
+                        ...field,
+                        id: `field-${Date.now()}-${Math.random()}`,
+                        label: field.label + ' (copy)'
+                    };
+                    const index = this.fields.indexOf(field);
+                    this.fields.splice(index + 1, 0, newField);
+                    this.renderFields();
+                    this.updatePreview();
+                }
+            },
+
+            moveField(fromIndex, toIndex) {
+                if (toIndex < 0 || toIndex >= this.fields.length) return;
+                const [field] = this.fields.splice(fromIndex, 1);
+                this.fields.splice(toIndex, 0, field);
+                this.renderFields();
+                this.updatePreview();
+            },
+
+            filterFields(query) {
+                if (!query) {
+                    this.filteredFields = [...this.fields];
+                } else {
+                    const q = query.toLowerCase();
+                    this.filteredFields = this.fields.filter(f =>
+                        f.label.toLowerCase().includes(q) ||
+                        f.type.includes(q)
+                    );
+                }
+                this.renderFieldsList();
+            },
+
+            renderFields() {
+                const count = this.fields.length;
+                document.getElementById('fieldCount').textContent = count;
+                this.filteredFields = [...this.fields];
+                this.renderFieldsList();
+                this.updatePreview();
+                this.updateExportUI();
+            },
+
+            renderFieldsList() {
+                const list = document.getElementById('fieldsList');
+                if (this.filteredFields.length === 0) {
+                    list.innerHTML = '<div class="empty-state" style="padding: 1rem;"><p style="font-size: 0.95rem;">No fields yet. Add fields or upload a PDF to get started.</p></div>';
+                    return;
+                }
+
+                list.innerHTML = this.filteredFields.map((field, index) => `
+                    <div class="field-item${field.needsReview ? ' needs-review' : ''}" draggable="true" data-field-id="${field.id}">
+                        <div class="field-header">
+                            <span class="drag-handle">⋮⋮</span>
+                            ${field.needsReview ? '<span class="review-badge" title="This field has a generic name and may need a better label">Needs Label</span>' : ''}
+                            ${field.source === 'xfa' ? '<span class="xfa-badge" title="Label resolved from XFA data">XFA</span>' : ''}
+                            <input
+                                type="text"
+                                class="field-label-input"
+                                value="${this.escapeHtml(field.label)}"
+                                data-field-id="${field.id}"
+                                data-field-prop="label"
+                            />
+                        </div>
+                        <div class="field-controls">
+                            <div class="field-control-group">
+                                <label>Field Type</label>
+                                <select data-field-id="${field.id}" data-field-prop="type">
+                                    <option value="text" ${field.type === 'text' ? 'selected' : ''}>Text Input</option>
+                                    <option value="textarea" ${field.type === 'textarea' ? 'selected' : ''}>Text Area</option>
+                                    <option value="email" ${field.type === 'email' ? 'selected' : ''}>Email</option>
+                                    <option value="phone" ${field.type === 'phone' ? 'selected' : ''}>Phone</option>
+                                    <option value="date" ${field.type === 'date' ? 'selected' : ''}>Date</option>
+                                    <option value="number" ${field.type === 'number' ? 'selected' : ''}>Number</option>
+                                    <option value="ssn" ${field.type === 'ssn' ? 'selected' : ''}>SSN</option>
+                                    <option value="checkbox" ${field.type === 'checkbox' ? 'selected' : ''}>Checkbox</option>
+                                    <option value="radio" ${field.type === 'radio' ? 'selected' : ''}>Radio Button</option>
+                                    <option value="select" ${field.type === 'select' ? 'selected' : ''}>Dropdown</option>
+                                    <option value="signature" ${field.type === 'signature' ? 'selected' : ''}>Signature</option>
+                                </select>
+                            </div>
+                            <div class="field-control-group">
+                                <label>Section</label>
+                                <select data-field-id="${field.id}" data-field-prop="section">
+                                    ${this.sections.map(s => `<option value="${s}" ${field.section === s ? 'selected' : ''}>${s}</option>`).join('')}
+                                </select>
+                            </div>
+                        </div>
+                        ${field.type === 'select' || field.type === 'radio' ? `
+                            <div class="field-control-group">
+                                <label>Options (comma-separated)</label>
+                                <input
+                                    type="text"
+                                    data-field-id="${field.id}"
+                                    data-field-prop="options"
+                                    value="${field.options.join(', ')}"
+                                    placeholder="Option 1, Option 2, Option 3"
+                                />
+                            </div>
+                        ` : ''}
+                        ${field.type === 'text' ? `
+                            <div class="field-control-group">
+                                <label>Placeholder</label>
+                                <input
+                                    type="text"
+                                    data-field-id="${field.id}"
+                                    data-field-prop="placeholder"
+                                    value="${this.escapeHtml(field.placeholder)}"
+                                    placeholder="Enter placeholder text"
+                                />
+                            </div>
+                        ` : ''}
+                        <div class="field-checkboxes">
+                            <div class="checkbox-group">
+                                <input
+                                    type="checkbox"
+                                    id="required-${field.id}"
+                                    data-field-id="${field.id}"
+                                    data-field-prop="required"
+                                    ${field.required ? 'checked' : ''}
+                                />
+                                <label for="required-${field.id}">Required</label>
+                            </div>
+                        </div>
+                        <div class="field-actions">
+                            <button class="btn-small btn-duplicate" data-field-id="${field.id}" data-action="duplicate">Duplicate</button>
+                            <button class="btn-small btn-delete" data-field-id="${field.id}" data-action="delete">Delete</button>
+                        </div>
+                    </div>
+                `).join('');
+
+                // Add event listeners
+                list.querySelectorAll('input[data-field-prop], select[data-field-prop]').forEach(input => {
+                    input.addEventListener('change', (e) => {
+                        const fieldId = e.target.dataset.fieldId;
+                        const prop = e.target.dataset.fieldProp;
+                        let value = e.target.value;
+
+                        if (prop === 'required') {
+                            value = e.target.checked;
+                        } else if (prop === 'options') {
+                            value = value.split(',').map(s => s.trim()).filter(s => s);
+                        }
+
+                        this.updateField(fieldId, { [prop]: value });
+                    });
+                });
+
+                // Field actions
+                list.querySelectorAll('[data-action]').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const fieldId = btn.dataset.fieldId;
+                        const action = btn.dataset.action;
+                        if (action === 'delete') {
+                            this.deleteField(fieldId);
+                        } else if (action === 'duplicate') {
+                            this.duplicateField(fieldId);
+                        }
+                    });
+                });
+
+                // Drag and drop
+                list.querySelectorAll('[draggable="true"]').forEach(item => {
+                    item.addEventListener('dragstart', (e) => {
+                        this.draggedItem = item;
+                        this.draggedFromIndex = this.filteredFields.findIndex(f => f.id === item.dataset.fieldId);
+                        item.classList.add('dragging');
+                    });
+
+                    item.addEventListener('dragend', () => {
+                        item.classList.remove('dragging');
+                        this.draggedItem = null;
+                    });
+
+                    item.addEventListener('dragover', (e) => {
+                        e.preventDefault();
+                    });
+
+                    item.addEventListener('drop', (e) => {
+                        e.preventDefault();
+                        if (this.draggedItem && this.draggedItem !== item) {
+                            const toIndex = this.filteredFields.findIndex(f => f.id === item.dataset.fieldId);
+                            this.moveField(this.draggedFromIndex, toIndex);
+                        }
+                    });
+                });
+            },
+
+            renderSectionDetection() {
+                const container = document.getElementById('sectionDetection');
+                if (this.sections.length === 0) {
+                    container.innerHTML = '<div class="empty-state-icon">📋</div><p style="color: #999;">No sections detected</p>';
+                    return;
+                }
+
+                container.innerHTML = `
+                    <div class="section-detection-header">Detected Sections (${this.sections.length})</div>
+                    ${this.sections.map(section => {
+                        const count = this.fields.filter(f => f.section === section).length;
+                        return `<div class="section-detection-item">• ${section} (${count} fields)</div>`;
+                    }).join('')}
+                `;
+            },
+
+            // ========== FIELD COMPOSITION ENGINE ==========
+            // Maps PDF atomic fields → VA.gov composite schema properties
+
+            composeFields() {
+                const fields = [...this.fields];
+                const composed = {
+                    definitions: {},
+                    properties: {},
+                    required: []
+                };
+
+                // Group fields by section
+                const sectionGroups = {};
+                fields.forEach(f => {
+                    const sec = f.section || 'Default Section';
+                    if (!sectionGroups[sec]) sectionGroups[sec] = [];
+                    sectionGroups[sec].push(f);
+                });
+
+                // Track which fields have been consumed by composition
+                const consumed = new Set();
+
+                // Define common composition patterns
+                const ssnPattern = (fs) => fs.filter(f =>
+                    /ssn|social.*security|ss\s*#|soc.*sec/i.test(f.label) || /ssn/i.test(f.id));
+                const dobPattern = (fs) => fs.filter(f =>
+                    /date.*birth|birth.*date|dob|born/i.test(f.label) || /dob/i.test(f.id));
+                const namePattern = (fs) => fs.filter(f =>
+                    /^(first|middle|last|suffix)[\s_]?name?$/i.test(f.label) ||
+                    /first.*name|middle.*name|last.*name|suffix/i.test(f.label) ||
+                    /first_name|last_name|middle_name|middle_initial|firstname|lastname|middlename/i.test(f.label) ||
+                    /veterans?_?(first|last|middle)|claimant_?(first|last|middle)|beneficiary_?(first|last|middle)/i.test(f.label) ||
+                    /firstmiddlelast/i.test(f.label) ||
+                    /(first|middle|last|suffix)/i.test(f.id));
+                const addressPattern = (fs) => fs.filter(f =>
+                    /street|address|city|state|zip|postal|country|apt|unit|county|mailing|residence/i.test(f.label) ||
+                    /street|addr|city|state|zip|postal|country/i.test(f.id));
+                const phonePattern = (fs) => fs.filter(f =>
+                    /phone|telephone|fax|mobile|cell/i.test(f.label) || /phone|tel|fax/i.test(f.id));
+                const emailPattern = (fs) => fs.filter(f =>
+                    /email|e-mail/i.test(f.label) || /email/i.test(f.id));
+                const vaFileNumberPattern = (fs) => fs.filter(f =>
+                    /va[\s_]*file|file[\s_]*number|c[\s_-]*file|c[\s_-]*number|claim[\s_]*number/i.test(f.label) ||
+                    /va_file|file_number|claim_number/i.test(f.id));
+                const serviceNumberPattern = (fs) => fs.filter(f =>
+                    /service[\s_]*number|service[\s_]*#|military[\s_]*id|veterans?[\s_]*service[\s_]*number/i.test(f.label) ||
+                    /service_number|service_num/i.test(f.id));
+                const remarksPattern = (fs) => fs.filter(f =>
+                    /\b(remark|comment|explanation|limitation|narrative|additional[\s_]*info|specify|describe)\b/i.test(f.label) &&
+                    !consumed.has(f.id));
+                const financialPattern = (fs) => fs.filter(f =>
+                    /income|asset|expense|debt|net[\s_]*worth|bank|account[\s_]*balance|salary|wage|amount|percentage|lump[\s_]*sum|total[\s_]*amount/i.test(f.label) ||
+                    /income|financial|amount/i.test(f.id));
+                const datePattern = (fs) => fs.filter(f =>
+                    /\bdate\b|datefield|date_of|mm[\s_]*dd|dd[\s_]*mm|month[\s_]*year/i.test(f.label) ||
+                    /date/i.test(f.id));
+                const dependentPattern = (fs) => fs.filter(f =>
+                    /dependent|child|minor|custody/i.test(f.label));
+                const insurancePattern = (fs) => fs.filter(f =>
+                    /insurance|policy|group[\s_]*number|plan[\s_]*name|insur/i.test(f.label));
+                const medicalPattern = (fs) => fs.filter(f =>
+                    /diagnosis|treatment|condition|symptom|medication|doctor|physician|hospital|clinic|icd|medical/i.test(f.label));
+                const employerPattern = (fs) => fs.filter(f =>
+                    /employer|company|business|occupation|job[\s_]*title|work/i.test(f.label));
+                const relationshipPattern = (fs) => fs.filter(f =>
+                    /relationship|relation[\s_]*to|related/i.test(f.label));
+                const documentTypePattern = (fs) => fs.filter(f =>
+                    /certificate|decree|court[\s_]*paper|personnel[\s_]*record|birth[\s_]*cert|death[\s_]*cert|marriage[\s_]*cert|divorce/i.test(f.label));
+                const educationPattern = (fs) => fs.filter(f =>
+                    /school|training|education|course|degree|institution|university|college/i.test(f.label));
+                const physicalDescPattern = (fs) => fs.filter(f =>
+                    /\b(height|weight|gender|sex|race|hair|eyes|complexion)\b/i.test(f.label));
+
+                // Check if we need fullName definition
+                let hasNameFields = false;
+                let hasAddressFields = false;
+                Object.values(sectionGroups).forEach(sfs => {
+                    if (namePattern(sfs).length >= 2) hasNameFields = true;
+                    if (addressPattern(sfs).length >= 3) hasAddressFields = true;
+                });
+
+                if (hasNameFields) {
+                    composed.definitions.fullName = {
+                        type: 'object',
+                        properties: {
+                            first: { type: 'string', maxLength: 12 },
+                            middle: { type: ['string', 'null'], maxLength: 1 },
+                            last: { type: 'string', maxLength: 18 }
+                        }
+                    };
+                }
+
+                if (hasAddressFields) {
+                    composed.definitions.simpleAddress = {
+                        type: 'object',
+                        required: ['street', 'city', 'postalCode'],
+                        properties: {
+                            street: { type: 'string', maxLength: 30 },
+                            street2: { type: ['string', 'null'], maxLength: 5 },
+                            city: { type: 'string', maxLength: 18 },
+                            state: { type: 'string', maxLength: 2 },
+                            postalCode: { type: 'string', maxLength: 9 },
+                            country: { type: 'string', maxLength: 3 }
+                        }
+                    };
+                }
+
+                // Process each section into a top-level property
+                Object.entries(sectionGroups).forEach(([section, sectionFields]) => {
+                    const propName = this.sectionToPropertyName(section);
+                    const prop = { type: 'object', description: section, properties: {}, required: [] };
+
+                    // 1. Compose name fields
+                    const names = namePattern(sectionFields);
+                    if (names.length >= 2) {
+                        prop.properties.fullName = hasNameFields
+                            ? { '$ref': '#/definitions/fullName' }
+                            : { type: 'object', properties: { first: { type: 'string' }, middle: { type: ['string', 'null'] }, last: { type: 'string' } } };
+                        prop.required.push('fullName');
+                        names.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 2. Compose SSN fields
+                    const ssns = ssnPattern(sectionFields);
+                    if (ssns.length >= 1) {
+                        const isRequired = ssns.some(f => f.required);
+                        prop.properties.ssn = isRequired
+                            ? { type: 'string', pattern: '^\\d{9}$', maxLength: 9, minLength: 9 }
+                            : { type: ['string', 'null'], pattern: '^\\d{9}$' };
+                        if (isRequired) prop.required.push('ssn');
+                        ssns.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 3. Compose DOB fields
+                    const dobs = dobPattern(sectionFields);
+                    if (dobs.length >= 1) {
+                        prop.properties.dateOfBirth = { type: 'string', format: 'date' };
+                        prop.required.push('dateOfBirth');
+                        dobs.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 4. Compose address fields
+                    const addrs = addressPattern(sectionFields);
+                    if (addrs.length >= 3) {
+                        const addrPropName = this.inferAddressPropertyName(section);
+                        prop.properties[addrPropName] = hasAddressFields
+                            ? { '$ref': '#/definitions/simpleAddress' }
+                            : { type: 'object', properties: { street: { type: 'string' }, city: { type: 'string' }, state: { type: 'string' }, postalCode: { type: 'string' } } };
+                        addrs.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 5. Compose phone fields
+                    const phones = phonePattern(sectionFields);
+                    if (phones.length >= 1) {
+                        prop.properties.phoneNumber = { type: 'string', pattern: '^\\d{10}$', maxLength: 10 };
+                        phones.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 6. Compose email fields
+                    const emails = emailPattern(sectionFields);
+                    if (emails.length >= 1) {
+                        prop.properties.email = { type: ['string', 'null'], maxLength: 70 };
+                        emails.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 6a. Compose VA File Number fields
+                    const vaFiles = vaFileNumberPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (vaFiles.length >= 1) {
+                        prop.properties.vaFileNumber = { type: ['string', 'null'], maxLength: 9 };
+                        vaFiles.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 6b. Compose Service Number fields
+                    const svcNums = serviceNumberPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (svcNums.length >= 1) {
+                        prop.properties.serviceNumber = { type: ['string', 'null'] };
+                        svcNums.forEach(f => consumed.add(f.id));
+                    }
+
+                    // 6c. Compose date fields (general, not DOB or date signed)
+                    const dates = datePattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (dates.length >= 1) {
+                        dates.forEach(f => {
+                            const dateName = this.labelToPropertyName(f.label) || 'date';
+                            prop.properties[dateName] = { type: 'string', format: 'date' };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6d. Compose financial fields
+                    const financials = financialPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (financials.length >= 1) {
+                        financials.forEach(f => {
+                            const finName = this.labelToPropertyName(f.label) || 'amount';
+                            prop.properties[finName] = { type: 'number' };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6e. Compose dependent fields
+                    const deps = dependentPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (deps.length >= 1) {
+                        deps.forEach(f => {
+                            const depName = this.labelToPropertyName(f.label);
+                            prop.properties[depName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6f. Compose insurance fields
+                    const ins = insurancePattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (ins.length >= 1) {
+                        ins.forEach(f => {
+                            const insName = this.labelToPropertyName(f.label);
+                            prop.properties[insName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6g. Compose medical fields
+                    const meds = medicalPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (meds.length >= 1) {
+                        meds.forEach(f => {
+                            const medName = this.labelToPropertyName(f.label);
+                            prop.properties[medName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6h. Compose employer fields
+                    const emps = employerPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (emps.length >= 1) {
+                        emps.forEach(f => {
+                            const empName = this.labelToPropertyName(f.label);
+                            prop.properties[empName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6i. Compose relationship fields
+                    const rels = relationshipPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (rels.length >= 1) {
+                        rels.forEach(f => {
+                            const relName = this.labelToPropertyName(f.label) || 'relationship';
+                            prop.properties[relName] = { type: 'string' };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6j. Compose document type fields
+                    const docs = documentTypePattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (docs.length >= 1) {
+                        docs.forEach(f => {
+                            const docName = this.labelToPropertyName(f.label);
+                            prop.properties[docName] = { type: 'boolean' };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6k. Compose education/training fields
+                    const edus = educationPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (edus.length >= 1) {
+                        edus.forEach(f => {
+                            const eduName = this.labelToPropertyName(f.label);
+                            prop.properties[eduName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6l. Compose physical description fields
+                    const physicals = physicalDescPattern(sectionFields.filter(f => !consumed.has(f.id)));
+                    if (physicals.length >= 1) {
+                        physicals.forEach(f => {
+                            const physName = this.labelToPropertyName(f.label);
+                            prop.properties[physName] = this.fieldToSchemaProperty(f);
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 6m. Compose remarks/freetext fields
+                    const remarks = remarksPattern(sectionFields);
+                    if (remarks.length >= 1) {
+                        remarks.forEach(f => {
+                            const remName = this.labelToPropertyName(f.label) || 'remarks';
+                            prop.properties[remName] = { type: ['string', 'null'], maxLength: 500 };
+                            consumed.add(f.id);
+                        });
+                    }
+
+                    // 7. Compose checkbox groups → enum or boolean
+                    const checkboxes = sectionFields.filter(f => f.type === 'checkbox' && !consumed.has(f.id));
+                    if (checkboxes.length >= 2) {
+                        // Multiple checkboxes in same section → likely an enum (benefit type, etc.)
+                        const groupLabel = this.inferCheckboxGroupLabel(checkboxes, section);
+                        const enumValues = checkboxes.map(f => this.labelToEnumValue(f.label));
+                        prop.properties[groupLabel] = { type: 'string', enum: enumValues };
+                        prop.required.push(groupLabel);
+                        checkboxes.forEach(f => consumed.add(f.id));
+                    } else if (checkboxes.length === 1) {
+                        // Single checkbox → boolean
+                        const boolName = this.labelToPropertyName(checkboxes[0].label);
+                        prop.properties[boolName] = { type: 'boolean' };
+                        consumed.add(checkboxes[0].id);
+                    }
+
+                    // 8. Compose radio groups → enum
+                    const radios = sectionFields.filter(f => f.type === 'radio' && !consumed.has(f.id));
+                    radios.forEach(f => {
+                        const radioName = this.labelToPropertyName(f.label);
+                        const enumVals = f.options.length > 0
+                            ? f.options.map(o => this.labelToEnumValue(o))
+                            : ['option1', 'option2'];
+                        prop.properties[radioName] = { type: 'string', enum: enumVals };
+                        consumed.add(f.id);
+                    });
+
+                    // 9. Compose signature fields
+                    const sigs = sectionFields.filter(f => f.type === 'signature' && !consumed.has(f.id));
+                    if (sigs.length > 0) {
+                        prop.properties.signature = { type: 'string', minLength: 1 };
+                        sigs.forEach(f => consumed.add(f.id));
+                        // Look for date signed
+                        const dateSigned = sectionFields.filter(f =>
+                            /date.*sign|signed.*date/i.test(f.label) && !consumed.has(f.id));
+                        if (dateSigned.length > 0) {
+                            prop.properties.dateSigned = { type: 'string', format: 'date' };
+                            dateSigned.forEach(f => consumed.add(f.id));
+                        }
+                    }
+
+                    // 10. Remaining unconsumed fields → pass through as individual properties
+                    sectionFields.filter(f => !consumed.has(f.id)).forEach(f => {
+                        const name = this.labelToPropertyName(f.label);
+                        const schemaProp = this.fieldToSchemaProperty(f);
+                        prop.properties[name] = schemaProp;
+                        if (f.required) prop.required.push(name);
+                        consumed.add(f.id);
+                    });
+
+                    // Clean up empty required arrays
+                    if (prop.required.length === 0) delete prop.required;
+
+                    composed.properties[propName] = prop;
+                    composed.required.push(propName);
+                });
+
+                return composed;
+            },
+
+            // Convert section name to camelCase property name
+            sectionToPropertyName(section) {
+                if (section === 'Default Section') return 'generalInformation';
+                // Remove "SECTION I:", "SECTION II:" etc. prefixes
+                let name = section.replace(/^section\s+[ivxlcdm]+[\s:\-.]*/i, '').trim();
+                // Remove "PART" prefixes
+                name = name.replace(/^part\s+\w+[\s:\-.]*/i, '').trim();
+                if (!name) return 'generalInformation';
+                // Convert to camelCase and add "Information" suffix
+                const words = name.split(/[\s_\-]+/);
+                const camel = words.map((w, i) =>
+                    i === 0 ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()
+                ).join('');
+                // Add Information suffix if not already descriptive enough
+                if (!/information|details|data|selection|signature/i.test(camel)) {
+                    return camel + 'Information';
+                }
+                return camel;
+            },
+
+            inferAddressPropertyName(section) {
+                if (/nursing.*home/i.test(section)) return 'nursingHomeAddress';
+                if (/hospital/i.test(section)) return 'hospitalAddress';
+                if (/employer|employment/i.test(section)) return 'employerAddress';
+                return 'address';
+            },
+
+            inferCheckboxGroupLabel(checkboxes, section) {
+                const labels = checkboxes.map(f => f.label.toLowerCase());
+                if (labels.some(l => /compensation|pension|survivor|benefit/i.test(l))) return 'benefitSelection';
+                if (labels.some(l => /skilled|intermediate|nursing/i.test(l))) return 'certificationLevelOfCare';
+                if (labels.some(l => /medicaid/i.test(l))) return 'medicaidStatus';
+                return 'selection';
+            },
+
+            labelToEnumValue(label) {
+                return label.toLowerCase()
+                    .replace(/[^a-z0-9\s]/g, '')
+                    .trim()
+                    .replace(/\s+/g, '_');
+            },
+
+            labelToPropertyName(label) {
+                const words = label.replace(/[^a-zA-Z0-9\s]/g, '').trim().split(/\s+/);
+                return words.map((w, i) =>
+                    i === 0 ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()
+                ).join('');
+            },
+
+            fieldToSchemaProperty(field) {
+                switch (field.type) {
+                    case 'email': return { type: ['string', 'null'], maxLength: 70 };
+                    case 'phone': return { type: 'string', pattern: '^\\d{10}$', maxLength: 10 };
+                    case 'date': return { type: 'string', format: 'date' };
+                    case 'number': return { type: 'number' };
+                    case 'ssn': return { type: 'string', pattern: '^\\d{9}$' };
+                    case 'textarea': return { type: 'string', maxLength: 500 };
+                    case 'select':
+                        return { type: 'string', enum: field.options.length > 0 ? field.options : undefined };
+                    case 'checkbox': return { type: 'boolean' };
+                    case 'radio':
+                        return { type: 'string', enum: field.options.length > 0 ? field.options.map(o => this.labelToEnumValue(o)) : undefined };
+                    case 'signature': return { type: 'string', minLength: 1 };
+                    default: return { type: 'string', maxLength: field.placeholder ? undefined : 100 };
+                }
+            },
+
+            // Get composed VA.gov-style schema
+            getVAFormSchema() {
+                const composed = this.composeFields();
+                return {
+                    '$schema': 'http://json-schema.org/draft-04/schema#',
+                    type: 'object',
+                    definitions: Object.keys(composed.definitions).length > 0 ? composed.definitions : undefined,
+                    properties: composed.properties,
+                    required: composed.required
+                };
+            },
+
+            // ========== PREVIEW MODE SWITCHING ==========
+
+            switchPreviewMode(mode) {
+                this.previewMode = mode;
+                document.querySelectorAll('.toggle-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.mode === mode);
+                });
+                this.updatePreview();
+            },
+
+            // ========== RENDER: PDF-FAITHFUL PREVIEW ==========
+
+            renderPDFPreview_fields() {
+                const groupedFields = {};
+                this.fields.forEach(field => {
+                    if (!groupedFields[field.section]) groupedFields[field.section] = [];
+                    groupedFields[field.section].push(field);
+                });
+
+                let html = '<div class="form-preview">';
+                Object.entries(groupedFields).forEach(([section, sectionFields]) => {
+                    if (section !== 'Default Section') {
+                        html += `<div class="form-section-title">${this.escapeHtml(section)}</div>`;
+                    }
+                    sectionFields.forEach(field => {
+                        html += this.renderFormField(field);
+                    });
+                });
+                html += '</div>';
+                return html;
+            },
+
+            // ========== RENDER: VA.GOV SCHEMA PREVIEW ==========
+
+            renderVAPreview() {
+                const composed = this.composeFields();
+                let html = '<div class="form-preview">';
+
+                Object.entries(composed.properties).forEach(([propName, prop]) => {
+                    html += `<div class="va-section-header">${this.escapeHtml(prop.description || propName)}</div>`;
+                    html += `<div class="va-property-name">${propName}</div>`;
+
+                    Object.entries(prop.properties || {}).forEach(([fieldName, fieldDef]) => {
+                        html += this.renderVAField(fieldName, fieldDef, composed.definitions);
+                    });
+                });
+
+                html += '</div>';
+                return html;
+            },
+
+            renderVAField(name, def, definitions) {
+                const isRef = !!def['$ref'];
+                const refName = isRef ? def['$ref'].replace('#/definitions/', '') : null;
+                const resolvedDef = isRef && definitions[refName] ? definitions[refName] : def;
+
+                if (isRef && refName === 'fullName') {
+                    return `
+                        <div class="form-group">
+                            <label class="form-label">${this.humanize(name)} <span class="def-ref">$ref: fullName</span></label>
+                            <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.5rem;">
+                                <div>
+                                    <input type="text" class="form-input" placeholder="First (max 12)" style="font-size:0.85rem" />
+                                    <div class="va-field-meta"><code>first</code> string, maxLength: 12</div>
+                                </div>
+                                <div>
+                                    <input type="text" class="form-input" placeholder="MI" maxlength="1" style="font-size:0.85rem; width:50px" />
+                                    <div class="va-field-meta"><code>middle</code> nullable</div>
+                                </div>
+                                <div>
+                                    <input type="text" class="form-input" placeholder="Last (max 18)" style="font-size:0.85rem" />
+                                    <div class="va-field-meta"><code>last</code> string, maxLength: 18</div>
+                                </div>
+                            </div>
+                        </div>`;
+                }
+
+                if (isRef && refName === 'simpleAddress') {
+                    return `
+                        <div class="form-group">
+                            <label class="form-label">${this.humanize(name)} <span class="def-ref">$ref: simpleAddress</span></label>
+                            <input type="text" class="form-input" placeholder="Street (max 30)" style="margin-bottom:0.4rem; font-size:0.85rem" />
+                            <input type="text" class="form-input" placeholder="Street 2 (max 5)" style="margin-bottom:0.4rem; font-size:0.85rem" />
+                            <div style="display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 0.4rem;">
+                                <input type="text" class="form-input" placeholder="City" style="font-size:0.85rem" />
+                                <input type="text" class="form-input" placeholder="ST" maxlength="2" style="font-size:0.85rem" />
+                                <input type="text" class="form-input" placeholder="ZIP" maxlength="9" style="font-size:0.85rem" />
+                                <input type="text" class="form-input" placeholder="US" maxlength="3" style="font-size:0.85rem" />
+                            </div>
+                            <div class="va-field-meta">required: street, city, postalCode | state required if USA/CAN/MEX</div>
+                        </div>`;
+                }
+
+                // Enum field → select dropdown
+                if (def.enum) {
+                    return `
+                        <div class="form-group">
+                            <label class="form-label">${this.humanize(name)} <span class="composed-indicator">enum</span></label>
+                            <select class="form-select" style="font-size:0.85rem">
+                                <option value="">Select...</option>
+                                ${def.enum.map(v => `<option value="${v}">${v}</option>`).join('')}
+                            </select>
+                            <div class="va-field-meta"><code>${name}</code> ${def.type || 'string'}</div>
+                        </div>`;
+                }
+
+                // Boolean → checkbox
+                if (def.type === 'boolean') {
+                    return `
+                        <div class="form-group">
+                            <div class="form-checkbox-group">
+                                <div class="form-checkbox-item">
+                                    <input type="checkbox" id="va-${name}" />
+                                    <label for="va-${name}">${this.humanize(name)}</label>
+                                </div>
+                            </div>
+                            <div class="va-field-meta"><code>${name}</code> boolean</div>
+                        </div>`;
+                }
+
+                // Date
+                if (def.format === 'date') {
+                    return `
+                        <div class="form-group">
+                            <label class="form-label">${this.humanize(name)} <span class="composed-indicator">ISO date</span></label>
+                            <input type="date" class="form-input" style="font-size:0.85rem" />
+                            <div class="va-field-meta"><code>${name}</code> format: date (YYYY-MM-DD)</div>
+                        </div>`;
+                }
+
+                // SSN pattern
+                if (def.pattern === '^\\d{9}$') {
+                    return `
+                        <div class="form-group">
+                            <label class="form-label">${this.humanize(name)} <span class="composed-indicator">9 digits</span></label>
+                            <input type="text" class="form-input" placeholder="123456789" maxlength="9" style="font-size:0.85rem" />
+                            <div class="va-field-meta"><code>${name}</code> pattern: ^\\d{9}$</div>
+                        </div>`;
+                }
+
+                // Phone pattern
+                if (def.pattern === '^\\d{10}$') {
+                    return `
+                        <div class="form-group">
+                            <label class="form-label">${this.humanize(name)} <span class="composed-indicator">10 digits</span></label>
+                            <input type="tel" class="form-input" placeholder="5551234567" maxlength="10" style="font-size:0.85rem" />
+                            <div class="va-field-meta"><code>${name}</code> pattern: ^\\d{10}$</div>
+                        </div>`;
+                }
+
+                // Signature
+                if (def.minLength === 1 && name.toLowerCase().includes('signature')) {
+                    return `
+                        <div class="form-group">
+                            <label class="form-label">${this.humanize(name)}</label>
+                            <div class="signature-box">Signature</div>
+                            <div class="va-field-meta"><code>${name}</code> string, minLength: 1</div>
+                        </div>`;
+                }
+
+                // Default: text input
+                const maxLen = def.maxLength ? ` maxlength="${def.maxLength}"` : '';
+                const placeholder = def.maxLength ? `max ${def.maxLength} chars` : '';
+                return `
+                    <div class="form-group">
+                        <label class="form-label">${this.humanize(name)}</label>
+                        <input type="text" class="form-input" placeholder="${placeholder}"${maxLen} style="font-size:0.85rem" />
+                        <div class="va-field-meta"><code>${name}</code> ${Array.isArray(def.type) ? def.type.join(' | ') : (def.type || 'string')}${def.maxLength ? ', maxLength: ' + def.maxLength : ''}</div>
+                    </div>`;
+            },
+
+            humanize(str) {
+                return str
+                    .replace(/([A-Z])/g, ' $1')
+                    .replace(/^./, s => s.toUpperCase())
+                    .replace(/\b(ssn|va|id)\b/gi, s => s.toUpperCase())
+                    .trim();
+            },
+
+            // ========== UPDATED PREVIEW ==========
+
+            updatePreview() {
+                const preview = document.getElementById('previewContainer');
+                const toggle = document.getElementById('previewToggle');
+
+                if (this.fields.length === 0) {
+                    toggle.style.display = 'none';
+                    preview.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">👁️</div>
+                            <p>No fields to preview</p>
+                            <p style="font-size: 0.875rem; margin-top: 1rem;">Add fields in the Field Editor to see the preview</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                toggle.style.display = 'flex';
+
+                if (this.previewMode === 'pdf') {
+                    preview.innerHTML = `
+                        <div class="preview-panels">
+                            <div class="preview-panel">
+                                <div class="preview-panel-header"><span class="badge badge-pdf">PDF</span> PDF-Faithful Preview</div>
+                                <div class="preview-panel-body">${this.renderPDFPreview_fields()}</div>
+                            </div>
+                        </div>`;
+                } else if (this.previewMode === 'vagov') {
+                    preview.innerHTML = `
+                        <div class="preview-panels">
+                            <div class="preview-panel">
+                                <div class="preview-panel-header"><span class="badge badge-vagov">VA.gov</span> VA.gov Schema Preview</div>
+                                <div class="preview-panel-body">${this.renderVAPreview()}</div>
+                            </div>
+                        </div>`;
+                } else {
+                    // Side by side
+                    preview.innerHTML = `
+                        <div class="preview-panels side-by-side">
+                            <div class="preview-panel">
+                                <div class="preview-panel-header"><span class="badge badge-pdf">PDF</span> PDF-Faithful</div>
+                                <div class="preview-panel-body">${this.renderPDFPreview_fields()}</div>
+                            </div>
+                            <div class="preview-panel">
+                                <div class="preview-panel-header"><span class="badge badge-vagov">VA.gov</span> VA.gov Schema</div>
+                                <div class="preview-panel-body">${this.renderVAPreview()}</div>
+                            </div>
+                        </div>`;
+                }
+            },
+
+            renderFormField(field) {
+                const required = field.required ? 'required' : '';
+                const requiredClass = field.required ? 'required' : '';
+                const fieldId = `form-${field.id}`;
+
+                switch (field.type) {
+                    case 'textarea':
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                <textarea class="form-textarea" id="${fieldId}" ${required}></textarea>
+                            </div>
+                        `;
+
+                    case 'email':
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                <input type="email" class="form-input" id="${fieldId}" ${required} />
+                            </div>
+                        `;
+
+                    case 'phone':
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                <input type="tel" class="form-input" id="${fieldId}" placeholder="(123) 456-7890" ${required} />
+                            </div>
+                        `;
+
+                    case 'date':
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                <input type="date" class="form-input" id="${fieldId}" ${required} />
+                            </div>
+                        `;
+
+                    case 'number':
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                <input type="number" class="form-input" id="${fieldId}" ${required} />
+                            </div>
+                        `;
+
+                    case 'ssn':
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                <input type="text" class="form-input" id="${fieldId}" placeholder="XXX-XX-XXXX" ${required} />
+                            </div>
+                        `;
+
+                    case 'checkbox':
+                        return `
+                            <div class="form-group">
+                                <div class="form-checkbox-group">
+                                    <div class="form-checkbox-item">
+                                        <input type="checkbox" id="${fieldId}" />
+                                        <label for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+
+                    case 'radio':
+                        if (field.options.length === 0) {
+                            field.options = ['Option 1', 'Option 2'];
+                        }
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}">${this.escapeHtml(field.label)}</label>
+                                <div class="form-radio-group">
+                                    ${field.options.map((option, idx) => `
+                                        <div class="form-radio-item">
+                                            <input type="radio" id="${fieldId}-${idx}" name="${fieldId}" value="${this.escapeHtml(option)}" ${required} />
+                                            <label for="${fieldId}-${idx}">${this.escapeHtml(option)}</label>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        `;
+
+                    case 'select':
+                        if (field.options.length === 0) {
+                            field.options = ['Option 1', 'Option 2'];
+                        }
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                <select class="form-select" id="${fieldId}" ${required}>
+                                    <option value="">Select an option</option>
+                                    ${field.options.map(option => `<option value="${this.escapeHtml(option)}">${this.escapeHtml(option)}</option>`).join('')}
+                                </select>
+                            </div>
+                        `;
+
+                    case 'signature':
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}">${this.escapeHtml(field.label)}</label>
+                                <div class="signature-box">Signature Pad</div>
+                            </div>
+                        `;
+
+                    case 'text':
+                    default:
+                        return `
+                            <div class="form-group">
+                                <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                                <input type="text" class="form-input" id="${fieldId}" placeholder="${this.escapeHtml(field.placeholder)}" ${required} />
+                            </div>
+                        `;
+                }
+            },
+
+            updateExportUI() {
+                const exportEmpty = document.getElementById('exportEmpty');
+                const jsonBlock = document.getElementById('jsonBlock');
+                const jsonCode = document.getElementById('jsonCode');
+
+                if (this.fields.length === 0) {
+                    exportEmpty.style.display = 'block';
+                    jsonBlock.style.display = 'none';
+                } else {
+                    exportEmpty.style.display = 'none';
+                    const json = JSON.stringify(this.getFormSchema(), null, 2);
+                    jsonCode.textContent = json;
+                    jsonBlock.style.display = 'block';
+                }
+                this.updateAutomateUI();
+            },
+
+            getFormSchema() {
+                return {
+                    version: '1.0',
+                    timestamp: new Date().toISOString(),
+                    sections: this.sections,
+                    fields: this.fields.map(f => ({
+                        id: f.id,
+                        label: f.label,
+                        type: f.type,
+                        section: f.section,
+                        required: f.required,
+                        placeholder: f.placeholder,
+                        options: f.options.length > 0 ? f.options : undefined
+                    }))
+                };
+            },
+
+            exportHTML() {
+                if (this.fields.length === 0) {
+                    this.showToast('No fields to export', 'error');
+                    return;
+                }
+
+                const groupedFields = {};
+                this.fields.forEach(field => {
+                    if (!groupedFields[field.section]) {
+                        groupedFields[field.section] = [];
+                    }
+                    groupedFields[field.section].push(field);
+                });
+
+                let formHtml = '';
+                Object.entries(groupedFields).forEach(([section, sectionFields]) => {
+                    if (section !== 'Default Section') {
+                        formHtml += `    <div class="form-section">\n        <h2 class="form-section-title">${this.escapeHtml(section)}</h2>\n`;
+                    }
+
+                    sectionFields.forEach(field => {
+                        formHtml += this.generateFieldHtml(field) + '\n';
+                    });
+
+                    if (section !== 'Default Section') {
+                        formHtml += '    </div>\n';
+                    }
+                });
+
+                const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VA Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #FAFAFA;
+            padding: 2rem 1rem;
+            color: #4A4A5A;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(3,9,64,0.08);
+        }
+
+        h1 {
+            color: #030940;
+            margin-bottom: 0.5rem;
+            font-size: 1.75rem;
+        }
+
+        .form-meta {
+            font-size: 0.875rem;
+            color: #999;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .form-section {
+            margin-bottom: 2rem;
+        }
+
+        .form-section-title {
+            font-size: 1.125rem;
+            color: #112e51;
+            margin: 2rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #112e51;
+        }
+
+        .form-label.required::after {
+            content: ' *';
+            color: #e31c3d;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #d0d0d0;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="tel"]:focus,
+        input[type="date"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #0071bc;
+            box-shadow: 0 0 0 3px rgba(0, 113, 188, 0.1);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-radio-group,
+        .form-checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .form-radio-item,
+        .form-checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: #0071bc;
+        }
+
+        .form-radio-item label,
+        .form-checkbox-item label {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .signature-box {
+            border: 2px dashed #d0d0d0;
+            border-radius: 4px;
+            padding: 2rem;
+            text-align: center;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fafafa;
+            color: #999;
+        }
+
+        button {
+            background-color: #0071bc;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #005a96;
+        }
+
+        button:active {
+            background-color: #004578;
+        }
+
+        .form-footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+            font-size: 0.875rem;
+            color: #999;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>VA Form</h1>
+        <div class="form-meta">
+            Generated: ${new Date().toLocaleString()}
+        </div>
+
+        <form id="vaForm">
+${formHtml}
+            <button type="submit">Submit Form</button>
+        </form>
+
+        <div class="form-footer">
+            <p>This form was automatically generated by VA Form Digitizer.</p>
+        </div>
+    </div>
+
+    <scr` + `ipt>
+        document.getElementById('vaForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            console.log('Form submitted:', data);
+            alert('Form submitted! Check console for data.');
+        });
+    </scr` + `ipt>
+</body>
+</html>`;
+
+                const blob = new Blob([html], { type: 'text/html' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'va-form.html';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                this.showToast('HTML form downloaded successfully', 'success');
+            },
+
+            generateFieldHtml(field) {
+                const required = field.required ? 'required' : '';
+                const requiredClass = field.required ? 'required' : '';
+                const fieldId = `form-${field.id}`;
+
+                switch (field.type) {
+                    case 'textarea':
+                        return `        <div class="form-group">
+            <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+            <textarea id="${fieldId}" name="${fieldId}" ${required}></textarea>
+        </div>`;
+
+                    case 'email':
+                        return `        <div class="form-group">
+            <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+            <input type="email" id="${fieldId}" name="${fieldId}" ${required} />
+        </div>`;
+
+                    case 'phone':
+                        return `        <div class="form-group">
+            <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+            <input type="tel" id="${fieldId}" name="${fieldId}" placeholder="(123) 456-7890" ${required} />
+        </div>`;
+
+                    case 'date':
+                        return `        <div class="form-group">
+            <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+            <input type="date" id="${fieldId}" name="${fieldId}" ${required} />
+        </div>`;
+
+                    case 'number':
+                        return `        <div class="form-group">
+            <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+            <input type="number" id="${fieldId}" name="${fieldId}" ${required} />
+        </div>`;
+
+                    case 'ssn':
+                        return `        <div class="form-group">
+            <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+            <input type="text" id="${fieldId}" name="${fieldId}" placeholder="XXX-XX-XXXX" ${required} />
+        </div>`;
+
+                    case 'checkbox':
+                        return `        <div class="form-group">
+            <div class="form-checkbox-group">
+                <div class="form-checkbox-item">
+                    <input type="checkbox" id="${fieldId}" name="${fieldId}" />
+                    <label for="${fieldId}">${this.escapeHtml(field.label)}</label>
+                </div>
+            </div>
+        </div>`;
+
+                    case 'radio':
+                        const options = field.options.length > 0 ? field.options : ['Option 1', 'Option 2'];
+                        return `        <div class="form-group">
+            <label class="form-label">${this.escapeHtml(field.label)}</label>
+            <div class="form-radio-group">
+                ${options.map((option, idx) => `<div class="form-radio-item">
+                    <input type="radio" id="${fieldId}-${idx}" name="${fieldId}" value="${this.escapeHtml(option)}" />
+                    <label for="${fieldId}-${idx}">${this.escapeHtml(option)}</label>
+                </div>`).join('\n                ')}
+            </div>
+        </div>`;
+
+                    case 'select':
+                        const selectOptions = field.options.length > 0 ? field.options : ['Option 1', 'Option 2'];
+                        return `        <div class="form-group">
+            <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+            <select id="${fieldId}" name="${fieldId}" ${required}>
+                <option value="">Select an option</option>
+                ${selectOptions.map(option => `<option value="${this.escapeHtml(option)}">${this.escapeHtml(option)}</option>`).join('\n                ')}
+            </select>
+        </div>`;
+
+                    case 'signature':
+                        return `        <div class="form-group">
+            <label class="form-label">${this.escapeHtml(field.label)}</label>
+            <div class="signature-box">Signature Pad</div>
+        </div>`;
+
+                    case 'text':
+                    default:
+                        return `        <div class="form-group">
+            <label class="form-label ${requiredClass}" for="${fieldId}">${this.escapeHtml(field.label)}</label>
+            <input type="text" id="${fieldId}" name="${fieldId}" placeholder="${this.escapeHtml(field.placeholder)}" ${required} />
+        </div>`;
+                }
+            },
+
+            // ========== AUTOMATION: ORG MAP & ROUTING ==========
+
+            ORG_MAP: {
+                '20': { org: 'VBA', orgName: 'Compensation & Pension', path: 'schemas/vba' },
+                '21': { org: 'VBA', orgName: 'Compensation & Pension', path: 'schemas/vba' },
+                '21P': { org: 'VBA', orgName: 'Pension', path: 'schemas/vba' },
+                '22': { org: 'VBA', orgName: 'Education', path: 'schemas/vba' },
+                '26': { org: 'VBA', orgName: 'Loan Guaranty', path: 'schemas/vba' },
+                '27': { org: 'VBA', orgName: 'Insurance', path: 'schemas/vba' },
+                '28': { org: 'VBA', orgName: 'Vocational Rehab', path: 'schemas/vba' },
+                '29': { org: 'VBA', orgName: 'Insurance', path: 'schemas/vba' },
+                '10': { org: 'VHA', orgName: 'Health', path: 'schemas/va/vha' },
+                '40': { org: 'NCA', orgName: 'National Cemetery', path: 'schemas/va/nca' },
+                'VA40': { org: 'NCA', orgName: 'National Cemetery', path: 'schemas/va/nca' },
+                'SF': { org: 'Admin', orgName: 'Standard Forms', path: 'schemas/va/admin' },
+                'VA': { org: 'Admin', orgName: 'Other', path: 'schemas/va/other' }
+            },
+
+            detectedFormNumber: null,
+            detectedOrg: null,
+            enrichedSchema: null,
+
+            detectOrgFromFormNumber(formNumber) {
+                if (!formNumber) return null;
+                const normalized = formNumber.trim().toUpperCase().replace(/^VA\s+FORM\s+/i, '');
+
+                // Try specific prefixes first (longest match wins)
+                const prefixes = ['VA40', '21P', 'SF', 'VA', '20', '21', '22', '26', '27', '28', '29', '10', '40'];
+                for (const prefix of prefixes) {
+                    if (normalized.startsWith(prefix + '-') || normalized.startsWith(prefix + ' ') || normalized === prefix) {
+                        const orgInfo = this.ORG_MAP[prefix];
+                        return {
+                            formNumber: normalized,
+                            ...orgInfo,
+                            schemaFile: `${orgInfo.path}/${normalized.toLowerCase()}.json`,
+                            indexFile: `${orgInfo.path}/index.json`
+                        };
+                    }
+                }
+
+                // Try just the numeric prefix
+                const numMatch = normalized.match(/^(\d+)/);
+                if (numMatch) {
+                    const numPrefix = numMatch[1];
+                    if (this.ORG_MAP[numPrefix]) {
+                        const orgInfo = this.ORG_MAP[numPrefix];
+                        return {
+                            formNumber: normalized,
+                            ...orgInfo,
+                            schemaFile: `${orgInfo.path}/${normalized.toLowerCase()}.json`,
+                            indexFile: `${orgInfo.path}/index.json`
+                        };
+                    }
+                }
+
+                return null;
+            },
+
+            async autoDetectFormNumber(pdf, filename) {
+                this.detectedFormNumber = null;
+                this.detectedOrg = null;
+
+                // Try filename first
+                const fnMatch = filename.match(/(?:VA\s*(?:Form\s*)?)?(\d{1,2}[Pp]?-\d{1,5}[a-zA-Z]?)/i) ||
+                                filename.match(/(SF-\d+|VA40-\d+)/i);
+                if (fnMatch) {
+                    this.detectedFormNumber = fnMatch[1].toUpperCase();
+                    this.detectedOrg = this.detectOrgFromFormNumber(this.detectedFormNumber);
+                    if (this.detectedOrg) {
+                        document.getElementById('autoFormNumber').value = this.detectedFormNumber;
+                        return;
+                    }
+                }
+
+                // Try first page text
+                try {
+                    const page = await pdf.getPage(1);
+                    const textContent = await page.getTextContent();
+                    const text = textContent.items.map(i => i.str).join(' ');
+
+                    // Common VA form number patterns in PDF text
+                    const patterns = [
+                        /VA\s+FORM\s+(\d{1,2}[Pp]?-\d{1,5}[a-zA-Z]?)/i,
+                        /FORM\s+(\d{1,2}[Pp]?-\d{1,5}[a-zA-Z]?)/i,
+                        /(?:^|\s)(\d{2}-\d{4}[a-zA-Z]?)(?:\s|$)/,
+                        /(SF-\d+)/i,
+                        /(VA40-\d+)/i
+                    ];
+
+                    for (const pattern of patterns) {
+                        const match = text.match(pattern);
+                        if (match) {
+                            this.detectedFormNumber = match[1].toUpperCase();
+                            this.detectedOrg = this.detectOrgFromFormNumber(this.detectedFormNumber);
+                            if (this.detectedOrg) {
+                                document.getElementById('autoFormNumber').value = this.detectedFormNumber;
+                                return;
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.warn('Form number detection from text failed:', e.message);
+                }
+            },
+
+            detectRoute() {
+                const formNumber = document.getElementById('autoFormNumber').value.trim();
+                if (!formNumber) {
+                    this.showToast('Enter a form number', 'error');
+                    return;
+                }
+
+                const result = this.detectOrgFromFormNumber(formNumber);
+
+                if (result) {
+                    this.detectedFormNumber = result.formNumber;
+                    this.detectedOrg = result;
+                    this.updateRouteInfoBar();
+                    this.showToast(`Detected: ${result.org} — ${result.orgName}`, 'success');
+                } else {
+                    this.showToast('Unknown form number prefix', 'error');
+                }
+            },
+
+            updateRouteInfoBar() {
+                const bar = document.getElementById('routeInfoBar');
+                if (this.detectedOrg) {
+                    document.getElementById('routeFormLabel').textContent = `VA Form ${this.detectedFormNumber}`;
+                    document.getElementById('routeOrgBadge').textContent = `${this.detectedOrg.org} — ${this.detectedOrg.orgName}`;
+                    document.getElementById('routePath').textContent = this.detectedOrg.schemaFile;
+                    document.getElementById('routeIndex').textContent = this.detectedOrg.indexFile;
+                    bar.style.display = 'block';
+                    document.getElementById('publishSection').style.display = 'block';
+                    document.getElementById('publishSchemaPath').textContent = `→ ${this.detectedOrg.schemaFile}`;
+                } else {
+                    bar.style.display = 'none';
+                    document.getElementById('publishSection').style.display = 'none';
+                }
+            },
+
+            updateAutomateUI() {
+                if (this.fields.length > 0) {
+                    document.getElementById('aiEnrichSection').style.display = 'block';
+                    if (this.detectedFormNumber && this.detectedOrg) {
+                        this.updateRouteInfoBar();
+                    }
+                } else {
+                    document.getElementById('aiEnrichSection').style.display = 'none';
+                    document.getElementById('routeInfoBar').style.display = 'none';
+                    document.getElementById('publishSection').style.display = 'none';
+                }
+            },
+
+            onProviderChange() {
+                const provider = document.getElementById('aiProvider').value;
+                const modelInput = document.getElementById('aiModel');
+                const keyRow = document.getElementById('aiApiKeyRow');
+                const baseUrlRow = document.getElementById('aiBaseUrlRow');
+
+                const defaults = {
+                    anthropic: 'claude-sonnet-4-20250514',
+                    openai: 'gpt-4o',
+                    google: 'gemini-2.5-flash',
+                    ollama: 'llama3.1',
+                    custom: 'gpt-4o'
+                };
+
+                modelInput.value = defaults[provider] || '';
+                keyRow.style.display = provider === 'ollama' ? 'none' : 'block';
+                baseUrlRow.style.display = provider === 'custom' ? 'block' : 'none';
+            },
+
+            // ========== AI ENRICHMENT (CLIENT-SIDE) ==========
+
+            buildEnrichmentPrompt() {
+                const schema = this.getFormSchema();
+                const fieldSummary = schema.fields.map(f =>
+                    `- "${f.label}" (type: ${f.type}, section: ${f.section})`
+                ).join('\n');
+
+                return `You are a VA forms expert. Analyze these extracted PDF form fields and return a JSON object with enrichment data.
+
+Form Number: ${this.detectedFormNumber || 'Unknown'}
+Fields:
+${fieldSummary}
+
+Return ONLY valid JSON (no markdown, no explanation) with this structure:
+{
+  "formTitle": "Human-readable form title",
+  "sections": [
+    {
+      "id": "section-id",
+      "title": "Section Title",
+      "instructions": "Brief instructions for this section",
+      "fields": ["field-label-1", "field-label-2"]
+    }
+  ],
+  "fieldEnhancements": {
+    "Original Field Label": {
+      "betterLabel": "Improved human-readable label",
+      "widget": "text|date|ssn|phone|state-select|radio-yesno|address|email|select|textarea",
+      "hint": "Help text for the user",
+      "required": true
+    }
+  },
+  "sectionInstructions": {
+    "Section Title": "Detailed instructions for this section"
+  }
+}`;
+            },
+
+            async callAIProvider(prompt, provider, model, apiKey, baseUrl) {
+                let url, headers, body;
+
+                switch (provider) {
+                    case 'anthropic':
+                        url = 'https://api.anthropic.com/v1/messages';
+                        headers = {
+                            'Content-Type': 'application/json',
+                            'x-api-key': apiKey,
+                            'anthropic-version': '2023-06-01',
+                            'anthropic-dangerous-direct-browser-access': 'true'
+                        };
+                        body = JSON.stringify({
+                            model: model,
+                            max_tokens: 4096,
+                            messages: [{ role: 'user', content: prompt }]
+                        });
+                        break;
+
+                    case 'openai':
+                        url = 'https://api.openai.com/v1/chat/completions';
+                        headers = {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${apiKey}`
+                        };
+                        body = JSON.stringify({
+                            model: model,
+                            messages: [{ role: 'user', content: prompt }],
+                            temperature: 0.3
+                        });
+                        break;
+
+                    case 'google':
+                        url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+                        headers = { 'Content-Type': 'application/json' };
+                        body = JSON.stringify({
+                            contents: [{ parts: [{ text: prompt }] }]
+                        });
+                        break;
+
+                    case 'ollama':
+                        url = 'http://localhost:11434/api/chat';
+                        headers = { 'Content-Type': 'application/json' };
+                        body = JSON.stringify({
+                            model: model,
+                            messages: [{ role: 'user', content: prompt }],
+                            stream: false
+                        });
+                        break;
+
+                    case 'custom':
+                        url = baseUrl || 'http://localhost:8080/v1/chat/completions';
+                        headers = {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${apiKey}`
+                        };
+                        body = JSON.stringify({
+                            model: model,
+                            messages: [{ role: 'user', content: prompt }],
+                            temperature: 0.3
+                        });
+                        break;
+
+                    default:
+                        throw new Error(`Unknown provider: ${provider}`);
+                }
+
+                const response = await fetch(url, { method: 'POST', headers, body });
+                if (!response.ok) {
+                    const errText = await response.text();
+                    throw new Error(`API error (${response.status}): ${errText.slice(0, 200)}`);
+                }
+
+                const data = await response.json();
+
+                // Extract text from provider-specific response shapes
+                let text;
+                switch (provider) {
+                    case 'anthropic':
+                        text = data.content?.[0]?.text || '';
+                        break;
+                    case 'openai':
+                    case 'custom':
+                        text = data.choices?.[0]?.message?.content || '';
+                        break;
+                    case 'google':
+                        text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+                        break;
+                    case 'ollama':
+                        text = data.message?.content || '';
+                        break;
+                }
+
+                // Parse JSON from response (strip markdown fences if present)
+                const jsonMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/) || [null, text];
+                return JSON.parse(jsonMatch[1].trim());
+            },
+
+            async runEnrichment() {
+                if (this.fields.length === 0) {
+                    this.showToast('No fields to enrich. Upload a PDF first.', 'error');
+                    return;
+                }
+
+                const provider = document.getElementById('aiProvider').value;
+                const model = document.getElementById('aiModel').value;
+                const apiKey = document.getElementById('aiApiKey').value;
+                const baseUrl = document.getElementById('aiBaseUrl').value;
+                const resultEl = document.getElementById('enrichResult');
+                const btnText = document.getElementById('enrichBtnText');
+                const spinner = document.getElementById('enrichSpinner');
+                const btn = document.getElementById('enrichBtn');
+
+                if (provider !== 'ollama' && !apiKey) {
+                    this.showToast('Enter an API key for ' + provider, 'error');
+                    return;
+                }
+
+                btn.disabled = true;
+                btnText.textContent = 'Enriching...';
+                spinner.style.display = 'inline-block';
+                resultEl.style.display = 'none';
+
+                try {
+                    const prompt = this.buildEnrichmentPrompt();
+                    const aiResult = await this.callAIProvider(prompt, provider, model, apiKey, baseUrl);
+
+                    // Apply enrichments to fields
+                    let enhanced = 0;
+                    if (aiResult.fieldEnhancements) {
+                        for (const field of this.fields) {
+                            const enhancement = aiResult.fieldEnhancements[field.label];
+                            if (enhancement) {
+                                if (enhancement.betterLabel) field.label = enhancement.betterLabel;
+                                if (enhancement.hint) field.placeholder = enhancement.hint;
+                                if (enhancement.required !== undefined) field.required = enhancement.required;
+                                enhanced++;
+                            }
+                        }
+                    }
+
+                    // Update sections from AI
+                    if (aiResult.sections) {
+                        for (const section of aiResult.sections) {
+                            if (section.fields) {
+                                for (const fieldLabel of section.fields) {
+                                    const field = this.fields.find(f =>
+                                        f.label.toLowerCase() === fieldLabel.toLowerCase() ||
+                                        f.rawName === fieldLabel
+                                    );
+                                    if (field) {
+                                        field.section = section.title;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    // Store enriched metadata
+                    this.enrichedSchema = {
+                        formTitle: aiResult.formTitle || this.detectedFormNumber || 'Unknown Form',
+                        sections: aiResult.sections || [],
+                        sectionInstructions: aiResult.sectionInstructions || {}
+                    };
+
+                    this.renderFields();
+                    this.renderSectionDetection();
+
+                    resultEl.style.display = 'block';
+                    resultEl.className = 'automate-result success';
+                    resultEl.innerHTML = `<strong>Enrichment complete.</strong> Enhanced ${enhanced} of ${this.fields.length} fields using ${provider}/${model}.` +
+                        (aiResult.formTitle ? `<br>Form title: ${this.escapeHtml(aiResult.formTitle)}` : '') +
+                        (aiResult.sections ? `<br>Sections: ${aiResult.sections.length}` : '');
+
+                    this.showToast(`AI enrichment complete: ${enhanced} fields enhanced`, 'success');
+                } catch (e) {
+                    console.error('AI enrichment failed:', e);
+                    resultEl.style.display = 'block';
+                    resultEl.className = 'automate-result error';
+                    resultEl.innerHTML = `<strong>Enrichment failed:</strong> ${this.escapeHtml(e.message)}`;
+                    this.showToast('AI enrichment failed', 'error');
+                } finally {
+                    btn.disabled = false;
+                    btnText.textContent = 'Enrich Schema with AI';
+                    spinner.style.display = 'none';
+                }
+            },
+
+            // ========== GITHUB PUBLISH ==========
+
+            async publishToGitHub() {
+                const token = document.getElementById('ghToken').value.trim();
+                const repo = document.getElementById('ghRepo').value.trim();
+                const branch = document.getElementById('ghBranch').value.trim();
+                const resultEl = document.getElementById('publishResult');
+                const btnText = document.getElementById('publishBtnText');
+                const spinner = document.getElementById('publishSpinner');
+                const btn = document.getElementById('publishBtn');
+
+                if (!token) { this.showToast('Enter a GitHub token', 'error'); return; }
+                if (!repo) { this.showToast('Enter a repository', 'error'); return; }
+                if (!this.detectedOrg) { this.showToast('Detect the form route first', 'error'); return; }
+                if (this.fields.length === 0) { this.showToast('No schema to publish', 'error'); return; }
+
+                btn.disabled = true;
+                btnText.textContent = 'Publishing...';
+                spinner.style.display = 'inline-block';
+                resultEl.style.display = 'none';
+
+                const ghHeaders = {
+                    'Authorization': `token ${token}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                };
+
+                try {
+                    // Build enriched VA schema
+                    const vaSchema = this.getVAFormSchema();
+                    if (this.enrichedSchema) {
+                        vaSchema['x-va-form'] = {
+                            formNumber: this.detectedFormNumber,
+                            formTitle: this.enrichedSchema.formTitle,
+                            formSections: this.enrichedSchema.sections
+                        };
+                    }
+
+                    const schemaContent = JSON.stringify(vaSchema, null, 2);
+                    const schemaPath = this.detectedOrg.schemaFile;
+
+                    // 1. Get current ref SHA
+                    const refRes = await fetch(`https://api.github.com/repos/${repo}/git/ref/heads/${branch}`, { headers: ghHeaders });
+                    if (!refRes.ok) throw new Error('Failed to get branch ref');
+                    const refData = await refRes.json();
+                    const latestSha = refData.object.sha;
+
+                    // 2. Get current tree
+                    const commitRes = await fetch(`https://api.github.com/repos/${repo}/git/commits/${latestSha}`, { headers: ghHeaders });
+                    const commitData = await commitRes.json();
+                    const treeSha = commitData.tree.sha;
+
+                    // 3. Create blob for schema
+                    const blobRes = await fetch(`https://api.github.com/repos/${repo}/git/blobs`, {
+                        method: 'POST',
+                        headers: ghHeaders,
+                        body: JSON.stringify({ content: schemaContent, encoding: 'utf-8' })
+                    });
+                    const blobData = await blobRes.json();
+
+                    // 4. Try to get existing index.json
+                    let indexContent = { forms: [] };
+                    try {
+                        const indexRes = await fetch(`https://api.github.com/repos/${repo}/contents/${this.detectedOrg.indexFile}?ref=${branch}`, { headers: ghHeaders });
+                        if (indexRes.ok) {
+                            const indexData = await indexRes.json();
+                            indexContent = JSON.parse(atob(indexData.content));
+                        }
+                    } catch (e) { /* index doesn't exist yet, use default */ }
+
+                    // Add/update form entry in index
+                    const formEntry = {
+                        formNumber: this.detectedFormNumber,
+                        title: this.enrichedSchema?.formTitle || this.detectedFormNumber,
+                        schemaFile: this.detectedOrg.schemaFile.split('/').pop(),
+                        lastUpdated: new Date().toISOString().split('T')[0]
+                    };
+                    const existingIdx = indexContent.forms.findIndex(f => f.formNumber === this.detectedFormNumber);
+                    if (existingIdx >= 0) {
+                        indexContent.forms[existingIdx] = formEntry;
+                    } else {
+                        indexContent.forms.push(formEntry);
+                    }
+
+                    const indexBlobRes = await fetch(`https://api.github.com/repos/${repo}/git/blobs`, {
+                        method: 'POST',
+                        headers: ghHeaders,
+                        body: JSON.stringify({ content: JSON.stringify(indexContent, null, 2), encoding: 'utf-8' })
+                    });
+                    const indexBlobData = await indexBlobRes.json();
+
+                    // 5. Create new tree with both files
+                    const treeRes = await fetch(`https://api.github.com/repos/${repo}/git/trees`, {
+                        method: 'POST',
+                        headers: ghHeaders,
+                        body: JSON.stringify({
+                            base_tree: treeSha,
+                            tree: [
+                                { path: schemaPath, mode: '100644', type: 'blob', sha: blobData.sha },
+                                { path: this.detectedOrg.indexFile, mode: '100644', type: 'blob', sha: indexBlobData.sha }
+                            ]
+                        })
+                    });
+                    const treeData = await treeRes.json();
+
+                    // 6. Create commit
+                    const newCommitRes = await fetch(`https://api.github.com/repos/${repo}/git/commits`, {
+                        method: 'POST',
+                        headers: ghHeaders,
+                        body: JSON.stringify({
+                            message: `Add schema for VA Form ${this.detectedFormNumber}\n\nAuto-generated by Aquia Form Digitizer`,
+                            tree: treeData.sha,
+                            parents: [latestSha]
+                        })
+                    });
+                    const newCommitData = await newCommitRes.json();
+
+                    // 7. Update ref to point to new commit
+                    await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${branch}`, {
+                        method: 'PATCH',
+                        headers: ghHeaders,
+                        body: JSON.stringify({ sha: newCommitData.sha })
+                    });
+
+                    resultEl.style.display = 'block';
+                    resultEl.className = 'automate-result success';
+                    resultEl.innerHTML = `<strong>Published successfully!</strong><br>` +
+                        `Schema: <code>${this.escapeHtml(schemaPath)}</code><br>` +
+                        `Index: <code>${this.escapeHtml(this.detectedOrg.indexFile)}</code><br>` +
+                        `Commit: <code>${newCommitData.sha.slice(0, 7)}</code><br>` +
+                        `<a href="https://github.com/${repo}/commit/${newCommitData.sha}" target="_blank" style="color: var(--azure);">View commit on GitHub</a>`;
+
+                    this.showToast('Published to GitHub!', 'success');
+                } catch (e) {
+                    console.error('Publish failed:', e);
+                    resultEl.style.display = 'block';
+                    resultEl.className = 'automate-result error';
+                    resultEl.innerHTML = `<strong>Publish failed:</strong> ${this.escapeHtml(e.message)}`;
+                    this.showToast('Publish to GitHub failed', 'error');
+                } finally {
+                    btn.disabled = false;
+                    btnText.textContent = 'Publish';
+                    spinner.style.display = 'none';
+                }
+            },
+
+            downloadJSON() {
+                if (this.fields.length === 0) {
+                    this.showToast('No fields to export', 'error');
+                    return;
+                }
+
+                const json = JSON.stringify(this.getFormSchema(), null, 2);
+                const blob = new Blob([json], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'form-schema.json';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                this.showToast('JSON schema downloaded successfully', 'success');
+            },
+
+            copyJSON() {
+                if (this.fields.length === 0) {
+                    this.showToast('No fields to export', 'error');
+                    return;
+                }
+
+                const json = JSON.stringify(this.getFormSchema(), null, 2);
+                navigator.clipboard.writeText(json).then(() => {
+                    this.showToast('JSON copied to clipboard', 'success');
+                }).catch(() => {
+                    this.showToast('Failed to copy to clipboard', 'error');
+                });
+            },
+
+            downloadVAJSON() {
+                if (this.fields.length === 0) {
+                    this.showToast('No fields to export', 'error');
+                    return;
+                }
+
+                const schema = this.getVAFormSchema();
+                const json = JSON.stringify(schema, null, 2);
+                const blob = new Blob([json], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'va-form-schema.json';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                this.showToast('VA.gov schema downloaded successfully', 'success');
+            },
+
+            copyVAJSON() {
+                if (this.fields.length === 0) {
+                    this.showToast('No fields to export', 'error');
+                    return;
+                }
+
+                const schema = this.getVAFormSchema();
+                const json = JSON.stringify(schema, null, 2);
+                navigator.clipboard.writeText(json).then(() => {
+                    this.showToast('VA.gov schema copied to clipboard', 'success');
+                }).catch(() => {
+                    this.showToast('Failed to copy to clipboard', 'error');
+                });
+            },
+
+            switchTab(tabName) {
+                // Update buttons
+                document.querySelectorAll('.tab-button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+
+                // Update content
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.getElementById(`${tabName}-tab`).classList.add('active');
+
+                // Refresh preview if switching to preview tab
+                if (tabName === 'preview') {
+                    this.updatePreview();
+                }
+                if (tabName === 'export') {
+                    this.updateAutomateUI();
+                }
+            },
+
+            showToast(message, type = 'info') {
+                const toast = document.createElement('div');
+                toast.className = `toast ${type}`;
+                toast.textContent = message;
+                document.body.appendChild(toast);
+
+                setTimeout(() => {
+                    toast.remove();
+                }, 3000);
+            },
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+        };
+
+        // Initialize app when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            app.init();
+        });
+    </script>
+</body>
+</html>

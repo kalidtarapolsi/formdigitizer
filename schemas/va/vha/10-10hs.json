@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "10-10HS",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "ssn": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform S S N",
+        "widget": "text"
+      }
+    },
+    "householdIncome1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Household Income1",
+        "widget": "text"
+      }
+    },
+    "householdIncome2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Household Income2",
+        "widget": "text"
+      }
+    },
+    "householdIncome3": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Household Income3",
+        "widget": "text"
+      }
+    },
+    "dateSigned": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Signed",
+        "widget": "text"
+      }
+    },
+    "signatureField1": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Signature Field1",
+        "widget": "text"
+      }
+    },
+    "dateRecordUpdated": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Record Updated",
+        "widget": "text"
+      }
+    },
+    "dateNotified": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Form1 #subform Date Notified",
+        "widget": "text"
+      }
+    },
+    "signatureAnd": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SIGNATURE AND",
+        "widget": "text"
+      }
+    },
+    "higherPriorityFromThe": {
+      "type": "string",
+      "x-va-field": {
+        "label": "higher priority, from the",
+        "widget": "text"
+      }
+    },
+    "veteranSNameLastFirstMiddleName": {
+      "type": "string",
+      "x-va-field": {
+        "label": "VETERAN'S NAME (Last, First, Middle Name)",
+        "widget": "text"
+      }
+    },
+    "permanentAddressStreet": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PERMANENT ADDRESS (Street)",
+        "widget": "text"
+      }
+    },
+    "householdIncome": {
+      "type": "string",
+      "x-va-field": {
+        "label": "HOUSEHOLD INCOME",
+        "widget": "text"
+      }
+    },
+    "penalty": {
+      "type": "string",
+      "x-va-field": {
+        "label": "PENALTY",
+        "widget": "text"
+      }
+    },
+    "privacyActInformation": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Privacy Act Information",
+        "widget": "text"
+      }
+    },
+    "deductibleExpensesIncludesNonReimbursedMedical": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DEDUCTIBLE EXPENSES (Includes non-reimbursed medical",
+        "widget": "text"
+      }
+    },
+    "socialSecurityNumber": {
+      "type": "string",
+      "x-va-field": {
+        "label": "SOCIAL SECURITY NUMBER",
+        "widget": "text"
+      }
+    },
+    "form1SubformCheckBox1": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box1",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformCheckBox2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box2",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformCheckBox3": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box3",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformCheckBox4": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box4",
+        "widget": "checkbox"
+      }
+    },
+    "form1SubformCheckBox5": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Form1 #subform Check Box5",
+        "widget": "checkbox"
+      }
+    },
+    "date": {
+      "type": "string",
+      "x-va-field": {
+        "label": "DATE (",
+        "widget": "text"
+      }
+    },
+    "hardshipGranted": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Hardship Granted",
+        "widget": "text"
+      }
+    },
+    "note": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Note",
+        "widget": "text"
+      }
+    },
+    "dateVeteranSElectronicRecordUp": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Veteran's electronic record up",
+        "widget": "date"
+      }
+    },
+    "dateVeteranNotifiedMmDdYyyy": {
+      "type": "string",
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Veteran notified (MM/DD/YYYY)",
+        "widget": "date"
+      }
+    }
+  },
+  "x-va-metadata": {
+    "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10HS-fill.pdf",
+    "totalFields": 27,
+    "composedFields": 27,
+    "coveragePercent": 81,
+    "xfaLabelCount": 15,
+    "needsReviewCount": 5,
+    "generatedAt": "2026-03-28T21:23:32.733Z",
+    "pageCount": 2,
+    "status": "digitized",
+    "redigitizedAt": "2026-03-30T20:39:59.586Z",
+    "extractionSources": [
+      "acroform",
+      "acroform+text-inference",
+      "text-inference"
+    ]
+  }
+}
