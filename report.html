@@ -682,7 +682,7 @@
             const totalFields = allForms.reduce((sum, f) => sum + (f.totalFields || 0), 0);
             const composedFields = allForms.reduce((sum, f) => sum + (f.composedFields || 0), 0);
             const overallCoverage = totalFields > 0 ? Math.round((composedFields / totalFields) * 100) : 0;
-            const onlineForms = allForms.filter(f => f.availableOnline).length;
+            const totalPages = allForms.reduce((sum, f) => sum + (f.pageCount || 0), 0);
 
             document.getElementById('totalCount').textContent = totalForms.toLocaleString();
 
@@ -692,7 +692,7 @@
                 { label: 'Total Fields', value: totalFields, subtext: 'across all forms' },
                 { label: 'Composed Fields', value: composedFields, subtext: 'digitized and extracted' },
                 { label: 'Digitization', value: '100%', subtext: `${overallCoverage}% field composition · all ${totalForms} forms digitized` },
-                { label: 'Available Online', value: onlineForms, subtext: 'can be filled online' }
+                { label: 'Total Pages', value: totalPages.toLocaleString(), subtext: 'across all form PDFs' }
             ];
 
             document.getElementById('summaryCards').innerHTML = cards.map(card => `
@@ -712,7 +712,7 @@
                     totalFields: 0,
                     composedFields: 0,
                     forms: 0,
-                    online: 0
+                    pages: 0
                 };
             });
 
@@ -721,7 +721,7 @@
                     orgMap[form.org].totalFields += form.totalFields || 0;
                     orgMap[form.org].composedFields += form.composedFields || 0;
                     orgMap[form.org].forms += 1;
-                    if (form.availableOnline) orgMap[form.org].online += 1;
+                    orgMap[form.org].pages += 1;
                 }
             });
 
@@ -747,8 +747,8 @@
                             <span class="org-stat-value">${org.composedFields.toLocaleString()}</span>
                         </div>
                         <div class="org-stat">
-                            <span class="org-stat-label">Online Forms</span>
-                            <span class="org-stat-value">${org.online.toLocaleString()}</span>
+                            <span class="org-stat-label">Pages</span>
+                            <span class="org-stat-value">${org.pages.toLocaleString()}</span>
                         </div>
                         <div class="progress-bar">
                             <div class="progress-fill" style="width: ${coverage}%; background-color: ${coverageColor};"></div>
@@ -838,7 +838,7 @@
                 const coverage = f.totalFields > 0 ? (f.composedFields / f.totalFields) * 100 : 0;
                 return coverage === 100;
             }).length;
-            const onlineCount = allForms.filter(f => f.availableOnline).length;
+            const orgPages = forms.reduce((sum, f) => sum + (f.pageCount || 0), 0);
 
             const highestCoveragePct = highestCoverageOrg[1].totalFields > 0
                 ? Math.round((highestCoverageOrg[1].composedFields / highestCoverageOrg[1].totalFields) * 100)
@@ -866,9 +866,9 @@
                     description: `forms fully digitized`
                 },
                 {
-                    title: 'Online Forms',
-                    value: onlineCount,
-                    description: `${Math.round((onlineCount / allForms.length) * 100)}% of total`
+                    title: 'Pages',
+                    value: orgPages,
+                    description: `${Math.round((orgPages / allForms.length) * 100)}% of total`
                 },
                 {
                     title: 'Average Form Size',
@@ -914,7 +914,7 @@
                         <td>${form.pageCount || 0}</td>
                         <td>
                             <span class="badge badge-digitized">${form.status || 'unknown'}</span>
-                            ${form.availableOnline ? '<span class="badge badge-online">Online</span>' : ''}
+                            
                         </td>
                     </tr>
                 `;
