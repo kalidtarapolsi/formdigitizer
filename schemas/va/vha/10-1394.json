@@ -7,7 +7,7 @@
     "vetName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vet Name",
+        "label": "Veteran Name",
         "widget": "text"
       }
     },
@@ -21,14 +21,14 @@
     "vetAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vet Address",
+        "label": "Veteran Address",
         "widget": "text"
       }
     },
     "vetPhoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vet Phone Number",
+        "label": "Veteran Phone Number",
         "widget": "text"
       }
     },
@@ -119,7 +119,7 @@
     "vetSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Vet Signature",
+        "label": "Veteran Signature",
         "widget": "text"
       }
     },
@@ -168,7 +168,7 @@
     "vafacility": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafacility",
+        "label": "VA Facility",
         "widget": "text"
       }
     },
@@ -203,7 +203,7 @@
     "furnishTheInformationWillHave": {
       "type": "string",
       "x-va-field": {
-        "label": "furnish the information will have",
+        "label": "Furnish the Information Will Have",
         "widget": "text"
       }
     },
@@ -238,7 +238,7 @@
     "doYouHaveAValidDriverSLicenseOrPermitInPossession": {
       "type": "string",
       "x-va-field": {
-        "label": "Do you have a valid Driver\u2019s License or Permit in possession",
+        "label": "Do You Have a Valid Driver S License or Permit in Possession",
         "widget": "text"
       }
     },
@@ -274,7 +274,7 @@
     "signatureOfVeteranServicemember": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature of Veteran/Servicemember",
+        "label": "Signature of Veteran Servicemember",
         "widget": "signature"
       }
     },
@@ -289,7 +289,7 @@
     "allDocumentationForPaymentAndReimbursementHasBeenRec": {
       "type": "string",
       "x-va-field": {
-        "label": "All documentation for payment and reimbursement has been rec",
+        "label": "All Documentation for Payment and Reimbursement Has Been Rec",
         "widget": "text"
       }
     },
@@ -304,7 +304,7 @@
     "areYouApprovingPayment": {
       "type": "string",
       "x-va-field": {
-        "label": "Are you approving payment?",
+        "label": "Are You Approving Payment",
         "widget": "text"
       }
     },
@@ -318,7 +318,7 @@
     "remitPaymentToRegisteredProvider": {
       "type": "string",
       "x-va-field": {
-        "label": "Remit payment to registered provider",
+        "label": "Remit Payment to Registered Provider",
         "widget": "text"
       }
     },
@@ -339,7 +339,7 @@
     "areYouApprovingReimbursement": {
       "type": "string",
       "x-va-field": {
-        "label": "Are you approving reimbursement?",
+        "label": "Are You Approving Reimbursement",
         "widget": "text"
       }
     },
@@ -409,6 +409,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.725404+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.179726+00:00"
   }
 }

@@ -21,7 +21,7 @@
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "Name:",
+        "label": "Name",
         "widget": "text"
       }
     },
@@ -35,14 +35,14 @@
     "position": {
       "type": "string",
       "x-va-field": {
-        "label": "Position:",
+        "label": "Position",
         "widget": "text"
       }
     },
     "applicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Applicant:",
+        "label": "Applicant",
         "widget": "text"
       }
     },
@@ -63,7 +63,7 @@
     "supervisor": {
       "type": "string",
       "x-va-field": {
-        "label": "Supervisor:",
+        "label": "Supervisor",
         "widget": "text"
       }
     },
@@ -77,7 +77,7 @@
     "otherPertinentInformationFromPhysicianPhysicianTrainee": {
       "type": "string",
       "x-va-field": {
-        "label": "Other Pertinent Information From Physician/Physician Trainee",
+        "label": "Other Pertinent Information From Physician Physician Trainee",
         "widget": "text"
       }
     },
@@ -91,14 +91,14 @@
     "physicianPhysicianTraineeSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Physician/Physician Trainee Signature:",
+        "label": "Physician Physician Trainee Signature",
         "widget": "signature"
       }
     },
     "supervisorSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Supervisor Signature:",
+        "label": "Supervisor Signature",
         "widget": "signature"
       }
     }
@@ -119,6 +119,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.876993+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.280229+00:00"
   }
 }

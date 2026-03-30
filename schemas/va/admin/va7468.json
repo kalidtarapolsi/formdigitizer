@@ -210,7 +210,7 @@
     "room": {
       "type": "string",
       "x-va-field": {
-        "label": "Room/",
+        "label": "Room",
         "widget": "text"
       }
     },
@@ -232,7 +232,7 @@
     "titleAndDescriptionOfRecords": {
       "type": "string",
       "x-va-field": {
-        "label": "Title And Description Of Records",
+        "label": "Title and Description of Records",
         "widget": "text"
       }
     },
@@ -262,7 +262,7 @@
     "fileSequence": {
       "type": "string",
       "x-va-field": {
-        "label": "File Sequence:",
+        "label": "File Sequence",
         "widget": "text"
       }
     },
@@ -338,6 +338,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.650722+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.004417+00:00"
   }
 }

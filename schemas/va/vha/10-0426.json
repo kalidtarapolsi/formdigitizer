@@ -14,14 +14,14 @@
     "phoneNum1": {
       "type": "string",
       "x-va-field": {
-        "label": "Phone Num",
+        "label": "Phone Number",
         "widget": "text"
       }
     },
     "phoneNum2": {
       "type": "string",
       "x-va-field": {
-        "label": "Phone Num",
+        "label": "Phone Number",
         "widget": "text"
       }
     },
@@ -273,7 +273,7 @@
     "mi": {
       "type": "string",
       "x-va-field": {
-        "label": "Mi",
+        "label": "MI",
         "widget": "text"
       }
     },
@@ -301,28 +301,28 @@
     "isThisAChangeOfAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Is this a change of address?",
+        "label": "Is This a Change of Address",
         "widget": "text"
       }
     },
     "isThisAPermanentChange": {
       "type": "string",
       "x-va-field": {
-        "label": "Is this a permanent change?",
+        "label": "Is This a Permanent Change",
         "widget": "text"
       }
     },
     "isThisATemporaryChange": {
       "type": "string",
       "x-va-field": {
-        "label": "Is this a temporary change?",
+        "label": "Is This a Temporary Change",
         "widget": "text"
       }
     },
     "nonSafetyCapRequest": {
       "type": "string",
       "x-va-field": {
-        "label": "Non-Safety Cap Request",
+        "label": "Non Safety Cap Request",
         "widget": "text"
       }
     },
@@ -336,7 +336,7 @@
     "todaySDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Today's Date",
+        "label": "Today S Date",
         "widget": "text"
       }
     },
@@ -357,14 +357,14 @@
     "address_1": {
       "type": "string",
       "x-va-field": {
-        "label": "Address 1",
+        "label": "Address_",
         "widget": "address"
       }
     },
     "address_2": {
       "type": "string",
       "x-va-field": {
-        "label": "Address 2",
+        "label": "Address_",
         "widget": "address"
       }
     },
@@ -408,14 +408,14 @@
     "whereToMailYourPrescriptions": {
       "type": "string",
       "x-va-field": {
-        "label": "Where to Mail your Prescriptions",
+        "label": "Where to Mail Your Prescriptions",
         "widget": "text"
       }
     },
     "listedBelow": {
       "type": "string",
       "x-va-field": {
-        "label": "listed below",
+        "label": "Listed Below",
         "widget": "text"
       }
     },
@@ -430,7 +430,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "remaining and the prescription expiration",
+        "label": "Remaining and the Prescription Expiration",
         "widget": "date"
       }
     },
@@ -465,6 +465,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.714248+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.092504+00:00"
   }
 }

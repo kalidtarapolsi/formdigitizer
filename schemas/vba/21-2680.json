@@ -441,7 +441,7 @@
     "useThisFormToDetermineEligibilityForAidAndAttendanc": {
       "type": "string",
       "x-va-field": {
-        "label": "Use this form to determine eligibility for aid and attendanc",
+        "label": "Use This Form to Determine Eligibility for Aid and Attendanc",
         "widget": "text"
       }
     },
@@ -485,14 +485,14 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Claimant'S Social Security Number",
+        "label": "Claimant S Social Security Number",
         "widget": "ssn"
       }
     },
     "relationshipOfClaimantToVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Relationship Of Claimant To Veteran",
+        "label": "Relationship of Claimant to Veteran",
         "widget": "text"
       }
     },
@@ -522,7 +522,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
@@ -639,7 +639,7 @@
     "doesThePatientRequireAssistanceWithAnyOfTheFollowin": {
       "type": "string",
       "x-va-field": {
-        "label": "Does The Patient Require Assistance With Any Of The Followin",
+        "label": "Does the Patient Require Assistance With Any of the Followin",
         "widget": "text"
       }
     },
@@ -681,14 +681,14 @@
     "describeRestrictionsOfEachUpperExtremityWithParticula": {
       "type": "string",
       "x-va-field": {
-        "label": "Describe Restrictions Of Each Upper Extremity With Particula",
+        "label": "Describe Restrictions of Each Upper Extremity With Particula",
         "widget": "text"
       }
     },
     "describeRestrictionsOfEachLowerExtremityWithParticula": {
       "type": "string",
       "x-va-field": {
-        "label": "Describe Restrictions Of Each Lower Extremity With Particula",
+        "label": "Describe Restrictions of Each Lower Extremity With Particula",
         "widget": "text"
       }
     },
@@ -709,7 +709,7 @@
     "describeAllOtherPathologyIncludingTheLossOfBowelOr": {
       "type": "string",
       "x-va-field": {
-        "label": "Describe All Other Pathology Including The Loss Of Bowel Or",
+        "label": "Describe All Other Pathology Including the Loss of Bowel or",
         "widget": "text"
       }
     },
@@ -730,7 +730,7 @@
     "nameOfMedicalFacility2": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Medical Facility",
+        "label": "Name of Medical Facility",
         "widget": "text"
       }
     },
@@ -774,14 +774,14 @@
     "printedNameOfExaminer2": {
       "type": "string",
       "x-va-field": {
-        "label": "Printed Name Of Examiner",
+        "label": "Printed Name of Examiner",
         "widget": "text"
       }
     },
     "titleOfExaminer2": {
       "type": "string",
       "x-va-field": {
-        "label": "Title Of Examiner",
+        "label": "Title of Examiner",
         "widget": "text"
       }
     },
@@ -831,6 +831,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.109016+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.576529+00:00"
   }
 }

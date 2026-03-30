@@ -380,7 +380,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Claimant'S Social Security Number",
+        "label": "Claimant S Social Security Number",
         "widget": "ssn"
       }
     },
@@ -402,7 +402,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
@@ -447,7 +447,7 @@
     "theTimeframeForTheReleaseOfInformationIndicatedAbove": {
       "type": "string",
       "x-va-field": {
-        "label": "The Timeframe For The Release Of Information Indicated Above",
+        "label": "The Timeframe for the Release of Information Indicated Above",
         "widget": "text"
       }
     },
@@ -491,7 +491,7 @@
     "claimantSSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Claimant'S Signature",
+        "label": "Claimant S Signature",
         "widget": "signature"
       }
     },
@@ -541,6 +541,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.465474+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.980062+00:00"
   }
 }

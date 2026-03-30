@@ -28,7 +28,7 @@
     "dateofdeath": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofdeath",
+        "label": "Date of Death",
         "widget": "text"
       }
     },
@@ -42,7 +42,7 @@
     "ageattimeofdeath": {
       "type": "string",
       "x-va-field": {
-        "label": "Ageattimeofdeath",
+        "label": "Age at Time of Death",
         "widget": "text"
       }
     },
@@ -70,21 +70,21 @@
     "nameofapplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameofapplicant",
+        "label": "Name of Applicant",
         "widget": "text"
       }
     },
     "telephonenumberofapplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Telephonenumberofapplicant",
+        "label": "Telephone Number of Applicant",
         "widget": "text"
       }
     },
     "addressofapplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Addressofapplicant",
+        "label": "Address of Applicant",
         "widget": "text"
       }
     },
@@ -282,7 +282,7 @@
     "bySigningBelowICertifyTheFollowing": {
       "type": "string",
       "x-va-field": {
-        "label": "By signing below I certify the following",
+        "label": "By Signing Below I Certify the Following",
         "widget": "text"
       }
     },
@@ -353,6 +353,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.961701+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.440427+00:00"
   }
 }

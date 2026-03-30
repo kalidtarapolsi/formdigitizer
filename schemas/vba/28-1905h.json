@@ -15,14 +15,14 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Daytime Phone",
+        "label": "Day Time Phone",
         "widget": "phone"
       }
     },
     "daytimePhoneNumberAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Daytime Phone Number Area Code",
+        "label": "Day Time Phone Number Area Code",
         "widget": "text"
       }
     },
@@ -172,7 +172,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
@@ -201,7 +201,7 @@
     "nameOfTrainingEstablishmentOrSchool": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Training Establishment Or School",
+        "label": "Name of Training Establishment or School",
         "widget": "text"
       }
     },
@@ -222,7 +222,7 @@
     "titleOfTrainerOrAuthorizedSchoolOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Title Of Trainer Or Authorized School Official",
+        "label": "Title of Trainer or Authorized School Official",
         "widget": "text"
       }
     },
@@ -237,7 +237,7 @@
     "signatureOfTrainerOrAuthorizedSchoolOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Trainer Or Authorized School Official",
+        "label": "Signature of Trainer or Authorized School Official",
         "widget": "signature"
       }
     },
@@ -253,7 +253,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Claimant On",
+        "label": "Claimant on",
         "widget": "date"
       }
     },
@@ -275,7 +275,7 @@
     "signatureOfVaCaseManager": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of VA Case Manager",
+        "label": "Signature of VA Case Manager",
         "widget": "signature"
       }
     },
@@ -311,6 +311,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.778940+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.314876+00:00"
   }
 }

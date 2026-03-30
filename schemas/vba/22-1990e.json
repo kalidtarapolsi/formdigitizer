@@ -98,7 +98,7 @@
     "cityStateZipcode": {
       "type": "string",
       "x-va-field": {
-        "label": "City State Zipcode",
+        "label": "City State ZIP Code",
         "widget": "text"
       }
     },
@@ -259,14 +259,14 @@
     "months1": {
       "type": "string",
       "x-va-field": {
-        "label": "Months",
+        "label": "Month S",
         "widget": "text"
       }
     },
     "months2": {
       "type": "string",
       "x-va-field": {
-        "label": "Months",
+        "label": "Month S",
         "widget": "text"
       }
     },
@@ -301,7 +301,7 @@
     "cityStateZipcode2": {
       "type": "string",
       "x-va-field": {
-        "label": "City State Zipcode",
+        "label": "City State ZIP Code",
         "widget": "text"
       }
     },
@@ -343,7 +343,7 @@
     "secondClassMedicalCertificateOnThe": {
       "type": "string",
       "x-va-field": {
-        "label": "second-class medical certificate on the",
+        "label": "Second Class Medical Certificate on the",
         "widget": "text"
       }
     },
@@ -394,7 +394,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number Of Applicant",
+        "label": "Social Security Number of Applicant",
         "widget": "ssn"
       }
     },
@@ -408,7 +408,7 @@
     "applicantSAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Applicant'S Address",
+        "label": "Applicant S Address",
         "widget": "address"
       }
     },
@@ -467,14 +467,14 @@
     "nameAndLocationOf": {
       "type": "string",
       "x-va-field": {
-        "label": "Name And Location Of",
+        "label": "Name and Location of",
         "widget": "text"
       }
     },
     "serviceMemberSName": {
       "type": "string",
       "x-va-field": {
-        "label": "Service Member'S Name",
+        "label": "Service Member S Name",
         "widget": "text"
       }
     },
@@ -483,14 +483,14 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Service Member'S Social Security Number",
+        "label": "Service Member S Social Security Number",
         "widget": "ssn"
       }
     },
     "serviceMemberSAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Service  Member'S Address",
+        "label": "Service Member S Address",
         "widget": "address"
       }
     }
@@ -512,6 +512,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.489672+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.003477+00:00"
   }
 }

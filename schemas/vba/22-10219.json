@@ -140,7 +140,7 @@
     "pleaseCheckTheAppropriateBoxThatIdentifiesTheFacilit": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Check The Appropriate Box That Identifies The Facilit",
+        "label": "Please Check the Appropriate Box That Identifies the Facilit",
         "widget": "text"
       }
     },
@@ -184,7 +184,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date VA Received Work Study Work Site Application:",
+        "label": "Date VA Received Work Study Work Site Application",
         "widget": "date"
       }
     },
@@ -192,7 +192,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Of Approval:",
+        "label": "Date of Approval",
         "widget": "date"
       }
     },
@@ -220,7 +220,7 @@
     "signatureOfVaEmployeeApprovingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of VA Employee/Approving Official",
+        "label": "Signature of VA Employee Approving Official",
         "widget": "signature"
       }
     }
@@ -241,6 +241,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.451439+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.964342+00:00"
   }
 }

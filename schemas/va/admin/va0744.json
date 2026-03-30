@@ -49,14 +49,14 @@
     "issuedate": {
       "type": "string",
       "x-va-field": {
-        "label": "Issuedate",
+        "label": "Issue Date",
         "widget": "text"
       }
     },
     "effectivedate": {
       "type": "string",
       "x-va-field": {
-        "label": "Effectivedate",
+        "label": "Effective Date",
         "widget": "text"
       }
     },
@@ -77,7 +77,7 @@
     "pointnamecountystate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Pointnamecountystate",
+        "label": "Point Name County State",
         "widget": "text"
       }
     },
@@ -91,7 +91,7 @@
     "pointnamecountystate2": {
       "type": "string",
       "x-va-field": {
-        "label": "Pointnamecountystate",
+        "label": "Point Name County State",
         "widget": "text"
       }
     },
@@ -315,7 +315,7 @@
     "tenderedTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Tendered To",
+        "label": "Tendered to",
         "widget": "text"
       }
     },
@@ -357,7 +357,7 @@
     "freightClassificationAndCommodityDescription": {
       "type": "string",
       "x-va-field": {
-        "label": "Freight Classification And Commodity Description",
+        "label": "Freight Classification and Commodity Description",
         "widget": "text"
       }
     },
@@ -406,7 +406,7 @@
     "generalTermsAndConditions": {
       "type": "string",
       "x-va-field": {
-        "label": "General Terms And Conditions",
+        "label": "General Terms and Conditions",
         "widget": "text"
       }
     },
@@ -463,6 +463,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.416166+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:22.949418+00:00"
   }
 }

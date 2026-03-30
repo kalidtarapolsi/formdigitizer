@@ -169,7 +169,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "a different form for each decision",
+        "label": "A Different Form for Each Decision",
         "widget": "date"
       }
     },
@@ -183,7 +183,7 @@
     "ofYou": {
       "type": "string",
       "x-va-field": {
-        "label": "of you",
+        "label": "Of You",
         "widget": "radio"
       }
     },
@@ -205,7 +205,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Please sign and",
+        "label": "Please Sign and",
         "widget": "date"
       }
     },
@@ -213,7 +213,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "13B: Please enter the",
+        "label": "13b Please Enter the",
         "widget": "date"
       }
     },
@@ -221,21 +221,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "14B: Please enter the",
+        "label": "14b Please Enter the",
         "widget": "date"
       }
     },
     "ifBothTheVeteranSAndCaregiverSSignaturesAreNotPro": {
       "type": "string",
       "x-va-field": {
-        "label": "If both the Veteran\u2019s and caregiver\u2019s signatures are not pro",
+        "label": "If Both the Veteran S and Caregiver S Signatures Are Not Pro",
         "widget": "signature"
       }
     },
     "include": {
       "type": "string",
       "x-va-field": {
-        "label": "include",
+        "label": "Include",
         "widget": "text"
       }
     },
@@ -314,7 +314,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "decisions issued on multiple",
+        "label": "Decisions Issued on Multiple",
         "widget": "date"
       }
     },
@@ -394,6 +394,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:44:13.474152+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.267862+00:00"
   }
 }

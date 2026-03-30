@@ -28,28 +28,28 @@
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "Name:",
+        "label": "Name",
         "widget": "text"
       }
     },
     "dateOfRequest": {
       "type": "string",
       "x-va-field": {
-        "label": "Date Of Request",
+        "label": "Date of Request",
         "widget": "text"
       }
     },
     "position": {
       "type": "string",
       "x-va-field": {
-        "label": "Position:",
+        "label": "Position",
         "widget": "text"
       }
     },
     "applicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Applicant:",
+        "label": "Applicant",
         "widget": "text"
       }
     },
@@ -70,14 +70,14 @@
     "supervisor": {
       "type": "string",
       "x-va-field": {
-        "label": "Supervisor:",
+        "label": "Supervisor",
         "widget": "text"
       }
     },
     "pleaseIdentifyWhatTheEmployeeIsRequestingToBeExcuse": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Identify What The Employee Is Requesting To Be Excuse",
+        "label": "Please Identify What the Employee is Requesting to Be Excuse",
         "widget": "text"
       }
     },
@@ -105,7 +105,7 @@
     "whatIsTheChangeBeingRequestedToAlleviateTheConflict": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Change Being Requested To Alleviate The Conflict",
+        "label": "What is the Change Being Requested to Alleviate the Conflict",
         "widget": "text"
       }
     },
@@ -126,21 +126,21 @@
     "iAcknowledgeThatMyRequestIsAccuratelyReflectedInThi": {
       "type": "string",
       "x-va-field": {
-        "label": "I acknowledge that my request is accurately reflected in thi",
+        "label": "I Acknowledge That My Request is Accurately Reflected in Thi",
         "widget": "text"
       }
     },
     "iAmAttestingThatPerformingTheAboveIndicatedFunctions": {
       "type": "string",
       "x-va-field": {
-        "label": "I am attesting that performing the above indicated functions",
+        "label": "I Am Attesting That Performing the Above Indicated Functions",
         "widget": "text"
       }
     },
     "employeeApplicantSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Employee/Applicant Signature",
+        "label": "Employee Applicant Signature",
         "widget": "text"
       }
     },
@@ -168,35 +168,35 @@
     "identifyTheApprovalProvided": {
       "type": "string",
       "x-va-field": {
-        "label": "Identify The Approval Provided:",
+        "label": "Identify the Approval Provided",
         "widget": "text"
       }
     },
     "describeWhatWasApproved": {
       "type": "string",
       "x-va-field": {
-        "label": "Describe What Was Approved:",
+        "label": "Describe What Was Approved",
         "widget": "text"
       }
     },
     "ifTheApprovalInvolvesChangesDifferentFromThoseOrigin": {
       "type": "string",
       "x-va-field": {
-        "label": "If The Approval Involves Changes Different From Those Origin",
+        "label": "If the Approval Involves Changes Different From Those Origin",
         "widget": "text"
       }
     },
     "theBasisForOfferingAnAlternative": {
       "type": "string",
       "x-va-field": {
-        "label": "The Basis For Offering An Alternative",
+        "label": "The Basis for Offering an Alternative",
         "widget": "text"
       }
     },
     "wasTheAlternativeApproval": {
       "type": "string",
       "x-va-field": {
-        "label": "Was The Alternative Approval:",
+        "label": "Was the Alternative Approval",
         "widget": "text"
       }
     },
@@ -210,14 +210,14 @@
     "allDenialsMustBeDiscussedWithBothTheRacAndOgcAfte": {
       "type": "string",
       "x-va-field": {
-        "label": "All Denials Must Be Discussed With Both The Rac And Ogc Afte",
+        "label": "All Denials Must Be Discussed With Both the Rac and Ogc Afte",
         "widget": "text"
       }
     },
     "requestIsDeniedOr": {
       "type": "string",
       "x-va-field": {
-        "label": "Request Is Denied Or",
+        "label": "Request is Denied or",
         "widget": "radio"
       }
     },
@@ -239,14 +239,14 @@
     "employeeApplicantSignature2": {
       "type": "string",
       "x-va-field": {
-        "label": "Employee/Applicant Signature:",
+        "label": "Employee Applicant Signature",
         "widget": "signature"
       }
     },
     "followAllFilingTimeLimitsAndRequirements": {
       "type": "string",
       "x-va-field": {
-        "label": "follow all filing time limits and requirements",
+        "label": "Follow All Filing Time Limits and Requirements",
         "widget": "text"
       }
     },
@@ -274,6 +274,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.880238+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.284766+00:00"
   }
 }

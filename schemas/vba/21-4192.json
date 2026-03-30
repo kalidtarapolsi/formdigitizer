@@ -14,7 +14,7 @@
     "nameandaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameandaddress",
+        "label": "Name and Address",
         "widget": "text"
       }
     },
@@ -49,7 +49,7 @@
     "grossamount": {
       "type": "string",
       "x-va-field": {
-        "label": "Grossamount",
+        "label": "Gross Amount",
         "widget": "text"
       }
     },
@@ -135,7 +135,7 @@
     "typeofbenefit": {
       "type": "string",
       "x-va-field": {
-        "label": "Typeofbenefit",
+        "label": "Type of Benefit",
         "widget": "text"
       }
     },
@@ -184,14 +184,14 @@
     "beginningDateOfEmployment": {
       "type": "string",
       "x-va-field": {
-        "label": "Beginning Date Of Employment",
+        "label": "Beginning Date of Employment",
         "widget": "text"
       }
     },
     "pleaseBeSureToSignAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "Please be sure to sign and",
+        "label": "Please Be Sure to Sign and",
         "widget": "text"
       }
     },
@@ -206,7 +206,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Ending Date Of Employment",
+        "label": "Ending Date of Employment",
         "widget": "date"
       }
     },
@@ -229,7 +229,7 @@
     "typeOfWorkPerformed": {
       "type": "string",
       "x-va-field": {
-        "label": "Type Of Work Performed",
+        "label": "Type of Work Performed",
         "widget": "text"
       }
     },
@@ -282,7 +282,7 @@
     "grossMonthlyAmountOfBenefit": {
       "type": "string",
       "x-va-field": {
-        "label": "Gross Monthly Amount Of Benefit",
+        "label": "Gross Monthly Amount of Benefit",
         "widget": "text"
       }
     },
@@ -342,6 +342,6 @@
       "text-inference"
     ],
     "postProcessedAt": "2026-03-30T20:42:50.094246+00:00",
-    "fieldNameFixedAt": "2026-03-30T22:55:05.105067+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.596139+00:00"
   }
 }

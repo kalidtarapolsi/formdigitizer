@@ -63,7 +63,7 @@
     "fullname": {
       "type": "string",
       "x-va-field": {
-        "label": "Fullname",
+        "label": "Full Name",
         "widget": "text"
       }
     },
@@ -119,7 +119,7 @@
     "noandstreet1": {
       "type": "string",
       "x-va-field": {
-        "label": "Noandstreet",
+        "label": "No and Street",
         "widget": "text"
       }
     },
@@ -168,14 +168,14 @@
     "primaryphone1": {
       "type": "string",
       "x-va-field": {
-        "label": "Primaryphone",
+        "label": "Primary Phone",
         "widget": "text"
       }
     },
     "primaryphone4": {
       "type": "string",
       "x-va-field": {
-        "label": "Primaryphone",
+        "label": "Primary Phone",
         "widget": "text"
       }
     },
@@ -189,14 +189,14 @@
     "secondaryphone1": {
       "type": "string",
       "x-va-field": {
-        "label": "Secondaryphone",
+        "label": "Secondary Phone",
         "widget": "text"
       }
     },
     "secondaryphone4": {
       "type": "string",
       "x-va-field": {
-        "label": "Secondaryphone",
+        "label": "Secondary Phone",
         "widget": "text"
       }
     },
@@ -259,42 +259,42 @@
     "dateentered1": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateentered",
+        "label": "Date Entered",
         "widget": "text"
       }
     },
     "dateentered2": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateentered",
+        "label": "Date Entered",
         "widget": "text"
       }
     },
     "dateentered3": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateentered",
+        "label": "Date Entered",
         "widget": "text"
       }
     },
     "dateentered4": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateentered",
+        "label": "Date Entered",
         "widget": "text"
       }
     },
     "dateentered5": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateentered",
+        "label": "Date Entered",
         "widget": "text"
       }
     },
     "dateentered6": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateentered",
+        "label": "Date Entered",
         "widget": "text"
       }
     },
@@ -491,14 +491,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "second-class medical certificate on the",
+        "label": "Second Class Medical Certificate on the",
         "widget": "date"
       }
     },
     "beSureToDoTheFollowing": {
       "type": "string",
       "x-va-field": {
-        "label": "Be sure to do the following",
+        "label": "Be Sure to Do the Following",
         "widget": "text"
       }
     },
@@ -549,7 +549,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number Of Applicant",
+        "label": "Social Security Number of Applicant",
         "widget": "ssn"
       }
     },
@@ -570,7 +570,7 @@
     "applicantSAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Applicant'S Address",
+        "label": "Applicant S Address",
         "widget": "address"
       }
     },
@@ -614,7 +614,7 @@
     "pleaseCompleteTheFollowingForEachPeriodOfMilitarySe": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Complete The Following For Each Period Of Military Se",
+        "label": "Please Complete the Following for Each Period of Military Se",
         "widget": "text"
       }
     },
@@ -644,6 +644,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.495400+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.010647+00:00"
   }
 }

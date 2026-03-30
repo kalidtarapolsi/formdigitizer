@@ -7,14 +7,14 @@
     "nameofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameofveteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
     "veteranssnorservicenumberorvafilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteranssnorservicenumberorvafilenumber",
+        "label": "Veteran SSN or Service Number or VA File Number",
         "widget": "text"
       }
     },
@@ -28,14 +28,14 @@
     "dateofbirth": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofbirth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
     "dateofdeath": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofdeath",
+        "label": "Date of Death",
         "widget": "text"
       }
     },
@@ -56,14 +56,14 @@
     "homeorworktelephonenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Homeorworktelephonenumber",
+        "label": "Home or Work Telephone Number",
         "widget": "text"
       }
     },
     "requestoremailaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Requestoremailaddress",
+        "label": "Request or Email Address",
         "widget": "text"
       }
     },
@@ -112,7 +112,7 @@
     "militaryDischargeDocuments": {
       "type": "string",
       "x-va-field": {
-        "label": "Military/Discharge Documents",
+        "label": "Military Discharge Documents",
         "widget": "text"
       }
     },
@@ -173,14 +173,14 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Requestor Email Address11Number of Certificates Requested",
+        "label": "Request or Email Address11number of Certificates Requested",
         "widget": "email"
       }
     },
     "typeOfRequest": {
       "type": "string",
       "x-va-field": {
-        "label": "Type Of Request",
+        "label": "Type of Request",
         "widget": "text"
       }
     },
@@ -208,7 +208,7 @@
     "documentsTo": {
       "type": "string",
       "x-va-field": {
-        "label": "documents to",
+        "label": "Documents to",
         "widget": "text"
       }
     },
@@ -224,7 +224,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "All Versions Of This Form",
+        "label": "All Versions of This Form",
         "widget": "date"
       }
     }
@@ -245,6 +245,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.941374+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.418852+00:00"
   }
 }

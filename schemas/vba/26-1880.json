@@ -14,14 +14,14 @@
     "addressNumberandStreetorRuralRouteCityOrPoStateZipcode": {
       "type": "string",
       "x-va-field": {
-        "label": "Address Numberand Streetor Rural Route City or PO State Zipcode",
+        "label": "Address Number and Street or Rural Route City or PO State ZIP Code",
         "widget": "text"
       }
     },
     "vaclaimNumberIfKnown": {
       "type": "string",
       "x-va-field": {
-        "label": "Vaclaim Number If Known",
+        "label": "VA Claim Number If Known",
         "widget": "text"
       }
     },
@@ -392,7 +392,7 @@
     "pleaseProvideYour": {
       "type": "string",
       "x-va-field": {
-        "label": "Please provide your",
+        "label": "Please Provide Your",
         "widget": "text"
       }
     },
@@ -406,7 +406,7 @@
     "indicateHowYouWillUseYourCertificateOfEligibility": {
       "type": "string",
       "x-va-field": {
-        "label": "Indicate How You Will Use Your Certificate Of Eligibility?",
+        "label": "Indicate How You Will Use Your Certificate of Eligibility",
         "widget": "text"
       }
     },
@@ -502,6 +502,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.620130+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.147140+00:00"
   }
 }

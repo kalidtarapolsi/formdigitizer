@@ -119,14 +119,14 @@
     "manufacturer2": {
       "type": "string",
       "x-va-field": {
-        "label": "Manufacturer:",
+        "label": "Manufacturer",
         "widget": "text"
       }
     },
     "requestingIndividualGroup": {
       "type": "string",
       "x-va-field": {
-        "label": "Requesting Individual/Group:",
+        "label": "Requesting Individual Group",
         "widget": "text"
       }
     },
@@ -140,7 +140,7 @@
     "wasTheRequestInitiatedOnBehalfOfAFieldProvider": {
       "type": "string",
       "x-va-field": {
-        "label": "Was The Request Initiated On Behalf Of A Field Provider",
+        "label": "Was the Request Initiated on Behalf of a Field Provider",
         "widget": "text"
       }
     },
@@ -155,21 +155,21 @@
     "typeOfRequest": {
       "type": "string",
       "x-va-field": {
-        "label": "Type Of Request:",
+        "label": "Type of Request",
         "widget": "text"
       }
     },
     "whatIsTheRationaleToRemoveTheDrugOrFormulationFrom": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Rationale To Remove The Drug Or Formulation From",
+        "label": "What is the Rationale to Remove the Drug or Formulation From",
         "widget": "text"
       }
     },
     "whatAlternateDrugOrOtherTreatmentWouldReplaceTheDru": {
       "type": "string",
       "x-va-field": {
-        "label": "What Alternate Drug Or Other Treatment Would Replace The Dru",
+        "label": "What Alternate Drug or Other Treatment Would Replace the Dru",
         "widget": "text"
       }
     },
@@ -204,42 +204,42 @@
     "contactPerson2": {
       "type": "string",
       "x-va-field": {
-        "label": "Contact Person:",
+        "label": "Contact Person",
         "widget": "text"
       }
     },
     "whatIsTheClinicalImpactOfRemovingTheDrugFromTheVa": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Clinical Impact Of Removing The Drug From The VA",
+        "label": "What is the Clinical Impact of Removing the Drug From the VA",
         "widget": "text"
       }
     },
     "provideAnEstimateOfTheNumberOfUniqueUsersAffectedB": {
       "type": "string",
       "x-va-field": {
-        "label": "Provide An Estimate Of The Number Of Unique Users Affected B",
+        "label": "Provide an Estimate of the Number of Unique Users Affected B",
         "widget": "text"
       }
     },
     "isThereCompellingEvidenceOfNeedToAddTheDrugToThe": {
       "type": "string",
       "x-va-field": {
-        "label": "Is There Compelling Evidence Of Need To Add The Drug To The",
+        "label": "Is There Compelling Evidence of Need to Add the Drug to the",
         "widget": "text"
       }
     },
     "whatIsTheScientificEvidenceToSuggestTheClaimsForTh": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Scientific Evidence To Suggest The Claims For Th",
+        "label": "What is the Scientific Evidence to Suggest the Claims for Th",
         "widget": "text"
       }
     },
     "whatIsTheDrugSProjectedPlaceInTherapyWillItBeFi": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Drug\u2019S Projected Place In Therapy? Will It Be Fi",
+        "label": "What is the Drug S Projected Place in Therapy Will It Be Fi",
         "widget": "text"
       }
     },
@@ -260,14 +260,14 @@
     "references2": {
       "type": "string",
       "x-va-field": {
-        "label": "References:",
+        "label": "References",
         "widget": "text"
       }
     },
     "whatSafetyIssuesNeedToBeConsideredWhenMakingAFormu": {
       "type": "string",
       "x-va-field": {
-        "label": "What Safety Issues Need To Be Considered When Making A Formu",
+        "label": "What Safety Issues Need to Be Considered When Making a Formu",
         "widget": "text"
       }
     }
@@ -288,6 +288,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.870718+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.272363+00:00"
   }
 }

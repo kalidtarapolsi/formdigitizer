@@ -196,28 +196,28 @@
     "enclosedWithCase": {
       "type": "string",
       "x-va-field": {
-        "label": "Enclosed with case:",
+        "label": "Enclosed With Case",
         "widget": "text"
       }
     },
     "campus2": {
       "type": "string",
       "x-va-field": {
-        "label": "Campus:",
+        "label": "Campus",
         "widget": "text"
       }
     },
     "submittingDentist2": {
       "type": "string",
       "x-va-field": {
-        "label": "Submitting Dentist:",
+        "label": "Submitting Dentist",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature:",
+        "label": "Signature",
         "widget": "signature"
       }
     },
@@ -233,21 +233,21 @@
     "patientLastName2": {
       "type": "string",
       "x-va-field": {
-        "label": "Patient Last Name:",
+        "label": "Patient Last Name",
         "widget": "text"
       }
     },
     "patientFirstName2": {
       "type": "string",
       "x-va-field": {
-        "label": "Patient First Name:",
+        "label": "Patient First Name",
         "widget": "text"
       }
     },
     "dentalClass": {
       "type": "string",
       "x-va-field": {
-        "label": "Dental Class:",
+        "label": "Dental Class",
         "widget": "text"
       }
     },
@@ -262,21 +262,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Mailed:",
+        "label": "Date Mailed",
         "widget": "date"
       }
     },
     "rx": {
       "type": "string",
       "x-va-field": {
-        "label": "Rx #",
+        "label": "Rx",
         "widget": "text"
       }
     },
     "station": {
       "type": "string",
       "x-va-field": {
-        "label": "Station #",
+        "label": "Station",
         "widget": "text"
       }
     },
@@ -313,6 +313,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.780333+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.240612+00:00"
   }
 }

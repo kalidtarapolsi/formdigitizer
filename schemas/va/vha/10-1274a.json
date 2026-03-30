@@ -28,7 +28,7 @@
     "nametitleinvestigator": {
       "type": "string",
       "x-va-field": {
-        "label": "Nametitleinvestigator",
+        "label": "Name Title Investigator",
         "widget": "text"
       }
     },
@@ -210,7 +210,7 @@
     "justificationOfInstrumentNeedIncludingUse": {
       "type": "string",
       "x-va-field": {
-        "label": "Justification Of Instrument Need Including Use",
+        "label": "Justification of Instrument Need Including Use",
         "widget": "text"
       }
     },
@@ -226,7 +226,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Vamc Notified Of Action",
+        "label": "Date Vamc Notified of Action",
         "widget": "date"
       }
     },
@@ -241,7 +241,7 @@
     "thisProjectIs": {
       "type": "string",
       "x-va-field": {
-        "label": "This Project Is",
+        "label": "This Project is",
         "widget": "text"
       }
     },
@@ -284,6 +284,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.706599+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.162070+00:00"
   }
 }

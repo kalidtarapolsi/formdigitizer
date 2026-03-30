@@ -207,7 +207,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Daytime Telephone Number",
+        "label": "Day Time Telephone Number",
         "widget": "phone"
       }
     },
@@ -1022,7 +1022,7 @@
     "statementOfPersonClaimingToHave": {
       "type": "string",
       "x-va-field": {
-        "label": "Statement Of Person Claiming To Have",
+        "label": "Statement of Person Claiming to Have",
         "widget": "text"
       }
     },
@@ -1036,7 +1036,7 @@
     "yourRelationshipToVeteranByBloodOrMarriage": {
       "type": "string",
       "x-va-field": {
-        "label": "Your Relationship To Veteran By Blood Or Marriage",
+        "label": "Your Relationship to Veteran by Blood or Marriage",
         "widget": "text"
       }
     },
@@ -1050,7 +1050,7 @@
     "placeOfBirth2": {
       "type": "string",
       "x-va-field": {
-        "label": "Place Of Birth",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
@@ -1071,7 +1071,7 @@
     "placeOfDeath2": {
       "type": "string",
       "x-va-field": {
-        "label": "Place Of Death",
+        "label": "Place of Death",
         "widget": "text"
       }
     },
@@ -1120,7 +1120,7 @@
     "circumstancesOfYourObtainingCustodyOrCareOfTheVeter": {
       "type": "string",
       "x-va-field": {
-        "label": "Circumstances Of Your Obtaining Custody Or Care Of The Veter",
+        "label": "Circumstances of Your Obtaining Custody or Care of the Veter",
         "widget": "text"
       }
     },
@@ -1134,7 +1134,7 @@
     "nameOfHeadOfHouseholdInWhichYouLivedAtTimeYouAss": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Head Of Household In Which You Lived At Time You Ass",
+        "label": "Name of Head of Household in Which You Lived at Time You Ass",
         "widget": "text"
       }
     },
@@ -1211,7 +1211,7 @@
     "otherFactsWhichShowTheRelationshipThatExistedBetween": {
       "type": "string",
       "x-va-field": {
-        "label": "Other Facts Which Show The Relationship That Existed Between",
+        "label": "Other Facts Which Show the Relationship That Existed Between",
         "widget": "text"
       }
     },
@@ -1232,14 +1232,14 @@
     "addressOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Address Of Witness",
+        "label": "Address of Witness",
         "widget": "address"
       }
     },
     "signatureOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Witness",
+        "label": "Signature of Witness",
         "widget": "signature"
       }
     },
@@ -1261,14 +1261,14 @@
     "yourRelationshipToDeceasedVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Your Relationship To Deceased Veteran",
+        "label": "Your Relationship to Deceased Veteran",
         "widget": "text"
       }
     },
     "lengthOfTimeYouKnewVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Length Of Time You Knew Veteran",
+        "label": "Length of Time You Knew Veteran",
         "widget": "text"
       }
     },
@@ -1282,14 +1282,14 @@
     "wereYouInAPositionPersonallyToObserveTheConductAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "Were You In A Position Personally To Observe The Conduct And",
+        "label": "Were You in a Position Personally to Observe the Conduct and",
         "widget": "text"
       }
     },
     "factsBasedOnYourPersonalKnowledgeWhichShowWhetherOr": {
       "type": "string",
       "x-va-field": {
-        "label": "Facts Based On Your Personal Knowledge Which Show Whether Or",
+        "label": "Facts Based on Your Personal Knowledge Which Show Whether or",
         "widget": "text"
       }
     },
@@ -1312,28 +1312,28 @@
     "doYouKnowOfYourPersonalKnowledgeWhoSupportedTheVet": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Know Of Your Personal Knowledge Who Supported The Vet",
+        "label": "Do You Know of Your Personal Knowledge Who Supported the Veteran",
         "widget": "text"
       }
     },
     "didAnyOtherPersonsStandInTheRelationshipOfParentTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Did Any Other Persons Stand In The Relationship Of Parent To",
+        "label": "Did Any Other Persons Stand in the Relationship of Parent to",
         "widget": "text"
       }
     },
     "nameAndAddressOfDisinterestedPerson": {
       "type": "string",
       "x-va-field": {
-        "label": "Name And Address Of Disinterested Person",
+        "label": "Name and Address of Disinterested Person",
         "widget": "address"
       }
     },
     "whatIsTheMeansOfYourKnowledgeOfTheInformationFurni": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Means Of Your Knowledge Of The Information Furni",
+        "label": "What is the Means of Your Knowledge of the Information Furni",
         "widget": "text"
       }
     },
@@ -1399,6 +1399,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.349324+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.864063+00:00"
   }
 }

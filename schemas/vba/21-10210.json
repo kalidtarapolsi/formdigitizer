@@ -169,7 +169,7 @@
     "mailTo": {
       "type": "string",
       "x-va-field": {
-        "label": "mail to",
+        "label": "Mail to",
         "widget": "text"
       }
     },
@@ -177,7 +177,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Of Birth",
+        "label": "Date of Birth",
         "widget": "date"
       }
     },
@@ -243,7 +243,7 @@
     "statementNoteDescribeWhatYouYourselfKnowOrHaveObs": {
       "type": "string",
       "x-va-field": {
-        "label": "Statement Note Describe What You Yourself Know or Have Obs",
+        "label": "Statement Note Describe What You Your Self Know or Have Obs",
         "widget": "select"
       }
     },
@@ -291,6 +291,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.069062+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.556786+00:00"
   }
 }

@@ -42,7 +42,7 @@
     "years": {
       "type": "string",
       "x-va-field": {
-        "label": "Years",
+        "label": "Year S",
         "widget": "text"
       }
     },
@@ -147,7 +147,7 @@
     "months": {
       "type": "string",
       "x-va-field": {
-        "label": "Months",
+        "label": "Month S",
         "widget": "text"
       }
     },
@@ -637,14 +637,14 @@
     "totalCostOfManufacturedHomeAndOrLotAndAllowableFee": {
       "type": "string",
       "x-va-field": {
-        "label": "Total Cost Of Manufactured Home And/Or Lot And Allowable Fee",
+        "label": "Total Cost of Manufactured Home and or Lot and Allowable Fee",
         "widget": "text"
       }
     },
     "feesAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "Fees And",
+        "label": "Fees and",
         "widget": "text"
       }
     },
@@ -665,14 +665,14 @@
     "taxAndInsuranceExpenses": {
       "type": "string",
       "x-va-field": {
-        "label": "Tax And Insurance Expenses",
+        "label": "Tax and Insurance Expenses",
         "widget": "text"
       }
     },
     "lotAlreadyOwnedByVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Lot Already Owned By Veteran",
+        "label": "Lot Already Owned by Veteran",
         "widget": "text"
       }
     },
@@ -694,7 +694,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Of First Payment",
+        "label": "Date of First Payment",
         "widget": "date"
       }
     },
@@ -708,7 +708,7 @@
     "titleInLandWillBe": {
       "type": "string",
       "x-va-field": {
-        "label": "Title In Land Will Be",
+        "label": "Title in Land Will Be",
         "widget": "text"
       }
     },
@@ -716,42 +716,42 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Of Report",
+        "label": "Date of Report",
         "widget": "date"
       }
     },
     "nameAndAddressOfNearestRelativeNotLivingWith": {
       "type": "string",
       "x-va-field": {
-        "label": "Name And Address Of Nearest Relative Not Living With",
+        "label": "Name and Address of Nearest Relative Not Living With",
         "widget": "address"
       }
     },
     "purposeOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "Purpose Of Loan",
+        "label": "Purpose of Loan",
         "widget": "text"
       }
     },
     "termsOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "Terms Of Loan",
+        "label": "Terms of Loan",
         "widget": "text"
       }
     },
     "amountOfLoan2": {
       "type": "string",
       "x-va-field": {
-        "label": "Amount Of Loan",
+        "label": "Amount of Loan",
         "widget": "text"
       }
     },
     "descriptionOfManufacturedHome": {
       "type": "string",
       "x-va-field": {
-        "label": "Description Of Manufactured Home",
+        "label": "Description of Manufactured Home",
         "widget": "text"
       }
     },
@@ -781,7 +781,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Of Final Disbursement",
+        "label": "Date of Final Disbursement",
         "widget": "date"
       }
     },
@@ -803,14 +803,14 @@
     "termsOfLeaseOnRentalSite": {
       "type": "string",
       "x-va-field": {
-        "label": "Terms Of Lease On Rental Site",
+        "label": "Terms of Lease on Rental Site",
         "widget": "text"
       }
     },
     "costOf": {
       "type": "string",
       "x-va-field": {
-        "label": "Cost Of",
+        "label": "Cost of",
         "widget": "text"
       }
     },
@@ -845,14 +845,14 @@
     "asAGiHomeLoanBorrowerIWillBeLegallyObligatedToMa": {
       "type": "string",
       "x-va-field": {
-        "label": "As a GI home loan borrower I will be legally obligated to ma",
+        "label": "As a Gi Home Loan Borrower I Will Be Legally Obligated to Ma",
         "widget": "text"
       }
     },
     "iTheUndersignedVeteranCertifyThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I the Undersigned Veteran Certify That",
+        "label": "I the Under Signed Veteran Certify That",
         "widget": "text"
       }
     },
@@ -874,14 +874,14 @@
     "signatureOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Veteran",
+        "label": "Signature of Veteran",
         "widget": "signature"
       }
     },
     "iTheUndersignedLenderCertifyThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I the Undersigned Lender Certify That",
+        "label": "I the Under Signed Lender Certify That",
         "widget": "text"
       }
     },
@@ -911,7 +911,7 @@
     "signatureAndTitleOfOfficerOrLender": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature And Title Of Officer Or Lender",
+        "label": "Signature and Title of Officer or Lender",
         "widget": "signature"
       }
     },
@@ -925,14 +925,14 @@
     "fromTheVaFormWebsiteAt": {
       "type": "string",
       "x-va-field": {
-        "label": "from the VA form website at",
+        "label": "From the VA Form Website at",
         "widget": "text"
       }
     },
     "fromTheVaFormsWebsiteAt": {
       "type": "string",
       "x-va-field": {
-        "label": "from the VA forms website at",
+        "label": "From the VA Forms Website at",
         "widget": "text"
       }
     },
@@ -960,21 +960,21 @@
     "unitOnlyOrCombinationUnitAndLot": {
       "type": "string",
       "x-va-field": {
-        "label": "Unit Only Or Combination Unit And Lot",
+        "label": "Unit Only or Combination Unit and Lot",
         "widget": "text"
       }
     },
     "representativeOfTheManufacturer": {
       "type": "string",
       "x-va-field": {
-        "label": "representative of the manufacturer",
+        "label": "Representative of the Manufacturer",
         "widget": "text"
       }
     },
     "lotOnlyOrCombinationUnitAndLot": {
       "type": "string",
       "x-va-field": {
-        "label": "Lot Only Or Combination Unit And Lot:",
+        "label": "Lot Only or Combination Unit and Lot",
         "widget": "text"
       }
     },
@@ -988,14 +988,14 @@
     "following": {
       "type": "string",
       "x-va-field": {
-        "label": "following",
+        "label": "Following",
         "widget": "text"
       }
     },
     "andCombinationUnitAndLot": {
       "type": "string",
       "x-va-field": {
-        "label": "And Combination Unit And Lot",
+        "label": "And Combination Unit and Lot",
         "widget": "text"
       }
     },
@@ -1009,7 +1009,7 @@
     "including": {
       "type": "string",
       "x-va-field": {
-        "label": "including",
+        "label": "Including",
         "widget": "text"
       }
     },
@@ -1038,7 +1038,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "the veteran and",
+        "label": "The Veteran and",
         "widget": "date"
       }
     }
@@ -1059,6 +1059,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.684740+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.216353+00:00"
   }
 }

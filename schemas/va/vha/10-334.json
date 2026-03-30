@@ -91,14 +91,14 @@
     "addressBelow": {
       "type": "string",
       "x-va-field": {
-        "label": "address below",
+        "label": "Address Below",
         "widget": "address"
       }
     },
     "pleaseMailDocumentsTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Please mail documents to",
+        "label": "Please Mail Documents to",
         "widget": "text"
       }
     },
@@ -144,7 +144,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number*",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -174,7 +174,7 @@
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature*",
+        "label": "Signature",
         "widget": "signature"
       }
     }
@@ -195,6 +195,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.882144+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.288118+00:00"
   }
 }

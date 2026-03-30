@@ -602,7 +602,7 @@
     "vaapprovedUnderwriterId": {
       "type": "string",
       "x-va-field": {
-        "label": "Vaapproved Underwriter ID",
+        "label": "VA Approved Underwriter ID",
         "widget": "text"
       }
     },
@@ -616,14 +616,14 @@
     "cashDownPaymentOnPurchase": {
       "type": "string",
       "x-va-field": {
-        "label": "Cash Down Payment On Purchase",
+        "label": "Cash Down Payment on Purchase",
         "widget": "text"
       }
     },
     "applicantSAge": {
       "type": "string",
       "x-va-field": {
-        "label": "Applicant'S Age",
+        "label": "Applicant S Age",
         "widget": "text"
       }
     },
@@ -637,21 +637,21 @@
     "occupationOfApplicant2": {
       "type": "string",
       "x-va-field": {
-        "label": "Occupation Of Applicant",
+        "label": "Occupation of Applicant",
         "widget": "text"
       }
     },
     "occupationOfSpouse2": {
       "type": "string",
       "x-va-field": {
-        "label": "Occupation Of Spouse",
+        "label": "Occupation of Spouse",
         "widget": "text"
       }
     },
     "numberOfYearsAt": {
       "type": "string",
       "x-va-field": {
-        "label": "Number Of Years At",
+        "label": "Number of Years at",
         "widget": "text"
       }
     },
@@ -672,7 +672,7 @@
     "ageOfDependents2": {
       "type": "string",
       "x-va-field": {
-        "label": "Age Of Dependents",
+        "label": "Age of Dependents",
         "widget": "text"
       }
     },
@@ -695,14 +695,14 @@
     "wasAnAutomatedUnderwritingSystemUsed": {
       "type": "string",
       "x-va-field": {
-        "label": "Was An Automated Underwriting System Used?",
+        "label": "Was an Automated Underwriting System Used",
         "widget": "text"
       }
     },
     "termOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "Term Of Loan",
+        "label": "Term of Loan",
         "widget": "text"
       }
     },
@@ -779,6 +779,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.613572+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.168348+00:00"
   }
 }

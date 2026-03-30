@@ -286,21 +286,21 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
     "eMailAddress2": {
       "type": "string",
       "x-va-field": {
-        "label": "E-Mail Address",
+        "label": "Email Address",
         "widget": "address"
       }
     },
     "howDidStatusChange": {
       "type": "string",
       "x-va-field": {
-        "label": "How Did Status Change?",
+        "label": "How Did Status Change",
         "widget": "text"
       }
     },
@@ -339,7 +339,7 @@
     "stepchildIs": {
       "type": "string",
       "x-va-field": {
-        "label": "Stepchild Is",
+        "label": "Stepchild is",
         "widget": "radio"
       }
     },
@@ -390,6 +390,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.922685+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.519791+00:00"
   }
 }

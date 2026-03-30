@@ -399,7 +399,7 @@
     "businessLenderName2": {
       "type": "string",
       "x-va-field": {
-        "label": "Business/Lender Name",
+        "label": "Business Lender Name",
         "widget": "text"
       }
     },
@@ -421,7 +421,7 @@
     "requesterEMailAddress2": {
       "type": "string",
       "x-va-field": {
-        "label": "Requester E-Mail Address",
+        "label": "Requester Email Address",
         "widget": "address"
       }
     },
@@ -478,7 +478,7 @@
     "veteranSEMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's E-Mail Address",
+        "label": "Veteran SE Mail Address",
         "widget": "address"
       }
     },
@@ -530,6 +530,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.546946+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.078147+00:00"
   }
 }

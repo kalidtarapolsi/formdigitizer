@@ -196,7 +196,7 @@
     "pleaseSelectTheProgramThatYouWouldLikeToCertifyEmp": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Select The Program That You Would Like To Certify Emp",
+        "label": "Please Select the Program That You Would Like to Certify Emp",
         "widget": "text"
       }
     },
@@ -224,7 +224,7 @@
     "whereToSendCompletedForm": {
       "type": "string",
       "x-va-field": {
-        "label": "Where to send completed form",
+        "label": "Where to Send Completed Form",
         "widget": "text"
       }
     },
@@ -239,14 +239,14 @@
     "vetTecParticipantsOnly": {
       "type": "string",
       "x-va-field": {
-        "label": "Vet Tec Participants Only",
+        "label": "Veteran Tec Participants Only",
         "widget": "text"
       }
     },
     "numberStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Number &  Street",
+        "label": "Number Street",
         "widget": "text"
       }
     },
@@ -267,7 +267,7 @@
     "supervisorSName": {
       "type": "string",
       "x-va-field": {
-        "label": "Supervisor'S Name",
+        "label": "Supervisor S Name",
         "widget": "text"
       }
     },
@@ -275,7 +275,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Supervisor'S Telephone Number",
+        "label": "Supervisor S Telephone Number",
         "widget": "phone"
       }
     },
@@ -283,7 +283,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Supervisor'S Email",
+        "label": "Supervisor S Email",
         "widget": "email"
       }
     },
@@ -297,21 +297,21 @@
     "describeHowYourNewDutiesAndResponsibilitiesAlignWith": {
       "type": "string",
       "x-va-field": {
-        "label": "Describe How Your New Duties And Responsibilities Align With",
+        "label": "Describe How Your New Duties and Responsibilities Align With",
         "widget": "text"
       }
     },
     "veteranSSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's Signature",
+        "label": "Veteran S Signature",
         "widget": "signature"
       }
     },
     "certifyingOfficialSNameAndTitle": {
       "type": "string",
       "x-va-field": {
-        "label": "Certifying Official'S Name And Title",
+        "label": "Certifying Official S Name and Title",
         "widget": "text"
       }
     },
@@ -327,14 +327,14 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Certifying Official'S Telephone Number",
+        "label": "Certifying Official S Telephone Number",
         "widget": "phone"
       }
     },
     "employerSWebsite": {
       "type": "string",
       "x-va-field": {
-        "label": "Employer'S Website",
+        "label": "Employer S Website",
         "widget": "text"
       }
     },
@@ -371,7 +371,7 @@
     "certifyingOfficialSSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Certifying Official'S Signature",
+        "label": "Certifying Official S Signature",
         "widget": "signature"
       }
     },
@@ -400,6 +400,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.445309+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.956071+00:00"
   }
 }

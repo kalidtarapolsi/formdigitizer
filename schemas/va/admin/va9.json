@@ -7,21 +7,21 @@
     "nameofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameofveteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
     "claimfileno": {
       "type": "string",
       "x-va-field": {
-        "label": "Claimfileno",
+        "label": "Claim File no",
         "widget": "text"
       }
     },
     "insurancefilenoorloanno": {
       "type": "string",
       "x-va-field": {
-        "label": "Insurancefilenoorloanno",
+        "label": "Insurance File no or Loan no",
         "widget": "text"
       }
     },
@@ -49,7 +49,7 @@
     "nameifnotveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameifnotveteran",
+        "label": "Name If Not Veteran",
         "widget": "text"
       }
     },
@@ -126,7 +126,7 @@
     "iAmThe": {
       "type": "string",
       "x-va-field": {
-        "label": "I Am The:",
+        "label": "I Am the",
         "widget": "text"
       }
     },
@@ -183,7 +183,7 @@
     "followingBoxes": {
       "type": "string",
       "x-va-field": {
-        "label": "following boxes",
+        "label": "Following Boxes",
         "widget": "text"
       }
     },
@@ -197,14 +197,14 @@
     "iWantAnOptionalBoardHearing": {
       "type": "string",
       "x-va-field": {
-        "label": "I Want An Optional Board Hearing",
+        "label": "I Want an Optional Board Hearing",
         "widget": "text"
       }
     },
     "signatureOfPersonMakingThisAppeal": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Person Making This Appeal",
+        "label": "Signature of Person Making This Appeal",
         "widget": "signature"
       }
     },
@@ -240,14 +240,14 @@
     "doIHaveToFillOutThisFormAndFileItFillOutThisFo": {
       "type": "string",
       "x-va-field": {
-        "label": "Do I Have To Fill Out This Form And File It?Fill Out This Fo",
+        "label": "Do I Have to Fill Out This Form and File It Fill Out This Fo",
         "widget": "text"
       }
     },
     "howLongDoIHaveToCompleteThisFormAndFileItUnderC": {
       "type": "string",
       "x-va-field": {
-        "label": "How Long Do I Have To Complete This Form And File It?Under C",
+        "label": "How Long Do I Have to Complete This Form and File It Under C",
         "widget": "text"
       }
     },
@@ -270,42 +270,42 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "the postmark",
+        "label": "The Postmark",
         "widget": "date"
       }
     },
     "whatKindOfInformationDoINeedToIncludeWhenIFillOu": {
       "type": "string",
       "x-va-field": {
-        "label": "What Kind Of Information Do I Need To Include When I Fill Ou",
+        "label": "What Kind of Information Do I Need to Include When I Fill Ou",
         "widget": "text"
       }
     },
     "whereDoIFileTheFormOnceIHaveCompletedItWhenYouH": {
       "type": "string",
       "x-va-field": {
-        "label": "Where Do I File The Form Once I Have Completed It?When You H",
+        "label": "Where Do I File the Form Once I Have Completed It When You H",
         "widget": "text"
       }
     },
     "otherSourcesOfInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "Other Sources Of Information:",
+        "label": "Other Sources of Information",
         "widget": "text"
       }
     },
     "appealOnTheInternetAt": {
       "type": "string",
       "x-va-field": {
-        "label": "Appeal\u201d on the Internet at",
+        "label": "Appeal on the Internet at",
         "widget": "text"
       }
     },
     "eligibilityCanBeFoundOnTheInternetAt": {
       "type": "string",
       "x-va-field": {
-        "label": "eligibility can be found on the Internet at",
+        "label": "Eligibility Can Be Found on the Internet at",
         "widget": "text"
       }
     },
@@ -333,6 +333,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.477690+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.009531+00:00"
   }
 }

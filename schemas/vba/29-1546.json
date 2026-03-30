@@ -21,7 +21,7 @@
     "daytime5": {
       "type": "string",
       "x-va-field": {
-        "label": "Daytime",
+        "label": "Day Time",
         "widget": "text"
       }
     },
@@ -77,7 +77,7 @@
     "depositorAccountNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Depositor Account Number",
+        "label": "Deposit or Account Number",
         "widget": "text"
       }
     },
@@ -98,7 +98,7 @@
     "daytime52": {
       "type": "string",
       "x-va-field": {
-        "label": "Daytime",
+        "label": "Day Time",
         "widget": "text"
       }
     },
@@ -161,14 +161,14 @@
     "depositorAccountNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "Depositor Account Number",
+        "label": "Deposit or Account Number",
         "widget": "text"
       }
     },
     "firstMiddleLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "First-Middle-Last Name",
+        "label": "First Middle Last Name",
         "widget": "text"
       }
     },
@@ -204,7 +204,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Daytime Telephone Number Include Area Code",
+        "label": "Day Time Telephone Number Include Area Code",
         "widget": "phone"
       }
     },
@@ -227,7 +227,7 @@
     "iHerebySurrenderMy": {
       "type": "string",
       "x-va-field": {
-        "label": "I Hereby Surrender My",
+        "label": "I Here by Surrender My",
         "widget": "text"
       }
     },
@@ -249,7 +249,7 @@
     "orMailTheCompletedFormTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Or Mail The Completed Form To",
+        "label": "Or Mail the Completed Form to",
         "widget": "text"
       }
     },
@@ -265,7 +265,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "on the anniversary",
+        "label": "On the Anniversary",
         "widget": "date"
       }
     },
@@ -279,7 +279,7 @@
     "doYouWishToUseDividendsToReduceTheLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Wish To Use Dividends To Reduce The Loan?",
+        "label": "Do You Wish to Use Dividends to Reduce the Loan",
         "widget": "text"
       }
     },
@@ -342,6 +342,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.795219+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.330882+00:00"
   }
 }

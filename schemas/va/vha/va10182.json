@@ -28,14 +28,14 @@
     "nameifnotveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameifnotveteran",
+        "label": "Name If Not Veteran",
         "widget": "text"
       }
     },
     "myDob": {
       "type": "string",
       "x-va-field": {
-        "label": "My DOB",
+        "label": "My Dob",
         "widget": "text"
       }
     },
@@ -190,7 +190,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Veteran's Date Of Birth",
+        "label": "Veteran S Date of Birth",
         "widget": "date"
       }
     },
@@ -249,7 +249,7 @@
     "pleaseListEachIssueDecidedByVaThatYouWouldLikeTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Please list each issue decided by VA that you would like to",
+        "label": "Please List Each Issue Decided by VA That You Would Like to",
         "widget": "text"
       }
     },
@@ -279,7 +279,7 @@
     "toTheBoardAtTheAddressBelow": {
       "type": "string",
       "x-va-field": {
-        "label": "to the Board at the address below",
+        "label": "To the Board at the Address Below",
         "widget": "address"
       }
     },
@@ -314,6 +314,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.924151+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.399714+00:00"
   }
 }

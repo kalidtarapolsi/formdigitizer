@@ -14,7 +14,7 @@
     "parentname": {
       "type": "string",
       "x-va-field": {
-        "label": "Parentname",
+        "label": "Parent Name",
         "widget": "text"
       }
     },
@@ -28,14 +28,14 @@
     "parentaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Parentaddress",
+        "label": "Parent Address",
         "widget": "text"
       }
     },
     "vaaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vaaddress",
+        "label": "VA Address",
         "widget": "text"
       }
     },
@@ -119,7 +119,7 @@
     "otheryour6": {
       "type": "string",
       "x-va-field": {
-        "label": "Otheryour",
+        "label": "Other Your",
         "widget": "text"
       }
     },
@@ -182,7 +182,7 @@
     "isTheOtherParentOfTheVeteranLiving": {
       "type": "string",
       "x-va-field": {
-        "label": "Is The Other Parent Of The Veteran Living?",
+        "label": "Is the Other Parent of the Veteran Living",
         "widget": "text"
       }
     },
@@ -196,14 +196,14 @@
     "wereYouOrYourSpouseEmployedAtAnyTimeDuringThe_12": {
       "type": "string",
       "x-va-field": {
-        "label": "Were You Or Your Spouse Employed At Any Time During The 12",
+        "label": "Were You or Your Spouse Employed at Any Time During The_",
         "widget": "text"
       }
     },
     "monthPeriodPrecedingThe": {
       "type": "string",
       "x-va-field": {
-        "label": "Month Period Preceding The",
+        "label": "Month Period Preceding the",
         "widget": "text"
       }
     },
@@ -265,7 +265,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "income or the",
+        "label": "Income or the",
         "widget": "date"
       }
     },
@@ -324,6 +324,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.178782+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.680249+00:00"
   }
 }

@@ -413,7 +413,7 @@
     "dateOfBirth3": {
       "type": "string",
       "x-va-field": {
-        "label": "Date Of Birth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
@@ -434,14 +434,14 @@
     "socialSecurityNumberOrVaFileNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "Social Security Number Or VA File Number",
+        "label": "Social Security Number or VA File Number",
         "widget": "text"
       }
     },
     "branchOfService2": {
       "type": "string",
       "x-va-field": {
-        "label": "Branch Of Service",
+        "label": "Branch of Service",
         "widget": "text"
       }
     },
@@ -514,28 +514,28 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number Of Applicant",
+        "label": "Social Security Number of Applicant",
         "widget": "ssn"
       }
     },
     "iCertifyThatIUnderstandTheEffectsThatThisElectionT": {
       "type": "string",
       "x-va-field": {
-        "label": "I Certify That I Understand The Effects That This Election T",
+        "label": "I Certify That I Understand the Effects That This Election T",
         "widget": "text"
       }
     },
     "spouseSurvivingSpouseSelectTheBenefitThatYouAreAppl": {
       "type": "string",
       "x-va-field": {
-        "label": "Spouse/Surviving Spouse Select The Benefit That You Are Appl",
+        "label": "Spouse Surviving Spouse Select the Benefit That You Are Appl",
         "widget": "text"
       }
     },
     "biolgicalChildStepchildAdoptedChildSelectTheBenefitT": {
       "type": "string",
       "x-va-field": {
-        "label": "Biolgical Child/Stepchild/Adopted Child Select The Benefit T",
+        "label": "Biolgical Child Stepchild Adopted Child Select the Benefit T",
         "widget": "text"
       }
     },
@@ -588,7 +588,7 @@
     "wouldYouLikeToReceiveVocationalAndEducationalCounsel": {
       "type": "string",
       "x-va-field": {
-        "label": "Would You Like To Receive Vocational And Educational Counsel",
+        "label": "Would You Like to Receive Vocational and Educational Counsel",
         "widget": "text"
       }
     },
@@ -616,7 +616,7 @@
     "nameOfIndividualOnWhoseAccountYouPreviouslyClaimedB": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Individual On Whose Account You Previously Claimed B",
+        "label": "Name of Individual on Whose Account You Previously Claimed B",
         "widget": "text"
       }
     },
@@ -647,7 +647,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Claimed Benefits Or The",
+        "label": "Claimed Benefits or the",
         "widget": "date"
       }
     },
@@ -720,7 +720,7 @@
     "giBillWebsiteAt": {
       "type": "string",
       "x-va-field": {
-        "label": "GI Bill website at",
+        "label": "Gi Bill Website at",
         "widget": "text"
       }
     },
@@ -748,7 +748,7 @@
     "sureToDoTheFollowing": {
       "type": "string",
       "x-va-field": {
-        "label": "sure to do the following",
+        "label": "Sure to Do the Following",
         "widget": "text"
       }
     },
@@ -783,6 +783,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.512964+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.040210+00:00"
   }
 }

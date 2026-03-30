@@ -301,7 +301,7 @@
     "enddate": {
       "type": "string",
       "x-va-field": {
-        "label": "Enddate",
+        "label": "End Date",
         "widget": "text"
       }
     },
@@ -385,14 +385,14 @@
     "fP2Unknown2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F P2 unknown2",
+        "label": "F P2Unknown",
         "widget": "checkbox"
       }
     },
     "forOneOrMoreCourses": {
       "type": "string",
       "x-va-field": {
-        "label": "For One Or More Courses",
+        "label": "For One or More Courses",
         "widget": "text"
       }
     },
@@ -427,7 +427,7 @@
     "terminationOrAdjustmentAndAre": {
       "type": "string",
       "x-va-field": {
-        "label": "termination or adjustment and are",
+        "label": "Termination or Adjustment and Are",
         "widget": "radio"
       }
     },
@@ -500,7 +500,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "last date of attendance",
+        "label": "Last Date of Attendance",
         "widget": "date"
       }
     },
@@ -544,7 +544,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "attended\" is the last",
+        "label": "Attended is the Last",
         "widget": "date"
       }
     },
@@ -596,7 +596,7 @@
     "oneOrMoreCourses": {
       "type": "string",
       "x-va-field": {
-        "label": "One Or More Courses",
+        "label": "One or More Courses",
         "widget": "text"
       }
     },
@@ -604,7 +604,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Dates Of Term Affected",
+        "label": "Dates of Term Affected",
         "widget": "date"
       }
     },
@@ -663,7 +663,7 @@
     "doesTheStudentClaimThatTerminationOrAdjustmentAction": {
       "type": "string",
       "x-va-field": {
-        "label": "Does The Student Claim That Termination Or Adjustment Action",
+        "label": "Does the Student Claim That Termination or Adjustment Action",
         "widget": "text"
       }
     },
@@ -677,14 +677,14 @@
     "currentAddressOfStudent": {
       "type": "string",
       "x-va-field": {
-        "label": "Current Address Of Student",
+        "label": "Current Address of Student",
         "widget": "address"
       }
     },
     "doPreviousCertificationsForSubsequentTerms": {
       "type": "string",
       "x-va-field": {
-        "label": "Do Previous Certifications For Subsequent Terms",
+        "label": "Do Previous Certifications for Subsequent Terms",
         "widget": "text"
       }
     },
@@ -698,7 +698,7 @@
     "studentCalledUp": {
       "type": "string",
       "x-va-field": {
-        "label": "Student Called Up -",
+        "label": "Student Called Up",
         "widget": "radio"
       }
     },
@@ -767,6 +767,6 @@
       "acroform",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.513488+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.030028+00:00"
   }
 }

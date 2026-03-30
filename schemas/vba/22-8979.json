@@ -35,21 +35,21 @@
     "dateofbirth1": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofbirth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
     "dateofbirth2": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofbirth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
     "dateofbirth3": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofbirth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
@@ -112,7 +112,7 @@
     "noandstreet1": {
       "type": "string",
       "x-va-field": {
-        "label": "Noandstreet",
+        "label": "No and Street",
         "widget": "text"
       }
     },
@@ -161,21 +161,21 @@
     "primaryphone1": {
       "type": "string",
       "x-va-field": {
-        "label": "Primaryphone",
+        "label": "Primary Phone",
         "widget": "text"
       }
     },
     "primaryphone4": {
       "type": "string",
       "x-va-field": {
-        "label": "Primaryphone",
+        "label": "Primary Phone",
         "widget": "text"
       }
     },
     "noandstreet100": {
       "type": "string",
       "x-va-field": {
-        "label": "Noandstreet",
+        "label": "No and Street",
         "widget": "text"
       }
     },
@@ -189,7 +189,7 @@
     "providethefullname": {
       "type": "string",
       "x-va-field": {
-        "label": "Providethefullname",
+        "label": "Provide the Full Name",
         "widget": "text"
       }
     },
@@ -243,7 +243,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number Of Student",
+        "label": "Social Security Number of Student",
         "widget": "ssn"
       }
     },
@@ -257,7 +257,7 @@
     "sexOfStudent": {
       "type": "string",
       "x-va-field": {
-        "label": "Sex Of Student",
+        "label": "Sex of Student",
         "widget": "text"
       }
     },
@@ -265,7 +265,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Student'S Date Of Birth",
+        "label": "Student S Date of Birth",
         "widget": "date"
       }
     },
@@ -279,7 +279,7 @@
     "studentSAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Student'S Address",
+        "label": "Student S Address",
         "widget": "address"
       }
     },
@@ -300,7 +300,7 @@
     "provideTheFullNameAndAddressOfTheSchool": {
       "type": "string",
       "x-va-field": {
-        "label": "Provide The Full Name And Address Of The School",
+        "label": "Provide the Full Name and Address of the School",
         "widget": "address"
       }
     },
@@ -323,7 +323,7 @@
     "iWasEnrolledAsCertifiedByMySchoolSinceTheLastVeri": {
       "type": "string",
       "x-va-field": {
-        "label": "I Was Enrolled As Certified By My School Since The Last Veri",
+        "label": "I Was Enrolled As Certified by My School Since the Last Veri",
         "widget": "text"
       }
     },
@@ -345,7 +345,7 @@
     "completionOfThisForm": {
       "type": "string",
       "x-va-field": {
-        "label": "Completion Of This Form",
+        "label": "Completion of This Form",
         "widget": "text"
       }
     },
@@ -415,6 +415,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.541794+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.058879+00:00"
   }
 }

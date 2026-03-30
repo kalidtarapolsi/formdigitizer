@@ -334,7 +334,7 @@
     "isDependentUponTheVeteranAtThe": {
       "type": "string",
       "x-va-field": {
-        "label": "is dependent upon the veteran at the",
+        "label": "Is Dependent Upon the Veteran at the",
         "widget": "text"
       }
     },
@@ -348,7 +348,7 @@
     "the": {
       "type": "string",
       "x-va-field": {
-        "label": "the",
+        "label": "The",
         "widget": "text"
       }
     },
@@ -362,21 +362,21 @@
     "furnishACopyOfTheDeathCertificateUnlessTheBeneficia": {
       "type": "string",
       "x-va-field": {
-        "label": "Furnish a copy of the death certificate unless the beneficia",
+        "label": "Furnish a Copy of the Death Certificate Unless the Beneficia",
         "widget": "text"
       }
     },
     "ifAnExecutorOrAdministratorOfTheBeneficiarySEstate": {
       "type": "string",
       "x-va-field": {
-        "label": "If an executor or administrator of the beneficiary's estate",
+        "label": "If an Executor or Administrator of the Beneficiary S Estate",
         "widget": "text"
       }
     },
     "ifYouAreClaimingReimbursementForLastIllnessAndOrBu": {
       "type": "string",
       "x-va-field": {
-        "label": "If you are claiming reimbursement for last illness and/or bu",
+        "label": "If You Are Claiming Reimbursement for Last Illness and or Bu",
         "widget": "text"
       }
     },
@@ -384,14 +384,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Make sure you sign and",
+        "label": "Make Sure You Sign and",
         "widget": "date"
       }
     },
     "ifThereAre": {
       "type": "string",
       "x-va-field": {
-        "label": "If  there are",
+        "label": "If There Are",
         "widget": "radio"
       }
     },
@@ -422,7 +422,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Veteran's Social Security Number",
+        "label": "Veteran S Social Security Number",
         "widget": "ssn"
       }
     },
@@ -437,7 +437,7 @@
     "veteranSFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's File Number",
+        "label": "Veteran S File Number",
         "widget": "text"
       }
     },
@@ -460,7 +460,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Claimant'S Social Security Number",
+        "label": "Claimant S Social Security Number",
         "widget": "ssn"
       }
     },
@@ -497,7 +497,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
@@ -511,14 +511,14 @@
     "claimantSRelationship": {
       "type": "string",
       "x-va-field": {
-        "label": "Claimant'S Relationship",
+        "label": "Claimant S Relationship",
         "widget": "text"
       }
     },
     "relativesSurvivingBeneficiaryAtTimeOfDeath": {
       "type": "string",
       "x-va-field": {
-        "label": "Relatives Surviving Beneficiary At Time Of Death",
+        "label": "Relatives Surviving Beneficiary at Time of Death",
         "widget": "text"
       }
     },
@@ -547,14 +547,14 @@
     "haveYouBeenReimbursedFromAnySourceForAnyOfTheExpe": {
       "type": "string",
       "x-va-field": {
-        "label": "Have You Been Reimbursed From Any Source For Any Of The Expe",
+        "label": "Have You Been Reimbursed From Any Source for Any of the Expe",
         "widget": "text"
       }
     },
     "didTheBeneficiaryLeaveAnyOtherDebts": {
       "type": "string",
       "x-va-field": {
-        "label": "Did The Beneficiary Leave Any Other Debts?",
+        "label": "Did the Beneficiary Leave Any Other Debts",
         "widget": "text"
       }
     },
@@ -568,7 +568,7 @@
     "hasOrWillTheBeneficiarySEstateBeLegallyAdministered": {
       "type": "string",
       "x-va-field": {
-        "label": "Has Or Will The Beneficiary'S Estate Be Legally Administered",
+        "label": "Has or Will the Beneficiary S Estate Be Legally Administered",
         "widget": "select"
       }
     },
@@ -643,6 +643,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.393202+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.901357+00:00"
   }
 }

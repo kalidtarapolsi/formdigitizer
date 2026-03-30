@@ -7,35 +7,35 @@
     "dateOfBirth": {
       "type": "string",
       "x-va-field": {
-        "label": "Date Of Birth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
     "signatureOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Veteran",
+        "label": "Signature of Veteran",
         "widget": "text"
       }
     },
     "officeListedBelow": {
       "type": "string",
       "x-va-field": {
-        "label": "Office listed below",
+        "label": "Office Listed Below",
         "widget": "text"
       }
     },
     "itemService": {
       "type": "string",
       "x-va-field": {
-        "label": "Item/Service",
+        "label": "Item Service",
         "widget": "text"
       }
     },
     "serial": {
       "type": "string",
       "x-va-field": {
-        "label": "Serial #",
+        "label": "Serial",
         "widget": "text"
       }
     },
@@ -49,7 +49,7 @@
     "veteranSName": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's Name",
+        "label": "Veteran S Name",
         "widget": "text"
       }
     },
@@ -100,6 +100,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.811219+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.203594+00:00"
   }
 }

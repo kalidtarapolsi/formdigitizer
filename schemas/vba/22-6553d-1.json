@@ -7,7 +7,7 @@
     "nameandfacilitycodeoftrainingfacility": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameandfacilitycodeoftrainingfacility",
+        "label": "Name and Facility Code of Training Facility",
         "widget": "text"
       }
     },
@@ -84,7 +84,7 @@
     "effectivedate": {
       "type": "string",
       "x-va-field": {
-        "label": "Effectivedate",
+        "label": "Effective Date",
         "widget": "text"
       }
     },
@@ -141,7 +141,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "rate and the effective",
+        "label": "Rate and the Effective",
         "widget": "date"
       }
     },
@@ -155,14 +155,14 @@
     "numberOfHours": {
       "type": "string",
       "x-va-field": {
-        "label": "Number Of Hours",
+        "label": "Number of Hours",
         "widget": "text"
       }
     },
     "wasTraineePursingTheApprovedProgramForThe": {
       "type": "string",
       "x-va-field": {
-        "label": "Was Trainee Pursing The Approved Program For The",
+        "label": "Was Trainee Pursing the Approved Program for the",
         "widget": "text"
       }
     },
@@ -235,6 +235,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.528797+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.046586+00:00"
   }
 }

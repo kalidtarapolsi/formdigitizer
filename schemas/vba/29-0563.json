@@ -70,14 +70,14 @@
     "addressOfMortgagedProperty": {
       "type": "string",
       "x-va-field": {
-        "label": "Address Of Mortgaged Property",
+        "label": "Address of Mortgaged Property",
         "widget": "text"
       }
     },
     "veteranSName": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's Name",
+        "label": "Veteran S Name",
         "widget": "text"
       }
     },
@@ -91,7 +91,7 @@
     "amountOfFinalPayoffOfTheMortgageLoanWas": {
       "type": "string",
       "x-va-field": {
-        "label": "Amount Of Final Payoff Of The Mortgage Loan Was:",
+        "label": "Amount of Final Payoff of the Mortgage Loan Was",
         "widget": "text"
       }
     },
@@ -105,7 +105,7 @@
     "doYouOccupyTheResidenceAtTheAddressShownAbove": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Occupy The Residence At The Address Shown Above?",
+        "label": "Do You Occupy the Residence at the Address Shown Above",
         "widget": "address"
       }
     },
@@ -141,7 +141,7 @@
     "signatureOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Veteran",
+        "label": "Signature of Veteran",
         "widget": "signature"
       }
     }
@@ -162,6 +162,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.789398+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.325408+00:00"
   }
 }

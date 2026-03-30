@@ -7,7 +7,7 @@
     "nameandmailingaddressofapplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameandmailingaddressofapplicant",
+        "label": "Name and Mailing Address of Applicant",
         "widget": "text"
       }
     },
@@ -42,7 +42,7 @@
     "beginningdate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Beginningdate",
+        "label": "Beginning Date",
         "widget": "text"
       }
     },
@@ -56,14 +56,14 @@
     "typeoftraining1": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Typeoftraining",
+        "label": "Type of Training",
         "widget": "checkbox"
       }
     },
     "beginningdate2": {
       "type": "string",
       "x-va-field": {
-        "label": "Beginningdate",
+        "label": "Beginning Date",
         "widget": "text"
       }
     },
@@ -77,14 +77,14 @@
     "typeoftraining2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Typeoftraining",
+        "label": "Type of Training",
         "widget": "checkbox"
       }
     },
     "beginningdate3": {
       "type": "string",
       "x-va-field": {
-        "label": "Beginningdate",
+        "label": "Beginning Date",
         "widget": "text"
       }
     },
@@ -98,14 +98,14 @@
     "typeoftraining3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Typeoftraining",
+        "label": "Type of Training",
         "widget": "checkbox"
       }
     },
     "beginningdate4": {
       "type": "string",
       "x-va-field": {
-        "label": "Beginningdate",
+        "label": "Beginning Date",
         "widget": "text"
       }
     },
@@ -119,7 +119,7 @@
     "typeoftraining4": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Typeoftraining",
+        "label": "Type of Training",
         "widget": "checkbox"
       }
     },
@@ -147,7 +147,7 @@
     "nameofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameofveteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
@@ -161,7 +161,7 @@
     "furnishTheInformationWillHave": {
       "type": "string",
       "x-va-field": {
-        "label": "furnish the information will have",
+        "label": "Furnish the Information Will Have",
         "widget": "text"
       }
     },
@@ -250,6 +250,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.421274+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:22.954390+00:00"
   }
 }

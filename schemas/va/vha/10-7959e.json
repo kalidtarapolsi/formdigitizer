@@ -7,21 +7,21 @@
     "lastname": {
       "type": "string",
       "x-va-field": {
-        "label": "Lastname",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "firstname": {
       "type": "string",
       "x-va-field": {
-        "label": "Firstname",
+        "label": "First Name",
         "widget": "text"
       }
     },
     "middleinitial": {
       "type": "string",
       "x-va-field": {
-        "label": "Middleinitial",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
@@ -42,7 +42,7 @@
     "dateofbirth": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofbirth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
@@ -105,7 +105,7 @@
     "dateofservice": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofservice",
+        "label": "Date of Service",
         "widget": "text"
       }
     },
@@ -168,7 +168,7 @@
     "departuretime1": {
       "type": "string",
       "x-va-field": {
-        "label": "Departuretime",
+        "label": "Departure Time",
         "widget": "text"
       }
     },
@@ -189,7 +189,7 @@
     "arrivaltime1": {
       "type": "string",
       "x-va-field": {
-        "label": "Arrivaltime",
+        "label": "Arrival Time",
         "widget": "text"
       }
     },
@@ -217,7 +217,7 @@
     "departuretime2": {
       "type": "string",
       "x-va-field": {
-        "label": "Departuretime",
+        "label": "Departure Time",
         "widget": "text"
       }
     },
@@ -238,7 +238,7 @@
     "arrivaltime2": {
       "type": "string",
       "x-va-field": {
-        "label": "Arrivaltime",
+        "label": "Arrival Time",
         "widget": "text"
       }
     },
@@ -266,7 +266,7 @@
     "relationshiptopatient": {
       "type": "string",
       "x-va-field": {
-        "label": "Relationshiptopatient",
+        "label": "Relationship to Patient",
         "widget": "text"
       }
     },
@@ -308,21 +308,21 @@
     "certificationlastname": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationlastname",
+        "label": "Certification Last Name",
         "widget": "text"
       }
     },
     "certificationfirstname": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationfirstname",
+        "label": "Certification First Name",
         "widget": "text"
       }
     },
     "certificationmiddleinitial": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationmiddleinitial",
+        "label": "Certification Middle Initial",
         "widget": "text"
       }
     },
@@ -364,7 +364,7 @@
     "certificationtelephonenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationtelephonenumber",
+        "label": "Certification Telephone Number",
         "widget": "text"
       }
     },
@@ -468,7 +468,7 @@
     "willHave": {
       "type": "string",
       "x-va-field": {
-        "label": "will have",
+        "label": "Will Have",
         "widget": "radio"
       }
     },
@@ -504,6 +504,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.893907+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.364884+00:00"
   }
 }

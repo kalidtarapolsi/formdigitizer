@@ -14,14 +14,14 @@
     "nameofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameofveteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
     "currentaddressofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Currentaddressofveteran",
+        "label": "Current Address of Veteran",
         "widget": "text"
       }
     },
@@ -35,7 +35,7 @@
     "vaclaimno": {
       "type": "string",
       "x-va-field": {
-        "label": "Vaclaimno",
+        "label": "VA Claim no",
         "widget": "text"
       }
     },
@@ -70,7 +70,7 @@
     "forvause": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Forvause",
+        "label": "For VA Use",
         "widget": "checkbox"
       }
     },
@@ -173,14 +173,14 @@
     "iHerebyCertifyThatIDodoNothaveAVaBenefitRelatedIn": {
       "type": "string",
       "x-va-field": {
-        "label": "I Hereby Certify That I Dodo Nothave a VA Benefit Related in",
+        "label": "I Here by Certify That I Dodo Nothave a VA Benefit Related in",
         "widget": "text"
       }
     },
     "iHerebyCertifyThatIHavehaveNotfiledAClaimForVaDis": {
       "type": "string",
       "x-va-field": {
-        "label": "I Hereby Certify That I Havehave Notfiled a Claim for VA Dis",
+        "label": "I Here by Certify That I Havehave Notfiled a Claim for VA Dis",
         "widget": "text"
       }
     },
@@ -224,6 +224,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.728404+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:42:27.696648+00:00"
   }
 }

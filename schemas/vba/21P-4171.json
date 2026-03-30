@@ -21,7 +21,7 @@
     "knownVet": {
       "type": "string",
       "x-va-field": {
-        "label": "Known Vet",
+        "label": "Known Veteran",
         "widget": "text"
       }
     },
@@ -42,7 +42,7 @@
     "whenMetVet": {
       "type": "string",
       "x-va-field": {
-        "label": "When Met Vet",
+        "label": "When Met Veteran",
         "widget": "text"
       }
     },
@@ -374,7 +374,7 @@
     "daytimeTelephone": {
       "type": "string",
       "x-va-field": {
-        "label": "Daytime Telephone",
+        "label": "Day Time Telephone",
         "widget": "text"
       }
     },
@@ -479,14 +479,14 @@
     "wereAreTheVeteranAndTheClaimedSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Were/Are The Veteran And The Claimed Spouse",
+        "label": "Were Are the Veteran and the Claimed Spouse",
         "widget": "text"
       }
     },
     "didDoEitherTheVeteranOrClaimedSpouseEver": {
       "type": "string",
       "x-va-field": {
-        "label": "Did/Do Either The Veteran Or Claimed Spouse Ever",
+        "label": "Did Do Either the Veteran or Claimed Spouse Ever",
         "widget": "text"
       }
     },
@@ -588,21 +588,21 @@
     "cityOrTown": {
       "type": "string",
       "x-va-field": {
-        "label": "City Or Town",
+        "label": "City or Town",
         "widget": "text"
       }
     },
     "mailTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Mail To",
+        "label": "Mail to",
         "widget": "text"
       }
     },
     "feesForClaims": {
       "type": "string",
       "x-va-field": {
-        "label": "Fees For Claims",
+        "label": "Fees for Claims",
         "widget": "text"
       }
     }
@@ -623,6 +623,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.313083+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.826513+00:00"
   }
 }

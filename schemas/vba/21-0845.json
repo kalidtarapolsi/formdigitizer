@@ -277,7 +277,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Veteran's Social Security Number",
+        "label": "Veteran S Social Security Number",
         "widget": "ssn"
       }
     },
@@ -329,7 +329,7 @@
     "specifyTheSecurityQuestionYouWantUsedWhenVerifyingT": {
       "type": "string",
       "x-va-field": {
-        "label": "Specify The Security Question You Want Used When Verifying T",
+        "label": "Specify the Security Question You Want Used When Verifying T",
         "widget": "text"
       }
     },
@@ -387,6 +387,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.083538+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.542367+00:00"
   }
 }

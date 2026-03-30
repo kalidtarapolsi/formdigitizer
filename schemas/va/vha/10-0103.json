@@ -35,7 +35,7 @@
     "vafileNum": {
       "type": "string",
       "x-va-field": {
-        "label": "VA File Num",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -123,28 +123,28 @@
     "nameOfPersonOrFirmWithWhomISatisfactorilyBidForNe": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Person Or Firm With Whom I Satisfactorily Bid For Ne",
+        "label": "Name of Person or Firm With Whom I Satisfactorily Bid for Ne",
         "widget": "text"
       }
     },
     "iAcknowledgeThatTheVaAssumes": {
       "type": "string",
       "x-va-field": {
-        "label": "\u2022 I acknowledge that the VA assumes",
+        "label": "I Acknowledge That the VA Assumes",
         "widget": "radio"
       }
     },
     "installationAssumes": {
       "type": "string",
       "x-va-field": {
-        "label": "installation; assumes",
+        "label": "Installation Assumes",
         "widget": "radio"
       }
     },
     "devicesInstalledAndAssumes": {
       "type": "string",
       "x-va-field": {
-        "label": "devices installed; and assumes",
+        "label": "Devices Installed and Assumes",
         "widget": "radio"
       }
     },
@@ -187,6 +187,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.664846+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.022347+00:00"
   }
 }

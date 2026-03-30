@@ -56,7 +56,7 @@
     "valoanNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Valoan Number",
+        "label": "VA Loan Number",
         "widget": "text"
       }
     },
@@ -210,7 +210,7 @@
     "returnTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Return To",
+        "label": "Return to",
         "widget": "text"
       }
     },
@@ -238,14 +238,14 @@
     "haveAgreedOnPurchasePriceBut": {
       "type": "string",
       "x-va-field": {
-        "label": "Have agreed on purchase price but",
+        "label": "Have Agreed on Purchase Price But",
         "widget": "radio"
       }
     },
     "assessmentsAndOrOtherLiensOutstanding": {
       "type": "string",
       "x-va-field": {
-        "label": "Assessments And/Or Other Liens Outstanding",
+        "label": "Assessments and or Other Liens Outstanding",
         "widget": "text"
       }
     },
@@ -281,7 +281,7 @@
     "informationAboutPurchaserOrOwnerOfPropertyWhoWillAs": {
       "type": "string",
       "x-va-field": {
-        "label": "Information About Purchaser Or Owner Of Property Who Will As",
+        "label": "Information About Purchaser or Owner of Property Who Will As",
         "widget": "text"
       }
     }
@@ -302,6 +302,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.630353+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.158061+00:00"
   }
 }

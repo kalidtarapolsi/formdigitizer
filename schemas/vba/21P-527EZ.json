@@ -686,7 +686,7 @@
     "roleOrPositionYouPerformAtFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "Role or Position You Perform at Facility",
+        "label": "Role or Position You Per Form at Facility",
         "widget": "text"
       }
     },
@@ -897,7 +897,7 @@
     "ifYouAreMakingAClaimFor": {
       "type": "string",
       "x-va-field": {
-        "label": "If you are making a claim for",
+        "label": "If You Are Making a Claim for",
         "widget": "text"
       }
     },
@@ -932,49 +932,49 @@
     "reportForAnyVaMedicalExaminationsVaDeterminesAreNec": {
       "type": "string",
       "x-va-field": {
-        "label": "Report for any VA medical examinations VA determines are nec",
+        "label": "Report for Any VA Medical Examinations VA Determines Are Nec",
         "widget": "text"
       }
     },
     "ifClaimingAChild": {
       "type": "string",
       "x-va-field": {
-        "label": "If claiming a child",
+        "label": "If Claiming a Child",
         "widget": "text"
       }
     },
     "yearFromThe": {
       "type": "string",
       "x-va-field": {
-        "label": "year from the",
+        "label": "Year From the",
         "widget": "text"
       }
     },
     "youHaveUpToOneYearFromThe": {
       "type": "string",
       "x-va-field": {
-        "label": "You have up to one year from the",
+        "label": "You Have Up to One Year From the",
         "widget": "text"
       }
     },
     "verifyMilitaryService": {
       "type": "string",
       "x-va-field": {
-        "label": "verify military service",
+        "label": "Verify Military Service",
         "widget": "text"
       }
     },
     "ifYourMilitaryRecordsWereStoredThereOnThat": {
       "type": "string",
       "x-va-field": {
-        "label": "If your military records were stored there on that",
+        "label": "If Your Military Records Were Stored There on That",
         "widget": "text"
       }
     },
     "youMetCertainMinimumActiveServiceRequirementsDuringA": {
       "type": "string",
       "x-va-field": {
-        "label": "You met certain minimum active service requirements during a",
+        "label": "You Met Certain Minimum Active Service Requirements During a",
         "widget": "text"
       }
     },
@@ -1002,14 +1002,14 @@
     "howVaDeterminesTheEffective": {
       "type": "string",
       "x-va-field": {
-        "label": "How VA Determines The Effective",
+        "label": "How VA Determines the Effective",
         "widget": "text"
       }
     },
     "directUploadVia": {
       "type": "string",
       "x-va-field": {
-        "label": "Direct Upload via",
+        "label": "Direct Upload Via",
         "widget": "text"
       }
     },
@@ -1023,14 +1023,14 @@
     "oneYearFromTheReceipt": {
       "type": "string",
       "x-va-field": {
-        "label": "one year from the receipt",
+        "label": "One Year From the Receipt",
         "widget": "text"
       }
     },
     "oExamplesInclude": {
       "type": "string",
       "x-va-field": {
-        "label": "o Examples include",
+        "label": "O Examples Include",
         "widget": "text"
       }
     },
@@ -1065,7 +1065,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "text"
       }
     },
@@ -1100,7 +1100,7 @@
     "socialSecurityAdministration": {
       "type": "string",
       "x-va-field": {
-        "label": "Social Security Administration?",
+        "label": "Social Security Administration",
         "widget": "text"
       }
     },
@@ -1156,7 +1156,7 @@
     "cityAndStateOrCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "City And State Or Country",
+        "label": "City and State or Country",
         "widget": "text"
       }
     },
@@ -1198,7 +1198,7 @@
     "nameOfCustodian": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Custodian",
+        "label": "Name of Custodian",
         "widget": "text"
       }
     },
@@ -1219,7 +1219,7 @@
     "socialSecurityinterestDividends": {
       "type": "string",
       "x-va-field": {
-        "label": "Social Securityinterest/Dividends",
+        "label": "Social Security Interest Dividends",
         "widget": "text"
       }
     },
@@ -1326,7 +1326,7 @@
     "whichVaMayRequestInclude": {
       "type": "string",
       "x-va-field": {
-        "label": "which VA may request include",
+        "label": "Which VA May Request Include",
         "widget": "text"
       }
     },
@@ -1347,7 +1347,7 @@
     "whatRoleOrPositionDoYouPerformAtTheFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "What Role or Position Do You Perform at the Facility",
+        "label": "What Role or Position Do You Per Form at the Facility",
         "widget": "text"
       }
     },
@@ -1362,7 +1362,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "What Is The Facility Telephone Number?",
+        "label": "What is the Facility Telephone Number",
         "widget": "phone"
       }
     },
@@ -1377,14 +1377,14 @@
     "whatIsTheMailingAddressOfTheFacilitySAdministrative": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Mailing Address Of The Facility'S Administrative",
+        "label": "What is the Mailing Address of the Facility S Administrative",
         "widget": "address"
       }
     },
     "whatIsTheFacilitySWebsiteAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Facility'S Website Address?",
+        "label": "What is the Facility S Website Address",
         "widget": "address"
       }
     },
@@ -1398,7 +1398,7 @@
     "doesTheFacilitySStaffProvideTheCareRecipientWithHe": {
       "type": "string",
       "x-va-field": {
-        "label": "Does The Facility'S Staff Provide The Care Recipient With He",
+        "label": "Does the Facility S Staff Provide the Care Recipient With He",
         "widget": "text"
       }
     },
@@ -1406,7 +1406,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Please Provide The Date Of Admission For The Care",
+        "label": "Please Provide the Date of Admission for the Care",
         "widget": "date"
       }
     },
@@ -1421,7 +1421,7 @@
     "pleaseProvideTheMonthlyChargesTheCareRecipientStayin": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Provide The Monthly Charges The Care Recipient Stayin",
+        "label": "Please Provide the Monthly Charges the Care Recipient Stayin",
         "widget": "text"
       }
     },
@@ -1450,14 +1450,14 @@
     "isTheInHomeCareProvidedByALicensedMedicalProfessio": {
       "type": "string",
       "x-va-field": {
-        "label": "Is The In-Home Care Provided By A Licensed Medical Professio",
+        "label": "Is the in Home Care Provided by a Licensed Medical Professio",
         "widget": "text"
       }
     },
     "doYouWorkForAnAgencyOr": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Work For An Agency Or",
+        "label": "Do You Work for an Agency or",
         "widget": "text"
       }
     },
@@ -1472,7 +1472,7 @@
     "whatIsYourMailingAddressOrThatOfYourAgencySAdmini": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is Your Mailing Address Or That Of Your Agency'S Admini",
+        "label": "What is Your Mailing Address or That of Your Agency S Admini",
         "widget": "address"
       }
     },
@@ -1493,7 +1493,7 @@
     "isThePrimaryResponsibilityOfTheInHomeAttendantToPr": {
       "type": "string",
       "x-va-field": {
-        "label": "Is The Primary Responsibility Of The In-Home Attendant To Pr",
+        "label": "Is the Primary Responsibility of the in Home Attendant to Pr",
         "widget": "text"
       }
     },
@@ -1508,21 +1508,21 @@
     "pleaseProvideTheHourlyChargesTheCareRecipientIs": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Provide The Hourly Charges The Care Recipient Is",
+        "label": "Please Provide the Hourly Charges the Care Recipient is",
         "widget": "text"
       }
     },
     "pleaseProvideTheTotalHoursPerMonthThatYouProvide": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Provide The Total Hours Per Month That You Provide",
+        "label": "Please Provide the Total Hours Per Month That You Provide",
         "widget": "text"
       }
     },
     "signatureOfProvider": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Provider",
+        "label": "Signature of Provider",
         "widget": "signature"
       }
     },
@@ -1671,6 +1671,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.367006+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.880936+00:00"
   }
 }

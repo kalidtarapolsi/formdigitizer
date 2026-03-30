@@ -149,14 +149,14 @@
     "eMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "E-Mail Address",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "provideTheNameAndAddressOfTheFacilityThatWasClosed": {
       "type": "string",
       "x-va-field": {
-        "label": "Provide The Name And Address Of The Facility That Was Closed",
+        "label": "Provide the Name and Address of the Facility That Was Closed",
         "widget": "text"
       }
     },
@@ -170,7 +170,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
@@ -200,7 +200,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "What Was Your Last Date Of Attendance At The Closed Or Disap",
+        "label": "What Was Your Last Date of Attendance at the Closed or Disap",
         "widget": "date"
       }
     },
@@ -258,6 +258,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.708916+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.282745+00:00"
   }
 }

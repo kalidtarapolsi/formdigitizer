@@ -63,14 +63,14 @@
     "nameOfPayee": {
       "type": "string",
       "x-va-field": {
-        "label": "Name  Of Payee",
+        "label": "Name of Payee",
         "widget": "text"
       }
     },
     "addressOf": {
       "type": "string",
       "x-va-field": {
-        "label": "Address  Of",
+        "label": "Address of",
         "widget": "text"
       }
     },
@@ -84,7 +84,7 @@
     "signatureOfDirectorOrDesignee": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Director Or Designee",
+        "label": "Signature of Director or Designee",
         "widget": "text"
       }
     }
@@ -104,6 +104,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.707695+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.258516+00:00"
   }
 }

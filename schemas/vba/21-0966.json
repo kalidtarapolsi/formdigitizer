@@ -259,7 +259,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
@@ -273,7 +273,7 @@
     "haveYouEverFiledAVaClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "Have You Ever Filed A VA Claim?",
+        "label": "Have You Ever Filed a VA Claim",
         "widget": "text"
       }
     },
@@ -325,7 +325,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "required only to preserve a",
+        "label": "Required Only to Preserve a",
         "widget": "date"
       }
     },
@@ -346,7 +346,7 @@
     "iAcknowledgeThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I acknowledge that",
+        "label": "I Acknowledge That",
         "widget": "text"
       }
     },
@@ -389,6 +389,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.087592+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.547142+00:00"
   }
 }

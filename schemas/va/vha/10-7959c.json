@@ -342,7 +342,7 @@
     "nameOfInsurance_1": {
       "type": "string",
       "x-va-field": {
-        "label": "Name of insurance #1",
+        "label": "Name of Insurance_",
         "widget": "text"
       }
     },
@@ -357,7 +357,7 @@
     "nameOfInsurance_2": {
       "type": "string",
       "x-va-field": {
-        "label": "Name of insurance #2",
+        "label": "Name of Insurance_",
         "widget": "text"
       }
     },
@@ -380,7 +380,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "\u2022 Re-certification - up",
+        "label": "Re Certification Up",
         "widget": "date"
       }
     },
@@ -395,7 +395,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Termination date",
+        "label": "Termination Date",
         "widget": "date"
       }
     },
@@ -403,7 +403,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "reissued is not the termination",
+        "label": "Reissued is Not the Termination",
         "widget": "date"
       }
     },
@@ -417,7 +417,7 @@
     "informationWillHave": {
       "type": "string",
       "x-va-field": {
-        "label": "information will have",
+        "label": "Information Will Have",
         "widget": "radio"
       }
     }
@@ -438,6 +438,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.889282+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.359315+00:00"
   }
 }

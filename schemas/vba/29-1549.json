@@ -63,7 +63,7 @@
     "planofinsurance": {
       "type": "string",
       "x-va-field": {
-        "label": "Planofinsurance",
+        "label": "Plan of Insurance",
         "widget": "text"
       }
     },
@@ -147,7 +147,7 @@
     "daytimeTelephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Daytime Telephone Number",
+        "label": "Day Time Telephone Number",
         "widget": "text"
       }
     },
@@ -161,42 +161,42 @@
     "amountOfInsurance": {
       "type": "string",
       "x-va-field": {
-        "label": "Amount Of Insurance",
+        "label": "Amount of Insurance",
         "widget": "text"
       }
     },
     "planOfInsuranceApplied": {
       "type": "string",
       "x-va-field": {
-        "label": "Plan Of Insurance Applied",
+        "label": "Plan of Insurance Applied",
         "widget": "text"
       }
     },
     "doYouWishToContinueOrAddTheTotal": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Wish To Continue Or Add The Total",
+        "label": "Do You Wish to Continue or Add the Total",
         "widget": "text"
       }
     },
     "dispositionOfReserveCredit": {
       "type": "string",
       "x-va-field": {
-        "label": "Disposition Of Reserve Credit",
+        "label": "Disposition of Reserve Credit",
         "widget": "text"
       }
     },
     "methodOfPremiumPayment": {
       "type": "string",
       "x-va-field": {
-        "label": "Method Of Premium Payment",
+        "label": "Method of Premium Payment",
         "widget": "text"
       }
     },
     "modeOfPremiumPayment": {
       "type": "string",
       "x-va-field": {
-        "label": "Mode Of Premium Payment",
+        "label": "Mode of Premium Payment",
         "widget": "text"
       }
     },
@@ -210,14 +210,14 @@
     "diseaseOfTheHeartOrArteries": {
       "type": "string",
       "x-va-field": {
-        "label": "Disease Of The Heart Or Arteries;",
+        "label": "Disease of the Heart or Arteries",
         "widget": "text"
       }
     },
     "highBloodPressure": {
       "type": "string",
       "x-va-field": {
-        "label": "High Blood Pressure?",
+        "label": "High Blood Pressure",
         "widget": "text"
       }
     },
@@ -231,7 +231,7 @@
     "lungDisease": {
       "type": "string",
       "x-va-field": {
-        "label": "Lung Disease?",
+        "label": "Lung Disease",
         "widget": "text"
       }
     },
@@ -245,14 +245,14 @@
     "emotionalOrMentalDisorder": {
       "type": "string",
       "x-va-field": {
-        "label": "Emotional Or Mental Disorder?",
+        "label": "Emotional or Mental Disorder",
         "widget": "text"
       }
     },
     "diseaseOfTheBlood": {
       "type": "string",
       "x-va-field": {
-        "label": "Disease Of The Blood?",
+        "label": "Disease of the Blood",
         "widget": "text"
       }
     },
@@ -266,7 +266,7 @@
     "diabetes": {
       "type": "string",
       "x-va-field": {
-        "label": "Diabetes?",
+        "label": "Diabetes",
         "widget": "text"
       }
     },
@@ -294,14 +294,14 @@
     "anyDiseaseOfTheProstateOrTestesIfA": {
       "type": "string",
       "x-va-field": {
-        "label": "Any Disease Of The Prostate Or Testes If A",
+        "label": "Any Disease of the Prostate or Testes If a",
         "widget": "select"
       }
     },
     "doYouUseOrHaveYouBeenTreatedFor": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Use Or Have You Been Treated For",
+        "label": "Do You Use or Have You Been Treated for",
         "widget": "text"
       }
     },
@@ -315,7 +315,7 @@
     "areYouNowOrHaveYouEverBeen": {
       "type": "string",
       "x-va-field": {
-        "label": "Are You Now Or Have You Ever Been",
+        "label": "Are You Now or Have You Ever Been",
         "widget": "text"
       }
     },
@@ -329,28 +329,28 @@
     "haveYouEverAppliedForDisability": {
       "type": "string",
       "x-va-field": {
-        "label": "Have You Ever Applied For Disability",
+        "label": "Have You Ever Applied for Disability",
         "widget": "text"
       }
     },
     "hasAnyApplicationYouHaveMadeFor": {
       "type": "string",
       "x-va-field": {
-        "label": "Has Any Application You Have Made For",
+        "label": "Has Any Application You Have Made for",
         "widget": "text"
       }
     },
     "heightFeetinches": {
       "type": "string",
       "x-va-field": {
-        "label": "Height:Feetinches",
+        "label": "Height Feetinches",
         "widget": "text"
       }
     },
     "weight2": {
       "type": "string",
       "x-va-field": {
-        "label": "Weight:",
+        "label": "Weight",
         "widget": "text"
       }
     },
@@ -386,6 +386,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.799348+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.335282+00:00"
   }
 }

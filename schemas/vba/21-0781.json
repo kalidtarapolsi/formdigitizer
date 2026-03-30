@@ -142,7 +142,7 @@
     "increasedDecreasedVisitsToAHealthcareProfessionalCounselorOrTreatmentFacility": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Increased Decreased Visits to a Healthcare Professional Counselor or Treatment Facility",
+        "label": "Increased Decreased Visits to a Health Care Professional Counselor or Treatment Facility",
         "widget": "checkbox"
       }
     },
@@ -331,14 +331,14 @@
     "privateHealthcareProvider": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Private Healthcare Provider",
+        "label": "Private Health Care Provider",
         "widget": "checkbox"
       }
     },
     "vaVetCenter": {
       "type": "boolean",
       "x-va-field": {
-        "label": "VA Vet Center",
+        "label": "VA Veteran Center",
         "widget": "checkbox"
       }
     },
@@ -394,7 +394,7 @@
     "notApplicableAndOrNotEnrolledInVhaHealthcare": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Not Applicable and or Not Enrolled in Vha Healthcare",
+        "label": "Not Applicable and or Not Enrolled in Vha Health Care",
         "widget": "checkbox"
       }
     },
@@ -429,14 +429,14 @@
     "layTestimonyCanBeUsed": {
       "type": "string",
       "x-va-field": {
-        "label": "Lay testimony can be used",
+        "label": "Lay Testimony Can Be Used",
         "widget": "text"
       }
     },
     "whenToUseThisForm": {
       "type": "string",
       "x-va-field": {
-        "label": "When To Use This Form",
+        "label": "When to Use This Form",
         "widget": "text"
       }
     },
@@ -450,7 +450,7 @@
     "whatFormIsRequired": {
       "type": "string",
       "x-va-field": {
-        "label": "What Form Is Required",
+        "label": "What Form is Required",
         "widget": "text"
       }
     },
@@ -485,7 +485,7 @@
     "onlineThroughAskVa": {
       "type": "string",
       "x-va-field": {
-        "label": "online through Ask VA",
+        "label": "Online Through Ask VA",
         "widget": "text"
       }
     },
@@ -551,7 +551,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Examples Of",
+        "label": "Examples of",
         "widget": "date"
       }
     },
@@ -567,14 +567,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "approximate",
+        "label": "Approximate",
         "widget": "date"
       }
     },
     "indicateAnyBehavioralChangesFollowingTheInServicePer": {
       "type": "string",
       "x-va-field": {
-        "label": "Indicate Any Behavioral Changes Following The In-Service Per",
+        "label": "Indicate Any Behavioral Changes Following the in Service Per",
         "widget": "text"
       }
     },
@@ -634,7 +634,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Don't have",
+        "label": "Don T Have",
         "widget": "date"
       }
     },
@@ -648,7 +648,7 @@
     "ifYouAreFilingAClaimForCompensationForAConditio": {
       "type": "string",
       "x-va-field": {
-        "label": "If  you are filing a  claim for compensation for a  conditio",
+        "label": "If You Are Filing a Claim for Compensation for a Conditio",
         "widget": "text"
       }
     },
@@ -727,6 +727,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.049455+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.534390+00:00"
   }
 }

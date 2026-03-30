@@ -35,7 +35,7 @@
     "daytimephone": {
       "type": "string",
       "x-va-field": {
-        "label": "Daytimephone",
+        "label": "Day Time Phone",
         "widget": "text"
       }
     },
@@ -92,14 +92,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Of Application",
+        "label": "Date of Application",
         "widget": "date"
       }
     },
     "amountOfInsuranceAppliedFor": {
       "type": "string",
       "x-va-field": {
-        "label": "Amount Of Insurance Applied For",
+        "label": "Amount of Insurance Applied for",
         "widget": "text"
       }
     },
@@ -107,7 +107,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Daytime Telephone Number",
+        "label": "Day Time Telephone Number",
         "widget": "phone"
       }
     },
@@ -121,7 +121,7 @@
     "mailTheCompletedFormTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Mail The Completed Form To",
+        "label": "Mail the Completed Form to",
         "widget": "text"
       }
     }
@@ -142,6 +142,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.830553+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.369952+00:00"
   }
 }

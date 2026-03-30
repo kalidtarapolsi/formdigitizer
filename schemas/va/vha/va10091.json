@@ -203,7 +203,7 @@
     "establishOrUp": {
       "type": "string",
       "x-va-field": {
-        "label": "establish or up",
+        "label": "Establish or Up",
         "widget": "text"
       }
     },
@@ -218,21 +218,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "choose UP",
+        "label": "Choose Up",
         "widget": "date"
       }
     },
     "stationNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "Station Number:",
+        "label": "Station Number",
         "widget": "text"
       }
     },
     "stationContact2": {
       "type": "string",
       "x-va-field": {
-        "label": "Station Contact:",
+        "label": "Station Contact",
         "widget": "text"
       }
     },
@@ -240,14 +240,14 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Station Phone Number:",
+        "label": "Station Phone Number",
         "widget": "phone"
       }
     },
     "stationFaxNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Station Fax Number:",
+        "label": "Station Fax Number",
         "widget": "text"
       }
     },
@@ -255,7 +255,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Station Email Address:",
+        "label": "Station Email Address",
         "widget": "email"
       }
     },
@@ -297,7 +297,7 @@
     "blankOrIncorrectInformationInThisFieldMayCauseA": {
       "type": "string",
       "x-va-field": {
-        "label": "Blank or incorrect information in this field may cause a",
+        "label": "Blank or Incorrect Information in This Field May Cause a",
         "widget": "text"
       }
     },
@@ -313,21 +313,21 @@
     "npi2": {
       "type": "string",
       "x-va-field": {
-        "label": "Npi:",
+        "label": "Npi",
         "widget": "text"
       }
     },
     "smallBusiness": {
       "type": "string",
       "x-va-field": {
-        "label": "Small Business:",
+        "label": "Small Business",
         "widget": "text"
       }
     },
     "payeeVendorName": {
       "type": "string",
       "x-va-field": {
-        "label": "Payee Vendor Name:",
+        "label": "Payee Vendor Name",
         "widget": "text"
       }
     },
@@ -342,7 +342,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Payee/Vendor Email:",
+        "label": "Payee Vendor Email",
         "widget": "email"
       }
     },
@@ -358,14 +358,14 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Payee/Vendor Phone Number:",
+        "label": "Payee Vendor Phone Number",
         "widget": "phone"
       }
     },
     "currentAddress2": {
       "type": "string",
       "x-va-field": {
-        "label": "Current Address:",
+        "label": "Current Address",
         "widget": "address"
       }
     },
@@ -386,7 +386,7 @@
     "currentBankName": {
       "type": "string",
       "x-va-field": {
-        "label": "Current Bank Name:",
+        "label": "Current Bank Name",
         "widget": "text"
       }
     },
@@ -400,49 +400,49 @@
     "currentBankAccountNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Current Bank Account Number:",
+        "label": "Current Bank Account Number",
         "widget": "text"
       }
     },
     "currentAccountType": {
       "type": "string",
       "x-va-field": {
-        "label": "Current Account Type:",
+        "label": "Current Account Type",
         "widget": "text"
       }
     },
     "makesItACrimeTo": {
       "type": "string",
       "x-va-field": {
-        "label": "makes it  a  crime to",
+        "label": "Makes It a Crime to",
         "widget": "text"
       }
     },
     "nameAndTitleOfAuthorizedRepresentative": {
       "type": "string",
       "x-va-field": {
-        "label": "Name And Title Of Authorized Representative:",
+        "label": "Name and Title of Authorized Representative",
         "widget": "text"
       }
     },
     "representativeIsDefinedAs": {
       "type": "string",
       "x-va-field": {
-        "label": "Representative is defined as",
+        "label": "Representative is Defined As",
         "widget": "text"
       }
     },
     "signatureOfAuthorizedRepresentative": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Authorized Representative:",
+        "label": "Signature of Authorized Representative",
         "widget": "signature"
       }
     },
     "statementOnThisFormCanBePunishedByFineOr": {
       "type": "string",
       "x-va-field": {
-        "label": "statement on this form can be punished by fine or",
+        "label": "Statement on This Form Can Be Punished by Fine or",
         "widget": "select"
       }
     },
@@ -545,14 +545,14 @@
     "smallBusiness2": {
       "type": "string",
       "x-va-field": {
-        "label": "Small Business -",
+        "label": "Small Business",
         "widget": "text"
       }
     },
     "payeeVendorName2": {
       "type": "string",
       "x-va-field": {
-        "label": "Payee/Vendor Name",
+        "label": "Payee Vendor Name",
         "widget": "text"
       }
     },
@@ -567,7 +567,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Payee/Vendor Email Address",
+        "label": "Payee Vendor Email Address",
         "widget": "email"
       }
     },
@@ -575,7 +575,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Payee/Vendor Phone Number",
+        "label": "Payee Vendor Phone Number",
         "widget": "phone"
       }
     },
@@ -603,7 +603,7 @@
     "currentBankNineDigitRoutingNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Current Bank Nine-Digit Routing Number",
+        "label": "Current Bank Nine Digit Routing Number",
         "widget": "text"
       }
     },
@@ -624,14 +624,14 @@
     "nameAndTitleOfAuthorizedRepresentative2": {
       "type": "string",
       "x-va-field": {
-        "label": "Name And Title Of Authorized Representative",
+        "label": "Name and Title of Authorized Representative",
         "widget": "text"
       }
     },
     "signatureOfAuthorizedRepresentative2": {
       "type": "string",
       "x-va-field": {
-        "label": "Signature Of Authorized Representative",
+        "label": "Signature of Authorized Representative",
         "widget": "signature"
       }
     },
@@ -645,7 +645,7 @@
     "vaFscCustomerEngagement": {
       "type": "string",
       "x-va-field": {
-        "label": "VA-Fsc Customer Engagement",
+        "label": "VA Fsc Customer Engagement",
         "widget": "text"
       }
     },
@@ -703,6 +703,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.960176+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.392108+00:00"
   }
 }

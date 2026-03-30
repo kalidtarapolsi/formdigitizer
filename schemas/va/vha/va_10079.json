@@ -21,7 +21,7 @@
     "departuredate": {
       "type": "string",
       "x-va-field": {
-        "label": "Departuredate",
+        "label": "Departure Date",
         "widget": "text"
       }
     },
@@ -189,7 +189,7 @@
     "departuredateGov": {
       "type": "string",
       "x-va-field": {
-        "label": "Departuredate Gov",
+        "label": "Departure Date Gov",
         "widget": "text"
       }
     },
@@ -366,7 +366,7 @@
     "modeOfTravel": {
       "type": "string",
       "x-va-field": {
-        "label": "Mode Of Travel",
+        "label": "Mode of Travel",
         "widget": "text"
       }
     },
@@ -422,14 +422,14 @@
     "fuelForTdyRentalCar": {
       "type": "string",
       "x-va-field": {
-        "label": "Fuel For Tdy Rental Car",
+        "label": "Fuel for Tdy Rental Car",
         "widget": "text"
       }
     },
     "costComparisonAmountToBeReimbursedToTraveler": {
       "type": "string",
       "x-va-field": {
-        "label": "Cost Comparison Amount To Be Reimbursed To Traveler",
+        "label": "Cost Comparison Amount to Be Reimbursed to Traveler",
         "widget": "text"
       }
     },
@@ -560,7 +560,7 @@
     "otherEstimatedGovernmentExpenses2": {
       "type": "string",
       "x-va-field": {
-        "label": "Other Estimated Government Expenses:",
+        "label": "Other Estimated Government Expenses",
         "widget": "text"
       }
     },
@@ -609,7 +609,7 @@
     "costComparisonAmountToBeReimbursedToTravelerThisA": {
       "type": "string",
       "x-va-field": {
-        "label": "Cost Comparison Amount To Be Reimbursed To Traveler:  This A",
+        "label": "Cost Comparison Amount to Be Reimbursed to Traveler This a",
         "widget": "text"
       }
     }
@@ -630,6 +630,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.932218+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.409176+00:00"
   }
 }

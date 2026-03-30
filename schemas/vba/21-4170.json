@@ -606,7 +606,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number Of Spouse Or Surviving Spouse",
+        "label": "Social Security Number of Spouse or Surviving Spouse",
         "widget": "ssn"
       }
     },
@@ -650,7 +650,7 @@
     "listAllPeriodsOfSeparation": {
       "type": "string",
       "x-va-field": {
-        "label": "List All Periods Of Separation",
+        "label": "List All Periods of Separation",
         "widget": "text"
       }
     },
@@ -673,7 +673,7 @@
     "listAllPeriodsOfTimeAndPlacesWhereYouLivedAsMarit": {
       "type": "string",
       "x-va-field": {
-        "label": "List All Periods Of Time And Places Where You Lived As Marit",
+        "label": "List All Periods of Time and Places Where You Lived As Marit",
         "widget": "text"
       }
     },
@@ -822,6 +822,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.100547+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.591599+00:00"
   }
 }

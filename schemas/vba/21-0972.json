@@ -339,7 +339,7 @@
     "haveYouVeteranEverFiledAClaimWithVa": {
       "type": "string",
       "x-va-field": {
-        "label": "Have You/Veteran Ever Filed A Claim With VA?",
+        "label": "Have You Veteran Ever Filed a Claim With VA",
         "widget": "text"
       }
     },
@@ -360,7 +360,7 @@
     "relationshipToVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Relationship To Veteran",
+        "label": "Relationship to Veteran",
         "widget": "text"
       }
     },
@@ -381,7 +381,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
@@ -410,14 +410,14 @@
     "evidenceWhichVaMayRequestInclude": {
       "type": "string",
       "x-va-field": {
-        "label": "evidence which VA may request include",
+        "label": "Evidence Which VA May Request Include",
         "widget": "text"
       }
     },
     "withAJudgeSSignatureAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "with a judge's signature and",
+        "label": "With a Judge S Signature and",
         "widget": "signature"
       }
     },
@@ -468,6 +468,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.936236+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.553198+00:00"
   }
 }

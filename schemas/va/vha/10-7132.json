@@ -14,7 +14,7 @@
     "veteranSName": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's Name",
+        "label": "Veteran S Name",
         "widget": "text"
       }
     },
@@ -35,14 +35,14 @@
     "transferredTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Transferred To:",
+        "label": "Transferred to",
         "widget": "text"
       }
     },
     "nameAndAddressOfPersonAgreeingToProvideSupervision": {
       "type": "string",
       "x-va-field": {
-        "label": "Name And Address Of Person Agreeing To Provide Supervision",
+        "label": "Name and Address of Person Agreeing to Provide Supervision",
         "widget": "text"
       }
     },
@@ -69,6 +69,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:35.928412+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.348768+00:00"
   }
 }

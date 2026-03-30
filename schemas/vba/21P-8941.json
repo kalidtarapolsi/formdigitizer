@@ -91,7 +91,7 @@
     "daytimeTelephone": {
       "type": "string",
       "x-va-field": {
-        "label": "Daytime Telephone",
+        "label": "Day Time Telephone",
         "widget": "text"
       }
     },
@@ -168,7 +168,7 @@
     "thisYearTo": {
       "type": "string",
       "x-va-field": {
-        "label": "This Year To",
+        "label": "This Year to",
         "widget": "text"
       }
     },
@@ -198,7 +198,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "and ending",
+        "label": "And Ending",
         "widget": "date"
       }
     },
@@ -226,6 +226,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.424928+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.938513+00:00"
   }
 }

@@ -262,14 +262,14 @@
     "claimantSName": {
       "type": "string",
       "x-va-field": {
-        "label": "Claimant'S Name",
+        "label": "Claimant S Name",
         "widget": "text"
       }
     },
     "nameOfTrainingFacility2": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Training Facility",
+        "label": "Name of Training Facility",
         "widget": "text"
       }
     },
@@ -283,7 +283,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "text"
       }
     },
@@ -305,7 +305,7 @@
     "nameOfTrainingProgram2": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Training Program",
+        "label": "Name of Training Program",
         "widget": "text"
       }
     },
@@ -326,7 +326,7 @@
     "attendanceInAllTrainingPrograms": {
       "type": "string",
       "x-va-field": {
-        "label": "Attendance In All Training Programs",
+        "label": "Attendance in All Training Programs",
         "widget": "text"
       }
     },
@@ -349,14 +349,14 @@
     "reductionInTrainingHours": {
       "type": "string",
       "x-va-field": {
-        "label": "Reduction In Training Hours",
+        "label": "Reduction in Training Hours",
         "widget": "text"
       }
     },
     "terminationOrCompleteWithdrawalFromTraining": {
       "type": "string",
       "x-va-field": {
-        "label": "Termination Or Complete Withdrawal From Training",
+        "label": "Termination or Complete Withdrawal From Training",
         "widget": "text"
       }
     },
@@ -393,14 +393,14 @@
     "summaryOfTrainingProgressOfSkillDevelopment2": {
       "type": "string",
       "x-va-field": {
-        "label": "Summary Of Training Progress Of Skill Development",
+        "label": "Summary of Training Progress of Skill Development",
         "widget": "text"
       }
     },
     "completeTheFollowingBelowForTheInitialTraineeSHourl": {
       "type": "string",
       "x-va-field": {
-        "label": "Complete The Following Below For The Initial Trainee'S Hourl",
+        "label": "Complete the Following Below for the Initial Trainee S Hourl",
         "widget": "text"
       }
     },
@@ -416,7 +416,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Telephone Number Of Vr&E Counselor",
+        "label": "Telephone Number of Vr E Counselor",
         "widget": "phone"
       }
     },
@@ -466,6 +466,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.775187+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.311361+00:00"
   }
 }

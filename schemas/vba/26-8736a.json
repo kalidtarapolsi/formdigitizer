@@ -70,21 +70,21 @@
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Social Security Number:",
+        "label": "Social Security Number",
         "widget": "text"
       }
     },
     "businessAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Business Address:",
+        "label": "Business Address",
         "widget": "text"
       }
     },
     "iAmCurrentlyApprovedAsAVaUnderwriter": {
       "type": "string",
       "x-va-field": {
-        "label": "I Am Currently Approved As A VA-Underwriter:",
+        "label": "I Am Currently Approved As a VA Underwriter",
         "widget": "text"
       }
     },
@@ -105,7 +105,7 @@
     "nameAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Name & Address",
+        "label": "Name Address",
         "widget": "text"
       }
     },
@@ -146,6 +146,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.679403+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.248850+00:00"
   }
 }

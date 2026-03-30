@@ -427,14 +427,14 @@
     "rx": {
       "type": "string",
       "x-va-field": {
-        "label": "Rx #",
+        "label": "Rx",
         "widget": "text"
       }
     },
     "station": {
       "type": "string",
       "x-va-field": {
-        "label": "Station #",
+        "label": "Station",
         "widget": "text"
       }
     },
@@ -457,7 +457,7 @@
     "ceramicsCrownBridge": {
       "type": "string",
       "x-va-field": {
-        "label": "Ceramics/Crown & Bridge",
+        "label": "Ceramics Crown Bridge",
         "widget": "text"
       }
     },
@@ -471,14 +471,14 @@
     "campus2": {
       "type": "string",
       "x-va-field": {
-        "label": "Campus:",
+        "label": "Campus",
         "widget": "text"
       }
     },
     "submittingDentist2": {
       "type": "string",
       "x-va-field": {
-        "label": "Submitting Dentist:",
+        "label": "Submitting Dentist",
         "widget": "text"
       }
     },
@@ -486,7 +486,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Mailed:",
+        "label": "Date Mailed",
         "widget": "date"
       }
     },
@@ -509,28 +509,28 @@
     "patientLastName2": {
       "type": "string",
       "x-va-field": {
-        "label": "Patient Last Name:",
+        "label": "Patient Last Name",
         "widget": "text"
       }
     },
     "patientFirstName2": {
       "type": "string",
       "x-va-field": {
-        "label": "Patient First Name:",
+        "label": "Patient First Name",
         "widget": "text"
       }
     },
     "dentalClass": {
       "type": "string",
       "x-va-field": {
-        "label": "Dental Class:",
+        "label": "Dental Class",
         "widget": "text"
       }
     },
     "enclosedWithCase": {
       "type": "string",
       "x-va-field": {
-        "label": "Enclosed with Case:",
+        "label": "Enclosed With Case",
         "widget": "text"
       }
     },
@@ -586,6 +586,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.776872+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.237198+00:00"
   }
 }

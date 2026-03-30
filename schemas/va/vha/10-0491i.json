@@ -133,7 +133,7 @@
     "advisorComments": {
       "type": "string",
       "x-va-field": {
-        "label": "Advisor comments",
+        "label": "Advisor Comments",
         "widget": "text"
       }
     },
@@ -154,14 +154,14 @@
     "participantSSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Participant's Signature:",
+        "label": "Participant S Signature",
         "widget": "text"
       }
     },
     "advisorSSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Advisor's Signature:",
+        "label": "Advisor S Signature",
         "widget": "text"
       }
     },
@@ -210,7 +210,7 @@
     "newSchoolProgram": {
       "type": "string",
       "x-va-field": {
-        "label": "New School/Program",
+        "label": "New School Program",
         "widget": "text"
       }
     },
@@ -238,14 +238,14 @@
     "endDatestartDateend": {
       "type": "string",
       "x-va-field": {
-        "label": "End Datestart Dateend",
+        "label": "End Datestart Date End",
         "widget": "text"
       }
     },
     "informationFor": {
       "type": "string",
       "x-va-field": {
-        "label": "information for",
+        "label": "Information for",
         "widget": "text"
       }
     }
@@ -265,6 +265,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.657631+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.115831+00:00"
   }
 }

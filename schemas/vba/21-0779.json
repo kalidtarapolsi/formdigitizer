@@ -201,7 +201,7 @@
     "iCertifyThatTheClaimantIsAPatientInThisFacilityBe": {
       "type": "string",
       "x-va-field": {
-        "label": "I Certify That The Claimant Is A Patient In This Facility Be",
+        "label": "I Certify That the Claimant is a Patient in This Facility Be",
         "widget": "text"
       }
     },
@@ -216,7 +216,7 @@
     "nameOfNursingHome2": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Nursing Home",
+        "label": "Name of Nursing Home",
         "widget": "text"
       }
     },
@@ -245,7 +245,7 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
@@ -260,14 +260,14 @@
     "isTheNursingHomeAMedicaidApprovedFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "Is The Nursing Home A Medicaid Approved Facility?",
+        "label": "Is the Nursing Home a Medicaid Approved Facility",
         "widget": "text"
       }
     },
     "hasThePatientAppliedForMedicaid": {
       "type": "string",
       "x-va-field": {
-        "label": "Has The Patient Applied For Medicaid?",
+        "label": "Has the Patient Applied for Medicaid",
         "widget": "text"
       }
     },
@@ -282,7 +282,7 @@
     "monthlyAmountPatientIsResponsibleForOutOfPocket": {
       "type": "string",
       "x-va-field": {
-        "label": "Monthly Amount Patient Is Responsible For Out Of Pocket",
+        "label": "Monthly Amount Patient is Responsible for Out of Pocket",
         "widget": "text"
       }
     },
@@ -297,7 +297,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Nursing Home Official'S Office Telephone",
+        "label": "Nursing Home Official S Office Telephone",
         "widget": "phone"
       }
     },
@@ -369,6 +369,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.067853+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.524415+00:00"
   }
 }

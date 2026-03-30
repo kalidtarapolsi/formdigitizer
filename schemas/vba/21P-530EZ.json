@@ -300,7 +300,7 @@
     "estateWhen": {
       "type": "string",
       "x-va-field": {
-        "label": "estate when",
+        "label": "Estate When",
         "widget": "text"
       }
     },
@@ -321,7 +321,7 @@
     "timeLimitForFilingAClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "Time Limit For Filing A Claim",
+        "label": "Time Limit for Filing a Claim",
         "widget": "text"
       }
     },
@@ -349,7 +349,7 @@
     "proofOfDeathToAccompanyClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "Proof Of Death To Accompany Claim",
+        "label": "Proof of Death to Accompany Claim",
         "widget": "text"
       }
     },
@@ -363,21 +363,21 @@
     "howToSubmitAClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "How To Submit A Claim",
+        "label": "How to Submit a Claim",
         "widget": "text"
       }
     },
     "youMustSubmit": {
       "type": "string",
       "x-va-field": {
-        "label": "You must submit",
+        "label": "You Must Submit",
         "widget": "text"
       }
     },
     "youMust": {
       "type": "string",
       "x-va-field": {
-        "label": "You must",
+        "label": "You Must",
         "widget": "text"
       }
     },
@@ -385,7 +385,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "You have up to one year from the",
+        "label": "You Have Up to One Year From the",
         "widget": "date"
       }
     },
@@ -393,42 +393,42 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "claim before one year from the",
+        "label": "Claim Before One Year From the",
         "widget": "date"
       }
     },
     "youAreStronglyEncouragedTo": {
       "type": "string",
       "x-va-field": {
-        "label": "You are strongly encouraged to",
+        "label": "You Are Strongly Encouraged to",
         "widget": "text"
       }
     },
     "whatYouNeedToDo": {
       "type": "string",
       "x-va-field": {
-        "label": "What You Need To Do",
+        "label": "What You Need to Do",
         "widget": "text"
       }
     },
     "whereToSendInformationAndEvidence": {
       "type": "string",
       "x-va-field": {
-        "label": "Where To Send Information And Evidence",
+        "label": "Where to Send Information and Evidence",
         "widget": "text"
       }
     },
     "whatTheEvidenceMustShowToSupportYourClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "What The Evidence Must Show To Support Your Claim",
+        "label": "What the Evidence Must Show to Support Your Claim",
         "widget": "text"
       }
     },
     "costsAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "costs and",
+        "label": "Costs and",
         "widget": "radio"
       }
     },
@@ -436,7 +436,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "How VA Determines The Effective",
+        "label": "How VA Determines the Effective",
         "widget": "date"
       }
     },
@@ -444,7 +444,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Burial benefits are based on the",
+        "label": "Burial Benefits Are Based on the",
         "widget": "date"
       }
     },
@@ -452,7 +452,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "in determining the effective",
+        "label": "In Determining the Effective",
         "widget": "date"
       }
     },
@@ -509,7 +509,7 @@
     "eMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "E-Mail Address",
+        "label": "Email Address",
         "widget": "address"
       }
     },
@@ -569,7 +569,7 @@
     "have": {
       "type": "string",
       "x-va-field": {
-        "label": "have",
+        "label": "Have",
         "widget": "radio"
       }
     },
@@ -597,7 +597,7 @@
     "wasTheVeteranBuriedInACemeteryOwnedByTheStateOrT": {
       "type": "string",
       "x-va-field": {
-        "label": "Was The Veteran Buried In A Cemetery Owned By The State Or T",
+        "label": "Was the Veteran Buried in a Cemetery Owned by the State or T",
         "widget": "select"
       }
     },
@@ -611,14 +611,14 @@
     "areYouResponsibleForTheVeteranSPlotOrIntermentExpe": {
       "type": "string",
       "x-va-field": {
-        "label": "Are You Responsible For The Veteran's Plot Or Interment Expe",
+        "label": "Are You Responsible for the Veteran S Plot or Interment Expe",
         "widget": "text"
       }
     },
     "areYouResponsibleForTheVeteranSTransportationExpense": {
       "type": "string",
       "x-va-field": {
-        "label": "Are You Responsible For The Veteran's Transportation Expense",
+        "label": "Are You Responsible for the Veteran S Transportation Expense",
         "widget": "text"
       }
     },
@@ -676,6 +676,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:42:36.382149+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.890279+00:00"
   }
 }

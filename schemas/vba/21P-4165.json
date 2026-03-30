@@ -432,7 +432,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Claimant'S Social Security Number",
+        "label": "Claimant S Social Security Number",
         "widget": "ssn"
       }
     },
@@ -440,7 +440,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Claimant'S Date Of Birth",
+        "label": "Claimant S Date of Birth",
         "widget": "date"
       }
     },
@@ -462,7 +462,7 @@
     "claimantEMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Claimant E-Mail Address",
+        "label": "Claimant Email Address",
         "widget": "address"
       }
     },
@@ -518,7 +518,7 @@
     "acreageInCropsAndPasture": {
       "type": "string",
       "x-va-field": {
-        "label": "Acreage In Crops And Pasture",
+        "label": "Acreage in Crops and Pasture",
         "widget": "text"
       }
     },
@@ -532,7 +532,7 @@
     "doYouRentYourFarmToOrFromSomeoneElse": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Rent Your Farm To Or From Someone Else?",
+        "label": "Do You Rent Your Farm to or From Someone Else",
         "widget": "text"
       }
     },
@@ -568,7 +568,7 @@
     "feesForClaims": {
       "type": "string",
       "x-va-field": {
-        "label": "Fees For Claims",
+        "label": "Fees for Claims",
         "widget": "text"
       }
     },
@@ -594,6 +594,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:44:13.989234+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.821685+00:00"
   }
 }

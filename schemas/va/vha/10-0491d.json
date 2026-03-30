@@ -28,7 +28,7 @@
     "phoneNum": {
       "type": "string",
       "x-va-field": {
-        "label": "Phone Num",
+        "label": "Phone Number",
         "widget": "text"
       }
     },
@@ -84,14 +84,14 @@
     "clinicalProgram": {
       "type": "string",
       "x-va-field": {
-        "label": "Clinical Program:",
+        "label": "Clinical Program",
         "widget": "text"
       }
     },
     "dateOfLicensureCertification": {
       "type": "string",
       "x-va-field": {
-        "label": "Date of Licensure/Certification",
+        "label": "Date of Licensure Certification",
         "widget": "text"
       }
     },
@@ -112,7 +112,7 @@
     "appointmentStartDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Appointment/Start Date",
+        "label": "Appointment Start Date",
         "widget": "text"
       }
     },
@@ -175,7 +175,7 @@
     "informationFor": {
       "type": "string",
       "x-va-field": {
-        "label": "information for",
+        "label": "Information for",
         "widget": "text"
       }
     }
@@ -195,6 +195,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.590663+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.109949+00:00"
   }
 }

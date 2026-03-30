@@ -278,15 +278,32 @@ def humanize_label(name):
     "veteranFirstName" → "Veteran's First Name"
     "socialSecurityNumber" → "Social Security Number"
     "dateOfBirth" → "Date of Birth"
+    Also handles all-lowercase concatenated names: "namevet" → "Name Vet"
     """
     # Strip trailing digits used for uniqueness (childsLastName2 → childsLastName)
     base = re.sub(r'\d+$', '', name)
     if not base:
         base = name
 
+    # Handle trailing single-letter suffixes on known date/time words
+    # datea → Date A, montha → Month A, yeara → Year A, daya → Day A
+    base_lower = base.lower()
+    for time_word in ['date', 'month', 'year', 'day']:
+        if base_lower.startswith(time_word) and len(base_lower) == len(time_word) + 1:
+            suffix_char = base_lower[-1]
+            if suffix_char.isalpha():
+                return time_word.capitalize() + ' ' + suffix_char.upper()
+
     # Split on camelCase boundaries
     label = re.sub(r'([a-z])([A-Z])', r'\1 \2', base)
     label = re.sub(r'([A-Z]+)([A-Z][a-z])', r'\1 \2', label)
+
+    # If the result is still a single word (no camelCase boundaries found),
+    # try dictionary-based splitting for all-lowercase concatenated names
+    if ' ' not in label and len(label) >= 6:
+        split_result = split_concatenated_label(label.capitalize())
+        if split_result:
+            label = split_result
 
     # Fix common word-boundary issues
     label = re.sub(r'\bDeathof\b', 'Death of', label, flags=re.IGNORECASE)
@@ -314,6 +331,13 @@ def humanize_label(name):
     label = re.sub(r'\bPhonenumber\b', 'Phone Number', label, flags=re.IGNORECASE)
     label = re.sub(r'\bEmailaddress\b', 'Email Address', label, flags=re.IGNORECASE)
     label = re.sub(r'\bMailingaddress\b', 'Mailing Address', label, flags=re.IGNORECASE)
+    # Fix abbreviated words (case-insensitive for dictionary-split lowercase results)
+    label = re.sub(r'\bNum\b', 'Number', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bAcct\b', 'Account', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bInst\b', 'Institution', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bCert\b', 'Certifying', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bComp\b', 'Compensation', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bVet\b', 'Veteran', label, flags=re.IGNORECASE)
 
     # Capitalize first letter of each word
     words = label.split()
@@ -366,7 +390,7 @@ DONT_SPLIT = {
     'current', 'general', 'special', 'college', 'expense',
     'charges', 'savings', 'witness', 'offices', 'medical',
     'receipt', 'benefit', 'related', 'company', 'release',
-    'defined', 'arrival', 'monthly',
+    'defined', 'arrival', 'monthly', 'expenditures', 'expenditure',
 }
 
 # VA form term dictionary for splitting concatenated labels.
@@ -384,6 +408,7 @@ VA_WORD_LIST = sorted(set([
     'total', 'amount', 'balance', 'value', 'rate', 'cost', 'fee', 'payment',
     'income', 'receipts', 'receipt', 'expenses', 'expense',
     'charges', 'charge', 'deductions', 'deposits', 'deposit',
+    'expenditures', 'expenditure',
     'checking', 'saving', 'savings', 'account', 'acct', 'bond', 'security',
     'insurance', 'premium', 'policy', 'coverage', 'benefit', 'pension',
     'compensation', 'allowance', 'allocation', 'escrowed', 'escrow',
@@ -408,7 +433,7 @@ VA_WORD_LIST = sorted(set([
     'separated', 'married', 'single', 'widowed', 'divorced',
     'face', 'interest', 'cash', 'market',
     'train', 'cert', 'inst', 'num', 'vet',
-    'dob', 'ssn', 'zip', 'file', 'act',
+    'dob', 'ssn', 'zip', 'file', 'act', 'va', 'id',
     # Additional terms found in VA form concatenated labels
     'social', 'mailing', 'postal', 'code', 'area',
     'issue', 'issues', 'loan', 'requested', 'attended',
@@ -717,6 +742,29 @@ def process_schema(filepath, dry_run=False):
             # Generate a proper human-readable label from the clean name
             proper_label = humanize_label(new_name) if new_name else ""
 
+            # Always check if the regenerated label is better than the current one
+            # This catches cases where humanize_label has been improved since the last run
+            if old_label and proper_label and old_label != proper_label:
+                # The regenerated label is different — decide which is better
+                old_words = old_label.split()
+                new_words = proper_label.split()
+                # Prefer the label with more words (more descriptive)
+                # unless the old label came from original PDF text (indicated by
+                # having special chars, parens, or ALL CAPS sections)
+                has_pdf_markers = bool(
+                    re.search(r'[(),.]', old_label) or
+                    re.search(r'[A-Z]{3,}', old_label) or
+                    len(old_label) > 60
+                )
+                if not has_pdf_markers:
+                    if len(new_words) > len(old_words) or proper_label != old_label:
+                        va_field["label"] = proper_label
+                        defn["x-va-field"] = va_field
+                        stats["labels_fixed"] += 1
+                        total_changes += 1
+                        # Update old_label for subsequent checks
+                        old_label = proper_label
+
             needs_label_fix = False
             if old_label:
                 # Comprehensive bad label detection — catch EVERY pattern
@@ -787,47 +835,6 @@ def process_schema(filepath, dry_run=False):
                         defn["x-va-field"] = va_field
                         stats["labels_fixed"] += 1
                         total_changes += 1
-                    else:
-                        # Check for corrupted labels from previous runs:
-                        # Compare current label to what humanize_label produces from field name.
-                        # If they differ and the humanized version has fewer words (cleaner),
-                        # or the current label has suspicious fragments, regenerate.
-                        expected = humanize_label(new_name) if new_name else ""
-                        if expected and old_label != expected:
-                            # Check if label has broken fragments (e.g., "to Gether", "State Ment")
-                            # by checking if the word count differs significantly
-                            old_words = old_label.split()
-                            exp_words = expected.split()
-                            # If the label has MORE words than expected, it was probably over-split
-                            if len(old_words) > len(exp_words) + 1:
-                                va_field["label"] = expected
-                                defn["x-va-field"] = va_field
-                                stats["labels_fixed"] += 1
-                                total_changes += 1
-                            else:
-                                # Check for specific corruption patterns: words that aren't real
-                                # words but are fragments (Gether, Ment, etc.)
-                                FRAGMENT_RE = re.compile(r'^[A-Z][a-z]+$')
-                                has_fragment = False
-                                for w in old_words:
-                                    if FRAGMENT_RE.match(w) and len(w) >= 3:
-                                        wl = w.lower()
-                                        if wl not in DONT_SPLIT and wl not in {
-                                            'the', 'and', 'for', 'not', 'but', 'all', 'can',
-                                            'her', 'was', 'one', 'our', 'out', 'are', 'has',
-                                            'his', 'how', 'its', 'may', 'new', 'now', 'old',
-                                            'see', 'two', 'way', 'who', 'did', 'get', 'him',
-                                            'let', 'say', 'she', 'too', 'use',
-                                        }:
-                                            # Check if this word appears in the expected label
-                                            if w not in exp_words:
-                                                has_fragment = True
-                                                break
-                                if has_fragment:
-                                    va_field["label"] = expected
-                                    defn["x-va-field"] = va_field
-                                    stats["labels_fixed"] += 1
-                                    total_changes += 1
 
                     if is_all_caps and va_field.get("label") == old_label:
                         # Normalize ALL CAPS label to title case

@@ -28,7 +28,7 @@
     "vaclaimNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vaclaim Number",
+        "label": "VA Claim Number",
         "widget": "text"
       }
     },
@@ -49,7 +49,7 @@
     "serviceNumberorSsn": {
       "type": "string",
       "x-va-field": {
-        "label": "Service Numberor SSN",
+        "label": "Service Number or SSN",
         "widget": "text"
       }
     },
@@ -77,7 +77,7 @@
     "mailThisFormTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Mail This Form To",
+        "label": "Mail This Form to",
         "widget": "text"
       }
     },
@@ -98,14 +98,14 @@
     "dateOfBirth": {
       "type": "string",
       "x-va-field": {
-        "label": "Date Of Birth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
     "periodOfActiveService": {
       "type": "string",
       "x-va-field": {
-        "label": "Period Of Active Service",
+        "label": "Period of Active Service",
         "widget": "text"
       }
     },
@@ -119,7 +119,7 @@
     "serviceNumberOr": {
       "type": "string",
       "x-va-field": {
-        "label": "Service Number Or",
+        "label": "Service Number or",
         "widget": "text"
       }
     },
@@ -133,7 +133,7 @@
     "dischargeOrSeparationPapersReturnedTo": {
       "type": "string",
       "x-va-field": {
-        "label": "Discharge Or Separation Papers Returned To",
+        "label": "Discharge or Separation Papers Returned to",
         "widget": "text"
       }
     },
@@ -163,7 +163,7 @@
     "returnTo2": {
       "type": "string",
       "x-va-field": {
-        "label": "Return To:",
+        "label": "Return to",
         "widget": "text"
       }
     },
@@ -205,6 +205,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.688561+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:24.220743+00:00"
   }
 }

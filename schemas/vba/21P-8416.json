@@ -540,7 +540,7 @@
     "removalOfTheMedicalExpenseFromThe": {
       "type": "string",
       "x-va-field": {
-        "label": "removal of the medical expense from the",
+        "label": "Removal of the Medical Expense From the",
         "widget": "text"
       }
     },
@@ -589,7 +589,7 @@
     "stateProvincecountry": {
       "type": "string",
       "x-va-field": {
-        "label": "State/ProvinceCountry",
+        "label": "State Province Country",
         "widget": "text"
       }
     },
@@ -603,14 +603,14 @@
     "ofTheFollowingDates": {
       "type": "string",
       "x-va-field": {
-        "label": "of the following dates",
+        "label": "Of the Following Dates",
         "widget": "text"
       }
     },
     "respondingToALetterThatIdentifiesASpecific": {
       "type": "string",
       "x-va-field": {
-        "label": "responding to a letter that identifies a specific",
+        "label": "Responding to a Letter That Identifies a Specific",
         "widget": "text"
       }
     },
@@ -624,7 +624,7 @@
     "reportAmountsPaidBetweenThe": {
       "type": "string",
       "x-va-field": {
-        "label": "Report amounts paid between the",
+        "label": "Report Amounts Paid Between the",
         "widget": "text"
       }
     },
@@ -659,7 +659,7 @@
     "specific": {
       "type": "string",
       "x-va-field": {
-        "label": "specific",
+        "label": "Specific",
         "widget": "text"
       }
     },
@@ -757,14 +757,14 @@
     "citystateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "CityState/Province",
+        "label": "City State Province",
         "widget": "text"
       }
     },
     "addendumA": {
       "type": "string",
       "x-va-field": {
-        "label": "Addendum A",
+        "label": "Addendum a",
         "widget": "text"
       }
     },
@@ -820,7 +820,7 @@
     "the": {
       "type": "string",
       "x-va-field": {
-        "label": "the",
+        "label": "The",
         "widget": "text"
       }
     },
@@ -883,7 +883,7 @@
     "reportTravelThatOccurredBetweenThe": {
       "type": "string",
       "x-va-field": {
-        "label": "report travel that occurred between the",
+        "label": "Report Travel That Occurred Between the",
         "widget": "text"
       }
     },
@@ -960,7 +960,7 @@
     "whatRoleOrPositionDoYouPerformAtTheFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "What Role or Position Do You Perform at the Facility",
+        "label": "What Role or Position Do You Per Form at the Facility",
         "widget": "text"
       }
     },
@@ -975,7 +975,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "What Is The Facility Telephone Number?",
+        "label": "What is the Facility Telephone Number",
         "widget": "phone"
       }
     },
@@ -990,21 +990,21 @@
     "stateProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "State/Province",
+        "label": "State Province",
         "widget": "select"
       }
     },
     "whatIsTheMailingAddressOfTheFacilitySAdministrative": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Mailing Address Of The Facility'S Administrative",
+        "label": "What is the Mailing Address of the Facility S Administrative",
         "widget": "address"
       }
     },
     "whatIsTheFacilitySWebsiteAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is The Facility'S Website Address?",
+        "label": "What is the Facility S Website Address",
         "widget": "address"
       }
     },
@@ -1018,14 +1018,14 @@
     "forEachStatementBelowPleaseCheckTheBoxIfThisStatem": {
       "type": "string",
       "x-va-field": {
-        "label": "For Each Statement Below Please Check The Box If This Statem",
+        "label": "For Each Statement Below Please Check the Box If This Statem",
         "widget": "select"
       }
     },
     "doesTheFacilitySStaffProvideTheCareRecipientWithHe": {
       "type": "string",
       "x-va-field": {
-        "label": "Does The Facility'S Staff Provide The Care Recipient With He",
+        "label": "Does the Facility S Staff Provide the Care Recipient With He",
         "widget": "text"
       }
     },
@@ -1033,7 +1033,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Please Provide The Date Of Admission For The Care Recipient",
+        "label": "Please Provide the Date of Admission for the Care Recipient",
         "widget": "date"
       }
     },
@@ -1056,7 +1056,7 @@
     "pleaseProvideTheMonthlyChargesTheCareRecipientStayin": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Provide The Monthly Charges The Care Recipient Stayin",
+        "label": "Please Provide the Monthly Charges the Care Recipient Stayin",
         "widget": "text"
       }
     },
@@ -1085,14 +1085,14 @@
     "isTheInHomeCareProvidedByALicensedMedicalProfessio": {
       "type": "string",
       "x-va-field": {
-        "label": "Is The In-Home Care Provided By A Licensed Medical Professio",
+        "label": "Is the in Home Care Provided by a Licensed Medical Professio",
         "widget": "text"
       }
     },
     "doYouWorkForAnAgencyOr": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Work For An Agency Or",
+        "label": "Do You Work for an Agency or",
         "widget": "text"
       }
     },
@@ -1107,7 +1107,7 @@
     "whatIsYourMailingAddressOrThatOfYourAgencySAdmini": {
       "type": "string",
       "x-va-field": {
-        "label": "What Is Your Mailing Address Or That Of Your Agency'S Admini",
+        "label": "What is Your Mailing Address or That of Your Agency S Admini",
         "widget": "address"
       }
     },
@@ -1128,7 +1128,7 @@
     "isThePrimaryResponsibilityOfTheInHomeAttendantToPr": {
       "type": "string",
       "x-va-field": {
-        "label": "Is The Primary Responsibility Of The In-Home Attendant To Pr",
+        "label": "Is the Primary Responsibility of the in Home Attendant to Pr",
         "widget": "text"
       }
     },
@@ -1136,7 +1136,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Please Provide The Date Care Began For The",
+        "label": "Please Provide the Date Care Began for the",
         "widget": "date"
       }
     },
@@ -1159,14 +1159,14 @@
     "pleaseProvideTheHourlyChargesTheCareRecipientIs": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Provide The Hourly Charges The Care Recipient Is",
+        "label": "Please Provide the Hourly Charges the Care Recipient is",
         "widget": "text"
       }
     },
     "pleaseProvideTheTotalHoursPerMonthThatYouProvide": {
       "type": "string",
       "x-va-field": {
-        "label": "Please Provide The Total Hours Per Month That You Provide",
+        "label": "Please Provide the Total Hours Per Month That You Provide",
         "widget": "text"
       }
     },
@@ -1251,6 +1251,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.412471+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.926746+00:00"
   }
 }

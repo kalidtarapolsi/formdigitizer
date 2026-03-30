@@ -234,14 +234,14 @@
     "veteranSSocialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's Social Security Number",
+        "label": "Veteran S Social Security Number",
         "widget": "text"
       }
     },
     "veteranSDateOfBirth": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's Date Of Birth",
+        "label": "Veteran S Date of Birth",
         "widget": "text"
       }
     },
@@ -269,7 +269,7 @@
     "claimantSRelationshipToVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Claimant'S Relationship To Veteran",
+        "label": "Claimant S Relationship to Veteran",
         "widget": "text"
       }
     },
@@ -283,7 +283,7 @@
     "claimantSSocialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Claimant'S Social Security Number",
+        "label": "Claimant S Social Security Number",
         "widget": "text"
       }
     },
@@ -391,7 +391,7 @@
     "feesForClaims": {
       "type": "string",
       "x-va-field": {
-        "label": "Fees For Claims",
+        "label": "Fees for Claims",
         "widget": "text"
       }
     },
@@ -417,6 +417,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:05.391788+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.906050+00:00"
   }
 }

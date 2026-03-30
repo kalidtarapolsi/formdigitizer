@@ -15,21 +15,21 @@
     "veteranlastname": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteranlastname",
+        "label": "Veteran Last Name",
         "widget": "text"
       }
     },
     "veteranfirstname": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteranfirstname",
+        "label": "Veteran First Name",
         "widget": "text"
       }
     },
     "mi": {
       "type": "string",
       "x-va-field": {
-        "label": "Mi",
+        "label": "MI",
         "widget": "text"
       }
     },
@@ -43,21 +43,21 @@
     "vaclaimfilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vaclaimfilenumber",
+        "label": "VA Claim File Number",
         "widget": "text"
       }
     },
     "dateofbirth": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateofbirth",
+        "label": "Date of Birth",
         "widget": "text"
       }
     },
     "physicaladdress": {
       "type": "string",
       "x-va-field": {
-        "label": "Physicaladdress",
+        "label": "Physical Address",
         "widget": "text"
       }
     },
@@ -114,7 +114,7 @@
     "usingThisForm": {
       "type": "string",
       "x-va-field": {
-        "label": "Using this form",
+        "label": "Using This Form",
         "widget": "text"
       }
     },
@@ -135,14 +135,14 @@
     "timelyFilingRequirement": {
       "type": "string",
       "x-va-field": {
-        "label": "Timely filing requirement",
+        "label": "Timely Filing Requirement",
         "widget": "text"
       }
     },
     "claimsMustBeReceived": {
       "type": "string",
       "x-va-field": {
-        "label": "Claims must be received",
+        "label": "Claims Must Be Received",
         "widget": "radio"
       }
     },
@@ -150,7 +150,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "within two years from the",
+        "label": "Within Two Years From the",
         "widget": "date"
       }
     },
@@ -188,7 +188,7 @@
     "claimInformationDiagnosisTreated": {
       "type": "string",
       "x-va-field": {
-        "label": "Claim Information - Diagnosis treated",
+        "label": "Claim Information Diagnosis Treated",
         "widget": "text"
       }
     },
@@ -245,6 +245,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.897306+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.369114+00:00"
   }
 }

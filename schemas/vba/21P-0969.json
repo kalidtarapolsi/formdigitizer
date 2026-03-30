@@ -29,7 +29,7 @@
     "mi": {
       "type": "string",
       "x-va-field": {
-        "label": "Mi",
+        "label": "MI",
         "widget": "text"
       }
     },
@@ -64,7 +64,7 @@
     "mi2": {
       "type": "string",
       "x-va-field": {
-        "label": "Mi",
+        "label": "MI",
         "widget": "text"
       }
     },
@@ -2626,7 +2626,7 @@
     "firstWitnessNameMi": {
       "type": "string",
       "x-va-field": {
-        "label": "First Witness Name Mi",
+        "label": "First Witness Name MI",
         "widget": "text"
       }
     },
@@ -2696,7 +2696,7 @@
     "secondWitnessNameMi": {
       "type": "string",
       "x-va-field": {
-        "label": "Second Witness Name Mi",
+        "label": "Second Witness Name MI",
         "widget": "text"
       }
     },
@@ -2731,14 +2731,14 @@
     "submitTheFollowingFormsIfYouNeedToUp": {
       "type": "string",
       "x-va-field": {
-        "label": "Submit the following forms if you need to up",
+        "label": "Submit the Following Forms If You Need to Up",
         "widget": "text"
       }
     },
     "toUp": {
       "type": "string",
       "x-va-field": {
-        "label": "\u2022 To up",
+        "label": "To Up",
         "widget": "text"
       }
     },
@@ -2752,28 +2752,28 @@
     "include": {
       "type": "string",
       "x-va-field": {
-        "label": "include",
+        "label": "Include",
         "widget": "text"
       }
     },
     "annuity": {
       "type": "string",
       "x-va-field": {
-        "label": "annuity",
+        "label": "Annuity",
         "widget": "text"
       }
     },
     "theseIncomesAreTypicallyClassifiedAs": {
       "type": "string",
       "x-va-field": {
-        "label": "These incomes are typically classified as",
+        "label": "These Incomes Are Typically Classified As",
         "widget": "text"
       }
     },
     "feesForClaims": {
       "type": "string",
       "x-va-field": {
-        "label": "Fees For Claims",
+        "label": "Fees for Claims",
         "widget": "text"
       }
     },
@@ -2803,7 +2803,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Securityretirement/Pensionwagesunemployment",
+        "label": "Social Securityretirement Pensionwagesunemployment",
         "widget": "ssn"
       }
     },
@@ -2965,6 +2965,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:44:13.957106+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.788869+00:00"
   }
 }

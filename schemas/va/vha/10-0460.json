@@ -315,14 +315,14 @@
     "veteranSSocialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's Social Security Number",
+        "label": "Veteran S Social Security Number",
         "widget": "text"
       }
     },
     "dateThatAAOrHouseboundWasAwardedByVa": {
       "type": "string",
       "x-va-field": {
-        "label": "Date that A&A or Housebound was awarded by VA",
+        "label": "Date That AA or Housebound Was Awarded by VA",
         "widget": "text"
       }
     },
@@ -350,7 +350,7 @@
     "veteranSName": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteran's Name",
+        "label": "Veteran S Name",
         "widget": "text"
       }
     },
@@ -377,6 +377,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:55:04.643483+00:00"
+    "fieldNameFixedAt": "2026-03-30T23:47:23.100011+00:00"
   }
 }
