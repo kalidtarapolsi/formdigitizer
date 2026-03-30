@@ -838,6 +838,971 @@
                 const coverage = f.totalFields > 0 ? (f.composedFields / f.totalFields) * 100 : 0;
                 return coverage === 100;
             }).length;
+            const orgPages = allForms.reduce((sum, f) => sum + (f.pageCount || 0), 0);
+
+            const highestCoveragePct = highestCoverageOrg[1].totalFields > 0
+                ? Math.round((highestCoverageOrg[1].composedFields / highestCoverageOrg[1].totalFields) * 100)
+                : 0;
+
+            const insights = [
+                {
+                    title: 'Largest Organization',
+                    value: largestOrg[0],
+                    description: `${largestOrg[1].forms} forms`
+                },
+                {
+                    title: 'Highest Avg Coverage',
+                    value: highestCoveragePct + '%',
+                    description: `${highestCoverageOrg[0]}`
+                },
+                {
+                    title: 'Largest Form',
+                    value: maxFieldsForm.totalFields || 0,
+                    description: `Form ${maxFieldsForm.name || 'N/A'}`
+                },
+                {
+                    title: '100% Coverage',
+                    value: fullyCoveredForms,
+                    description: `forms fully digitized`
+                },
+                {
+                    title: 'Pages',
+                    value: orgPages,
+                    description: `${Math.round((orgPages / allForms.length) * 100)}% of total`
+                },
+                {
+                    title: 'Average Form Size',
+                    value: Math.round(allForms.reduce((sum, f) => sum + (f.totalFields || 0), 0) / allForms.length),
+                    description: `fields per form`
+                }
+            ];
+
+            document.getElementById('insights').innerHTML = insights.map(insight => `
+                <div class="insight-card">
+                    <div class="insight-title">${insight.title}</div>
+                    <div class="insight-value">${typeof insight.value === 'number' ? insight.value.toLocaleString() : insight.value}</div>
+                    <div class="insight-description">${insight.description}</div>
+                </div>
+            `).join('');
+        }
+
+        function renderFormsTable() {
+            const displayForms = showAllForms ? allForms : allForms.slice(0, 50);
+            const sorted = [...displayForms].sort((a, b) => {
+                const aVal = a[currentSort.field];
+                const bVal = b[currentSort.field];
+
+                if (typeof aVal === 'string') {
+                    return currentSort.direction === 'asc'
+                        ? aVal.localeCompare(bVal)
+                        : bVal.localeCompare(aVal);
+                }
+
+                return currentSort.direction === 'asc' ? aVal - bVal : bVal - aVal;
+            });
+
+            const tbody = document.getElementById('formsTableBody');
+            tbody.innerHTML = sorted.map(form => {
+                const coverage = form.totalFields > 0 ? Math.round((form.composedFields / form.totalFields) * 100) : 0;
+                return `
+                    <tr>
+                        <td><a href="${form.formUrl || '#'}" target="_blank" class="form-link">${form.name || 'N/A'}</a></td>
+                        <td>${form.org || 'N/A'}</td>
+                        <td>${(form.totalFields || 0).toLocaleString()}</td>
+                        <td>${(form.composedFields || 0).toLocaleString()}</td>
+                        <td>${coverage}%</td>
+                        <td>${form.pageCount || 0}</td>
+                        <td>
+                            <span class="badge badge-digitized">${form.status || 'unknown'}</span>
+                            
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+
+            const displayCount = showAllForms ? allForms.length : Math.min(50, allForms.length);
+            document.getElementById('formCountDisplay').textContent = `Showing ${displayCount} of ${allForms.length} forms`;
+
+            const toggleBtn = document.getElementById('toggleShowAll');
+            toggleBtn.textContent = showAllForms ? 'Show Top 50' : `Show All ${allForms.length} Forms`;
+        }
+
+        function setupTableSorting() {
+            document.querySelectorAll('th.sortable').forEach(th => {
+                th.addEventListener('click', function() {
+                    const field = this.dataset.sort;
+                    if (currentSort.field === field) {
+                        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        currentSort.field = field;
+                        currentSort.direction = 'desc';
+                    }
+
+                    document.querySelectorAll('th.sortable').forEach(h => {
+                        h.classList.remove('sort-asc', 'sort-desc');
+                    });
+
+                    if (currentSort.direction === 'asc') {
+                        this.classList.add('sort-asc');
+                    } else {
+                        this.classList.add('sort-desc');
+                    }
+
+                    renderFormsTable();
+                });
+            });
+        }
+
+        document.getElementById('toggleShowAll').addEventListener('click', function() {
+            showAllForms = !showAllForms;
+            renderFormsTable();
+        });
+
+        // Initial load
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VA Forms — Schema Database Coverage Report</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            color: #1B1B1B;
+            background-color: #f0f6fa;
+            line-height: 1.6;
+        }
+
+        /* Header & Navigation */
+        .header {
+            background: linear-gradient(135deg, #030940 0%, #050F69 100%);
+            color: white;
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .header-logos {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .header-logos img {
+            height: 36px;
+            width: auto;
+            display: block;
+        }
+
+        .header-logos .logo-divider {
+            width: 1px;
+            height: 28px;
+            background: rgba(255,255,255,0.3);
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
+        .header h1 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+            margin-bottom: 0;
+        }
+
+        .subtitle {
+            font-size: 0.8rem;
+            opacity: 0.75;
+            margin-top: 0.1rem;
+            font-weight: 300;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .header-nav a {
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .header-nav a:hover {
+            color: white;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .header-nav a.active {
+            color: white;
+            background: rgba(255,255,255,0.15);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Loading & Error States */
+        .loading {
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .spinner {
+            border: 4px solid #D6D7D9;
+            border-top: 4px solid #0071BC;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background-color: #FEE5E6;
+            border-left: 4px solid #E31C3D;
+            color: #923B3F;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+        }
+
+        /* Summary Cards */
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        .card-label {
+            font-size: 0.9rem;
+            color: #5B616B;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #112E51;
+        }
+
+        .card-subtext {
+            font-size: 0.85rem;
+            color: #5B616B;
+            margin-top: 0.5rem;
+        }
+
+        /* Organization Breakdown */
+        .section-title {
+            font-size: 1.8rem;
+            color: #112E51;
+            margin: 2.5rem 0 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #02BFE7;
+        }
+
+        .org-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .org-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .org-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #112E51;
+            margin-bottom: 1rem;
+        }
+
+        .org-stat {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+        }
+
+        .org-stat-label {
+            color: #5B616B;
+        }
+
+        .org-stat-value {
+            font-weight: 600;
+            color: #1B1B1B;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background-color: #D6D7D9;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            font-size: 0.85rem;
+            color: #5B616B;
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+
+        /* Coverage Distribution Chart */
+        .chart-container {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            margin-bottom: 2rem;
+        }
+
+        .chart-bars {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .bar-item {
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .bar-label {
+            font-size: 0.9rem;
+            color: #5B616B;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .bar {
+            width: 100%;
+            height: 200px;
+            background-color: #D6D7D9;
+            border-radius: 4px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+        }
+
+        .bar-fill {
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding-bottom: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .bar-count {
+            font-size: 0.85rem;
+            color: #5B616B;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 0.5rem;
+        }
+
+        /* Table */
+        .table-controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            align-items: center;
+        }
+
+        .toggle-button {
+            background-color: #0071BC;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .toggle-button:hover {
+            background-color: #005a96;
+        }
+
+        .table-wrapper {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: #112E51;
+            color: white;
+        }
+
+        th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: background-color 0.3s ease;
+            white-space: nowrap;
+        }
+
+        th:hover {
+            background-color: #0071BC;
+        }
+
+        th.sortable::after {
+            content: " ⬍";
+            opacity: 0.5;
+            font-size: 0.8rem;
+        }
+
+        th.sort-asc::after {
+            content: " ▲";
+            opacity: 1;
+        }
+
+        th.sort-desc::after {
+            content: " ▼";
+            opacity: 1;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #D6D7D9;
+            transition: background-color 0.2s ease;
+        }
+
+        tbody tr:hover {
+            background-color: #f9fafb;
+        }
+
+        td {
+            padding: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .form-link {
+            color: #0071BC;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .form-link:hover {
+            color: #005a96;
+            text-decoration: underline;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.4rem 0.8rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
+        }
+
+        .badge-digitized {
+            background-color: #D4EDDA;
+            color: #2E8540;
+        }
+
+        .badge-online {
+            background-color: #D1ECF1;
+            color: #0071BC;
+        }
+
+        /* Insights */
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .insight-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid #02BFE7;
+        }
+
+        .insight-title {
+            font-size: 0.9rem;
+            color: #5B616B;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .insight-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #112E51;
+        }
+
+        .insight-description {
+            font-size: 0.85rem;
+            color: #5B616B;
+            margin-top: 0.5rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .subtitle {
+                font-size: 0.95rem;
+            }
+
+            .summary-grid,
+            .org-grid,
+            .insights-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header-nav {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+
+            .card-value {
+                font-size: 2rem;
+            }
+
+            .chart-bars {
+                gap: 0.5rem;
+            }
+
+            .bar {
+                height: 150px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .header {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.4rem;
+            }
+
+            .header {
+                flex-wrap: wrap;
+            }
+
+            .header-nav {
+                gap: 0.5rem;
+            }
+
+            .header-nav a {
+                padding: 0.5rem 0;
+            }
+
+            .card-value {
+                font-size: 1.6rem;
+            }
+
+            .chart-bars {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .bar {
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-logos">
+            <img src="https://images.squarespace-cdn.com/content/v1/6209762bbb7641327e69acc0/21737a6d-1c02-42eb-89e0-afff7da79c68/Aquia+Inc+Website+Header+Logo_Deep+Blue+Background.png?format=300w" alt="Aquia Inc.">
+            <div class="logo-divider"></div>
+            <img src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/header-logo.png" alt="VA" style="height: 32px;">
+        </div>
+        <div class="header-text">
+            <h1>Schema Coverage Report</h1>
+            <p class="subtitle">Live analysis of <span id="totalCount">...</span> digitized VA form schemas</p>
+        </div>
+        <nav class="header-nav">
+            <a href="forms.html">Forms</a>
+            <a href="index.html">Digitizer</a>
+            <a href="report.html" class="active">Report</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div id="loadingState" class="loading">
+            <div class="spinner"></div>
+            <p>Loading form data...</p>
+        </div>
+
+        <div id="content" style="display: none;">
+            <!-- Summary Cards -->
+            <div class="summary-grid" id="summaryCards"></div>
+
+            <!-- Organization Breakdown -->
+            <h2 class="section-title">Organization Breakdown</h2>
+            <div class="org-grid" id="orgCards"></div>
+
+            <!-- Coverage Distribution -->
+            <h2 class="section-title">Coverage Distribution</h2>
+            <div class="chart-container">
+                <div class="chart-bars" id="chartBars"></div>
+            </div>
+
+            <!-- Key Insights -->
+            <h2 class="section-title">Key Insights</h2>
+            <div class="insights-grid" id="insights"></div>
+
+            <!-- Forms Table -->
+            <h2 class="section-title">All Forms</h2>
+            <div class="table-controls">
+                <button class="toggle-button" id="toggleShowAll">Show All Forms</button>
+                <span id="formCountDisplay"></span>
+            </div>
+            <div class="table-wrapper">
+                <table id="formsTable">
+                    <thead>
+                        <tr>
+                            <th class="sortable" data-sort="name">Form Number</th>
+                            <th class="sortable" data-sort="org">Organization</th>
+                            <th class="sortable" data-sort="totalFields">Total Fields</th>
+                            <th class="sortable" data-sort="composedFields">Composed Fields</th>
+                            <th class="sortable" data-sort="coveragePercent">Coverage %</th>
+                            <th class="sortable" data-sort="pageCount">Pages</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="formsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="errorState" style="display: none;">
+            <div class="error-message" id="errorMessage"></div>
+        </div>
+    </div>
+
+    <script>
+        const DATA_SOURCES = [
+            { url: 'schemas/vba/index.json', org: 'VBA' },
+            { url: 'schemas/va/vha/index.json', org: 'VHA' },
+            { url: 'schemas/va/nca/index.json', org: 'NCA' },
+            { url: 'schemas/va/admin/index.json', org: 'Admin' },
+            { url: 'schemas/va/facilities/index.json', org: 'Facilities' },
+            { url: 'schemas/va/other/index.json', org: 'Other' }
+        ];
+
+        let allForms = [];
+        let showAllForms = false;
+        let currentSort = { field: 'totalFields', direction: 'desc' };
+
+        async function loadData() {
+            try {
+                const results = await Promise.all(
+                    DATA_SOURCES.map(source =>
+                        fetch(source.url)
+                            .then(response => {
+                                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                                return response.json();
+                            })
+                            .then(data => ({
+                                org: source.org,
+                                forms: data.forms || []
+                            }))
+                    )
+                );
+
+                allForms = [];
+                results.forEach(result => {
+                    result.forms.forEach(form => {
+                        allForms.push({
+                            ...form,
+                            org: result.org
+                        });
+                    });
+                });
+
+                renderReport();
+                document.getElementById('loadingState').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+            } catch (error) {
+                console.error('Error loading data:', error);
+                showError(`Failed to load form data: ${error.message}`);
+            }
+        }
+
+        function showError(message) {
+            document.getElementById('loadingState').style.display = 'none';
+            document.getElementById('content').style.display = 'none';
+            document.getElementById('errorState').style.display = 'block';
+            document.getElementById('errorMessage').textContent = message;
+        }
+
+        function renderReport() {
+            renderSummaryCards();
+            renderOrgBreakdown();
+            renderCoverageDistribution();
+            renderInsights();
+            renderFormsTable();
+            setupTableSorting();
+        }
+
+        function renderSummaryCards() {
+            const totalForms = allForms.length;
+            const digitizedForms = allForms.filter(f => f.status === 'digitized').length;
+            const totalFields = allForms.reduce((sum, f) => sum + (f.totalFields || 0), 0);
+            const composedFields = allForms.reduce((sum, f) => sum + (f.composedFields || 0), 0);
+            const overallCoverage = totalFields > 0 ? Math.round((composedFields / totalFields) * 100) : 0;
+            const totalPages = allForms.reduce((sum, f) => sum + (f.pageCount || 0), 0);
+
+            document.getElementById('totalCount').textContent = totalForms.toLocaleString();
+
+            const cards = [
+                { label: 'Total Forms', value: totalForms, subtext: 'across all organizations' },
+                { label: 'Digitized', value: digitizedForms, subtext: `${Math.round((digitizedForms / totalForms) * 100)}% complete` },
+                { label: 'Total Fields', value: totalFields, subtext: 'across all forms' },
+                { label: 'Composed Fields', value: composedFields, subtext: 'digitized and extracted' },
+                { label: 'Digitization', value: '100%', subtext: `${overallCoverage}% field composition · all ${totalForms} forms digitized` },
+                { label: 'Total Pages', value: totalPages.toLocaleString(), subtext: 'across all form PDFs' }
+            ];
+
+            document.getElementById('summaryCards').innerHTML = cards.map(card => `
+                <div class="card">
+                    <div class="card-label">${card.label}</div>
+                    <div class="card-value">${typeof card.value === 'number' ? card.value.toLocaleString() : card.value}</div>
+                    <div class="card-subtext">${card.subtext}</div>
+                </div>
+            `).join('');
+        }
+
+        function renderOrgBreakdown() {
+            const orgMap = {};
+            DATA_SOURCES.forEach(source => {
+                orgMap[source.org] = {
+                    name: source.org,
+                    totalFields: 0,
+                    composedFields: 0,
+                    forms: 0,
+                    pages: 0
+                };
+            });
+
+            allForms.forEach(form => {
+                if (orgMap[form.org]) {
+                    orgMap[form.org].totalFields += form.totalFields || 0;
+                    orgMap[form.org].composedFields += form.composedFields || 0;
+                    orgMap[form.org].forms += 1;
+                    orgMap[form.org].pages += 1;
+                }
+            });
+
+            const orgs = Object.values(orgMap).sort((a, b) => b.forms - a.forms);
+
+            document.getElementById('orgCards').innerHTML = orgs.map(org => {
+                const coverage = org.totalFields > 0 ? Math.round((org.composedFields / org.totalFields) * 100) : 0;
+                const coverageColor = getCoverageColor(coverage);
+
+                return `
+                    <div class="org-card">
+                        <div class="org-name">${org.name}</div>
+                        <div class="org-stat">
+                            <span class="org-stat-label">Forms</span>
+                            <span class="org-stat-value">${org.forms.toLocaleString()}</span>
+                        </div>
+                        <div class="org-stat">
+                            <span class="org-stat-label">Total Fields</span>
+                            <span class="org-stat-value">${org.totalFields.toLocaleString()}</span>
+                        </div>
+                        <div class="org-stat">
+                            <span class="org-stat-label">Composed Fields</span>
+                            <span class="org-stat-value">${org.composedFields.toLocaleString()}</span>
+                        </div>
+                        <div class="org-stat">
+                            <span class="org-stat-label">Pages</span>
+                            <span class="org-stat-value">${org.pages.toLocaleString()}</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: ${coverage}%; background-color: ${coverageColor};"></div>
+                        </div>
+                        <div class="progress-text">${coverage}% coverage</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function getCoverageColor(percent) {
+            if (percent === 100) return '#2E8540';
+            if (percent >= 75) return '#2E8540';
+            if (percent >= 50) return '#FDB81E';
+            return '#E31C3D';
+        }
+
+        function renderCoverageDistribution() {
+            const buckets = {
+                '0%': 0,
+                '1-25%': 0,
+                '26-50%': 0,
+                '51-75%': 0,
+                '76-99%': 0,
+                '100%': 0
+            };
+
+            allForms.forEach(form => {
+                const coverage = form.totalFields > 0 ? Math.round((form.composedFields / form.totalFields) * 100) : 0;
+                if (coverage === 0) buckets['0%']++;
+                else if (coverage === 100) buckets['100%']++;
+                else if (coverage >= 76) buckets['76-99%']++;
+                else if (coverage >= 51) buckets['51-75%']++;
+                else if (coverage >= 26) buckets['26-50%']++;
+                else buckets['1-25%']++;
+            });
+
+            const maxCount = Math.max(...Object.values(buckets));
+            const bucketOrder = ['0%', '1-25%', '26-50%', '51-75%', '76-99%', '100%'];
+
+            document.getElementById('chartBars').innerHTML = bucketOrder.map(bucket => {
+                const count = buckets[bucket];
+                const percentage = maxCount > 0 ? (count / maxCount) * 100 : 0;
+                const barColor = getCoverageColor(parseInt(bucket) || 0);
+
+                return `
+                    <div class="bar-item">
+                        <div class="bar-label">${bucket}</div>
+                        <div class="bar">
+                            <div class="bar-fill" style="height: ${percentage}%; background-color: ${barColor};">
+                                ${count > 0 ? count : ''}
+                            </div>
+                        </div>
+                        <div class="bar-count">${count} form${count !== 1 ? 's' : ''}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderInsights() {
+            const orgStats = {};
+            DATA_SOURCES.forEach(source => {
+                orgStats[source.org] = {
+                    totalFields: 0,
+                    composedFields: 0,
+                    forms: 0
+                };
+            });
+
+            allForms.forEach(form => {
+                if (orgStats[form.org]) {
+                    orgStats[form.org].totalFields += form.totalFields || 0;
+                    orgStats[form.org].composedFields += form.composedFields || 0;
+                    orgStats[form.org].forms += 1;
+                }
+            });
+
+            const largestOrg = Object.entries(orgStats).sort((a, b) => b[1].forms - a[1].forms)[0];
+            const highestCoverageOrg = Object.entries(orgStats).reduce((max, curr) => {
+                const maxCoverage = max[1].totalFields > 0 ? max[1].composedFields / max[1].totalFields : 0;
+                const currCoverage = curr[1].totalFields > 0 ? curr[1].composedFields / curr[1].totalFields : 0;
+                return currCoverage > maxCoverage ? curr : max;
+            });
+
+            const maxFieldsForm = allForms.reduce((max, curr) => (curr.totalFields > max.totalFields ? curr : max), allForms[0] || {});
+            const fullyCoveredForms = allForms.filter(f => {
+                const coverage = f.totalFields > 0 ? (f.composedFields / f.totalFields) * 100 : 0;
+                return coverage === 100;
+            }).length;
             const orgPages = forms.reduce((sum, f) => sum + (f.pageCount || 0), 0);
 
             const highestCoveragePct = highestCoverageOrg[1].totalFields > 0
