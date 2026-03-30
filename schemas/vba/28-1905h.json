@@ -7,7 +7,7 @@
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
@@ -22,35 +22,35 @@
     "daytimePhoneNumberAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Daytime Phone Number Area Code",
+        "label": "Daytime Phone Number Area Code",
         "widget": "text"
       }
     },
     "emailAddressOptional": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Email Address Optional",
+        "label": "Email Address Optional",
         "widget": "text"
       }
     },
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "middleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Middle Initial1",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
@@ -65,49 +65,49 @@
     "mailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Mailing Address Country",
+        "label": "Mailing Address Country",
         "widget": "text"
       }
     },
     "mailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Mailing Address State Or Province",
+        "label": "Mailing Address State or Province",
         "widget": "text"
       }
     },
     "mailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Mailing Address City",
+        "label": "Mailing Address City",
         "widget": "text"
       }
     },
     "mailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Mailing Address Apartment Or Unit Number",
+        "label": "Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "mailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Mailing Address Number And Street",
+        "label": "Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "trainingEstablishemntOrSchool": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Training Establishemnt or School",
+        "label": "Training Establishemnt or School",
         "widget": "text"
       }
     },
     "stateNatureOfIllnessOrInjury": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 State Nature Of Illness Or Injury",
+        "label": "State Nature of Illness or Injury",
         "widget": "text"
       }
     },
@@ -137,13 +137,6 @@
       "x-va-field": {
         "label": "Remarks",
         "widget": "text"
-      }
-    },
-    "fPage_2CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F Page 2 Check Box1",
-        "widget": "checkbox"
       }
     },
     "va": {
@@ -306,7 +299,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1905h-are.pdf",
     "status": "digitized",
     "totalFields": 49,
-    "composedFields": 41,
+    "composedFields": 40,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -318,6 +311,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.260374+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.874636+00:00"
   }
 }

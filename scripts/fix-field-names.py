@@ -170,6 +170,8 @@ def extract_semantic_name_from_xfa(raw_name):
         cleaned = cleaned[1:]
     # Strip vAform prefix (e.g., vAform1551checkBox)
     cleaned = re.sub(r'^v[Aa]form\d+', '', cleaned, count=1)
+    # Strip fPage_ prefix (e.g., fPage_1Field47, fPage_2CheckBox1)
+    cleaned = re.sub(r'^[Pp]age_?\d+', '', cleaned)
 
     # Iteratively strip XFA structural prefixes and embedded segments
     changed = True
@@ -278,6 +280,10 @@ def humanize_label(name):
 
     # Fix common word-boundary issues
     label = re.sub(r'\bDeathof\b', 'Death of', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bNameof\b', 'Name of', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bTypeof\b', 'Type of', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bNumberof\b', 'Number of', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bDateof\b', 'Date of', label, flags=re.IGNORECASE)
     label = re.sub(r'\bAmember\b', 'a Member', label, flags=re.IGNORECASE)
     label = re.sub(r'\bZipor\b', 'ZIP or', label, flags=re.IGNORECASE)
     label = re.sub(r'\bZiporPostal\b', 'ZIP or Postal', label, flags=re.IGNORECASE)
@@ -285,13 +291,14 @@ def humanize_label(name):
     label = re.sub(r'\bE Mail\b', 'Email', label, flags=re.IGNORECASE)
     label = re.sub(r'\bChilds\b', "Child's", label)
     label = re.sub(r'\bVeterans\b', "Veteran's", label)
+    label = re.sub(r'\bClaimants\b', "Claimant's", label)
 
     # Capitalize first letter of each word
     words = label.split()
     # Common lowercase words (not at start)
     lowered = {'of', 'the', 'and', 'or', 'in', 'to', 'for', 'a', 'an', 'by', 'on', 'at', 'is', 'no'}
     # Acronyms to always uppercase
-    acronyms = {'va', 'ssn', 'zip', 'id', 'us', 'dob', 'pow', 'ptsd', 'omb', 'po'}
+    acronyms = {'va', 'ssn', 'zip', 'id', 'us', 'dob', 'pow', 'ptsd', 'omb', 'po', 'mi', 'dic', 'ein'}
 
     result = []
     for i, w in enumerate(words):
@@ -447,6 +454,7 @@ def process_schema(filepath, dry_run=False):
             bool(re.search(r'(?:form\d+|subform\d*|topmostsubform)', name, re.I)) or
             bool(re.match(r'^\d+form', name, re.I)) or
             bool(re.match(r'^[a-z](?:subform|page\d|table\d)', name, re.I)) or  # fSubform..., fPage1...
+            bool(re.match(r'^[a-z]?[Pp]age_?\d', name)) or  # fPage_1Field47, fPage1field47, Page1CheckBox1
             bool(re.search(r'table\d+(?:header)?row\d*subform', name, re.I))  # table3headerRowSubform...
         )
         if has_xfa:
@@ -498,19 +506,54 @@ def process_schema(filepath, dry_run=False):
 
             needs_label_fix = False
             if old_label:
-                # Check if the old label has XFA junk
+                # Comprehensive bad label detection — catch EVERY pattern
                 has_bad_label = bool(
-                    re.search(r'(form\d|subform|#subform|Page\d|Table\d|Row\d|Cell\d)', old_label, re.IGNORECASE) or
-                    re.match(r'^(Checkbox|Check Box|Radio Button|Text Field|Text Box)\s*\d', old_label, re.IGNORECASE) or
-                    re.match(r'^(Y E S|N O )', old_label)  # Spaced-out all-caps
+                    # XFA structural junk: Form1, #subform, Subform, Page refs
+                    re.search(r'(form\d|subform|#subform)', old_label, re.IGNORECASE) or
+                    # "F Page X ..." prefix (XFA page reference in label)
+                    re.match(r'^F\s+(?:Page|Subform|Sub\s*form)\s*\d', old_label, re.IGNORECASE) or
+                    # Page/Table/Row/Cell structural refs (but not "Page of Pages")
+                    (re.search(r'(Page\d|Table\d|Row\d|Cell\d)', old_label) and
+                     not re.search(r'Page\s+of', old_label, re.IGNORECASE)) or
+                    # Widget type as label: "Check Box 1", "Radio Button 2", "Text Field 3"
+                    re.match(r'^(Checkbox|Check\s*Box|Radio\s*Button|Text\s*Field|Text\s*Box)\s*\d', old_label, re.IGNORECASE) or
+                    # Spaced-out characters: "Y E S", "N O", "S S N", "V A", "M I"
+                    re.match(r'^([A-Z]\s){2,}[A-Z]?\s', old_label) or
+                    # Nonsense/truncated labels (just numbers, punctuation, or < 2 chars)
+                    re.match(r'^\d+[A-Z]?\.\s*$', old_label) or
+                    len(old_label.strip()) < 2
                 )
-                # Check if label is ALL CAPS or mostly caps (from text inference) — normalize it
+
+                # Check for spaced-out characters WITHIN labels (e.g., "Veterans S S N")
+                # These should be fixed to proper acronyms
+                has_spaced_chars = bool(re.search(r'\b([A-Z]\s){2,}[A-Z]\b', old_label))
+
+                # Check if label is ALL CAPS or mostly caps (from text inference)
                 alpha_chars = [c for c in old_label if c.isalpha()]
                 upper_ratio = sum(1 for c in alpha_chars if c.isupper()) / max(len(alpha_chars), 1)
                 is_all_caps = upper_ratio > 0.7 and len(old_label) > 3
 
                 if has_bad_label:
                     needs_label_fix = True
+                elif has_spaced_chars:
+                    # Fix spaced-out acronyms in otherwise OK labels
+                    fixed = old_label
+                    fixed = re.sub(r'\bS S N\b', 'SSN', fixed)
+                    fixed = re.sub(r'\bV A\b', 'VA', fixed)
+                    fixed = re.sub(r'\bM I\b', 'MI', fixed)
+                    fixed = re.sub(r'\bD O B\b', 'DOB', fixed)
+                    fixed = re.sub(r'\bP O\b', 'PO', fixed)
+                    fixed = re.sub(r'\bZ I P\b', 'ZIP', fixed)
+                    fixed = re.sub(r'\bI D\b', 'ID', fixed)
+                    fixed = re.sub(r'\bU S\b', 'US', fixed)
+                    # Generic: collapse any remaining A B C → ABC
+                    fixed = re.sub(r'\b([A-Z])\s([A-Z])\s([A-Z])\b', r'\1\2\3', fixed)
+                    fixed = re.sub(r'\b([A-Z])\s([A-Z])\b', r'\1\2', fixed)
+                    if fixed != old_label:
+                        va_field["label"] = fixed
+                        defn["x-va-field"] = va_field
+                        stats["labels_fixed"] += 1
+                        total_changes += 1
                 elif is_all_caps:
                     # Normalize ALL CAPS label to title case
                     normalized = old_label.title()

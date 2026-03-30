@@ -7,7 +7,7 @@
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
@@ -22,42 +22,42 @@
     "telephoneNumberAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Telephone Number Area Code",
+        "label": "Telephone Number Area Code",
         "widget": "text"
       }
     },
     "emailAddressOptional": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Email Address Optional",
+        "label": "Email Address Optional",
         "widget": "text"
       }
     },
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "middleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Middle Initial1",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "claimantsFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Claimants First Name",
+        "label": "Claimants First Name",
         "widget": "text"
       }
     },
     "vaFileNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 V A File Number If Applicable",
+        "label": "VA File Number If Applicable",
         "widget": "text"
       }
     },
@@ -72,70 +72,70 @@
     "country": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Country",
+        "label": "Country",
         "widget": "text"
       }
     },
     "stateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 State Or Province",
+        "label": "State or Province",
         "widget": "text"
       }
     },
     "city": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 City",
+        "label": "City",
         "widget": "text"
       }
     },
     "apartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Apartment Or Unit Number",
+        "label": "Apartment or Unit Number",
         "widget": "text"
       }
     },
     "addressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Address Number And Street",
+        "label": "Address Number and Street",
         "widget": "text"
       }
     },
     "rehabilitationPlanGoal": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Rehabilitation Plan Goal",
+        "label": "Rehabilitation Plan Goal",
         "widget": "text"
       }
     },
     "quantity": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Quantity",
+        "label": "Quantity",
         "widget": "text"
       }
     },
     "nameOfItemServicesAndDescription": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Name Of Item Services And Description",
+        "label": "Name of Item Services and Description",
         "widget": "text"
       }
     },
     "estimatedCostCents": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Estimated Cost Cents",
+        "label": "Estimated Cost Cents",
         "widget": "text"
       }
     },
     "estimatedCost": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Estimated Cost",
+        "label": "Estimated Cost",
         "widget": "text"
       }
     },
@@ -305,13 +305,6 @@
       "x-va-field": {
         "label": "Actual Amount to Be Reimbursed",
         "widget": "text"
-      }
-    },
-    "fPage_2CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F Page 2 Check Box1",
-        "widget": "checkbox"
       }
     },
     "checkBox": {
@@ -495,7 +488,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1905m-are.pdf",
     "status": "digitized",
     "totalFields": 84,
-    "composedFields": 68,
+    "composedFields": 67,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -507,6 +500,6 @@
       "acroform",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.548086+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.876614+00:00"
   }
 }

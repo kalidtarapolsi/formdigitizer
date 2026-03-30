@@ -16,49 +16,49 @@
     "from": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 F R O M",
+        "label": "From",
         "widget": "text"
       }
     },
     "nameandAddressofVeteranTo": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 N A M Eand A D D R E S Sof V E T E R A N T O",
+        "label": "Nameand Addressof Veteran to",
         "widget": "text"
       }
     },
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "veteransLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Last Name",
+        "label": "Veterans Last Name",
         "widget": "text"
       }
     },
     "veteransMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Middle Initial",
+        "label": "Veterans Middle Initial",
         "widget": "text"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "veteransServiceNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Service Number",
+        "label": "Veterans Service Number",
         "widget": "text"
       }
     },
@@ -73,28 +73,28 @@
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "eMailAddressIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 E Mail Address If Applicable",
+        "label": "Email Address If Applicable",
         "widget": "text"
       }
     },
     "fiscalYear1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Fiscal Year1",
+        "label": "Fiscal Year",
         "widget": "text"
       }
     },
     "trainingDays1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Training Days1",
+        "label": "Training Days",
         "widget": "text"
       }
     },
@@ -131,13 +131,6 @@
       "x-va-field": {
         "label": "International Telephone Number If Applicable",
         "widget": "text"
-      }
-    },
-    "fPage_1CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F Page 1 Check Box1",
-        "widget": "checkbox"
       }
     },
     "dateOfBirthMmDdYyyy": {
@@ -299,7 +292,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8951-2-are.pdf",
     "status": "digitized",
     "totalFields": 56,
-    "composedFields": 40,
+    "composedFields": 39,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -312,6 +305,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.331357+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.671944+00:00"
   }
 }

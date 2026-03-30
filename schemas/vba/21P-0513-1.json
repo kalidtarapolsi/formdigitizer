@@ -7,14 +7,14 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
@@ -70,21 +70,21 @@
     "dateSigned3": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "amount7": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
@@ -207,31 +207,10 @@
         "widget": "text"
       }
     },
-    "fPage_1RadioButtonList": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Radio Button List",
-        "widget": "text"
-      }
-    },
     "subTextField1": {
       "type": "string",
       "x-va-field": {
         "label": "Sub Text Field",
-        "widget": "text"
-      }
-    },
-    "fPage_2TextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 Text Field1",
-        "widget": "text"
-      }
-    },
-    "fPage_2RadioButtonList": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 Radio Button List",
         "widget": "text"
       }
     }
@@ -240,7 +219,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0513-1-are.pdf",
     "status": "digitized",
     "totalFields": 37,
-    "composedFields": 33,
+    "composedFields": 30,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -251,6 +230,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.338733+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.678735+00:00"
   }
 }

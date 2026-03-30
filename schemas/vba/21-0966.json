@@ -16,42 +16,42 @@
     "vaFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 V A File Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
     "mailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Number And Street",
+        "label": "Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "mailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Apartment Or Unit Number",
+        "label": "Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "mailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address City",
+        "label": "Mailing Address City",
         "widget": "text"
       }
     },
     "mailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address State Or Province",
+        "label": "Mailing Address State or Province",
         "widget": "text"
       }
     },
     "mailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Country",
+        "label": "Mailing Address Country",
         "widget": "text"
       }
     },
@@ -66,35 +66,35 @@
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "veteransLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Last Name",
+        "label": "Veterans Last Name",
         "widget": "text"
       }
     },
     "veteransMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Middle Initial1",
+        "label": "Veterans Middle Initial",
         "widget": "text"
       }
     },
     "veteransServiceNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Service Number",
+        "label": "Veterans Service Number",
         "widget": "text"
       }
     },
     "internationalPhoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 International Phone Number",
+        "label": "International Phone Number",
         "widget": "text"
       }
     },
@@ -109,35 +109,35 @@
     "telephoneNumberSecondThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Telephone Number Second Three Numbers",
+        "label": "Telephone Number Second Three Numbers",
         "widget": "text"
       }
     },
     "emailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 E M A I L A D D R E S S",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "claimantsLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Claimants Last Name",
+        "label": "Claimants Last Name",
         "widget": "text"
       }
     },
     "claimantsMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Claimants Middle Initial1",
+        "label": "Claimants Middle Initial",
         "widget": "text"
       }
     },
     "claimantsFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Claimants First Name",
+        "label": "Claimants First Name",
         "widget": "text"
       }
     },
@@ -153,21 +153,21 @@
     "relationshipToVeteranOtherSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Relationship To Veteran Other Specify",
+        "label": "Relationship to Veteran Other Specify",
         "widget": "text"
       }
     },
     "claimantsInternationalPhoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Claimants International Phone Number",
+        "label": "Claimants International Phone Number",
         "widget": "text"
       }
     },
     "claimantsEmailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Claimants E M A I L A D D R E S S",
+        "label": "Claimants Email Address",
         "widget": "text"
       }
     },
@@ -204,13 +204,6 @@
       "x-va-field": {
         "label": "Digital Signature",
         "widget": "text"
-      }
-    },
-    "fPage_1CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F Page 1 Check Box1",
-        "widget": "checkbox"
       }
     },
     "dateOfBirthMmDdYyyy": {
@@ -390,7 +383,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0966-are.pdf",
     "status": "digitized",
     "totalFields": 67,
-    "composedFields": 53,
+    "composedFields": 52,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -403,6 +396,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.286668+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.635355+00:00"
   }
 }

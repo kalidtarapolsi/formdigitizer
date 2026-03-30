@@ -7,77 +7,77 @@
     "nameofPersonOrOrganization": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Nameof Person Or Organization",
+        "label": "Nameof Person or Organization",
         "widget": "text"
       }
     },
     "addressOfPersonOrOrganization": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Address Of Person Or Organization",
+        "label": "Address of Person or Organization",
         "widget": "text"
       }
     },
     "datefrom": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Datefrom",
+        "label": "Datefrom",
         "widget": "text"
       }
     },
     "answer1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 answer1",
+        "label": "Answer",
         "widget": "text"
       }
     },
     "answer5": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 answer5",
+        "label": "Answer",
         "widget": "text"
       }
     },
     "answer4": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 answer4",
+        "label": "Answer",
         "widget": "text"
       }
     },
     "answer3": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 answer3",
+        "label": "Answer",
         "widget": "text"
       }
     },
     "answer2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 answer2",
+        "label": "Answer",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "phoneNum": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Phone Num",
+        "label": "Phone Num",
         "widget": "text"
       }
     },
     "dateField1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Date Field1",
+        "label": "Date Field",
         "widget": "text"
       }
     },
@@ -107,13 +107,6 @@
       "x-va-field": {
         "label": "First, Middle, Last Name Of Annuitant Who Is Not The",
         "widget": "text"
-      }
-    },
-    "fPage_2CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F Page 2 Check Box1",
-        "widget": "checkbox"
       }
     },
     "privacyActInformation": {
@@ -202,7 +195,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "11B.",
+        "label": "11b",
         "widget": "date"
       }
     }
@@ -211,7 +204,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0975-are.pdf",
     "status": "digitized",
     "totalFields": 31,
-    "composedFields": 28,
+    "composedFields": 27,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -223,6 +216,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.552517+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.880601+00:00"
   }
 }

@@ -7,336 +7,336 @@
     "yes": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 Y E S",
+        "label": "Yes",
         "widget": "checkbox"
       }
     },
     "no": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 N O",
+        "label": "No",
         "widget": "checkbox"
       }
     },
     "collegeOrOtherSchool": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 C O L L E G E O R O T H E R S C H O O L",
+        "label": "College or Other School",
         "widget": "checkbox"
       }
     },
     "vocationalFlightTraining": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 V O C A T I O N A L F L I G H T T R A I N I N G",
+        "label": "Vocational Flight Training",
         "widget": "checkbox"
       }
     },
     "nationalTestReimbursementSatClepEtc": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 N A T I O N A L T E S T R E I M B U R S E M E N T S A T C L E P E T C",
+        "label": "National Test Reimbursement Sat Clep Etc",
         "widget": "checkbox"
       }
     },
     "licensingOrCertificationTestReimbursement": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 L I C E N S I N G O R C E R T I F I C A T I O N T E S T R E I M B U R S E M E N T",
+        "label": "Licensing or Certification Test Reimbursement",
         "widget": "checkbox"
       }
     },
     "apprenticeshipOrOnTheJob": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 A P P R E N T I C E S H I P O R O N T H E J O B",
+        "label": "Apprenticeship or on the Job",
         "widget": "checkbox"
       }
     },
     "correspondence": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 C O R R E S P O N D E N C E",
+        "label": "Correspondence",
         "widget": "checkbox"
       }
     },
     "tuitionAssistanceTopUp": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 T U I T I O N A S S I S T A N C E T O P U P",
+        "label": "Tuition Assistance Top Up",
         "widget": "checkbox"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "nameFirstMiddleInitialLast": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Name First Middle Initial Last",
+        "label": "Name First Middle Initial Last",
         "widget": "text"
       }
     },
     "numberandStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Numberand Street",
+        "label": "Numberand Street",
         "widget": "text"
       }
     },
     "aptUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Apt Unit Number",
+        "label": "Apt Unit Number",
         "widget": "text"
       }
     },
     "cityStateZipcode": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 City State Z I P Code",
+        "label": "City State Zipcode",
         "widget": "text"
       }
     },
     "homePhone": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Home Phone",
+        "label": "Home Phone",
         "widget": "text"
       }
     },
     "mobilePhone": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Mobile Phone",
+        "label": "Mobile Phone",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "fullNameAndAddressOfSchoolIfKnown": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 F U L L N A M E A N D A D D R E S S O F S C H O O L I F K N O W N",
+        "label": "Full Name and Address of School If Known",
         "widget": "text"
       }
     },
     "specifyYourEducationalOrCareerObjectiveIfKnown": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Specify Your Educational Or Career Objective If Known",
+        "label": "Specify Your Educational or Career Objective If Known",
         "widget": "text"
       }
     },
     "routingOrTransitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Routing Or Transit Number",
+        "label": "Routing or Transit Number",
         "widget": "text"
       }
     },
     "accountNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 3 Account Number",
+        "label": "Account Number",
         "widget": "text"
       }
     },
     "preparatoryCourse": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 3 P R E P A R A T O R Y C O U R S E",
+        "label": "Preparatory Course",
         "widget": "checkbox"
       }
     },
     "ifYesSpecifyBelow": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 If Yes Specify Below",
+        "label": "If Yes Specify Below",
         "widget": "text"
       }
     },
     "nameloc1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 nameloc1",
+        "label": "Nameloc",
         "widget": "text"
       }
     },
     "nameloc2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 nameloc2",
+        "label": "Nameloc",
         "widget": "text"
       }
     },
     "numberandtype1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 numberandtype1",
+        "label": "Numberandtype",
         "widget": "text"
       }
     },
     "degree1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 degree1",
+        "label": "Degree",
         "widget": "text"
       }
     },
     "degree2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 degree2",
+        "label": "Degree",
         "widget": "text"
       }
     },
     "majorfield1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 majorfield1",
+        "label": "Majorfield",
         "widget": "text"
       }
     },
     "majorfield2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 majorfield2",
+        "label": "Majorfield",
         "widget": "text"
       }
     },
     "principalocc1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 principalocc1",
+        "label": "Principalocc",
         "widget": "text"
       }
     },
     "principalocc2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 principalocc2",
+        "label": "Principalocc",
         "widget": "text"
       }
     },
     "licenseorrating1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 licenseorrating1",
+        "label": "Licenseorrating",
         "widget": "text"
       }
     },
     "licenseorrating2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 licenseorrating2",
+        "label": "Licenseorrating",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "serviceMembersBranchOfService": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 Service Members Branch Of Service",
+        "label": "Service Members Branch of Service",
         "widget": "text"
       }
     },
     "months1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 months1",
+        "label": "Months",
         "widget": "text"
       }
     },
     "months2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 months2",
+        "label": "Months",
         "widget": "text"
       }
     },
     "ssn2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 S S N2",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "serviceMembersName2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 Service Members Name2",
+        "label": "Service Members Name",
         "widget": "text"
       }
     },
     "numberandStreet2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 Numberand Street2",
+        "label": "Numberand Street",
         "widget": "text"
       }
     },
     "aptUnitNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 Apt Unit Number2",
+        "label": "Apt Unit Number",
         "widget": "text"
       }
     },
     "cityStateZipcode2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 City State Z I P Code2",
+        "label": "City State Zipcode",
         "widget": "text"
       }
     },
     "datetraing1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 datetraing1",
+        "label": "Datetraing",
         "widget": "text"
       }
     },
     "datetraing4": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 datetraing4",
+        "label": "Datetraing",
         "widget": "text"
       }
     },
     "datetraing3": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 datetraing3",
+        "label": "Datetraing",
         "widget": "text"
       }
     },
     "datetraing2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 datetraing2",
+        "label": "Datetraing",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 4 Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
@@ -460,7 +460,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "16B.",
+        "label": "16b",
         "widget": "date"
       }
     },
@@ -512,6 +512,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.442164+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:17:47.618209+00:00"
   }
 }

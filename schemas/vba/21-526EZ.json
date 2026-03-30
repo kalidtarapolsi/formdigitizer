@@ -7,35 +7,35 @@
     "vaFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 V A File Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
     "emailAddressOptional": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Email Address Optional",
+        "label": "Email Address Optional",
         "widget": "text"
       }
     },
     "veteranServiceMemberFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Veteran Service Member First Name",
+        "label": "Veteran Service Member First Name",
         "widget": "text"
       }
     },
     "veteranServiceMemberLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Veteran Service Member Last Name",
+        "label": "Veteran Service Member Last Name",
         "widget": "text"
       }
     },
     "veteranServiceMemberMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Veteran Service Member Middle Initial",
+        "label": "Veteran Service Member Middle Initial",
         "widget": "text"
       }
     },
@@ -51,35 +51,35 @@
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
@@ -94,35 +94,35 @@
     "newAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 New Address Number And Street",
+        "label": "New Address Number and Street",
         "widget": "text"
       }
     },
     "newAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 New Address Apartment Or Unit Number",
+        "label": "New Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "newAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 New Address City",
+        "label": "New Address City",
         "widget": "text"
       }
     },
     "newAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 New Address State Or Province",
+        "label": "New Address State or Province",
         "widget": "text"
       }
     },
     "newAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 New Address Country",
+        "label": "New Address Country",
         "widget": "text"
       }
     },
@@ -137,21 +137,21 @@
     "veteransServiceNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Veterans Service Number If Applicable",
+        "label": "Veterans Service Number If Applicable",
         "widget": "text"
       }
     },
     "currentVaEmployeeCheckBox": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 10 Current V A Employee Check Box",
+        "label": "Current VA Employee Check Box",
         "widget": "checkbox"
       }
     },
     "daytimePhoneNumberAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Daytime Phone Number Area Code",
+        "label": "Daytime Phone Number Area Code",
         "widget": "text"
       }
     },
@@ -166,49 +166,49 @@
     "fullyDevelopedClaimFdcProgram": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 10 F U L L Y D E V E L O P E D C L A I M F D C P R O G R A M",
+        "label": "Fully Developed Claim Fdc Program",
         "widget": "checkbox"
       }
     },
     "ides": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 10 I D E S",
+        "label": "Ides",
         "widget": "checkbox"
       }
     },
     "bddProgramClaim": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 10 B D D Program Claim",
+        "label": "Bdd Program Claim",
         "widget": "checkbox"
       }
     },
     "standardClaimProcess": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 10 Standard Claim Process",
+        "label": "Standard Claim Process",
         "widget": "checkbox"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "list2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Radio Button List2",
+        "label": "List",
         "widget": "text"
       }
     },
     "list6": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 10 Radio Button List6",
+        "label": "List",
         "widget": "text"
       }
     },
@@ -525,13 +525,6 @@
       "x-va-field": {
         "label": "Name of Financial Institution",
         "widget": "text"
-      }
-    },
-    "fPage_10CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F Page 10 Check Box1",
-        "widget": "checkbox"
       }
     },
     "howToSubmitAClaim": {
@@ -903,7 +896,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "22B.",
+        "label": "22b",
         "widget": "date"
       }
     },
@@ -935,7 +928,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "23B.",
+        "label": "23b",
         "widget": "date"
       }
     },
@@ -1006,7 +999,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "27B.",
+        "label": "27b",
         "widget": "date"
       }
     },
@@ -1035,7 +1028,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "33B.",
+        "label": "33b",
         "widget": "date"
       }
     },
@@ -1050,7 +1043,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "36B.",
+        "label": "36b",
         "widget": "date"
       }
     },
@@ -1058,7 +1051,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "37B.",
+        "label": "37b",
         "widget": "date"
       }
     },
@@ -1151,7 +1144,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-526ez-are.pdf",
     "status": "digitized",
     "totalFields": 204,
-    "composedFields": 159,
+    "composedFields": 158,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -1164,6 +1157,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.318856+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.659015+00:00"
   }
 }

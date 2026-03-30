@@ -7,70 +7,70 @@
     "nameofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Nameof Veteran",
+        "label": "Nameof Veteran",
         "widget": "text"
       }
     },
     "dischargeReturnedTo": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Discharge Returned To",
+        "label": "Discharge Returned to",
         "widget": "text"
       }
     },
     "addressofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Addressof Veteran",
+        "label": "Addressof Veteran",
         "widget": "text"
       }
     },
     "vaclaimNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 V A Claim Number",
+        "label": "Vaclaim Number",
         "widget": "text"
       }
     },
     "signatureofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Signatureof Veteran",
+        "label": "Signatureof Veteran",
         "widget": "text"
       }
     },
     "fileReference": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 File Reference",
+        "label": "File Reference",
         "widget": "text"
       }
     },
     "serviceNumberorSsn": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Service Numberor S S N",
+        "label": "Service Numberor SSN",
         "widget": "text"
       }
     },
     "returnTo": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Return To",
+        "label": "Return to",
         "widget": "text"
       }
     },
     "otherSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Other Specify",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
@@ -128,13 +128,6 @@
       "x-va-field": {
         "label": "Social Security Number",
         "widget": "text"
-      }
-    },
-    "fPage_1CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F Page 1 Check Box1",
-        "widget": "checkbox"
       }
     },
     "dischargeOrSeparationPapersReturnedTo": {
@@ -207,7 +200,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8261a-are.pdf",
     "status": "digitized",
     "totalFields": 31,
-    "composedFields": 28,
+    "composedFields": 27,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -219,6 +212,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.512349+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.844245+00:00"
   }
 }

@@ -7,35 +7,35 @@
     "stationAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Station Address",
+        "label": "Station Address",
         "widget": "text"
       }
     },
     "veteranLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veteran Last Name",
+        "label": "Veteran Last Name",
         "widget": "text"
       }
     },
     "veteranMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veteran Middle Initial1",
+        "label": "Veteran Middle Initial",
         "widget": "text"
       }
     },
     "veteranFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veteran First Name",
+        "label": "Veteran First Name",
         "widget": "text"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
@@ -51,7 +51,7 @@
     "veteransServiceNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Service Number",
+        "label": "Veterans Service Number",
         "widget": "text"
       }
     },
@@ -66,112 +66,112 @@
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "eMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 E Mail Address",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "typeOfWork": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Type Of Work",
+        "label": "Type of Work",
         "widget": "text"
       }
     },
     "timeLostFromIllness": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Time Lost From Illness",
+        "label": "Time Lost From Illness",
         "widget": "text"
       }
     },
     "nameAndAddressOfEmployer": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Name And Address Of Employer",
+        "label": "Name and Address of Employer",
         "widget": "text"
       }
     },
     "primaryTelephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Primary Telephone Number",
+        "label": "Primary Telephone Number",
         "widget": "text"
       }
     },
     "alternateTelephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Alternate Telephone Number",
+        "label": "Alternate Telephone Number",
         "widget": "text"
       }
     },
     "dateMailed": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Date Mailed",
+        "label": "Date Mailed",
         "widget": "text"
       }
     },
     "hoursPerWeek": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Hours Per Week",
+        "label": "Hours Per Week",
         "widget": "text"
       }
     },
     "dateOfEmploymentFrom": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Date Of Employment From",
+        "label": "Date of Employment From",
         "widget": "text"
       }
     },
     "dateOfEmploymentTo": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Date Of Employment To",
+        "label": "Date of Employment to",
         "widget": "text"
       }
     },
     "grossEarningsPerMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Gross Earnings Per Month",
+        "label": "Gross Earnings Per Month",
         "widget": "text"
       }
     },
@@ -249,7 +249,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "11D.",
+        "label": "11d",
         "widget": "date"
       }
     },
@@ -365,6 +365,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.297149+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:17:47.417439+00:00"
   }
 }

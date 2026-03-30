@@ -7,42 +7,42 @@
     "ifAddressHasChanged": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 1 Check Box If Address Has Changed",
+        "label": "If Address Has Changed",
         "widget": "checkbox"
       }
     },
     "veteransMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Mailing Address Number And Street",
+        "label": "Veterans Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "mailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Apartment Or Unit Number",
+        "label": "Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "mailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address City",
+        "label": "Mailing Address City",
         "widget": "text"
       }
     },
     "mailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address State Or Province",
+        "label": "Mailing Address State or Province",
         "widget": "text"
       }
     },
     "mailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Country",
+        "label": "Mailing Address Country",
         "widget": "text"
       }
     },
@@ -66,35 +66,35 @@
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "veteransLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Last Name",
+        "label": "Veterans Last Name",
         "widget": "text"
       }
     },
     "veteransMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Veterans Middle Initial",
+        "label": "Veterans Middle Initial",
         "widget": "text"
       }
     },
     "daytimeTelephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Daytime Telephone Number",
+        "label": "Daytime Telephone Number",
         "widget": "text"
       }
     },
     "emailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Email Address",
+        "label": "Email Address",
         "widget": "text"
       }
     },
@@ -566,6 +566,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.275133+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:17:47.737533+00:00"
   }
 }

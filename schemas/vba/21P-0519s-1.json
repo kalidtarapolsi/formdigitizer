@@ -7,28 +7,28 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "maritalStatus": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F Page 1 Marital Status",
+        "label": "Marital Status",
         "widget": "checkbox"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
@@ -84,28 +84,28 @@
     "dateFrom": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Date From",
+        "label": "Date From",
         "widget": "text"
       }
     },
     "amount9": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "dateSigned2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
@@ -297,27 +297,13 @@
         "label": "Sub Text Field",
         "widget": "text"
       }
-    },
-    "fPage_2TextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 Text Field1",
-        "widget": "text"
-      }
-    },
-    "fPage_2RadioButtonList": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 Radio Button List",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0519s-1-are.pdf",
     "status": "digitized",
     "totalFields": 49,
-    "composedFields": 44,
+    "composedFields": 42,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -328,6 +314,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.357252+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:21:34.695450+00:00"
   }
 }
