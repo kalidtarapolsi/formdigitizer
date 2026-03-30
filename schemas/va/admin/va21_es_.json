@@ -7,182 +7,168 @@
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name",
+        "label": "Name",
         "widget": "text"
       }
     },
     "homeAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Home Address",
+        "label": "Home Address",
         "widget": "text"
       }
     },
     "businessAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Business Address",
+        "label": "Business Address",
         "widget": "text"
       }
     },
     "other": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Other",
+        "label": "Other",
         "widget": "text"
       }
     },
     "listDates": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform List Dates",
+        "label": "List Dates",
         "widget": "text"
       }
     },
     "characterDischarge": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Character Discharge",
+        "label": "Character Discharge",
         "widget": "text"
       }
     },
     "organization": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Organization",
+        "label": "Organization",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "organizatioName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Organizatio Name",
+        "label": "Organizatio Name",
         "widget": "text"
       }
     },
     "agency": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Agency",
+        "label": "Agency",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "certification": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Certification",
+        "label": "Certification",
         "widget": "checkbox"
       }
     },
     "nameOrg": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name Org",
+        "label": "Name Org",
         "widget": "text"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address",
-        "widget": "text"
-      }
-    },
-    "form1SubformCheckBox21": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box21",
-        "widget": "checkbox"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Address",
         "widget": "text"
       }
     },
     "lastNameFirstNameMiddleName2aHomeAddress2bBusi": {
       "type": "string",
       "x-va-field": {
-        "label": "LAST NAME - FIRST NAME - MIDDLE NAME2A. HOME ADDRESS2B. BUSI",
+        "label": "Last Name - First Name - Middle Name2A. Home Address2B. Busi",
         "widget": "text"
       }
     },
     "branchOfService": {
       "type": "string",
       "x-va-field": {
-        "label": "BRANCH OF SERVICE",
+        "label": "Branch Of Service",
         "widget": "text"
       }
     },
     "listOfDatesOfAllActiveService5CharacterOfDischarge": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST OF DATES OF ALL ACTIVE SERVICE5. CHARACTER OF DISCHARGE",
+        "label": "List Of Dates Of All Active Service5. Character Of Discharge",
         "widget": "text"
       }
     },
     "methodOfQualification": {
       "type": "string",
       "x-va-field": {
-        "label": "METHOD OF QUALIFICATION",
+        "label": "Method Of Qualification",
         "widget": "text"
       }
     },
     "areYouAPaidCountyOrTribalEmployee": {
       "type": "string",
       "x-va-field": {
-        "label": "ARE YOU A PAID COUNTY OR TRIBAL EMPLOYEE",
+        "label": "Are You A Paid County Or Tribal Employee",
         "widget": "text"
       }
     },
     "stateTrainingAndExaminationAndCWhoWillReceive": {
       "type": "string",
       "x-va-field": {
-        "label": "STATE TRAINING AND EXAMINATION; AND C) WHO WILL RECEIVE",
+        "label": "State Training And Examination; And C) Who Will Receive",
         "widget": "text"
       }
     },
     "areYouAccreditedToAnyOtherOrganizationS": {
       "type": "string",
       "x-va-field": {
-        "label": "ARE YOU ACCREDITED TO ANY OTHER ORGANIZATION(S)?",
+        "label": "Are You Accredited To Any Other Organization(S)?",
         "widget": "text"
       }
     },
     "signatureOfDesigneeNewCertificationsOnly": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF DESIGNEE (NEW CERTIFICATIONS ONLY)",
+        "label": "Signature Of Designee (New Certifications Only)",
         "widget": "signature"
       }
     },
@@ -190,42 +176,42 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF SIGNATURE (MM/DD/YYYY)",
+        "label": "Date Of Signature (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "certification2": {
       "type": "string",
       "x-va-field": {
-        "label": "CERTIFICATION",
+        "label": "Certification",
         "widget": "text"
       }
     },
     "signatureAndTitleOfCertifyingOfficer": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE AND TITLE OF CERTIFYING OFFICER",
+        "label": "Signature And Title Of Certifying Officer",
         "widget": "signature"
       }
     },
     "nameOfOrganization": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF ORGANIZATION",
+        "label": "Name Of Organization",
         "widget": "text"
       }
     },
     "addressOfCertifyingOfficer": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS OF CERTIFYING OFFICER",
+        "label": "Address Of Certifying Officer",
         "widget": "address"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     }
@@ -233,10 +219,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA21(ES).pdf",
     "totalFields": 32,
-    "composedFields": 32,
-    "coveragePercent": 97,
+    "composedFields": 30,
+    "coveragePercent": 100,
     "xfaLabelCount": 17,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:34:03.612Z",
     "pageCount": 1,
     "status": "digitized",
@@ -245,6 +231,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.502924+00:00"
   }
 }

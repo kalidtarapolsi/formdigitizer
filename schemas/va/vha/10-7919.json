@@ -5,41 +5,66 @@
   "properties": {
     "sourceOfInformationGivenAboveIfPossibleIncludeTitleVolumeDateAndPages": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Source of Information Given Above If Possible Include Title Volume Date and Pages"
+      }
     },
     "todaysDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Todays Date"
+      }
     },
     "dateNeeded": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Needed"
+      }
     },
     "sVCSymbol": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "S VC Symbol"
+      }
     },
     "format": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Format"
+      }
     },
     "position": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Position"
+      }
     },
     "oneRequestPerFormReceived": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "One Request Per Form Received"
+      }
     },
     "due": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Due"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7919-fill.pdf",
     "totalFields": 25,
-    "composedFields": 13,
-    "coveragePercent": 52,
+    "composedFields": 8,
+    "coveragePercent": 100,
     "xfaLabelCount": 8,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:37.171Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.818264+00:00"
   }
 }

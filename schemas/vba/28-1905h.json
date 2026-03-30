@@ -11,18 +11,12 @@
         "widget": "text"
       }
     },
-    "daytimePhoneLastFourNumbers": {
+    "daytimePhone": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "F Page 2 Daytime Phone Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "daytimePhoneMiddleThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 Daytime Phone Middle Three Numbers",
-        "widget": "text"
+        "label": "Daytime Phone",
+        "widget": "phone"
       }
     },
     "daytimePhoneNumberAreaCode": {
@@ -60,18 +54,12 @@
         "widget": "text"
       }
     },
-    "mailingAddressZiporPostalCodeLastFourNumbers": {
+    "mailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F Page 2 Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "mailingAddressCountry": {
@@ -126,28 +114,28 @@
     "signatureField2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Signature Field2",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "mailingAddressNumberAndStreet2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Mailing Address Number And Street",
+        "label": "Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "signatureField3": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Signature Field3",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Remarks",
+        "label": "Remarks",
         "widget": "text"
       }
     },
@@ -162,27 +150,6 @@
       "type": "string",
       "x-va-field": {
         "label": "(VA",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
         "widget": "text"
       }
     },
@@ -241,28 +208,28 @@
     "nameOfTrainingEstablishmentOrSchool": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF TRAINING ESTABLISHMENT OR SCHOOL",
+        "label": "Name Of Training Establishment Or School",
         "widget": "text"
       }
     },
     "firstDayOfLeaveMmDdYyy_11LastDayOfLeaveMmDdY": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST DAY OF LEAVE (MM/DD/YYY)11. LAST DAY OF LEAVE (MM/DD/Y",
+        "label": "First Day Of Leave (MM/DD/Yyy)11. Last Day Of Leave (MM/DD/Y",
         "widget": "text"
       }
     },
     "ifRequestForLeaveOfAbsenceIsForIllnessInjuryPlea": {
       "type": "string",
       "x-va-field": {
-        "label": "IF REQUEST FOR LEAVE OF ABSENCE IS FOR ILLNESS, INJURY, PLEA",
+        "label": "If Request For Leave Of Absence Is For Illness, Injury, Plea",
         "widget": "text"
       }
     },
     "titleOfTrainerOrAuthorizedSchoolOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "TITLE OF TRAINER OR AUTHORIZED SCHOOL OFFICIAL",
+        "label": "Title Of Trainer Or Authorized School Official",
         "widget": "text"
       }
     },
@@ -270,14 +237,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "16A.  DATE SIGNED (",
+        "label": "16A.  Date Signed (",
         "widget": "date"
       }
     },
     "signatureOfTrainerOrAuthorizedSchoolOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF TRAINER OR AUTHORIZED SCHOOL OFFICIAL",
+        "label": "Signature Of Trainer Or Authorized School Official",
         "widget": "signature"
       }
     },
@@ -285,7 +252,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "CLAIMANT SIGNATURE 17A.  DATE SIGNED (MM/DD/YYYY)",
+        "label": "Claimant Signature 17A.  Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -293,14 +260,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "CLAIMANT ON",
+        "label": "Claimant On",
         "widget": "date"
       }
     },
     "remarks2": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
@@ -308,14 +275,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "ACTION TAKEN 19.  DATE CLAIMANT NOTIFIED (MM/DD/YYYY)",
+        "label": "Action Taken 19.  Date Claimant Notified (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "signatureOfVaCaseManager": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF VA CASE MANAGER",
+        "label": "Signature Of VA Case Manager",
         "widget": "signature"
       }
     },
@@ -323,30 +290,26 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
-        "widget": "text"
       }
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1905h-are.pdf",
     "status": "digitized",
     "totalFields": 49,
-    "composedFields": 47,
-    "coveragePercent": 98,
+    "composedFields": 41,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:35:45.593Z",
     "redigitizedAt": "2026-03-30T20:38:27.339Z",
@@ -354,6 +317,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.260374+00:00"
   }
 }

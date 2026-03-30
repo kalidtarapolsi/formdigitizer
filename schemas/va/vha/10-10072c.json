@@ -42,25 +42,35 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "isInDefaultByFailingToMeetTheRequirementsForPreviousFederalAssistance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Is in Default by Failing to Meet the Requirements for Previous Federal Assistance"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10072C-fill.pdf",
     "totalFields": 53,
-    "composedFields": 35,
-    "coveragePercent": 66,
+    "composedFields": 3,
+    "coveragePercent": 100,
     "xfaLabelCount": 3,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:29:47.509Z",
     "pageCount": 14,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.610528+00:00"
   }
 }

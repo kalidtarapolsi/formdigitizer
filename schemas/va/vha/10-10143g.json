@@ -10,11 +10,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "fullName": {
       "type": "object",
@@ -45,7 +51,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -86,78 +95,136 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "email": {
       "type": "string",
-      "format": "email"
+      "format": "email",
+      "x-va-field": {
+        "label": "Email"
+      }
     },
     "todaysDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Todays Date"
+      }
     },
     "episodeInformationDateOfEmergency": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Episode Information Date of Emergency"
+      }
     },
     "dischargeDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Discharge Date"
+      }
     },
     "policyNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Policy Number"
+      }
     },
     "otherInsurance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Insurance"
+      }
     },
     "dischargeDX": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Discharge DX"
+      }
     },
     "vendorInformationFacilityName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vendor Information Facility Name"
+      }
     },
     "facilityNPI": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Facility NPI"
+      }
     },
     "facilityTaxID": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Facility Tax ID"
+      }
     },
     "facilityPOCToWhomVADecisionWillBeSentFullName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Facility POC to Whom VA Decision Will Be Sent Full Name"
+      }
     },
     "carrier": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Carrier"
+      }
     },
     "timeOfEmergency": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Time of Emergency"
+      }
     },
     "modeOfArrival": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mode of Arrival"
+      }
     },
     "oneOrMoreOfTheFollowingIsRequiredChiefComplaint": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "One or More of the Following is Required Chief Complaint"
+      }
     },
     "admitDX": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Admit DX"
+      }
     },
     "admitted": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Admitted"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10143g_Non-VA_Hospital_Emergency_Notification_Fill.pdf",
     "totalFields": 31,
-    "composedFields": 21,
-    "coveragePercent": 68,
+    "composedFields": 22,
+    "coveragePercent": 100,
     "xfaLabelCount": 25,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:21:50.734Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.614971+00:00"
   }
 }

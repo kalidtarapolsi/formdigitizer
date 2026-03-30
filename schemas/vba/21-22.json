@@ -10,11 +10,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "fullName": {
       "type": "object",
@@ -45,7 +51,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -86,103 +95,176 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "serviceNumber": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Service Number"
+      }
     },
     "dateAppt": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Appt"
+      }
     },
     "revokedReasonAndDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Revoked Reason and Date"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "dateSent": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Sent"
+      }
     },
     "dateAcknowledged": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Acknowledged"
+      }
     },
     "dateRevoked": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Revoked"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "insuranceNumberS": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insurance Number S"
+      }
     },
     "insuranceFile": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insurance File"
+      }
     },
     "jobTitleOfPersonNamedInItem15a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Job Title of Person Named in Item15a"
+      }
     },
     "relationshipToVeteran": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship to Veteran"
+      }
     },
     "nameOfServiceOrganization": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Service Organization"
+      }
     },
     "nameOfOfficialRepresentative": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Official Representative"
+      }
     },
     "vRAndEFile": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "V R and E File"
+      }
     },
     "eduFile": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Edu File"
+      }
     },
     "lgFile": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lg File"
+      }
     },
     "drugAbuse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Drug Abuse"
+      }
     },
     "iAuthorize": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "I Authorize"
+      }
     },
     "alcoholismOrAlcoholAbuse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Alcoholism or Alcohol Abuse"
+      }
     },
     "infectionWithTheHumanImmunodeficiencyVirusHiv": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Infection With the Human Immunodeficiency Virus Hiv"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-22-are.pdf",
     "status": "digitized",
     "totalFields": 63,
-    "composedFields": 53,
-    "coveragePercent": 84,
+    "composedFields": 27,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 4,
-    "generatedAt": "2026-03-28T17:35:02.701Z"
+    "generatedAt": "2026-03-28T17:35:02.701Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.939215+00:00"
   }
 }

@@ -7,63 +7,56 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "statementOfAPersonClaimingLoanFeeRefund": {
       "type": "string",
       "x-va-field": {
-        "label": "STATEMENT OF A PERSON CLAIMING LOAN FEE REFUND",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Statement Of A Person Claiming Loan Fee Refund",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "nameOfDeceasedSurvivingSpouse2DecedentSSocialSecuri": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF DECEASED SURVIVING SPOUSE2. DECEDENT'S SOCIAL SECURI",
+        "label": "Name Of Deceased Surviving Spouse2. Decedent'S Social Securi",
         "widget": "text"
       }
     },
     "nameOfPersonClaimingRefund4YourSocialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF PERSON CLAIMING REFUND4. YOUR SOCIAL SECURITY NUMBER",
+        "label": "Name Of Person Claiming Refund4. Your Social Security Number",
         "widget": "text"
       }
     },
@@ -77,49 +70,49 @@
     "checkTheOneBoxThatAppliesToYouYouMustCompletePar": {
       "type": "string",
       "x-va-field": {
-        "label": "CHECK THE ONE BOX THAT APPLIES TO YOU. YOU MUST COMPLETE PAR",
+        "label": "Check The One Box That Applies To You. You Must Complete Par",
         "widget": "text"
       }
     },
     "ifYouSelectedLineBInItem_6PleaseIndicateYourRelat": {
       "type": "string",
       "x-va-field": {
-        "label": "IF YOU SELECTED LINE B IN ITEM 6, PLEASE INDICATE YOUR RELAT",
+        "label": "If You Selected Line B In Item 6, Please Indicate Your Relat",
         "widget": "text"
       }
     },
     "didTheDecedentLeaveAWill": {
       "type": "string",
       "x-va-field": {
-        "label": "DID THE DECEDENT LEAVE A WILL?",
+        "label": "Did The Decedent Leave A Will?",
         "widget": "text"
       }
     },
     "hasACourtAppointedAPersonalRepresentativeForTheEsta": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS A COURT APPOINTED A PERSONAL REPRESENTATIVE FOR THE ESTA",
+        "label": "Has A Court Appointed A Personal Representative For The Esta",
         "widget": "text"
       }
     },
     "ifYouAnsweredNoToItem_9aWillOneBeAppointed": {
       "type": "string",
       "x-va-field": {
-        "label": "IF YOU ANSWERED \"NO\" TO ITEM 9a, WILL ONE BE APPOINTED?",
+        "label": "If You Answered \"No\" To Item 9A, Will One Be Appointed?",
         "widget": "text"
       }
     },
     "asThePersonClaimingTheRefundForTheDecedentSEstate": {
       "type": "string",
       "x-va-field": {
-        "label": "AS THE PERSON CLAIMING THE REFUND FOR THE DECEDENT'S ESTATE,",
+        "label": "As The Person Claiming The Refund For The Decedent'S Estate,",
         "widget": "select"
       }
     },
     "signatureOfPersonClaimingRefund": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF PERSON CLAIMING REFUND",
+        "label": "Signature Of Person Claiming Refund",
         "widget": "signature"
       }
     },
@@ -127,7 +120,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE (MM/DD/YYYY)",
+        "label": "Date (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -135,7 +128,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "PHONE NUMBER",
+        "label": "Phone Number",
         "widget": "phone"
       }
     }
@@ -144,7 +137,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-10280a-are.pdf",
     "status": "digitized",
     "totalFields": 19,
-    "composedFields": 19,
+    "composedFields": 18,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -155,6 +148,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.468939+00:00"
   }
 }

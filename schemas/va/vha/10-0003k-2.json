@@ -7,49 +7,49 @@
     "station": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform station",
+        "label": "Station",
         "widget": "text"
       }
     },
     "applicantName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Applicant Name",
+        "label": "Applicant Name",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "signatureField2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field2",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dropDownList1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Drop Down List1",
+        "label": "Drop Down List",
         "widget": "select"
       }
     },
     "dateTimeField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field1",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "sopoccup": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S O P Occup",
+        "label": "Sopoccup",
         "widget": "text"
       }
     },
@@ -326,6 +326,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.521338+00:00"
   }
 }

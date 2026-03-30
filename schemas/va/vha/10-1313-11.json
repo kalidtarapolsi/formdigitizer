@@ -5,67 +5,112 @@
   "properties": {
     "principalInvestigator": {
       "type": "string",
-      "description": "Principal investigator's name"
+      "description": "Principal investigator's name",
+      "x-va-field": {
+        "label": "Principal Investigator"
+      }
     },
     "coInvestigators": {
       "type": "string",
-      "description": "Co-investigator(s)"
+      "description": "Co-investigator(s)",
+      "x-va-field": {
+        "label": "Co Investigators"
+      }
     },
     "projectTitle": {
       "type": "string",
-      "description": "Research project title"
+      "description": "Research project title",
+      "x-va-field": {
+        "label": "Project Title"
+      }
     },
     "projectNumber": {
       "type": "string",
-      "description": "Project identification number"
+      "description": "Project identification number",
+      "x-va-field": {
+        "label": "Project Number"
+      }
     },
     "vaFacility": {
       "type": "string",
-      "description": "VA facility"
+      "description": "VA facility",
+      "x-va-field": {
+        "label": "VA Facility"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "fundingSource": {
       "type": "string",
-      "description": "Funding source"
+      "description": "Funding source",
+      "x-va-field": {
+        "label": "Funding Source"
+      }
     },
     "totalBudget": {
       "type": "string",
-      "description": "Total budget amount"
+      "description": "Total budget amount",
+      "x-va-field": {
+        "label": "Total Budget"
+      }
     },
     "projectStartDate": {
       "type": "string",
       "format": "date",
-      "description": "Project start date"
+      "description": "Project start date",
+      "x-va-field": {
+        "label": "Project Start Date"
+      }
     },
     "projectEndDate": {
       "type": "string",
       "format": "date",
-      "description": "Project end date"
+      "description": "Project end date",
+      "x-va-field": {
+        "label": "Project End Date"
+      }
     },
     "researchCategory": {
       "type": "string",
-      "description": "Research category or type"
+      "description": "Research category or type",
+      "x-va-field": {
+        "label": "Research Category"
+      }
     },
     "projectAbstract": {
       "type": "string",
-      "description": "Brief description of project"
+      "description": "Brief description of project",
+      "x-va-field": {
+        "label": "Project Abstract"
+      }
     },
     "irbApprovalDate": {
       "type": "string",
       "format": "date",
-      "description": "IRB approval date"
+      "description": "IRB approval date",
+      "x-va-field": {
+        "label": "Irb Approval Date"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     }
   },
   "x-va-metadata": {
@@ -78,6 +123,7 @@
     "status": "digitized",
     "pageCount": 1,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.636527+00:00"
   }
 }

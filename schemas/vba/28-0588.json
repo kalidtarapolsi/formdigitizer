@@ -8,29 +8,42 @@
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "datepg2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datepg"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "servicemember": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Servicemember"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-0588-are.pdf",
     "status": "digitized",
     "totalFields": 4,
-    "composedFields": 3,
-    "coveragePercent": 75,
+    "composedFields": 4,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:39:09.493Z"
+    "generatedAt": "2026-03-28T17:39:09.493Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.242063+00:00"
   }
 }

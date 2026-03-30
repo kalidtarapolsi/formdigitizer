@@ -9,57 +9,97 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "reviewDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Review Date"
+      }
     },
     "dateOfSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Signature"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "totalAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Total Amount"
+      }
     },
     "fiscalYear3Of3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fiscal Year3Of"
+      }
     },
     "locationHealthCareFacilityVAMCOPCCityState": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Location Health Care Facility VAMCOPC City State"
+      }
     },
     "vAEmploymentStatusFullTime": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "V a Employment Status Full Time"
+      }
     },
     "otherVA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other VA"
+      }
     },
     "biohazardsNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Biohazards no"
+      }
     },
     "totalVA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total VA"
+      }
     },
     "totalNonvA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Nonv a"
+      }
     },
     "grandTotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grand Total"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1313-1FILL.pdf",
     "totalFields": 65,
-    "composedFields": 21,
-    "coveragePercent": 32,
+    "composedFields": 13,
+    "coveragePercent": 100,
     "xfaLabelCount": 19,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:19:47.277Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.634420+00:00"
   }
 }

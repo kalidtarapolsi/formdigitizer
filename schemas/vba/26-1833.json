@@ -9,11 +9,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -54,159 +60,295 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateofloan": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofloan"
+      }
     },
     "dateofforeclosuer": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofforeclosuer"
+      }
     },
     "dateofjudgement": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofjudgement"
+      }
     },
     "dateassigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateassigned"
+      }
     },
     "date23": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "amount1": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount3": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount4": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount5": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amountofjudgment": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amountofjudgment"
+      }
     },
     "tofinance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Tofinance"
+      }
     },
     "from": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "From"
+      }
     },
     "nameofveterans": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofveterans"
+      }
     },
     "valoanno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Valoanno"
+      }
     },
     "serviceserialnumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Serviceserialnumber"
+      }
     },
     "nameofcoob": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofcoob"
+      }
     },
     "comments": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Comments"
+      }
     },
     "nameofveteran": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofveteran"
+      }
     },
     "coObligor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Obligor"
+      }
     },
     "liabilityorrelease1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilityorrelease"
+      }
     },
     "liabilityorrelease2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilityorrelease"
+      }
     },
     "liabilityorrelease3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilityorrelease"
+      }
     },
     "liabilityorrelease4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilityorrelease"
+      }
     },
     "liabilityorrelease5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilityorrelease"
+      }
     },
     "indemnity1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Indemnity"
+      }
     },
     "indemnity2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Indemnity"
+      }
     },
     "indemnity3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Indemnity"
+      }
     },
     "indemnity4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Indemnity"
+      }
     },
     "indemnity5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Indemnity"
+      }
     },
     "subrogation1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subrogation"
+      }
     },
     "subrogation2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subrogation"
+      }
     },
     "subrogation3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subrogation"
+      }
     },
     "subrogation4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subrogation"
+      }
     },
     "subrogation5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subrogation"
+      }
     },
     "yes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "recording21": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Recording"
+      }
     },
     "fore1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fore"
+      }
     },
     "fore2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fore"
+      }
     },
     "sig23": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sig"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1833-are.pdf",
     "status": "digitized",
     "totalFields": 56,
-    "composedFields": 26,
-    "coveragePercent": 46,
+    "composedFields": 47,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:35:47.189Z"
+    "generatedAt": "2026-03-28T17:35:47.189Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.167662+00:00"
   }
 }

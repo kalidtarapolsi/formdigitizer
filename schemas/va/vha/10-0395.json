@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,87 +53,154 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "nationalPractitionerDataBankNPDBQueryiesDateIeDateSubmitted": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "National Practitioner Data Bank NPDB Queryies Date Ie Date Submitted"
+      }
     },
     "fellowshipCompletionDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Fellowship Completion Date"
+      }
     },
     "theInformationConveyedInThisMemorandumReflectsCredentialsStatusAsOfDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "The Information Conveyed in This Memorandum Reflects Credentials Status As of Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "clinicalPrivilegesGrantedIn": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Clinical Privileges Granted in"
+      }
     },
     "residency1Of2DegreeOrSpecialty": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Residency1Of2Degree or Specialty"
+      }
     },
     "internshipInstitution": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Internship Institution"
+      }
     },
     "educationPrimarySourceVerifiedNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Education Primary Source Verified no"
+      }
     },
     "providersName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Providers Name"
+      }
     },
     "ofAppointment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Of Appointment"
+      }
     },
     "internshipLocation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Internship Location"
+      }
     },
     "specialty": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Specialty"
+      }
     },
     "residencyPrimarySourceVerifiedNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Residency Primary Source Verified no"
+      }
     },
     "fellowshipPrimarySourceVerifiedNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fellowship Primary Source Verified no"
+      }
     },
     "primarySourceVerifiedNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Primary Source Verified no"
+      }
     },
     "primarySourceVerifiedYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Primary Source Verified Yes"
+      }
     },
     "verifiedYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Verified Yes"
+      }
     },
     "residencyPrimarySourceVerifiedYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Residency Primary Source Verified Yes"
+      }
     },
     "internshipPrimarySourceVerifiedYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Internship Primary Source Verified Yes"
+      }
     },
     "licenseNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "License Number"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0395.pdf",
     "totalFields": 74,
-    "composedFields": 39,
-    "coveragePercent": 53,
+    "composedFields": 23,
+    "coveragePercent": 100,
     "xfaLabelCount": 25,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:05:28.447Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.561877+00:00"
   }
 }

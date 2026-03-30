@@ -7,126 +7,120 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Area Code",
+        "label": "Area Code",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "firstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Name",
+        "label": "First Name",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "activityProvidingCare": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Activity Providing Care",
+        "label": "Activity Providing Care",
         "widget": "checkbox"
       }
     },
     "activityProvidingCare2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Activity Providing Care2",
+        "label": "Activity Providing Care",
         "widget": "checkbox"
       }
     },
     "instrumentalActivityProvidingCareFor": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Instrumental Activity Providing Care For",
+        "label": "Instrumental Activity Providing Care for",
         "widget": "checkbox"
       }
     },
@@ -140,63 +134,63 @@
     "secciNI": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCIÓN I",
+        "label": "Secci\u00f3n I",
         "widget": "text"
       }
     },
     "secciNIi": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCIÓN II",
+        "label": "Secci\u00f3n Ii",
         "widget": "text"
       }
     },
     "secciNIii": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCIÓN III",
+        "label": "Secci\u00f3n Iii",
         "widget": "text"
       }
     },
     "secciNIv": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCIÓN IV",
+        "label": "Secci\u00f3n Iv",
         "widget": "text"
       }
     },
     "secciNV": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCIÓN V",
+        "label": "Secci\u00f3n V",
         "widget": "text"
       }
     },
     "secciNVi": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCIÓN VI",
+        "label": "Secci\u00f3n Vi",
         "widget": "text"
       }
     },
     "secciNVii": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCIÓN VII",
+        "label": "Secci\u00f3n Vii",
         "widget": "text"
       }
     },
     "secciNViii": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCIÓN VIII",
+        "label": "Secci\u00f3n Viii",
         "widget": "text"
       }
     },
     "apNdice": {
       "type": "string",
       "x-va-field": {
-        "label": "Apéndice",
+        "label": "Ap\u00e9ndice",
         "widget": "text"
       }
     },
@@ -210,7 +204,7 @@
     "si": {
       "type": "string",
       "x-va-field": {
-        "label": "• Si",
+        "label": "\u2022 Si",
         "widget": "text"
       }
     },
@@ -224,7 +218,7 @@
     "serviciosDeRehabilitaciNEnLaPGina": {
       "type": "string",
       "x-va-field": {
-        "label": "servicios de rehabilitación\" en la página",
+        "label": "servicios de rehabilitaci\u00f3n\" en la p\u00e1gina",
         "widget": "text"
       }
     },
@@ -235,38 +229,31 @@
         "widget": "text"
       }
     },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
     "oficialDeServicioAlVetera": {
       "type": "string",
       "x-va-field": {
-        "label": "OFICIAL DE SERVICIO AL VETERA",
+        "label": "Oficial De Servicio Al Vetera",
         "widget": "text"
       }
     },
     "avisoDeLaLeyDePrivacidadVa": {
       "type": "string",
       "x-va-field": {
-        "label": "AVISO DE LA LEY DE PRIVACIDAD:VA",
+        "label": "Aviso De La Ley De Privacidad:VA",
         "widget": "text"
       }
     },
     "denegaciNDeBeneficiosVa": {
       "type": "string",
       "x-va-field": {
-        "label": "denegación de beneficios. VA",
+        "label": "denegaci\u00f3n de beneficios. VA",
         "widget": "text"
       }
     },
     "controlVLidoDeLaOmbSeMuestraElNMero": {
       "type": "string",
       "x-va-field": {
-        "label": "control válido de la OMB. Se muestra el número.",
+        "label": "control v\u00e1lido de la OMB. Se muestra el n\u00famero.",
         "widget": "text"
       }
     },
@@ -287,14 +274,14 @@
     "nota": {
       "type": "string",
       "x-va-field": {
-        "label": "NOTA",
+        "label": "Nota",
         "widget": "text"
       }
     },
     "1aNombreDelVetera": {
       "type": "string",
       "x-va-field": {
-        "label": "1A. NOMBRE DEL VETERA",
+        "label": "1A. Nombre Del Vetera",
         "widget": "text"
       }
     },
@@ -308,7 +295,7 @@
     "seccionIi": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCION II",
+        "label": "Seccion Ii",
         "widget": "text"
       }
     },
@@ -322,14 +309,14 @@
     "nMeroDeTelFonoInternacionalSiCorresponde": {
       "type": "string",
       "x-va-field": {
-        "label": "Número de teléfono internacional (si corresponde)",
+        "label": "N\u00famero de tel\u00e9fono internacional (si corresponde)",
         "widget": "text"
       }
     },
     "seccionIii": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCION III",
+        "label": "Seccion Iii",
         "widget": "text"
       }
     },
@@ -343,21 +330,21 @@
     "fechaDeLaMuerteDelVetera": {
       "type": "string",
       "x-va-field": {
-        "label": "• Fecha de la muerte del Vetera",
+        "label": "\u2022 Fecha de la muerte del Vetera",
         "widget": "text"
       }
     },
     "laInformaciNQueSeMuestraAContinuaciNRepresentaLos": {
       "type": "string",
       "x-va-field": {
-        "label": "LA INFORMACIÓN QUE SE MUESTRA A CONTINUACIÓN REPRESENTA LOS",
+        "label": "La Informaci\u00f3n Que Se Muestra A Continuaci\u00f3n Representa Los",
         "widget": "text"
       }
     },
     "seccionIv": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCION IV",
+        "label": "Seccion Iv",
         "widget": "text"
       }
     },
@@ -392,7 +379,7 @@
     "seccionV": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCION V",
+        "label": "Seccion V",
         "widget": "text"
       }
     },
@@ -406,49 +393,49 @@
     "seccionVi": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCION VI",
+        "label": "Seccion Vi",
         "widget": "text"
       }
     },
     "seccionVii": {
       "type": "string",
       "x-va-field": {
-        "label": "SECCION VII",
+        "label": "Seccion Vii",
         "widget": "text"
       }
     },
     "certificaciN": {
       "type": "string",
       "x-va-field": {
-        "label": "CERTIFICACIÓN",
+        "label": "Certificaci\u00f3n",
         "widget": "text"
       }
     },
     "nMeroYCalle": {
       "type": "string",
       "x-va-field": {
-        "label": "Número y Calle",
+        "label": "N\u00famero y Calle",
         "widget": "text"
       }
     },
     "nMeroDeApartamento": {
       "type": "string",
       "x-va-field": {
-        "label": "Número de Apartamento",
+        "label": "N\u00famero de Apartamento",
         "widget": "text"
       }
     },
     "penalidad": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALIDAD",
+        "label": "Penalidad",
         "widget": "text"
       }
     },
     "apNdiceA": {
       "type": "string",
       "x-va-field": {
-        "label": "APÉNDICE A",
+        "label": "Ap\u00e9ndice A",
         "widget": "text"
       }
     },
@@ -462,21 +449,21 @@
     "apNdiceB": {
       "type": "string",
       "x-va-field": {
-        "label": "APÉNDICE B",
+        "label": "Ap\u00e9ndice B",
         "widget": "text"
       }
     },
     "siUstedNoEstReclamandoGastosAdicionales": {
       "type": "string",
       "x-va-field": {
-        "label": "Si usted no está reclamando gastos adicionales,",
+        "label": "Si usted no est\u00e1 reclamando gastos adicionales,",
         "widget": "text"
       }
     },
     "reporteSusGastosMDicosRecurrentes": {
       "type": "string",
       "x-va-field": {
-        "label": "Reporte sus gastos médicos recurrentes",
+        "label": "Reporte sus gastos m\u00e9dicos recurrentes",
         "widget": "text"
       }
     },
@@ -490,49 +477,49 @@
     "apNdiceC": {
       "type": "string",
       "x-va-field": {
-        "label": "APÉNDICE C",
+        "label": "Ap\u00e9ndice C",
         "widget": "text"
       }
     },
     "paraQuiNEstLlenandoLaHojaDeTrabajoNombreDelRe": {
       "type": "string",
       "x-va-field": {
-        "label": "¿PARA QUIÉN ESTÁ LLENANDO LA HOJA DE TRABAJO? (Nombre del Re",
+        "label": "\u00bfPara Qui\u00e9n Est\u00e1 Llenando La Hoja De Trabajo? (Nombre Del Re",
         "widget": "text"
       }
     },
     "quiNEstLlenandoEstaHojaDeTrabajoNombreDeProvee": {
       "type": "string",
       "x-va-field": {
-        "label": "¿QUIÉN ESTÁ LLENANDO ESTA HOJA DE TRABAJO? (Nombre de Provee",
+        "label": "\u00bfQui\u00e9n Est\u00e1 Llenando Esta Hoja De Trabajo? (Nombre De Provee",
         "widget": "text"
       }
     },
     "cuLEsSuPosiciNEnLaOrganizaciN": {
       "type": "string",
       "x-va-field": {
-        "label": "¿CUÁL ES SU POSICIÓN EN LA ORGANIZACIÓN?",
+        "label": "\u00bfCu\u00e1l Es Su Posici\u00f3n En La Organizaci\u00f3n?",
         "widget": "text"
       }
     },
     "cuLEsElNombreDeLaOrganizaciNComoSeMuestraEnL": {
       "type": "string",
       "x-va-field": {
-        "label": "¿CUÁL ES EL NOMBRE DE LA ORGANIZACIÓN? (Como se muestra en l",
+        "label": "\u00bfCU\u00c1L ES EL NOMBRE DE LA ORGANIZACI\u00d3N? (Como se muestra en l",
         "widget": "text"
       }
     },
     "cuLEsElNMeroDeTelFonoDeLaAgencia": {
       "type": "string",
       "x-va-field": {
-        "label": "¿CUÁL ES EL NÚMERO DE TELÉFONO DE LA AGENCIA?",
+        "label": "\u00bfCu\u00e1l Es El N\u00famero De Tel\u00e9fono De La Agencia?",
         "widget": "text"
       }
     },
     "cuLEsElDomicilioDeUstedODeLaOficinaAdministrativ": {
       "type": "string",
       "x-va-field": {
-        "label": "¿CUÁL ES EL DOMICILIO DE USTED O DE LA OFICINA ADMINISTRATIV",
+        "label": "\u00bfCu\u00e1l Es El Domicilio De Usted O De La Oficina Administrativ",
         "widget": "text"
       }
     },
@@ -560,49 +547,49 @@
     "cuLEsLaPGinaWebDeLaOrganizaciN": {
       "type": "string",
       "x-va-field": {
-        "label": "¿CUÁL ES LA PÁGINA WEB DE LA ORGANIZACIÓN?",
+        "label": "\u00bfCu\u00e1l Es La P\u00e1gina Web De La Organizaci\u00f3n?",
         "widget": "text"
       }
     },
     "seleccioneCadaActividadDelDiarioVivirQueElAsistente": {
       "type": "string",
       "x-va-field": {
-        "label": "SELECCIONE CADA ACTIVIDAD DEL DIARIO VIVIR QUE EL ASISTENTE",
+        "label": "Seleccione Cada Actividad Del Diario Vivir Que El Asistente",
         "widget": "text"
       }
     },
     "paraCadaDeclaraciNMarqueLaCajaSiEsCierto": {
       "type": "string",
       "x-va-field": {
-        "label": "PARA CADA DECLARACIÓN MARQUE LA CAJA SI ES CIERTO:",
+        "label": "Para Cada Declaraci\u00f3n Marque La Caja Si Es Cierto:",
         "widget": "text"
       }
     },
     "losEmpleadosDeLaAgenciaProveenCuidadoDeSaludOCuido": {
       "type": "string",
       "x-va-field": {
-        "label": "LOS EMPLEADOS DE LA AGENCIA PROVEEN CUIDADO DE SALUD O CUIDO",
+        "label": "Los Empleados De La Agencia Proveen Cuidado De Salud O Cuido",
         "widget": "text"
       }
     },
     "siElCuidoEsProveDoPorProveedorExter": {
       "type": "string",
       "x-va-field": {
-        "label": "Si el cuido es proveído por proveedor exter",
+        "label": "Si el cuido es prove\u00eddo por proveedor exter",
         "widget": "text"
       }
     },
     "fechaDeAdmisiNMmDdAaaa": {
       "type": "string",
       "x-va-field": {
-        "label": "FECHA DE ADMISIÓN (MM/DD/AAAA)",
+        "label": "Fecha De Admisi\u00f3n (MM/DD/Aaaa)",
         "widget": "text"
       }
     },
     "fechaDeTerminaciNMmDdAaaaSeleccioneIndefinidoS": {
       "type": "string",
       "x-va-field": {
-        "label": "FECHA DE TERMINACIÓN (MM/DD/AAAA) (Seleccione \"indefinido\" s",
+        "label": "FECHA DE TERMINACI\u00d3N (MM/DD/AAAA) (Seleccione \"indefinido\" s",
         "widget": "text"
       }
     },
@@ -616,98 +603,84 @@
     "proporcionarLosCargosMensualesQueElBeneficiarioDeLa": {
       "type": "string",
       "x-va-field": {
-        "label": "PROPORCIONAR LOS CARGOS MENSUALES QUE EL BENEFICIARIO DE LA",
+        "label": "Proporcionar Los Cargos Mensuales Que El Beneficiario De La",
         "widget": "text"
       }
     },
     "firmaDeProveedorVeaPregunta_2_15FechaMmDdAaaa": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRMA DE PROVEEDOR (Vea Pregunta 2) 15. FECHA (MM/DD/AAAA)",
+        "label": "Firma De Proveedor (Vea Pregunta 2) 15. Fecha (MM/DD/Aaaa)",
         "widget": "text"
       }
     },
     "quiNEstLlenandoEstaHojaDeTrabajoAsistenteDeAte": {
       "type": "string",
       "x-va-field": {
-        "label": "¿QUIÉN ESTÁ LLENANDO ESTA HOJA DE TRABAJO? (Asistente de Ate",
+        "label": "\u00bfQui\u00e9n Est\u00e1 Llenando Esta Hoja De Trabajo? (Asistente De Ate",
         "widget": "text"
       }
     },
     "elCuidadoDomiciliarioEsProveDoPorUnMDico": {
       "type": "string",
       "x-va-field": {
-        "label": "¿EL CUIDADO DOMICILIARIO ES PROVEÍDO POR UN MÉDICO",
+        "label": "\u00bfEl Cuidado Domiciliario Es Prove\u00eddo Por Un M\u00e9dico",
         "widget": "text"
       }
     },
     "trabajasParaUnaAgenciaUOrganizaciN": {
       "type": "string",
       "x-va-field": {
-        "label": "¿TRABAJAS PARA UNA AGENCIA U ORGANIZACIÓN?",
+        "label": "\u00bfTrabajas Para Una Agencia U Organizaci\u00f3n?",
         "widget": "text"
       }
     },
     "cuLEsElNombreDeLaAgenciaUOrganizaciN": {
       "type": "string",
       "x-va-field": {
-        "label": "¿CUÁL ES EL NOMBRE DE LA AGENCIA U ORGANIZACIÓN?",
+        "label": "\u00bfCu\u00e1l Es El Nombre De La Agencia U Organizaci\u00f3n?",
         "widget": "text"
       }
     },
     "cTransporte": {
       "type": "string",
       "x-va-field": {
-        "label": "C. TRANSPORTE",
+        "label": "C. Transporte",
         "widget": "text"
       }
     },
     "esLaResponsabilidadPrimordialDelAsistenteDeAtenciN": {
       "type": "string",
       "x-va-field": {
-        "label": "¿ES LA RESPONSABILIDAD PRIMORDIAL DEL ASISTENTE DE ATENCIÓN",
+        "label": "\u00bfEs La Responsabilidad Primordial Del Asistente De Atenci\u00f3n",
         "widget": "text"
       }
     },
     "fechaDeComienzoDeLaAtenciNDomiciliariaMmDdAaaa": {
       "type": "string",
       "x-va-field": {
-        "label": "FECHA DE COMIENZO DE LA ATENCIÓN DOMICILIARIA (MM/DD/AAAA)",
+        "label": "Fecha De Comienzo De La Atenci\u00f3n Domiciliaria (MM/DD/Aaaa)",
         "widget": "text"
       }
     },
     "proporcionarLosCargosMensualesQueElBeneficiarioDe": {
       "type": "string",
       "x-va-field": {
-        "label": "PROPORCIONAR LOS CARGOS MENSUALES QUE EL BENEFICIARIO DE",
+        "label": "Proporcionar Los Cargos Mensuales Que El Beneficiario De",
         "widget": "text"
       }
     },
     "elTotalDeHorasAlMesQueElBeneficiarioRecibeAtenciN": {
       "type": "string",
       "x-va-field": {
-        "label": "EL TOTAL DE HORAS AL MES QUE EL BENEFICIARIO RECIBE ATENCIÓN",
+        "label": "El Total De Horas Al Mes Que El Beneficiario Recibe Atenci\u00f3n",
         "widget": "text"
       }
     },
     "firmaDeProveedorVeaPregunta_2_16FechaMmDdAaaa": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRMA DE PROVEEDOR (Vea Pregunta 2) 16. FECHA (MM/DD/AAAA)",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field1",
-        "widget": "text"
-      }
-    },
-    "form1SubformRadioButtonList": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Radio Button List",
+        "label": "Firma De Proveedor (Vea Pregunta 2) 16. Fecha (MM/DD/Aaaa)",
         "widget": "text"
       }
     },
@@ -720,10 +693,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8416(spanish)-are.pdf",
     "status": "digitized",
     "totalFields": 104,
-    "composedFields": 102,
-    "coveragePercent": 95,
+    "composedFields": 98,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 4,
+    "needsReviewCount": 0,
     "pageCount": 10,
     "generatedAt": "2026-03-28T17:31:49.176Z",
     "postProcessedAt": "2026-03-30T20:02:41.724611+00:00",
@@ -731,6 +704,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.081115+00:00"
   }
 }

@@ -42,24 +42,34 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "prawardNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Praward Number"
+      }
     },
     "projectFaiNumberFederalApplicationIdentifier": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project Fai Number Federal Application Identifier"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-7.pdf",
     "totalFields": 5,
-    "composedFields": 2,
-    "coveragePercent": 40,
+    "composedFields": 3,
+    "coveragePercent": 100,
     "xfaLabelCount": 4,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:25:23.515Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.867190+00:00"
   }
 }

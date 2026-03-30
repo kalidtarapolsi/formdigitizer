@@ -5,40 +5,67 @@
   "properties": {
     "employeeName": {
       "type": "string",
-      "description": "Employee's full name"
+      "description": "Employee's full name",
+      "x-va-field": {
+        "label": "Employee Name"
+      }
     },
     "employeeTitle": {
       "type": "string",
-      "description": "Employee's title/position"
+      "description": "Employee's title/position",
+      "x-va-field": {
+        "label": "Employee Title"
+      }
     },
     "department": {
       "type": "string",
-      "description": "Department or service"
+      "description": "Department or service",
+      "x-va-field": {
+        "label": "Department"
+      }
     },
     "vaFacility": {
       "type": "string",
-      "description": "VA facility"
+      "description": "VA facility",
+      "x-va-field": {
+        "label": "VA Facility"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "supervisorName": {
       "type": "string",
-      "description": "Supervisor's name"
+      "description": "Supervisor's name",
+      "x-va-field": {
+        "label": "Supervisor Name"
+      }
     },
     "supervisorSignature": {
       "type": "boolean",
-      "description": "Supervisor's signature"
+      "description": "Supervisor's signature",
+      "x-va-field": {
+        "label": "Supervisor Signature"
+      }
     },
     "employeeSignature": {
       "type": "boolean",
-      "description": "Employee's signature"
+      "description": "Employee's signature",
+      "x-va-field": {
+        "label": "Employee Signature"
+      }
     }
   },
   "x-va-metadata": {
@@ -51,6 +78,7 @@
     "status": "digitized",
     "pageCount": 2,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.512470+00:00"
   }
 }

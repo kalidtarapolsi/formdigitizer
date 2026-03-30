@@ -7,196 +7,183 @@
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "middleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Middle Initial1",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "vaInsuranceFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform V A I N S U R A N C E F I L E N U M B E R",
+        "label": "VA Insurance File Number",
         "widget": "text"
       }
     },
     "vaFileNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform V A File Number If Applicable",
+        "label": "VA File Number If Applicable",
         "widget": "text"
       }
     },
     "internationalPhoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform International Phone Number",
+        "label": "International Phone Number",
         "widget": "text"
       }
     },
     "emailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform E M A I L A D D R E S S",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "ssn2": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform S S N2",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "ssn1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform S S N1",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "ssn3": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform S S N3",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Area Code",
+        "label": "Area Code",
         "widget": "text"
       }
     },
     "secondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "witnessFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform W I T N E S S F I R S T N A M E",
+        "label": "Witness First Name",
         "widget": "text"
       }
     },
     "digitalSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Digital Signature",
+        "label": "Digital Signature",
         "widget": "text"
       }
     },
     "coworkerOrSupervisorOfClaimant": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba210304 #subform C O W O R K E R O R S U P E R V I S O R O F C L A I M A N T",
+        "label": "Coworker or Supervisor of Claimant",
         "widget": "checkbox"
       }
     },
     "otherSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform O T H E R Specify",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "familyOrFriendOfClaimant": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba210304 #subform F A M I L Y O R F R I E N D O F C L A I M A N T",
+        "label": "Family or Friend of Claimant",
         "widget": "checkbox"
       }
     },
     "servedWithClaimant": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba210304 #subform S E R V E D W I T H C L A I M A N T",
-        "widget": "checkbox"
-      }
-    },
-    "vba210304SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Vba210304 #subform Check Box1",
+        "label": "Served With Claimant",
         "widget": "checkbox"
       }
     },
@@ -207,18 +194,11 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH",
+        "label": "Date Of Birth",
         "widget": "date"
       }
     },
@@ -227,7 +207,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -257,20 +237,6 @@
       "type": "string",
       "x-va-field": {
         "label": "CLAIMANT'S NAME (First, Middle Initial, Last)",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
         "widget": "text"
       }
     },
@@ -327,14 +293,7 @@
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -347,8 +306,8 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-10210-are.pdf",
     "status": "digitized",
     "totalFields": 51,
-    "composedFields": 48,
-    "coveragePercent": 98,
+    "composedFields": 42,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 3,
@@ -359,6 +318,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.938120+00:00"
   }
 }

@@ -5,124 +5,214 @@
   "properties": {
     "dateOfIncident": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Incident"
+      }
     },
     "dateOfReport": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Report"
+      }
     },
     "dateBeneficiaryWasSeenByUndersigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Beneficiary Was Seen by Undersigned"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateAndTimeReported": {
       "type": "string",
-      "format": "date"
-    },
-    "theFollowingIsAReportOfAnIncidentAffectingTheBeneficiaryIdentifiedBelow1DescriptionOfIncidentIncludeAgeOfBeneficiaryDateOfAdmissionDiagnosisAndMedications": {
-      "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date and Time Reported"
+      }
     },
     "aDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "A Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "clinicDirector": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Clinic Director"
+      }
     },
     "chiefDomiciliaryMedicalService": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Chief Domiciliary Medical Service"
+      }
     },
     "reportedToPhysician": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reported to Physician"
+      }
     },
     "titleStaffPhysicianOfficerOfTheDayOrChiefDomiciliaryOperations": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title Staff Physician Officer of the Day or Chief Domiciliary Operations"
+      }
     },
     "aTitleChiefOfStaffClinicDirectorOrChiefDomiciliaryMedicalService": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Title Chief of Staff Clinic Director or Chief Domiciliary Medical Service"
+      }
     },
     "titleChiefOfStaffClinicDirectorOrChiefDomiciliaryMedicalService": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title Chief of Staff Clinic Director or Chief Domiciliary Medical Service"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     },
     "beneficiaryIPInformation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Beneficiary IP Information"
+      }
     },
     "toChiefOfStaff": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Chief of Staff"
+      }
     },
     "noteFor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Note for"
+      }
     },
     "chiefDomiciliaryOperations": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Chief Domiciliary Operations"
+      }
     },
     "officerOfTheDay": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Officer of the Day"
+      }
     },
     "reportedToMeByGiveNameAndTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reported to Me by Give Name and Title"
+      }
     },
     "timeOfIncident": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Time of Incident"
+      }
     },
     "aToNameAndTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A to Name and Title"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "to": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To"
+      }
     },
     "a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A"
+      }
     },
     "commentsAndRecommendations": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Comments and Recommendations"
+      }
     },
     "investigationIndicated": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Investigation Indicated"
+      }
     },
     "toDirectorNoFurtherActionIndicated": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Director no Further Action Indicated"
+      }
     },
     "no": {
-      "type": "string"
-    },
-    "isThisIncidentReportableToVACentralOfficeUnderProvisionOfChapter2SectionADMAndSMP1Part1Yes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "noFurtherActionRequired": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No Further Action Required"
+      }
     },
     "investigateIncidentAndSubmitReportAndRecommendationToMeBy": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Investigate Incident and Submit Report and Recommendation to Me by"
+      }
     },
     "submitReportAndRecommendationToMeBy": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Submit Report and Recommendation to Me by"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2633-fill.pdf",
     "totalFields": 56,
-    "composedFields": 29,
-    "coveragePercent": 52,
+    "composedFields": 32,
+    "coveragePercent": 100,
     "xfaLabelCount": 55,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:08.673Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.680374+00:00"
   }
 }

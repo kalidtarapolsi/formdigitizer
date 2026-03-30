@@ -7,140 +7,133 @@
     "nameandfacilitycodeoftrainingfacility": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E A N D F A C I L I T Y C O D E O F T R A I N I N G F A C I L I T Y",
+        "label": "Nameandfacilitycodeoftrainingfacility",
         "widget": "text"
       }
     },
     "traineesnameandaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T R A I N E E S N A M E A N D A D D R E S S",
+        "label": "Traineesnameandaddress",
         "widget": "text"
       }
     },
     "vafilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A F I L E N U M B E R",
+        "label": "Vafilenumber",
         "widget": "text"
       }
     },
     "payeenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P A Y E E N U M B E R",
+        "label": "Payeenumber",
         "widget": "text"
       }
     },
     "dateToBeCertified": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform Date To Be Certified",
+        "label": "Date to Be Certified",
         "widget": "text"
       }
     },
     "ofHours": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform No\\ Of Hours",
+        "label": "Of Hours",
         "widget": "text"
       }
     },
     "dateToBeCertified2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform Row Date To Be Certified",
+        "label": "Date to Be Certified",
         "widget": "text"
       }
     },
     "ofHours2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform Row No\\ Of Hours",
+        "label": "Of Hours",
         "widget": "text"
       }
     },
     "dateTerminated": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Terminated",
+        "label": "Date Terminated",
         "widget": "text"
       }
     },
     "reasonfortermination": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R E A S O N F O R T E R M I N A T I O N",
+        "label": "Reasonfortermination",
         "widget": "text"
       }
     },
     "rate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R A T E",
+        "label": "Rate",
         "widget": "text"
       }
     },
     "effectivedate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform E F F E C T I V E D A T E",
+        "label": "Effectivedate",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R E M A R K S",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "certification": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform C E R T I F I C A T I O N",
+        "label": "Certification",
         "widget": "checkbox"
       }
     },
     "printednameandtitleofcertifyingofficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P R I N T E D N A M E A N D T I T L E O F C E R T I F Y I N G O F F I C I A L",
+        "label": "Printednameandtitleofcertifyingofficial",
         "widget": "text"
       }
     },
     "datesigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E S I G N E D",
+        "label": "Datesigned",
         "widget": "text"
       }
     },
     "signature1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature1",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "nameAndFacilityCodeOfTrainingFacilityTraineeSNameAndAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND FACILITY CODE OF TRAINING FACILITY TRAINEE'S NAME AND ADDRESS",
+        "label": "Name And Facility Code Of Training Facility Trainee'S Name And Address",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -155,21 +148,21 @@
     "monthSYearToBe": {
       "type": "string",
       "x-va-field": {
-        "label": "MONTH(S)/YEAR TO BE",
+        "label": "Month(S)/Year To Be",
         "widget": "text"
       }
     },
     "numberOfHours": {
       "type": "string",
       "x-va-field": {
-        "label": "NUMBER OF HOURS",
+        "label": "Number Of Hours",
         "widget": "text"
       }
     },
     "wasTraineePursingTheApprovedProgramForThe": {
       "type": "string",
       "x-va-field": {
-        "label": "WAS TRAINEE PURSING THE APPROVED PROGRAM FOR THE",
+        "label": "Was Trainee Pursing The Approved Program For The",
         "widget": "text"
       }
     },
@@ -177,7 +170,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE TERMINATED",
+        "label": "Date Terminated",
         "widget": "date"
       }
     },
@@ -185,14 +178,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "6C. EFFECTIVE",
+        "label": "6C. Effective",
         "widget": "date"
       }
     },
     "remarks2": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
@@ -207,7 +200,7 @@
     "signatureOfCertifyingOfficialSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF CERTIFYING OFFICIAL (Sign in ink)",
+        "label": "Signature Of Certifying Official (Sign In Ink)",
         "widget": "signature"
       }
     },
@@ -230,10 +223,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-6553d-1-are.pdf",
     "status": "digitized",
     "totalFields": 32,
-    "composedFields": 31,
-    "coveragePercent": 97,
+    "composedFields": 30,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:37:30.614Z",
     "redigitizedAt": "2026-03-30T20:39:09.144Z",
@@ -241,6 +234,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.142242+00:00"
   }
 }

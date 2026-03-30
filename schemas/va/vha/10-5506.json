@@ -7,105 +7,84 @@
     "theAboveCaseHasBeenReviewedAndCorrectiveActionRecom": {
       "type": "string",
       "x-va-field": {
-        "label": "THE ABOVE CASE HAS BEEN REVIEWED AND CORRECTIVE ACTION RECOM",
+        "label": "The Above Case Has Been Reviewed And Corrective Action Recom",
         "widget": "text"
       }
     },
     "correctiveAction": {
       "type": "string",
       "x-va-field": {
-        "label": "CORRECTIVE ACTION",
+        "label": "Corrective Action",
         "widget": "text"
       }
     },
     "descriptionOfIncident": {
       "type": "string",
       "x-va-field": {
-        "label": "DESCRIPTION OF INCIDENT",
+        "label": "Description Of Incident",
         "widget": "text"
       }
     },
     "actionTaken": {
       "type": "string",
       "x-va-field": {
-        "label": "ACTION TAKEN",
+        "label": "Action Taken",
         "widget": "text"
       }
     },
     "signatureAndTitleOfPersonMakingInitialReport4Date": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE AND TITLE OF PERSON MAKING INITIAL REPORT4. DATE",
+        "label": "Signature And Title Of Person Making Initial Report4. Date",
         "widget": "text"
       }
     },
     "patientMemberSStatementDescriptionOfIncident": {
       "type": "string",
       "x-va-field": {
-        "label": "PATIENT-MEMBER’S STATEMENT?DESCRIPTION OF INCIDENT",
+        "label": "Patient-Member\u2019S Statement?Description Of Incident",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
       }
     },
     "findingsOfChiefDomiciliaryOperations": {
       "type": "string",
       "x-va-field": {
-        "label": "FINDINGS OF CHIEF, DOMICILIARY OPERATIONS",
+        "label": "Findings Of Chief, Domiciliary Operations",
         "widget": "text"
       }
     },
     "date8SignatureOfChiefDomiciliaryOperations": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE8. SIGNATURE OF CHIEF, DOMICILIARY OPERATIONS",
+        "label": "Date8. Signature Of Chief, Domiciliary Operations",
         "widget": "text"
       }
     },
     "date10SignatureOfPatientMember": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE10. SIGNATURE OF PATIENT-MEMBER",
+        "label": "Date10. Signature Of Patient-Member",
         "widget": "text"
       }
     },
     "mayPatientMemberBeReleasedFrom": {
       "type": "string",
       "x-va-field": {
-        "label": "MAY PATIENT-MEMBER BE RELEASED FROM",
+        "label": "May Patient-Member Be Released From",
         "widget": "text"
       }
     },
     "date13SignatureOfChiefDomiciliaryMedicalService": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE13. SIGNATURE OF CHIEF, DOMICILIARY MEDICAL SERVICE",
+        "label": "Date13. Signature Of Chief, Domiciliary Medical Service",
         "widget": "text"
       }
     },
     "date16SignatureOfDirector": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE16. SIGNATURE OF DIRECTOR",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField32613": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field32613",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField32612": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field32612",
+        "label": "Date16. Signature Of Director",
         "widget": "text"
       }
     }
@@ -113,10 +92,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5506-fill.pdf",
     "totalFields": 15,
-    "composedFields": 15,
-    "coveragePercent": 80,
+    "composedFields": 12,
+    "coveragePercent": 100,
     "xfaLabelCount": 2,
-    "needsReviewCount": 3,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:38.482Z",
     "pageCount": 1,
     "status": "digitized",
@@ -124,6 +103,7 @@
     "extractionSources": [
       "acroform+text-inference",
       "acroform"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.793319+00:00"
   }
 }

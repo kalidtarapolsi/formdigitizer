@@ -7,308 +7,308 @@
     "anteriorsMould": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Anteriors Mould",
+        "label": "Anteriors Mould",
         "widget": "text"
       }
     },
     "posteriorsMould": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Posteriors Mould",
+        "label": "Posteriors Mould",
         "widget": "text"
       }
     },
     "clicktochooseone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Clicktochooseone",
+        "label": "Clicktochooseone",
         "widget": "select"
       }
     },
     "impression": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Impression",
+        "label": "Impression",
         "widget": "checkbox"
       }
     },
     "bite": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Bite",
+        "label": "Bite",
         "widget": "checkbox"
       }
     },
     "articulator": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Articulator",
+        "label": "Articulator",
         "widget": "checkbox"
       }
     },
     "masterCasts": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Master Casts",
+        "label": "Master Casts",
         "widget": "checkbox"
       }
     },
     "opposingCasts": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Opposing Casts",
+        "label": "Opposing Casts",
         "widget": "checkbox"
       }
     },
     "submittingFacilityCityandState": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Submitting Facility Cityand State",
+        "label": "Submitting Facility Cityand State",
         "widget": "text"
       }
     },
     "campus": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Campus",
+        "label": "Campus",
         "widget": "text"
       }
     },
     "submittingDentist": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Submitting Dentist",
+        "label": "Submitting Dentist",
         "widget": "text"
       }
     },
     "patientLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Patient Last Name",
+        "label": "Patient Last Name",
         "widget": "text"
       }
     },
     "patientFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Patient First Name",
+        "label": "Patient First Name",
         "widget": "text"
       }
     },
     "studyCasts": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Study Casts",
+        "label": "Study Casts",
         "widget": "checkbox"
       }
     },
     "impressionTransfer": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Impression Transfer",
+        "label": "Impression Transfer",
         "widget": "checkbox"
       }
     },
     "analog": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Analog",
+        "label": "Analog",
         "widget": "checkbox"
       }
     },
     "abutement": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Abutement",
+        "label": "Abutement",
         "widget": "checkbox"
       }
     },
     "shade": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Shade",
+        "label": "Shade",
         "widget": "text"
       }
     },
     "stippled": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Stippled",
+        "label": "Stippled",
         "widget": "checkbox"
       }
     },
     "palatialRugae": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Palatial Rugae",
+        "label": "Palatial Rugae",
         "widget": "checkbox"
       }
     },
     "occlusion": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Occlusion",
+        "label": "Occlusion",
         "widget": "select"
       }
     },
     "acrylicRemovablePartialDenture": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Acrylic Removable Partial Denture",
+        "label": "Acrylic Removable Partial Denture",
         "widget": "checkbox"
       }
     },
     "immediateDenture": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Immediate Denture",
+        "label": "Immediate Denture",
         "widget": "checkbox"
       }
     },
     "rebase": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Rebase",
+        "label": "Rebase",
         "widget": "checkbox"
       }
     },
     "reline": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Reline",
+        "label": "Reline",
         "widget": "checkbox"
       }
     },
     "surgicalStentGuide": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Surgical Stent Guide",
+        "label": "Surgical Stent Guide",
         "widget": "checkbox"
       }
     },
     "occlusalDeviceMouthguard": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Occlusal Device Mouthguard",
+        "label": "Occlusal Device Mouthguard",
         "widget": "checkbox"
       }
     },
     "thorntonSleepApneaProthesis": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Thornton Sleep Apnea Prothesis",
+        "label": "Thornton Sleep Apnea Prothesis",
         "widget": "checkbox"
       }
     },
     "instructionsDesign": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Instructions Design",
+        "label": "Instructions Design",
         "widget": "text"
       }
     },
     "dateMailed": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Mailed",
+        "label": "Date Mailed",
         "widget": "text"
       }
     },
     "patientSsnumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Patient S S Number",
+        "label": "Patient Ssnumber",
         "widget": "text"
       }
     },
     "a3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform A3",
+        "label": "A",
         "widget": "checkbox"
       }
     },
     "b3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform B3",
+        "label": "B",
         "widget": "checkbox"
       }
     },
     "c3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform C3",
+        "label": "C",
         "widget": "checkbox"
       }
     },
     "d3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform D3",
+        "label": "D",
         "widget": "checkbox"
       }
     },
     "e3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform E3",
+        "label": "E",
         "widget": "checkbox"
       }
     },
     "f3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform F3",
+        "label": "F",
         "widget": "checkbox"
       }
     },
     "maxillary": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Maxillary",
+        "label": "Maxillary",
         "widget": "checkbox"
       }
     },
     "one": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform one",
+        "label": "One",
         "widget": "checkbox"
       }
     },
     "two": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform two",
+        "label": "Two",
         "widget": "checkbox"
       }
     },
     "lucitone199": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Lucitone199",
+        "label": "Lucitone",
         "widget": "checkbox"
       }
     },
     "lucitoneTinted": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Lucitone Tinted",
+        "label": "Lucitone Tinted",
         "widget": "checkbox"
       }
     },
     "eclipse": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Eclipse",
+        "label": "Eclipse",
         "widget": "checkbox"
       }
     },
     "mandibular": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Mandibular",
+        "label": "Mandibular",
         "widget": "checkbox"
       }
     },
@@ -448,9 +448,9 @@
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804c_fill.pdf",
     "totalFields": 64,
     "composedFields": 62,
-    "coveragePercent": 89,
+    "coveragePercent": 100,
     "xfaLabelCount": 27,
-    "needsReviewCount": 7,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:01.086Z",
     "pageCount": 1,
     "status": "digitized",
@@ -459,6 +459,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.696728+00:00"
   }
 }

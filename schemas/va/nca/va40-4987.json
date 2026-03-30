@@ -42,52 +42,83 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
-    },
-    "iFullyUnderstandThatThisGraveIsSuitableForBurialOfCrematedRemainsOnlyAndWillNotAccommodateCasketedRemainsInTheEventThatMyRemainsOrTheRemainsOfAnEligibleDependentAreNotCrematedAndACasketedBurialIsRequestedTheCrematedRemainsOfEnterNameOfDeceasedWillBeRelocatedToAGraveSiteWhereinTheCasketedRemainsArePlacedIAuthorizeTheDirectorOfTheNationalCemeteryToRelocateTheCrematedRemainsToThisRegularGraveSiteItIsFurtherUnderstoodThatIfThisCemeteryIsInAClosedStatusAndThereAreNoAvailableGraveSitesForCasketedRemainsAllSubsequentIntermentsWillBeAcceptedOnlyIfInurned": {
-      "type": "string"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "thisAgreementMadeThisEnterDayDayOf": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "This Agreement Made This Enter Day Day of"
+      }
     },
     "month": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Month"
+      }
     },
     "last2DigitsOfTheYear": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Last2Digits of the Year"
+      }
     },
     "iHerebyAgreeToHaveTheCrematedRemainsOf": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "I Hereby Agree to Have the Cremated Remains of"
+      }
     },
     "interredInSection": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Interred in Section"
+      }
     },
     "graveNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grave Number"
+      }
     },
     "inTheEnterNameOfTheCemeteryNationalCemetery": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In the Enter Name of the Cemetery National Cemetery"
+      }
     },
     "inPresenceOf": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Presence of"
+      }
     },
     "printedName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Printed Name"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-4987.pdf",
     "totalFields": 16,
-    "composedFields": 7,
-    "coveragePercent": 44,
+    "composedFields": 11,
+    "coveragePercent": 100,
     "xfaLabelCount": 16,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:34:05.953Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.873800+00:00"
   }
 }

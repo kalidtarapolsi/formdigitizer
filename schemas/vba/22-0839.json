@@ -4,139 +4,212 @@
   "type": "object",
   "properties": {
     "address": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "datesigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "nameofinstitution": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofinstitution"
+      }
     },
     "degreeLevel": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Degree Level"
+      }
     },
     "fc9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fc"
+      }
     },
     "fc8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fc"
+      }
     },
     "fc3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fc"
+      }
     },
     "fc2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fc"
+      }
     },
     "fc1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fc"
+      }
     },
     "fc4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fc"
+      }
     },
     "fc5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fc"
+      }
     },
     "fc6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fc"
+      }
     },
     "line1of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line1of"
+      }
     },
     "line2of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line2of"
+      }
     },
     "line11of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line11of"
+      }
     },
     "line10of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line10of"
+      }
     },
     "line9of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line9of"
+      }
     },
     "line8of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line8of"
+      }
     },
     "line7of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line7of"
+      }
     },
     "line6of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line6of"
+      }
     },
     "line5of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line5of"
+      }
     },
     "line4of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line4of"
+      }
     },
     "line3of12": {
-      "type": "string"
-    },
-    "form10subform0textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Line3of"
+      }
     },
     "newOpenEndedAgreement": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "New Open Ended Agreement"
+      }
     },
     "modificationToExistingAgreement": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Modification to Existing Agreement"
+      }
     },
     "withdrawalOfYellowRibbonAgreement": {
-      "type": "string"
-    },
-    "form10subform0textfield11": {
       "type": "string",
-      "x-needs-review": true
-    },
-    "form10subform0textfield12": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "form10subform0textfield13": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "form10subform0textfield14": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "form10subform0textfield15": {
-      "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Withdrawal of Yellow Ribbon Agreement"
+      }
     },
     "maxNumberStudents": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Max Number Students"
+      }
     },
     "currency": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currency"
+      }
     },
     "titleofauthorizing": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Titleofauthorizing"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0839-are.pdf",
     "status": "digitized",
     "totalFields": 98,
-    "composedFields": 27,
-    "coveragePercent": 28,
+    "composedFields": 32,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 6,
+    "needsReviewCount": 0,
     "pageCount": 6,
-    "generatedAt": "2026-03-28T17:33:24.476Z"
+    "generatedAt": "2026-03-28T17:33:24.476Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.096808+00:00"
   }
 }

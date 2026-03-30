@@ -10,11 +10,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "fullName": {
       "type": "object",
@@ -45,7 +51,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -86,49 +95,74 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateOfDeath": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Death"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "relationship": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0847-are.pdf",
     "status": "digitized",
     "totalFields": 35,
-    "composedFields": 21,
-    "coveragePercent": 97,
+    "composedFields": 11,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:37:07.457Z",
-    "postProcessedAt": "2026-03-30T20:02:41.709982+00:00"
+    "postProcessedAt": "2026-03-30T20:02:41.709982+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.016125+00:00"
   }
 }

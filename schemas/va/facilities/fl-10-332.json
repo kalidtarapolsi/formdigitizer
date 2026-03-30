@@ -5,36 +5,52 @@
   "properties": {
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "earningsLimitation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Earnings Limitation"
+      }
     },
     "inReplyReferTo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Reply Refer to"
+      }
     },
     "address": {
-      "type": "string"
-    },
-    "weArePleasedToAdviseYouOfYourAppointmentInTheDepartmentOfVeteransAffairsAsPositionTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "authority": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Authority"
+      }
     },
     "periodCovered": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Period Covered"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-FL-10-332-fill.pdf",
     "totalFields": 7,
-    "composedFields": 2,
-    "coveragePercent": 29,
+    "composedFields": 6,
+    "coveragePercent": 100,
     "xfaLabelCount": 7,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:32:55.915Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.882035+00:00"
   }
 }

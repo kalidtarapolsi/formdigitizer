@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,206 +53,390 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "datesoflatestservice": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesoflatestservice"
+      }
     },
     "datesigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned"
+      }
     },
     "datesigned11b": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned11b"
+      }
     },
     "datesigned13b": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned13b"
+      }
     },
     "dateaccepted": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateaccepted"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amountofvendeeloan": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amountofvendeeloan"
+      }
     },
     "amountofearnestmoneydeposit": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amountofearnestmoneydeposit"
+      }
     },
     "relationship": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "purchaseofferno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purchaseofferno"
+      }
     },
     "propertyidentifier": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Propertyidentifier"
+      }
     },
     "nameofpurchaser": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofpurchaser"
+      }
     },
     "nameofpurchaser1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofpurchaser"
+      }
     },
     "yes5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "no5a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No5a"
+      }
     },
     "yes5a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes5a"
+      }
     },
     "serviceserialnumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Serviceserialnumber"
+      }
     },
     "yes6a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes6a"
+      }
     },
     "no6a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No6a"
+      }
     },
     "no6b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No6b"
+      }
     },
     "yes6b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes6b"
+      }
     },
     "no6d": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No6d"
+      }
     },
     "yes6d": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes6d"
+      }
     },
     "no6c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No6c"
+      }
     },
     "yes6c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes6c"
+      }
     },
     "cashoffer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cashoffer"
+      }
     },
     "termoffer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Termoffer"
+      }
     },
     "nameofprincipalbroker": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofprincipalbroker"
+      }
     },
     "nameofsalesperson": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofsalesperson"
+      }
     },
     "thesecretaryofveteransaffairs": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Thesecretaryofveteransaffairs"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "offeredprice": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Offeredprice"
+      }
     },
     "totaldeductions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Totaldeductions"
+      }
     },
     "nettova": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nettova"
+      }
     },
     "discountpoints": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Discountpoints"
+      }
     },
     "loanoriginationfee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Loanoriginationfee"
+      }
     },
     "closingcosts": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Closingcosts"
+      }
     },
     "sales": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sales"
+      }
     },
     "listing": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Listing"
+      }
     },
     "salesbonus": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Salesbonus"
+      }
     },
     "purchasersagree": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purchasersagree"
+      }
     },
     "offeredprice8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Offeredprice"
+      }
     },
     "downpaymentless": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Downpaymentless"
+      }
     },
     "fundingfee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fundingfee"
+      }
     },
     "downpaymentplus": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Downpaymentplus"
+      }
     },
     "sales8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sales"
+      }
     },
     "listing8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Listing"
+      }
     },
     "salesbonus8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Salesbonus"
+      }
     },
     "cashequivalentfactor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cashequivalentfactor"
+      }
     },
     "cashequivalentvalue": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cashequivalentvalue"
+      }
     },
     "additionstocev": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Additionstocev"
+      }
     },
     "cashequivalentvalueoftotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cashequivalentvalueoftotal"
+      }
     },
     "totaldeductions8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Totaldeductions"
+      }
     },
     "nettova8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nettova"
+      }
     },
     "interestrate": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Interestrate"
+      }
     },
     "monthlypipayment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Monthlypipayment"
+      }
     },
     "jf44": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "ofyears": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ofyears"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6705-are.pdf",
     "status": "digitized",
     "totalFields": 72,
-    "composedFields": 22,
-    "coveragePercent": 31,
+    "composedFields": 62,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:34:37.050Z"
+    "generatedAt": "2026-03-28T17:34:37.050Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.198232+00:00"
   }
 }

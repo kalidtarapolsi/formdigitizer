@@ -42,324 +42,619 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateOfInterview": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Interview"
+      }
     },
     "dateDue": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Due"
+      }
     },
     "date1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date36": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date37": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "existingObligationsAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Existing Obligations Amount"
+      }
     },
     "existingObligationsSubTotalAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Existing Obligations Sub Total Amount"
+      }
     },
     "proposedBudgetAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Proposed Budget Amount"
+      }
     },
     "proposedBudgetSubTotalAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Proposed Budget Sub Total Amount"
+      }
     },
     "monthlyGrossIncome": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Monthly Gross Income"
+      }
     },
     "minusMonthlyExpenses": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Minus Monthly Expenses"
+      }
     },
     "existingObligationsTotalMonthlyExpenses": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Existing Obligations Total Monthly Expenses"
+      }
     },
     "proposedBudgetTotalMonthlyExpenses": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Proposed Budget Total Monthly Expenses"
+      }
     },
     "assetsCash": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Assets Cash"
+      }
     },
     "assetsSecurities": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Assets Securities"
+      }
     },
     "assetsInsurance": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Assets Insurance"
+      }
     },
     "assetsRetirementIncomeAccounts": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Assets Retirement Income Accounts"
+      }
     },
     "assetsVehicles": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Assets Vehicles"
+      }
     },
     "assetsAppliances": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Assets Appliances"
+      }
     },
     "assetsHomeFurnishings": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Assets Home Furnishings"
+      }
     },
     "assetsOtherAssets": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Assets Other Assets"
+      }
     },
     "totalAssets": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Total Assets"
+      }
     },
     "liabilitiesOtherFamilyDebtSMedicalBackTaxesEtc": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Liabilities Other Family Debt S Medical Back Taxes Etc"
+      }
     },
     "amount1": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount3": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount4": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount5": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "agesOfOtherDependentS": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ages of Other Dependent S"
+      }
     },
     "ageOfSpouse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Age of Spouse"
+      }
     },
     "ofWork": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Of Work"
+      }
     },
     "liabilitiesEducationLoanS": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilities Education Loan S"
+      }
     },
     "inField": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Field"
+      }
     },
     "inOffice": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Office"
+      }
     },
     "loanNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Loan Number"
+      }
     },
     "lengthOfEmployment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Length of Employment"
+      }
     },
     "compensationOrPension": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Compensation or Pension"
+      }
     },
     "other": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "nameOfCreditor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Creditor"
+      }
     },
     "reasonForDelinquency": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reason for Delinquency"
+      }
     },
     "temporary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Temporary"
+      }
     },
     "permanent": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Permanent"
+      }
     },
     "salariesGrossPay": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Salaries Gross Pay"
+      }
     },
     "total": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total"
+      }
     },
     "balanceDue": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance Due"
+      }
     },
     "balanceDueTotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance Due Total"
+      }
     },
     "monthlyPayments": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Monthly Payments"
+      }
     },
     "monthlyPaymentsTotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Monthly Payments Total"
+      }
     },
     "existingObigations": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing Obigations"
+      }
     },
     "existingObligations": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing Obligations"
+      }
     },
     "existingObligationSubTotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing Obligation Sub Total"
+      }
     },
     "proposedBudget": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Proposed Budget"
+      }
     },
     "proposedBudgetSubTotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Proposed Budget Sub Total"
+      }
     },
     "existingObligationsSubTotal22J": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing Obligations Sub Total22J"
+      }
     },
     "proposedBudgetSubTotal22J": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Proposed Budget Sub Total22J"
+      }
     },
     "existingObligations23A": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing Obligations23A"
+      }
     },
     "existingObligations23e": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing Obligations23e"
+      }
     },
     "existingObligations23f": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing Obligations23f"
+      }
     },
     "existing23G": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing23G"
+      }
     },
     "existing23H": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing23H"
+      }
     },
     "existing23I": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing23I"
+      }
     },
     "existing23J": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing23J"
+      }
     },
     "existing23Subtotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Existing23Subtotal"
+      }
     },
     "proposedBudget23A": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Proposed Budget23A"
+      }
     },
     "proposedBudget23e": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Proposed Budget23e"
+      }
     },
     "proposedBudget23f": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Proposed Budget23f"
+      }
     },
     "budget23G": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Budget23G"
+      }
     },
     "budget23H": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Budget23H"
+      }
     },
     "budget23I": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Budget23I"
+      }
     },
     "budget23J": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Budget23J"
+      }
     },
     "budget23Subtotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Budget23Subtotal"
+      }
     },
     "total25": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total"
+      }
     },
     "nameOfPersonsInterviewed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Persons Interviewed"
+      }
     },
     "ageOfFHomeowner": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Age of F Homeowner"
+      }
     },
     "liabilitiesMortgagePrincipalS": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilities Mortgage Principal S"
+      }
     },
     "liabilitiesApplianceLoanS": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilities Appliance Loan S"
+      }
     },
     "liabilitiesDepartmentStoreChargeAccounts": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilities Department Store Charge Accounts"
+      }
     },
     "liabilitiesOtherChargeAccounts": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilities Other Charge Accounts"
+      }
     },
     "liabilitiesOtherInstallmentCredit": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liabilities Other Installment Credit"
+      }
     },
     "totalLiabilities": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Liabilities"
+      }
     },
     "netWorth": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Net Worth"
+      }
     },
     "commentsAndSuggestions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Comments and Suggestions"
+      }
     },
     "yes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "yes31": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no31": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8844-are.pdf",
     "status": "digitized",
     "totalFields": 171,
-    "composedFields": 74,
-    "coveragePercent": 43,
+    "composedFields": 98,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:31:51.540Z"
+    "generatedAt": "2026-03-28T17:31:51.540Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.234522+00:00"
   }
 }

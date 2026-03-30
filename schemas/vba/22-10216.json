@@ -4,51 +4,85 @@
   "type": "object",
   "properties": {
     "statementOfAssuranceOfComplianceWith85PercentEnrollmentRatio": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Statement of Assurance of Compliance With85Percent Enrollment Ratio"
+      }
     },
     "termStartDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Term Start Date"
+      }
     },
     "dateOfCalculation": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Calculation"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "institutionName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Institution Name"
+      }
     },
     "schoolOfficialPrintedName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "School Official Printed Name"
+      }
     },
     "schoolOfficialTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "School Official Title"
+      }
     },
     "facilityCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Facility Code"
+      }
     },
     "vaBeneficiaryStudents": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Beneficiary Students"
+      }
     },
     "totalNumberOfStudents": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Number of Students"
+      }
     },
     "vaBeneficiaryStudentsBeneficiary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Beneficiary Students Beneficiary"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10216-are.pdf",
     "status": "digitized",
     "totalFields": 11,
-    "composedFields": 7,
-    "coveragePercent": 64,
+    "composedFields": 11,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:38:45.483Z"
+    "generatedAt": "2026-03-28T17:38:45.483Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.107312+00:00"
   }
 }

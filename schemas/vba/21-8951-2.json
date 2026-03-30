@@ -4,11 +4,13 @@
   "type": "object",
   "required": [],
   "properties": {
-    "claimantsSocialSecurityNumberLastFourNumbers": {
+    "claimantsSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F Page 1 Claimants Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Claimants Social Security Number",
+        "widget": "ssn"
       }
     },
     "from": {
@@ -46,20 +48,6 @@
         "widget": "text"
       }
     },
-    "claimantsSocialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Claimants Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "claimantsSocialSecurityNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Claimants Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
@@ -74,25 +62,12 @@
         "widget": "text"
       }
     },
-    "telephoneNumberLastFourNumbers": {
+    "telephoneNumber": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "F Page 1 Telephone Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Telephone Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberAreaCode": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Telephone Number Area Code",
-        "widget": "text"
+        "label": "Telephone Number",
+        "widget": "phone"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
@@ -126,77 +101,35 @@
     "nameAndMailingAddressOfReserveGuardUnit": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name And Mailing Address Of Reserve Guard Unit",
+        "label": "Name and Mailing Address of Reserve Guard Unit",
         "widget": "text"
       }
     },
     "digitalSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Digital Signature",
-        "widget": "text"
-      }
-    },
-    "claimantsSocialSecurityNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Claimants Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "claimantsSocialSecurityNumberSecondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Claimants Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "claimantsSocialSecurityNumberFirstThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Claimants Social Security Number First Three Numbers",
+        "label": "Digital Signature",
         "widget": "text"
       }
     },
     "trainingDays2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Training Days2",
+        "label": "Training Days",
         "widget": "text"
       }
     },
     "fiscalYear2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Fiscal Year2",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Telephone Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberFirstThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Telephone Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberAreaCode2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Telephone Number Area Code",
+        "label": "Fiscal Year",
         "widget": "text"
       }
     },
     "internationalTelephoneNumberIfApplicable2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
@@ -207,17 +140,10 @@
         "widget": "checkbox"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "dateOfBirthMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "text"
       }
     },
@@ -232,7 +158,7 @@
     "nameAndAddressOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF VETERAN",
+        "label": "Name And Address Of Veteran",
         "widget": "address"
       }
     },
@@ -256,7 +182,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -270,21 +196,14 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Important",
         "widget": "text"
       }
     },
     "signatureOfReservistGuardsmanRequired": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF RESERVIST/GUARDSMAN (REQUIRED)",
+        "label": "Signature Of Reservist/Guardsman (Required)",
         "widget": "signature"
       }
     },
@@ -313,7 +232,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -321,14 +240,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)12. SIGNATURE OF UNIT COMMANDER OR D",
+        "label": "Date Signed (MM/DD/YYYY)12. Signature Of Unit Commander Or D",
         "widget": "date"
       }
     },
     "nameAndMailingAddressOfReserveGuardUnit2": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND MAILING ADDRESS OF RESERVE/GUARD UNIT",
+        "label": "Name And Mailing Address Of Reserve/Guard Unit",
         "widget": "address"
       }
     },
@@ -343,38 +262,44 @@
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "mailingAddresses": {
       "type": "string",
       "x-va-field": {
-        "label": "MAILING ADDRESSES",
+        "label": "Mailing Addresses",
         "widget": "address"
       }
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8951-2-are.pdf",
     "status": "digitized",
     "totalFields": 56,
-    "composedFields": 52,
+    "composedFields": 40,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -386,6 +311,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.331357+00:00"
   }
 }

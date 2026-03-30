@@ -7,161 +7,161 @@
     "anterior": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Anterior",
+        "label": "Anterior",
         "widget": "text"
       }
     },
     "posterior": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Posterior",
+        "label": "Posterior",
         "widget": "text"
       }
     },
     "toothShade": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Tooth Shade",
+        "label": "Tooth Shade",
         "widget": "text"
       }
     },
     "gingivalTint": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Gingival Tint",
+        "label": "Gingival Tint",
         "widget": "select"
       }
     },
     "clicktochooseone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Clicktochooseone",
+        "label": "Clicktochooseone",
         "widget": "select"
       }
     },
     "impression": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Impression",
+        "label": "Impression",
         "widget": "checkbox"
       }
     },
     "bite": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Bite",
+        "label": "Bite",
         "widget": "checkbox"
       }
     },
     "articulator": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Articulator",
+        "label": "Articulator",
         "widget": "checkbox"
       }
     },
     "masterCast": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Master Cast",
+        "label": "Master Cast",
         "widget": "checkbox"
       }
     },
     "opposingCast": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Opposing Cast",
+        "label": "Opposing Cast",
         "widget": "checkbox"
       }
     },
     "submittingFacilityCityandState": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Submitting Facility Cityand State",
+        "label": "Submitting Facility Cityand State",
         "widget": "text"
       }
     },
     "campus": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Campus",
+        "label": "Campus",
         "widget": "text"
       }
     },
     "submittingDentist": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Submitting Dentist",
+        "label": "Submitting Dentist",
         "widget": "text"
       }
     },
     "patientSsnumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Patient S S Number",
+        "label": "Patient Ssnumber",
         "widget": "text"
       }
     },
     "patientLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Patient Last Name",
+        "label": "Patient Last Name",
         "widget": "text"
       }
     },
     "patientFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Patient First Name",
+        "label": "Patient First Name",
         "widget": "text"
       }
     },
     "designedStudyCast": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Designed Study Cast",
+        "label": "Designed Study Cast",
         "widget": "checkbox"
       }
     },
     "instructionsdesign": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Instructionsdesign",
+        "label": "Instructionsdesign",
         "widget": "text"
       }
     },
     "dateMailed": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Mailed",
+        "label": "Date Mailed",
         "widget": "text"
       }
     },
     "chromeCobalt": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Chrome Cobalt",
+        "label": "Chrome Cobalt",
         "widget": "checkbox"
       }
     },
     "valplast": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Valplast",
+        "label": "Valplast",
         "widget": "checkbox"
       }
     },
     "mandibular": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Mandibular",
+        "label": "Mandibular",
         "widget": "checkbox"
       }
     },
     "maxillary": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Maxillary",
+        "label": "Maxillary",
         "widget": "checkbox"
       }
     },
@@ -301,9 +301,9 @@
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2804b_fill.pdf",
     "totalFields": 43,
     "composedFields": 41,
-    "coveragePercent": 98,
+    "coveragePercent": 100,
     "xfaLabelCount": 16,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:59.961Z",
     "pageCount": 1,
     "status": "digitized",
@@ -312,6 +312,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.695338+00:00"
   }
 }

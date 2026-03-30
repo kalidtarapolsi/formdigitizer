@@ -130,18 +130,12 @@
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F Page 1 Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "giveTheDateAndTheReasonSchoolAttendanceTerminated": {
@@ -154,35 +148,35 @@
     "firstThreeNumbers2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "secondTwoNumbers2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "enterAllTheDatesOfStudentsSchoolAttendance": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Enter All The Dates Of Students School Attendance",
+        "label": "Enter All the Dates of Students School Attendance",
         "widget": "text"
       }
     },
     "dateOfMarriageMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Of Marriage Month",
+        "label": "Date of Marriage Month",
         "widget": "text"
       }
     },
@@ -193,42 +187,42 @@
     "nameOfLastSchooLAttended": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name Of Last Schoo L Attended",
+        "label": "Name of Last Schoo L Attended",
         "widget": "text"
       }
     },
     "nameOfAnyOtherSchoolsAttended": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name Of Any Other Schools Attended",
+        "label": "Name of Any Other Schools Attended",
         "widget": "text"
       }
     },
     "dateStudentExpectsToGraduateOrOtherwiseTerminateTheCourseOfStudy": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Student Expects To Graduate Or Otherwise Terminate The Course Of Study",
+        "label": "Date Student Expects to Graduate or Otherwise Terminate the Course of Study",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "relationshipToStudent": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Relationship To Student",
+        "label": "Relationship to Student",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
@@ -253,20 +247,6 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
     "veteranBeneficiaryNameFirstMiddleInitialLast": {
       "type": "string",
       "x-va-field": {
@@ -279,7 +259,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER3. VA FILE NUMBER",
+        "label": "Social Security Number3. VA File Number",
         "widget": "ssn"
       }
     },
@@ -287,7 +267,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -323,14 +303,14 @@
     "isTheStudentNowInSchool": {
       "type": "string",
       "x-va-field": {
-        "label": "IS THE STUDENT NOW IN SCHOOL?",
+        "label": "Is The Student Now In School?",
         "widget": "text"
       }
     },
     "hasTheStudentAttendedSchoolFromTheOfficialBeginning": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS THE STUDENT ATTENDED SCHOOL FROM THE OFFICIAL BEGINNING",
+        "label": "Has The Student Attended School From The Official Beginning",
         "widget": "text"
       }
     },
@@ -345,7 +325,7 @@
     "isTheStudentMarried": {
       "type": "string",
       "x-va-field": {
-        "label": "IS THE STUDENT MARRIED?",
+        "label": "Is The Student Married?",
         "widget": "text"
       }
     },
@@ -361,21 +341,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF MARRIAGE (",
+        "label": "Date Of Marriage (",
         "widget": "date"
       }
     },
     "hasTheStudentAttendedAnyOtherSchoolSThisYear": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS THE STUDENT ATTENDED ANY OTHER SCHOOL(S) THIS YEAR?",
+        "label": "Has The Student Attended Any Other School(S) This Year?",
         "widget": "text"
       }
     },
     "whenDoesTheStudentExpectToGraduateOr": {
       "type": "string",
       "x-va-field": {
-        "label": "WHEN DOES THE STUDENT EXPECT TO GRADUATE OR",
+        "label": "When Does The Student Expect To Graduate Or",
         "widget": "text"
       }
     },
@@ -390,21 +370,21 @@
     "hasTheStudentBegunReceivingOrAppliedForVaDependents": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS THE STUDENT BEGUN RECEIVING OR APPLIED FOR VA DEPENDENTS",
+        "label": "Has The Student Begun Receiving Or Applied For VA Dependents",
         "widget": "text"
       }
     },
     "veteranClaimantStudentSSignatureRequired": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN/CLAIMANT/STUDENT'S SIGNATURE (REQUIRED)",
+        "label": "Veteran/Claimant/Student'S Signature (Required)",
         "widget": "signature"
       }
     },
     "relationshipToStudent2": {
       "type": "string",
       "x-va-field": {
-        "label": "RELATIONSHIP TO STUDENT",
+        "label": "Relationship To Student",
         "widget": "text"
       }
     },
@@ -412,21 +392,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     }
@@ -435,8 +415,8 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8960-are.pdf",
     "status": "digitized",
     "totalFields": 66,
-    "composedFields": 60,
-    "coveragePercent": 98,
+    "composedFields": 57,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
@@ -447,6 +427,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.982721+00:00"
   }
 }

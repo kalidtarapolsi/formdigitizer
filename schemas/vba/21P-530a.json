@@ -10,11 +10,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "fullName": {
       "type": "object",
@@ -45,7 +51,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -86,85 +95,134 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "serviceNumber": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Service Number"
+      }
     },
     "dateOfBurialMmDdYyyy": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Burial Mm Dd Yyyy"
+      }
     },
     "veteransDateOfDeathMonth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Veterans Date of Death Month"
+      }
     },
     "dateOfDeath": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Death"
+      }
     },
     "dateEnteredService": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Entered Service"
+      }
     },
     "dateLeftActiveService": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Left Active Service"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "placeLeftActiveService": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Place Left Active Service"
+      }
     },
     "branchOfService": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Branch of Service"
+      }
     },
     "gradeRankOrRatingWhenSeparatedFromService": {
-      "type": "string"
-    },
-    "ifVeteranServedUnderNameOtherThanThatShownInItem1GiveFullNameAndServiceRenederedUnderThatName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade Rank or Rating When Separated From Service"
+      }
     },
     "recipientOrganizationNameFullNameOfPayee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Recipient Organization Name Full Name of Payee"
+      }
     },
     "veteransPlaceOfBirth": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans Place of Birth"
+      }
     },
     "placeEnteredService": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Place Entered Service"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-530a-are.pdf",
     "status": "digitized",
     "totalFields": 53,
-    "composedFields": 31,
-    "coveragePercent": 89,
+    "composedFields": 20,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:36:00.261Z",
-    "postProcessedAt": "2026-03-30T20:02:41.720725+00:00"
+    "postProcessedAt": "2026-03-30T20:02:41.720725+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.071435+00:00"
   }
 }

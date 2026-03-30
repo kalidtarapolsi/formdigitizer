@@ -7,105 +7,105 @@
     "title": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Title",
+        "label": "Title",
         "widget": "text"
       }
     },
     "targetAudience": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Target Audience",
+        "label": "Target Audience",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Date",
+        "label": "Date",
         "widget": "text"
       }
     },
     "responsibleOffice": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Responsible Office",
+        "label": "Responsible Office",
         "widget": "text"
       }
     },
     "numberRespondents": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Number Respondents",
+        "label": "Number Respondents",
         "widget": "text"
       }
     },
     "timeNeeded": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Time Needed",
+        "label": "Time Needed",
         "widget": "text"
       }
     },
     "contactPerson": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Contact Person",
+        "label": "Contact Person",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "comments": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Comments",
+        "label": "Comments",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "reason": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Reason",
+        "label": "Reason",
         "widget": "text"
       }
     },
     "numberAssigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Number Assigned",
+        "label": "Number Assigned",
         "widget": "text"
       }
     },
     "assignedBy": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Assigned By",
+        "label": "Assigned by",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -120,7 +120,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE (",
+        "label": "Date (",
         "widget": "date"
       }
     },
@@ -128,7 +128,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "PHONE ((999) 999-9999)",
+        "label": "Phone ((999) 999-9999)",
         "widget": "phone"
       }
     },
@@ -136,14 +136,14 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "EMAIL",
+        "label": "Email",
         "widget": "email"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE",
+        "label": "Signature",
         "widget": "signature"
       }
     }
@@ -163,6 +163,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.663551+00:00"
   }
 }

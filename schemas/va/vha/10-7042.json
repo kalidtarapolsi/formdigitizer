@@ -5,34 +5,53 @@
   "properties": {
     "date7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "optionalText7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Optional Text"
+      }
     },
     "years2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Years"
+      }
     },
     "recipient1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Recipient"
+      }
     },
     "cityState7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "City State"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-7042%20Outstanding%20Service%20Award_Blanks%20Template_final%20(002).pdf",
     "totalFields": 7,
-    "composedFields": 4,
-    "coveragePercent": 57,
+    "composedFields": 6,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:33.363Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.809837+00:00"
   }
 }

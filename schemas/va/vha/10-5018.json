@@ -5,93 +5,172 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "amountDollarRow1": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Dollar Row"
+      }
     },
     "amountCentsRow1": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Cents Row"
+      }
     },
     "amountDollarRow2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Dollar Row"
+      }
     },
     "amountCentsRow2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Cents Row"
+      }
     },
     "amountDollarRow3": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Dollar Row"
+      }
     },
     "amountCentsRow3": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Cents Row"
+      }
     },
     "amountDollarRow4": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Dollar Row"
+      }
     },
     "amountCentsRow4": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Cents Row"
+      }
     },
     "amountDollarRow5": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Dollar Row"
+      }
     },
     "amountCentsRow5": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Cents Row"
+      }
     },
     "receiptOfCashInAboveAmountIsHerebyAcknowledged": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Receipt of Cash in Above Amount is Hereby Acknowledged"
+      }
     },
     "payTo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Pay to"
+      }
     },
     "descriptionRow1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Description Row"
+      }
     },
     "descriptionRow2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Description Row"
+      }
     },
     "descriptionRow3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Description Row"
+      }
     },
     "descriptionRow4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Description Row"
+      }
     },
     "descriptionRow5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Description Row"
+      }
     },
     "deptOrActivity": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Dept or Activity"
+      }
     },
     "accountNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account no"
+      }
     },
     "cBNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "C B no"
+      }
     },
     "pONo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "P O no"
+      }
     },
     "pRNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "P R no"
+      }
     },
     "approved": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Approved"
+      }
     },
     "enteredOnPettyCashSummary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Entered on Petty Cash Summary"
+      }
     },
     "canteenStamp": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Canteen Stamp"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-5018.pdf",
     "totalFields": 26,
-    "composedFields": 12,
-    "coveragePercent": 46,
+    "composedFields": 26,
+    "coveragePercent": 100,
     "xfaLabelCount": 26,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:05:01.027Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:57.196803+00:00"
   }
 }

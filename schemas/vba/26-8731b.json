@@ -4,55 +4,92 @@
   "type": "object",
   "properties": {
     "firmNameAddress": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Firm Name Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "date1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "inspectorName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Inspector Name"
+      }
     },
     "satisfactoryYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Satisfactory Yes"
+      }
     },
     "satisfactoryNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Satisfactory no"
+      }
     },
     "licenseNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "License no"
+      }
     },
     "caseNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Case no"
+      }
     },
     "homeLocation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Home Location"
+      }
     },
     "homeSerialNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Home Serial no"
+      }
     },
     "alumWiring": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Alum Wiring"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8731b-are.pdf",
     "status": "digitized",
     "totalFields": 12,
-    "composedFields": 4,
-    "coveragePercent": 33,
+    "composedFields": 12,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:38:41.590Z"
+    "generatedAt": "2026-03-28T17:38:41.590Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.228436+00:00"
   }
 }

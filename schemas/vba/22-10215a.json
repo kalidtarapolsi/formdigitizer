@@ -5,38 +5,60 @@
   "properties": {
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "dateField1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Field"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "schoolOfficialTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "School Official Title"
+      }
     },
     "schoolOfficialPrintedName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "School Official Printed Name"
+      }
     },
     "regionalOffice": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Regional Office"
+      }
     },
     "pageNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Number"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10215a-are.pdf",
     "status": "digitized",
     "totalFields": 126,
-    "composedFields": 10,
-    "coveragePercent": 8,
+    "composedFields": 7,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:32:19.601Z"
+    "generatedAt": "2026-03-28T17:32:19.601Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.106562+00:00"
   }
 }

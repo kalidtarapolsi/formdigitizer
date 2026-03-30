@@ -5,7 +5,10 @@
   "properties": {
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -46,464 +49,906 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "marriedDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Married Date"
+      }
     },
     "marriedDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Married Date"
+      }
     },
     "marriedDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Married Date"
+      }
     },
     "marriedDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Married Date"
+      }
     },
     "marriedDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Married Date"
+      }
     },
     "marriedDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Married Date"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amountSource": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Source"
+      }
     },
     "amount15a": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount15a"
+      }
     },
     "amount15b": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount15b"
+      }
     },
     "amount15c": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount15c"
+      }
     },
     "amount15d": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount15d"
+      }
     },
     "amount15e": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount15e"
+      }
     },
     "amount15f": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount15f"
+      }
     },
     "amount17a": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17a"
+      }
     },
     "amount17b": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17b"
+      }
     },
     "amount17c": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17c"
+      }
     },
     "amount17d": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17d"
+      }
     },
     "amount17e": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17e"
+      }
     },
     "amount17f": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17f"
+      }
     },
     "amount17j": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17j"
+      }
     },
     "amount17i": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17i"
+      }
     },
     "amount17h": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17h"
+      }
     },
     "amount17g": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount17g"
+      }
     },
     "amount16": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount14": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount13a": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount13a"
+      }
     },
     "amount13b": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount13b"
+      }
     },
     "amount13c": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount13c"
+      }
     },
     "amount13d": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount13d"
+      }
     },
     "amount13e": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount13e"
+      }
     },
     "amountBill1": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Bill"
+      }
     },
     "amountBill2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Bill"
+      }
     },
     "amountBill3": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Bill"
+      }
     },
     "amountBill4": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Bill"
+      }
     },
     "amountBill5": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Bill"
+      }
     },
     "totalExpenses": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Total Expenses"
+      }
     },
     "survSpouse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Surv Spouse"
+      }
     },
     "child": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Child"
+      }
     },
     "marriageEnd6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriage End"
+      }
     },
     "marriageEnd5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriage End"
+      }
     },
     "marriageEnd4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriage End"
+      }
     },
     "marriageEnd3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriage End"
+      }
     },
     "marriageEnd2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriage End"
+      }
     },
     "marriageEnd1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriage End"
+      }
     },
     "relationship": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "relationship2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "relationship3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "relationship4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "relationship5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "toWhom1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Whom"
+      }
     },
     "name2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "name3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "name4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "name5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "name6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "name7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "name8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "name9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "marriedPlace1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Married Place"
+      }
     },
     "marriedendPlace1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriedend Place"
+      }
     },
     "howEnded1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "How Ended"
+      }
     },
     "marriedPlace2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Married Place"
+      }
     },
     "toWhom2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Whom"
+      }
     },
     "marriedendPlace2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriedend Place"
+      }
     },
     "howEnded2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "How Ended"
+      }
     },
     "marriedPlace3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Married Place"
+      }
     },
     "toWhom3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Whom"
+      }
     },
     "marriedendPlace3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriedend Place"
+      }
     },
     "howEnded3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "How Ended"
+      }
     },
     "marriedPlace4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Married Place"
+      }
     },
     "toWhom4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Whom"
+      }
     },
     "marriedendPlace4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriedend Place"
+      }
     },
     "howEnded4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "How Ended"
+      }
     },
     "marriedPlace5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Married Place"
+      }
     },
     "toWhom5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Whom"
+      }
     },
     "marriedendPlace5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriedend Place"
+      }
     },
     "howEnded5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "How Ended"
+      }
     },
     "marriedPlace6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Married Place"
+      }
     },
     "toWhom6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Whom"
+      }
     },
     "marriedendPlace6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriedend Place"
+      }
     },
     "howEnded6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "How Ended"
+      }
     },
     "vetName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vet Name"
+      }
     },
     "fileNum": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "File Num"
+      }
     },
     "claimantName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Claimant Name"
+      }
     },
     "asClaimant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "As Claimant"
+      }
     },
     "forClaimant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "For Claimant"
+      }
     },
     "mother": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mother"
+      }
     },
     "father": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Father"
+      }
     },
     "payer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payer"
+      }
     },
     "explain": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Explain"
+      }
     },
     "source6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Source"
+      }
     },
     "placeVetdeath": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Place Vetdeath"
+      }
     },
     "reimburseno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reimburseno"
+      }
     },
     "reimburseyes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reimburseyes"
+      }
     },
     "supportno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Supportno"
+      }
     },
     "supportyes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Supportyes"
+      }
     },
     "source3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Source"
+      }
     },
     "source4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Source"
+      }
     },
     "source5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Source"
+      }
     },
     "item5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "item6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "item7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "item8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "item9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "item10": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "nameDep": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Dep"
+      }
     },
     "nameDep2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Dep"
+      }
     },
     "nameDep3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Dep"
+      }
     },
     "nameDep4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Dep"
+      }
     },
     "nameDep5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Dep"
+      }
     },
     "burialVetdeath": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Burial Vetdeath"
+      }
     },
     "claimantRel": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Claimant Rel"
+      }
     },
     "person1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Person"
+      }
     },
     "ifPaid1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If Paid"
+      }
     },
     "person2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Person"
+      }
     },
     "ifPaid2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If Paid"
+      }
     },
     "person3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Person"
+      }
     },
     "ifPaid3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If Paid"
+      }
     },
     "person4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Person"
+      }
     },
     "ifPaid4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If Paid"
+      }
     },
     "person5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Person"
+      }
     },
     "ifPaid5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If Paid"
+      }
     },
     "ifPaid6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If Paid"
+      }
     },
     "source": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Source"
+      }
     },
     "source2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Source"
+      }
     },
     "item": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "item2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "item3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "item4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item"
+      }
     },
     "memberyes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Memberyes"
+      }
     },
     "memberno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Memberno"
+      }
     },
     "paid1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Paid"
+      }
     },
     "unpaid1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unpaid"
+      }
     },
     "paid2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Paid"
+      }
     },
     "paid3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Paid"
+      }
     },
     "paid4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Paid"
+      }
     },
     "paid5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Paid"
+      }
     },
     "paid6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Paid"
+      }
     },
     "unpaid2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unpaid"
+      }
     },
     "unpaid3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unpaid"
+      }
     },
     "unpaid4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unpaid"
+      }
     },
     "unpaid5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unpaid"
+      }
     },
     "unpaid6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unpaid"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-6898-are.pdf",
     "status": "digitized",
     "totalFields": 184,
-    "composedFields": 87,
-    "coveragePercent": 47,
+    "composedFields": 148,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 4,
-    "generatedAt": "2026-03-28T17:31:51.164Z"
+    "generatedAt": "2026-03-28T17:31:51.164Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.975361+00:00"
   }
 }

@@ -42,24 +42,34 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "medicalC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Medical C"
+      }
     },
     "partTimeOrFullTime": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Part Time or Full Time"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0477.pdf",
     "totalFields": 11,
-    "composedFields": 10,
-    "coveragePercent": 91,
+    "composedFields": 3,
+    "coveragePercent": 100,
     "xfaLabelCount": 3,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:05:19.061Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.586294+00:00"
   }
 }

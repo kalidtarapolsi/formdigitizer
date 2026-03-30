@@ -5,470 +5,924 @@
   "properties": {
     "dateIssued": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Issued"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "limitationLine1Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line1Of"
+      }
     },
     "limitationLine2Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line2Of"
+      }
     },
     "limitationLine3Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line3Of"
+      }
     },
     "limitationLine4Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line4Of"
+      }
     },
     "limitationLine5Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line5Of"
+      }
     },
     "limitationLine6Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line6Of"
+      }
     },
     "limitationLine7Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line7Of"
+      }
     },
     "limitationLine8Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line8Of"
+      }
     },
     "limitationLine9Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line9Of"
+      }
     },
     "limitationLine10Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line10Of"
+      }
     },
     "limitationLine11Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line11Of"
+      }
     },
     "limitationLine12Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line12Of"
+      }
     },
     "limitationLine13Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line13Of"
+      }
     },
     "limitationLine14Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line14Of"
+      }
     },
     "limitationLine15Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line15Of"
+      }
     },
     "limitationLine16Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line16Of"
+      }
     },
     "limitationLine17Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line17Of"
+      }
     },
     "limitationLine18Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line18Of"
+      }
     },
     "limitationLine19Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line19Of"
+      }
     },
     "limitationLine20Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitation Line20Of"
+      }
     },
     "noteIfTransferIsToAnAppropriationOrFundForWhichAllotmentAccountsAreMaintained": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Note If Transfer is to an Appropriation or Fund for Which Allotment Accounts Are Maintained"
+      }
     },
     "stationTransferNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Station Transfer no"
+      }
     },
     "to": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To"
+      }
     },
     "stationNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Station no"
+      }
     },
     "from": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "From"
+      }
     },
     "recordDuring": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Record During"
+      }
     },
     "appropriationOrFundLine1Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line1Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine1Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line1Of"
+      }
     },
     "firstQuarterAvailableLine1Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line1Of"
+      }
     },
     "secondQuarterAvailableLine1Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line1Of"
+      }
     },
     "thirdQuarterAvailableLine1Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line1Of"
+      }
     },
     "fourthQuarterAvailableLine1Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line1Of"
+      }
     },
     "appropriationOrFundLine2Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line2Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine2Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line2Of"
+      }
     },
     "firstQuarterAvailableLine2Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line2Of"
+      }
     },
     "secondQuarterAvailableLine2Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line2Of"
+      }
     },
     "thirdQuarterAvailableLine2Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line2Of"
+      }
     },
     "fourthQuarterAvailableLine2Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line2Of"
+      }
     },
     "appropriationOrFundLine3Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line3Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine3Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line3Of"
+      }
     },
     "firstQuarterAvailableLine3Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line3Of"
+      }
     },
     "secondQuarterAvailableLine3Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line3Of"
+      }
     },
     "thirdQuarterAvailableLine3Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line3Of"
+      }
     },
     "fourthQuarterAvailableLine3Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line3Of"
+      }
     },
     "appropriationOrFundLine4Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line4Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine4Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line4Of"
+      }
     },
     "firstQuarterAvailableLine4Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line4Of"
+      }
     },
     "secondQuarterAvailableLine4Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line4Of"
+      }
     },
     "thirdQuarterAvailableLine4Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line4Of"
+      }
     },
     "fourthQuarterAvailableLine4Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line4Of"
+      }
     },
     "appropriationOrFundLine5Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line5Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine5Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line5Of"
+      }
     },
     "firstQuarterAvailableLine5Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line5Of"
+      }
     },
     "secondQuarterAvailableLine5Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line5Of"
+      }
     },
     "thirdQuarterAvailableLine5Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line5Of"
+      }
     },
     "fourthQuarterAvailableLine5Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line5Of"
+      }
     },
     "appropriationOrFundLine6Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line6Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine6Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line6Of"
+      }
     },
     "firstQuarterAvailableLine6Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line6Of"
+      }
     },
     "secondQuarterAvailableLine6Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line6Of"
+      }
     },
     "thirdQuarterAvailableLine6Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line6Of"
+      }
     },
     "fourthQuarterAvailableLine6Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line6Of"
+      }
     },
     "appropriationOrFundLine7Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line7Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine7Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line7Of"
+      }
     },
     "firstQuarterAvailableLine7Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line7Of"
+      }
     },
     "secondQuarterAvailableLine7Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line7Of"
+      }
     },
     "thirdQuarterAvailableLine7Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line7Of"
+      }
     },
     "fourthQuarterAvailableLine7Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line7Of"
+      }
     },
     "appropriationOrFundLine8Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line8Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine8Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line8Of"
+      }
     },
     "firstQuarterAvailableLine8Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line8Of"
+      }
     },
     "secondQuarterAvailableLine8Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line8Of"
+      }
     },
     "thirdQuarterAvailableLine8Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line8Of"
+      }
     },
     "fourthQuarterAvailableLine8Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line8Of"
+      }
     },
     "appropriationOrFundLine9Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line9Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine9Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line9Of"
+      }
     },
     "firstQuarterAvailableLine9Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line9Of"
+      }
     },
     "secondQuarterAvailableLine9Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line9Of"
+      }
     },
     "thirdQuarterAvailableLine9Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line9Of"
+      }
     },
     "fourthQuarterAvailableLine9Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line9Of"
+      }
     },
     "appropriationOrFundLine10Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line10Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine10Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line10Of"
+      }
     },
     "firstQuarterAvailableLine10Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line10Of"
+      }
     },
     "secondQuarterAvailableLine10Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line10Of"
+      }
     },
     "thirdQuarterAvailableLine10Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line10Of"
+      }
     },
     "fourthQuarterAvailableLine10Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line10Of"
+      }
     },
     "appropriationOrFundLine11Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line11Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine11Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line11Of"
+      }
     },
     "firstQuarterAvailableLine11Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line11Of"
+      }
     },
     "secondQuarterAvailableLine11Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line11Of"
+      }
     },
     "thirdQuarterAvailableLine11Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line11Of"
+      }
     },
     "fourthQuarterAvailableLine11Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line11Of"
+      }
     },
     "appropriationOrFundLine12Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line12Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine12Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line12Of"
+      }
     },
     "firstQuarterAvailableLine12Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line12Of"
+      }
     },
     "secondQuarterAvailableLine12Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line12Of"
+      }
     },
     "thirdQuarterAvailableLine12Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line12Of"
+      }
     },
     "fourthQuarterAvailableLine12Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line12Of"
+      }
     },
     "appropriationOrFundLine13Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line13Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine13Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line13Of"
+      }
     },
     "firstQuarterAvailableLine13Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line13Of"
+      }
     },
     "secondQuarterAvailableLine13Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line13Of"
+      }
     },
     "thirdQuarterAvailableLine13Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line13Of"
+      }
     },
     "fourthQuarterAvailableLine13Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line13Of"
+      }
     },
     "appropriationOrFundLine14Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line14Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine14Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line14Of"
+      }
     },
     "firstQuarterAvailableLine14Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line14Of"
+      }
     },
     "secondQuarterAvailableLine14Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line14Of"
+      }
     },
     "thirdQuarterAvailableLine14Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line14Of"
+      }
     },
     "fourthQuarterAvailableLine14Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line14Of"
+      }
     },
     "appropriationOrFundLine15Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line15Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine15Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line15Of"
+      }
     },
     "firstQuarterAvailableLine15Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line15Of"
+      }
     },
     "secondQuarterAvailableLine15Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line15Of"
+      }
     },
     "thirdQuarterAvailableLine15Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line15Of"
+      }
     },
     "fourthQuarterAvailableLine15Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line15Of"
+      }
     },
     "appropriationOrFundLine16Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line16Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine16Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line16Of"
+      }
     },
     "firstQuarterAvailableLine16Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line16Of"
+      }
     },
     "secondQuarterAvailableLine16Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line16Of"
+      }
     },
     "thirdQuarterAvailableLine16Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line16Of"
+      }
     },
     "fourthQuarterAvailableLine16Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line16Of"
+      }
     },
     "appropriationOrFundLine17Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line17Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine17Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line17Of"
+      }
     },
     "firstQuarterAvailableLine17Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line17Of"
+      }
     },
     "secondQuarterAvailableLine17Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line17Of"
+      }
     },
     "thirdQuarterAvailableLine17Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line17Of"
+      }
     },
     "fourthQuarterAvailableLine17Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line17Of"
+      }
     },
     "appropriationOrFundLine18Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line18Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine18Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line18Of"
+      }
     },
     "firstQuarterAvailableLine18Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line18Of"
+      }
     },
     "secondQuarterAvailableLine18Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line18Of"
+      }
     },
     "thirdQuarterAvailableLine18Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line18Of"
+      }
     },
     "fourthQuarterAvailableLine18Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line18Of"
+      }
     },
     "appropriationOrFundLine19Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line19Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine19Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line19Of"
+      }
     },
     "firstQuarterAvailableLine19Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line19Of"
+      }
     },
     "secondQuarterAvailableLine19Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line19Of"
+      }
     },
     "thirdQuarterAvailableLine19Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line19Of"
+      }
     },
     "fourthQuarterAvailableLine19Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line19Of"
+      }
     },
     "appropriationOrFundLine20Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appropriation or Fund Line20Of"
+      }
     },
     "allotmentRestrictionOrDescriptionLine20Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Allotment Restriction or Description Line20Of"
+      }
     },
     "firstQuarterAvailableLine20Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Quarter Available Line20Of"
+      }
     },
     "secondQuarterAvailableLine20Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Quarter Available Line20Of"
+      }
     },
     "thirdQuarterAvailableLine20Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Quarter Available Line20Of"
+      }
     },
     "fourthQuarterAvailableLine20Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Quarter Available Line20Of"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     },
     "titleOfAuthorizingOfficial": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title of Authorizing Official"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4564.pdf",
     "totalFields": 151,
-    "composedFields": 23,
-    "coveragePercent": 15,
+    "composedFields": 151,
+    "coveragePercent": 100,
     "xfaLabelCount": 151,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:31:24.795Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.510361+00:00"
   }
 }

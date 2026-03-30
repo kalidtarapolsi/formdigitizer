@@ -9,536 +9,951 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "peDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Date"
+      }
     },
     "peDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Date"
+      }
     },
     "peDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Date"
+      }
     },
     "peDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Date"
+      }
     },
     "peDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Date"
+      }
     },
     "peDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Date"
+      }
     },
     "peDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Date"
+      }
     },
     "peNxtDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Nxt Date"
+      }
     },
     "peNxtDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Nxt Date"
+      }
     },
     "peNxtDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Nxt Date"
+      }
     },
     "peNxtDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Nxt Date"
+      }
     },
     "peNxtDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Nxt Date"
+      }
     },
     "peNxtDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Nxt Date"
+      }
     },
     "xrayDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Date"
+      }
     },
     "serolDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Date"
+      }
     },
     "serolDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Date"
+      }
     },
     "serolDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Date"
+      }
     },
     "serolDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Date"
+      }
     },
     "serolDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Date"
+      }
     },
     "serolDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Date"
+      }
     },
     "serolDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Date"
+      }
     },
     "serolNxtDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Nxt Date"
+      }
     },
     "serolNxtDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Nxt Date"
+      }
     },
     "serolNxtDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Nxt Date"
+      }
     },
     "serolNxtDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Nxt Date"
+      }
     },
     "serolNxtDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Nxt Date"
+      }
     },
     "serolNxtDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Nxt Date"
+      }
     },
     "xrayDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Date"
+      }
     },
     "xrayDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Date"
+      }
     },
     "xrayDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Date"
+      }
     },
     "xrayDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Date"
+      }
     },
     "xrayDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Date"
+      }
     },
     "xrayDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Date"
+      }
     },
     "xrayNxtDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Nxt Date"
+      }
     },
     "xrayNxtDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Nxt Date"
+      }
     },
     "xrayNxtDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Nxt Date"
+      }
     },
     "xrayNxtDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Nxt Date"
+      }
     },
     "xrayNxtDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Nxt Date"
+      }
     },
     "xrayNxtDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Nxt Date"
+      }
     },
     "chemDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Date"
+      }
     },
     "chemDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Date"
+      }
     },
     "chemDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Date"
+      }
     },
     "chemDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Date"
+      }
     },
     "chemDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Date"
+      }
     },
     "chemDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Date"
+      }
     },
     "chemDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Date"
+      }
     },
     "chemNxtDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Nxt Date"
+      }
     },
     "chemNxtDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Nxt Date"
+      }
     },
     "chemNxtDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Nxt Date"
+      }
     },
     "chemNxtDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Nxt Date"
+      }
     },
     "chemNxtDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Nxt Date"
+      }
     },
     "chemNxtDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Nxt Date"
+      }
     },
     "urinDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Date"
+      }
     },
     "urinDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Date"
+      }
     },
     "urinDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Date"
+      }
     },
     "urinDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Date"
+      }
     },
     "urinDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Date"
+      }
     },
     "urinDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Date"
+      }
     },
     "urinDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Date"
+      }
     },
     "urinNxtDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Nxt Date"
+      }
     },
     "urinNxtDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Nxt Date"
+      }
     },
     "urinNxtDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Nxt Date"
+      }
     },
     "urinNxtDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Nxt Date"
+      }
     },
     "urinNxtDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Nxt Date"
+      }
     },
     "urinNxtDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Nxt Date"
+      }
     },
     "ekgDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Date"
+      }
     },
     "ekgDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Date"
+      }
     },
     "ekgDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Date"
+      }
     },
     "ekgDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Date"
+      }
     },
     "ekgDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Date"
+      }
     },
     "ekgDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Date"
+      }
     },
     "ekgDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Date"
+      }
     },
     "ekgNxtDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Nxt Date"
+      }
     },
     "ekgNxtDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Nxt Date"
+      }
     },
     "ekgNxtDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Nxt Date"
+      }
     },
     "ekgNxtDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Nxt Date"
+      }
     },
     "ekgNxtDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Nxt Date"
+      }
     },
     "ekgNxtDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Nxt Date"
+      }
     },
     "dentalDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Date"
+      }
     },
     "dentalDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Date"
+      }
     },
     "dentalDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Date"
+      }
     },
     "dentalDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Date"
+      }
     },
     "dentalDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Date"
+      }
     },
     "dentalDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Date"
+      }
     },
     "dentalDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Date"
+      }
     },
     "dentalNxtDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Nxt Date"
+      }
     },
     "dentalNxtDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Nxt Date"
+      }
     },
     "dentalNxtDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Nxt Date"
+      }
     },
     "dentalNxtDate5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Nxt Date"
+      }
     },
     "dentalNxtDate6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Nxt Date"
+      }
     },
     "dentalNxtDate7": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Nxt Date"
+      }
     },
     "dentalNxtDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dental Nxt Date"
+      }
     },
     "admitDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Admit Date"
+      }
     },
     "discloseDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Disclose Date"
+      }
     },
     "admitDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Admit Date"
+      }
     },
     "discloseDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Disclose Date"
+      }
     },
     "discloseDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Disclose Date"
+      }
     },
     "admitDate3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Admit Date"
+      }
     },
     "discloseDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Disclose Date"
+      }
     },
     "admitDate4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Admit Date"
+      }
     },
     "peNxtDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Pe Nxt Date"
+      }
     },
     "xrayNxtDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Xray Nxt Date"
+      }
     },
     "serolNxtDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Serol Nxt Date"
+      }
     },
     "chemNxtDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Chem Nxt Date"
+      }
     },
     "urinNxtDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Urin Nxt Date"
+      }
     },
     "ekgNxtDate1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ekg Nxt Date"
+      }
     },
     "disability1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Disability"
+      }
     },
     "disability2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Disability"
+      }
     },
     "disability3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Disability"
+      }
     },
     "disability4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Disability"
+      }
     },
     "claimNbr": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Claim Nbr"
+      }
     },
     "rNbr1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "R Nbr"
+      }
     },
     "coNbr1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Nbr"
+      }
     },
     "detailClass1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Detail Class"
+      }
     },
     "rNbr2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "R Nbr"
+      }
     },
     "coNbr2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Nbr"
+      }
     },
     "detailClass2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Detail Class"
+      }
     },
     "detailClass3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Detail Class"
+      }
     },
     "coNbr3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Nbr"
+      }
     },
     "rNbr3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "R Nbr"
+      }
     },
     "rNbr4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "R Nbr"
+      }
     },
     "coNbr4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Nbr"
+      }
     },
     "detailClass4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Detail Class"
+      }
     },
     "vetName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vet Name"
+      }
     },
     "jan": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jan"
+      }
     },
     "feb": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Feb"
+      }
     },
     "mar": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mar"
+      }
     },
     "apr": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Apr"
+      }
     },
     "may": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "May"
+      }
     },
     "jun": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jun"
+      }
     },
     "jul": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jul"
+      }
     },
     "aug": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Aug"
+      }
     },
     "sep": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sep"
+      }
     },
     "oct": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Oct"
+      }
     },
     "nov": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nov"
+      }
     },
     "dec": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Dec"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5501-fill.pdf",
     "totalFields": 138,
-    "composedFields": 112,
-    "coveragePercent": 81,
+    "composedFields": 138,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:23.829Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.779177+00:00"
   }
 }

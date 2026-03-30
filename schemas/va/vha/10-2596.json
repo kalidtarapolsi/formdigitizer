@@ -5,70 +5,102 @@
   "properties": {
     "veteranFullName": {
       "type": "string",
-      "description": "Veteran's full name (last, first, middle)"
+      "description": "Veteran's full name (last, first, middle)",
+      "x-va-field": {
+        "label": "Veteran Full Name"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number (last 4 digits)"
+      "description": "Social Security Number (last 4 digits)",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "vaFileNumber": {
       "type": "string",
-      "description": "VA file number"
+      "description": "VA file number",
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "vaFacilityName": {
       "type": "string",
-      "description": "VA medical facility name"
+      "description": "VA medical facility name",
+      "x-va-field": {
+        "label": "VA Facility Name"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "informationToRelease": {
       "type": "string",
-      "description": "Information authorized for release"
+      "description": "Information authorized for release",
+      "x-va-field": {
+        "label": "Information to Release"
+      }
     },
     "releaseTo": {
       "type": "string",
-      "description": "Person/organization to release to"
+      "description": "Person/organization to release to",
+      "x-va-field": {
+        "label": "Release to"
+      }
     },
     "purposeOfRelease": {
       "type": "string",
-      "description": "Purpose of release"
-    },
-    "expirationDate": {
-      "type": "string",
-      "format": "date",
-      "description": "Authorization expiration date"
+      "description": "Purpose of release",
+      "x-va-field": {
+        "label": "Purpose of Release"
+      }
     },
     "patientSignature": {
       "type": "boolean",
-      "description": "Patient's signature"
+      "description": "Patient's signature",
+      "x-va-field": {
+        "label": "Patient Signature"
+      }
     },
     "witnessSignature": {
       "type": "boolean",
-      "description": "Witness signature"
+      "description": "Witness signature",
+      "x-va-field": {
+        "label": "Witness Signature"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2596.pdf",
     "totalFields": 13,
-    "composedFields": 13,
+    "composedFields": 12,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "status": "digitized",
     "pageCount": 1,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.673924+00:00"
   }
 }

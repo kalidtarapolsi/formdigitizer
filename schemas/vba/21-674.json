@@ -7,217 +7,184 @@
     "vaFileNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number If Applicable",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Social Security Number Last Four Numbers",
+        "label": "VA File Number If Applicable",
         "widget": "text"
       }
     },
     "veteransSocialSecurityNumberSecondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Social Security Number First Three Numbers",
+        "label": "Veterans Social Security Number Second Two Numbers",
         "widget": "text"
       }
     },
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "middleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Middle Initial1",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "veteranClaimantFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran Claimant First Name",
+        "label": "Veteran Claimant First Name",
         "widget": "text"
       }
     },
     "emailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Email Address",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "studentsNameFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Students Name First Name",
+        "label": "Students Name First Name",
         "widget": "text"
       }
     },
-    "ziporPostalCodeLastFourNumbers": {
+    "ziporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "ziporPostalCodeFirstFiveNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "country": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Country",
+        "label": "Country",
         "widget": "text"
       }
     },
     "stateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform State Or Province",
+        "label": "State or Province",
         "widget": "text"
       }
     },
     "city": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform City",
+        "label": "City",
         "widget": "text"
       }
     },
     "apartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Apartment Or Unit Number",
+        "label": "Apartment or Unit Number",
         "widget": "text"
       }
     },
     "addressOfStudentNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address Of Student Number And Street",
+        "label": "Address of Student Number and Street",
         "widget": "text"
       }
     },
     "beginningDateOfRegularTermOrCourseMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Beginning Date Of Regular Term Or Course Month",
+        "label": "Beginning Date of Regular Term or Course Month",
         "widget": "text"
       }
     },
     "dateStudentStartedOrExpectsToStartCourseMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Student Started Or Expects To Start Course Month",
+        "label": "Date Student Started or Expects to Start Course Month",
         "widget": "text"
       }
     },
     "expectedDateOfGraduationMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Expected Date Of Graduation Month",
+        "label": "Expected Date of Graduation Month",
         "widget": "text"
       }
     },
     "beginningDateOfLastTermMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Beginning Date Of Last Term Month",
+        "label": "Beginning Date of Last Term Month",
         "widget": "text"
       }
     },
     "endingDateOfLastTermMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Ending Date Of Last Term Month",
+        "label": "Ending Date of Last Term Month",
         "widget": "text"
       }
     },
     "typeOfProgramOrBenefit": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Type Of Program Or Benefit",
+        "label": "Type of Program or Benefit",
         "widget": "text"
       }
     },
     "federallyFundedSchoolOrProgrm": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Federally Funded School Or Progrm",
+        "label": "Federally Funded School or Progrm",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform A M O U N T",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Remarks",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "telephoneNumberAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Telephone Number Area Code",
+        "label": "Telephone Number Area Code",
         "widget": "text"
       }
     },
-    "telephoneMiddleThreeNumbers": {
+    "telephone": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Form1 #subform Telephone Middle Three Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Telephone Last Four Numbers",
-        "widget": "text"
+        "label": "Telephone",
+        "widget": "phone"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
@@ -225,13 +192,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Use this form to determine entitlement to benefits for a vet",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
         "widget": "text"
       }
     },
@@ -252,7 +212,7 @@
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "text"
       }
     },
@@ -260,7 +220,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH",
+        "label": "Date Of Birth",
         "widget": "date"
       }
     },
@@ -297,7 +257,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "9C. DATE PAYMENTS BEGAN (",
+        "label": "9C. Date Payments Began (",
         "widget": "date"
       }
     },
@@ -313,7 +273,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "11A. OFFICIAL BEGINNING",
+        "label": "11A. Official Beginning",
         "widget": "date"
       }
     },
@@ -329,7 +289,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "11C. EXPECTED",
+        "label": "11C. Expected",
         "widget": "date"
       }
     },
@@ -337,7 +297,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "12B. BEGINNING",
+        "label": "12B. Beginning",
         "widget": "date"
       }
     },
@@ -345,28 +305,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "12C. ENDING",
+        "label": "12C. Ending",
         "widget": "date"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
       }
     },
     "valueOfEstate": {
       "type": "string",
       "x-va-field": {
-        "label": "VALUE OF ESTATE",
+        "label": "Value Of Estate",
         "widget": "select"
       }
     },
     "reportOfIncomeByCalendarYear": {
       "type": "string",
       "x-va-field": {
-        "label": "REPORT OF INCOME BY CALENDAR YEAR",
+        "label": "Report Of Income By Calendar Year",
         "widget": "text"
       }
     },
@@ -396,7 +349,7 @@
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -418,7 +371,7 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -431,37 +384,55 @@
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     },
     "dateOfMarriage": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Marriage"
+      }
     },
     "datePaymentsBegan": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Payments Began"
+      }
     },
     "dateStoppedAttending": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Stopped Attending"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-674-are.pdf",
     "status": "digitized",
     "totalFields": 75,
-    "composedFields": 65,
-    "coveragePercent": 98,
+    "composedFields": 58,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 3,
     "generatedAt": "2026-03-28T17:33:05.737Z",
     "postProcessedAt": "2026-03-30T20:02:41.701259+00:00",
@@ -470,6 +441,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.322563+00:00"
   }
 }

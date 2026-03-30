@@ -4,27 +4,40 @@
   "type": "object",
   "properties": {
     "qComment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Q Comment"
+      }
     },
     "oAnalyticGoalsStudyProtocol": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "O Analytic Goals Study Protocol"
+      }
     },
     "oIRBNotRequired": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "O IRB Not Required"
+      }
     },
     "pRequestApprovalYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "P Request Approval Yes"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0403-fill.pdf",
     "totalFields": 24,
-    "composedFields": 16,
-    "coveragePercent": 67,
+    "composedFields": 4,
+    "coveragePercent": 100,
     "xfaLabelCount": 4,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:05:15.786Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.571475+00:00"
   }
 }

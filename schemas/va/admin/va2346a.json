@@ -35,25 +35,35 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "dateOfRequest": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Request"
+      }
     },
     "newTemporaryCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "New Temporary Check Box"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA2346a.pdf",
     "totalFields": 12,
-    "composedFields": 12,
+    "composedFields": 3,
     "coveragePercent": 100,
     "xfaLabelCount": 3,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:26:55.026Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.504880+00:00"
   }
 }

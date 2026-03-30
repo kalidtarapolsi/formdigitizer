@@ -5,41 +5,59 @@
   "properties": {
     "sigDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Sig Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "performance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Performance"
+      }
     },
     "grantNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grant Number"
+      }
     },
     "grantName": {
-      "type": "string"
-    },
-    "vha100143newform0subform1textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Grant Name"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "name1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0143-fill.pdf",
     "totalFields": 8,
-    "composedFields": 2,
-    "coveragePercent": 25,
+    "composedFields": 7,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:19:17.612Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.542783+00:00"
   }
 }

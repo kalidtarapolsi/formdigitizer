@@ -7,28 +7,28 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address",
+        "label": "Address",
         "widget": "text"
       }
     },
     "phoneNum": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone Num",
+        "label": "Phone Num",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform email",
+        "label": "Email",
         "widget": "text"
       }
     },
@@ -44,13 +44,6 @@
       "x-va-field": {
         "label": "Applicant's (Last, First, MI)",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
       }
     },
     "socialSecurityNumber": {
@@ -101,22 +94,15 @@
         "label": "use\" disclosure of the information for",
         "widget": "text"
       }
-    },
-    "form1SubformTextField44": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field44",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491k-fill%20(Offer%20Response).pdf",
     "totalFields": 15,
-    "composedFields": 15,
-    "coveragePercent": 87,
+    "composedFields": 13,
+    "coveragePercent": 100,
     "xfaLabelCount": 10,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:29:48.773Z",
     "pageCount": 1,
     "status": "digitized",
@@ -124,6 +110,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.596739+00:00"
   }
 }

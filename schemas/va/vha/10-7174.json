@@ -5,58 +5,97 @@
   "properties": {
     "volunteerName": {
       "type": "string",
-      "description": "Volunteer's full name"
+      "description": "Volunteer's full name",
+      "x-va-field": {
+        "label": "Volunteer Name"
+      }
     },
     "volunteerAddress": {
       "type": "string",
-      "description": "Volunteer's address"
+      "description": "Volunteer's address",
+      "x-va-field": {
+        "label": "Volunteer Address"
+      }
     },
     "volunteerPhone": {
       "type": "string",
-      "description": "Volunteer's phone number"
+      "description": "Volunteer's phone number",
+      "x-va-field": {
+        "label": "Volunteer Phone"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "vaFacility": {
       "type": "string",
-      "description": "VA facility"
+      "description": "VA facility",
+      "x-va-field": {
+        "label": "VA Facility"
+      }
     },
     "assignmentArea": {
       "type": "string",
-      "description": "Service/department assignment"
+      "description": "Service/department assignment",
+      "x-va-field": {
+        "label": "Assignment Area"
+      }
     },
     "supervisorName": {
       "type": "string",
-      "description": "Supervisor's name"
+      "description": "Supervisor's name",
+      "x-va-field": {
+        "label": "Supervisor Name"
+      }
     },
     "startDate": {
       "type": "string",
       "format": "date",
-      "description": "Start date"
+      "description": "Start date",
+      "x-va-field": {
+        "label": "Start Date"
+      }
     },
     "hoursPerWeek": {
       "type": "string",
-      "description": "Hours per week"
+      "description": "Hours per week",
+      "x-va-field": {
+        "label": "Hours Per Week"
+      }
     },
     "duties": {
       "type": "string",
-      "description": "Description of duties"
+      "description": "Description of duties",
+      "x-va-field": {
+        "label": "Duties"
+      }
     },
     "volunteerSignature": {
       "type": "boolean",
-      "description": "Volunteer's signature"
+      "description": "Volunteer's signature",
+      "x-va-field": {
+        "label": "Volunteer Signature"
+      }
     },
     "supervisorSignature": {
       "type": "boolean",
-      "description": "Supervisor's signature"
+      "description": "Supervisor's signature",
+      "x-va-field": {
+        "label": "Supervisor Signature"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     }
   },
   "x-va-metadata": {
@@ -69,6 +108,7 @@
     "status": "digitized",
     "pageCount": 1,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.813814+00:00"
   }
 }

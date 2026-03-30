@@ -5,109 +5,203 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "rx1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx"
+      }
     },
     "rx2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx"
+      }
     },
     "rx3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx"
+      }
     },
     "rx4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx"
+      }
     },
     "rx5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx"
+      }
     },
     "for1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "For"
+      }
     },
     "for2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "For"
+      }
     },
     "for3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "For"
+      }
     },
     "for4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "For"
+      }
     },
     "for5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "For"
+      }
     },
     "code1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code"
+      }
     },
     "code2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code"
+      }
     },
     "code3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code"
+      }
     },
     "code4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code"
+      }
     },
     "code5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code"
+      }
     },
     "other2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "other3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "other1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "other4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "lastRefill": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Last Refill"
+      }
     },
     "specialNotice": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Special Notice"
+      }
     },
     "rxSpecial2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx Special"
+      }
     },
     "rxSpecial3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx Special"
+      }
     },
     "rxSpecial4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx Special"
+      }
     },
     "rxSpecial5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx Special"
+      }
     },
     "rxSpecial6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx Special"
+      }
     },
     "rxSpecial7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx Special"
+      }
     },
     "rxSpecial1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx Special"
+      }
     },
     "rxSpecial8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rx Special"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2478a-fill.pdf",
     "totalFields": 31,
-    "composedFields": 2,
-    "coveragePercent": 6,
+    "composedFields": 31,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:05.138Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.662655+00:00"
   }
 }

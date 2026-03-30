@@ -7,35 +7,35 @@
     "schoolName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform School Name",
+        "label": "School Name",
         "widget": "text"
       }
     },
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "altPhoneNum": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Alt Phone Num",
+        "label": "Alt Phone Num",
         "widget": "text"
       }
     },
     "altEmail": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Alt Email",
+        "label": "Alt Email",
         "widget": "text"
       }
     },
@@ -67,13 +67,6 @@
         "widget": "text"
       }
     },
-    "form1SubformCheckBox6": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box6",
-        "widget": "checkbox"
-      }
-    },
     "other": {
       "type": "string",
       "x-va-field": {
@@ -99,10 +92,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491a-fill%20(Application%20Addendum)%20(002).pdf",
     "totalFields": 13,
-    "composedFields": 13,
-    "coveragePercent": 92,
+    "composedFields": 12,
+    "coveragePercent": 100,
     "xfaLabelCount": 7,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:29:05.819Z",
     "pageCount": 1,
     "status": "digitized",
@@ -111,6 +104,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.588106+00:00"
   }
 }

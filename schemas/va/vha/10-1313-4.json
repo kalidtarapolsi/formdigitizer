@@ -4,24 +4,34 @@
   "type": "object",
   "properties": {
     "estimatedExpensesOfProject": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Estimated Expenses of Project"
+      }
     },
     "totalOperatingExpensesFifthYearDollarAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Total Operating Expenses Fifth Year Dollar Amount"
+      }
     },
     "justificationOfItemsPage3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Justification of Items Page"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-4-fill.pdf",
     "totalFields": 34,
-    "composedFields": 32,
-    "coveragePercent": 94,
+    "composedFields": 3,
+    "coveragePercent": 100,
     "xfaLabelCount": 3,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:19:45.519Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:57.131945+00:00"
   }
 }

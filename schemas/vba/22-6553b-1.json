@@ -4,7 +4,10 @@
   "type": "object",
   "properties": {
     "dateofLastLesson": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Dateof Last Lesson"
+      }
     },
     "address": {
       "type": "object",
@@ -45,84 +48,145 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateofSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateof Signature"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "checkBoxA": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Check Box a"
+      }
     },
     "checkBoxB": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Check Box B"
+      }
     },
     "checkBoxC": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Check Box C"
+      }
     },
     "training": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Training"
+      }
     },
     "schoolId": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "School ID"
+      }
     },
     "studentsName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Students Name"
+      }
     },
     "payee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payee"
+      }
     },
     "facilityCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Facility Code"
+      }
     },
     "numberLessonsAuth": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number Lessons Auth"
+      }
     },
     "yes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "totalLessonsCompleted": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Lessons Completed"
+      }
     },
     "totalLessonsServiced": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Lessons Serviced"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-6553b-1-are.pdf",
     "status": "digitized",
     "totalFields": 23,
-    "composedFields": 14,
-    "coveragePercent": 61,
+    "composedFields": 21,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:38:00.354Z"
+    "generatedAt": "2026-03-28T17:38:00.354Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.139736+00:00"
   }
 }

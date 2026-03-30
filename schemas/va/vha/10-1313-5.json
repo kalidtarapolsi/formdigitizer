@@ -56,7 +56,7 @@
     "nameLocationOfInstitutiondegreeyearAward": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME, LOCATION OF INSTITUTIONDEGREEYEAR AWARD",
+        "label": "Name, Location Of Institutiondegreeyear Award",
         "widget": "text"
       }
     }
@@ -75,6 +75,7 @@
     "extractionSources": [
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.640577+00:00"
   }
 }

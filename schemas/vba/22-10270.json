@@ -7,126 +7,119 @@
     "nameOfEducationalAndTrainingInstitutionEti": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name Of Educational And Training Institution E T I",
+        "label": "Name of Educational and Training Institution Eti",
         "widget": "text"
       }
     },
     "mailingAddressOfEducationalAndTrainingInstitution": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M A I L I N G A D D R E S S O F E D U C A T I O N A L A N D T R A I N I N G I N S T I T U T I O N",
+        "label": "Mailing Address of Educational and Training Institution",
         "widget": "text"
       }
     },
     "facilityCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform F A C I L I T Y C O D E",
+        "label": "Facility Code",
         "widget": "text"
       }
     },
     "dropDownList1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Drop Down List1",
+        "label": "Drop Down List",
         "widget": "select"
       }
     },
     "numericField2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Numeric Field2",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "numberOfVaWorkStudyStudents": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Number Of V A Work Study Students",
+        "label": "Number of VA Work Study Students",
         "widget": "text"
       }
     },
     "numberOfWorkStudyStudentsAtAllSites": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Number Of Work Study Students At All Sites",
+        "label": "Number of Work Study Students at All Sites",
         "widget": "text"
       }
     },
     "nameOfSchoolFinancialRepresentativeLumpSumWorkStudyProgramPointOfContact": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name Of School Financial Representative Lump Sum Work Study Program Point Of Contact",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberOfSchoolFinancialRepresentativeLumpSumWorkStudyProgramPointOfContact": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Telephone Number Of School Financial Representative Lump Sum Work Study Program Point Of Contact",
+        "label": "Name of School Financial Representative Lump Sum Work Study Program Point of Contact",
         "widget": "text"
       }
     },
     "eMail": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform E M A I L",
+        "label": "Email",
         "widget": "text"
       }
     },
     "nameOfCertifyingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name Of Certifying Official",
+        "label": "Name of Certifying Official",
         "widget": "text"
       }
     },
     "telephoneNumberOfSchoolCertifyingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Telephone Number Of School Certifying Official",
+        "label": "Telephone Number of School Certifying Official",
         "widget": "text"
       }
     },
     "nameWorkStudy": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name Work Study",
+        "label": "Name Work Study",
         "widget": "text"
       }
     },
     "signatureField2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field2",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "titleOfAuthorizingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I T L E O F A U T H O R I Z I N G O F F I C I A L",
+        "label": "Title of Authorizing Official",
         "widget": "text"
       }
     },
     "telephoneNumberIncludeAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Telephone Number Include Area Code",
+        "label": "Telephone Number Include Area Code",
         "widget": "text"
       }
     },
     "dateField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Field1",
+        "label": "Date Field",
         "widget": "text"
       }
     },
     "printNameOfAuthorizingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Print Name Of Authorizing Official",
+        "label": "Print Name of Authorizing Official",
         "widget": "text"
       }
     },
@@ -140,35 +133,35 @@
     "nameOfEducationalAndTrainingInstitutionEti2": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF EDUCATIONAL AND TRAINING INSTITUTION (ETI)",
+        "label": "Name Of Educational And Training Institution (Eti)",
         "widget": "text"
       }
     },
     "mailingAddressOfEducationalAndTrainingInstitution2": {
       "type": "string",
       "x-va-field": {
-        "label": "MAILING ADDRESS OF EDUCATIONAL AND TRAINING INSTITUTION",
+        "label": "Mailing Address Of Educational And Training Institution",
         "widget": "address"
       }
     },
     "facilityCode2": {
       "type": "string",
       "x-va-field": {
-        "label": "FACILITY CODE",
+        "label": "Facility Code",
         "widget": "text"
       }
     },
     "typeOfAgreement": {
       "type": "string",
       "x-va-field": {
-        "label": "TYPE OF AGREEMENT",
+        "label": "Type Of Agreement",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -238,21 +231,21 @@
     "the_154fRequestsTheFollowingDollarAmount": {
       "type": "string",
       "x-va-field": {
-        "label": "THE 154F REQUESTS THE FOLLOWING DOLLAR AMOUNT",
+        "label": "The 154F Requests The Following Dollar Amount",
         "widget": "text"
       }
     },
     "thisFundingRequestWillBeUsedToCompensateThe": {
       "type": "string",
       "x-va-field": {
-        "label": "THIS FUNDING REQUEST WILL BE USED TO COMPENSATE THE",
+        "label": "This Funding Request Will Be Used To Compensate The",
         "widget": "text"
       }
     },
     "totalNumberOfVaWorkStudyStudentsAtAllSites": {
       "type": "string",
       "x-va-field": {
-        "label": "TOTAL NUMBER OF VA WORK STUDY STUDENTS AT ALL SITES",
+        "label": "Total Number Of VA Work Study Students At All Sites",
         "widget": "text"
       }
     },
@@ -260,14 +253,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "PRIOR TO THE",
+        "label": "Prior To The",
         "widget": "date"
       }
     },
     "enterTheTotalFundingPaidAsVaWorkStudy": {
       "type": "string",
       "x-va-field": {
-        "label": "ENTER THE TOTAL FUNDING PAID AS VA WORK STUDY",
+        "label": "Enter The Total Funding Paid As VA Work Study",
         "widget": "text"
       }
     },
@@ -275,28 +268,28 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "AGREEMENT FOR THE ACADEMIC YEAR PRIOR TO THE",
+        "label": "Agreement For The Academic Year Prior To The",
         "widget": "date"
       }
     },
     "schoolFinancialRepresentativeLumpSumWorkStudyProgram": {
       "type": "string",
       "x-va-field": {
-        "label": "SCHOOL FINANCIAL REPRESENTATIVE/LUMP SUM WORK STUDY PROGRAM",
+        "label": "School Financial Representative/Lump Sum Work Study Program",
         "widget": "text"
       }
     },
     "schoolCertifyingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "SCHOOL CERTIFYING OFFICIAL",
+        "label": "School Certifying Official",
         "widget": "text"
       }
     },
     "agreedTo": {
       "type": "string",
       "x-va-field": {
-        "label": "AGREED TO",
+        "label": "Agreed To",
         "widget": "text"
       }
     },
@@ -311,7 +304,7 @@
     "acceptedBy": {
       "type": "string",
       "x-va-field": {
-        "label": "ACCEPTED BY",
+        "label": "Accepted By",
         "widget": "text"
       }
     },
@@ -354,7 +347,7 @@
     "signatureOfAuthorizingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF AUTHORIZING OFFICIAL",
+        "label": "Signature Of Authorizing Official",
         "widget": "signature"
       }
     },
@@ -385,7 +378,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10270-are.pdf",
     "status": "digitized",
     "totalFields": 53,
-    "composedFields": 53,
+    "composedFields": 52,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -396,6 +389,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.431358+00:00"
   }
 }

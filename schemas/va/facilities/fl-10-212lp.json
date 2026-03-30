@@ -42,77 +42,129 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "statusOfAuthorizedRepresentativeGuardianpoa": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status of Authorized Representative Guardianpoa"
+      }
     },
     "fftext2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fftext"
+      }
     },
     "referTo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Refer to"
+      }
     },
     "historyAndPhysicalExam": {
-      "type": "string"
-    },
-    "fl102120subform0textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "History and Physical Exam"
+      }
     },
-    "fl102120subform0textfield11": {
+    "fl102120textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield12": {
+    "fl102120textfield11": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield13": {
+    "fl102120textfield12": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield14": {
+    "fl102120textfield13": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield15": {
+    "fl102120textfield14": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield16": {
+    "fl102120textfield15": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield17": {
+    "fl102120textfield16": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield18": {
+    "fl102120textfield17": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield19": {
+    "fl102120textfield18": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
-    "fl102120subform0textfield110": {
+    "fl102120textfield19": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
+    },
+    "fl102120textfield110": {
+      "type": "string",
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "Fl102120textfield"
+      }
     },
     "printPatientNameOrAuthorizedRepresentative": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Print Patient Name or Authorized Representative"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-FL-10-212LP-fill%20(1).pdf",
     "totalFields": 28,
-    "composedFields": 4,
-    "coveragePercent": 14,
+    "composedFields": 17,
+    "coveragePercent": 100,
     "xfaLabelCount": 3,
-    "needsReviewCount": 11,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:32:50.987Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:16.146167+00:00"
   }
 }

@@ -5,398 +5,681 @@
   "properties": {
     "agencyName": {
       "type": "string",
-      "description": "Agency name"
+      "description": "Agency name",
+      "x-va-field": {
+        "label": "Agency Name"
+      }
     },
     "agencyCode": {
       "type": "string",
-      "description": "Agency code"
+      "description": "Agency code",
+      "x-va-field": {
+        "label": "Agency Code"
+      }
     },
     "effectiveDate": {
       "type": "string",
       "format": "date",
-      "description": "Effective date"
+      "description": "Effective date",
+      "x-va-field": {
+        "label": "Effective Date"
+      }
     },
     "employeeName": {
       "type": "string",
-      "description": "Employee name"
+      "description": "Employee name",
+      "x-va-field": {
+        "label": "Employee Name"
+      }
     },
     "employeeNumber": {
       "type": "string",
-      "description": "Employee number"
+      "description": "Employee number",
+      "x-va-field": {
+        "label": "Employee Number"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number"
+      "description": "Social Security Number",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "dateOfAppointment": {
       "type": "string",
       "format": "date",
-      "description": "Date of appointment"
+      "description": "Date of appointment",
+      "x-va-field": {
+        "label": "Date of Appointment"
+      }
     },
     "currentPosition": {
       "type": "string",
-      "description": "Current position title"
+      "description": "Current position title",
+      "x-va-field": {
+        "label": "Current Position"
+      }
     },
     "currentGrade": {
       "type": "string",
-      "description": "Current grade"
+      "description": "Current grade",
+      "x-va-field": {
+        "label": "Current Grade"
+      }
     },
     "currentStep": {
       "type": "string",
-      "description": "Current step"
+      "description": "Current step",
+      "x-va-field": {
+        "label": "Current Step"
+      }
     },
     "currentSalary": {
       "type": "number",
-      "description": "Current salary"
+      "description": "Current salary",
+      "x-va-field": {
+        "label": "Current Salary"
+      }
     },
     "currentDutyStation": {
       "type": "string",
-      "description": "Current duty station"
+      "description": "Current duty station",
+      "x-va-field": {
+        "label": "Current Duty Station"
+      }
     },
     "newPosition": {
       "type": "string",
-      "description": "New position title"
+      "description": "New position title",
+      "x-va-field": {
+        "label": "New Position"
+      }
     },
     "newGrade": {
       "type": "string",
-      "description": "New grade"
+      "description": "New grade",
+      "x-va-field": {
+        "label": "New Grade"
+      }
     },
     "newStep": {
       "type": "string",
-      "description": "New step"
+      "description": "New step",
+      "x-va-field": {
+        "label": "New Step"
+      }
     },
     "newSalary": {
       "type": "number",
-      "description": "New salary"
+      "description": "New salary",
+      "x-va-field": {
+        "label": "New Salary"
+      }
     },
     "newDutyStation": {
       "type": "string",
-      "description": "New duty station"
+      "description": "New duty station",
+      "x-va-field": {
+        "label": "New Duty Station"
+      }
     },
     "typeOfAction": {
       "type": "string",
-      "description": "Type of action"
+      "description": "Type of action",
+      "x-va-field": {
+        "label": "Type of Action"
+      }
     },
     "promotionType": {
       "type": "string",
-      "description": "Promotion type"
+      "description": "Promotion type",
+      "x-va-field": {
+        "label": "Promotion Type"
+      }
     },
     "performanceRating": {
       "type": "string",
-      "description": "Performance rating"
+      "description": "Performance rating",
+      "x-va-field": {
+        "label": "Performance Rating"
+      }
     },
     "serviceRecognition": {
       "type": "boolean",
-      "description": "Service recognition"
+      "description": "Service recognition",
+      "x-va-field": {
+        "label": "Service Recognition"
+      }
     },
     "yearsOfService": {
       "type": "string",
-      "description": "Years of service"
+      "description": "Years of service",
+      "x-va-field": {
+        "label": "Years of Service"
+      }
     },
     "previousAgency": {
       "type": "string",
-      "description": "Previous agency"
+      "description": "Previous agency",
+      "x-va-field": {
+        "label": "Previous Agency"
+      }
     },
     "previousPosition": {
       "type": "string",
-      "description": "Previous position"
+      "description": "Previous position",
+      "x-va-field": {
+        "label": "Previous Position"
+      }
     },
     "previousGrade": {
       "type": "string",
-      "description": "Previous grade"
+      "description": "Previous grade",
+      "x-va-field": {
+        "label": "Previous Grade"
+      }
     },
     "creditableService": {
       "type": "string",
-      "description": "Creditable service"
+      "description": "Creditable service",
+      "x-va-field": {
+        "label": "Creditable Service"
+      }
     },
     "debtLimitAdjustment": {
       "type": "boolean",
-      "description": "Debt limit adjustment"
+      "description": "Debt limit adjustment",
+      "x-va-field": {
+        "label": "Debt Limit Adjustment"
+      }
     },
     "adjustedAmount": {
       "type": "number",
-      "description": "Adjusted amount"
+      "description": "Adjusted amount",
+      "x-va-field": {
+        "label": "Adjusted Amount"
+      }
     },
     "retirementPlan": {
       "type": "string",
-      "description": "Retirement plan"
+      "description": "Retirement plan",
+      "x-va-field": {
+        "label": "Retirement Plan"
+      }
     },
     "retirementAccount": {
       "type": "string",
-      "description": "Retirement account number"
+      "description": "Retirement account number",
+      "x-va-field": {
+        "label": "Retirement Account"
+      }
     },
     "thriftSavingsPlan": {
       "type": "boolean",
-      "description": "Thrift savings plan"
+      "description": "Thrift savings plan",
+      "x-va-field": {
+        "label": "Thrift Savings Plan"
+      }
     },
     "tspaAccountNumber": {
       "type": "string",
-      "description": "TSP account number"
+      "description": "TSP account number",
+      "x-va-field": {
+        "label": "Tspa Account Number"
+      }
     },
     "healthInsurance": {
       "type": "boolean",
-      "description": "Health insurance election"
+      "description": "Health insurance election",
+      "x-va-field": {
+        "label": "Health Insurance"
+      }
     },
     "healthPlan": {
       "type": "string",
-      "description": "Health plan selected"
+      "description": "Health plan selected",
+      "x-va-field": {
+        "label": "Health Plan"
+      }
     },
     "lifeInsurance": {
       "type": "boolean",
-      "description": "Life insurance election"
+      "description": "Life insurance election",
+      "x-va-field": {
+        "label": "Life Insurance"
+      }
     },
     "lifeInsuranceAmount": {
       "type": "number",
-      "description": "Life insurance amount"
+      "description": "Life insurance amount",
+      "x-va-field": {
+        "label": "Life Insurance Amount"
+      }
     },
     "travelAuth": {
       "type": "boolean",
-      "description": "Travel authorized"
+      "description": "Travel authorized",
+      "x-va-field": {
+        "label": "Travel Auth"
+      }
     },
     "travelAuthExpiration": {
       "type": "string",
       "format": "date",
-      "description": "Travel auth expiration"
+      "description": "Travel auth expiration",
+      "x-va-field": {
+        "label": "Travel Auth Expiration"
+      }
     },
     "flexibleWorkSchedule": {
       "type": "boolean",
-      "description": "Flexible work schedule"
+      "description": "Flexible work schedule",
+      "x-va-field": {
+        "label": "Flexible Work Schedule"
+      }
     },
     "teleworkApproved": {
       "type": "boolean",
-      "description": "Telework approved"
+      "description": "Telework approved",
+      "x-va-field": {
+        "label": "Telework Approved"
+      }
     },
     "teleworkDays": {
       "type": "string",
-      "description": "Telework days per week"
+      "description": "Telework days per week",
+      "x-va-field": {
+        "label": "Telework Days"
+      }
     },
     "securityClearance": {
       "type": "string",
-      "description": "Security clearance level"
+      "description": "Security clearance level",
+      "x-va-field": {
+        "label": "Security Clearance"
+      }
     },
     "clearanceExpiration": {
       "type": "string",
       "format": "date",
-      "description": "Clearance expiration"
+      "description": "Clearance expiration",
+      "x-va-field": {
+        "label": "Clearance Expiration"
+      }
     },
     "backgroundInvestigation": {
       "type": "string",
-      "description": "Background investigation type"
+      "description": "Background investigation type",
+      "x-va-field": {
+        "label": "Background Investigation"
+      }
     },
     "polygraphTest": {
       "type": "boolean",
-      "description": "Polygraph test required"
+      "description": "Polygraph test required",
+      "x-va-field": {
+        "label": "Polygraph Test"
+      }
     },
     "medicalExamination": {
       "type": "boolean",
-      "description": "Medical examination required"
+      "description": "Medical examination required",
+      "x-va-field": {
+        "label": "Medical Examination"
+      }
     },
     "physicalFitnessTest": {
       "type": "boolean",
-      "description": "Physical fitness test"
+      "description": "Physical fitness test",
+      "x-va-field": {
+        "label": "Physical Fitness Test"
+      }
     },
     "trainingRequired": {
       "type": "boolean",
-      "description": "Training required"
+      "description": "Training required",
+      "x-va-field": {
+        "label": "Training Required"
+      }
     },
     "trainingDescription": {
       "type": "string",
-      "description": "Training description"
+      "description": "Training description",
+      "x-va-field": {
+        "label": "Training Description"
+      }
     },
     "supervisorName": {
       "type": "string",
-      "description": "Supervisor name"
+      "description": "Supervisor name",
+      "x-va-field": {
+        "label": "Supervisor Name"
+      }
     },
     "supervisorTitle": {
       "type": "string",
-      "description": "Supervisor title"
+      "description": "Supervisor title",
+      "x-va-field": {
+        "label": "Supervisor Title"
+      }
     },
     "directorName": {
       "type": "string",
-      "description": "Director name"
+      "description": "Director name",
+      "x-va-field": {
+        "label": "Director Name"
+      }
     },
     "directorTitle": {
       "type": "string",
-      "description": "Director title"
+      "description": "Director title",
+      "x-va-field": {
+        "label": "Director Title"
+      }
     },
     "personnelOfficerName": {
       "type": "string",
-      "description": "Personnel officer name"
+      "description": "Personnel officer name",
+      "x-va-field": {
+        "label": "Personnel Officer Name"
+      }
     },
     "personnelOfficerTitle": {
       "type": "string",
-      "description": "Personnel officer title"
+      "description": "Personnel officer title",
+      "x-va-field": {
+        "label": "Personnel Officer Title"
+      }
     },
     "payrollOfficer": {
       "type": "string",
-      "description": "Payroll officer name"
+      "description": "Payroll officer name",
+      "x-va-field": {
+        "label": "Payroll Officer"
+      }
     },
     "payrollOfficerTitle": {
       "type": "string",
-      "description": "Payroll officer title"
+      "description": "Payroll officer title",
+      "x-va-field": {
+        "label": "Payroll Officer Title"
+      }
     },
     "medicalOfficer": {
       "type": "string",
-      "description": "Medical officer name"
+      "description": "Medical officer name",
+      "x-va-field": {
+        "label": "Medical Officer"
+      }
     },
     "securityOfficer": {
       "type": "string",
-      "description": "Security officer name"
+      "description": "Security officer name",
+      "x-va-field": {
+        "label": "Security Officer"
+      }
     },
     "trainingOfficer": {
       "type": "string",
-      "description": "Training officer name"
+      "description": "Training officer name",
+      "x-va-field": {
+        "label": "Training Officer"
+      }
     },
     "benefitsOfficer": {
       "type": "string",
-      "description": "Benefits officer name"
+      "description": "Benefits officer name",
+      "x-va-field": {
+        "label": "Benefits Officer"
+      }
     },
     "budgetCode": {
       "type": "string",
-      "description": "Budget code"
+      "description": "Budget code",
+      "x-va-field": {
+        "label": "Budget Code"
+      }
     },
     "costCenter": {
       "type": "string",
-      "description": "Cost center"
+      "description": "Cost center",
+      "x-va-field": {
+        "label": "Cost Center"
+      }
     },
     "accountCode": {
       "type": "string",
-      "description": "Account code"
+      "description": "Account code",
+      "x-va-field": {
+        "label": "Account Code"
+      }
     },
     "fundingSource": {
       "type": "string",
-      "description": "Funding source"
+      "description": "Funding source",
+      "x-va-field": {
+        "label": "Funding Source"
+      }
     },
     "appropriation": {
       "type": "string",
-      "description": "Appropriation"
+      "description": "Appropriation",
+      "x-va-field": {
+        "label": "Appropriation"
+      }
     },
     "authorityReference": {
       "type": "string",
-      "description": "Authority reference"
+      "description": "Authority reference",
+      "x-va-field": {
+        "label": "Authority Reference"
+      }
     },
     "relocationAllowance": {
       "type": "number",
-      "description": "Relocation allowance"
+      "description": "Relocation allowance",
+      "x-va-field": {
+        "label": "Relocation Allowance"
+      }
     },
     "settlementCosts": {
       "type": "number",
-      "description": "Settlement costs"
+      "description": "Settlement costs",
+      "x-va-field": {
+        "label": "Settlement Costs"
+      }
     },
     "temporaryDutyAllowance": {
       "type": "number",
-      "description": "Temporary duty allowance"
+      "description": "Temporary duty allowance",
+      "x-va-field": {
+        "label": "Temporary Duty Allowance"
+      }
     },
     "continuousServiceBonus": {
       "type": "boolean",
-      "description": "Continuous service bonus"
+      "description": "Continuous service bonus",
+      "x-va-field": {
+        "label": "Continuous Service Bonus"
+      }
     },
     "incentiveAward": {
       "type": "boolean",
-      "description": "Incentive award"
+      "description": "Incentive award",
+      "x-va-field": {
+        "label": "Incentive Award"
+      }
     },
     "awardAmount": {
       "type": "number",
-      "description": "Award amount"
+      "description": "Award amount",
+      "x-va-field": {
+        "label": "Award Amount"
+      }
     },
     "payHistoryRequested": {
       "type": "boolean",
-      "description": "Pay history requested"
+      "description": "Pay history requested",
+      "x-va-field": {
+        "label": "Pay History Requested"
+      }
     },
     "employmentHistoryRequested": {
       "type": "boolean",
-      "description": "Employment history requested"
+      "description": "Employment history requested",
+      "x-va-field": {
+        "label": "Employment History Requested"
+      }
     },
     "referenceContactsProvided": {
       "type": "boolean",
-      "description": "Reference contacts provided"
+      "description": "Reference contacts provided",
+      "x-va-field": {
+        "label": "Reference Contacts Provided"
+      }
     },
     "backgroundCheckWaived": {
       "type": "boolean",
-      "description": "Background check waived"
+      "description": "Background check waived",
+      "x-va-field": {
+        "label": "Background Check Waived"
+      }
     },
     "waiverReason": {
       "type": "string",
-      "description": "Waiver reason"
+      "description": "Waiver reason",
+      "x-va-field": {
+        "label": "Waiver Reason"
+      }
     },
     "approverSignature": {
       "type": "boolean",
-      "description": "Approver signature"
+      "description": "Approver signature",
+      "x-va-field": {
+        "label": "Approver Signature"
+      }
     },
     "approvalDate": {
       "type": "string",
       "format": "date",
-      "description": "Approval date"
+      "description": "Approval date",
+      "x-va-field": {
+        "label": "Approval Date"
+      }
     },
     "effectivenessDate": {
       "type": "string",
       "format": "date",
-      "description": "Effectiveness date"
+      "description": "Effectiveness date",
+      "x-va-field": {
+        "label": "Effectiveness Date"
+      }
     },
     "classificationDetails": {
       "type": "string",
-      "description": "Classification details"
+      "description": "Classification details",
+      "x-va-field": {
+        "label": "Classification Details"
+      }
     },
     "performanceGoals": {
       "type": "string",
-      "description": "Performance goals"
+      "description": "Performance goals",
+      "x-va-field": {
+        "label": "Performance Goals"
+      }
     },
     "developmentPlan": {
       "type": "string",
-      "description": "Development plan"
+      "description": "Development plan",
+      "x-va-field": {
+        "label": "Development Plan"
+      }
     },
     "mentorship": {
       "type": "boolean",
-      "description": "Mentorship provided"
+      "description": "Mentorship provided",
+      "x-va-field": {
+        "label": "Mentorship"
+      }
     },
     "successorsIdentified": {
       "type": "boolean",
-      "description": "Successors identified"
+      "description": "Successors identified",
+      "x-va-field": {
+        "label": "Successors Identified"
+      }
     },
     "retirementPlanning": {
       "type": "boolean",
-      "description": "Retirement planning discussed"
+      "description": "Retirement planning discussed",
+      "x-va-field": {
+        "label": "Retirement Planning"
+      }
     },
     "careerCounseling": {
       "type": "boolean",
-      "description": "Career counseling provided"
+      "description": "Career counseling provided",
+      "x-va-field": {
+        "label": "Career Counseling"
+      }
     },
     "specialAssignments": {
       "type": "string",
-      "description": "Special assignments"
+      "description": "Special assignments",
+      "x-va-field": {
+        "label": "Special Assignments"
+      }
     },
     "projectsLed": {
       "type": "string",
-      "description": "Projects led"
+      "description": "Projects led",
+      "x-va-field": {
+        "label": "Projects Led"
+      }
     },
     "additionalResponsibilities": {
       "type": "string",
-      "description": "Additional responsibilities"
+      "description": "Additional responsibilities",
+      "x-va-field": {
+        "label": "Additional Responsibilities"
+      }
     },
     "additionalComments": {
       "type": "string",
-      "description": "Additional comments"
+      "description": "Additional comments",
+      "x-va-field": {
+        "label": "Additional Comments"
+      }
     },
     "verificationStatement": {
       "type": "string",
-      "description": "Verification statement"
+      "description": "Verification statement",
+      "x-va-field": {
+        "label": "Verification Statement"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/SF52(ES).pdf",
     "totalFields": 104,
-    "composedFields": 104,
+    "composedFields": 94,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "status": "digitized",
     "pageCount": 5,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.474013+00:00"
   }
 }

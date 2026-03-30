@@ -5,24 +5,34 @@
   "properties": {
     "applicantsSignatureDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Applicants Signature Date"
+      }
     },
     "applicantInitial": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Applicant Initial"
+      }
     },
     "iUnderstandThePeriodOfObligatedServiceForThisAgreementIs": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "I Understand the Period of Obligated Service for This Agreement is"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491f-fill%20(HPSP%20Agreement).pdf",
     "totalFields": 6,
-    "composedFields": 2,
-    "coveragePercent": 33,
+    "composedFields": 3,
+    "coveragePercent": 100,
     "xfaLabelCount": 3,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:29:04.667Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.592633+00:00"
   }
 }

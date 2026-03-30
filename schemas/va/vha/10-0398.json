@@ -5,66 +5,111 @@
   "properties": {
     "veteranFullName": {
       "type": "string",
-      "description": "Veteran's full name (last, first, middle)"
+      "description": "Veteran's full name (last, first, middle)",
+      "x-va-field": {
+        "label": "Veteran Full Name"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number (last 4 digits)"
+      "description": "Social Security Number (last 4 digits)",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "vaFileNumber": {
       "type": "string",
-      "description": "VA file number"
+      "description": "VA file number",
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "vaFacilityName": {
       "type": "string",
-      "description": "VA medical facility name"
+      "description": "VA medical facility name",
+      "x-va-field": {
+        "label": "VA Facility Name"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "protocolTitle": {
       "type": "string",
-      "description": "Research protocol title"
+      "description": "Research protocol title",
+      "x-va-field": {
+        "label": "Protocol Title"
+      }
     },
     "protocolNumber": {
       "type": "string",
-      "description": "Protocol number"
+      "description": "Protocol number",
+      "x-va-field": {
+        "label": "Protocol Number"
+      }
     },
     "safetyOfficer": {
       "type": "string",
-      "description": "Safety officer name"
+      "description": "Safety officer name",
+      "x-va-field": {
+        "label": "Safety Officer"
+      }
     },
     "hazardsIdentified": {
       "type": "string",
-      "description": "Hazards identified"
+      "description": "Hazards identified",
+      "x-va-field": {
+        "label": "Hazards Identified"
+      }
     },
     "safetyMeasures": {
       "type": "string",
-      "description": "Safety measures in place"
+      "description": "Safety measures in place",
+      "x-va-field": {
+        "label": "Safety Measures"
+      }
     },
     "emergencyProcedures": {
       "type": "string",
-      "description": "Emergency procedures"
+      "description": "Emergency procedures",
+      "x-va-field": {
+        "label": "Emergency Procedures"
+      }
     },
     "reviewDate": {
       "type": "string",
       "format": "date",
-      "description": "Review date"
+      "description": "Review date",
+      "x-va-field": {
+        "label": "Review Date"
+      }
     },
     "approved": {
       "type": "boolean",
-      "description": "Safety approval status"
+      "description": "Safety approval status",
+      "x-va-field": {
+        "label": "Approved"
+      }
     }
   },
   "x-va-metadata": {
@@ -77,6 +122,7 @@
     "status": "digitized",
     "pageCount": 6,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.568649+00:00"
   }
 }

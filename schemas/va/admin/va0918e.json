@@ -7,196 +7,189 @@
     "dateSubmitted": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Submitted",
+        "label": "Date Submitted",
         "widget": "text"
       }
     },
     "organization": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform O R G A N I Z A T I O N",
+        "label": "Organization",
         "widget": "text"
       }
     },
     "businessaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B U S I N E S S A D D R E S S",
+        "label": "Businessaddress",
         "widget": "text"
       }
     },
     "businesstelephonenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B U S I N E S S T E L E P H O N E N U M B E R",
+        "label": "Businesstelephonenumber",
         "widget": "text"
       }
     },
     "businesstelefaxnumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B U S I N E S S T E L E F A X N U M B E R",
+        "label": "Businesstelefaxnumber",
         "widget": "text"
       }
     },
     "businessemailaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B U S I N E S S E M A I L A D D R E S S",
+        "label": "Businessemailaddress",
         "widget": "text"
       }
     },
     "webpageaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W E B P A G E A D D R E S S",
+        "label": "Webpageaddress",
         "widget": "text"
       }
     },
     "currentnationalpresidingofficer": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C U R R E N T N A T I O N A L P R E S I D I N G O F F I C E R",
+        "label": "Currentnationalpresidingofficer",
         "widget": "text"
       }
     },
     "mainpurposeoforganization": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M A I N P U R P O S E O F O R G A N I Z A T I O N",
+        "label": "Mainpurposeoforganization",
         "widget": "text"
       }
     },
     "whydoyouwishtojointheveteransdaynationalcommittee": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W H Y D O Y O U W I S H T O J O I N T H E V E T E R A N S D A Y N A T I O N A L C O M M I T T E E",
+        "label": "Whydoyouwishtojointheveteransdaynationalcommittee",
         "widget": "text"
       }
     },
     "membershipsize": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M E M B E R S H I P S I Z E",
+        "label": "Membershipsize",
         "widget": "text"
       }
     },
     "whatpercentageofyourmembershipconsistsofveterans": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W H A T P E R C E N T A G E O F Y O U R M E M B E R S H I P C O N S I S T S O F V E T E R A N S",
+        "label": "Whatpercentageofyourmembershipconsistsofveterans",
         "widget": "text"
       }
     },
     "membershipqualifications": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M E M B E R S H I P Q U A L I F I C A T I O N S",
+        "label": "Membershipqualifications",
         "widget": "text"
       }
     },
     "datefounded": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E F O U N D E D",
+        "label": "Datefounded",
         "widget": "text"
       }
     },
     "numberofactivechapters": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N U M B E R O F A C T I V E C H A P T E R S",
+        "label": "Numberofactivechapters",
         "widget": "text"
       }
     },
     "numberofstateswithactivechapters": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N U M B E R O F S T A T E S W I T H A C T I V E C H A P T E R S",
+        "label": "Numberofstateswithactivechapters",
         "widget": "text"
       }
     },
     "nameofpublication": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E O F P U B L I C A T I O N",
+        "label": "Nameofpublication",
         "widget": "text"
       }
     },
     "frequencyofpublication": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform F R E Q U E N C Y O F P U B L I C A T I O N",
+        "label": "Frequencyofpublication",
         "widget": "text"
       }
     },
     "dateoffirstissue": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E O F F I R S T I S S U E",
+        "label": "Dateoffirstissue",
         "widget": "text"
       }
     },
     "charterspubliclawnumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C H A R T E R S P U B L I C L A W N U M B E R",
+        "label": "Charterspubliclawnumber",
         "widget": "text"
       }
     },
     "onwhatdatewereyoucharteredbycongress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform O N W H A T D A T E W E R E Y O U C H A R T E R E D B Y C O N G R E S S",
+        "label": "Onwhatdatewereyoucharteredbycongress",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "title": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I T L E",
+        "label": "Title",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Date",
         "widget": "text"
       }
     },
     "attn": {
       "type": "string",
       "x-va-field": {
-        "label": "ATTN",
+        "label": "Attn",
         "widget": "text"
       }
     },
     "dateSubmitted2": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE SUBMITTED (",
+        "label": "Date Submitted (",
         "widget": "text"
       }
     },
     "organization2": {
       "type": "string",
       "x-va-field": {
-        "label": "ORGANIZATION",
+        "label": "Organization",
         "widget": "text"
       }
     },
@@ -210,77 +203,77 @@
     "businessFaxNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "BUSINESS FAX NUMBER",
+        "label": "Business Fax Number",
         "widget": "text"
       }
     },
     "webPageAddress7CurrentNationalPresidingOfficer": {
       "type": "string",
       "x-va-field": {
-        "label": "WEB PAGE ADDRESS7. CURRENT NATIONAL PRESIDING OFFICER",
+        "label": "Web Page Address7. Current National Presiding Officer",
         "widget": "address"
       }
     },
     "whatIsTheMainPurposeOfYourOrganization": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT IS THE MAIN PURPOSE OF YOUR ORGANIZATION?",
+        "label": "What Is The Main Purpose Of Your Organization?",
         "widget": "text"
       }
     },
     "whatIsTheSizeOfYourMembership_11WhatPercentageOfY": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT IS THE SIZE OF YOUR MEMBERSHIP?11. WHAT PERCENTAGE OF Y",
+        "label": "What Is The Size Of Your Membership?11. What Percentage Of Y",
         "widget": "text"
       }
     },
     "numberOfActive": {
       "type": "string",
       "x-va-field": {
-        "label": "NUMBER OF ACTIVE",
+        "label": "Number Of Active",
         "widget": "text"
       }
     },
     "numberOfStates": {
       "type": "string",
       "x-va-field": {
-        "label": "NUMBER OF STATES",
+        "label": "Number Of States",
         "widget": "select"
       }
     },
     "doYouHaveNationalByLawsOrA": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU HAVE NATIONAL BY-LAWS OR A",
+        "label": "Do You Have National By-Laws Or A",
         "widget": "text"
       }
     },
     "doYouHaveAnAnnualNationalConventionIfYes": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU HAVE AN ANNUAL NATIONAL CONVENTION? (If yes,",
+        "label": "Do You Have An Annual National Convention? (If Yes,",
         "widget": "text"
       }
     },
     "doYouProduceAnyPeriodicPublicationsIfYesPlease": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU PRODUCE ANY PERIODIC PUBLICATIONS? (If yes, please",
+        "label": "Do You Produce Any Periodic Publications? (If Yes, Please",
         "widget": "text"
       }
     },
     "nameOfPublication20FrequencyOfPublication": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF PUBLICATION20. FREQUENCY OF PUBLICATION",
+        "label": "Name Of Publication20. Frequency Of Publication",
         "widget": "text"
       }
     },
     "isYourOrganizationFederallyCharteredAndOrRecognizedO": {
       "type": "string",
       "x-va-field": {
-        "label": "IS YOUR ORGANIZATION FEDERALLY CHARTERED AND/OR RECOGNIZED O",
+        "label": "Is Your Organization Federally Chartered And/Or Recognized O",
         "widget": "text"
       }
     },
@@ -288,35 +281,35 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "ON WHAT",
+        "label": "On What",
         "widget": "date"
       }
     },
     "isYourOrganizationClassifiedByTheInternalRevenueServ": {
       "type": "string",
       "x-va-field": {
-        "label": "IS YOUR ORGANIZATION CLASSIFIED BY THE INTERNAL REVENUE SERV",
+        "label": "Is Your Organization Classified By The Internal Revenue Serv",
         "widget": "text"
       }
     },
     "ifAcceptedAsAMemberMemberWillYourOrganizationHonor": {
       "type": "string",
       "x-va-field": {
-        "label": "IF ACCEPTED AS A MEMBER/MEMBER, WILL YOUR ORGANIZATION HONOR",
+        "label": "If Accepted As A Member/Member, Will Your Organization Honor",
         "widget": "text"
       }
     },
     "doYouHaveARepresentativeWhoWillAttendCommitteeMeeti": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU HAVE A REPRESENTATIVE WHO WILL ATTEND COMMITTEE MEETI",
+        "label": "Do You Have A Representative Who Will Attend Committee Meeti",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE",
+        "label": "Signature",
         "widget": "signature"
       }
     },
@@ -324,7 +317,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE (",
+        "label": "Date (",
         "widget": "date"
       }
     },
@@ -332,7 +325,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "PLEASE SEND THIS APPLICATION VIA EMAIL",
+        "label": "Please Send This Application Via Email",
         "widget": "email"
       }
     }
@@ -340,7 +333,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0918e.pdf",
     "totalFields": 53,
-    "composedFields": 47,
+    "composedFields": 46,
     "coveragePercent": 100,
     "xfaLabelCount": 26,
     "needsReviewCount": 0,
@@ -352,6 +345,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.493428+00:00"
   }
 }

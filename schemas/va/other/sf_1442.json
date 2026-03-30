@@ -42,218 +42,358 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
-    },
-    "performanceRequirementsAndDocumentInfoForTheDescribedWorkIncludeTheDocumentTitleIdentifyingNumberAndDate": {
-      "type": "string",
-      "format": "date"
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateIssued": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Issued"
+      }
     },
     "dateWhenTheSealedOriginalsAndCopiesWillNoLongerBeAccepted": {
       "type": "string",
-      "format": "date"
-    },
-    "numberOfCalendarDaysThatProvideLessThanTheMinimumNumberRequiredForGovernmentAcceptanceForAnyOffersReceivedAfterTheDateTheOffersAreDueTheseOffersWillNotBeConsideredAndWillBeRejected": {
-      "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date When the Sealed Originals and Copies Will no Longer Be Accepted"
+      }
     },
     "secondAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Second Amendment Number Date"
+      }
     },
     "thirdAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Third Amendment Number Date"
+      }
     },
     "fifthAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Fifth Amendment Number Date"
+      }
     },
     "sixthAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Sixth Amendment Number Date"
+      }
     },
     "seventhAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Seventh Amendment Number Date"
+      }
     },
     "eighthAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Eighth Amendment Number Date"
+      }
     },
     "ninthAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ninth Amendment Number Date"
+      }
     },
     "tenthAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Tenth Amendment Number Date"
+      }
     },
     "offerDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Offer Date"
+      }
     },
     "ifYouAreThePersonAuthorizedToSign": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "If You Are the Person Authorized to Sign"
+      }
     },
     "ifYouAreTheContractingOfficer": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "If You Are the Contracting Officer"
+      }
     },
     "fourthAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Fourth Amendment Number Date"
+      }
     },
     "firstAmendmentNumberDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "First Amendment Number Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "clickHereToSelectSealedBidIfbInvitationForBidForThe": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select Sealed Bid Ifb Invitation for Bid for the"
+      }
     },
     "clickHereToSelectNegotiatedRfpRequestForProposalForThe": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select Negotiated Rfp Request for Proposal for the"
+      }
     },
     "clickHereToSelectAwardForThe": {
-      "type": "string"
-    },
-    "clickHereToSelectYesTheContractorMustFurnishAnyRequiredPerformanceAndPaymentBonds": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select Award for the"
+      }
     },
     "clickHereToSelectIsForRequiringAnOfferGuarantee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select is for Requiring an Offer Guarantee"
+      }
     },
     "clickHereToSelectIsNotRequiredForAnOfferGuarantee": {
-      "type": "string"
-    },
-    "clickHereToSelectNoTheContractorDoesNotHaveToFurnishAnyRequiredPerformanceAndPaymentBonds": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select is Not Required for an Offer Guarantee"
+      }
     },
     "clickHereToSelectNoticeToProceedForThe": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select Notice to Proceed for the"
+      }
     },
     "clickHereToSelectMandatoryForThePerformancePeriod": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select Mandatory for the Performance Period"
+      }
     },
     "clickHereToSelectNegotiableForThePerformancePeriod": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select Negotiable for the Performance Period"
+      }
     },
     "ifYesWasSelectedForItem12a": {
-      "type": "string"
-    },
-    "pricesForTheOfferorToPerformTheWorkRequiredInStrictAccordanceWithTheTermsOfThisSolicitationIfThisOfferIsAcceptedByTheGovernmentInWriting": {
-      "type": "number"
+      "type": "string",
+      "x-va-field": {
+        "label": "If Yes Was Selected for Item12a"
+      }
     },
     "toBeCompletedByTheGovernment": {
-      "type": "string"
-    },
-    "numberOfCopiesOfSealedOffersNeededToPerformTheWorkRequiredAtThePlaceSpecifiedInItem8": {
-      "type": "string"
-    },
-    "1AnyWorkRequirementsAnd2OtherProvisionsAndClausesIncorporatedInTheSolicitationInFullTextOrByReferenceThatAnyOffersAreSubjectTo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Be Completed by the Government"
+      }
     },
     "solicitationNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Solicitation Number"
+      }
     },
     "contractNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Contract Number"
+      }
     },
     "infoForWhoIssuedThisSolicitationOfferAndAwardConstructionAlternationOrRepair": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Info for Who Issued This Solicitation Offer and Award Construction Alternation or Repair"
+      }
     },
     "requisitionpurchaseRequestNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requisitionpurchase Request Number"
+      }
     },
     "issuedByCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Issued by Code"
+      }
     },
     "a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A"
+      }
     },
     "projectNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project Number"
+      }
     },
     "pageNumberForThisPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Number for This Page"
+      }
     },
     "totalNumberOfPagesForThisSolicitationOfferAndAwardConstructionAlterationOrRepair": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Number of Pages for This Solicitation Offer and Award Construction Alteration or Repair"
+      }
     },
     "numberOfCalendarDaysTheContractorHasToBeginPerformance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Calendar Days the Contractor Has to Begin Performance"
+      }
     },
     "hourLocalTimeWhenTheSealedOriginalsAndCopiesWillNoLongerBeAccepted": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hour Local Time When the Sealed Originals and Copies Will no Longer Be Accepted"
+      }
     },
     "numberOfCalendarDaysTheContractorHasToCompletePerformance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Calendar Days the Contractor Has to Complete Performance"
+      }
     },
     "regulatoryCla": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Regulatory Cla"
+      }
     },
     "offerorsCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Offerors Code"
+      }
     },
     "firstAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Amendment Number If Applicable"
+      }
     },
     "administeredByCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Administered by Code"
+      }
     },
     "secondAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Amendment Number If Applicable"
+      }
     },
     "fourthAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fourth Amendment Number If Applicable"
+      }
     },
     "fifthAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fifth Amendment Number If Applicable"
+      }
     },
     "sixthAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sixth Amendment Number If Applicable"
+      }
     },
     "seventhAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Seventh Amendment Number If Applicable"
+      }
     },
     "eighthAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Eighth Amendment Number If Applicable"
+      }
     },
     "ninthAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ninth Amendment Number If Applicable"
+      }
     },
     "tenthAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Tenth Amendment Number If Applicable"
+      }
     },
     "thirdAmendmentNumberIfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Third Amendment Number If Applicable"
+      }
     },
     "offerorsFacilityCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Offerors Facility Code"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.gsa.gov/system/files/SF1442-22.pdf",
     "totalFields": 82,
-    "composedFields": 49,
-    "coveragePercent": 60,
+    "composedFields": 54,
+    "coveragePercent": 100,
     "xfaLabelCount": 82,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:13:12.843Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.479231+00:00"
   }
 }

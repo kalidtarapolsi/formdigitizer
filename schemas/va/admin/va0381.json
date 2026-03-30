@@ -11,21 +11,21 @@
         "widget": "text"
       }
     },
-    "radioButtonList1": {
+    "list1": {
       "type": "string",
       "x-va-field": {
         "label": "F P1 Radio Button List1",
         "widget": "text"
       }
     },
-    "radioButtonList2": {
+    "list2": {
       "type": "string",
       "x-va-field": {
         "label": "F P1 Radio Button List2",
         "widget": "text"
       }
     },
-    "radioButtonList3": {
+    "list3": {
       "type": "string",
       "x-va-field": {
         "label": "F P1 Radio Button List3",
@@ -49,7 +49,7 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -70,21 +70,21 @@
     "mailingAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "MAILING ADDRESS",
+        "label": "Mailing Address",
         "widget": "text"
       }
     },
     "nameAndAddressOfVaFacilityOrOtherAgencyWhereDiscri": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF VA FACILITY OR OTHER AGENCY WHERE DISCRI",
+        "label": "Name And Address Of VA Facility Or Other Agency Where Discri",
         "widget": "text"
       }
     },
     "nameOfServiceProductLineWhereDiscriminationOccurred": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF SERVICE/PRODUCT LINE WHERE DISCRIMINATION OCCURRED.",
+        "label": "Name Of Service/Product Line Where Discrimination Occurred.",
         "widget": "text"
       }
     },
@@ -98,7 +98,7 @@
     "nameOfIndividualIfKnownWhoDiscriminatedInclude": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF INDIVIDUAL (If known)  WHO DISCRIMINATED (Include",
+        "label": "Name Of Individual (If Known)  Who Discriminated (Include",
         "widget": "text"
       }
     },
@@ -119,7 +119,7 @@
     "dateOfDiscrimination": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF DISCRIMINATION",
+        "label": "Date Of Discrimination",
         "widget": "text"
       }
     },
@@ -133,7 +133,7 @@
     "basis": {
       "type": "string",
       "x-va-field": {
-        "label": "BASIS",
+        "label": "Basis",
         "widget": "text"
       }
     },
@@ -147,21 +147,21 @@
     "listTheMostConvenientTimeAndPlaceForYouToBeContac": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST THE MOST CONVENIENT TIME AND PLACE FOR YOU TO BE CONTAC",
+        "label": "List The Most Convenient Time And Place For You To Be Contac",
         "widget": "text"
       }
     },
     "pleaseProvideTheNameAddressAndTelephoneNumberOfYo": {
       "type": "string",
       "x-va-field": {
-        "label": "PLEASE PROVIDE THE NAME, ADDRESS, AND TELEPHONE NUMBER OF YO",
+        "label": "Please Provide The Name, Address, And Telephone Number Of Yo",
         "widget": "text"
       }
     },
     "ifTheDiscrimnatoryActDescribedAboveOccurredMoreThan": {
       "type": "string",
       "x-va-field": {
-        "label": "IF THE DISCRIMNATORY ACT DESCRIBED ABOVE OCCURRED MORE THAN",
+        "label": "If The Discrimnatory Act Described Above Occurred More Than",
         "widget": "text"
       }
     },
@@ -190,7 +190,7 @@
     "haveYouFiledThisComplaintWithAnotherAgencyIfYes": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU FILED THIS COMPLAINT WITH ANOTHER AGENCY? (If yes,",
+        "label": "Have You Filed This Complaint With Another Agency? (If Yes,",
         "widget": "text"
       }
     },
@@ -225,6 +225,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.481799+00:00"
   }
 }

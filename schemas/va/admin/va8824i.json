@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,57 +53,85 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateSignedByCaatsApprovingOfficial": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed by Caats Approving Official"
+      }
     },
     "line15RoleReadOnlyCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Line15Role Read Only Check Box"
+      }
     },
     "cCompany": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "C Company"
+      }
     },
     "actionRequested": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Action Requested"
+      }
     },
     "customerInformationAFullNameFirstNameLastName": {
-      "type": "string"
-    },
-    "field_form1_0___subform_0__FacilityNo___0_": {
-      "type": "string"
-    },
-    "field_form1_0___subform_0__FacilityNo___1_": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Customer Information a Full Name First Name Last Name"
+      }
     },
     "hVendorCodeTaxIdentificationNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "H Vendor Code Tax Identification Number"
+      }
     },
     "line15ObligationNumbercontractNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Line15Obligation Numbercontract Number"
+      }
     },
     "caatsApprovingOfficialTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Caats Approving Official Title"
+      }
     },
     "caatsApprovingOfficial": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Caats Approving Official"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA8824i.pdf",
     "totalFields": 78,
-    "composedFields": 51,
-    "coveragePercent": 65,
+    "composedFields": 12,
+    "coveragePercent": 100,
     "xfaLabelCount": 16,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:27:39.680Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.517717+00:00"
   }
 }

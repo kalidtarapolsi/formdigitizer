@@ -7,259 +7,252 @@
     "fiduciary": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Fiduciary",
+        "label": "Fiduciary",
         "widget": "checkbox"
       }
     },
     "child": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Child",
+        "label": "Child",
         "widget": "checkbox"
       }
     },
     "wife": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Wife",
+        "label": "Wife",
         "widget": "checkbox"
       }
     },
     "mother": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Mother",
+        "label": "Mother",
         "widget": "checkbox"
       }
     },
     "father": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Father",
+        "label": "Father",
         "widget": "checkbox"
       }
     },
     "veteran": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Veteran",
+        "label": "Veteran",
         "widget": "checkbox"
       }
     },
     "chapter32": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Chapter32",
+        "label": "Chapter",
         "widget": "checkbox"
       }
     },
     "compensation": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Compensation",
+        "label": "Compensation",
         "widget": "checkbox"
       }
     },
     "payeeName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Payee Name",
+        "label": "Payee Name",
         "widget": "text"
       }
     },
     "vetName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Vet Name",
+        "label": "Vet Name",
         "widget": "text"
       }
     },
     "addressNo": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address No",
+        "label": "Address no",
         "widget": "text"
       }
     },
     "city": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform City",
+        "label": "City",
         "widget": "text"
       }
     },
     "state": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform State",
+        "label": "State",
         "widget": "text"
       }
     },
     "daytime": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Daytime",
+        "label": "Daytime",
         "widget": "text"
       }
     },
     "cancellation": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Cancellation",
+        "label": "Cancellation",
         "widget": "checkbox"
       }
     },
     "both": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Both",
+        "label": "Both",
         "widget": "checkbox"
       }
     },
     "addressChange": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Address Change",
+        "label": "Address Change",
         "widget": "checkbox"
       }
     },
     "vafile": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File",
+        "label": "Vafile",
         "widget": "text"
       }
     },
     "payeeNo": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Payee No",
+        "label": "Payee no",
         "widget": "text"
       }
     },
     "insuranceNo": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Insurance No",
+        "label": "Insurance no",
         "widget": "text"
       }
     },
     "chapter30": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Chapter30",
+        "label": "Chapter",
         "widget": "checkbox"
       }
     },
     "chapter31": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Chapter31",
+        "label": "Chapter",
         "widget": "checkbox"
       }
     },
     "chapter35": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Chapter35",
+        "label": "Chapter",
         "widget": "checkbox"
       }
     },
     "chapter1606": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Chapter1606",
+        "label": "Chapter",
         "widget": "checkbox"
       }
     },
     "benefitOther": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Benefit Other",
+        "label": "Benefit Other",
         "widget": "checkbox"
       }
     },
     "specify": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Specify",
+        "label": "Specify",
         "widget": "text"
       }
     },
     "survivingSpouse": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Surviving Spouse",
+        "label": "Surviving Spouse",
         "widget": "checkbox"
       }
     },
     "other": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Other",
+        "label": "Other",
         "widget": "checkbox"
       }
     },
     "permanent": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Permanent",
+        "label": "Permanent",
         "widget": "checkbox"
       }
     },
     "temporary": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Temporary",
+        "label": "Temporary",
         "widget": "checkbox"
       }
     },
     "evening": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Evening",
+        "label": "Evening",
         "widget": "text"
       }
     },
     "zipcode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Z I P Code",
+        "label": "Zipcode",
         "widget": "text"
       }
     },
     "ddcancel": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform D D Cancel",
+        "label": "Ddcancel",
         "widget": "checkbox"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Date",
         "widget": "text"
       }
     },
@@ -275,7 +268,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "VETERAN'S SOCIAL SECURITY NO.",
+        "label": "Veteran's Social Security No.",
         "widget": "ssn"
       }
     },
@@ -324,21 +317,21 @@
     "nameOfPayeeAsShownOnCheckTypeOrPrint": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF PAYEE AS SHOWN ON CHECK (Type or print)",
+        "label": "Name Of Payee As Shown On Check (Type Or Print)",
         "widget": "text"
       }
     },
     "firstNameMiddleInitialLastNameOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST NAME-MIDDLE INITIAL-LAST NAME OF VETERAN",
+        "label": "First Name-Middle Initial-Last Name Of Veteran",
         "widget": "text"
       }
     },
     "citystatezipCode": {
       "type": "string",
       "x-va-field": {
-        "label": "CITYSTATEZIP CODE",
+        "label": "Citystatezip Code",
         "widget": "select"
       }
     },
@@ -346,21 +339,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE",
+        "label": "Date",
         "widget": "date"
       }
     },
     "toBeCompletedByDirectDepositParticipantsOnly": {
       "type": "string",
       "x-va-field": {
-        "label": "TO BE COMPLETED BY DIRECT DEPOSIT PARTICIPANTS ONLY",
+        "label": "To Be Completed By Direct Deposit Participants Only",
         "widget": "text"
       }
     },
     "signatureOfVeteranOrPayeeDoNotPrint": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF VETERAN OR PAYEE (Do not print)",
+        "label": "Signature Of Veteran Or Payee (Do Not Print)",
         "widget": "signature"
       }
     }
@@ -369,7 +362,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-20-572-are.pdf",
     "status": "digitized",
     "totalFields": 51,
-    "composedFields": 51,
+    "composedFields": 50,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -380,6 +373,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.916638+00:00"
   }
 }

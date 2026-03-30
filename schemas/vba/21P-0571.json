@@ -9,103 +9,185 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "addressofClaimant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Addressof Claimant"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
-    "radioButtonList2": {
-      "type": "string"
+    "list2": {
+      "type": "string",
+      "x-va-field": {
+        "label": "List"
+      }
     },
     "income": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Income"
+      }
     },
     "expenseR": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Expense R"
+      }
     },
     "expenseQ": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Expense Q"
+      }
     },
     "expenseP": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Expense P"
+      }
     },
     "expenseO": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Expense O"
+      }
     },
     "expenseN": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Expense N"
+      }
     },
     "expenseL": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Expense L"
+      }
     },
     "expenseM": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Expense M"
+      }
     },
     "amount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "childName1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Child Name"
+      }
     },
     "childName3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Child Name"
+      }
     },
     "childName4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Child Name"
+      }
     },
     "childName2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Child Name"
+      }
     },
     "nameOfVeteran": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Veteran"
+      }
     },
     "payeeName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payee Name"
+      }
     },
     "addInfo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Add Info"
+      }
     },
     "nameOfClaimant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Claimant"
+      }
     },
     "months": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Months"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     },
     "type": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Type"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0571-are.pdf",
     "status": "digitized",
     "totalFields": 74,
-    "composedFields": 58,
-    "coveragePercent": 78,
+    "composedFields": 27,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:34:29.130Z"
+    "generatedAt": "2026-03-28T17:34:29.130Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.015355+00:00"
   }
 }

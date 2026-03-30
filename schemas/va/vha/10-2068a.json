@@ -7,133 +7,133 @@
     "dateofDeath": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Dateof Death",
+        "label": "Dateof Death",
         "widget": "text"
       }
     },
     "signatureDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Signature Date",
+        "label": "Signature Date",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Name",
+        "label": "Name",
         "widget": "text"
       }
     },
     "claimNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Claim Number",
+        "label": "Claim Number",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Remarks",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "funeralDirector": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Funeral Director",
+        "label": "Funeral Director",
         "widget": "text"
       }
     },
     "acceptableA": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Acceptable A",
+        "label": "Acceptable a",
         "widget": "checkbox"
       }
     },
     "acceptableB": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Acceptable B",
+        "label": "Acceptable B",
         "widget": "checkbox"
       }
     },
     "acceptableC": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Acceptable C",
+        "label": "Acceptable C",
         "widget": "checkbox"
       }
     },
     "unAcceptableD": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Un Acceptable D",
+        "label": "Un Acceptable D",
         "widget": "checkbox"
       }
     },
     "unAcceptableA": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Un Acceptable A",
+        "label": "Un Acceptable a",
         "widget": "checkbox"
       }
     },
     "unAcceptableB": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Un Acceptable B",
+        "label": "Un Acceptable B",
         "widget": "checkbox"
       }
     },
     "unAcceptableC": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Un Acceptable C",
+        "label": "Un Acceptable C",
         "widget": "checkbox"
       }
     },
     "acceptableD": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Acceptable D",
+        "label": "Acceptable D",
         "widget": "checkbox"
       }
     },
     "nameOfDeceased": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF DECEASED",
+        "label": "Name Of Deceased",
         "widget": "text"
       }
     },
     "remarks2": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "nameAndAddressOfContractFuneralDirector": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF CONTRACT FUNERAL DIRECTOR",
+        "label": "Name And Address Of Contract Funeral Director",
         "widget": "address"
       }
     },
@@ -141,7 +141,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SIGNATURE OF A VA REPRESENTATIVE9. DATE",
+        "label": "Signature Of A VA Representative9. Date",
         "widget": "date"
       }
     },
@@ -149,14 +149,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER 3. CLAIM NUMBER4. DATE OF DEATH",
+        "label": "Social Security Number 3. Claim Number4. Date Of Death",
         "widget": "date"
       }
     },
     "inspection": {
       "type": "string",
       "x-va-field": {
-        "label": "INSPECTION",
+        "label": "Inspection",
         "widget": "text"
       }
     }
@@ -175,6 +175,7 @@
     "extractionSources": [
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.650777+00:00"
   }
 }

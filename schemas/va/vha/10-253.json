@@ -6,25 +6,35 @@
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "endorsement": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Endorsement"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%20Form%20253%20Ecclesiastical%20Endorsement%20for%20Veterans%20Affairs%20Chaplaincy%20Fill.pdf",
     "totalFields": 14,
-    "composedFields": 13,
-    "coveragePercent": 93,
+    "composedFields": 3,
+    "coveragePercent": 100,
     "xfaLabelCount": 2,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:22:09.999Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.669391+00:00"
   }
 }

@@ -7,189 +7,189 @@
     "vetName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform vet name",
+        "label": "Vet Name",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "vetAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform vet address",
+        "label": "Vet Address",
         "widget": "text"
       }
     },
     "vetPhoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Vet Phone Number",
+        "label": "Vet Phone Number",
         "widget": "text"
       }
     },
     "type1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Type1",
+        "label": "Type",
         "widget": "text"
       }
     },
     "year1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Year1",
+        "label": "Year",
         "widget": "text"
       }
     },
     "make1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Make1",
+        "label": "Make",
         "widget": "text"
       }
     },
     "model1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Model1",
+        "label": "Model",
         "widget": "text"
       }
     },
     "vin1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 V I N1",
+        "label": "Vin",
         "widget": "text"
       }
     },
     "dateEquipment1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Date Equipment1",
+        "label": "Date Equipment",
         "widget": "text"
       }
     },
     "type2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Type2",
+        "label": "Type",
         "widget": "text"
       }
     },
     "year2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Year2",
+        "label": "Year",
         "widget": "text"
       }
     },
     "make2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Make2",
+        "label": "Make",
         "widget": "text"
       }
     },
     "model2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Model2",
+        "label": "Model",
         "widget": "text"
       }
     },
     "vin2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 V I N2",
+        "label": "Vin",
         "widget": "text"
       }
     },
     "dateEquipment2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Date Equipment2",
+        "label": "Date Equipment",
         "widget": "text"
       }
     },
     "vetSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Vet Signature",
+        "label": "Vet Signature",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "dateReceived": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Received",
+        "label": "Date Received",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "providerName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Provider Name",
+        "label": "Provider Name",
         "widget": "text"
       }
     },
     "providerAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Provider Address",
+        "label": "Provider Address",
         "widget": "text"
       }
     },
     "approvingOfficeName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Approving Office Name",
+        "label": "Approving Office Name",
         "widget": "text"
       }
     },
     "vafacility": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A Facility",
+        "label": "Vafacility",
         "widget": "text"
       }
     },
     "approvingOfficialSign": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Approving Official Sign",
+        "label": "Approving Official Sign",
         "widget": "text"
       }
     },
     "authorizingOfficeName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Authorizing Office Name",
+        "label": "Authorizing Office Name",
         "widget": "text"
       }
     },
     "regionalOffice": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Regional Office",
+        "label": "Regional Office",
         "widget": "text"
       }
     },
@@ -203,7 +203,7 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -242,17 +242,10 @@
         "widget": "text"
       }
     },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
     "doYouHaveAValidDriverSLicenseOrPermitInPossession": {
       "type": "string",
       "x-va-field": {
-        "label": "Do you have a valid Driver’s License or Permit in possession",
+        "label": "Do you have a valid Driver\u2019s License or Permit in possession",
         "widget": "text"
       }
     },
@@ -270,13 +263,6 @@
         "widget": "text"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Note",
-        "widget": "text"
-      }
-    },
     "7g": {
       "type": "string",
       "format": "date",
@@ -288,14 +274,14 @@
     "certification": {
       "type": "string",
       "x-va-field": {
-        "label": "CERTIFICATION",
+        "label": "Certification",
         "widget": "text"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -424,10 +410,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1394-fill.pdf",
     "totalFields": 59,
-    "composedFields": 59,
-    "coveragePercent": 97,
+    "composedFields": 57,
+    "coveragePercent": 100,
     "xfaLabelCount": 32,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:35:08.276Z",
     "pageCount": 2,
     "status": "digitized",
@@ -436,6 +422,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.137249+00:00"
   }
 }

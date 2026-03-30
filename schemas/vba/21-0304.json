@@ -7,343 +7,318 @@
     "childsPlaceOfBirthCityAndState": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Childs Place Of Birth City And State",
+        "label": "Childs Place of Birth City and State",
         "widget": "text"
       }
     },
     "nameOfParent1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name Of Parent 1",
+        "label": "Name of Parent",
         "widget": "text"
       }
     },
     "nameOfParent2": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name Of Parent 2",
+        "label": "Name of Parent",
         "widget": "text"
       }
     },
     "addressOfParent1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Address Of Parent 1",
+        "label": "Address of Parent",
         "widget": "text"
       }
     },
     "addressOfParent2": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Address Of Parent 2",
+        "label": "Address of Parent",
         "widget": "text"
       }
     },
     "childsFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Childs First Name",
+        "label": "Childs First Name",
         "widget": "text"
       }
     },
     "childsLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Childs Last Name",
+        "label": "Childs Last Name",
         "widget": "text"
       }
     },
     "childsMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Childs Middle Initial1",
+        "label": "Childs Middle Initial",
         "widget": "text"
       }
     },
-    "childsSocialSecurityNumberFirstThreeNumbers": {
+    "childsSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "Vba210304 #subform Childs Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "childsSocialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Vba210304 #subform Childs Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "childsSocialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Vba210304 #subform Childs Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Childs Social Security Number",
+        "widget": "ssn"
       }
     },
     "childsTelePhoneNumberIncludeAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Childs Tele Phone Number Include Area Code",
+        "label": "Childs Tele Phone Number Include Area Code",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Vba210304 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "telePhoneNumberOfParent1IncludeAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Tele Phone Number Of Parent 1 Include Area Code",
+        "label": "Tele Phone Number of Parent1Include Area Code",
         "widget": "text"
       }
     },
     "telePhoneNumberOfParent2IncludeAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Tele Phone Number Of Parent 2 Include Area Code",
+        "label": "Tele Phone Number of Parent2Include Area Code",
         "widget": "text"
       }
     },
     "vaClaimNumberParent1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform V A Claim Number Parent 1",
+        "label": "VA Claim Number Parent",
         "widget": "text"
       }
     },
     "vaClaimNumberParent2": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform V A Claim Number Parent 2",
+        "label": "VA Claim Number Parent",
         "widget": "text"
       }
     },
     "dateFrom1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date From1",
+        "label": "Date From",
         "widget": "text"
       }
     },
     "dateTo2": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date To2",
+        "label": "Date to",
         "widget": "text"
       }
     },
     "dateFrom3": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date From3",
+        "label": "Date From",
         "widget": "text"
       }
     },
     "dateTo4": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date To4",
+        "label": "Date to",
         "widget": "text"
       }
     },
     "dateFrom4": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date From4",
+        "label": "Date From",
         "widget": "text"
       }
     },
     "dateTo3": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date To3",
+        "label": "Date to",
         "widget": "text"
       }
     },
     "dateFrom2": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date From2",
+        "label": "Date From",
         "widget": "text"
       }
     },
     "dateTo1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date To1",
+        "label": "Date to",
         "widget": "text"
       }
     },
     "nameAddressCourt": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name Address Court",
+        "label": "Name Address Court",
         "widget": "text"
       }
     },
     "nameAddressGuardian": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name Address Guardian",
+        "label": "Name Address Guardian",
         "widget": "text"
       }
     },
     "disabilitiesClaimed": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Disabilities Claimed",
+        "label": "Disabilities Claimed",
         "widget": "text"
       }
     },
     "nameAndAddressOfPlaceWhereYouWereFirstDiagnosed": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name And Address Of Place Where You Were First Diagnosed",
+        "label": "Name and Address of Place Where You Were First Diagnosed",
         "widget": "text"
       }
     },
     "nameOfPrimaryHeathCareProvider": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name Of Primary Heath Care Provider",
+        "label": "Name of Primary Heath Care Provider",
         "widget": "text"
       }
     },
     "nameOfFinancialInstitution": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name Of Financial Institution",
+        "label": "Name of Financial Institution",
         "widget": "text"
       }
     },
     "routingOrTransitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Routing or Transit Number",
+        "label": "Routing or Transit Number",
         "widget": "text"
       }
     },
     "namesAndPlacesOfMostRecentTreatment": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Names And Places Of Most Recent Treatment",
+        "label": "Names and Places of Most Recent Treatment",
         "widget": "text"
       }
     },
     "otherSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Other specify",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "nameOfCustodianGuardianChild": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name Of Custodian Guardian Child",
+        "label": "Name of Custodian Guardian Child",
         "widget": "text"
       }
     },
     "addressOfCustodianGuardian": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Address Of Custodian Guardian",
+        "label": "Address of Custodian Guardian",
         "widget": "text"
       }
     },
     "addressOfPrimaryHealthCareProvider": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Address Of Primary Health Care Provider",
+        "label": "Address of Primary Health Care Provider",
         "widget": "text"
-      }
-    },
-    "checkBoxByCheckingTheBoxICertifyThatIDoNotHaveAnAccountWithAFinancialInstitutionOrCertifiedPaymentAgent": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Vba210304 #subform C H E C K B O X By Checking The Box I Certify That I Do Not Have An Account With A Financial Institution Or Certified Payment Agent",
-        "widget": "checkbox"
       }
     },
     "accountNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Account Number",
+        "label": "Account Number",
         "widget": "text"
       }
     },
     "dateDiagnosed": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Date Diagnosed",
+        "label": "Date Diagnosed",
         "widget": "text"
       }
     },
     "nameAndAddressOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Name And Address Of Witness",
+        "label": "Name and Address of Witness",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba210304 #subform Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
@@ -385,7 +360,7 @@
     "haveBeenConceivedAfterThe": {
       "type": "string",
       "x-va-field": {
-        "label": "• have been conceived after the",
+        "label": "\u2022 have been conceived after the",
         "widget": "text"
       }
     },
@@ -403,18 +378,11 @@
         "widget": "text"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Note",
-        "widget": "text"
-      }
-    },
     "jProvideThe": {
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "J. PROVIDE THE",
+        "label": "J. Provide The",
         "widget": "date"
       }
     },
@@ -422,15 +390,8 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "NAME(S), ADDRESS, TELEPHONE NUMBERS, AND VETERAN STATUS OF N",
+        "label": "Name(S), Address, Telephone Numbers, And Veteran Status Of N",
         "widget": "phone"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
       }
     },
     "nameOfChildFirstMiddleInitialLast": {
@@ -445,7 +406,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER OF CHILD (Required)",
+        "label": "Social Security Number Of Child (Required)",
         "widget": "ssn"
       }
     },
@@ -490,7 +451,7 @@
     "toMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "TO (MM/DD/YYYY)",
+        "label": "To (MM/DD/YYYY)",
         "widget": "text"
       }
     },
@@ -498,7 +459,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "FROM (MM/DD/YYYY):FROM (MM/DD/YYYY):TO (",
+        "label": "From (MM/DD/YYYY):From (MM/DD/YYYY):To (",
         "widget": "date"
       }
     },
@@ -506,7 +467,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "CHILD'S DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Child'S Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -521,7 +482,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "I. PROVIDE THE",
+        "label": "I. Provide The",
         "widget": "date"
       }
     },
@@ -529,15 +490,8 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "HAVE YOU PROVIDED A COPY OF THE CHILD'S BIRTH CERTIFICATE TO",
+        "label": "Have You Provided A Copy Of The Child'S Birth Certificate To",
         "widget": "date"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
       }
     },
     "12c": {
@@ -552,14 +506,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "14B. DATE(S) OF TREATMENT (",
+        "label": "14B. Date(S) Of Treatment (",
         "widget": "date"
       }
     },
     "ifChildIsUnderAge_18CustodianGuardianIsOtherThan": {
       "type": "string",
       "x-va-field": {
-        "label": "IF CHILD IS UNDER AGE 18 & CUSTODIAN/GUARDIAN IS OTHER THAN",
+        "label": "If Child Is Under Age 18 & Custodian/Guardian Is Other Than",
         "widget": "text"
       }
     },
@@ -573,7 +527,7 @@
     "byCheckingTheBoxICertifyThatIDoNotHaveAnAccount": {
       "type": "string",
       "x-va-field": {
-        "label": "BY CHECKING THE BOX I CERTIFY THAT I DO NOT HAVE AN ACCOUNT",
+        "label": "By Checking The Box I Certify That I Do Not Have An Account",
         "widget": "text"
       }
     },
@@ -603,34 +557,37 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "20B. DATE SIGNED (",
+        "label": "20B. Date Signed (",
         "widget": "date"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0304-are.pdf",
     "status": "digitized",
     "totalFields": 89,
-    "composedFields": 87,
+    "composedFields": 80,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -641,6 +598,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.273203+00:00"
   }
 }

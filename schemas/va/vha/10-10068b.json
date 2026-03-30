@@ -7,301 +7,301 @@
     "patientName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Patient Name",
+        "label": "Patient Name",
         "widget": "text"
       }
     },
     "dateofBirth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Dateof Birth",
+        "label": "Dateof Birth",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "bladderCancer": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Bladder Cancer",
+        "label": "Bladder Cancer",
         "widget": "checkbox"
       }
     },
     "breastCancer": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Breast Cancer",
+        "label": "Breast Cancer",
         "widget": "checkbox"
       }
     },
     "esophagealCancer": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Esophageal Cancer",
+        "label": "Esophageal Cancer",
         "widget": "checkbox"
       }
     },
     "kidneyCancer": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Kidney Cancer",
+        "label": "Kidney Cancer",
         "widget": "checkbox"
       }
     },
     "lungCancer": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Lung Cancer",
+        "label": "Lung Cancer",
         "widget": "checkbox"
       }
     },
     "leukemia": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Leukemia",
+        "label": "Leukemia",
         "widget": "checkbox"
       }
     },
     "multipleMyeloma": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Multiple Myeloma",
+        "label": "Multiple Myeloma",
         "widget": "checkbox"
       }
     },
     "myelodysplasticSyndrome": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Myelodysplastic Syndrome",
+        "label": "Myelodysplastic Syndrome",
         "widget": "checkbox"
       }
     },
     "nonHodgkinsLymphoma": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Non Hodgkins Lymphoma",
+        "label": "Non Hodgkins Lymphoma",
         "widget": "checkbox"
       }
     },
     "scleroderma": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Scleroderma",
+        "label": "Scleroderma",
         "widget": "checkbox"
       }
     },
     "hepaticSteatosis": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Hepatic Steatosis",
+        "label": "Hepatic Steatosis",
         "widget": "checkbox"
       }
     },
     "renalToxicity": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Renal Toxicity",
+        "label": "Renal Toxicity",
         "widget": "checkbox"
       }
     },
     "neurobehavioralEffects": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Neurobehavioral Effects",
+        "label": "Neurobehavioral Effects",
         "widget": "checkbox"
       }
     },
     "femaleInfertility": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Female Infertility",
+        "label": "Female Infertility",
         "widget": "checkbox"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date",
+        "label": "Date",
         "widget": "text"
       }
     },
     "miscarriage": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Miscarriage",
+        "label": "Miscarriage",
         "widget": "checkbox"
       }
     },
     "whatisYourDiagnosis": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Whatis Your Diagnosis",
+        "label": "Whatis Your Diagnosis",
         "widget": "text"
       }
     },
     "icd9code": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform I C D 9 Code",
+        "label": "Icd9code",
         "widget": "text"
       }
     },
     "dateofDiagnosis": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Dateof Diagnosis",
+        "label": "Dateof Diagnosis",
         "widget": "text"
       }
     },
     "dateRecentVisit": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Recent Visit",
+        "label": "Date Recent Visit",
         "widget": "text"
       }
     },
     "specifyOther": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Specify Other",
+        "label": "Specify Other",
         "widget": "text"
       }
     },
     "radiation": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Radiation",
+        "label": "Radiation",
         "widget": "checkbox"
       }
     },
     "startDate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Start Date1",
+        "label": "Start Date",
         "widget": "text"
       }
     },
     "endDate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform End Date1",
+        "label": "End Date",
         "widget": "text"
       }
     },
     "chemotherapy": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Chemotherapy",
+        "label": "Chemotherapy",
         "widget": "checkbox"
       }
     },
     "surgery": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Surgery",
+        "label": "Surgery",
         "widget": "checkbox"
       }
     },
     "otherTreatment": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Other Treatment",
+        "label": "Other Treatment",
         "widget": "text"
       }
     },
     "ongoingTreatment": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Ongoing Treatment",
+        "label": "Ongoing Treatment",
         "widget": "text"
       }
     },
     "narrative": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Narrative",
+        "label": "Narrative",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "physicianName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Physician Name",
+        "label": "Physician Name",
         "widget": "text"
       }
     },
     "streetAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Street Address",
+        "label": "Street Address",
         "widget": "text"
       }
     },
     "taxId": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Tax I D",
+        "label": "Tax ID",
         "widget": "text"
       }
     },
     "city": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform City",
+        "label": "City",
         "widget": "text"
       }
     },
     "state": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform State",
+        "label": "State",
         "widget": "text"
       }
     },
     "zipCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Zip Code",
+        "label": "ZIP Code",
         "widget": "text"
       }
     },
     "npinumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N P I Number",
+        "label": "Npinumber",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "specialty": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Specialty",
+        "label": "Specialty",
         "widget": "text"
       }
     },
@@ -396,7 +396,7 @@
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE",
+        "label": "Signature",
         "widget": "signature"
       }
     },
@@ -447,14 +447,14 @@
     "noteToPhysician": {
       "type": "string",
       "x-va-field": {
-        "label": "NOTE TO PHYSICIAN",
+        "label": "Note To Physician",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     }
@@ -474,6 +474,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.606314+00:00"
   }
 }

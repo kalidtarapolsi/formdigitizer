@@ -5,36 +5,46 @@
   "properties": {
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "thisCardIsFurnishedAsInitialIssue": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "This Card is Furnished As Initial Issue"
+      }
     },
     "replacementForALostOrDestroyedCard": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Replacement for a Lost or Destroyed Card"
+      }
     },
     "replacementBeca": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Replacement Beca"
+      }
     },
     "routineReplacementBeca": {
-      "type": "string"
-    },
-    "field_form1_0___subform_0__CheckBox5_0_": {
-      "type": "string"
-    },
-    "uponPresentationOfThisCardAtAnyCommercialRepairShopOrVAOrthoticsLaboratoryInAnySectionOfTheUnitedStatesOrPuertoRicoYouWillBeEntitledToImmediateRepairServiceToTheEquipmentListedOnTheCardCommercialRepairsAreLimitedTo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Routine Replacement Beca"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/FL%2010-215-fill.pdf",
     "totalFields": 7,
-    "composedFields": 1,
-    "coveragePercent": 14,
+    "composedFields": 5,
+    "coveragePercent": 100,
     "xfaLabelCount": 7,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:32:51.922Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.877221+00:00"
   }
 }

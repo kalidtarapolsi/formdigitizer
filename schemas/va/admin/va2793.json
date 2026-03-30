@@ -42,209 +42,375 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "doesYourShopUsuallyMakeItsOwnSetupsYesCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Does Your Shop Usually Make Its Own Setups Yes Check Box"
+      }
     },
     "doesYourShopUsuallyMakeItsOwnSetupsNoCheckBox": {
-      "type": "boolean"
-    },
-    "isItCommonPracticeToRequireAPhysiciansPrescriptionAsAConditionForFittingOfCivilianAmputeesYesCheckBox": {
-      "type": "boolean"
-    },
-    "isItCommonPracticeToRequireAPhysiciansPrescriptionAsAConditionForFittingOfCivilianAmputeesNoCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Does Your Shop Usually Make Its Own Setups no Check Box"
+      }
     },
     "shopLocatedInOfficeBuildingCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Shop Located in Office Building Check Box"
+      }
     },
     "shopLocatedInOtherSpecifyCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Shop Located in Other Specify Check Box"
+      }
     },
     "isFittingRoomOnGroundFloorYesCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Is Fitting Room on Ground Floor Yes Check Box"
+      }
     },
     "isFittingRoomOnGroundFloorNoCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Is Fitting Room on Ground Floor no Check Box"
+      }
     },
     "ifItem18IsNoAreElevatorsAvailableYesCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "If Item18Is no Are Elevators Available Yes Check Box"
+      }
     },
     "ifItem18IsNoAreElevatorsAvailableNoCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "If Item18Is no Are Elevators Available no Check Box"
+      }
     },
     "isShopEquippedWithParallelBarsForWalkingTrainingYesCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Is Shop Equipped With Parallel Bars for Walking Training Yes Check Box"
+      }
     },
     "isShopEquippedWithParallelBarsForWalkingTrainingNoCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Is Shop Equipped With Parallel Bars for Walking Training no Check Box"
+      }
     },
     "isShopEquippedWithFulllengthMirrorsYesCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Is Shop Equipped With Fulllength Mirrors Yes Check Box"
+      }
     },
     "isShopEquippedWithFulllengthMirrorsNoCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Is Shop Equipped With Fulllength Mirrors no Check Box"
+      }
     },
     "isShopEquippedWithRampsYesCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Is Shop Equipped With Ramps Yes Check Box"
+      }
     },
     "isShopEquippedWithRampsNoCheckBox": {
-      "type": "boolean"
-    },
-    "ifYourFirmHasBeenInBusinessLessThan3YearsListTwoBusinessReferencesIncludingBankReferenceANameAndLocationOfOrganization": {
-      "type": "number"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Is Shop Equipped With Ramps no Check Box"
+      }
     },
     "1AFullBusinessNameOfShopIfOtherThanItem1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "1A Full Business Name of Shop If Other Than Item"
+      }
     },
     "daysOfBusiness": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Days of Business"
+      }
     },
     "hoursOfBusiness": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hours of Business"
+      }
     },
     "numberOfYearsExperienceInArtificialLimbBusinessAtOtherLocations": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Years Experience in Artificial Limb Business at Other Locations"
+      }
     },
     "totalFloorSpaceInWorkshop": {
-      "type": "string"
-    },
-    "numberOfProsthetistsEmployedWhoHaveSuccessfullyCompletedOneOrMoreOfTheFollowingPostgraduateCourseInProstheticsIfNoneThenWriteNoneAUpperExtremityCourse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Floor Space in Workshop"
+      }
     },
     "bAkProstheticsCourse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Ak Prosthetics Course"
+      }
     },
     "cOtherSpecify": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "C Other Specify"
+      }
     },
     "shopLocatedInOtherSpecify": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Shop Located in Other Specify"
+      }
     },
     "oOtherSpecifyNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "O Other Specify Number"
+      }
     },
     "oOtherSpecifyType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "O Other Specify Type"
+      }
     },
     "nameOfBidder": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Bidder"
+      }
     },
     "tradeNameIfAny": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Trade Name If Any"
+      }
     },
     "bNameAndLocationOfOrganization": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Name and Location of Organization"
+      }
     },
     "totalNumberOfEmployeesInTheShopIncludingOfficials": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Number of Employees in the Shop Including Officials"
+      }
     },
     "numberOfEmployeesEngagedInTheFabricationOfLimbs": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Employees Engaged in the Fabrication of Limbs"
+      }
     },
     "numberOfFulltimeQualifiedLimbFittersEmployed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Fulltime Qualified Limb Fitters Employed"
+      }
     },
     "bName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Name"
+      }
     },
     "totalFloorSpaceOccupiedByShop": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Floor Space Occupied by Shop"
+      }
     },
     "totalFloorSpaceInFittingRoom": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Floor Space in Fitting Room"
+      }
     },
     "totalOfficeFloorSpace": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Office Floor Space"
+      }
     },
     "numberAndTypeOfShopEquipmentUseReverseSideForEquipmentNotListedABandSawNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number and Type of Shop Equipment Use Reverse Side for Equipment Not Listed a Band Saw Number"
+      }
     },
     "aBandSawType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Band Saw Type"
+      }
     },
     "bSandingDiscType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Sanding Disc Type"
+      }
     },
     "cSandingPaperNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "C Sanding Paper Number"
+      }
     },
     "cSandingPaperType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "C Sanding Paper Type"
+      }
     },
     "dFlexibleShaftSanderNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "D Flexible Shaft Sander Number"
+      }
     },
     "dFlexibleShaftSanderType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "D Flexible Shaft Sander Type"
+      }
     },
     "eLatheWoodturningNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "E Lathe Woodturning Number"
+      }
     },
     "eLatheWoodturningType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "E Lathe Woodturning Type"
+      }
     },
     "fDrillPressNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "F Drill Press Number"
+      }
     },
     "fDrillPressType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "F Drill Press Type"
+      }
     },
     "gSewingMachineNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "G Sewing Machine Number"
+      }
     },
     "gSewingMachineType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "G Sewing Machine Type"
+      }
     },
     "hGrindingEquipmentNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "H Grinding Equipment Number"
+      }
     },
     "hGrindingEquipmentType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "H Grinding Equipment Type"
+      }
     },
     "iPaintsprayingEquipmentNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "I Paintspraying Equipment Number"
+      }
     },
     "iPaintsprayingEquipmentType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "I Paintspraying Equipment Type"
+      }
     },
     "jWeldingEquipmentNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "J Welding Equipment Number"
+      }
     },
     "jWeldingEquipmentType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "J Welding Equipment Type"
+      }
     },
     "kAlignmentJigNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "K Alignment Jig Number"
+      }
     },
     "kAlignmentJigType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "K Alignment Jig Type"
+      }
     },
     "continuationSheet": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Continuation Sheet"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA2793.pdf",
     "totalFields": 73,
-    "composedFields": 41,
-    "coveragePercent": 56,
+    "composedFields": 59,
+    "coveragePercent": 100,
     "xfaLabelCount": 73,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:28:44.069Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.506771+00:00"
   }
 }

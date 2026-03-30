@@ -42,48 +42,82 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "radioisotopesYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Radioisotopes Yes"
+      }
     },
     "applicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Applicant"
+      }
     },
     "programTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Program Title"
+      }
     },
     "cDEA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "C Dea"
+      }
     },
     "humanSubjectsNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Human Subjects no"
+      }
     },
     "animalSubjectsYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Animal Subjects Yes"
+      }
     },
     "investigationalDrugsYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Investigational Drugs Yes"
+      }
     },
     "investigationalDevicesYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Investigational Devices Yes"
+      }
     },
     "biohazardsYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Biohazards Yes"
+      }
     },
     "aUSCitizenYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A US Citizen Yes"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0102-fill.pdf",
     "totalFields": 47,
-    "composedFields": 23,
-    "coveragePercent": 49,
+    "composedFields": 11,
+    "coveragePercent": 100,
     "xfaLabelCount": 13,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:21:27.778Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:15.978382+00:00"
   }
 }

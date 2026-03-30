@@ -7,28 +7,28 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "dateTimeField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field1",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field2",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
@@ -101,22 +101,15 @@
         "label": "information for",
         "widget": "text"
       }
-    },
-    "form1SubformRadioButtonList": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Radio Button List",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491h-fill%20(Notice%20of%20Approaching%20Graduation).pdf",
     "totalFields": 15,
-    "composedFields": 15,
-    "coveragePercent": 93,
+    "composedFields": 14,
+    "coveragePercent": 100,
     "xfaLabelCount": 11,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:29:44.555Z",
     "pageCount": 1,
     "status": "digitized",
@@ -124,6 +117,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.593440+00:00"
   }
 }

@@ -7,14 +7,7 @@
     "complaintCaseNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "COMPLAINT CASE NUMBER",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "RESPONDENT BURDEN",
+        "label": "Complaint Case Number",
         "widget": "text"
       }
     },
@@ -28,21 +21,21 @@
     "emailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "EMAIL ADDRESS",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "mailingAddress4aWorkTelephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "MAILING ADDRESS4a. WORK TELEPHONE NUMBER",
+        "label": "Mailing Address4A. Work Telephone Number",
         "widget": "text"
       }
     },
     "primaryTelephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIMARY TELEPHONE NUMBER",
+        "label": "Primary Telephone Number",
         "widget": "text"
       }
     },
@@ -70,49 +63,49 @@
     "areYou": {
       "type": "string",
       "x-va-field": {
-        "label": "ARE YOU:",
+        "label": "Are You:",
         "widget": "text"
       }
     },
     "jobTitleSeriesAndGrade": {
       "type": "string",
       "x-va-field": {
-        "label": "JOB TITLE, SERIES AND GRADE",
+        "label": "Job Title, Series And Grade",
         "widget": "text"
       }
     },
     "serviceSectionProductLine": {
       "type": "string",
       "x-va-field": {
-        "label": "SERVICE/SECTION/PRODUCT LINE",
+        "label": "Service/Section/Product Line",
         "widget": "text"
       }
     },
     "nameAndAddressOfVaFacilityWhere": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF VA FACILITY WHERE",
+        "label": "Name And Address Of VA Facility Where",
         "widget": "text"
       }
     },
     "basis": {
       "type": "string",
       "x-va-field": {
-        "label": "BASIS",
+        "label": "Basis",
         "widget": "text"
       }
     },
     "claimS": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIM(S)",
+        "label": "Claim(S)",
         "widget": "text"
       }
     },
     "dateOf": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF",
+        "label": "Date Of",
         "widget": "text"
       }
     },
@@ -161,7 +154,7 @@
     "doYouHaveARepresentative": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU HAVE A REPRESENTATIVE?",
+        "label": "Do You Have A Representative?",
         "widget": "text"
       }
     },
@@ -182,14 +175,14 @@
     "ifYesIsHeOrSheAnAttorney": {
       "type": "string",
       "x-va-field": {
-        "label": "IF \"YES,\" IS HE OR SHE AN ATTORNEY?",
+        "label": "If \"Yes,\" Is He Or She An Attorney?",
         "widget": "text"
       }
     },
     "provideTheNameAndAddressOfYour": {
       "type": "string",
       "x-va-field": {
-        "label": "PROVIDE THE NAME AND ADDRESS OF YOUR",
+        "label": "Provide The Name And Address Of Your",
         "widget": "text"
       }
     },
@@ -210,7 +203,7 @@
     "telephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "TELEPHONE NUMBER",
+        "label": "Telephone Number",
         "widget": "text"
       }
     },
@@ -231,7 +224,7 @@
     "haveYouContactedAnEeo": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU CONTACTED AN EEO",
+        "label": "Have You Contacted An Eeo",
         "widget": "text"
       }
     },
@@ -252,7 +245,7 @@
     "nameOfEeoCounselor13cDateOfInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF EEO COUNSELOR13c. DATE OF INITIAL",
+        "label": "Name Of Eeo Counselor13C. Date Of Initial",
         "widget": "text"
       }
     },
@@ -266,14 +259,14 @@
     "haveYouFiledAUnion": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU FILED A UNION",
+        "label": "Have You Filed A Union",
         "widget": "text"
       }
     },
     "ifYesListTheClaimS": {
       "type": "string",
       "x-va-field": {
-        "label": "IF \"YES,\" LIST THE CLAIM(S)",
+        "label": "If \"Yes,\" List The Claim(S)",
         "widget": "text"
       }
     },
@@ -288,28 +281,28 @@
     "haveYouFiledAnAppealWithThe": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU FILED AN APPEAL WITH THE",
+        "label": "Have You Filed An Appeal With The",
         "widget": "text"
       }
     },
     "ifYesListTheIssueS": {
       "type": "string",
       "x-va-field": {
-        "label": "IF \"YES,\" LIST THE ISSUE(S)",
+        "label": "If \"Yes,\" List The Issue(S)",
         "widget": "text"
       }
     },
     "haveYouFiledThisComplaint": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU FILED THIS COMPLAINT",
+        "label": "Have You Filed This Complaint",
         "widget": "text"
       }
     },
     "ifYesProvideTheNameAndAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "IF \"YES,\" PROVIDE THE NAME AND ADDRESS",
+        "label": "If \"Yes,\" Provide The Name And Address",
         "widget": "address"
       }
     },
@@ -323,7 +316,7 @@
     "general": {
       "type": "string",
       "x-va-field": {
-        "label": "GENERAL",
+        "label": "General",
         "widget": "text"
       }
     },
@@ -346,35 +339,35 @@
     "representation": {
       "type": "string",
       "x-va-field": {
-        "label": "REPRESENTATION",
+        "label": "Representation",
         "widget": "text"
       }
     },
     "whenToFile": {
       "type": "string",
       "x-va-field": {
-        "label": "WHEN TO FILE",
+        "label": "When To File",
         "widget": "text"
       }
     },
     "whereToFile": {
       "type": "string",
       "x-va-field": {
-        "label": "WHERE TO FILE",
+        "label": "Where To File",
         "widget": "text"
       }
     },
     "privacyActStatement": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT STATEMENT",
+        "label": "Privacy Act Statement",
         "widget": "select"
       }
     },
     "respondentBurdenStatement": {
       "type": "string",
       "x-va-field": {
-        "label": "RESPONDENT BURDEN STATEMENT",
+        "label": "Respondent Burden Statement",
         "widget": "select"
       }
     }
@@ -382,7 +375,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4939.pdf",
     "totalFields": 53,
-    "composedFields": 53,
+    "composedFields": 52,
     "coveragePercent": 100,
     "xfaLabelCount": 35,
     "needsReviewCount": 0,
@@ -394,6 +387,7 @@
       "acroform+text-inference",
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.514702+00:00"
   }
 }

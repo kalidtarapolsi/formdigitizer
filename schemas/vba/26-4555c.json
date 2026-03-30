@@ -196,7 +196,7 @@
     "monthlyIncome": {
       "type": "string",
       "x-va-field": {
-        "label": "MONTHLY INCOME",
+        "label": "Monthly Income",
         "widget": "text"
       }
     },
@@ -204,13 +204,6 @@
       "type": "string",
       "x-va-field": {
         "label": "for routine uses (for example",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
         "widget": "text"
       }
     },
@@ -224,28 +217,28 @@
     "iWishToApplyForAGrantUnderChapter_21Title_38US": {
       "type": "string",
       "x-va-field": {
-        "label": "I WISH TO APPLY FOR A GRANT UNDER CHAPTER 21, TITLE 38, U.S.",
+        "label": "I Wish To Apply For A Grant Under Chapter 21, Title 38, U.S.",
         "widget": "text"
       }
     },
     "servicememberNeeding": {
       "type": "string",
       "x-va-field": {
-        "label": "SERVICEMEMBER NEEDING",
+        "label": "Servicemember Needing",
         "widget": "text"
       }
     },
     "eMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "E-MAIL ADDRESS",
+        "label": "E-Mail Address",
         "widget": "text"
       }
     },
     "locationOfPropertyToBeAdaptedIfKnownIncludeLotAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "LOCATION OF PROPERTY TO BE ADAPTED IF KNOWN (Include lot and",
+        "label": "Location Of Property To Be Adapted If Known (Include Lot And",
         "widget": "text"
       }
     },
@@ -259,49 +252,42 @@
     "sourceSOfIncome": {
       "type": "string",
       "x-va-field": {
-        "label": "SOURCE(S) OF INCOME",
+        "label": "Source(S) Of Income",
         "widget": "text"
       }
     },
     "doYouHaveADurablePowerOfAttorneyConservatorOrCour": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU HAVE A DURABLE POWER OF ATTORNEY, CONSERVATOR OR COUR",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Do You Have A Durable Power Of Attorney, Conservator Or Cour",
         "widget": "text"
       }
     },
     "hFinancingBy": {
       "type": "string",
       "x-va-field": {
-        "label": "H. FINANCING BY",
+        "label": "H. Financing By",
         "widget": "text"
       }
     },
     "annualCostOfMaintainingTheSubjectPropertyIsEstimated": {
       "type": "string",
       "x-va-field": {
-        "label": "ANNUAL COST OF MAINTAINING THE SUBJECT PROPERTY IS ESTIMATED",
+        "label": "Annual Cost Of Maintaining The Subject Property Is Estimated",
         "widget": "text"
       }
     },
     "loanData": {
       "type": "string",
       "x-va-field": {
-        "label": "LOAN DATA",
+        "label": "Loan Data",
         "widget": "text"
       }
     },
     "signatureOfVeteranServicememberOrFiduciary": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF VETERAN, SERVICEMEMBER, OR FIDUCIARY",
+        "label": "Signature Of Veteran, Servicemember, Or Fiduciary",
         "widget": "signature"
       }
     },
@@ -309,28 +295,28 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "iAmOfTheOpinionThatTheTermsOfPaymentRequiredInTh": {
       "type": "string",
       "x-va-field": {
-        "label": "I AM OF THE OPINION THAT THE TERMS OF PAYMENT REQUIRED IN TH",
+        "label": "I Am Of The Opinion That The Terms Of Payment Required In Th",
         "widget": "text"
       }
     },
     "housingUnit": {
       "type": "string",
       "x-va-field": {
-        "label": "HOUSING UNIT",
+        "label": "Housing Unit",
         "widget": "text"
       }
     },
     "signatureOfVaPersonnel": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF VA PERSONNEL",
+        "label": "Signature Of VA Personnel",
         "widget": "signature"
       }
     }
@@ -339,7 +325,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-4555c-are.pdf",
     "status": "digitized",
     "totalFields": 47,
-    "composedFields": 47,
+    "composedFields": 45,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -350,6 +336,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.188126+00:00"
   }
 }

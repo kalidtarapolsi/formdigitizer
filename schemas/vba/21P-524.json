@@ -109,18 +109,13 @@
         "widget": "text"
       }
     },
-    "claimantsSocialSecurityNumberSecondTwoNumbers": {
+    "claimantsSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F P1 Claimants Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "claimantsSocialSecurityNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Claimants Social Security Number First Three Numbers",
-        "widget": "text"
+        "label": "Claimants Social Security Number",
+        "widget": "ssn"
       }
     },
     "veteransLastName": {
@@ -141,13 +136,6 @@
       "type": "string",
       "x-va-field": {
         "label": "F P1 Veterans Middle Initial1",
-        "widget": "text"
-      }
-    },
-    "claimantsSocialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Claimants Social Security Number Last Four Numbers",
         "widget": "text"
       }
     },
@@ -207,73 +195,34 @@
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F P1 Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+    "daytimeTelephoneNumber": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "F P1 Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Daytime Telephone Number",
+        "widget": "phone"
       }
     },
-    "daytimeTelephoneNumberFirstThreeNumbers": {
+    "eveningTelephoneNumber": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "F P1 Daytime Telephone Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "daytimeTelephoneNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Daytime Telephone Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "daytimeTelephoneNumberAreaCode": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Daytime Telephone Number Area Code",
-        "widget": "text"
-      }
-    },
-    "eveningTelephoneNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Evening Telephone Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "eveningTelephoneNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Evening Telephone Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "eveningTelephoneNumberAreaCode": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Evening Telephone Number Area Code",
-        "widget": "text"
+        "label": "Evening Telephone Number",
+        "widget": "phone"
       }
     },
     "date15a": {
       "type": "string",
       "x-va-field": {
         "label": "F P1 Date15a",
-        "widget": "text"
-      }
-    },
-    "nameAndAddressOfOrganizationInstitutionOrPersonThatPlacedVeteranInYourCustodyOrCare": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Name And Address Of Organization Institution Or Person That Placed Veteran In Your Custody Or Care",
         "widget": "text"
       }
     },
@@ -284,25 +233,13 @@
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberSecondTwoNumbers": {
+    "veteransSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F P1 Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P1 Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Veterans Social Security Number",
+        "widget": "ssn"
       }
     },
     "nameaddress18a": {
@@ -634,27 +571,6 @@
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberSecondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P2 Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberFirstThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P2 Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P2 Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
     "name22a": {
       "type": "string",
       "x-va-field": {
@@ -750,27 +666,6 @@
       "type": "string",
       "x-va-field": {
         "label": "F P3 amount23b",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberSecondTwoNumbers3": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P3 Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberFirstThreeNumbers3": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P3 Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers3": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P3 Veterans Social Security Number Last Four Numbers",
         "widget": "text"
       }
     },
@@ -914,27 +809,6 @@
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberSecondTwoNumbers4": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P4 Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberFirstThreeNumbers4": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P4 Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers4": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P4 Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
     "addresswitness20": {
       "type": "string",
       "x-va-field": {
@@ -1068,27 +942,6 @@
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberSecondTwoNumbers5": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P5 Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberFirstThreeNumbers5": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P5 Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers5": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P5 Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
     "signature16": {
       "type": "string",
       "x-va-field": {
@@ -1166,52 +1019,24 @@
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberSecondTwoNumbers6": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P6 Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberFirstThreeNumbers6": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P6 Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers6": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F P6 Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "statementOfPersonClaimingToHave": {
       "type": "string",
       "x-va-field": {
-        "label": "STATEMENT OF PERSON CLAIMING TO HAVE",
+        "label": "Statement Of Person Claiming To Have",
         "widget": "text"
       }
     },
     "5bClaimantS": {
       "type": "string",
       "x-va-field": {
-        "label": "5B. CLAIMANT'S",
+        "label": "5B. Claimant'S",
         "widget": "text"
       }
     },
     "yourRelationshipToVeteranByBloodOrMarriage": {
       "type": "string",
       "x-va-field": {
-        "label": "YOUR RELATIONSHIP TO VETERAN BY BLOOD OR MARRIAGE",
+        "label": "Your Relationship To Veteran By Blood Or Marriage",
         "widget": "text"
       }
     },
@@ -1225,35 +1050,35 @@
     "placeOfBirth2": {
       "type": "string",
       "x-va-field": {
-        "label": "PLACE OF BIRTH",
+        "label": "Place Of Birth",
         "widget": "text"
       }
     },
     "7aVeteranS": {
       "type": "string",
       "x-va-field": {
-        "label": "7A. VETERAN'S",
+        "label": "7A. Veteran's",
         "widget": "text"
       }
     },
     "dateOfDeathMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF DEATH (MM/DD/YYYY)",
+        "label": "Date Of Death (MM/DD/YYYY)",
         "widget": "text"
       }
     },
     "placeOfDeath2": {
       "type": "string",
       "x-va-field": {
-        "label": "PLACE OF DEATH",
+        "label": "Place Of Death",
         "widget": "text"
       }
     },
     "11bDateOfDeathOfVeteranSOwnFather": {
       "type": "string",
       "x-va-field": {
-        "label": "11B. DATE OF DEATH OF VETERAN'S OWN FATHER (",
+        "label": "11B. Date Of Death Of Veteran's Own Father (",
         "widget": "text"
       }
     },
@@ -1267,7 +1092,7 @@
     "firstMiddleLastNameOfDeceasedVeteranTypeOrPrint": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST, MIDDLE, LAST NAME OF DECEASED VETERAN (Type or Print)",
+        "label": "First, Middle, Last Name Of Deceased Veteran (Type Or Print)",
         "widget": "text"
       }
     },
@@ -1295,28 +1120,21 @@
     "circumstancesOfYourObtainingCustodyOrCareOfTheVeter": {
       "type": "string",
       "x-va-field": {
-        "label": "CIRCUMSTANCES OF YOUR OBTAINING CUSTODY OR CARE OF THE VETER",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Circumstances Of Your Obtaining Custody Or Care Of The Veter",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
     "nameOfHeadOfHouseholdInWhichYouLivedAtTimeYouAss": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF HEAD OF HOUSEHOLD IN WHICH YOU LIVED AT TIME YOU ASS",
+        "label": "Name Of Head Of Household In Which You Lived At Time You Ass",
         "widget": "text"
       }
     },
@@ -1331,7 +1149,7 @@
     "approximateAmountsSpentByYouForVeteranSSupportClot": {
       "type": "string",
       "x-va-field": {
-        "label": "APPROXIMATE AMOUNTS SPENT BY YOU FOR VETERAN'S SUPPORT, CLOT",
+        "label": "Approximate Amounts Spent By You For Veteran's Support, Clot",
         "widget": "text"
       }
     },
@@ -1386,42 +1204,42 @@
     "didTheVeteranInANoteLetterDocumentInsurancePolic": {
       "type": "string",
       "x-va-field": {
-        "label": "DID THE VETERAN IN A NOTE, LETTER, DOCUMENT, INSURANCE POLIC",
+        "label": "Did The Veteran In A Note, Letter, Document, Insurance Polic",
         "widget": "text"
       }
     },
     "otherFactsWhichShowTheRelationshipThatExistedBetween": {
       "type": "string",
       "x-va-field": {
-        "label": "OTHER FACTS WHICH SHOW THE RELATIONSHIP THAT EXISTED BETWEEN",
+        "label": "Other Facts Which Show The Relationship That Existed Between",
         "widget": "text"
       }
     },
     "signatureOfClaimantSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF CLAIMANT (Sign in ink)",
+        "label": "Signature Of Claimant (Sign In Ink)",
         "widget": "signature"
       }
     },
     "signatureOfWitnessSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF WITNESS (Sign in ink)",
+        "label": "Signature Of Witness (Sign In Ink)",
         "widget": "signature"
       }
     },
     "addressOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS OF WITNESS",
+        "label": "Address Of Witness",
         "widget": "address"
       }
     },
     "signatureOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF WITNESS",
+        "label": "Signature Of Witness",
         "widget": "signature"
       }
     },
@@ -1429,56 +1247,49 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE (MM/DD/YYYY)",
+        "label": "Date (MM/DD/YYYY)",
         "widget": "date"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
       }
     },
     "occupation2Age": {
       "type": "string",
       "x-va-field": {
-        "label": "OCCUPATION2. AGE",
+        "label": "Occupation2. Age",
         "widget": "text"
       }
     },
     "yourRelationshipToDeceasedVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "YOUR RELATIONSHIP TO DECEASED VETERAN",
+        "label": "Your Relationship To Deceased Veteran",
         "widget": "text"
       }
     },
     "lengthOfTimeYouKnewVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "LENGTH OF TIME YOU KNEW VETERAN",
+        "label": "Length Of Time You Knew Veteran",
         "widget": "text"
       }
     },
     "yourRelationshipToClaimant7LengthOfTimeYouHaveKnow": {
       "type": "string",
       "x-va-field": {
-        "label": "YOUR RELATIONSHIP TO CLAIMANT7. LENGTH OF TIME YOU HAVE KNOW",
+        "label": "Your Relationship To Claimant7. Length Of Time You Have Know",
         "widget": "text"
       }
     },
     "wereYouInAPositionPersonallyToObserveTheConductAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "WERE YOU IN A POSITION PERSONALLY TO OBSERVE THE CONDUCT AND",
+        "label": "Were You In A Position Personally To Observe The Conduct And",
         "widget": "text"
       }
     },
     "factsBasedOnYourPersonalKnowledgeWhichShowWhetherOr": {
       "type": "string",
       "x-va-field": {
-        "label": "FACTS BASED ON YOUR PERSONAL KNOWLEDGE WHICH SHOW WHETHER OR",
+        "label": "Facts Based On Your Personal Knowledge Which Show Whether Or",
         "widget": "text"
       }
     },
@@ -1494,35 +1305,35 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "(MM/DD/YYYY)TO (",
+        "label": "(MM/DD/YYYY)To (",
         "widget": "date"
       }
     },
     "doYouKnowOfYourPersonalKnowledgeWhoSupportedTheVet": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU KNOW OF YOUR PERSONAL KNOWLEDGE WHO SUPPORTED THE VET",
+        "label": "Do You Know Of Your Personal Knowledge Who Supported The Vet",
         "widget": "text"
       }
     },
     "didAnyOtherPersonsStandInTheRelationshipOfParentTo": {
       "type": "string",
       "x-va-field": {
-        "label": "DID ANY OTHER PERSONS STAND IN THE RELATIONSHIP OF PARENT TO",
+        "label": "Did Any Other Persons Stand In The Relationship Of Parent To",
         "widget": "text"
       }
     },
     "nameAndAddressOfDisinterestedPerson": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF DISINTERESTED PERSON",
+        "label": "Name And Address Of Disinterested Person",
         "widget": "address"
       }
     },
     "whatIsTheMeansOfYourKnowledgeOfTheInformationFurni": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT IS THE MEANS OF YOUR KNOWLEDGE OF THE INFORMATION FURNI",
+        "label": "What Is The Means Of Your Knowledge Of The Information Furni",
         "widget": "text"
       }
     },
@@ -1530,7 +1341,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "PLACES WHERE YOU LIVED, AND DATES OF EACH RESIDENCE, DURING",
+        "label": "Places Where You Lived, And Dates Of Each Residence, During",
         "widget": "date"
       }
     },
@@ -1538,14 +1349,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SIGNATURE OF DISINTERESTED PERSON (Sign in ink)15. DATE (MM/",
+        "label": "Signature Of Disinterested Person (Sign In Ink)15. Date (MM/",
         "widget": "date"
       }
     },
     "occupation": {
       "type": "string",
       "x-va-field": {
-        "label": "OCCUPATION",
+        "label": "Occupation",
         "widget": "text"
       }
     },
@@ -1560,22 +1371,15 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "(MM/DD/YYYY)FROM (",
+        "label": "(MM/DD/YYYY)From (",
         "widget": "date"
       }
     },
     "signatureOfDisinterestedPersonSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF DISINTERESTED PERSON (Sign in ink)",
+        "label": "Signature Of Disinterested Person (Sign In Ink)",
         "widget": "signature"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
-        "widget": "text"
       }
     }
   },
@@ -1583,10 +1387,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-524-are.pdf",
     "status": "digitized",
     "totalFields": 223,
-    "composedFields": 223,
+    "composedFields": 194,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 6,
     "generatedAt": "2026-03-28T17:31:51.101Z",
     "redigitizedAt": "2026-03-30T20:35:38.480Z",
@@ -1594,6 +1398,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.391837+00:00"
   }
 }

@@ -7,140 +7,133 @@
     "loanNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Loan Number",
+        "label": "Loan Number",
         "widget": "text"
       }
     },
     "financialInstitution": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Financial Institution",
+        "label": "Financial Institution",
         "widget": "text"
       }
     },
     "institutionAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Institution Address",
+        "label": "Institution Address",
         "widget": "text"
       }
     },
     "year": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B\\ Year",
+        "label": "Year",
         "widget": "text"
       }
     },
     "manufacturersHome": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C\\ Manufacturers Home",
+        "label": "Manufacturers Home",
         "widget": "text"
       }
     },
     "modelName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D\\ Model Name",
+        "label": "Model Name",
         "widget": "text"
       }
     },
     "serialNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform E\\ Serial Number",
+        "label": "Serial Number",
         "widget": "text"
       }
     },
     "length": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform length",
+        "label": "Length",
         "widget": "text"
       }
     },
     "area": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform area",
+        "label": "Area",
         "widget": "text"
       }
     },
     "width": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform width",
+        "label": "Width",
         "widget": "text"
       }
     },
     "address1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address1",
+        "label": "Address",
         "widget": "text"
       }
     },
     "address1cont": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address1cont",
+        "label": "Address1cont",
         "widget": "text"
       }
     },
     "vetSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Vet Signature",
+        "label": "Vet Signature",
         "widget": "text"
       }
     },
     "date1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date1",
+        "label": "Date",
         "widget": "text"
       }
     },
     "date2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date2",
+        "label": "Date",
         "widget": "text"
       }
     },
     "dealerName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Dealer Name",
+        "label": "Dealer Name",
         "widget": "text"
       }
     },
     "title": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Title",
+        "label": "Title",
         "widget": "text"
       }
     },
     "dealerSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Dealer Signature",
+        "label": "Dealer Signature",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
       }
     },
     "descriptionOfManufacturedHome": {
       "type": "string",
       "x-va-field": {
-        "label": "DESCRIPTION OF MANUFACTURED HOME",
+        "label": "Description Of Manufactured Home",
         "widget": "text"
       }
     },
@@ -154,14 +147,14 @@
     "nameOfDealer": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF DEALER",
+        "label": "Name Of Dealer",
         "widget": "text"
       }
     },
     "signatureOfDealer": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF DEALER",
+        "label": "Signature Of Dealer",
         "widget": "signature"
       }
     },
@@ -169,14 +162,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE",
+        "label": "Date",
         "widget": "date"
       }
     },
     "title2": {
       "type": "string",
       "x-va-field": {
-        "label": "TITLE",
+        "label": "Title",
         "widget": "text"
       }
     },
@@ -184,14 +177,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED",
+        "label": "Date Signed",
         "widget": "date"
       }
     },
     "toNameOfFinancialInstitution3AddressOfFinancialI": {
       "type": "string",
       "x-va-field": {
-        "label": "TO:  NAME OF FINANCIAL INSTITUTION3.  ADDRESS OF FINANCIAL I",
+        "label": "To:  Name Of Financial Institution3.  Address Of Financial I",
         "widget": "address"
       }
     }
@@ -200,16 +193,17 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8644-are.pdf",
     "status": "digitized",
     "totalFields": 27,
-    "composedFields": 27,
-    "coveragePercent": 96,
+    "composedFields": 26,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 1,
     "generatedAt": "2026-03-28T17:38:08.706Z",
     "redigitizedAt": "2026-03-30T20:39:25.645Z",
     "extractionSources": [
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.224066+00:00"
   }
 }

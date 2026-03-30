@@ -10,7 +10,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "fullName": {
       "type": "object",
@@ -41,7 +44,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -82,135 +88,231 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "email": {
       "type": "string",
-      "format": "email"
+      "format": "email",
+      "x-va-field": {
+        "label": "Email"
+      }
     },
     "updatetoPreviousInsuranceRadioButton1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Updateto Previous Insurance Radio Button"
+      }
     },
-    "date_form1_0___subform_0__EffectiveDate_PrimaryInsurance_0_": {
+    "dateEffectiveDatePrimaryInsurance": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Effective Date Primary Insurance"
+      }
     },
-    "date_form1_0___subform_0__EndDate_PriamryInsurance_0_": {
+    "dateEndDatePriamryInsurance": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date End Date Priamry Insurance"
+      }
     },
-    "date_form1_0___subform_0__EffectiveDate_SecondaryInsurance_0_": {
+    "dateEffectiveDateSecondaryInsurance": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Effective Date Secondary Insurance"
+      }
     },
-    "date_form1_0___subform_0__EndDate_SecondaryInsurance_0_": {
+    "dateEndDateSecondaryInsurance": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date End Date Secondary Insurance"
+      }
     },
-    "date_form1_0___subform_0___subform_1__Date_MedicarePartA_0_": {
+    "dateDateMedicarePartA": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Date Medicare Part a"
+      }
     },
-    "date_form1_0___subform_0___subform_1__Date_MedicarePartB_0_": {
+    "dateDateMedicarePartB": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Date Medicare Part B"
+      }
     },
-    "pleaseFillInTheMedicareAdvantageEffectiveDateUsingTwoNumbersForMonthTwoNumbersForDayFourNumbersForTheYear": {
+    "dateDateMedicarePartD": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Date Medicare Part D"
+      }
     },
-    "date_form1_0___subform_0___subform_1__Date_MedicarePartD_0_": {
+    "dateDateTriCare": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Date Tri Care"
+      }
     },
-    "date_form1_0___subform_0___subform_1__Date_TriCare_0_": {
+    "dateDateChampva": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Date Champva"
+      }
     },
-    "date_form1_0___subform_0___subform_1__Date_CHAMPVA_0_": {
+    "dateDatePrimaryInsurance": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Date Primary Insurance"
+      }
     },
-    "date_form1_0___subform_0__Date_PrimaryInsurance_0_": {
+    "dateDateSecondaryInsurance": {
       "type": "string",
-      "format": "date"
-    },
-    "date_form1_0___subform_0__Date_SecondaryInsurance_0_": {
-      "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Date Secondary Insurance"
+      }
     },
     "signatureDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Signature Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "endtoPreviousInsuranceRadioButton1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Endto Previous Insurance Radio Button"
+      }
     },
     "doYouhealthinsRadioButton1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Do Youhealthins Radio Button"
+      }
     },
     "pharmacyBenefitsRadioButtonList": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Pharmacy Benefits Radio Button List"
+      }
     },
     "nameOfPriorHealthCareCoverage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Prior Health Care Coverage"
+      }
     },
     "otherHealthCareCoverage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Health Care Coverage"
+      }
     },
     "nameOfPrimaryInsurance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Primary Insurance"
+      }
     },
     "secondaryInsuranceHmo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Secondary Insurance Hmo"
+      }
     },
     "secondaryInsurancePpo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Secondary Insurance Ppo"
+      }
     },
     "nameOfSecondaryInsurance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Secondary Insurance"
+      }
     },
     "yesIWouldLikeToReceiveCorrespondenceViaRegularMail": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes I Would Like to Receive Correspondence Via Regular Mail"
+      }
     },
     "medicarePartA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Medicare Part a"
+      }
     },
     "medicarePartB": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Medicare Part B"
+      }
     },
     "medicareAdvantage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Medicare Advantage"
+      }
     },
     "medicarePartD": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Medicare Part D"
+      }
     },
     "tricare": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Tricare"
+      }
     },
     "champva": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Champva"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form_10-10068c-fill.pdf",
     "totalFields": 60,
-    "composedFields": 53,
-    "coveragePercent": 88,
+    "composedFields": 35,
+    "coveragePercent": 100,
     "xfaLabelCount": 64,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:13:59.352Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:16.023024+00:00"
   }
 }

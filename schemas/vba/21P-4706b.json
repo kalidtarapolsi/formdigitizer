@@ -5,279 +5,541 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "yesNo1": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Yes no"
+      }
     },
     "yesNo2": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Yes no"
+      }
     },
     "jf01": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf02": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf03": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf04": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf05": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf08": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf09a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf09a"
+      }
     },
     "jf09b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf09b"
+      }
     },
     "jf09c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf09c"
+      }
     },
     "jf10a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf10a"
+      }
     },
     "jf10b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf10b"
+      }
     },
     "jf10c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf10c"
+      }
     },
     "jf11a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf11a"
+      }
     },
     "jf11b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf11b"
+      }
     },
     "jf11c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf11c"
+      }
     },
     "jf12a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf12a"
+      }
     },
     "jf12b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf12b"
+      }
     },
     "jf12c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf12c"
+      }
     },
     "jf13": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf14": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf15": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf16": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf17": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf18": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf19": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf24": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf25a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf25a"
+      }
     },
     "jf25b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf25b"
+      }
     },
     "jf26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf28": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf29a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf29a"
+      }
     },
     "jf29b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf29b"
+      }
     },
     "jf30": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf31a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf31a"
+      }
     },
     "jf31b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf31b"
+      }
     },
     "jf32": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf33": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf34": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf35": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf36": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf37": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf38": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf39": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf40": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf41": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf42": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf43": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf44": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf45": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf46": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf47": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf48": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf49": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf50": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf51": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf56": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf57": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf58": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "remarks1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     },
     "jf63": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf65": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf66": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf68": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf69": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf71": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf72": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf74": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf75": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf77": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf93": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf95": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf96": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf98": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf99": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf101": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf102": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf104": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf105": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf107": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "remarks2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     },
     "f0page_20textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_20textfield"
+      }
     },
     "f0page_20textfield11": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_20textfield"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4706b-are.pdf",
     "status": "digitized",
     "totalFields": 103,
-    "composedFields": 20,
-    "coveragePercent": 19,
+    "composedFields": 87,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:33:19.478Z"
+    "generatedAt": "2026-03-28T17:33:19.478Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.046707+00:00"
   }
 }

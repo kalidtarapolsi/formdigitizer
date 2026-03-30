@@ -9,11 +9,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -54,73 +60,119 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "serviceNumber": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Service Number"
+      }
     },
     "dateEnteredService": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Entered Service"
+      }
     },
     "dateOfSeparation": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Separation"
+      }
     },
     "dateOfDeathIfDeceased": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Death If Deceased"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "lastNameFirstNameMiddleNameOfVeteran": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Last Name First Name Middle Name of Veteran"
+      }
     },
     "inReplyReferTo1Of5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Reply Refer To1Of"
+      }
     },
     "inReplyReferTo2Of5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Reply Refer To2Of"
+      }
     },
     "inReplyReferTo3Of5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Reply Refer To3Of"
+      }
     },
     "inReplyReferTo4Of5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Reply Refer To4Of"
+      }
     },
     "inReplyReferTo5Of5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Reply Refer To5Of"
+      }
     },
     "sincerelyYours": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sincerely Yours"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/FL70-2.pdf",
     "totalFields": 19,
-    "composedFields": 13,
-    "coveragePercent": 68,
+    "composedFields": 17,
+    "coveragePercent": 100,
     "xfaLabelCount": 19,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:23:36.765Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.901760+00:00"
   }
 }

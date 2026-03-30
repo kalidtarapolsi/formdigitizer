@@ -7,98 +7,98 @@
     "phone1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone1",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "date1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date1",
+        "label": "Date",
         "widget": "text"
       }
     },
     "pressureYes": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Pressure Yes",
+        "label": "Pressure Yes",
         "widget": "checkbox"
       }
     },
     "airTestNo": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Air Test No",
+        "label": "Air Test no",
         "widget": "checkbox"
       }
     },
     "floodTestNa": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Flood Test N A",
+        "label": "Flood Test Na",
         "widget": "checkbox"
       }
     },
     "floodTestYes": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Flood Test Yes",
+        "label": "Flood Test Yes",
         "widget": "checkbox"
       }
     },
     "floodTestNo": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Flood Test No",
+        "label": "Flood Test no",
         "widget": "checkbox"
       }
     },
     "fixtureYes": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Fixture Yes",
+        "label": "Fixture Yes",
         "widget": "checkbox"
       }
     },
     "fixtureNo": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Fixture No",
+        "label": "Fixture no",
         "widget": "checkbox"
       }
     },
     "airTestYes": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Air Test Yes",
+        "label": "Air Test Yes",
         "widget": "checkbox"
       }
     },
     "airTestNa": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Air Test N A",
+        "label": "Air Test Na",
         "widget": "checkbox"
       }
     },
     "pressureNo": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Pressure No",
+        "label": "Pressure no",
         "widget": "checkbox"
       }
     },
     "noteToInspector": {
       "type": "string",
       "x-va-field": {
-        "label": "NOTE TO INSPECTOR",
+        "label": "Note To Inspector",
         "widget": "text"
       }
     },
     "certificationOfWaterSystem": {
       "type": "string",
       "x-va-field": {
-        "label": "CERTIFICATION OF WATER SYSTEM",
+        "label": "Certification Of Water System",
         "widget": "text"
       }
     },
@@ -112,14 +112,14 @@
     "licenseNoSignatureOfInspector": {
       "type": "string",
       "x-va-field": {
-        "label": "LICENSE NO.SIGNATURE OF INSPECTOR",
+        "label": "License No.Signature Of Inspector",
         "widget": "signature"
       }
     },
     "nameOfInspectornameAndAddressOfFirm": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF INSPECTORNAME AND ADDRESS OF FIRM",
+        "label": "Name Of Inspectorname And Address Of Firm",
         "widget": "address"
       }
     },
@@ -146,6 +146,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.227578+00:00"
   }
 }

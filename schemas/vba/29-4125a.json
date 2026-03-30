@@ -9,11 +9,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -54,82 +60,146 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "checking": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Checking"
+      }
     },
     "paymentoption": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Paymentoption"
+      }
     },
     "option2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Option"
+      }
     },
     "option3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Option"
+      }
     },
     "option4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Option"
+      }
     },
     "netAmountPayable": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Net Amount Payable"
+      }
     },
     "insurancePolicyNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insurance Policy Number"
+      }
     },
     "relationshipToInsured": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship to Insured"
+      }
     },
     "nameOfInsuredVeteran": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Insured Veteran"
+      }
     },
     "insuredsPlaceOfDeath": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insureds Place of Death"
+      }
     },
     "nameOfBeneficiary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Beneficiary"
+      }
     },
     "egualmonthlypayments": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Egualmonthlypayments"
+      }
     },
     "finisntitute": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Finisntitute"
+      }
     },
     "routtransno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Routtransno"
+      }
     },
     "depositoraccountno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Depositoraccountno"
+      }
     },
     "savings": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Savings"
+      }
     },
     "beneficiarysShareFraction": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Beneficiarys Share Fraction"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-4125a-are.pdf",
     "status": "digitized",
     "totalFields": 27,
-    "composedFields": 19,
-    "coveragePercent": 70,
+    "composedFields": 23,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:37:46.267Z"
+    "generatedAt": "2026-03-28T17:37:46.267Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.283998+00:00"
   }
 }

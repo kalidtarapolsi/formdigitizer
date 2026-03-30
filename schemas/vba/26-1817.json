@@ -123,59 +123,45 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
     "haveYouPreviouslySecuredAVaDirectGuaranteedOrInsur": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU PREVIOUSLY SECURED A VA DIRECT, GUARANTEED OR INSUR",
+        "label": "Have You Previously Secured A VA Direct, Guaranteed Or Insur",
         "widget": "text"
       }
     },
     "certification": {
       "type": "string",
       "x-va-field": {
-        "label": "CERTIFICATION",
+        "label": "Certification",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE",
+        "label": "Date",
         "widget": "text"
       }
     },
     "title2": {
       "type": "string",
       "x-va-field": {
-        "label": "TITLE",
+        "label": "Title",
         "widget": "text"
       }
     },
     "addressOfProperty2": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS OF PROPERTY",
+        "label": "Address Of Property",
         "widget": "address"
       }
     },
@@ -183,14 +169,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF LOAN",
+        "label": "Date Of Loan",
         "widget": "date"
       }
     },
     "indicateWhatYouAreSeekingAVaGuaranteedHomeLoanFor": {
       "type": "string",
       "x-va-field": {
-        "label": "INDICATE WHAT YOU ARE SEEKING A VA-GUARANTEED HOME LOAN FOR",
+        "label": "Indicate What You Are Seeking A VA-Guaranteed Home Loan For",
         "widget": "text"
       }
     },
@@ -198,7 +184,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "4D. VETERAN'S DATE OF BIRTH (",
+        "label": "4D. Veteran's Date Of Birth (",
         "widget": "date"
       }
     },
@@ -213,28 +199,28 @@
     "doYouStillOwnThis": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU STILL OWN THIS",
+        "label": "Do You Still Own This",
         "widget": "text"
       }
     },
     "oneTimeRestorationNote": {
       "type": "string",
       "x-va-field": {
-        "label": "ONE-TIME RESTORATION (NOTE",
+        "label": "One-Time Restoration (Note",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     }
@@ -243,7 +229,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1817-are.pdf",
     "status": "digitized",
     "totalFields": 33,
-    "composedFields": 33,
+    "composedFields": 31,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -254,6 +240,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.162408+00:00"
   }
 }

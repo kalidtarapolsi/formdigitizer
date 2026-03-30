@@ -9,56 +9,90 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
-    },
-    "gratuitousBenefitsDepositedByVaMayOnlyBePaidToWifeChildDependentParentOrForExpensesOfLastIllnessOrBurialPl86146": {
-      "type": "number"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "inventoryReason": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Inventory Reason"
+      }
     },
     "quantity": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Quantity"
+      }
     },
     "itemDesc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item Desc"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     },
     "otherFundsDesc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Funds Desc"
+      }
     },
     "gratuitousBenefitsAmt": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Gratuitous Benefits Amt"
+      }
     },
     "otherFundsAmt": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Funds Amt"
+      }
     },
     "grandTotal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grand Total"
+      }
     },
     "disposition": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Disposition"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2687-fill.pdf",
     "totalFields": 71,
-    "composedFields": 8,
-    "coveragePercent": 11,
+    "composedFields": 12,
+    "coveragePercent": 100,
     "xfaLabelCount": 13,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:48.710Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.687620+00:00"
   }
 }

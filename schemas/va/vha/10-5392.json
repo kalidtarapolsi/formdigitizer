@@ -6,89 +6,162 @@
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "datesOfService": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dates of Service"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "organizationName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Organization Name"
+      }
     },
     "hours": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hours"
+      }
     },
     "individualNamePleasePrintLine20Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line20Of"
+      }
     },
     "individualNamePleasePrintLine19Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line19Of"
+      }
     },
     "individualNamePleasePrintLine18Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line18Of"
+      }
     },
     "individualNamePleasePrintLine17Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line17Of"
+      }
     },
     "individualNamePleasePrintLine16Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line16Of"
+      }
     },
     "individualNamePleasePrintLine15Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line15Of"
+      }
     },
     "individualNamePleasePrintLine14Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line14Of"
+      }
     },
     "individualNamePleasePrintLine13Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line13Of"
+      }
     },
     "individualNamePleasePrintLine12Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line12Of"
+      }
     },
     "individualNamePleasePrintLine11Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line11Of"
+      }
     },
     "individualNamePleasePrintLine10Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line10Of"
+      }
     },
     "individualNamePleasePrintLine9Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line9Of"
+      }
     },
     "individualNamePleasePrintLine8Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line8Of"
+      }
     },
     "individualNamePleasePrintLine7Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line7Of"
+      }
     },
     "individualNamePleasePrintLine6Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line6Of"
+      }
     },
     "individualNamePleasePrintLine5Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line5Of"
+      }
     },
     "individualNamePleasePrintLine4Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line4Of"
+      }
     },
     "individualNamePleasePrintLine3Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line3Of"
+      }
     },
     "individualNamePleasePrintLine2Of20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Individual Name Please Print Line2Of"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5392-fill.pdf",
     "totalFields": 120,
-    "composedFields": 61,
-    "coveragePercent": 51,
+    "composedFields": 24,
+    "coveragePercent": 100,
     "xfaLabelCount": 120,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:15:19.706Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.766804+00:00"
   }
 }

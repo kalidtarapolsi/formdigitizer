@@ -5,59 +5,99 @@
   "properties": {
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateFormIsSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Form is Signed"
+      }
     },
     "dateApplicationReviewed": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Application Reviewed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "ifYouAreFemaleSelectThisBox": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If You Are Female Select This Box"
+      }
     },
     "inYourLastFirstAndMiddleInitial": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Your Last First and Middle Initial"
+      }
     },
     "inYourMailingAddress": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Your Mailing Address"
+      }
     },
     "ifYouHaveOne": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If You Have One"
+      }
     },
     "anyOrganizationsYouBelongTo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Any Organizations You Belong to"
+      }
     },
     "anySpecialSkillsAndorAbilitiesYouHave": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Any Special Skills Andor Abilities You Have"
+      }
     },
     "anyRestrictionsOrLimitationsOfServiceYouMayHave": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Any Restrictions or Limitations of Service You May Have"
+      }
     },
     "daysAndTimeFramesYouWillBeAvailableToVolunteer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Days and Time Frames You Will Be Available to Volunteer"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-7055-fill.pdf",
     "totalFields": 25,
-    "composedFields": 18,
-    "coveragePercent": 72,
+    "composedFields": 13,
+    "coveragePercent": 100,
     "xfaLabelCount": 16,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:20:50.111Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.810815+00:00"
   }
 }

@@ -9,28 +9,41 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "positionOccupied": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Position Occupied"
+      }
     },
     "personalClothingAuthorizedInLieuOfUniform": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Personal Clothing Authorized in Lieu of Uniform"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-5397-fill.pdf",
     "totalFields": 18,
-    "composedFields": 3,
-    "coveragePercent": 17,
+    "composedFields": 4,
+    "coveragePercent": 100,
     "xfaLabelCount": 4,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:40.315Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.772819+00:00"
   }
 }

@@ -28,70 +28,70 @@
     "dateSigned2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 #subform #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row1 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row2 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount3": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row3 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount4": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row4 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount5": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row5 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "numericField1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row6 #subform Numeric Field1",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "numericField2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row6 #subform Numeric Field2",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "numericField4": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row7 #subform Numeric Field4",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "numericField3": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 Table1 Row7 #subform Numeric Field3",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
@@ -126,49 +126,49 @@
     "2CasadoViviendoConCNyugeQue": {
       "type": "string",
       "x-va-field": {
-        "label": "(2) CASADO - VIVIENDO CON CÓNYUGE QUE",
+        "label": "(2) Casado - Viviendo Con C\u00f3nyuge Que",
         "widget": "text"
       }
     },
     "1CasadoViviendoConElOtroPadreDelVetera": {
       "type": "string",
       "x-va-field": {
-        "label": "(1) CASADO - VIVIENDO CON EL OTRO PADRE DEL VETERA",
+        "label": "(1) Casado - Viviendo Con El Otro Padre Del Vetera",
         "widget": "text"
       }
     },
     "recibeCualquerOtroBeneficioDeVaComoVeteranoPadreO": {
       "type": "string",
       "x-va-field": {
-        "label": "¿RECIBE CUALQUER OTRO BENEFICIO DE VA COMO VETERANO, PADRE O",
+        "label": "\u00bfRecibe Cualquer Otro Beneficio De VA Como Veterano, Padre O",
         "widget": "text"
       }
     },
     "recibiSueldoOTuvoEmpleoEnCualquierPeriodoDuranteL": {
       "type": "string",
       "x-va-field": {
-        "label": "¿RECIBIÓ SUELDO O TUVO EMPLEO EN CUALQUIER PERIODO DURANTE L",
+        "label": "\u00bfRecibi\u00f3 Sueldo O Tuvo Empleo En Cualquier Periodo Durante L",
         "widget": "text"
       }
     },
     "duringThe_12MonthPeriodPrecedingThe": {
       "type": "string",
       "x-va-field": {
-        "label": "DURING THE 12 MONTH PERIOD PRECEDING THE",
+        "label": "During The 12 Month Period Preceding The",
         "widget": "text"
       }
     },
     "enteredTheNursingHome": {
       "type": "string",
       "x-va-field": {
-        "label": "ENTERED THE NURSING HOME) (",
+        "label": "Entered The Nursing Home) (",
         "widget": "text"
       }
     },
     "telefo": {
       "type": "string",
       "x-va-field": {
-        "label": "TELEFO",
+        "label": "Telefo",
         "widget": "text"
       }
     },
@@ -182,7 +182,7 @@
     "nMDeOmbAprobado": {
       "type": "string",
       "x-va-field": {
-        "label": "Núm de OMB Aprobado",
+        "label": "N\u00fam de OMB Aprobado",
         "widget": "text"
       }
     },
@@ -210,49 +210,49 @@
     "viveElOtroPadreDelVeteranoIsTheOtherParentOfTh": {
       "type": "string",
       "x-va-field": {
-        "label": "¿VIVE EL OTRO PADRE DEL VETERANO? (IS THE OTHER PARENT OF TH",
+        "label": "\u00bfVive El Otro Padre Del Veterano? (Is The Other Parent Of Th",
         "widget": "text"
       }
     },
     "nombreSegundoNombreApellidoDelVetera": {
       "type": "string",
       "x-va-field": {
-        "label": "NOMBRE, SEGUNDO NOMBRE, APELLIDO DEL VETERA",
+        "label": "Nombre, Segundo Nombre, Apellido Del Vetera",
         "widget": "text"
       }
     },
     "nameOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF VETERAN)",
+        "label": "Name Of Veteran)",
         "widget": "text"
       }
     },
     "nMeroDeSeguroSocialDelVetera": {
       "type": "string",
       "x-va-field": {
-        "label": "NÚMERO DE SEGURO SOCIAL DEL VETERA",
+        "label": "N\u00famero De Seguro Social Del Vetera",
         "widget": "text"
       }
     },
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER)",
+        "label": "Social Security Number)",
         "widget": "text"
       }
     },
     "1cSuFechaDeNacimientoMesDAAOYour": {
       "type": "string",
       "x-va-field": {
-        "label": "1C. SU FECHA DE NACIMIENTO (Mes, día, año)  (YOUR",
+        "label": "1C. Su Fecha De Nacimiento (Mes, D\u00eda, A\u00f1o)  (Your",
         "widget": "text"
       }
     },
     "spouseSDateOfBirth": {
       "type": "string",
       "x-va-field": {
-        "label": "SPOUSE'S DATE OF BIRTH) (",
+        "label": "Spouse'S Date Of Birth) (",
         "widget": "text"
       }
     },
@@ -273,7 +273,7 @@
     "fechaDeMuerteDelCNyuge": {
       "type": "string",
       "x-va-field": {
-        "label": "Fecha de muerte del cónyuge (",
+        "label": "Fecha de muerte del c\u00f3nyuge (",
         "widget": "text"
       }
     },
@@ -303,14 +303,14 @@
     "queSucedi": {
       "type": "string",
       "x-va-field": {
-        "label": "que sucedió",
+        "label": "que sucedi\u00f3",
         "widget": "text"
       }
     },
     "gastosMDicosLeaPRrafo_6DeLasInstruccionesDelEvr": {
       "type": "string",
       "x-va-field": {
-        "label": "GASTOS MÉDICOS (Lea Párrafo 6 de las instrucciones del EVR)",
+        "label": "GASTOS M\u00c9DICOS (Lea P\u00e1rrafo 6 de las instrucciones del EVR)",
         "widget": "text"
       }
     },
@@ -318,21 +318,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "9B. FECHA DE FIRMA (DATE SIGNED) (",
+        "label": "9B. Fecha De Firma (Date Signed) (",
         "widget": "date"
       }
     },
     "ingresosBrutosMensualesSi": {
       "type": "string",
       "x-va-field": {
-        "label": "INGRESOS BRUTOS MENSUALES. Si",
+        "label": "Ingresos Brutos Mensuales. Si",
         "widget": "radio"
       }
     },
     "grossMonthlyAmountsIf": {
       "type": "string",
       "x-va-field": {
-        "label": "(GROSS MONTHLY AMOUNTS) (If",
+        "label": "(Gross Monthly Amounts) (If",
         "widget": "radio"
       }
     },
@@ -346,7 +346,7 @@
     "deFrom": {
       "type": "string",
       "x-va-field": {
-        "label": "DE (FROM)",
+        "label": "De (From)",
         "widget": "text"
       }
     },
@@ -354,14 +354,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "FECHAS (DATE) (MM/DD/YYYY)FECHAS (DATE) (",
+        "label": "Fechas (Date) (MM/DD/YYYY)Fechas (Date) (",
         "widget": "date"
       }
     },
     "aThru": {
       "type": "string",
       "x-va-field": {
-        "label": "A (THRU)",
+        "label": "A (Thru)",
         "widget": "text"
       }
     }
@@ -371,9 +371,9 @@
     "status": "digitized",
     "totalFields": 51,
     "composedFields": 51,
-    "coveragePercent": 98,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:33:58.026Z",
     "redigitizedAt": "2026-03-30T20:37:39.302Z",
@@ -381,6 +381,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.992896+00:00"
   }
 }

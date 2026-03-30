@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,54 +53,91 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "marriage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marriage"
+      }
     },
     "insuranceFileNum": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insurance File Num"
+      }
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "correctName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Correct Name"
+      }
     },
     "divorceorannulment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Divorceorannulment"
+      }
     },
     "correction": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Correction"
+      }
     },
     "otherspecify": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Otherspecify"
+      }
     },
     "other": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-586-are.pdf",
     "status": "digitized",
     "totalFields": 18,
-    "composedFields": 12,
-    "coveragePercent": 67,
+    "composedFields": 13,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:38:16.959Z"
+    "generatedAt": "2026-03-28T17:38:16.959Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.287653+00:00"
   }
 }

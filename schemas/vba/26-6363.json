@@ -42,94 +42,154 @@
         "city",
         "state",
         "postalCode"
-      ]
-    },
-    "expirationdate": {
-      "type": "string",
-      "format": "date"
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "signeddate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Signeddate"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "revisedcondition": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Revisedcondition"
+      }
     },
     "casenumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Casenumber"
+      }
     },
     "outstandingnumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Outstandingnumber"
+      }
     },
     "firmnameadd": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Firmnameadd"
+      }
     },
     "legaldescription": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Legaldescription"
+      }
     },
     "master": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Master"
+      }
     },
     "regionalofcadd": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Regionalofcadd"
+      }
     },
     "vetnameadd": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vetnameadd"
+      }
     },
     "f0page_10numericfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_10numericfield"
+      }
     },
     "f0page_20textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_20textfield"
+      }
     },
     "f0page_30numericfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_30numericfield"
+      }
     },
     "f0page_40textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_40textfield"
+      }
     },
     "f0page_50numericfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_50numericfield"
+      }
     },
-    "f0subform5textfield10": {
+    "f0textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0textfield"
+      }
     },
-    "f0subform6numericfield10": {
+    "f0numericfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0numericfield"
+      }
     },
-    "f0subform7textfield11": {
+    "f0textfield11": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0textfield"
+      }
     },
-    "f0subform8numericfield11": {
+    "f0numericfield11": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0numericfield"
+      }
     },
-    "f0subform9textfield12": {
+    "f0textfield12": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0textfield"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6363-are.pdf",
     "status": "digitized",
     "totalFields": 70,
-    "composedFields": 25,
-    "coveragePercent": 36,
+    "composedFields": 21,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 10,
+    "needsReviewCount": 0,
     "pageCount": 10,
-    "generatedAt": "2026-03-28T17:34:37.857Z"
+    "generatedAt": "2026-03-28T17:34:37.857Z",
+    "fieldNameFixedAt": "2026-03-30T21:39:16.445249+00:00"
   }
 }

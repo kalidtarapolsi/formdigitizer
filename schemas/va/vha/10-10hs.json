@@ -7,63 +7,63 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "householdIncome1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Household Income1",
+        "label": "Household Income",
         "widget": "text"
       }
     },
     "householdIncome2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Household Income2",
+        "label": "Household Income",
         "widget": "text"
       }
     },
     "householdIncome3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Household Income3",
+        "label": "Household Income",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dateRecordUpdated": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Record Updated",
+        "label": "Date Record Updated",
         "widget": "text"
       }
     },
     "dateNotified": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Notified",
+        "label": "Date Notified",
         "widget": "text"
       }
     },
     "signatureAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE AND",
+        "label": "Signature And",
         "widget": "text"
       }
     },
@@ -84,21 +84,21 @@
     "permanentAddressStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "PERMANENT ADDRESS (Street)",
+        "label": "Permanent Address (Street)",
         "widget": "text"
       }
     },
     "householdIncome": {
       "type": "string",
       "x-va-field": {
-        "label": "HOUSEHOLD INCOME",
+        "label": "Household Income",
         "widget": "text"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -119,49 +119,14 @@
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox2": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box2",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox3": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box3",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox4": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box4",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox5": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box5",
-        "widget": "checkbox"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE (",
+        "label": "Date (",
         "widget": "text"
       }
     },
@@ -169,13 +134,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Hardship Granted",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Note",
         "widget": "text"
       }
     },
@@ -199,10 +157,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10HS-fill.pdf",
     "totalFields": 27,
-    "composedFields": 27,
-    "coveragePercent": 81,
+    "composedFields": 21,
+    "coveragePercent": 100,
     "xfaLabelCount": 15,
-    "needsReviewCount": 5,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:23:32.733Z",
     "pageCount": 2,
     "status": "digitized",
@@ -211,6 +169,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.628345+00:00"
   }
 }

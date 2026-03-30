@@ -42,66 +42,112 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "date10": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "premiumamount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Premiumamount"
+      }
     },
     "loanamount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Loanamount"
+      }
     },
     "premium": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Premium"
+      }
     },
     "insuredname": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insuredname"
+      }
     },
     "fileno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fileno"
+      }
     },
     "awardsbenefit": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Awardsbenefit"
+      }
     },
     "loan": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Loan"
+      }
     },
     "start": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Start"
+      }
     },
     "increase": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Increase"
+      }
     },
     "decrease": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Decrease"
+      }
     },
     "discontinue": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Discontinue"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-888-are.pdf",
     "status": "digitized",
     "totalFields": 16,
-    "composedFields": 8,
-    "coveragePercent": 50,
+    "composedFields": 15,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:38:29.707Z"
+    "generatedAt": "2026-03-28T17:38:29.707Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.291481+00:00"
   }
 }

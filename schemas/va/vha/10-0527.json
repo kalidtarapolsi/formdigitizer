@@ -10,11 +10,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "fullName": {
       "type": "object",
@@ -45,32 +51,48 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "requestorName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requestor Name"
+      }
     },
     "infoRequested": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Info Requested"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0527_Choice_fill.pdf",
     "totalFields": 9,
     "composedFields": 7,
-    "coveragePercent": 78,
+    "coveragePercent": 100,
     "xfaLabelCount": 4,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:35:04.683Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.601169+00:00"
   }
 }

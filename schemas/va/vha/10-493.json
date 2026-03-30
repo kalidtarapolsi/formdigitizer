@@ -9,48 +9,82 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "direccin": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Direccin"
+      }
     },
     "ciudad": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ciudad"
+      }
     },
     "estado": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Estado"
+      }
     },
     "cdigo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cdigo"
+      }
     },
     "escribaElNombreCompletoDelVeterano": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Escriba El Nombre Completo Del Veterano"
+      }
     },
     "escribaLaFecha": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Escriba La Fecha"
+      }
     },
     "escribaElNombreDelCentroDeTratamientoMdico": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Escriba El Nombre Del Centro De Tratamiento Mdico"
+      }
     },
     "firmaDelPaciente": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Firma Del Paciente"
+      }
     },
     "fecha": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha"
+      }
     },
     "nombreYApellidosDelVeterano": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nombre Y Apellidos Del Veterano"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA-10-493%20TRICARE%20Affirmation%20espanol%20-%20fill.pdf",
     "totalFields": 11,
-    "composedFields": 1,
-    "coveragePercent": 9,
+    "composedFields": 11,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:32:25.515Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.746806+00:00"
   }
 }

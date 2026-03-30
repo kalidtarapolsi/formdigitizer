@@ -39,25 +39,13 @@
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberLastFourNumbers": {
+    "veteransSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F Page 1 Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Veterans Social Security Number First Three Numbers",
-        "widget": "text"
+        "label": "Veterans Social Security Number",
+        "widget": "ssn"
       }
     },
     "veteransServiceNumber": {
@@ -67,18 +55,12 @@
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F Page 1 Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "currentMailingAddressCountry": {
@@ -196,105 +178,70 @@
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Signature Field1",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberSecondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberFirstThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Veterans Social Security Number First Three Numbers",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "grossEarningsPerMonth2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Gross Earnings Per Month",
+        "label": "Gross Earnings Per Month",
         "widget": "text"
       }
     },
     "typeOfWork2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Type Of Work",
+        "label": "Type of Work",
         "widget": "text"
       }
     },
     "timeLostFromIllness2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Time Lost From Illness",
+        "label": "Time Lost From Illness",
         "widget": "text"
       }
     },
     "nameAndAddressOfEmployer2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name And Address Of Employer",
+        "label": "Name and Address of Employer",
         "widget": "text"
       }
     },
     "hoursPerWeek2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Hours Per Week",
+        "label": "Hours Per Week",
         "widget": "text"
       }
     },
     "dateOfEmploymentFrom2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Of Employment From",
+        "label": "Date of Employment From",
         "widget": "text"
       }
     },
     "dateOfEmploymentTo2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Of Employment To",
+        "label": "Date of Employment to",
         "widget": "text"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Address",
         "widget": "text"
       }
     },
@@ -317,14 +264,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "veteranSServiceNumberIfApplicable_6EMailAddressO": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S SERVICE NUMBER (If applicable)6. E-MAIL ADDRESS (O",
+        "label": "Veteran's Service Number (If Applicable)6. E-Mail Address (O",
         "widget": "address"
       }
     },
@@ -332,7 +279,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "ALTERNATE TELEPHONE NUMBER (Include Area Code)7. PRIMARY TEL",
+        "label": "Alternate Telephone Number (Include Area Code)7. Primary Tel",
         "widget": "phone"
       }
     },
@@ -360,28 +307,21 @@
     "wereYouEmployedByVaOthersOrSelfEmployedAtAnyTime": {
       "type": "string",
       "x-va-field": {
-        "label": "WERE YOU EMPLOYED BY VA, OTHERS OR SELF EMPLOYED AT ANY TIME",
+        "label": "Were You Employed By VA, Others Or Self Employed At Any Time",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Important",
         "widget": "text"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -389,7 +329,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "13B. DATE SIGNED (",
+        "label": "13B. Date Signed (",
         "widget": "date"
       }
     },
@@ -397,20 +337,23 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "12B. DATE SIGNED (",
+        "label": "12B. Date Signed (",
         "widget": "date"
       }
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4140-are.pdf",
     "status": "digitized",
     "totalFields": 59,
-    "composedFields": 57,
+    "composedFields": 48,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -421,6 +364,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.297149+00:00"
   }
 }

@@ -7,168 +7,168 @@
     "attendingPhysician": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 A T T E N D I N G P H Y S I C I A N",
+        "label": "Attending Physician",
         "widget": "text"
       }
     },
     "dateDeath": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 D A T E D E A T H",
+        "label": "Date Death",
         "widget": "text"
       }
     },
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Name",
+        "label": "Name",
         "widget": "text"
       }
     },
     "relationship": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Relationship",
+        "label": "Relationship",
         "widget": "text"
       }
     },
     "nameOfDeceased": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Name Of Deceased",
+        "label": "Name of Deceased",
         "widget": "text"
       }
     },
     "nameOfHospital": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Name Of Hospital",
+        "label": "Name of Hospital",
         "widget": "text"
       }
     },
     "t26": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 T26",
+        "label": "T",
         "widget": "checkbox"
       }
     },
     "t29": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 T29",
+        "label": "T",
         "widget": "checkbox"
       }
     },
     "specifyExamples": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Specify Examples",
+        "label": "Specify Examples",
         "widget": "text"
       }
     },
     "signature1": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Signature1",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "dateSigned1": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Date Signed1",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "signature2": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Signature2",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "namePersonObtaining": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Name Person Obtaining",
+        "label": "Name Person Obtaining",
         "widget": "text"
       }
     },
     "signatureWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Signature Witness",
+        "label": "Signature Witness",
         "widget": "text"
       }
     },
     "nameWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Name Witness",
+        "label": "Name Witness",
         "widget": "text"
       }
     },
     "permission": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Permission",
+        "label": "Permission",
         "widget": "checkbox"
       }
     },
     "phoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Phone Number",
+        "label": "Phone Number",
         "widget": "text"
       }
     },
     "signature3": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Signature3",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "namePersonObtaining2": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Name Person Obtaining2",
+        "label": "Name Person Obtaining",
         "widget": "text"
       }
     },
     "signatureWitness2": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Signature Witness2",
+        "label": "Signature Witness",
         "widget": "text"
       }
     },
     "nameWitness2": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Name Witness2",
+        "label": "Name Witness",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Date",
+        "label": "Date",
         "widget": "text"
       }
     },
     "time": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Time",
+        "label": "Time",
         "widget": "text"
       }
     },
     "physician": {
       "type": "string",
       "x-va-field": {
-        "label": "PHYSICIAN",
+        "label": "Physician",
         "widget": "text"
       }
     },
@@ -183,14 +183,14 @@
     "limitations": {
       "type": "string",
       "x-va-field": {
-        "label": "LIMITATIONS",
+        "label": "Limitations",
         "widget": "text"
       }
     },
     "signatureOfPersonAuthorizingAutopsy": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF PERSON AUTHORIZING AUTOPSY",
+        "label": "Signature Of Person Authorizing Autopsy",
         "widget": "signature"
       }
     },
@@ -205,21 +205,21 @@
     "signatureOfPersonObtainingPermission": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF PERSON OBTAINING PERMISSION",
+        "label": "Signature Of Person Obtaining Permission",
         "widget": "signature"
       }
     },
     "signatureOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF WITNESS",
+        "label": "Signature Of Witness",
         "widget": "signature"
       }
     },
     "time2": {
       "type": "string",
       "x-va-field": {
-        "label": "TIME",
+        "label": "Time",
         "widget": "text"
       }
     },
@@ -260,6 +260,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.737046+00:00"
   }
 }

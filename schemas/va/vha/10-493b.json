@@ -9,45 +9,76 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "insertVeteranbeneficiarysFullName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insert Veteranbeneficiarys Full Name"
+      }
     },
     "direccin": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Direccin"
+      }
     },
     "ciudad": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ciudad"
+      }
     },
     "estado": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Estado"
+      }
     },
     "cdigoPostal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cdigo Postal"
+      }
     },
     "inserteLaFecha": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Inserte La Fecha"
+      }
     },
     "inserteElNombreDelCentroDeTratamientoMdicoApropiado": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Inserte El Nombre Del Centro De Tratamiento Mdico Apropiado"
+      }
     },
     "fecha": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fecha"
+      }
     },
     "nombreYApellidoDelVeterano": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nombre Y Apellido Del Veterano"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%2010-493b%20CHAMP%20Benefits%20Election%20Affirmation-espanol.pdf",
     "totalFields": 10,
-    "composedFields": 2,
-    "coveragePercent": 20,
+    "composedFields": 10,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:32:25.054Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.748309+00:00"
   }
 }

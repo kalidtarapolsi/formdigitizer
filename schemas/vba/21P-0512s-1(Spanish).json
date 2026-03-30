@@ -7,126 +7,126 @@
     "estadocivil": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform E S T A D O C I V I L",
+        "label": "Estadocivil",
         "widget": "checkbox"
       }
     },
     "vafilenospan": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A F I L E N O S P A N",
+        "label": "Vafilenospan",
         "widget": "text"
       }
     },
     "vafilenoeng": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A F I L E N O E N G",
+        "label": "Vafilenoeng",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "dependentsInYourCustody": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Dependents In Your Custody",
+        "label": "Dependents in Your Custody",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "medicaidCoverNursingHome": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M E D I C A I D C O V E R N U R S I N G H O M E",
+        "label": "Medicaid Cover Nursing Home",
         "widget": "text"
       }
     },
     "nursingHomePatient": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N U R S I N G H O M E P A T I E N T",
+        "label": "Nursing Home Patient",
         "widget": "text"
       }
     },
     "receiveWages": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R E C E I V E W A G E S",
+        "label": "Receive Wages",
         "widget": "text"
       }
     },
     "receiveBenefits": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R E C E I V E B E N E F I T S",
+        "label": "Receive Benefits",
         "widget": "text"
       }
     },
     "whatchanged": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W H A T C H A N G E D",
+        "label": "Whatchanged",
         "widget": "text"
       }
     },
     "whatchanged2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W H A T C H A N G E D2",
+        "label": "Whatchanged",
         "widget": "text"
       }
     },
     "when": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W H E N",
+        "label": "When",
         "widget": "text"
       }
     },
     "when2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W H E N2",
+        "label": "When",
         "widget": "text"
       }
     },
     "how": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H O W",
+        "label": "How",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "source": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Source",
+        "label": "Source",
         "widget": "text"
       }
     },
@@ -168,7 +168,7 @@
     "1aNumeroDeSeguroSocialDelVetera": {
       "type": "string",
       "x-va-field": {
-        "label": "1A. NUMERO DE SEGURO SOCIAL DEL VETERA",
+        "label": "1A. Numero De Seguro Social Del Vetera",
         "widget": "text"
       }
     },
@@ -182,35 +182,35 @@
     "1cSuFecheDeNacimientoMesDiAnYour": {
       "type": "string",
       "x-va-field": {
-        "label": "1C. SU FECHE DE NACIMIENTO (Mes, dià, anô) (YOUR",
+        "label": "1C. Su Feche De Nacimiento (Mes, Di\u00e0, An\u00f4) (Your",
         "widget": "text"
       }
     },
     "3bCantidadContribuidaAHijosQue": {
       "type": "string",
       "x-va-field": {
-        "label": "3B. CANTIDAD CONTRIBUIDA A HIJOS QUE",
+        "label": "3B. Cantidad Contribuida A Hijos Que",
         "widget": "text"
       }
     },
     "recibeCualquierOtroBeneficioDeVaComoVeteranoPadre": {
       "type": "string",
       "x-va-field": {
-        "label": "¿RECIBE CUALQUIER OTRO BENEFICIO DE VA COMO VETERANO, PADRE",
+        "label": "\u00bfRecibe Cualquier Otro Beneficio De VA Como Veterano, Padre",
         "widget": "text"
       }
     },
     "recibiSueldoOTuvoEmpleoEnCualquierPeriodoDuranteL": {
       "type": "string",
       "x-va-field": {
-        "label": "¿RECIBIÓ SUELDO O TUVO EMPLEO EN CUALQUIER PERIODO DURANTE L",
+        "label": "\u00bfRecibi\u00f3 Sueldo O Tuvo Empleo En Cualquier Periodo Durante L",
         "widget": "text"
       }
     },
     "nombreSegundoNombreApellidoDelVetera": {
       "type": "string",
       "x-va-field": {
-        "label": "NOMBRE, SEGUNDO NOMBRE, APELLIDO DEL VETERA",
+        "label": "Nombre, Segundo Nombre, Apellido Del Vetera",
         "widget": "radio"
       }
     },
@@ -225,7 +225,7 @@
     "meVolviACasarDespuesQueFallecioElVeteranoPeroElMa": {
       "type": "string",
       "x-va-field": {
-        "label": "ME VOLVI A CASAR DESPUES QUE FALLECIO EL VETERANO PERO EL MA",
+        "label": "Me Volvi A Casar Despues Que Fallecio El Veterano Pero El Ma",
         "widget": "text"
       }
     },
@@ -247,21 +247,21 @@
     "meVolviACasarEnFechaYSigoCasada": {
       "type": "string",
       "x-va-field": {
-        "label": "ME VOLVI A CASAR EN                 (fecha) (Y SIGO CASADA)",
+        "label": "Me Volvi A Casar En                 (Fecha) (Y Sigo Casada)",
         "widget": "text"
       }
     },
     "noMeHeVueltoACasarDesdeQueFallecioElVeteranoNoS": {
       "type": "string",
       "x-va-field": {
-        "label": "NO ME HE VUELTO A CASAR DESDE QUE FALLECIO EL VETERANO (No s",
+        "label": "No Me He Vuelto A Casar Desde Que Fallecio El Veterano (No S",
         "widget": "text"
       }
     },
     "importante": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANTE",
+        "label": "Importante",
         "widget": "text"
       }
     },
@@ -284,7 +284,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "ÑUMEROS TELÉFONICOS (Incluyá Codigo de Area) (TELEPHONE NUMB",
+        "label": "\u00d1UMEROS TEL\u00c9FONICOS (Incluy\u00e1 Codigo de Area) (TELEPHONE NUMB",
         "widget": "phone"
       }
     },
@@ -299,7 +299,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "9B. FECHA (DATE (",
+        "label": "9B. Fecha (Date (",
         "widget": "date"
       }
     },
@@ -320,21 +320,21 @@
     "gastosMedCosFamiliaresLeaParrafo_6DeLasInstruccione": {
       "type": "string",
       "x-va-field": {
-        "label": "GASTOS MEDÍCOS FAMILIARES (Lea Parrafo 6 de las instruccione",
+        "label": "GASTOS MED\u00cdCOS FAMILIARES (Lea Parrafo 6 de las instruccione",
         "widget": "text"
       }
     },
     "nota": {
       "type": "string",
       "x-va-field": {
-        "label": "NOTA",
+        "label": "Nota",
         "widget": "text"
       }
     },
     "sanciN": {
       "type": "string",
       "x-va-field": {
-        "label": "SANCIÓN",
+        "label": "Sanci\u00f3n",
         "widget": "text"
       }
     }
@@ -354,6 +354,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.986570+00:00"
   }
 }

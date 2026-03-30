@@ -5,44 +5,74 @@
   "properties": {
     "facilityName": {
       "type": "string",
-      "description": "Name of facility being inspected"
+      "description": "Name of facility being inspected",
+      "x-va-field": {
+        "label": "Facility Name"
+      }
     },
     "facilityAddress": {
       "type": "string",
-      "description": "Address of facility"
+      "description": "Address of facility",
+      "x-va-field": {
+        "label": "Facility Address"
+      }
     },
     "facilityPhone": {
       "type": "string",
-      "description": "Facility phone number"
+      "description": "Facility phone number",
+      "x-va-field": {
+        "label": "Facility Phone"
+      }
     },
     "inspectionDate": {
       "type": "string",
       "format": "date",
-      "description": "Date of inspection"
+      "description": "Date of inspection",
+      "x-va-field": {
+        "label": "Inspection Date"
+      }
     },
     "inspectorName": {
       "type": "string",
-      "description": "Inspector's name"
+      "description": "Inspector's name",
+      "x-va-field": {
+        "label": "Inspector Name"
+      }
     },
     "inspectorTitle": {
       "type": "string",
-      "description": "Inspector's title"
+      "description": "Inspector's title",
+      "x-va-field": {
+        "label": "Inspector Title"
+      }
     },
     "vaFacilityName": {
       "type": "string",
-      "description": "Associated VA medical center"
+      "description": "Associated VA medical center",
+      "x-va-field": {
+        "label": "VA Facility Name"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "numberOfBeds": {
       "type": "string",
-      "description": "Number of beds at facility"
+      "description": "Number of beds at facility",
+      "x-va-field": {
+        "label": "Number of Beds"
+      }
     },
     "numberOfVAPatients": {
       "type": "string",
-      "description": "Number of VA patients"
+      "description": "Number of VA patients",
+      "x-va-field": {
+        "label": "Number of VA Patients"
+      }
     },
     "overallRating": {
       "type": "string",
@@ -51,56 +81,95 @@
         "Marginal",
         "Unsatisfactory"
       ],
-      "description": "Overall facility rating"
+      "description": "Overall facility rating",
+      "x-va-field": {
+        "label": "Overall Rating"
+      }
     },
     "environmentalSafety": {
       "type": "boolean",
-      "description": "Environmental safety standards met"
+      "description": "Environmental safety standards met",
+      "x-va-field": {
+        "label": "Environmental Safety"
+      }
     },
     "staffingAdequacy": {
       "type": "boolean",
-      "description": "Staffing levels adequate"
+      "description": "Staffing levels adequate",
+      "x-va-field": {
+        "label": "Staffing Adequacy"
+      }
     },
     "patientRights": {
       "type": "boolean",
-      "description": "Patient rights and dignity maintained"
+      "description": "Patient rights and dignity maintained",
+      "x-va-field": {
+        "label": "Patient Rights"
+      }
     },
     "medicationManagement": {
       "type": "boolean",
-      "description": "Medication management procedures followed"
+      "description": "Medication management procedures followed",
+      "x-va-field": {
+        "label": "Medication Management"
+      }
     },
     "nutritionServices": {
       "type": "boolean",
-      "description": "Nutrition services adequate"
+      "description": "Nutrition services adequate",
+      "x-va-field": {
+        "label": "Nutrition Services"
+      }
     },
     "activityPrograms": {
       "type": "boolean",
-      "description": "Activity and recreation programs available"
+      "description": "Activity and recreation programs available",
+      "x-va-field": {
+        "label": "Activity Programs"
+      }
     },
     "deficienciesNoted": {
       "type": "string",
-      "description": "Deficiencies noted during inspection"
+      "description": "Deficiencies noted during inspection",
+      "x-va-field": {
+        "label": "Deficiencies Noted"
+      }
     },
     "correctiveActionsRequired": {
       "type": "string",
-      "description": "Corrective actions required"
+      "description": "Corrective actions required",
+      "x-va-field": {
+        "label": "Corrective Actions Required"
+      }
     },
     "followUpDate": {
       "type": "string",
       "format": "date",
-      "description": "Follow-up inspection date"
+      "description": "Follow-up inspection date",
+      "x-va-field": {
+        "label": "Follow Up Date"
+      }
     },
     "inspectorSignature": {
       "type": "boolean",
-      "description": "Inspector's signature certification"
+      "description": "Inspector's signature certification",
+      "x-va-field": {
+        "label": "Inspector Signature"
+      }
     },
     "facilityRepresentativeName": {
       "type": "string",
-      "description": "Facility representative's name"
+      "description": "Facility representative's name",
+      "x-va-field": {
+        "label": "Facility Representative Name"
+      }
     },
     "facilityRepresentativeSignature": {
       "type": "boolean",
-      "description": "Facility representative's signature"
+      "description": "Facility representative's signature",
+      "x-va-field": {
+        "label": "Facility Representative Signature"
+      }
     }
   },
   "x-va-metadata": {
@@ -113,6 +182,7 @@
     "status": "digitized",
     "pageCount": 2,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.539726+00:00"
   }
 }

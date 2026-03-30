@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,110 +53,191 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "completionDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Completion Date"
+      }
     },
     "issueDate": {
       "type": "string",
-      "format": "date"
-    },
-    "expirationDate": {
-      "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Issue Date"
+      }
     },
     "nationalPractitionerDataBaseQuerysDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "National Practitioner Data Base Querys Date"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "clinicalPrivilegesGrantedInProductServiceLineAttachCopy": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Clinical Privileges Granted in Product Service Line Attach Copy"
+      }
     },
     "typedNameOfMedicalStaffCoordinator": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Typed Name of Medical Staff Coordinator"
+      }
     },
     "educationAndTrainingEducationDegreeOrSpecialty": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Education and Training Education Degree or Specialty"
+      }
     },
     "internshipDegreeOrSpecialty": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Internship Degree or Specialty"
+      }
     },
     "residencyDegreeOrSpecialtyLine1Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Residency Degree or Specialty Line1Of"
+      }
     },
     "residencyDegreeOrSpecialtyLine2Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Residency Degree or Specialty Line2Of"
+      }
     },
     "fellowshipDegreeOrSpecialty": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fellowship Degree or Specialty"
+      }
     },
     "institution": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Institution"
+      }
     },
     "identifyingDataNameLastFirstMiddleInitial": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Identifying Data Name Last First Middle Initial"
+      }
     },
     "ofAppointment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Of Appointment"
+      }
     },
     "specialty": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Specialty"
+      }
     },
     "location": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Location"
+      }
     },
     "primarySourceVerifiedYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Primary Source Verified Yes"
+      }
     },
     "primarySourceVerifiedNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Primary Source Verified no"
+      }
     },
     "verifiedNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Verified no"
+      }
     },
     "verifiedYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Verified Yes"
+      }
     },
     "licenseType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "License Type"
+      }
     },
     "licenseNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "License Number"
+      }
     },
     "providingFacilityName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Providing Facility Name"
+      }
     },
     "remarksAttachAnAdditionalSheetIfNecessary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks Attach an Additional Sheet If Necessary"
+      }
     },
     "doesNotHaveAdditionalInformation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Does Not Have Additional Information"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0376a-fill.pdf",
     "totalFields": 83,
-    "composedFields": 40,
-    "coveragePercent": 48,
+    "composedFields": 29,
+    "coveragePercent": 100,
     "xfaLabelCount": 75,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:18:01.116Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.546000+00:00"
   }
 }

@@ -5,66 +5,111 @@
   "properties": {
     "veteranFullName": {
       "type": "string",
-      "description": "Veteran's full name (last, first, middle)"
+      "description": "Veteran's full name (last, first, middle)",
+      "x-va-field": {
+        "label": "Veteran Full Name"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number (last 4 digits)"
+      "description": "Social Security Number (last 4 digits)",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "vaFileNumber": {
       "type": "string",
-      "description": "VA file number"
+      "description": "VA file number",
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "vaFacilityName": {
       "type": "string",
-      "description": "VA medical facility name"
+      "description": "VA medical facility name",
+      "x-va-field": {
+        "label": "VA Facility Name"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "ward": {
       "type": "string",
-      "description": "Ward/unit"
+      "description": "Ward/unit",
+      "x-va-field": {
+        "label": "Ward"
+      }
     },
     "censusDate": {
       "type": "string",
       "format": "date",
-      "description": "Census date"
+      "description": "Census date",
+      "x-va-field": {
+        "label": "Census Date"
+      }
     },
     "patientsBeginningOfDay": {
       "type": "string",
-      "description": "Patients at beginning of day"
+      "description": "Patients at beginning of day",
+      "x-va-field": {
+        "label": "Patients Beginning of Day"
+      }
     },
     "admissions": {
       "type": "string",
-      "description": "Number of admissions"
+      "description": "Number of admissions",
+      "x-va-field": {
+        "label": "Admissions"
+      }
     },
     "discharges": {
       "type": "string",
-      "description": "Number of discharges"
+      "description": "Number of discharges",
+      "x-va-field": {
+        "label": "Discharges"
+      }
     },
     "transfers": {
       "type": "string",
-      "description": "Number of transfers"
+      "description": "Number of transfers",
+      "x-va-field": {
+        "label": "Transfers"
+      }
     },
     "patientsEndOfDay": {
       "type": "string",
-      "description": "Patients at end of day"
+      "description": "Patients at end of day",
+      "x-va-field": {
+        "label": "Patients End of Day"
+      }
     },
     "reportedBy": {
       "type": "string",
-      "description": "Reported by"
+      "description": "Reported by",
+      "x-va-field": {
+        "label": "Reported by"
+      }
     }
   },
   "x-va-metadata": {
@@ -77,6 +122,7 @@
     "status": "digitized",
     "pageCount": 1,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.739640+00:00"
   }
 }

@@ -7,14 +7,14 @@
     "date1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date1",
+        "label": "Date",
         "widget": "text"
       }
     },
     "printFormAndMailTo": {
       "type": "string",
       "x-va-field": {
-        "label": "PRINT FORM AND MAIL TO",
+        "label": "Print Form And Mail To",
         "widget": "text"
       }
     },
@@ -28,28 +28,28 @@
     "socialSecurityNo": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NO.",
+        "label": "Social Security No.",
         "widget": "text"
       }
     },
     "thisAddressIs": {
       "type": "string",
       "x-va-field": {
-        "label": "THIS ADDRESS IS",
+        "label": "This Address Is",
         "widget": "text"
       }
     },
     "sockSizeNo": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCK SIZE NO.",
+        "label": "Sock Size No.",
         "widget": "text"
       }
     },
     "sheathSize": {
       "type": "string",
       "x-va-field": {
-        "label": "SHEATH SIZE",
+        "label": "Sheath Size",
         "widget": "text"
       }
     },
@@ -59,22 +59,15 @@
         "label": "T-SHIRT, COTTON (for shoulder disarticulation), SIZE:",
         "widget": "text"
       }
-    },
-    "form1SubformTextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field1",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA2345.pdf",
     "totalFields": 9,
-    "composedFields": 9,
-    "coveragePercent": 89,
+    "composedFields": 8,
+    "coveragePercent": 100,
     "xfaLabelCount": 2,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:26:53.935Z",
     "pageCount": 1,
     "status": "digitized",
@@ -82,6 +75,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.504208+00:00"
   }
 }

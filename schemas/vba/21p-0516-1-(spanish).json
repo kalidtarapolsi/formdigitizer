@@ -9,11 +9,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -54,79 +60,145 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateEntered": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Entered"
+      }
     },
     "dateOfSeparation": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Separation"
+      }
     },
     "dateOfDivorceDeath": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Divorce Death"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
-    "radioButtonList": {
-      "type": "string"
+    "list": {
+      "type": "string",
+      "x-va-field": {
+        "label": "List"
+      }
     },
     "amountContributed": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Contributed"
+      }
     },
     "amount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "incomeChanged": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Income Changed"
+      }
     },
     "incomeChangedWhen": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Income Changed When"
+      }
     },
     "incomeChangedHow": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Income Changed How"
+      }
     },
     "nameofSpouse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameof Spouse"
+      }
     },
     "maritalStatus": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marital Status"
+      }
     },
     "numberChildren": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number Children"
+      }
     },
     "nameofVeteran": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameof Veteran"
+      }
     },
     "nursingHomeInfo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nursing Home Info"
+      }
     },
     "source": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Source"
+      }
     },
     "source1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Source"
+      }
     },
     "daytime": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Daytime"
+      }
     },
     "evening": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Evening"
+      }
     }
   },
   "x-va-metadata": {
@@ -139,6 +211,7 @@
     "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.093309+00:00"
   }
 }

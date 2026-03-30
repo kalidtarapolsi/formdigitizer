@@ -5,157 +5,209 @@
   "properties": {
     "dateOfReport": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Report"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "healthRadio2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Health Radio"
+      }
     },
     "healthRadio1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Health Radio"
+      }
     },
     "otherRadio1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Radio"
+      }
     },
     "otherRadio2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Radio"
+      }
     },
     "otherRadio3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Radio"
+      }
     },
     "otherRadio4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Radio"
+      }
     },
     "otherRadio5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Radio"
+      }
     },
     "otherRadio6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Radio"
+      }
     },
     "ssvfGrantAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Ssvf Grant Amount"
+      }
     },
     "incomeServices2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Income Services"
+      }
     },
     "incomeServices1": {
-      "type": "number"
-    },
-    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesChildCareFinancialAssistance": {
-      "type": "string"
+      "type": "number",
+      "x-va-field": {
+        "label": "Income Services"
+      }
     },
     "childCare2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Child Care"
+      }
     },
     "childCare1": {
-      "type": "string"
-    },
-    "howManyIneligibleIndividualsWereScreenedThisQuarterDescribeGenerallyHowTheseSituationsWereHandledAndTheProgramsToWhichIndividualsWereReferred": {
-      "type": "string"
-    },
-    "threeSupportiveServicesMostRequestedByParticipantsAndDescribeHowYourProgramDeliveredThoseSupportiveServices": {
-      "type": "string"
-    },
-    "describeAnyIssuesThatAroseThisQuarterWithRespectToParticipantSafetyEgDomesticViolenceSuicideRiskEtcAndIndicateHowThoseIssuesWereHandled": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Child Care"
+      }
     },
     "granteeName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grantee Name"
+      }
     },
     "doYouRequireAdditionalAssistanceFromTheSsvfProgramOfficeIfSo": {
-      "type": "string"
-    },
-    "typesOfLocationsEventsEgSheltersStreetStandDownsHousingCourtsWelfareOfficesEtcWhereYourProgramHasConductedOutreachDuringThisQuarter": {
-      "type": "string"
-    },
-    "anyTypesOfOrganizationsEntitiesFromWhichYouHaveReceivedMoreThanAnEstimated5OfYourReferralsDuringThisQuarter": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Do You Require Additional Assistance From the Ssvf Program Office If So"
+      }
     },
     "ssvfProgramNumber": {
-      "type": "string"
-    },
-    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesRentalAssistance": {
-      "type": "string"
-    },
-    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesMovingCostsAssistance": {
-      "type": "string"
-    },
-    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesEmergencySuppliesAssistance": {
-      "type": "string"
-    },
-    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesTransportation": {
-      "type": "string"
-    },
-    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesOther": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ssvf Program Number"
+      }
     },
     "other": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "dailyServices2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Daily Services"
+      }
     },
     "personalServices2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Personal Services"
+      }
     },
     "transportationServices2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Transportation Services"
+      }
     },
     "transportationServices1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Transportation Services"
+      }
     },
     "personalServices1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Personal Services"
+      }
     },
     "dailyServices1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Daily Services"
+      }
     },
     "fiduciaryServices2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fiduciary Services"
+      }
     },
     "fiduciaryServices1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fiduciary Services"
+      }
     },
     "legalServices2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Legal Services"
+      }
     },
     "legalServices1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Legal Services"
+      }
     },
     "housing2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Housing"
+      }
     },
     "housing1": {
-      "type": "string"
-    },
-    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesUtilityfeePaymentAssistance": {
-      "type": "string"
-    },
-    "duringThisQuarterWhichOfTheFollowingOtherSupportiveServicesWereProvidedByYourProgramSee38Cfr6233And38Cfr6234ForDescriptionsOfTheseSupportiveServicesSecurityOrUtilityDepositAssistance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Housing"
+      }
     },
     "asThisIsANewInitiativeVaIsInterestedInLearningAboutBestPracticesInTheField": {
-      "type": "string"
-    },
-    "confirmThatYourProgramsDataFor100OfParticipantsHasBeenExportedFromHmisAndUploadedToTheSsvfDataRepositoryNotLessThanOnAMonthlyBasisIfNot": {
-      "type": "string"
-    },
-    "haveYouCompliedWithAllTheTermsOfYourSupportiveServicesGrantAgreementThisQuarterIfNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "As This is a New Initiative VA is Interested in Learning About Best Practices in the Field"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10072B-fill.pdf",
     "totalFields": 54,
-    "composedFields": 19,
-    "coveragePercent": 35,
+    "composedFields": 32,
+    "coveragePercent": 100,
     "xfaLabelCount": 28,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:28:39.238Z",
     "pageCount": 3,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.609632+00:00"
   }
 }

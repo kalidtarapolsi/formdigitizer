@@ -7,98 +7,91 @@
     "sitename": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I T E N A M E",
+        "label": "Sitename",
         "widget": "text"
       }
     },
     "sponsoringorganizationname": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S P O N S O R I N G O R G A N I Z A T I O N N A M E",
+        "label": "Sponsoringorganizationname",
         "widget": "text"
       }
     },
     "businessmailingaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B U S I N E S S M A I L I N G A D D R E S S",
+        "label": "Businessmailingaddress",
         "widget": "text"
       }
     },
     "businessphone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B U S I N E S S P H O N E",
+        "label": "Businessphone",
         "widget": "text"
       }
     },
     "businessfax": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B U S I N E S S F A X",
+        "label": "Businessfax",
         "widget": "text"
       }
     },
     "businessemailaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform B U S I N E S S E M A I L A D D R E S S",
+        "label": "Businessemailaddress",
         "widget": "text"
       }
     },
     "listanddescribe": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform L I S T A N D D E S C R I B E",
+        "label": "Listanddescribe",
         "widget": "text"
       }
     },
     "website": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W E B S I T E",
+        "label": "Website",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date",
+        "label": "Date",
         "widget": "text"
       }
     },
     "describeactivities": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D E S C R I B E A C T I V I T I E S",
+        "label": "Describeactivities",
         "widget": "text"
       }
     },
     "describeactivitiespage2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D E S C R I B E A C T I V I T I E S P A G E2",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Describeactivitiespage",
         "widget": "text"
       }
     },
     "attn": {
       "type": "string",
       "x-va-field": {
-        "label": "ATTN",
+        "label": "Attn",
         "widget": "text"
       }
     },
@@ -112,7 +105,7 @@
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE",
+        "label": "Signature",
         "widget": "signature"
       }
     },
@@ -120,7 +113,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE (",
+        "label": "Date (",
         "widget": "date"
       }
     }
@@ -128,7 +121,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0918d.pdf",
     "totalFields": 19,
-    "composedFields": 17,
+    "composedFields": 16,
     "coveragePercent": 100,
     "xfaLabelCount": 14,
     "needsReviewCount": 0,
@@ -140,6 +133,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.046186+00:00"
   }
 }

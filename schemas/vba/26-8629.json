@@ -10,7 +10,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "fullName": {
       "type": "object",
@@ -41,7 +44,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -82,314 +88,597 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "dateOfLoana": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Loana"
+      }
     },
     "dateOfLoan": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Loan"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateMade1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Made"
+      }
     },
     "dateMade2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Made"
+      }
     },
     "dateMade3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Made"
+      }
     },
     "dateMade4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Made"
+      }
     },
     "dateE": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date E"
+      }
     },
     "date20": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amountGuaranty": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Guaranty"
+      }
     },
     "amountPayment": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Payment"
+      }
     },
     "amountBorrowed": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Borrowed"
+      }
     },
     "faceAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Face Amount"
+      }
     },
     "amountA": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount a"
+      }
     },
     "amountB": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount B"
+      }
     },
     "amountC": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount C"
+      }
     },
     "amountD": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount D"
+      }
     },
     "amountE": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount E"
+      }
     },
     "amountF": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount F"
+      }
     },
     "amountG": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount G"
+      }
     },
     "amountH": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount H"
+      }
     },
     "amountI": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount I"
+      }
     },
     "amountJ": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount J"
+      }
     },
     "amount17": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "judgementOrForeclosureDecree": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Judgement or Foreclosure Decree"
+      }
     },
     "simple": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Simple"
+      }
     },
     "discount": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Discount"
+      }
     },
     "addOn": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Add on"
+      }
     },
     "vaLoanNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Loan Number"
+      }
     },
     "holderLoanNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Holder Loan Number"
+      }
     },
     "percentE": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Percent E"
+      }
     },
     "discountOrAddOn": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Discount or Add on"
+      }
     },
     "nofie1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nofie"
+      }
     },
     "nofie2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nofie"
+      }
     },
     "repossessedSecurity": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Repossessed Security"
+      }
     },
     "noSecurityAvailable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No Security Available"
+      }
     },
     "f0page_10numericfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_10numericfield"
+      }
     },
     "statusA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status a"
+      }
     },
     "statusB": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status B"
+      }
     },
     "statusD": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status D"
+      }
     },
     "statusE": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status E"
+      }
     },
     "statusC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status C"
+      }
     },
     "statusF": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status F"
+      }
     },
     "statusG": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status G"
+      }
     },
     "statusH": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status H"
+      }
     },
     "finalA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Final a"
+      }
     },
     "finalB": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Final B"
+      }
     },
     "finalC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Final C"
+      }
     },
     "finalD": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Final D"
+      }
     },
     "totalE": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total E"
+      }
     },
     "finalF": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Final F"
+      }
     },
     "finalG": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Final G"
+      }
     },
     "finalH": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Final H"
+      }
     },
     "balanceI": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance I"
+      }
     },
     "claimed12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Claimed"
+      }
     },
     "statusI": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Status I"
+      }
     },
     "toInterest": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Interest"
+      }
     },
     "toPrincipal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Principal"
+      }
     },
     "payments1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payments"
+      }
     },
     "payments2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payments"
+      }
     },
     "payments3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payments"
+      }
     },
     "payments4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payments"
+      }
     },
     "payments5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payments"
+      }
     },
     "advances1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Advances"
+      }
     },
     "advances3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Advances"
+      }
     },
     "purpose1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purpose"
+      }
     },
     "purpose2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purpose"
+      }
     },
     "purpose3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purpose"
+      }
     },
     "purpose4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purpose"
+      }
     },
     "scheduleA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule a"
+      }
     },
     "scheduleB": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule B"
+      }
     },
     "scheduleC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule C"
+      }
     },
     "scheduleD": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule D"
+      }
     },
     "scheduleE": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule E"
+      }
     },
     "scheduleF": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule F"
+      }
     },
     "scheduleG": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule G"
+      }
     },
     "scheduleH": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule H"
+      }
     },
     "scheduleI": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule I"
+      }
     },
     "scheduleJ": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Schedule J"
+      }
     },
     "totalK": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total K"
+      }
     },
     "interestF": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Interest F"
+      }
     },
     "balanceInTax": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance in Tax"
+      }
     },
     "claimant19": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Claimant"
+      }
     },
     "f0page_20textfield10": {
       "type": "string",
-      "x-needs-review": true
+      "x-needs-review": true,
+      "x-va-field": {
+        "label": "F0page_20textfield"
+      }
     },
     "advances2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Advances"
+      }
     },
     "advances4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Advances"
+      }
     },
     "totalPayments": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Payments"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8629-are.pdf",
     "status": "digitized",
     "totalFields": 101,
-    "composedFields": 39,
-    "coveragePercent": 39,
+    "composedFields": 96,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:33:20.993Z"
+    "generatedAt": "2026-03-28T17:33:20.993Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.218413+00:00"
   }
 }

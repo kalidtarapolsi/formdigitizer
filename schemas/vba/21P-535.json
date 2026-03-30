@@ -10,7 +10,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "fullName": {
       "type": "object",
@@ -41,462 +44,168 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "serviceNumber": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Service Number"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "maritalStatus": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marital Status"
+      }
     },
     "workInRailroad": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Work in Railroad"
+      }
     },
     "relationshipToVeteran": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship to Veteran"
+      }
     },
     "secondTwoNumbers": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Two Numbers"
+      }
     },
     "": {
       "type": "string",
       "format": "date"
     },
-    "vba215350subform9textfield10": {
-      "type": "string",
-      "x-needs-review": true
-    },
     "filedAClaim": {
-      "type": "string"
-    },
-    "vba215350subform9textfield11": {
       "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform9textfield12": {
-      "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Filed a Claim"
+      }
     },
     "serveUnderDifferentName": {
-      "type": "string"
-    },
-    "vba215350subform9textfield13": {
       "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform9textfield14": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform9textfield15": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform9textfield16": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform9textfield17": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform9textfield18": {
-      "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Serve Under Different Name"
+      }
     },
     "claimingDic": {
-      "type": "string"
-    },
-    "vba215350subform10textfield19": {
       "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield110": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield111": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield112": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield113": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield114": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield115": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield116": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield117": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield118": {
-      "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Claiming Dic"
+      }
     },
     "underParentalControl": {
-      "type": "string"
-    },
-    "vba215350subform10textfield119": {
       "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield120": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform10textfield121": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform15textfield122": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform15textfield123": {
-      "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Under Parental Control"
+      }
     },
     "spo": {
-      "type": "string"
-    },
-    "vba215350subform15textfield124": {
       "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Spo"
+      }
     },
     "needRegularAssistance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Need Regular Assistance"
+      }
     },
     "nursingHome": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nursing Home"
+      }
     },
     "claimedOrReceivedBenefits": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Claimed or Received Benefits"
+      }
     },
     "filedClaimForCompensation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Filed Claim for Compensation"
+      }
     },
     "courtAwardedDamages": {
-      "type": "string"
-    },
-    "vba215350subform15textfield125": {
       "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield126": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield127": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield128": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield129": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield130": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield131": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield132": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield133": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield134": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield135": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield136": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield137": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield138": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield139": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield140": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield141": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield142": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield143": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield144": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield145": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield146": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield147": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield148": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform16textfield149": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield150": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield151": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield152": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield153": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield154": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield155": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield156": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield157": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield158": {
-      "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Court Awarded Damages"
+      }
     },
     "accountNumber": {
-      "type": "string"
-    },
-    "vba215350subform17textfield159": {
       "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield160": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield161": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield162": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform17textfield163": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform18textfield164": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield165": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield166": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield167": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield168": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield169": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield170": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield171": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield172": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield173": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield174": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield175": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield176": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield177": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield178": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield179": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield180": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield181": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield182": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform19textfield183": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform20textfield184": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform20textfield185": {
-      "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Account Number"
+      }
     },
     "proofsReceived": {
-      "type": "string"
-    },
-    "vba215350subform20textfield186": {
       "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform20textfield187": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform20textfield188": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform20textfield189": {
-      "type": "string",
-      "x-needs-review": true
-    },
-    "vba215350subform20textfield190": {
-      "type": "string",
-      "x-needs-review": true
+      "x-va-field": {
+        "label": "Proofs Received"
+      }
     },
     "proofsRequested": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Proofs Requested"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-535-are.pdf",
     "status": "digitized",
     "totalFields": 222,
-    "composedFields": 120,
-    "coveragePercent": 48,
+    "composedFields": 25,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 10,
     "generatedAt": "2026-03-28T17:31:50.639Z",
-    "postProcessedAt": "2026-03-30T20:02:41.721841+00:00"
+    "postProcessedAt": "2026-03-30T20:02:41.721841+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.073712+00:00"
   }
 }

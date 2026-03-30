@@ -123,24 +123,17 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "firstNameMiddleInitialLastName2SocialSecurityNo": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST NAME - MIDDLE INITIAL - LAST NAME2. SOCIAL SECURITY NO",
+        "label": "First Name - Middle Initial - Last Name2. Social Security No",
         "widget": "text"
       }
     },
     "dateOfBirth2": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF BIRTH",
+        "label": "Date Of Birth",
         "widget": "text"
       }
     },
@@ -154,14 +147,14 @@
     "haveYouMadePreviousApplicationForHomeImprovementAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU MADE PREVIOUS APPLICATION FOR HOME IMPROVEMENT AND",
+        "label": "Have You Made Previous Application For Home Improvement And",
         "widget": "text"
       }
     },
     "eMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "E-MAIL ADDRESS",
+        "label": "E-Mail Address",
         "widget": "address"
       }
     },
@@ -177,35 +170,35 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "TELEPHONE NUMBERS OF APPLICANT (Include Area Code)",
+        "label": "Telephone Numbers Of Applicant (Include Area Code)",
         "widget": "phone"
       }
     },
     "haveYouMadePreviousApplicationForSpeciallyAdaptedHou": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU MADE PREVIOUS APPLICATION FOR SPECIALLY ADAPTED HOU",
+        "label": "Have You Made Previous Application For Specially Adapted Hou",
         "widget": "text"
       }
     },
     "areYouConfinedToANursingHomeOrMedicalCareFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "ARE YOU CONFINED TO A NURSING HOME OR MEDICAL CARE FACILITY?",
+        "label": "Are You Confined To A Nursing Home Or Medical Care Facility?",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -213,22 +206,8 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "12B. DATE SIGNED (",
+        "label": "12B. Date Signed (",
         "widget": "date"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
       }
     }
   },
@@ -236,7 +215,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-4555-are.pdf",
     "status": "digitized",
     "totalFields": 32,
-    "composedFields": 32,
+    "composedFields": 29,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -247,6 +226,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.490559+00:00"
   }
 }

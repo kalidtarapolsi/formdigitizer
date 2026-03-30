@@ -6,68 +6,116 @@
     "incidentDate": {
       "type": "string",
       "format": "date",
-      "description": "Date of incident"
+      "description": "Date of incident",
+      "x-va-field": {
+        "label": "Incident Date"
+      }
     },
     "incidentTime": {
       "type": "string",
-      "description": "Time of incident"
+      "description": "Time of incident",
+      "x-va-field": {
+        "label": "Incident Time"
+      }
     },
     "incidentLocation": {
       "type": "string",
-      "description": "Location of incident"
+      "description": "Location of incident",
+      "x-va-field": {
+        "label": "Incident Location"
+      }
     },
     "vaFacility": {
       "type": "string",
-      "description": "VA facility"
+      "description": "VA facility",
+      "x-va-field": {
+        "label": "VA Facility"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "reportingOfficer": {
       "type": "string",
-      "description": "Reporting officer's name"
+      "description": "Reporting officer's name",
+      "x-va-field": {
+        "label": "Reporting Officer"
+      }
     },
     "badgeNumber": {
       "type": "string",
-      "description": "Badge/ID number"
+      "description": "Badge/ID number",
+      "x-va-field": {
+        "label": "Badge Number"
+      }
     },
     "incidentType": {
       "type": "string",
-      "description": "Type of incident"
+      "description": "Type of incident",
+      "x-va-field": {
+        "label": "Incident Type"
+      }
     },
     "involvedPersonName": {
       "type": "string",
-      "description": "Name of person(s) involved"
+      "description": "Name of person(s) involved",
+      "x-va-field": {
+        "label": "Involved Person Name"
+      }
     },
     "narrativeDescription": {
       "type": "string",
-      "description": "Narrative description of incident"
+      "description": "Narrative description of incident",
+      "x-va-field": {
+        "label": "Narrative Description"
+      }
     },
     "witnessNames": {
       "type": "string",
-      "description": "Names of witnesses"
+      "description": "Names of witnesses",
+      "x-va-field": {
+        "label": "Witness Names"
+      }
     },
     "actionTaken": {
       "type": "string",
-      "description": "Action taken"
+      "description": "Action taken",
+      "x-va-field": {
+        "label": "Action Taken"
+      }
     },
     "supervisorNotified": {
       "type": "boolean",
-      "description": "Supervisor notified"
+      "description": "Supervisor notified",
+      "x-va-field": {
+        "label": "Supervisor Notified"
+      }
     },
     "followUpRequired": {
       "type": "boolean",
-      "description": "Follow-up required"
+      "description": "Follow-up required",
+      "x-va-field": {
+        "label": "Follow Up Required"
+      }
     },
     "officerSignature": {
       "type": "boolean",
-      "description": "Officer's signature"
+      "description": "Officer's signature",
+      "x-va-field": {
+        "label": "Officer Signature"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     }
   },
   "x-va-metadata": {
@@ -80,6 +128,7 @@
     "status": "digitized",
     "pageCount": 2,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.845129+00:00"
   }
 }

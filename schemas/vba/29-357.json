@@ -10,11 +10,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "fullName": {
       "type": "object",
@@ -45,7 +51,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -86,338 +95,630 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "datedisabilityprevented": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datedisabilityprevented"
+      }
     },
     "datereturnedtogainfulemployment": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datereturnedtogainfulemployment"
+      }
     },
     "dateofadmission1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofadmission"
+      }
     },
     "dateofadmission2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofadmission"
+      }
     },
     "dateofadmission3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofadmission"
+      }
     },
     "dateofrelease1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofrelease"
+      }
     },
     "dateofrelease2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofrelease"
+      }
     },
     "dateofrelease3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofrelease"
+      }
     },
     "datetreatmentbegan1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datetreatmentbegan"
+      }
     },
     "datetreatmentbegan2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datetreatmentbegan"
+      }
     },
     "datetreatmentbegan3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datetreatmentbegan"
+      }
     },
     "dateofsig": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofsig"
+      }
     },
     "date1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date6": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateA": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date a"
+      }
     },
     "dateB": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date B"
+      }
     },
     "dateC": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date C"
+      }
     },
     "dateFrom1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date From"
+      }
     },
     "dateFrom2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date From"
+      }
     },
     "dateTo1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date to"
+      }
     },
     "dateTo2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date to"
+      }
     },
     "dateofreport10": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofreport"
+      }
     },
     "vadisability": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vadisability"
+      }
     },
     "hospital1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hospital"
+      }
     },
     "hospital2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hospital"
+      }
     },
     "hospital3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hospital"
+      }
     },
     "nameofphysician1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofphysician"
+      }
     },
     "nameofphysician2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofphysician"
+      }
     },
     "nameofphysician3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameofphysician"
+      }
     },
     "objectivesymptoms": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Objectivesymptoms"
+      }
     },
     "diagnosis": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Diagnosis"
+      }
     },
     "condition1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "diagnosisc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Diagnosisc"
+      }
     },
     "occupation1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Occupation"
+      }
     },
     "occupation2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Occupation"
+      }
     },
     "occupation3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Occupation"
+      }
     },
     "training": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Training"
+      }
     },
     "namefield": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Namefield"
+      }
     },
     "grade1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade"
+      }
     },
     "grade2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade"
+      }
     },
     "grade3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade"
+      }
     },
     "grade4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade"
+      }
     },
     "grade5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade"
+      }
     },
     "grade6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade"
+      }
     },
     "grade7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade"
+      }
     },
     "grade8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade"
+      }
     },
     "grade1hs": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade1hs"
+      }
     },
     "grade2hs": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade2hs"
+      }
     },
     "grade3hs": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade3hs"
+      }
     },
     "grade4hs": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade4hs"
+      }
     },
     "grade4hsc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade4hsc"
+      }
     },
     "grade1hsc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade1hsc"
+      }
     },
     "grade2hsc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade2hsc"
+      }
     },
     "grade3hsc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Grade3hsc"
+      }
     },
     "vapension": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vapension"
+      }
     },
     "disease": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Disease"
+      }
     },
     "weeklyhours1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Weeklyhours"
+      }
     },
     "weeklyearnings1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Weeklyearnings"
+      }
     },
     "reason1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reason"
+      }
     },
     "weeklyearnings2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Weeklyearnings"
+      }
     },
     "weeklyhours2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Weeklyhours"
+      }
     },
     "reason2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reason"
+      }
     },
     "weeklyhours3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Weeklyhours"
+      }
     },
     "weeklyearnings3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Weeklyearnings"
+      }
     },
     "reason3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reason"
+      }
     },
     "sig17": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sig"
+      }
     },
     "typeandprint": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Typeandprint"
+      }
     },
     "insfileno": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insfileno"
+      }
     },
     "claimnu": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Claimnu"
+      }
     },
     "frequencyD": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frequency D"
+      }
     },
     "objfindings": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Objfindings"
+      }
     },
     "yesd": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yesd"
+      }
     },
     "nod": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nod"
+      }
     },
     "noe": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Noe"
+      }
     },
     "yese": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yese"
+      }
     },
     "aha1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Aha"
+      }
     },
     "aha2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Aha"
+      }
     },
     "aha3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Aha"
+      }
     },
     "aha4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Aha"
+      }
     },
     "cbg1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cbg"
+      }
     },
     "cbg2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cbg"
+      }
     },
     "cbg3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cbg"
+      }
     },
     "cbg4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cbg"
+      }
     },
     "cbg5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cbg"
+      }
     },
     "improve": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Improve"
+      }
     },
     "worse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Worse"
+      }
     },
     "remain": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remain"
+      }
     },
     "sig11": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sig"
+      }
     },
     "title11": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-357-are.pdf",
     "status": "digitized",
     "totalFields": 122,
-    "composedFields": 70,
-    "coveragePercent": 57,
+    "composedFields": 100,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 3,
-    "generatedAt": "2026-03-28T17:32:33.178Z"
+    "generatedAt": "2026-03-28T17:32:33.178Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.281266+00:00"
   }
 }

@@ -7,448 +7,412 @@
     "eMailAddressOptional": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform E Mail Address Optional",
+        "label": "Email Address Optional",
         "widget": "text"
       }
     },
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "veteransLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans Last Name",
+        "label": "Veterans Last Name",
         "widget": "text"
       }
     },
     "veteransMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans Middle Initial1",
+        "label": "Veterans Middle Initial",
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberFirstThreeNumbers": {
+    "veteransSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "Form1 #subform Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Veterans Social Security Number",
+        "widget": "ssn"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "veteransServiceNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans Service Number",
+        "label": "Veterans Service Number",
         "widget": "text"
       }
     },
     "vAInsurancePolicyNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A Insurance Policy Number",
+        "label": "V a Insurance Policy Number",
         "widget": "text"
       }
     },
     "mailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Number And Street",
+        "label": "Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "mailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Apartment Or Unit Number",
+        "label": "Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "mailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address City",
+        "label": "Mailing Address City",
         "widget": "text"
       }
     },
     "mailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address State Or Province",
+        "label": "Mailing Address State or Province",
         "widget": "text"
       }
     },
     "mailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Country",
+        "label": "Mailing Address Country",
         "widget": "text"
       }
     },
-    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "mailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "mailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "telephoneNumberAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Telephone Number Area Code",
+        "label": "Telephone Number Area Code",
         "widget": "text"
       }
     },
     "claimantsFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Claimants First Name",
+        "label": "Claimants First Name",
         "widget": "text"
       }
     },
     "claimantsLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Claimants Last Name",
+        "label": "Claimants Last Name",
         "widget": "text"
       }
     },
     "claimantsMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Claimants Middle Initial1",
+        "label": "Claimants Middle Initial",
         "widget": "text"
       }
     },
-    "claimantsSocialSecurityNumberFirstThreeNumbers": {
+    "claimantsSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "Form1 #subform Claimants Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "claimantsSocialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Claimants Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "claimantsSocialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Claimants Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Claimants Social Security Number",
+        "widget": "ssn"
       }
     },
     "claimantsVafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Claimants V A File Number",
+        "label": "Claimants Vafile Number",
         "widget": "text"
       }
     },
     "otherSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform O T H E R Specify",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "benefitTypeVHA": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Benefit Type V H A",
+        "label": "Benefit Type VHA",
         "widget": "text"
       }
     },
     "iLiveOrSleepInAPlaceThatIsNotMeantForRegularSleeping": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform I Live Or Sleep In A Place That Is Not Meant For Regular Sleeping",
+        "label": "I Live or Sleep in a Place That is Not Meant for Regular Sleeping",
         "widget": "checkbox"
       }
     },
     "iLiveInAShelter": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform I Live In A Shelter",
+        "label": "I Live in a Shelter",
         "widget": "checkbox"
       }
     },
     "stayingWithAFriendOrFamilyMemberBecauseIAmUnableToOwnAHomeRightNow": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Staying With A Friend Or Family Member Because I Am Unable To Own A Home Right Now",
+        "label": "Staying With a Friend or Family Member Because I Am Unable to Own a Home Right Now",
         "widget": "checkbox"
       }
     },
     "inTheNext30DaysIWillHaveToLeaveAFacilityLikeAHomelessShelter": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform In The Next 30 Days I Will Have To Leave A Facility Like A Homeless Shelter",
+        "label": "In the Next30Days I Will Have to Leave a Facility Like a Homeless Shelter",
         "widget": "checkbox"
       }
     },
     "inTheNext30DaysIWillLoseMyHome": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform I N T H E N E X T 30 D A Y S I W I L L L O S E M Y H O M E",
+        "label": "In the Next30Days I Will Lose My Home",
         "widget": "checkbox"
       }
     },
-    "radioButtonList2": {
+    "list2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Radio Button List2",
+        "label": "List",
         "widget": "text"
       }
     },
-    "telephoneMiddleThreeNumbers": {
+    "telephone": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Form1 #subform Telephone Middle Three Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Telephone Last Four Numbers",
-        "widget": "text"
+        "label": "Telephone",
+        "widget": "phone"
       }
     },
     "pointOfContact": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P O I N T O F C O N T A C T",
+        "label": "Point of Contact",
         "widget": "text"
       }
     },
     "otherSpecify2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform O T H E R S P E C I F Y",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "noneOfTheseSituationsApplyToMe": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform N O N E O F T H E S E S I T U A T I O N S A P P L Y T O M E",
+        "label": "None of These Situations Apply to Me",
         "widget": "checkbox"
       }
     },
     "specificissue2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S P E C I F I C I S S U E2",
+        "label": "Specificissue",
         "widget": "text"
       }
     },
     "specificissue3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S P E C I F I C I S S U E3",
+        "label": "Specificissue",
         "widget": "text"
       }
     },
     "specificissue4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S P E C I F I C I S S U E4",
+        "label": "Specificissue",
         "widget": "text"
       }
     },
     "specificissue5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S P E C I F I C I S S U E5",
+        "label": "Specificissue",
         "widget": "text"
       }
     },
     "specificissue6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S P E C I F I C I S S U E6",
+        "label": "Specificissue",
         "widget": "text"
       }
     },
     "specificissue7": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S P E C I F I C I S S U E7",
+        "label": "Specificissue",
         "widget": "text"
       }
     },
     "dateOfVaDecisionNoticeMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Of V A Decision Notice Month",
+        "label": "Date of VA Decision Notice Month",
         "widget": "text"
       }
     },
     "privateHealthcareProvider": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Private Healthcare Provider",
+        "label": "Private Healthcare Provider",
         "widget": "checkbox"
       }
     },
     "vaVetCenter": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform V A Vet Center",
+        "label": "VA Vet Center",
         "widget": "checkbox"
       }
     },
     "communityCarePaidForByVa": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Community Care Paid For By V A",
+        "label": "Community Care Paid for by VA",
         "widget": "checkbox"
       }
     },
     "vaMedicalCenterAndCommunityBasedOutpatientClinics": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform V A Medical Center And Community Based Outpatient Clinics",
+        "label": "VA Medical Center and Community Based Outpatient Clinics",
         "widget": "checkbox"
       }
     },
     "departmentOfDefenseDODMilitaryTreatmentFacilityMTF": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Department Of Defense D O D Military Treatment Facility M T F",
+        "label": "Department of Defense DOD Military Treatment Facility MTF",
         "widget": "checkbox"
       }
     },
     "otherSpecify3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Other Specify",
+        "label": "Other Specify",
         "widget": "checkbox"
       }
     },
-    "checkBoxDoNotHaveDateS": {
+    "doNotHaveDateS": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Check Box Do Not Have Date s",
+        "label": "Do Not Have Date S",
         "widget": "checkbox"
       }
     },
     "nameAndLocationOfTreatmentFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name And Location Of Treatment Facility",
+        "label": "Name and Location of Treatment Facility",
         "widget": "text"
       }
     },
     "digitalSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Digital Signature",
+        "label": "Digital Signature",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "printedAddressOfFirstWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Printed Address Of First Witness",
+        "label": "Printed Address of First Witness",
         "widget": "text"
       }
     },
     "printedNameOfSecondWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Printed Name Of Second Witness",
+        "label": "Printed Name of Second Witness",
         "widget": "text"
       }
     },
     "printedNameOfFirstWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Printed Name Of First Witness",
+        "label": "Printed Name of First Witness",
         "widget": "text"
       }
     },
     "addressOfFirstWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address Of First Witness",
+        "label": "Address of First Witness",
         "widget": "text"
       }
     },
     "dateLastVaf2122Or2122aSubmittedMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Last V A F 21 22 Or 21 22 A Submitted Month",
+        "label": "Date Last Vaf2122Or2122a Submitted Month",
         "widget": "text"
       }
     },
     "accreditationNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Accreditation Number",
+        "label": "Accreditation Number",
         "widget": "text"
       }
     },
@@ -459,17 +423,10 @@
         "widget": "text"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Note",
-        "widget": "text"
-      }
-    },
     "ifYouFeelYourConditionHasWorsenedAndIs": {
       "type": "string",
       "x-va-field": {
-        "label": "•  If you feel your condition has worsened and is",
+        "label": "\u2022  If you feel your condition has worsened and is",
         "widget": "text"
       }
     },
@@ -483,7 +440,7 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -505,7 +462,7 @@
     "attn": {
       "type": "string",
       "x-va-field": {
-        "label": "ATTN",
+        "label": "Attn",
         "widget": "text"
       }
     },
@@ -574,24 +531,10 @@
         "widget": "text"
       }
     },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "RESPONDENT BURDEN",
-        "widget": "text"
-      }
-    },
     "decisionReviewRequest": {
       "type": "string",
       "x-va-field": {
-        "label": "DECISION REVIEW REQUEST",
+        "label": "Decision Review Request",
         "widget": "text"
       }
     },
@@ -614,7 +557,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -622,14 +565,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "serviceNumberIfApplicable_7VaInsurancePolicyNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SERVICE NUMBER (If applicable)7. VA INSURANCE POLICY NUMBER",
+        "label": "Service Number (If Applicable)7. VA Insurance Policy Number",
         "widget": "text"
       }
     },
@@ -658,14 +601,14 @@
     "benefitTypePleaseCheckOnlyOneBox": {
       "type": "string",
       "x-va-field": {
-        "label": "BENEFIT TYPE (PLEASE CHECK ONLY ONE BOX)",
+        "label": "Benefit Type (Please Check Only One Box)",
         "widget": "text"
       }
     },
     "veteransHealthAdministrationNote": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERANS HEALTH ADMINISTRATION (NOTE",
+        "label": "Veterans Health Administration (Note",
         "widget": "text"
       }
     },
@@ -679,7 +622,7 @@
     "relationshipToVeteranCheckOne": {
       "type": "string",
       "x-va-field": {
-        "label": "RELATIONSHIP TO VETERAN (Check one)",
+        "label": "Relationship To Veteran (Check One)",
         "widget": "text"
       }
     },
@@ -716,7 +659,7 @@
     "youMustListEachIssueDecidedByVaThatYouWouldLikeV": {
       "type": "string",
       "x-va-field": {
-        "label": "YOU MUST LIST EACH ISSUE DECIDED BY VA THAT YOU WOULD LIKE V",
+        "label": "You Must List Each Issue Decided By VA That You Would Like V",
         "widget": "text"
       }
     },
@@ -755,7 +698,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "HAVE",
+        "label": "Have",
         "widget": "date"
       }
     },
@@ -770,7 +713,7 @@
     "forSpecificEvidenceYouNeedToProvideWithYourClaimV": {
       "type": "string",
       "x-va-field": {
-        "label": "FOR SPECIFIC EVIDENCE YOU NEED TO PROVIDE WITH YOUR CLAIM, V",
+        "label": "For Specific Evidence You Need To Provide With Your Claim, V",
         "widget": "text"
       }
     },
@@ -792,7 +735,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "25B. DATE SIGNED (",
+        "label": "25B. Date Signed (",
         "widget": "date"
       }
     },
@@ -814,7 +757,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "28B. DATE SIGNED (",
+        "label": "28B. Date Signed (",
         "widget": "date"
       }
     },
@@ -822,14 +765,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "29B. DATE SIGNED (",
+        "label": "29B. Date Signed (",
         "widget": "date"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -843,26 +786,38 @@
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateOfTreatment": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Treatment"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-20-0995-are.pdf",
     "status": "digitized",
     "totalFields": 127,
-    "composedFields": 121,
+    "composedFields": 112,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -874,6 +829,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.256790+00:00"
   }
 }

@@ -98,21 +98,14 @@
     "firstMiddleLastNameOfVeteranPrintClearly": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST, MIDDLE, LAST NAME OF VETERAN (Print clearly)",
+        "label": "First, Middle, Last Name Of Veteran (Print Clearly)",
         "widget": "text"
       }
     },
     "firstMiddleLastNameOfAnnuitantWhoIsNotThe": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST, MIDDLE, LAST NAME OF ANNUITANT WHO IS NOT THE",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "First, Middle, Last Name Of Annuitant Who Is Not The",
         "widget": "text"
       }
     },
@@ -126,7 +119,7 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -138,24 +131,10 @@
         "widget": "date"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
     "specifyTheSecurityQuestionYouWantUsedWhenVerifyingT": {
       "type": "string",
       "x-va-field": {
-        "label": "SPECIFY THE SECURITY QUESTION YOU WANT USED WHEN VERIFYING T",
+        "label": "Specify The Security Question You Want Used When Verifying T",
         "widget": "text"
       }
     },
@@ -177,7 +156,7 @@
     "theTermsOfSuchReleaseOfInformationWillBe": {
       "type": "string",
       "x-va-field": {
-        "label": "THE TERMS OF SUCH RELEASE OF INFORMATION WILL BE:",
+        "label": "The Terms Of Such Release Of Information Will Be:",
         "widget": "text"
       }
     },
@@ -191,7 +170,7 @@
     "insurancePolicyNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "INSURANCE POLICY NUMBER",
+        "label": "Insurance Policy Number",
         "widget": "text"
       }
     },
@@ -200,14 +179,14 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
     "contactInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "CONTACT INFORMATION",
+        "label": "Contact Information",
         "widget": "text"
       }
     },
@@ -232,10 +211,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0975-are.pdf",
     "status": "digitized",
     "totalFields": 31,
-    "composedFields": 31,
-    "coveragePercent": 97,
+    "composedFields": 28,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:36:55.453Z",
     "redigitizedAt": "2026-03-30T20:38:54.537Z",
@@ -243,6 +222,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.552517+00:00"
   }
 }

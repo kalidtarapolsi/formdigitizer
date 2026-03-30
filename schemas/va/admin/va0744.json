@@ -7,322 +7,315 @@
     "issuingtspbureauagencyorconference": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform I S S U I N G T S P B U R E A U A G E N C Y O R C O N F E R E N C E",
+        "label": "Issuingtspbureauagencyorconference",
         "widget": "text"
       }
     },
     "standardtspalphacodescac": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S T A N D A R D T S P A L P H A C O D E S C A C",
+        "label": "Standardtspalphacodescac",
         "widget": "text"
       }
     },
     "tendernumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T E N D E R N U M B E R",
+        "label": "Tendernumber",
         "widget": "text"
       }
     },
     "cancels": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C A N C E L S",
+        "label": "Cancels",
         "widget": "text"
       }
     },
     "supplementsthatcontainallchanges": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S U P P L E M E N T S T H A T C O N T A I N A L L C H A N G E S",
+        "label": "Supplementsthatcontainallchanges",
         "widget": "text"
       }
     },
     "other": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Other",
+        "label": "Other",
         "widget": "text"
       }
     },
     "issuedate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform I S S U E D A T E",
+        "label": "Issuedate",
         "widget": "text"
       }
     },
     "effectivedate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform E F F E C T I V E D A T E",
-        "widget": "text"
-      }
-    },
-    "expirationdate": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform E X P I R A T I O N D A T E",
+        "label": "Effectivedate",
         "widget": "text"
       }
     },
     "tspagencynumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T S P A G E N C Y N U M B E R",
+        "label": "Tspagencynumber",
         "widget": "text"
       }
     },
     "splc1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform S P L C1",
+        "label": "Splc",
         "widget": "text"
       }
     },
     "pointnamecountystate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform P O I N T N A M E C O U N T Y S T A T E1",
+        "label": "Pointnamecountystate",
         "widget": "text"
       }
     },
     "splc2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform S P L C2",
+        "label": "Splc",
         "widget": "text"
       }
     },
     "pointnamecountystate2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform P O I N T N A M E C O U N T Y S T A T E2",
+        "label": "Pointnamecountystate",
         "widget": "text"
       }
     },
     "loadapplication": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform L O A D A P P L I C A T I O N",
+        "label": "Loadapplication",
         "widget": "checkbox"
       }
     },
     "rateorcharge13a": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R A T E O R C H A R G E13 A",
+        "label": "Rateorcharge13a",
         "widget": "text"
       }
     },
     "minimumweights": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M I N I M U M W E I G H T S",
+        "label": "Minimumweights",
         "widget": "text"
       }
     },
     "route": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R O U T E",
+        "label": "Route",
         "widget": "text"
       }
     },
     "check1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H E C K1",
+        "label": "Check",
         "widget": "text"
       }
     },
     "charge1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H A R G E1",
+        "label": "Charge",
         "widget": "text"
       }
     },
     "check2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H E C K2",
+        "label": "Check",
         "widget": "text"
       }
     },
     "charge2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H A R G E2",
+        "label": "Charge",
         "widget": "text"
       }
     },
     "check3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H E C K3",
+        "label": "Check",
         "widget": "text"
       }
     },
     "charge3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H A R G E3",
+        "label": "Charge",
         "widget": "text"
       }
     },
     "check4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H E C K4",
+        "label": "Check",
         "widget": "text"
       }
     },
     "charge4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H A R G E4",
+        "label": "Charge",
         "widget": "text"
       }
     },
     "check5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H E C K5",
+        "label": "Check",
         "widget": "text"
       }
     },
     "charge5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H A R G E5",
+        "label": "Charge",
         "widget": "text"
       }
     },
     "check6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H E C K6",
+        "label": "Check",
         "widget": "text"
       }
     },
     "charge6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H A R G E6",
+        "label": "Charge",
         "widget": "text"
       }
     },
     "rateorcharge17a": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R A T E O R C H A R G E17 A",
+        "label": "Rateorcharge17a",
         "widget": "text"
       }
     },
     "description": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D E S C R I P T I O N",
+        "label": "Description",
         "widget": "text"
       }
     },
     "operatinauthority": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform O P E R A T I N A U T H O R I T Y",
+        "label": "Operatinauthority",
         "widget": "text"
       }
     },
     "governingtender": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform G O V E R N I N G T E N D E R",
+        "label": "Governingtender",
         "widget": "text"
       }
     },
     "signature1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E1",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "title1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I T L E1",
+        "label": "Title",
         "widget": "text"
       }
     },
     "address1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform A D D R E S S1",
+        "label": "Address",
         "widget": "text"
       }
     },
     "participatingtsp2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P A R T I C I P A T I N G T S P2",
+        "label": "Participatingtsp",
         "widget": "text"
       }
     },
     "signature2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E2",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "title2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I T L E2",
+        "label": "Title",
         "widget": "text"
       }
     },
     "address2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform A D D R E S S2",
+        "label": "Address",
         "widget": "text"
       }
     },
     "participatingtsp3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P A R T I C I P A T I N G T S P3",
+        "label": "Participatingtsp",
         "widget": "text"
       }
     },
     "signature3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E3",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "title3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I T L E3",
+        "label": "Title",
         "widget": "text"
       }
     },
     "address3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform A D D R E S S3",
+        "label": "Address",
         "widget": "text"
       }
     },
     "tenderedTo": {
       "type": "string",
       "x-va-field": {
-        "label": "TENDERED TO",
+        "label": "Tendered To",
         "widget": "text"
       }
     },
@@ -336,14 +329,14 @@
     "6Expiration": {
       "type": "string",
       "x-va-field": {
-        "label": "6. EXPIRATION",
+        "label": "6. Expiration",
         "widget": "text"
       }
     },
     "movementApplication": {
       "type": "string",
       "x-va-field": {
-        "label": "MOVEMENT APPLICATION",
+        "label": "Movement Application",
         "widget": "text"
       }
     },
@@ -357,14 +350,14 @@
     "tspAgencyNumberIfAny": {
       "type": "string",
       "x-va-field": {
-        "label": "TSP/AGENCY NUMBER (If any)",
+        "label": "Tsp/Agency Number (If Any)",
         "widget": "text"
       }
     },
     "freightClassificationAndCommodityDescription": {
       "type": "string",
       "x-va-field": {
-        "label": "FREIGHT CLASSIFICATION AND COMMODITY DESCRIPTION",
+        "label": "Freight Classification And Commodity Description",
         "widget": "text"
       }
     },
@@ -385,14 +378,14 @@
     "protectiveServices": {
       "type": "string",
       "x-va-field": {
-        "label": "PROTECTIVE SERVICES",
+        "label": "Protective Services",
         "widget": "text"
       }
     },
     "accessorialServices": {
       "type": "string",
       "x-va-field": {
-        "label": "ACCESSORIAL SERVICES",
+        "label": "Accessorial Services",
         "widget": "text"
       }
     },
@@ -413,7 +406,7 @@
     "generalTermsAndConditions": {
       "type": "string",
       "x-va-field": {
-        "label": "GENERAL TERMS AND CONDITIONS",
+        "label": "General Terms And Conditions",
         "widget": "text"
       }
     },
@@ -435,21 +428,21 @@
     "transportationServiceProviderTspOfferAndInstructions": {
       "type": "string",
       "x-va-field": {
-        "label": "TRANSPORTATION SERVICE PROVIDER (TSP) OFFER AND INSTRUCTIONS",
+        "label": "Transportation Service Provider (Tsp) Offer And Instructions",
         "widget": "text"
       }
     },
     "signatureSOfPartyIesRepresentingTransportationServi": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE(S) OF PARTY(IES) REPRESENTING TRANSPORTATION SERVI",
+        "label": "Signature(S) Of Party(Ies) Representing Transportation Servi",
         "widget": "signature"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS",
+        "label": "Address",
         "widget": "address"
       }
     }
@@ -457,7 +450,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0744.pdf",
     "totalFields": 66,
-    "composedFields": 64,
+    "composedFields": 63,
     "coveragePercent": 100,
     "xfaLabelCount": 51,
     "needsReviewCount": 0,
@@ -469,6 +462,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.488146+00:00"
   }
 }

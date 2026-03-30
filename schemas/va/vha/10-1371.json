@@ -9,155 +9,270 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "serviceDates": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Service Dates"
+      }
     },
     "dateOfRating": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Rating"
+      }
     },
     "dateSeenByMd": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Seen by Md"
+      }
     },
     "vISTeamReviewDateReviewed": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "V is Team Review Date Reviewed"
+      }
     },
     "priorReview": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Prior Review"
+      }
     },
     "nextReview": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Next Review"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "ifNotReviewedCheckAndGiveReason": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "If Not Reviewed Check and Give Reason"
+      }
     },
     "sCPercentage": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "S C Percentage"
+      }
     },
     "nSCPercentage": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "N SC Percentage"
+      }
     },
     "eyeDiagnosis": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Eye Diagnosis"
+      }
     },
     "medicalCare": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Medical Care"
+      }
     },
     "vISTeamReviewPlanForServicesMedicalFollowup": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "V is Team Review Plan for Services Medical Followup"
+      }
     },
     "sWSTreatment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "S WS Treatment"
+      }
     },
     "maritalStatus": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marital Status"
+      }
     },
     "domesticAdjustmentHowAppropriatelyIndependentIsHeInDomesticRole": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Domestic Adjustment How Appropriately Independent is He in Domestic Role"
+      }
     },
     "relationship": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "address": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "visualActivityRight": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Visual Activity Right"
+      }
     },
     "visualActivityLeft": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Visual Activity Left"
+      }
     },
     "visualFieldsIfImpairedRight": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Visual Fields If Impaired Right"
+      }
     },
     "visualFieldsIfImpairedLeft": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Visual Fields If Impaired Left"
+      }
     },
     "otherMajorDisabilitiesLine1Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Major Disabilities Line1Of"
+      }
     },
     "otherMajorDisabilitiesLine2Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Major Disabilities Line2Of"
+      }
     },
     "currentHealthSituationOngoingRecurringHealthProblemsLine1Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Current Health Situation Ongoing Recurring Health Problems Line1Of"
+      }
     },
     "ongoingRecurringHealthProblemsLine2Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ongoing Recurring Health Problems Line2Of"
+      }
     },
     "reasonNotReviewed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Reason Not Reviewed"
+      }
     },
     "prosthetics": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Prosthetics"
+      }
     },
     "dietician": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Dietician"
+      }
     },
     "vCTA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "V Cta"
+      }
     },
     "pubHealthNurse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Pub Health Nurse"
+      }
     },
     "pharmacy": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Pharmacy"
+      }
     },
     "specializedBlindServices": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Specialized Blind Services"
+      }
     },
     "comments": {
-      "type": "string"
-    },
-    "socialAdjustmentHowSociallyActiveInterestedResponsibleAndOutreachingIsHeWhatIsHisSelfimageInThisContext": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Comments"
+      }
     },
     "activityHowFullAndSatisfyingAreDailyRoutinesIncludingPaidEmploymentIfAny": {
-      "type": "string"
-    },
-    "personalAdjustmentHowDoesHisPerformanceMeasureUpToHisPotentialitiesAsTheTeamSeesThem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Activity How Full and Satisfying Are Daily Routines Including Paid Employment If Any"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1371-fill.pdf",
     "totalFields": 56,
-    "composedFields": 35,
-    "coveragePercent": 63,
+    "composedFields": 40,
+    "coveragePercent": 100,
     "xfaLabelCount": 56,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:02:06.966Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:16.044182+00:00"
   }
 }

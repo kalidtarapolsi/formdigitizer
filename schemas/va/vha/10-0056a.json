@@ -42,105 +42,178 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateOfInspection": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Inspection"
+      }
     },
     "dateOfSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Signature"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "deficienciesIndicatedByCheckLoungeWiring": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Deficiencies Indicated by Check Lounge Wiring"
+      }
     },
     "to": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To"
+      }
     },
     "from": {
-      "type": "string"
-    },
-    "field_form1_0___subform_0__TextField4_0_": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "From"
+      }
     },
     "inspectors": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Inspectors"
+      }
     },
     "loungeAppliances": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lounge Appliances"
+      }
     },
     "loungeExtensionCords": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lounge Extension Cords"
+      }
     },
     "loungeExits": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lounge Exits"
+      }
     },
     "loungeFireProtection": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lounge Fire Protection"
+      }
     },
     "loungeHousekeeping": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lounge Housekeeping"
+      }
     },
     "mechanicalRoomsAppliances": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mechanical Rooms Appliances"
+      }
     },
     "laundryExtensionCords": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Laundry Extension Cords"
+      }
     },
     "mechanicalRoomsStorage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mechanical Rooms Storage"
+      }
     },
     "hallsObstructions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Halls Obstructions"
+      }
     },
     "storageRoomsHazardousMaterials": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Storage Rooms Hazardous Materials"
+      }
     },
     "other": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "bathroomsHeating": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bathrooms Heating"
+      }
     },
     "bathroomsFireBlankets": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bathrooms Fire Blankets"
+      }
     },
     "exteriorFDConnectors": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Exterior FD Connectors"
+      }
     },
     "exteriorVegetation": {
-      "type": "string"
-    },
-    "explainNatureOfViolationGiveExactLocationsIncludingRoomNumbersIndicateSectionsOfOSHAMP3OrNFPA101IfApplicable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Exterior Vegetation"
+      }
     },
     "serviceChiefListCorrectiveActionAndProposedCorrectiveDates": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Service Chief List Corrective Action and Proposed Corrective Dates"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0056A.pdf",
     "totalFields": 96,
-    "composedFields": 44,
-    "coveragePercent": 46,
+    "composedFields": 26,
+    "coveragePercent": 100,
     "xfaLabelCount": 30,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:30:08.574Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.526567+00:00"
   }
 }

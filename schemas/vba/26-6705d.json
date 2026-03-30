@@ -42,92 +42,165 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateofoffer": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateofoffer"
+      }
     },
     "date4b": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date4b"
+      }
     },
     "date5b": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date5b"
+      }
     },
     "feeamount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Feeamount"
+      }
     },
     "propertyidentifier": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Propertyidentifier"
+      }
     },
     "section21": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Section"
+      }
     },
     "section22": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Section"
+      }
     },
     "section23": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Section"
+      }
     },
     "feeyis": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Feeyis"
+      }
     },
     "feeyisnot": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Feeyisnot"
+      }
     },
     "agentsname": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Agentsname"
+      }
     },
     "lendersname": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lendersname"
+      }
     },
     "agentsname2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Agentsname"
+      }
     },
     "propertypass": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Propertypass"
+      }
     },
     "typeofloan2h": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Typeofloan2h"
+      }
     },
     "sig1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sig"
+      }
     },
     "sig2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sig"
+      }
     },
     "cashonhand": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cashonhand"
+      }
     },
     "thirdparty": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Thirdparty"
+      }
     },
     "expiditionprocesing": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Expiditionprocesing"
+      }
     },
     "tenpercent": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Tenpercent"
+      }
     },
     "regularprocessing": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Regularprocessing"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6705d-are.pdf",
     "status": "digitized",
     "totalFields": 28,
-    "composedFields": 10,
-    "coveragePercent": 36,
+    "composedFields": 24,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:37:39.004Z"
+    "generatedAt": "2026-03-28T17:37:39.004Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.202715+00:00"
   }
 }

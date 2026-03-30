@@ -9,161 +9,303 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateTimeOfDischargeReadOnlyFieldValueFromFirstPage": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Time of Discharge Read Only Field Value From First Page"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "currentMedications": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Current Medications"
+      }
     },
     "section2ForPatient1DispositionClinicAppointmentReadOnlyFieldValueFromFirstPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Section2For Patient1Disposition Clinic Appointment Read Only Field Value From First Page"
+      }
     },
     "conditionImprovedReadOnlyFieldValueFromFirstPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition Improved Read Only Field Value From First Page"
+      }
     },
     "weight": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Weight"
+      }
     },
     "sexMale": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sex Male"
+      }
     },
     "time": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Time"
+      }
     },
     "age": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Age"
+      }
     },
     "temperature": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Temperature"
+      }
     },
     "pulse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Pulse"
+      }
     },
     "respiration": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Respiration"
+      }
     },
     "bloodPressure": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Blood Pressure"
+      }
     },
     "aAllergies": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Allergies"
+      }
     },
     "diagnosticImpressions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Diagnostic Impressions"
+      }
     },
     "aAttendingOfRecord": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Attending of Record"
+      }
     },
     "followUpActivityLimitationsReadOnlyFieldValueFromFirstPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Follow Up Activity Limitations Read Only Field Value From First Page"
+      }
     },
     "aM": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A M"
+      }
     },
     "pm": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Pm"
+      }
     },
     "dueToInjuryNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Due to Injury no"
+      }
     },
     "yes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "homelessYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Homeless Yes"
+      }
     },
     "female": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Female"
+      }
     },
     "onArrivalPatientWasAmbulatory": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "On Arrival Patient Was Ambulatory"
+      }
     },
     "stretcher": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Stretcher"
+      }
     },
     "wheelchair": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Wheelchair"
+      }
     },
     "triage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Triage"
+      }
     },
     "plan": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "patientInstructionsReadOnlyFieldValueFromFirstPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Patient Instructions Read Only Field Value From First Page"
+      }
     },
     "historyAndPhysical": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "History and Physical"
+      }
     },
     "noReadOnlyFieldValueFromFirstPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No Read Only Field Value From First Page"
+      }
     },
     "afterCareSheetGivenYesReadOnlyFieldValueFromFirstPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "After Care Sheet Given Yes Read Only Field Value From First Page"
+      }
     },
     "satisfactoryReadOnlyFieldValueFromFirstPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Satisfactory Read Only Field Value From First Page"
+      }
     },
     "unchangedReadOnlyFieldValueFromFirstPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unchanged Read Only Field Value From First Page"
+      }
     },
     "orders": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Orders"
+      }
     },
     "effectiveness": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Effectiveness"
+      }
     },
     "continuationFromFrontProgressNote": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Continuation From Front Progress Note"
+      }
     },
     "studiesRequestedLine1Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Studies Requested Line1Of"
+      }
     },
     "results": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Results"
+      }
     },
     "studiesRequestedLine2Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Studies Requested Line2Of"
+      }
     },
     "studiesRequestedLine3Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Studies Requested Line3Of"
+      }
     },
     "studiesRequestedLine4Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Studies Requested Line4Of"
+      }
     },
     "studiesRequestedLine5Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Studies Requested Line5Of"
+      }
     },
     "studiesRequestedLine6Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Studies Requested Line6Of"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10m.pdf",
     "totalFields": 108,
-    "composedFields": 42,
-    "coveragePercent": 39,
+    "composedFields": 47,
+    "coveragePercent": 100,
     "xfaLabelCount": 89,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:27:01.790Z",
     "pageCount": 3,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.629549+00:00"
   }
 }

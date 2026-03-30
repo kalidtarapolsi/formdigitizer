@@ -7,324 +7,240 @@
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans First Name",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Social Security Number Last Four Numbers",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "vaFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "middleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Middle Initial1",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "mailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Number And Street",
+        "label": "Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "mailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Apartment Or Unit Number",
+        "label": "Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "mailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address City",
+        "label": "Mailing Address City",
         "widget": "text"
       }
     },
     "mailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address State Or Province",
+        "label": "Mailing Address State or Province",
         "widget": "text"
       }
     },
     "mailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Country",
+        "label": "Mailing Address Country",
         "widget": "text"
       }
     },
-    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "mailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
-    "mailingAddressZiporPostalCodeLastFourNumbers": {
+    "telephoneNumber": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Telephone Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Telephone Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberAreaCode": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Telephone Number Area Code",
-        "widget": "text"
+        "label": "Telephone Number",
+        "widget": "phone"
       }
     },
     "eMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform E Mail Address",
+        "label": "Email Address",
         "widget": "text"
       }
     },
-    "checkBoxMarriageEnded": {
+    "marriageEnded": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Check Box Marriage Ended",
+        "label": "Marriage Ended",
         "widget": "checkbox"
       }
     },
-    "checkboxDeath": {
+    "death": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Checkbox Death",
+        "label": "Death",
         "widget": "checkbox"
       }
     },
     "childsLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Childs Last Name",
+        "label": "Childs Last Name",
         "widget": "text"
       }
     },
     "childsMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Childs Middle Initial1",
+        "label": "Childs Middle Initial",
         "widget": "text"
       }
     },
     "childsFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Childs First Name",
+        "label": "Childs First Name",
         "widget": "text"
       }
     },
-    "checkboxDeathofChild": {
+    "deathofChild": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Checkbox Deathof Child",
+        "label": "Death of Child",
         "widget": "checkbox"
       }
     },
-    "checkboxMarriageOfChild": {
+    "marriageOfChild": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Checkbox Marriage Of Child",
+        "label": "Marriage of Child",
         "widget": "checkbox"
       }
     },
-    "checkboxAdoptionOutOfFamily": {
+    "adoptionOutOfFamily": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Checkbox Adoption Out Of Family",
+        "label": "Adoption Out of Family",
         "widget": "checkbox"
       }
     },
-    "checkboxStepChildIsNoLongerAmemberOfHousehold": {
+    "stepChildIsNoLongerAmemberOfHousehold": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Checkbox Step Child Is No Longer A Member Of Household",
+        "label": "Step Child is no Longer a Member of Household",
         "widget": "checkbox"
       }
     },
     "internationalPhoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform International Phone Number",
+        "label": "International Phone Number",
         "widget": "text"
       }
     },
     "childsLastName2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform Childs Last Name",
+        "label": "Childs Last Name",
         "widget": "text"
       }
     },
     "childsMiddleInitial12": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform Childs Middle Initial1",
+        "label": "Childs Middle Initial",
         "widget": "text"
       }
     },
     "childFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform Child First Name",
+        "label": "Child First Name",
         "widget": "text"
       }
     },
-    "checkboxAdoptionOutOfFamily2": {
+    "adoptionOutOfFamily2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform #subform Checkbox Adoption Out Of Family",
+        "label": "Adoption Out of Family",
         "widget": "checkbox"
       }
     },
-    "checkboxMarriageOfChild2": {
+    "marriageOfChild2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform #subform Checkbox Marriage Of Child",
+        "label": "Marriage of Child",
         "widget": "checkbox"
       }
     },
     "digitalSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform Digital Signature",
+        "label": "Digital Signature",
         "widget": "text"
       }
     },
     "dateOfDeath": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Death"
+      }
     },
     "dateOfMarriage": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Marriage"
+      }
     },
     "dateOfAdoption": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Adoption"
+      }
     },
-    "checkboxStepChildIsNoLongerAmemberOfHousehold2": {
+    "stepChildIsNoLongerAmemberOfHousehold2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform #subform Checkbox Step Child Is No Longer A Member Of Household",
+        "label": "Step Child is no Longer a Member of Household",
         "widget": "checkbox"
       }
     },
     "lastDateStepchildWasAMemberOfHousehold": {
       "type": "string",
-      "format": "date"
-    },
-    "socialSecurityNumberFirstThreeNumbers2": {
-      "type": "string",
+      "format": "date",
       "x-va-field": {
-        "label": "Form1 #subform #subform Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberSecondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform #subform Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform #subform Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
-      }
-    },
-    "form1SubformSubformYESCHECKBOX1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform #subform Y E S C H E C K B O X1",
-        "widget": "checkbox"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
+        "label": "Last Date Stepchild Was a Member of Household"
       }
     },
     "hasTheStatusOfYourDependentSChanged": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS THE STATUS OF YOUR DEPENDENT(S) CHANGED?",
+        "label": "Has The Status Of Your Dependent(S) Changed?",
         "widget": "text"
       }
     },
@@ -332,7 +248,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -341,7 +257,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -377,14 +293,14 @@
     "eMailAddress2": {
       "type": "string",
       "x-va-field": {
-        "label": "E-MAIL ADDRESS",
+        "label": "E-Mail Address",
         "widget": "address"
       }
     },
     "howDidStatusChange": {
       "type": "string",
       "x-va-field": {
-        "label": "HOW DID STATUS CHANGE?",
+        "label": "How Did Status Change?",
         "widget": "text"
       }
     },
@@ -392,7 +308,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE ENDED (MM/DD/YYYY)",
+        "label": "Date Ended (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -400,7 +316,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF DEATH (MM/DD/YYYY)",
+        "label": "Date Of Death (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -408,7 +324,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF MARRIAGE (MM/DD/YYYY)",
+        "label": "Date Of Marriage (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -416,53 +332,55 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF ADOPTION  (MM/DD/YYYY)",
+        "label": "Date Of Adoption  (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "stepchildIs": {
       "type": "string",
       "x-va-field": {
-        "label": "STEPCHILD IS",
+        "label": "Stepchild Is",
         "widget": "radio"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
-        "widget": "text"
       }
     },
     "14bDateSigned": {
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "14B. DATE SIGNED (",
+        "label": "14B. Date Signed (",
         "widget": "date"
       }
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     },
     "dateMarriageEnded": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Marriage Ended"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0538-are.pdf",
     "status": "digitized",
     "totalFields": 94,
-    "composedFields": 66,
-    "coveragePercent": 97,
+    "composedFields": 51,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:32:50.534Z",
     "postProcessedAt": "2026-03-30T20:42:50.083046+00:00",
@@ -471,6 +389,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.922685+00:00"
   }
 }

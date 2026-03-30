@@ -9,11 +9,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -54,213 +60,406 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateTrainingBegins": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Training Begins"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "wageLevel1": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel3": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel4": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel5": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel8": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel9": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wageLevel10": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wage Level"
+      }
     },
     "wagerate": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Wagerate"
+      }
     },
     "workProcesses1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Work Processes"
+      }
     },
     "workProcesses2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Work Processes"
+      }
     },
     "workProcesses3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Work Processes"
+      }
     },
     "workProcesses4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Work Processes"
+      }
     },
     "workProcesses5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Work Processes"
+      }
     },
     "workProcesses6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Work Processes"
+      }
     },
     "traineesJobTitleOrTrade": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Trainees Job Title or Trade"
+      }
     },
     "numberOfTraineesPerInstructorOrNumberOfApprenticesToJourneyWorkersRatio": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Trainees Per Instructor or Number of Apprentices to Journey Workers Ratio"
+      }
     },
     "locationOfRelatedTrainingInstruction": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Location of Related Training Instruction"
+      }
     },
     "nameOfTrainingEstablishmentEnteringIntoTrainingAgreement": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Training Establishment Entering Into Training Agreement"
+      }
     },
     "creditForPreviousTrainingExperience": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Credit for Previous Training Experience"
+      }
     },
     "numberOfTrainingHours1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Training Hours"
+      }
     },
     "numberOfTrainingHours2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Training Hours"
+      }
     },
     "numberOfTrainingHours3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Training Hours"
+      }
     },
     "numberOfTrainingHours4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Training Hours"
+      }
     },
     "numberOfTrainingHours5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Training Hours"
+      }
     },
     "numberOfTrainingHours6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Training Hours"
+      }
     },
     "totalNumberOfHoursOfTraining10": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Number of Hours of Training"
+      }
     },
     "nameOfTraineeEnteringIntoTrainingAgreement": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Trainee Entering Into Training Agreement"
+      }
     },
     "lengthOfProgram": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Length of Program"
+      }
     },
     "lengthOfTimeRemainingToBeCompleted": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Length of Time Remaining to Be Completed"
+      }
     },
     "lengthOfProbationaryPeriod": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Length of Probationary Period"
+      }
     },
     "facilityCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Facility Code"
+      }
     },
     "qualificationsForTrainees": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Qualifications for Trainees"
+      }
     },
     "numberOfMonths1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "per1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "numberOfMonths2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "numberOfMonths3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "numberOfMonths4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "numberOfMonths5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "per2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "numberOfMonths10": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "numberOfMonths9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "numberOfMonths8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "numberOfMonths7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "numberOfMonths6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Months"
+      }
     },
     "per10": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "printedNameOfTrainee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Printed Name of Trainee"
+      }
     },
     "age2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Age"
+      }
     },
     "betweenage1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Betweenage"
+      }
     },
     "term": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Term"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-8864-are.pdf",
     "status": "digitized",
     "totalFields": 142,
-    "composedFields": 80,
-    "coveragePercent": 56,
+    "composedFields": 66,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 5,
-    "generatedAt": "2026-03-28T17:32:04.235Z"
+    "generatedAt": "2026-03-28T17:32:04.235Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.146315+00:00"
   }
 }

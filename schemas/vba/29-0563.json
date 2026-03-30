@@ -7,84 +7,77 @@
     "addressofMortgaged": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Addressof Mortgaged",
+        "label": "Addressof Mortgaged",
         "widget": "text"
       }
     },
     "nameandAddressMortgageHolder": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Nameand Address Mortgage Holder",
+        "label": "Nameand Address Mortgage Holder",
         "widget": "text"
       }
     },
     "explain": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Explain",
+        "label": "Explain",
         "widget": "text"
       }
     },
     "veteranName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veteran Name",
+        "label": "Veteran Name",
         "widget": "text"
       }
     },
     "claimNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Claim Number",
+        "label": "Claim Number",
         "widget": "text"
       }
     },
     "dateSold": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Sold",
+        "label": "Date Sold",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Signed",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "RESPONDENT BURDEN",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "addressOfMortgagedProperty": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS OF MORTGAGED PROPERTY",
+        "label": "Address Of Mortgaged Property",
         "widget": "text"
       }
     },
     "veteranSName": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S NAME",
+        "label": "Veteran's Name",
         "widget": "text"
       }
     },
@@ -98,42 +91,42 @@
     "amountOfFinalPayoffOfTheMortgageLoanWas": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT OF FINAL PAYOFF OF THE MORTGAGE LOAN WAS:",
+        "label": "Amount Of Final Payoff Of The Mortgage Loan Was:",
         "widget": "text"
       }
     },
     "claimNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIM NUMBER",
+        "label": "Claim Number",
         "widget": "text"
       }
     },
     "doYouOccupyTheResidenceAtTheAddressShownAbove": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU OCCUPY THE RESIDENCE AT THE ADDRESS SHOWN ABOVE?",
+        "label": "Do You Occupy The Residence At The Address Shown Above?",
         "widget": "address"
       }
     },
     "ifThisFormDoesNotApplyToYourCircumstancesPleaseEx": {
       "type": "string",
       "x-va-field": {
-        "label": "IF THIS FORM DOES NOT APPLY TO YOUR CIRCUMSTANCES, PLEASE EX",
+        "label": "If This Form Does Not Apply To Your Circumstances, Please Ex",
         "widget": "text"
       }
     },
     "spaceBelow": {
       "type": "string",
       "x-va-field": {
-        "label": "SPACE BELOW",
+        "label": "Space Below",
         "widget": "text"
       }
     },
     "iHavePurchasedAHomeToBeUsedAsMyResidenceIWould": {
       "type": "string",
       "x-va-field": {
-        "label": "I HAVE PURCHASED A HOME TO BE USED AS MY RESIDENCE. I WOULD",
+        "label": "I Have Purchased A Home To Be Used As My Residence. I Would",
         "widget": "text"
       }
     },
@@ -141,28 +134,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED",
+        "label": "Date Signed",
         "widget": "date"
       }
     },
     "signatureOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF VETERAN",
+        "label": "Signature Of Veteran",
         "widget": "signature"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     }
@@ -171,10 +157,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0563-are.pdf",
     "status": "digitized",
     "totalFields": 23,
-    "composedFields": 23,
-    "coveragePercent": 96,
+    "composedFields": 21,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 1,
     "generatedAt": "2026-03-28T17:38:39.178Z",
     "redigitizedAt": "2026-03-30T20:39:34.899Z",
@@ -182,6 +168,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.267288+00:00"
   }
 }

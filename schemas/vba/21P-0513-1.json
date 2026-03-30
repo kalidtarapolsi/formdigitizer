@@ -21,49 +21,49 @@
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row1 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row2 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount3": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row3 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount4": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row4 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount5": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row5 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount6": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row6 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "dateSigned2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 #subform #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
@@ -88,13 +88,6 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "listTheChildrenSNames": {
       "type": "string",
       "x-va-field": {
@@ -112,49 +105,42 @@
     "childRenSMaritalAndSchoolStatus": {
       "type": "string",
       "x-va-field": {
-        "label": "CHILD(REN)'S MARITAL AND SCHOOL STATUS",
+        "label": "Child(Ren)'S Marital And School Status",
         "widget": "text"
       }
     },
     "nameOfChildSCustodian": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF CHILD'S CUSTODIAN",
+        "label": "Name Of Child'S Custodian",
         "widget": "text"
       }
     },
     "reportOfIncomeAndNetWorth": {
       "type": "string",
       "x-va-field": {
-        "label": "REPORT OF INCOME AND NET WORTH",
+        "label": "Report Of Income And Net Worth",
         "widget": "text"
       }
     },
     "childSName": {
       "type": "string",
       "x-va-field": {
-        "label": "CHILD'S NAME",
+        "label": "Child'S Name",
         "widget": "text"
       }
     },
     "socialSecurity": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Social Security",
         "widget": "text"
       }
     },
     "2eWhenDidIncomeChangeShowThe": {
       "type": "string",
       "x-va-field": {
-        "label": "2E. WHEN DID INCOME CHANGE? (Show the",
+        "label": "2E. When Did Income Change? (Show The",
         "widget": "text"
       }
     },
@@ -175,7 +161,7 @@
     "4bDateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "4B. DATE SIGNED (",
+        "label": "4B. Date Signed (",
         "widget": "text"
       }
     },
@@ -189,35 +175,35 @@
     "from": {
       "type": "string",
       "x-va-field": {
-        "label": "FROM",
+        "label": "From",
         "widget": "text"
       }
     },
     "dates": {
       "type": "string",
       "x-va-field": {
-        "label": "DATES (",
+        "label": "Dates (",
         "widget": "text"
       }
     },
     "thru": {
       "type": "string",
       "x-va-field": {
-        "label": "THRU",
+        "label": "Thru",
         "widget": "text"
       }
     },
     "child": {
       "type": "string",
       "x-va-field": {
-        "label": "CHILD",
+        "label": "Child",
         "widget": "text"
       }
     },
     "datesMmDdYyyyDates": {
       "type": "string",
       "x-va-field": {
-        "label": "DATES (MM/DD/YYYY)DATES (",
+        "label": "Dates (MM/DD/YYYY)Dates (",
         "widget": "text"
       }
     },
@@ -228,24 +214,10 @@
         "widget": "text"
       }
     },
-    "fPage_1Table1HeaderRowSubformTextField1": {
+    "subTextField1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Header Row #subform Text Field1",
-        "widget": "text"
-      }
-    },
-    "fPage_1Table1Row6SubformTextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Table1 Row6 #subform Text Field1",
-        "widget": "text"
-      }
-    },
-    "fPage_2SubformSubformTextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 #subform #subform Text Field1",
+        "label": "Sub Text Field",
         "widget": "text"
       }
     },
@@ -268,7 +240,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0513-1-are.pdf",
     "status": "digitized",
     "totalFields": 37,
-    "composedFields": 37,
+    "composedFields": 33,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -278,6 +250,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.338733+00:00"
   }
 }

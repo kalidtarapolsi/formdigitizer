@@ -9,11 +9,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -54,117 +60,202 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "radiologyReportsNameAndDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Radiology Reports Name and Date"
+      }
     },
     "labResultsDateRange": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Lab Results Date Range"
+      }
     },
     "specificTestsNameAndDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Specific Tests Name and Date"
+      }
     },
     "operativeClinicalProceduresNameAndDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Operative Clinical Procedures Name and Date"
+      }
     },
     "specificProvidersNameAndDateRange": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Specific Providers Name and Date Range"
+      }
     },
     "specificClinicsNameAndDateRange": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Specific Clinics Name and Date Range"
+      }
     },
     "progressNotes": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Progress Notes"
+      }
     },
     "labResults": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lab Results"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "vaccinationDoseLotNumberDateAndLocation": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Vaccination Dose Lot Number Date and Location"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "radiologyReports": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Radiology Reports"
+      }
     },
     "ofActiveMedications": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Of Active Medications"
+      }
     },
     "specificClinics": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Specific Clinics"
+      }
     },
     "operativeClinicalProcedures": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Operative Clinical Procedures"
+      }
     },
     "listOfActiveMedications": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "List of Active Medications"
+      }
     },
     "otherDescribe": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Describe"
+      }
     },
     "describeOtherLine1Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Describe Other Line1Of"
+      }
     },
     "describeOtherLine2Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Describe Other Line2Of"
+      }
     },
     "inpatientDischargeSummary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Inpatient Discharge Summary"
+      }
     },
     "mailTo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mail to"
+      }
     },
     "other": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "lastNameFirstNameMiddleName": {
-      "type": "string"
-    },
-    "seePrivacyActInformationAboveToDepartmentOfVeteransAffairsNameAndLocationOfTheVAHealthCareFacility": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Last Name First Name Middle Name"
+      }
     },
     "legalHealthRecordsForTorts": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Legal Health Records for Torts"
+      }
     },
     "specificProviders": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Specific Providers"
+      }
     },
     "specificTests": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Specific Tests"
+      }
     },
     "vaccination": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vaccination"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VHA%20Form%2010-5345a%20Fill-revision.pdf",
     "totalFields": 43,
-    "composedFields": 28,
-    "coveragePercent": 65,
+    "composedFields": 31,
+    "coveragePercent": 100,
     "xfaLabelCount": 40,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:21:25.925Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.753530+00:00"
   }
 }

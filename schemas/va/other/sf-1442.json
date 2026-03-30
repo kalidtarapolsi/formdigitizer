@@ -5,341 +5,587 @@
   "properties": {
     "claimantName": {
       "type": "string",
-      "description": "Claimant's name"
+      "description": "Claimant's name",
+      "x-va-field": {
+        "label": "Claimant Name"
+      }
     },
     "claimantAddress": {
       "type": "string",
-      "description": "Address"
+      "description": "Address",
+      "x-va-field": {
+        "label": "Claimant Address"
+      }
     },
     "city": {
       "type": "string",
-      "description": "City"
+      "description": "City",
+      "x-va-field": {
+        "label": "City"
+      }
     },
     "state": {
       "type": "string",
-      "description": "State"
+      "description": "State",
+      "x-va-field": {
+        "label": "State"
+      }
     },
     "postalCode": {
       "type": "string",
-      "description": "Postal code"
+      "description": "Postal code",
+      "x-va-field": {
+        "label": "Postal Code"
+      }
     },
     "phoneNumber": {
       "type": "string",
-      "description": "Phone number"
+      "description": "Phone number",
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "email": {
       "type": "string",
       "format": "email",
-      "description": "Email address"
+      "description": "Email address",
+      "x-va-field": {
+        "label": "Email"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number"
+      "description": "Social Security Number",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "veteranStatus": {
       "type": "string",
-      "description": "Veteran status"
+      "description": "Veteran status",
+      "x-va-field": {
+        "label": "Veteran Status"
+      }
     },
     "dateOfClaim": {
       "type": "string",
       "format": "date",
-      "description": "Date of claim"
+      "description": "Date of claim",
+      "x-va-field": {
+        "label": "Date of Claim"
+      }
     },
     "previousClaim": {
       "type": "boolean",
-      "description": "Previous claim filed"
+      "description": "Previous claim filed",
+      "x-va-field": {
+        "label": "Previous Claim"
+      }
     },
     "claimType": {
       "type": "string",
-      "description": "Type of claim"
+      "description": "Type of claim",
+      "x-va-field": {
+        "label": "Claim Type"
+      }
     },
     "benefitRequested": {
       "type": "string",
-      "description": "Benefit requested"
+      "description": "Benefit requested",
+      "x-va-field": {
+        "label": "Benefit Requested"
+      }
     },
     "amountClaimed": {
       "type": "number",
-      "description": "Amount claimed"
+      "description": "Amount claimed",
+      "x-va-field": {
+        "label": "Amount Claimed"
+      }
     },
     "supportingDocuments": {
       "type": "boolean",
-      "description": "Supporting documents attached"
+      "description": "Supporting documents attached",
+      "x-va-field": {
+        "label": "Supporting Documents"
+      }
     },
     "militaryServiceBranch": {
       "type": "string",
-      "description": "Military service branch"
+      "description": "Military service branch",
+      "x-va-field": {
+        "label": "Military Service Branch"
+      }
     },
     "serviceNumber": {
       "type": "string",
-      "description": "Service number"
+      "description": "Service number",
+      "x-va-field": {
+        "label": "Service Number"
+      }
     },
     "dateOfEntry": {
       "type": "string",
       "format": "date",
-      "description": "Date entered service"
+      "description": "Date entered service",
+      "x-va-field": {
+        "label": "Date of Entry"
+      }
     },
     "dateOfSeparation": {
       "type": "string",
       "format": "date",
-      "description": "Date of separation"
+      "description": "Date of separation",
+      "x-va-field": {
+        "label": "Date of Separation"
+      }
     },
     "typeOfDischarge": {
       "type": "string",
-      "description": "Type of discharge"
+      "description": "Type of discharge",
+      "x-va-field": {
+        "label": "Type of Discharge"
+      }
     },
     "dischargeNumber": {
       "type": "string",
-      "description": "Discharge number"
+      "description": "Discharge number",
+      "x-va-field": {
+        "label": "Discharge Number"
+      }
     },
     "rank": {
       "type": "string",
-      "description": "Final rank"
+      "description": "Final rank",
+      "x-va-field": {
+        "label": "Rank"
+      }
     },
     "unitAssigned": {
       "type": "string",
-      "description": "Last unit assigned"
+      "description": "Last unit assigned",
+      "x-va-field": {
+        "label": "Unit Assigned"
+      }
     },
     "combatServiceIndicator": {
       "type": "boolean",
-      "description": "Combat service indicator"
+      "description": "Combat service indicator",
+      "x-va-field": {
+        "label": "Combat Service Indicator"
+      }
     },
     "disabledInService": {
       "type": "boolean",
-      "description": "Disabled in service"
+      "description": "Disabled in service",
+      "x-va-field": {
+        "label": "Disabled in Service"
+      }
     },
     "designatedBeneficiary": {
       "type": "string",
-      "description": "Designated beneficiary name"
+      "description": "Designated beneficiary name",
+      "x-va-field": {
+        "label": "Designated Beneficiary"
+      }
     },
     "beneficiaryRelationship": {
       "type": "string",
-      "description": "Beneficiary relationship"
+      "description": "Beneficiary relationship",
+      "x-va-field": {
+        "label": "Beneficiary Relationship"
+      }
     },
     "beneficiaryAddress": {
       "type": "string",
-      "description": "Beneficiary address"
+      "description": "Beneficiary address",
+      "x-va-field": {
+        "label": "Beneficiary Address"
+      }
     },
     "maritalStatus": {
       "type": "string",
-      "description": "Marital status"
+      "description": "Marital status",
+      "x-va-field": {
+        "label": "Marital Status"
+      }
     },
     "spouseName": {
       "type": "string",
-      "description": "Spouse name"
+      "description": "Spouse name",
+      "x-va-field": {
+        "label": "Spouse Name"
+      }
     },
     "numberOfChildren": {
       "type": "string",
-      "description": "Number of children"
+      "description": "Number of children",
+      "x-va-field": {
+        "label": "Number of Children"
+      }
     },
     "childrenNames": {
       "type": "string",
-      "description": "Children's names"
+      "description": "Children's names",
+      "x-va-field": {
+        "label": "Children Names"
+      }
     },
     "parentalSupport": {
       "type": "boolean",
-      "description": "Parental support provided"
+      "description": "Parental support provided",
+      "x-va-field": {
+        "label": "Parental Support"
+      }
     },
     "dateMarried": {
       "type": "string",
       "format": "date",
-      "description": "Date married"
+      "description": "Date married",
+      "x-va-field": {
+        "label": "Date Married"
+      }
     },
     "annualIncome": {
       "type": "number",
-      "description": "Annual income"
+      "description": "Annual income",
+      "x-va-field": {
+        "label": "Annual Income"
+      }
     },
     "incomeSource": {
       "type": "string",
-      "description": "Source of income"
+      "description": "Source of income",
+      "x-va-field": {
+        "label": "Income Source"
+      }
     },
     "netWorth": {
       "type": "number",
-      "description": "Net worth"
+      "description": "Net worth",
+      "x-va-field": {
+        "label": "Net Worth"
+      }
     },
     "bankAccount": {
       "type": "boolean",
-      "description": "Has bank account"
+      "description": "Has bank account",
+      "x-va-field": {
+        "label": "Bank Account"
+      }
     },
     "investmentPortfolio": {
       "type": "boolean",
-      "description": "Has investments"
+      "description": "Has investments",
+      "x-va-field": {
+        "label": "Investment Portfolio"
+      }
     },
     "propertyOwned": {
       "type": "boolean",
-      "description": "Property owned"
+      "description": "Property owned",
+      "x-va-field": {
+        "label": "Property Owned"
+      }
     },
     "homeAddress": {
       "type": "string",
-      "description": "Home address"
+      "description": "Home address",
+      "x-va-field": {
+        "label": "Home Address"
+      }
     },
     "rentalIncome": {
       "type": "number",
-      "description": "Rental income"
+      "description": "Rental income",
+      "x-va-field": {
+        "label": "Rental Income"
+      }
     },
     "mortgageAmount": {
       "type": "number",
-      "description": "Mortgage amount"
+      "description": "Mortgage amount",
+      "x-va-field": {
+        "label": "Mortgage Amount"
+      }
     },
     "monthlyPayment": {
       "type": "number",
-      "description": "Monthly payment"
+      "description": "Monthly payment",
+      "x-va-field": {
+        "label": "Monthly Payment"
+      }
     },
     "medicalConditions": {
       "type": "string",
-      "description": "Medical conditions"
+      "description": "Medical conditions",
+      "x-va-field": {
+        "label": "Medical Conditions"
+      }
     },
     "priorTreatment": {
       "type": "string",
-      "description": "Prior treatment"
+      "description": "Prior treatment",
+      "x-va-field": {
+        "label": "Prior Treatment"
+      }
     },
     "hospitalization": {
       "type": "string",
-      "description": "Hospitalization history"
+      "description": "Hospitalization history",
+      "x-va-field": {
+        "label": "Hospitalization"
+      }
     },
     "medication": {
       "type": "string",
-      "description": "Current medications"
+      "description": "Current medications",
+      "x-va-field": {
+        "label": "Medication"
+      }
     },
     "healthInsurance": {
       "type": "boolean",
-      "description": "Has health insurance"
+      "description": "Has health insurance",
+      "x-va-field": {
+        "label": "Health Insurance"
+      }
     },
     "insuranceCarrier": {
       "type": "string",
-      "description": "Insurance carrier"
+      "description": "Insurance carrier",
+      "x-va-field": {
+        "label": "Insurance Carrier"
+      }
     },
     "policyNumber": {
       "type": "string",
-      "description": "Policy number"
+      "description": "Policy number",
+      "x-va-field": {
+        "label": "Policy Number"
+      }
     },
     "employmentStatus": {
       "type": "string",
-      "description": "Employment status"
+      "description": "Employment status",
+      "x-va-field": {
+        "label": "Employment Status"
+      }
     },
     "currentEmployer": {
       "type": "string",
-      "description": "Current employer"
+      "description": "Current employer",
+      "x-va-field": {
+        "label": "Current Employer"
+      }
     },
     "jobTitle": {
       "type": "string",
-      "description": "Job title"
+      "description": "Job title",
+      "x-va-field": {
+        "label": "Job Title"
+      }
     },
     "yearsEmployed": {
       "type": "string",
-      "description": "Years employed"
+      "description": "Years employed",
+      "x-va-field": {
+        "label": "Years Employed"
+      }
     },
     "priorEmployment": {
       "type": "string",
-      "description": "Prior employment"
+      "description": "Prior employment",
+      "x-va-field": {
+        "label": "Prior Employment"
+      }
     },
     "workingCapacity": {
       "type": "string",
-      "description": "Working capacity"
+      "description": "Working capacity",
+      "x-va-field": {
+        "label": "Working Capacity"
+      }
     },
     "employmentPlan": {
       "type": "string",
-      "description": "Employment plan"
+      "description": "Employment plan",
+      "x-va-field": {
+        "label": "Employment Plan"
+      }
     },
     "referralSource": {
       "type": "string",
-      "description": "How heard about benefit"
+      "description": "How heard about benefit",
+      "x-va-field": {
+        "label": "Referral Source"
+      }
     },
     "previousBenefits": {
       "type": "string",
-      "description": "Previous benefits received"
+      "description": "Previous benefits received",
+      "x-va-field": {
+        "label": "Previous Benefits"
+      }
     },
     "benefitTermination": {
       "type": "string",
-      "description": "Benefit termination reason"
+      "description": "Benefit termination reason",
+      "x-va-field": {
+        "label": "Benefit Termination"
+      }
     },
     "representativeAuthorized": {
       "type": "boolean",
-      "description": "Representative authorized"
+      "description": "Representative authorized",
+      "x-va-field": {
+        "label": "Representative Authorized"
+      }
     },
     "representativeName": {
       "type": "string",
-      "description": "Representative name"
+      "description": "Representative name",
+      "x-va-field": {
+        "label": "Representative Name"
+      }
     },
     "representativeAddress": {
       "type": "string",
-      "description": "Representative address"
+      "description": "Representative address",
+      "x-va-field": {
+        "label": "Representative Address"
+      }
     },
     "representativePhone": {
       "type": "string",
-      "description": "Representative phone"
+      "description": "Representative phone",
+      "x-va-field": {
+        "label": "Representative Phone"
+      }
     },
     "powerOfAttorney": {
       "type": "boolean",
-      "description": "Power of attorney"
+      "description": "Power of attorney",
+      "x-va-field": {
+        "label": "Power of Attorney"
+      }
     },
     "declarationUnderPenalty": {
       "type": "boolean",
-      "description": "Declaration under penalty of perjury"
+      "description": "Declaration under penalty of perjury",
+      "x-va-field": {
+        "label": "Declaration Under Penalty"
+      }
     },
     "signatureDate": {
       "type": "string",
       "format": "date",
-      "description": "Signature date"
+      "description": "Signature date",
+      "x-va-field": {
+        "label": "Signature Date"
+      }
     },
     "claimantSignature": {
       "type": "boolean",
-      "description": "Claimant signature"
+      "description": "Claimant signature",
+      "x-va-field": {
+        "label": "Claimant Signature"
+      }
     },
     "witnessName": {
       "type": "string",
-      "description": "Witness name"
+      "description": "Witness name",
+      "x-va-field": {
+        "label": "Witness Name"
+      }
     },
     "witnessSignature": {
       "type": "boolean",
-      "description": "Witness signature"
+      "description": "Witness signature",
+      "x-va-field": {
+        "label": "Witness Signature"
+      }
     },
     "witnessAddress": {
       "type": "string",
-      "description": "Witness address"
+      "description": "Witness address",
+      "x-va-field": {
+        "label": "Witness Address"
+      }
     },
     "approvalDate": {
       "type": "string",
       "format": "date",
-      "description": "Approval date"
+      "description": "Approval date",
+      "x-va-field": {
+        "label": "Approval Date"
+      }
     },
     "approverName": {
       "type": "string",
-      "description": "Approver name"
+      "description": "Approver name",
+      "x-va-field": {
+        "label": "Approver Name"
+      }
     },
     "approverTitle": {
       "type": "string",
-      "description": "Approver title"
+      "description": "Approver title",
+      "x-va-field": {
+        "label": "Approver Title"
+      }
     },
     "claimNumber": {
       "type": "string",
-      "description": "Claim number"
+      "description": "Claim number",
+      "x-va-field": {
+        "label": "Claim Number"
+      }
     },
     "dateAssigned": {
       "type": "string",
       "format": "date",
-      "description": "Date assigned"
+      "description": "Date assigned",
+      "x-va-field": {
+        "label": "Date Assigned"
+      }
     },
     "processingStatus": {
       "type": "string",
-      "description": "Processing status"
+      "description": "Processing status",
+      "x-va-field": {
+        "label": "Processing Status"
+      }
     },
     "followUpRequired": {
       "type": "boolean",
-      "description": "Follow-up required"
+      "description": "Follow-up required",
+      "x-va-field": {
+        "label": "Follow Up Required"
+      }
     },
     "followUpDate": {
       "type": "string",
       "format": "date",
-      "description": "Follow-up date"
+      "description": "Follow-up date",
+      "x-va-field": {
+        "label": "Follow Up Date"
+      }
     },
     "additionalComments": {
       "type": "string",
-      "description": "Additional comments"
+      "description": "Additional comments",
+      "x-va-field": {
+        "label": "Additional Comments"
+      }
     }
   },
   "x-va-metadata": {
@@ -352,6 +598,7 @@
     "status": "digitized",
     "pageCount": 4,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.466701+00:00"
   }
 }

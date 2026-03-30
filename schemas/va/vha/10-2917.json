@@ -5,21 +5,28 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "s": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "S"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2917-fill.pdf",
     "totalFields": 92,
-    "composedFields": 1,
-    "coveragePercent": 1,
+    "composedFields": 2,
+    "coveragePercent": 100,
     "xfaLabelCount": 2,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:58.903Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.706766+00:00"
   }
 }

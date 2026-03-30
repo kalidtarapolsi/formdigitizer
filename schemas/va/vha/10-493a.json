@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,36 +53,55 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "insertDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Insert Date"
+      }
     },
     "dateOfSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Signature"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "insertNameOfTheAppropriateMedicalTreatmentFacility": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insert Name of the Appropriate Medical Treatment Facility"
+      }
     },
     "insertVeteransFullName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insert Veteran's Full Name"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-493a.pdf",
     "totalFields": 11,
-    "composedFields": 11,
+    "composedFields": 7,
     "coveragePercent": 100,
     "xfaLabelCount": 9,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:32:26.266Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.747613+00:00"
   }
 }

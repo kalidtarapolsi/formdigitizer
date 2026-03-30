@@ -609,7 +609,7 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -669,87 +669,73 @@
         "widget": "checkbox"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "nameOfBorrower_2AmountOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF BORROWER 2. AMOUNT OF LOAN",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Name Of Borrower 2. Amount Of Loan",
         "widget": "text"
       }
     },
     "cashDownPaymentOnPurchase": {
       "type": "string",
       "x-va-field": {
-        "label": "CASH DOWN PAYMENT ON PURCHASE",
+        "label": "Cash Down Payment On Purchase",
         "widget": "text"
       }
     },
     "applicantSAge": {
       "type": "string",
       "x-va-field": {
-        "label": "APPLICANT'S AGE",
+        "label": "Applicant'S Age",
         "widget": "text"
       }
     },
     "utilitiesIncluded": {
       "type": "string",
       "x-va-field": {
-        "label": "UTILITIES INCLUDED",
+        "label": "Utilities Included",
         "widget": "text"
       }
     },
     "occupationOfApplicant2": {
       "type": "string",
       "x-va-field": {
-        "label": "OCCUPATION OF APPLICANT",
+        "label": "Occupation Of Applicant",
         "widget": "text"
       }
     },
     "occupationOfSpouse2": {
       "type": "string",
       "x-va-field": {
-        "label": "OCCUPATION OF SPOUSE",
+        "label": "Occupation Of Spouse",
         "widget": "text"
       }
     },
     "numberOfYearsAt": {
       "type": "string",
       "x-va-field": {
-        "label": "NUMBER OF YEARS AT",
+        "label": "Number Of Years At",
         "widget": "text"
       }
     },
     "liquidAssets2": {
       "type": "string",
       "x-va-field": {
-        "label": "LIQUID ASSETS",
+        "label": "Liquid Assets",
         "widget": "text"
       }
     },
     "currentMonthly": {
       "type": "string",
       "x-va-field": {
-        "label": "CURRENT MONTHLY",
+        "label": "Current Monthly",
         "widget": "text"
       }
     },
     "ageOfDependents2": {
       "type": "string",
       "x-va-field": {
-        "label": "AGE OF DEPENDENTS",
+        "label": "Age Of Dependents",
         "widget": "text"
       }
     },
@@ -757,7 +743,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED 55. SIGNATURE OF VA APPROVED UNDERWRITER",
+        "label": "Date Signed 55. Signature Of VA Approved Underwriter",
         "widget": "date"
       }
     },
@@ -765,35 +751,35 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "FINAL ACTION 57. DATE SIGNED 58. SIGNATURE  AND TITLE OF APP",
+        "label": "Final Action 57. Date Signed 58. Signature  And Title Of App",
         "widget": "date"
       }
     },
     "wasAnAutomatedUnderwritingSystemUsed": {
       "type": "string",
       "x-va-field": {
-        "label": "WAS AN AUTOMATED UNDERWRITING SYSTEM USED?",
+        "label": "Was An Automated Underwriting System Used?",
         "widget": "text"
       }
     },
     "termOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "TERM OF LOAN",
+        "label": "Term Of Loan",
         "widget": "text"
       }
     },
     "realtyTaxes": {
       "type": "string",
       "x-va-field": {
-        "label": "REALTY TAXES",
+        "label": "Realty Taxes",
         "widget": "text"
       }
     },
     "stateIncomeTax": {
       "type": "string",
       "x-va-field": {
-        "label": "STATE INCOME TAX",
+        "label": "State Income Tax",
         "widget": "select"
       }
     },
@@ -807,21 +793,21 @@
     "riskClassification": {
       "type": "string",
       "x-va-field": {
-        "label": "RISK CLASSIFICATION",
+        "label": "Risk Classification",
         "widget": "text"
       }
     },
     "borrowerMedianCreditScore47BorrowerCaivrs48CoBorrow": {
       "type": "string",
       "x-va-field": {
-        "label": "BORROWER MEDIAN CREDIT SCORE47. BORROWER CAIVRS48. CO-BORROW",
+        "label": "Borrower Median Credit Score47. Borrower Caivrs48. Co-Borrow",
         "widget": "text"
       }
     },
     "pastCreditRecord": {
       "type": "string",
       "x-va-field": {
-        "label": "PAST CREDIT RECORD",
+        "label": "Past Credit Record",
         "widget": "text"
       }
     },
@@ -844,7 +830,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6393-are.pdf",
     "status": "digitized",
     "totalFields": 120,
-    "composedFields": 119,
+    "composedFields": 117,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -855,6 +841,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.496289+00:00"
   }
 }

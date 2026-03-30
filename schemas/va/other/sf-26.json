@@ -42,172 +42,314 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "ifYouAreTheContractor": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "If You Are the Contractor"
+      }
     },
     "ifYouAreTheContractingOfficer": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "If You Are the Contracting Officer"
+      }
     },
     "effectiveDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Effective Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "clickHereToSelectfreeOnBoardFobOriginForTheDeliveryType": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Selectfree on Board Fob Origin for the Delivery Type"
+      }
     },
     "clickHereToSelectOtherForTheDelivery": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select Other for the Delivery"
+      }
     },
     "clickHereToSelectIContractClausesForPartIiContractClauses": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select I Contract Clauses for Part Ii Contract Clauses"
+      }
     },
     "clickHereToSelectJListOfAttachmentsForPartIiContractClauses": {
-      "type": "string"
-    },
-    "clickHereToSelectLInstructionsConditionsAndNoticesToOfferorsForPartIvRepresentationsAndInstructions": {
-      "type": "string"
-    },
-    "clickHereToSelectMEvaluationFactorsForAwardForPartIvRepresentationsAndInstructions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select J List of Attachments for Part Ii Contract Clauses"
+      }
     },
     "clickHereToSelectASolicitationcontractFormForPartISchedule": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select a Solicitationcontract Form for Part I Schedule"
+      }
     },
     "clickHereToSelectBSuppliesOrServicesAndPricescostsForPartISchedule": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select B Supplies or Services and Pricescosts for Part I Schedule"
+      }
     },
     "clickHereToSelectDPackagingAndMarkingForPartISchedule": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select D Packaging and Marking for Part I Schedule"
+      }
     },
     "clickHereToSelectEInspectionAndAcceptanceForPartISchedule": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select E Inspection and Acceptance for Part I Schedule"
+      }
     },
     "clickHereToSelectFDeliveriesOrPerformanceForPartISchedule": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select F Deliveries or Performance for Part I Schedule"
+      }
     },
     "clickHereToSelectGContractAdministrationDataForPartISchedule": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select G Contract Administration Data for Part I Schedule"
+      }
     },
     "clickHereToSelectHSpecialContractRequirementsForPartISchedule": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Click Here to Select H Special Contract Requirements for Part I Schedule"
+      }
     },
     "theAmountForThisItemIsAutocalculated": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "The Amount for This Item is Autocalculated"
+      }
     },
     "theTotalAmountForThisContractIsAutocalculated": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "The Total Amount for This Contract is Autocalculated"
+      }
     },
     "discountForPromptPayment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Discount for Prompt Payment"
+      }
     },
     "shipTomarkForInfo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ship Tomark for Info"
+      }
     },
     "contractNumberProcurementInstructionIdentification": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Contract Number Procurement Instruction Identification"
+      }
     },
     "ratingForThisContract": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rating for This Contract"
+      }
     },
     "pageNumberForThisPage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Number for This Page"
+      }
     },
     "totalNumberOfPagesForThisAwardcontract": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Number of Pages for This Awardcontract"
+      }
     },
     "requisitionpurchaseRequestprojectNumberRequestprojectNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requisitionpurchase Requestproject Number Requestproject Number"
+      }
     },
     "issuedByCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Issued by Code"
+      }
     },
     "administeredByCodeIfOtherThanTheIssuedByCodeEnteredForItem5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Administered by Code If Other Than the Issued by Code Entered for Item"
+      }
     },
     "infoForWhoWillBeAdministeringThisAwardcontractIfOtherThanWhoIsNotedForItem5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Info for Who Will Be Administering This Awardcontract If Other Than Who is Noted for Item"
+      }
     },
     "infoForWhoIssuedThisContract": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Info for Who Issued This Contract"
+      }
     },
     "solicitationNumberForYourBid": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Solicitation Number for Your Bid"
+      }
     },
     "codeForTheShipTomarkForItemItem11": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code for the Ship Tomark for Item Item"
+      }
     },
     "codeForWhoWillBeMakingPaymentsItem12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code for Who Will Be Making Payments Item"
+      }
     },
     "infoForWhoWillBeMakingPayments": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Info for Who Will Be Making Payments"
+      }
     },
     "accountingAndAppropriationData": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Accounting and Appropriation Data"
+      }
     },
-    "itemNumberRow1Of5": {
-      "type": "string"
+    "itemNumberRow1of5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item Number Row1of"
+      }
     },
-    "itemNumberRow2Of5": {
-      "type": "string"
+    "itemNumberRow2of5": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Item Number Row2of"
+      }
     },
     "suppliesservicesInfo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Suppliesservices Info"
+      }
     },
     "pageNumbersForSectionA": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section a"
+      }
     },
     "pageNumbersForSectionB": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section B"
+      }
     },
     "pageNumbersForSectionC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section C"
+      }
     },
     "pageNumbersForSectionD": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section D"
+      }
     },
     "pageNumbersForSectionE": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section E"
+      }
     },
     "pageNumbersForSectionF": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section F"
+      }
     },
     "pageNumbersForSectionG": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section G"
+      }
     },
     "pageNumbersForSectionH": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section H"
+      }
     },
     "pageNumbersForSectionI": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Numbers for Section I"
+      }
     },
     "codeForTheContractorItem7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code for the Contractor Item"
+      }
     },
     "facilityCodeForTheContractorItem7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Facility Code for the Contractor Item"
+      }
     },
     "quantity": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Quantity"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.gsa.gov/system/files/SF26-22.pdf",
     "totalFields": 93,
-    "composedFields": 47,
-    "coveragePercent": 51,
+    "composedFields": 49,
+    "coveragePercent": 100,
     "xfaLabelCount": 92,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:12:32.035Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:57.030617+00:00"
   }
 }

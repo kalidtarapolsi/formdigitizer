@@ -7,147 +7,133 @@
     "to": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T O",
+        "label": "To",
         "widget": "text"
       }
     },
     "nameofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E O F V E T E R A N",
+        "label": "Nameofveteran",
         "widget": "text"
       }
     },
     "currentaddressofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C U R R E N T A D D R E S S O F V E T E R A N",
+        "label": "Currentaddressofveteran",
         "widget": "text"
       }
     },
     "dob": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D O B",
+        "label": "DOB",
         "widget": "text"
       }
     },
     "vaclaimno": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A C L A I M N O",
+        "label": "Vaclaimno",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "servicenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S E R V I C E N U M B E R",
+        "label": "Servicenumber",
         "widget": "text"
       }
     },
     "signature1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature1",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "datesigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E S I G N E D",
+        "label": "Datesigned",
         "widget": "text"
       }
     },
     "forvause": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform F O R V A U S E",
+        "label": "Forvause",
         "widget": "checkbox"
       }
     },
     "typeOfDebts1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Type Of Debts1",
+        "label": "Type of Debts",
         "widget": "text"
       }
     },
     "amountOfDebts1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Amount Of Debts1",
+        "label": "Amount of Debts",
         "widget": "text"
       }
     },
     "typeOfDebts12": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Type Of Debts1",
+        "label": "Type of Debts",
         "widget": "text"
       }
     },
     "amountOfDebts2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Amount Of Debts2",
+        "label": "Amount of Debts",
         "widget": "text"
       }
     },
     "termofrepaymentplan": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T E R M O F R E P A Y M E N T P L A N",
+        "label": "Termofrepaymentplan",
         "widget": "text"
       }
     },
     "exempt": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform exempt",
+        "label": "Exempt",
         "widget": "checkbox"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "signature2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature2",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "datesigned2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E S I G N E D2",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Datesigned",
         "widget": "text"
       }
     },
@@ -162,7 +148,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -171,7 +157,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -202,7 +188,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SIGNATURE OF VETERAN (Sign in ink) 10. DATE SIGNED (MM/DD/YY",
+        "label": "Signature Of Veteran (Sign In Ink) 10. Date Signed (MM/DD/Yy",
         "widget": "date"
       }
     },
@@ -217,7 +203,7 @@
     "signatureOfAuthorizedAgentSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF AUTHORIZED AGENT (Sign in ink)",
+        "label": "Signature Of Authorized Agent (Sign In Ink)",
         "widget": "signature"
       }
     }
@@ -226,10 +212,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8937-are.pdf",
     "status": "digitized",
     "totalFields": 32,
-    "composedFields": 30,
-    "coveragePercent": 97,
+    "composedFields": 28,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 1,
     "generatedAt": "2026-03-28T17:37:44.053Z",
     "redigitizedAt": "2026-03-30T20:39:13.428Z",
@@ -237,6 +223,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.237334+00:00"
   }
 }

@@ -7,550 +7,514 @@
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "veteransMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans Middle Initial",
+        "label": "Veterans Middle Initial",
         "widget": "text"
       }
     },
     "veteransLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans Last Name",
+        "label": "Veterans Last Name",
         "widget": "text"
       }
     },
-    "ssnfirstThreeNumbers": {
+    "ssn": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "Form1 #subform S S N First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "ssnsecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform S S N Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "ssnlastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform S S N Last Four Numbers",
-        "widget": "text"
+        "label": "SSN",
+        "widget": "ssn"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "eMailAddressIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform E Mail Address If Applicable",
+        "label": "Email Address If Applicable",
         "widget": "text"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Area Code",
+        "label": "Area Code",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "serviceConnectedDisability": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Service Connected Disability",
+        "label": "Service Connected Disability",
         "widget": "text"
       }
     },
     "nameAndAddressOfDoctors": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name And Address Of Doctors",
+        "label": "Name and Address of Doctors",
         "widget": "text"
       }
     },
     "nameAndAddressOfHospital": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name And Address Of Hospital",
+        "label": "Name and Address of Hospital",
         "widget": "text"
       }
     },
     "valueOfYourPortionOfProperty210b3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Value Of Your Portion Of Property2 10b3",
+        "label": "Value of Your Portion of Property210b",
         "widget": "text"
       }
     },
     "valueOfYourPortionOfProperty310b3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Value Of Your Portion Of Property3 10b3",
+        "label": "Value of Your Portion of Property310b",
         "widget": "text"
       }
     },
     "whatyear": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform W H A T Y E A R",
+        "label": "Whatyear",
         "widget": "text"
       }
     },
     "occupationDuringThatYear": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Occupation During That Year",
+        "label": "Occupation During That Year",
         "widget": "text"
       }
     },
     "nameandaddressofemployerorunit1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E A N D A D D R E S S O F E M P L O Y E R O R U N I T1",
+        "label": "Nameandaddressofemployerorunit",
         "widget": "text"
       }
     },
     "typeofwork1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T Y P E O F W O R K1",
+        "label": "Typeofwork",
         "widget": "text"
       }
     },
     "hoursperweek1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H O U R S P E R W E E K1",
+        "label": "Hoursperweek",
         "widget": "text"
       }
     },
     "timelostfromillness1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I M E L O S T F R O M I L L N E S S1",
+        "label": "Timelostfromillness",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1811": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H181 1",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1812": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H181 2",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "nameandaddressofemployerorunit2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E A N D A D D R E S S O F E M P L O Y E R O R U N I T2",
+        "label": "Nameandaddressofemployerorunit",
         "widget": "text"
       }
     },
     "typeofwork2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T Y P E O F W O R K2",
+        "label": "Typeofwork",
         "widget": "text"
       }
     },
     "hoursperweek2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H O U R S P E R W E E K2",
+        "label": "Hoursperweek",
         "widget": "text"
       }
     },
     "timelostfromillness2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I M E L O S T F R O M I L L N E S S2",
+        "label": "Timelostfromillness",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1821": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H182 1",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1822": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H182 2",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "nameandaddressofemployerorunit3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E A N D A D D R E S S O F E M P L O Y E R O R U N I T3",
+        "label": "Nameandaddressofemployerorunit",
         "widget": "text"
       }
     },
     "typeofwork3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T Y P E O F W O R K3",
+        "label": "Typeofwork",
         "widget": "text"
       }
     },
     "hoursperweek3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H O U R S P E R W E E K3",
+        "label": "Hoursperweek",
         "widget": "text"
       }
     },
     "timelostfromillness3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I M E L O S T F R O M I L L N E S S3",
+        "label": "Timelostfromillness",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1831": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H183 1",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1832": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H183 2",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "nameandaddressofemployerorunit4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E A N D A D D R E S S O F E M P L O Y E R O R U N I T4",
+        "label": "Nameandaddressofemployerorunit",
         "widget": "text"
       }
     },
     "typeofwork4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T Y P E O F W O R K4",
+        "label": "Typeofwork",
         "widget": "text"
       }
     },
     "hoursperweek4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H O U R S P E R W E E K4",
+        "label": "Hoursperweek",
         "widget": "text"
       }
     },
     "timelostfromillness4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I M E L O S T F R O M I L L N E S S4",
+        "label": "Timelostfromillness",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1841": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H184 1",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1842": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H184 2",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "nameandaddressofemployerorunit5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E A N D A D D R E S S O F E M P L O Y E R O R U N I T5",
+        "label": "Nameandaddressofemployerorunit",
         "widget": "text"
       }
     },
     "typeofwork5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T Y P E O F W O R K5",
+        "label": "Typeofwork",
         "widget": "text"
       }
     },
     "hoursperweek5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H O U R S P E R W E E K5",
+        "label": "Hoursperweek",
         "widget": "text"
       }
     },
     "timelostfromillness5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I M E L O S T F R O M I L L N E S S5",
+        "label": "Timelostfromillness",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1851": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H185 1",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "highestgrossearningspermonth1852": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform H I G H E S T G R O S S E A R N I N G S P E R M O N T H185 2",
+        "label": "Highestgrossearningspermonth",
         "widget": "text"
       }
     },
     "totalearnedincome20a1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform totalearnedincome20a 1",
+        "label": "Totalearnedincome20a",
         "widget": "text"
       }
     },
     "totalearnedincome20a2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform totalearnedincome20a 2",
+        "label": "Totalearnedincome20a",
         "widget": "text"
       }
     },
     "currentmonthlyearnedincome1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C U R R E N T M O N T H L Y E A R N E D I N C O M E 1",
+        "label": "Currentmonthlyearnedincome",
         "widget": "text"
       }
     },
     "currentmonthlyearnedincome2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C U R R E N T M O N T H L Y E A R N E D I N C O M E 2",
+        "label": "Currentmonthlyearnedincome",
         "widget": "text"
       }
     },
     "nameAndAddressOfEmployer": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 N A M E A N D A D D R E S S O F E M P L O Y E R",
+        "label": "Name and Address of Employer",
         "widget": "text"
       }
     },
     "typeOfWork": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 T Y P E O F W O R K",
+        "label": "Type of Work",
         "widget": "text"
       }
     },
     "datesofemployment5From": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment5From"
+      }
     },
     "nameAndAddressOfEmployer2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 N A M E A N D A D D R E S S O F E M P L O Y E R",
+        "label": "Name and Address of Employer",
         "widget": "text"
       }
     },
     "nameAndAddressOfEmployer3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 N A M E A N D A D D R E S S O F E M P L O Y E R",
+        "label": "Name and Address of Employer",
         "widget": "text"
       }
     },
     "educationRadioButtonList": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Education Radio Button List",
+        "label": "Education Radio Button List",
         "widget": "text"
       }
     },
     "typeOfEducationOrTraining": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Type Of Education Or Training",
+        "label": "Type of Education or Training",
         "widget": "text"
       }
     },
     "remarksIfany": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Remarks Ifany",
+        "label": "Remarks Ifany",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "addressOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform A D D R E S S O F W I T N E S S",
-        "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Address of Witness",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
     "socialSecurityBenefits": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY BENEFITS",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Social Security Benefits",
         "widget": "text"
       }
     },
     "veteranSName": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S NAME",
+        "label": "Veteran's Name",
         "widget": "text"
       }
     },
     "socialSecurityNumber3VaFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER3. VA FILE NUMBER",
+        "label": "Social Security Number3. VA File Number",
         "widget": "text"
       }
     },
     "dateOfBirthMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "text"
       }
     },
@@ -579,14 +543,14 @@
     "whatServiceConnectedDisabilityIes": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT SERVICE-CONNECTED DISABILITY(IES)",
+        "label": "What Service-Connected Disability(Ies)",
         "widget": "text"
       }
     },
     "haveYouBeenUnderADoctorSCare": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU BEEN UNDER A DOCTOR'S CARE",
+        "label": "Have You Been Under A Doctor'S Care",
         "widget": "text"
       }
     },
@@ -594,7 +558,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE(S) OF TREATMENT BY DOCTOR(S)",
+        "label": "Date(S) Of Treatment By Doctor(S)",
         "widget": "date"
       }
     },
@@ -610,7 +574,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "FROM (",
+        "label": "From (",
         "widget": "date"
       }
     },
@@ -618,14 +582,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "TO (",
+        "label": "To (",
         "widget": "date"
       }
     },
     "nameAndAddressOfDoctorS_12NameAndAddressOfHospita": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF DOCTOR(S)12. NAME AND ADDRESS OF HOSPITA",
+        "label": "Name And Address Of Doctor(S)12. Name And Address Of Hospita",
         "widget": "address"
       }
     },
@@ -633,7 +597,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE(S) OF HOSPITALIZATION",
+        "label": "Date(S) Of Hospitalization",
         "widget": "date"
       }
     },
@@ -641,7 +605,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE YOUR DISABILITY AFFECTED FULL-TIME",
+        "label": "Date Your Disability Affected Full-Time",
         "widget": "date"
       }
     },
@@ -649,7 +613,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE YOU LAST WORKED FULL-TIME",
+        "label": "Date You Last Worked Full-Time",
         "widget": "date"
       }
     },
@@ -657,21 +621,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE YOU BECAME TOO DISABLED TO WORK",
+        "label": "Date You Became Too Disabled To Work",
         "widget": "date"
       }
     },
     "listAllYourEmploymentIncludingSelfEmploymentForTheL": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST ALL YOUR EMPLOYMENT INCLUDING SELF-EMPLOYMENT FOR THE L",
+        "label": "List All Your Employment Including Self-Employment For The L",
         "widget": "text"
       }
     },
     "nameAndAddressOfEmployerOrUnitTypeOfWork": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF EMPLOYER (OR UNIT)TYPE OF WORK",
+        "label": "Name And Address Of Employer (Or Unit)Type Of Work",
         "widget": "address"
       }
     },
@@ -679,28 +643,28 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "FROM (MM/DD/YYYY)TO (",
+        "label": "From (MM/DD/YYYY)To (",
         "widget": "date"
       }
     },
     "ifYouAreCurrentlyServingInTheReserveOrNationalGuar": {
       "type": "string",
       "x-va-field": {
-        "label": "IF YOU ARE CURRENTLY SERVING IN THE RESERVE OR NATIONAL GUAR",
+        "label": "If You Are Currently Serving In The Reserve Or National Guar",
         "widget": "text"
       }
     },
     "haveYouTriedToObtainEmploymentSinceYouBecameTooDis": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU TRIED TO OBTAIN EMPLOYMENT SINCE YOU BECAME TOO DIS",
+        "label": "Have You Tried To Obtain Employment Since You Became Too Dis",
         "widget": "text"
       }
     },
     "nameAndAddressOfEmployer4": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF EMPLOYER",
+        "label": "Name And Address Of Employer",
         "widget": "address"
       }
     },
@@ -723,7 +687,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "BEGINNING (MM/DD/YYYY)COMPLETION (",
+        "label": "Beginning (MM/DD/YYYY)Completion (",
         "widget": "date"
       }
     },
@@ -738,28 +702,28 @@
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "authorizationForReleaseOfInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "AUTHORIZATION FOR RELEASE OF INFORMATION",
+        "label": "Authorization For Release Of Information",
         "widget": "text"
       }
     },
     "certificationOfStatements": {
       "type": "string",
       "x-va-field": {
-        "label": "CERTIFICATION OF STATEMENTS",
+        "label": "Certification Of Statements",
         "widget": "select"
       }
     },
     "signatureOfClaimantRequired": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF CLAIMANT (Required)",
+        "label": "Signature Of Claimant (Required)",
         "widget": "signature"
       }
     },
@@ -767,28 +731,28 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
     "mailTo": {
       "type": "string",
       "x-va-field": {
-        "label": "MAIL TO",
+        "label": "Mail To",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -798,57 +762,90 @@
     },
     "datesofemployment1From": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment1From"
+      }
     },
     "datesofemployment1To": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment1To"
+      }
     },
     "datesofemployment2From": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment2From"
+      }
     },
     "datesofemployment2To": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment2To"
+      }
     },
     "datesofemployment3From": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment3From"
+      }
     },
     "datesofemployment3To": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment3To"
+      }
     },
     "datesofemployment4From": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment4From"
+      }
     },
     "datesofemployment4To": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment4To"
+      }
     },
     "datesofemployment5To": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesofemployment5To"
+      }
     },
     "datesoftrainingBeginning": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesoftraining Beginning"
+      }
     },
     "datesoftrainingCompletion": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesoftraining Completion"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8940-are.pdf",
     "status": "digitized",
     "totalFields": 161,
-    "composedFields": 123,
-    "coveragePercent": 98,
+    "composedFields": 117,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 4,
     "generatedAt": "2026-03-28T17:31:51.476Z",
     "postProcessedAt": "2026-03-30T20:42:50.098411+00:00",
@@ -857,6 +854,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.328191+00:00"
   }
 }

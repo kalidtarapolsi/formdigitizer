@@ -10,7 +10,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "fullName": {
       "type": "object",
@@ -41,68 +44,120 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "dateOfSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Signature"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "utahHealthInformationNetwork": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Utah Health Information Network"
+      }
     },
     "nameOfLegalRepresentative": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Legal Representative"
+      }
     },
     "indianaHealthInformationCollaborative": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Indiana Health Information Collaborative"
+      }
     },
     "northCarolinaHealthcareInformationAndCommunicationsAlliance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "North Carolina Healthcare Information and Communications Alliance"
+      }
     },
     "otherHealthCareProvider3Of3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Health Care Provider3Of"
+      }
     },
     "otherHealthCareProvider2Of3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Health Care Provider2Of"
+      }
     },
     "otherHealthCareProvider1Of3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Health Care Provider1Of"
+      }
     },
     "communityHealthInformationCollaborative": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Community Health Information Collaborative"
+      }
     },
     "westernNewYorkHealthelink": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Western New York Healthelink"
+      }
     },
     "southCarolinaHealthInformationExchange": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "South Carolina Health Information Exchange"
+      }
     },
     "multicare": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Multicare"
+      }
     },
     "inlandNorthwestHealthServices": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Inland Northwest Health Services"
+      }
     },
     "medVirginia": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Med Virginia"
+      }
     },
     "otherHealthCareProvider": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Health Care Provider"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0525a-fill.pdf",
     "totalFields": 25,
-    "composedFields": 10,
-    "coveragePercent": 40,
+    "composedFields": 18,
+    "coveragePercent": 100,
     "xfaLabelCount": 25,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:35:10.970Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.600015+00:00"
   }
 }

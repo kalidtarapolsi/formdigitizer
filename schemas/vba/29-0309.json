@@ -9,58 +9,98 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "nameAndAddress": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name and Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "checkingAccount": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Checking Account"
+      }
     },
     "insurancePolicyNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insurance Policy Number"
+      }
     },
     "nameOfBankOrFinancialInstitution": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Bank or Financial Institution"
+      }
     },
     "bankRoutingNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bank Routing Number"
+      }
     },
     "bankAccountNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bank Account Number"
+      }
     },
     "savingsAccount": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Savings Account"
+      }
     },
     "yes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0309-are.pdf",
     "status": "digitized",
     "totalFields": 16,
-    "composedFields": 11,
-    "coveragePercent": 69,
+    "composedFields": 13,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:38:27.629Z"
+    "generatedAt": "2026-03-28T17:38:27.629Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.265331+00:00"
   }
 }

@@ -7,21 +7,21 @@
     "projectlocation": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P R O J E C T L O C A T I O N",
+        "label": "Projectlocation",
         "widget": "text"
       }
     },
     "dateTimeField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field1",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "authorizedStateOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Authorized State Official",
+        "label": "Authorized State Official",
         "widget": "text"
       }
     },
@@ -35,7 +35,7 @@
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE",
+        "label": "Signature",
         "widget": "signature"
       }
     },
@@ -43,14 +43,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE (",
+        "label": "Date (",
         "widget": "date"
       }
     },
     "nameOfAuthorizedStateOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF AUTHORIZED STATE OFFICIAL",
+        "label": "Name Of Authorized State Official",
         "widget": "select"
       }
     },
@@ -76,6 +76,7 @@
     "extractionSources": [
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.557634+00:00"
   }
 }

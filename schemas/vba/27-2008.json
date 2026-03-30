@@ -109,20 +109,6 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "RESPONDENT BURDEN",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
-        "widget": "text"
-      }
-    },
     "postmasterOrOtherIssuingOfficial": {
       "type": "string",
       "x-va-field": {
@@ -133,7 +119,7 @@
     "maidenNameOrOtherNameSVeteranUsedWhileOnActive": {
       "type": "string",
       "x-va-field": {
-        "label": "MAIDEN NAME OR OTHER NAME(S) VETERAN USED WHILE ON ACTIVE",
+        "label": "Maiden Name Or Other Name(S) Veteran Used While On Active",
         "widget": "text"
       }
     },
@@ -148,21 +134,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BURIAL (MM/DD/YYYY)",
+        "label": "Date Of Burial (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "hasDocumentationBeenPresentedOrAttachedThatShowsThe": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS DOCUMENTATION BEEN PRESENTED OR ATTACHED THAT SHOWS THE",
+        "label": "Has Documentation Been Presented Or Attached That Shows The",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
@@ -171,14 +157,14 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER3. VA FILE NUMBER5. MILITARY SERVICE N",
+        "label": "Social Security Number3. VA File Number5. Military Service N",
         "widget": "ssn"
       }
     },
     "placeOfBurial": {
       "type": "string",
       "x-va-field": {
-        "label": "PLACE OF BURIAL",
+        "label": "Place Of Burial",
         "widget": "text"
       }
     },
@@ -186,7 +172,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE RELEASED FROM",
+        "label": "Date Released From",
         "widget": "date"
       }
     },
@@ -202,14 +188,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "signatureOfApplicantSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF APPLICANT (Sign in INK)",
+        "label": "Signature Of Applicant (Sign In Ink)",
         "widget": "signature"
       }
     },
@@ -217,7 +203,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF DEATH (MM/DD/YYYY)",
+        "label": "Date Of Death (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -239,7 +225,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -247,21 +233,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SIGNATURE OF PERSON RECEIVING FLAG (Sign in INK)21. DATE FLA",
+        "label": "Signature Of Person Receiving Flag (Sign In Ink)21. Date Fla",
         "widget": "date"
       }
     },
     "firstMiddleLastNameOfVeteranPrintOrType": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST, MIDDLE, LAST NAME OF VETERAN (Print or type)",
+        "label": "First, Middle, Last Name Of Veteran (Print Or Type)",
         "widget": "text"
       }
     },
     "relationshipToDeceasedVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "RELATIONSHIP TO DECEASED VETERAN",
+        "label": "Relationship To Deceased Veteran",
         "widget": "text"
       }
     },
@@ -269,7 +255,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE ENTERED ACTIVE",
+        "label": "Date Entered Active",
         "widget": "date"
       }
     },
@@ -284,13 +270,6 @@
       "type": "string",
       "x-va-field": {
         "label": "OTHER (See Section C(1) on page 2)",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
         "widget": "text"
       }
     },
@@ -397,7 +376,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-27-2008-are.pdf",
     "status": "digitized",
     "totalFields": 54,
-    "composedFields": 54,
+    "composedFields": 51,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -408,6 +387,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.239049+00:00"
   }
 }

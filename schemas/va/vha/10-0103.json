@@ -7,70 +7,70 @@
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform Date",
+        "label": "Date",
         "widget": "text"
       }
     },
     "time": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform Time",
+        "label": "Time",
         "widget": "text"
       }
     },
     "nameVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform Name Veteran",
+        "label": "Name Veteran",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "vafileNum": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform V A File Num",
+        "label": "Vafile Num",
         "widget": "text"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform Address",
+        "label": "Address",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "namePerson": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform Name Person",
+        "label": "Name Person",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha100103 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
@@ -78,13 +78,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Estimated Burden",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
         "widget": "text"
       }
     },
@@ -130,14 +123,14 @@
     "nameOfPersonOrFirmWithWhomISatisfactorilyBidForNe": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF PERSON OR FIRM WITH WHOM I SATISFACTORILY BID FOR NE",
+        "label": "Name Of Person Or Firm With Whom I Satisfactorily Bid For Ne",
         "widget": "text"
       }
     },
     "iAcknowledgeThatTheVaAssumes": {
       "type": "string",
       "x-va-field": {
-        "label": "• I acknowledge that the VA assumes",
+        "label": "\u2022 I acknowledge that the VA assumes",
         "widget": "radio"
       }
     },
@@ -158,7 +151,7 @@
     "ifApprovedForHisaBenefitsAreYouRequestingAnAdvance": {
       "type": "string",
       "x-va-field": {
-        "label": "IF APPROVED FOR HISA BENEFITS, ARE YOU REQUESTING AN ADVANCE",
+        "label": "If Approved For Hisa Benefits, Are You Requesting An Advance",
         "widget": "text"
       }
     },
@@ -173,7 +166,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
     }
@@ -181,7 +174,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0103-fill.pdf",
     "totalFields": 24,
-    "composedFields": 24,
+    "composedFields": 23,
     "coveragePercent": 100,
     "xfaLabelCount": 12,
     "needsReviewCount": 0,
@@ -193,6 +186,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.528452+00:00"
   }
 }

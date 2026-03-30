@@ -5,148 +5,257 @@
   "properties": {
     "dateLine1Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line1Of"
+      }
     },
     "dateLine2Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line2Of"
+      }
     },
     "dateLine3Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line3Of"
+      }
     },
     "dateLine4Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line4Of"
+      }
     },
     "dateLine5Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line5Of"
+      }
     },
     "dateLine6Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line6Of"
+      }
     },
     "dateLine7Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line7Of"
+      }
     },
     "dateLine8Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line8Of"
+      }
     },
     "dateLine9Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line9Of"
+      }
     },
     "dateLine10Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line10Of"
+      }
     },
     "dateLine11Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line11Of"
+      }
     },
     "dateLine12Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line12Of"
+      }
     },
     "dateLine13Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line13Of"
+      }
     },
     "dateLine14Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line14Of"
+      }
     },
     "dateLine15Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line15Of"
+      }
     },
     "dateLine16Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line16Of"
+      }
     },
     "dateLine17Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line17Of"
+      }
     },
     "dateLine18Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line18Of"
+      }
     },
     "dateLine19Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line19Of"
+      }
     },
     "dateLine20Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line20Of"
+      }
     },
     "dateLine21Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line21Of"
+      }
     },
     "dateLine22Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line22Of"
+      }
     },
     "dateLine23Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line23Of"
+      }
     },
     "dateLine24Of24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Line24Of"
+      }
     },
     "signatureDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Signature Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "prescriptionOrVoucherNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Prescription or Voucher Number"
+      }
     },
     "quantityReceivedOrProductFormulated": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Quantity Received or Product Formulated"
+      }
     },
     "pageNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Page Number"
+      }
     },
     "nomenclature": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nomenclature"
+      }
     },
     "unit": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unit"
+      }
     },
     "balanceCarriedForward": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance Carried Forward"
+      }
     },
     "patientsNameOrPrescribedOrOrderedByMDDdsRNRph": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Patients Name or Prescribed or Ordered by MD Dds RN Rph"
+      }
     },
     "quantityPrescribedOrOrdered": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Quantity Prescribed or Ordered"
+      }
     },
     "quantityUsedInProductFormulation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Quantity Used in Product Formulation"
+      }
     },
     "balance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2320-fill.pdf",
     "totalFields": 174,
-    "composedFields": 26,
-    "coveragePercent": 15,
+    "composedFields": 36,
+    "coveragePercent": 100,
     "xfaLabelCount": 174,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:02.594Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.652282+00:00"
   }
 }

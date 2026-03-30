@@ -389,24 +389,17 @@
         "widget": "checkbox"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "RESPONDENT BURDEN",
-        "widget": "text"
-      }
-    },
     "forOneOrMoreCourses": {
       "type": "string",
       "x-va-field": {
-        "label": "FOR ONE OR MORE COURSES",
+        "label": "For One Or More Courses",
         "widget": "text"
       }
     },
     "other": {
       "type": "string",
       "x-va-field": {
-        "label": "OTHER",
+        "label": "Other",
         "widget": "text"
       }
     },
@@ -420,14 +413,14 @@
     "example": {
       "type": "string",
       "x-va-field": {
-        "label": "EXAMPLE",
+        "label": "Example",
         "widget": "text"
       }
     },
     "item_8ChargesForPeriodOfEnrollment": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 8 - CHARGES FOR PERIOD OF ENROLLMENT",
+        "label": "Item 8 - Charges For Period Of Enrollment",
         "widget": "text"
       }
     },
@@ -441,21 +434,21 @@
     "item_10CallUpToActiveDuty": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 10 - CALL-UP TO ACTIVE DUTY",
+        "label": "Item 10 - Call-Up To Active Duty",
         "widget": "text"
       }
     },
     "item_11MitigatingCircumstances": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 11 - MITIGATING CIRCUMSTANCES",
+        "label": "Item 11 - Mitigating Circumstances",
         "widget": "text"
       }
     },
     "item_12Remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 12 - REMARKS",
+        "label": "Item 12 - Remarks",
         "widget": "text"
       }
     },
@@ -469,21 +462,14 @@
     "item_13aFacilityCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 13A - FACILITY CODE",
+        "label": "Item 13A - Facility Code",
         "widget": "text"
       }
     },
     "establishment": {
       "type": "string",
       "x-va-field": {
-        "label": "ESTABLISHMENT",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Establishment",
         "widget": "text"
       }
     },
@@ -498,7 +484,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Item 5A and 5B - DATES OF TERM AFFECTED",
+        "label": "Item 5A And 5B - Dates Of Term Affected",
         "widget": "date"
       }
     },
@@ -506,7 +492,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Item 6A- LAST DATE OF ATTENDANCE",
+        "label": "Item 6A- Last Date Of Attendance",
         "widget": "date"
       }
     },
@@ -521,21 +507,21 @@
     "item_6bReasonForTermination": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 6B- REASON FOR TERMINATION",
+        "label": "Item 6B- Reason For Termination",
         "widget": "text"
       }
     },
     "withdrawalDuringDropPeriod": {
       "type": "string",
       "x-va-field": {
-        "label": "WITHDRAWAL DURING DROP PERIOD",
+        "label": "Withdrawal During Drop Period",
         "widget": "text"
       }
     },
     "withdrawalAfterDropPeriod": {
       "type": "string",
       "x-va-field": {
-        "label": "WITHDRAWAL AFTER DROP PERIOD",
+        "label": "Withdrawal After Drop Period",
         "widget": "text"
       }
     },
@@ -550,7 +536,7 @@
     "item_6cLeaveOfAbsenceLoa": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 6C- LEAVE OF ABSENCE (LOA)",
+        "label": "Item 6C- Leave Of Absence (Loa)",
         "widget": "text"
       }
     },
@@ -589,35 +575,35 @@
     "item_7bTypeOfAdjustment": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 7B - TYPE OF ADJUSTMENT",
+        "label": "Item 7B - Type Of Adjustment",
         "widget": "text"
       }
     },
     "increase": {
       "type": "string",
       "x-va-field": {
-        "label": "INCREASE",
+        "label": "Increase",
         "widget": "text"
       }
     },
     "reductionDuringDropPeriod": {
       "type": "string",
       "x-va-field": {
-        "label": "REDUCTION DURING DROP PERIOD",
+        "label": "Reduction During Drop Period",
         "widget": "text"
       }
     },
     "oneOrMoreCourses": {
       "type": "string",
       "x-va-field": {
-        "label": "ONE OR MORE COURSES",
+        "label": "One Or More Courses",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -625,14 +611,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATES OF TERM AFFECTED",
+        "label": "Dates Of Term Affected",
         "widget": "date"
       }
     },
     "adjustmentOfCreditOrClockHoursCompleteItemsABAn": {
       "type": "string",
       "x-va-field": {
-        "label": "ADJUSTMENT OF CREDIT OR CLOCK HOURS (Complete Items A, B, an",
+        "label": "Adjustment Of Credit Or Clock Hours (Complete Items A, B, An",
         "widget": "text"
       }
     },
@@ -662,7 +648,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "A. LAST",
+        "label": "A. Last",
         "widget": "date"
       }
     },
@@ -670,42 +656,42 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "H. REVISED ENDING",
+        "label": "H. Revised Ending",
         "widget": "date"
       }
     },
     "revisedChargesForPeriodOfEnrollmentCompleteThisItem": {
       "type": "string",
       "x-va-field": {
-        "label": "REVISED CHARGES FOR PERIOD OF ENROLLMENT (Complete this item",
+        "label": "Revised Charges For Period Of Enrollment (Complete This Item",
         "widget": "text"
       }
     },
     "doesTheStudentClaimThatTerminationOrAdjustmentAction": {
       "type": "string",
       "x-va-field": {
-        "label": "DOES THE STUDENT CLAIM THAT TERMINATION OR ADJUSTMENT ACTION",
+        "label": "Does The Student Claim That Termination Or Adjustment Action",
         "widget": "text"
       }
     },
     "remarks2": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "currentAddressOfStudent": {
       "type": "string",
       "x-va-field": {
-        "label": "CURRENT ADDRESS OF STUDENT",
+        "label": "Current Address Of Student",
         "widget": "address"
       }
     },
     "doPreviousCertificationsForSubsequentTerms": {
       "type": "string",
       "x-va-field": {
-        "label": "DO PREVIOUS CERTIFICATIONS FOR SUBSEQUENT TERMS",
+        "label": "Do Previous Certifications For Subsequent Terms",
         "widget": "text"
       }
     },
@@ -719,7 +705,7 @@
     "studentCalledUp": {
       "type": "string",
       "x-va-field": {
-        "label": "STUDENT CALLED UP -",
+        "label": "Student Called Up -",
         "widget": "radio"
       }
     },
@@ -727,7 +713,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "A. BEGIN",
+        "label": "A. Begin",
         "widget": "date"
       }
     },
@@ -735,7 +721,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "B. END",
+        "label": "B. End",
         "widget": "date"
       }
     },
@@ -743,7 +729,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "LAST DATE ATTENDED",
+        "label": "Last Date Attended",
         "widget": "date"
       }
     },
@@ -751,7 +737,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "RESUME DATE",
+        "label": "Resume Date",
         "widget": "date"
       }
     },
@@ -759,7 +745,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "TERMINATION DATE",
+        "label": "Termination Date",
         "widget": "date"
       }
     },
@@ -777,7 +763,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1999b-are.pdf",
     "status": "digitized",
     "totalFields": 107,
-    "composedFields": 107,
+    "composedFields": 105,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -787,6 +773,7 @@
     "extractionSources": [
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.450774+00:00"
   }
 }

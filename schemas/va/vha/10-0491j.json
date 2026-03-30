@@ -7,28 +7,28 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address",
+        "label": "Address",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "phoneNum": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone Num",
+        "label": "Phone Num",
         "widget": "text"
       }
     },
@@ -159,6 +159,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.104918+00:00"
   }
 }

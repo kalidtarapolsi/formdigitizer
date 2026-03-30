@@ -39,25 +39,13 @@
         "widget": "text"
       }
     },
-    "socialSecurityNumberFirstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F Page 10 Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 10 Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 10 Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "currentMailingAddressNumberAndStreet": {
@@ -95,18 +83,12 @@
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F Page 10 Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 10 Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "newAddressNumberAndStreet": {
@@ -144,18 +126,12 @@
         "widget": "text"
       }
     },
-    "newAddressZiporPostalCodeFirstFiveNumbers": {
+    "newAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F Page 10 New Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "newAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 10 New Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "New Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "veteransServiceNumberIfApplicable": {
@@ -179,18 +155,12 @@
         "widget": "text"
       }
     },
-    "telephoneMiddleThreeNumbers": {
+    "telephone": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "F Page 10 Telephone Middle Three Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 10 Telephone Last Four Numbers",
-        "widget": "text"
+        "label": "Telephone",
+        "widget": "phone"
       }
     },
     "fullyDevelopedClaimFdcProgram": {
@@ -228,14 +198,14 @@
         "widget": "text"
       }
     },
-    "radioButtonList2": {
+    "list2": {
       "type": "string",
       "x-va-field": {
         "label": "F Page 10 Radio Button List2",
         "widget": "text"
       }
     },
-    "radioButtonList6": {
+    "list6": {
       "type": "string",
       "x-va-field": {
         "label": "F Page 10 Radio Button List6",
@@ -245,350 +215,315 @@
     "livingInAHomelessShelter": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Living In A Homeless Shelter",
+        "label": "Living in a Homeless Shelter",
         "widget": "checkbox"
       }
     },
     "livingInACarOrTent": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Not Currently In A Sheltered Environment e\\ g\\ Living In A Car Or Tent",
+        "label": "Living in a Car or Tent",
         "widget": "checkbox"
       }
     },
     "stayingWithAnotherPerson": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Staying With Another Person",
+        "label": "Staying With Another Person",
         "widget": "checkbox"
       }
     },
     "fleeingCurrentResidence": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Fleeing Current Residence",
+        "label": "Fleeing Current Residence",
         "widget": "checkbox"
       }
     },
     "otherSpecify": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform O T H E R Specify",
+        "label": "Other Specify",
         "widget": "checkbox"
       }
     },
     "housingWillBeLostIn30Days": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Housing Will Be Lost In 30 Days",
+        "label": "Housing Will Be Lost In30Days",
         "widget": "checkbox"
       }
     },
     "homelessShelter": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Leaving Publicly Funded System Of Care e\\ g\\ Homeless Shelter",
+        "label": "Homeless Shelter",
         "widget": "checkbox"
       }
     },
-    "socialSecurityNumberFirstThreeNumbers2": {
+    "list22": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberSecondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "radioButtonList22": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Radio Button List2",
+        "label": "List",
         "widget": "text"
       }
     },
     "telephoneNumberAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Telephone Number Area Code",
-        "widget": "text"
-      }
-    },
-    "telephoneMiddleThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Telephone Middle Three Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Telephone Last Four Numbers",
+        "label": "Telephone Number Area Code",
         "widget": "text"
       }
     },
     "internationalTelephoneNumberIfApplicable2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "listOtherLocationsWhereYouServed": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform List Other Locations Where You Served",
+        "label": "List Other Locations Where You Served",
         "widget": "text"
       }
     },
     "asbestos": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform A S B E S T O S",
+        "label": "Asbestos",
         "widget": "checkbox"
       }
     },
     "shadShipboardHazardAndDefense": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform S H A D Shipboard Hazard And Defense",
+        "label": "Shad Shipboard Hazard and Defense",
         "widget": "checkbox"
       }
     },
     "contaminatedWaterAtCampLejeune": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Contaminated Water At Camp Lejeune",
+        "label": "Contaminated Water at Camp Lejeune",
         "widget": "checkbox"
       }
     },
     "mustardGas": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Mustard Gas",
+        "label": "Mustard Gas",
         "widget": "checkbox"
       }
     },
     "militaryOccupationalSpecialtyMosRelatedToxin": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Military Occupational Specialty M O S Related Toxin",
+        "label": "Military Occupational Specialty Mos Related Toxin",
         "widget": "checkbox"
       }
     },
     "provideAdditionalDatesAndLocationsOfPotentialExposure": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Provide Additional Dates And Locations Of Potential Exposure",
+        "label": "Provide Additional Dates and Locations of Potential Exposure",
         "widget": "text"
       }
     },
     "pointOfContact": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform P O I N T O F C O N T A C T",
+        "label": "Point of Contact",
         "widget": "text"
       }
     },
     "radiation": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Radiation",
+        "label": "Radiation",
         "widget": "checkbox"
       }
     },
     "otherSpecify2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform O T H E R S P E C I F Y",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "otherSpecify3": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Other Specify",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "currentdisability": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform C U R R E N T D I S A B I L I T Y",
+        "label": "Currentdisability",
         "widget": "text"
       }
     },
     "specifyTypeOfExposureEventOrInjury": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Specify Type Of Exposure Event Or Injury",
+        "label": "Specify Type of Exposure Event or Injury",
         "widget": "text"
       }
     },
     "explainHowDisabilityRelatesToEventExposureInjury": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Explain How Disability Relates To Event Exposure Injury",
+        "label": "Explain How Disability Relates to Event Exposure Injury",
         "widget": "text"
       }
     },
     "dateDisabilityBeganOrWorsened": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Disability Began Or Worsened",
+        "label": "Date Disability Began or Worsened",
         "widget": "text"
       }
     },
     "date12": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date12",
+        "label": "Date",
         "widget": "text"
       }
     },
-    "checkBoxDoNotHaveDateS": {
+    "doNotHaveDateS": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Check Box Do Not Have Date s",
+        "label": "Do Not Have Date S",
         "widget": "checkbox"
       }
     },
     "enterDisabilityTreatedAndNameAndLocationOfTreatmentFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Enter Disability Treated And Name And Location Of Treatment Facility",
+        "label": "Enter Disability Treated and Name and Location of Treatment Facility",
         "widget": "text"
       }
     },
     "listOtherNameYouServedUnder": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform List Other Name You Served Under",
+        "label": "List Other Name You Served Under",
         "widget": "text"
       }
     },
     "mostRecentActiveServiceEntryDateDay": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Most Recent Active Service Entry Date Day",
+        "label": "Most Recent Active Service Entry Date Day",
         "widget": "text"
       }
     },
     "placeOfLastOrAnticipatedSeparation": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Place Of Last Or Anticipated Separation",
+        "label": "Place of Last or Anticipated Separation",
         "widget": "text"
       }
     },
     "doNotPayMeVaCompensationIDoNotWantToReceiveVaCompensationInLieuOfRetiredPay": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Do Not Pay Me V A Compensation I Do Not Want To Receive V A Compensation In Lieu Of Retired Pay",
+        "label": "Do Not Pay Me VA Compensation I Do Not Want to Receive VA Compensation in Lieu of Retired Pay",
         "widget": "checkbox"
       }
     },
     "monthlyAmount": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Monthly Amount",
+        "label": "Monthly Amount",
         "widget": "text"
       }
     },
     "currentOrLastAssignedNameAndAddressOfUnit": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform C U R R E N T O R L A S T A S S I G N E D N A M E A N D A D D R E S S O F U N I T",
+        "label": "Current or Last Assigned Name and Address of Unit",
         "widget": "text"
       }
     },
     "currentOrAssignedPhoneNumberOfUnitIncludeAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Current Or Assigned Phone Number Of Unit Include Area Code",
+        "label": "Current or Assigned Phone Number of Unit Include Area Code",
         "widget": "text"
       }
     },
     "explain": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform E X P L A I N",
+        "label": "Explain",
         "widget": "text"
       }
     },
     "routingOrTransitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Routing Or Transit Number",
+        "label": "Routing or Transit Number",
         "widget": "text"
       }
     },
     "accountNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Account Number",
+        "label": "Account Number",
         "widget": "text"
       }
     },
     "doNotPayMeVaCompensationIDoNotWantToReceiveVaCompensationInLieuOfTrainingPay": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Do N O T Pay Me V A Compensation I Do Not Want To Receive V A Compensation In Lieu Of Training Pay",
+        "label": "Do Not Pay Me VA Compensation I Do Not Want to Receive VA Compensation in Lieu of Training Pay",
         "widget": "checkbox"
       }
     },
     "icertifyThatIdoNotHaveAnAccountWithAfinancialInstitutionOrCertifiedPaymentAgent": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform I Certify That I Do Not Have An Account With A Financial Institution Or Certified Payment Agent",
+        "label": "Icertify That Ido Not Have an Account With Afinancial Institution or Certified Payment Agent",
         "widget": "checkbox"
       }
     },
     "amountReceivedLastThreeDigits": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Amount Received Last Three Digits",
+        "label": "Amount Received Last Three Digits",
         "widget": "text"
       }
     },
     "amountReceivedFirstThreeDigits": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Amount Received First Three Digits",
+        "label": "Amount Received First Three Digits",
         "widget": "text"
       }
     },
     "digitalSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Digital Signature",
+        "label": "Digital Signature",
         "widget": "text"
       }
     },
     "printNameAndAddressOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Print Name And Address Of Witness",
+        "label": "Print Name and Address of Witness",
         "widget": "text"
       }
     },
     "nameOfFinancialInstitution": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform N A M E O F F I N A N C I A L I N S T I T U T I O N",
+        "label": "Name of Financial Institution",
         "widget": "text"
       }
     },
@@ -602,21 +537,14 @@
     "howToSubmitAClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "HOW TO SUBMIT A CLAIM",
+        "label": "How To Submit A Claim",
         "widget": "text"
       }
     },
     "whatYouNeedToDo": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT YOU NEED TO DO",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "What You Need To Do",
         "widget": "text"
       }
     },
@@ -658,21 +586,21 @@
     "whatTheEvidenceMustShowToSupportYourClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT THE EVIDENCE MUST SHOW TO SUPPORT YOUR CLAIM",
+        "label": "What The Evidence Must Show To Support Your Claim",
         "widget": "text"
       }
     },
     "howVaWillHelpYouObtainEvidenceForYourClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "HOW VA WILL HELP YOU OBTAIN EVIDENCE FOR YOUR CLAIM",
+        "label": "How VA Will Help You Obtain Evidence For Your Claim",
         "widget": "text"
       }
     },
     "whereToSendInformationAndEvidence": {
       "type": "string",
       "x-va-field": {
-        "label": "WHERE TO SEND INFORMATION AND EVIDENCE",
+        "label": "Where To Send Information And Evidence",
         "widget": "text"
       }
     },
@@ -686,7 +614,7 @@
     "veteransWhoServedAtCampLejeuneFor": {
       "type": "string",
       "x-va-field": {
-        "label": "•  Veterans who served at Camp Lejeune for",
+        "label": "\u2022  Veterans who served at Camp Lejeune for",
         "widget": "text"
       }
     },
@@ -722,7 +650,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "•  provide an anticipated release from active duty",
+        "label": "\u2022  provide an anticipated release from active duty",
         "widget": "date"
       }
     },
@@ -743,7 +671,7 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -766,7 +694,7 @@
     "additionalInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDITIONAL INFORMATION",
+        "label": "Additional Information",
         "widget": "text"
       }
     },
@@ -774,13 +702,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Ask VA",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
         "widget": "text"
       }
     },
@@ -796,7 +717,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER (SSN)",
+        "label": "Social Security Number (SSN)",
         "widget": "ssn"
       }
     },
@@ -804,14 +725,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM-DD-YYYY)",
+        "label": "Date Of Birth (MM-DD-YYYY)",
         "widget": "date"
       }
     },
     "haveYouEverFiledAClaimWithVa": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU EVER FILED A CLAIM WITH VA?",
+        "label": "Have You Ever Filed A Claim With VA?",
         "widget": "text"
       }
     },
@@ -834,7 +755,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "TELEPHONE NUMBER",
+        "label": "Telephone Number",
         "widget": "phone"
       }
     },
@@ -871,7 +792,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "BDD CLAIMS ONLY: PROVIDE THE DATE OR ANTICIPATED DATE OF",
+        "label": "Bdd Claims Only: Provide The Date Or Anticipated Date Of",
         "widget": "date"
       }
     },
@@ -879,36 +800,42 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "13C. EFFECTIVE",
+        "label": "13C. Effective",
         "widget": "date"
       }
     },
     "beginningDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Beginning Date"
+      }
     },
     "endingDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Ending Date"
+      }
     },
     "ifYouAreCurrentlyAVaEmployeeCheckTheBoxIncludes": {
       "type": "string",
       "x-va-field": {
-        "label": "IF YOU ARE CURRENTLY A VA EMPLOYEE, CHECK THE BOX (Includes",
+        "label": "If You Are Currently A VA Employee, Check The Box (Includes",
         "widget": "text"
       }
     },
     "selectTheTypeOfClaimProgramProcessThatAppliesToYou": {
       "type": "string",
       "x-va-field": {
-        "label": "SELECT THE TYPE OF CLAIM PROGRAM/PROCESS THAT APPLIES TO YOU",
+        "label": "Select The Type Of Claim Program/Process That Applies To You",
         "widget": "text"
       }
     },
     "listTheCurrentDisabilityIesOrSymptomsThatYouClaim": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST THE CURRENT DISABILITY(IES) OR SYMPTOMS THAT YOU CLAIM",
+        "label": "List The Current Disability(Ies) Or Symptoms That You Claim",
         "widget": "text"
       }
     },
@@ -916,14 +843,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "EXAMPLES OF",
+        "label": "Examples Of",
         "widget": "date"
       }
     },
     "from": {
       "type": "string",
       "x-va-field": {
-        "label": "FROM",
+        "label": "From",
         "widget": "text"
       }
     },
@@ -931,14 +858,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "APPROXIMATE",
+        "label": "Approximate",
         "widget": "date"
       }
     },
     "listVaMedicalCenterSVamcAndDepartmentOfDefense": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST VA MEDICAL CENTER(S) (VAMC) AND DEPARTMENT OF DEFENSE (",
+        "label": "List VA Medical Center(S) (Vamc) And Department Of Defense (",
         "widget": "text"
       }
     },
@@ -954,7 +881,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "NOT HAVE",
+        "label": "Not Have",
         "widget": "date"
       }
     },
@@ -992,7 +919,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "20A. MOST RECENT ACTIVE SERVICE",
+        "label": "20A. Most Recent Active Service",
         "widget": "date"
       }
     },
@@ -1000,7 +927,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "22C. ANTICIPATED SEPARATION",
+        "label": "22C. Anticipated Separation",
         "widget": "date"
       }
     },
@@ -1014,11 +941,17 @@
     },
     "entryDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Entry Date"
+      }
     },
     "exitDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Exit Date"
+      }
     },
     "doNotPayMeVaCompensationIDoNotWantToReceiveVa": {
       "type": "string",
@@ -1030,14 +963,14 @@
     "retiredStatus": {
       "type": "string",
       "x-va-field": {
-        "label": "RETIRED STATUS",
+        "label": "Retired Status",
         "widget": "text"
       }
     },
     "iCertifyThatIDoNotHaveAnAccountWithAFinancialIn": {
       "type": "string",
       "x-va-field": {
-        "label": "I  CERTIFY THAT I DO NOT HAVE AN ACCOUNT WITH A FINANCIAL IN",
+        "label": "I  Certify That I Do Not Have An Account With A Financial In",
         "widget": "text"
       }
     },
@@ -1065,7 +998,7 @@
     "importantInformationOnSeparationSeverancePay": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT INFORMATION ON SEPARATION/SEVERANCE PAY",
+        "label": "Important Information On Separation/Severance Pay",
         "widget": "text"
       }
     },
@@ -1080,7 +1013,7 @@
     "importantInformationOnInactiveDutyTrainingPay": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT INFORMATION ON INACTIVE DUTY TRAINING PAY",
+        "label": "Important Information On Inactive Duty Training Pay",
         "widget": "text"
       }
     },
@@ -1106,17 +1039,10 @@
         "widget": "date"
       }
     },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
-        "widget": "text"
-      }
-    },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -1138,58 +1064,94 @@
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "bddClaimsOnlyProvideTheDateOrAnticipatedDateOfReleaseFromActiveDuty": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Bdd Claims Only Provide the Date or Anticipated Date of Release From Active Duty"
+      }
     },
     "fromDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "From Date"
+      }
     },
     "toDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "To Date"
+      }
     },
     "dateOfTreatment": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Treatment"
+      }
     },
     "obligationTermOfService": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Obligation Term of Service"
+      }
     },
     "dateOfActivation": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Activation"
+      }
     },
     "anticipatedSeparationDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Anticipated Separation Date"
+      }
     },
     "datesOfConfinement": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dates of Confinement"
+      }
     },
     "additionalPeriodsOfService": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Additional Periods of Service"
+      }
     },
     "datePaymentReceived": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Payment Received"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-526ez-are.pdf",
     "status": "digitized",
     "totalFields": 204,
-    "composedFields": 172,
+    "composedFields": 159,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -1201,6 +1163,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.318856+00:00"
   }
 }

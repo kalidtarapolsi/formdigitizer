@@ -7,99 +7,92 @@
     "genericName": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Generic Name",
+        "label": "Generic Name",
         "widget": "text"
       }
     },
     "dosageForms": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Dosage Forms",
+        "label": "Dosage Forms",
         "widget": "text"
       }
     },
     "manufacturer": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Manufacturer",
+        "label": "Manufacturer",
         "widget": "text"
       }
     },
     "specify": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Specify",
+        "label": "Specify",
         "widget": "text"
       }
     },
     "brandName": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Brand Name",
+        "label": "Brand Name",
         "widget": "text"
       }
     },
     "strengths": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Strengths",
+        "label": "Strengths",
         "widget": "text"
       }
     },
     "contactPerson": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Contact Person",
+        "label": "Contact Person",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "rationale": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Rationale",
+        "label": "Rationale",
         "widget": "text"
       }
     },
     "explain": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Explain",
+        "label": "Explain",
         "widget": "text"
       }
     },
     "explain2": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page2 Explain",
+        "label": "Explain",
         "widget": "text"
       }
     },
     "references": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page2 References",
+        "label": "References",
         "widget": "text"
-      }
-    },
-    "topmostSubformPage1CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Topmost Subform Page1 Check Box1",
-        "widget": "checkbox"
       }
     },
     "submissionContentAndPreparation": {
@@ -109,52 +102,45 @@
         "widget": "text"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Note",
-        "widget": "text"
-      }
-    },
     "genericName_2BrandName": {
       "type": "string",
       "x-va-field": {
-        "label": "GENERIC NAME:2. BRAND NAME:",
+        "label": "Generic Name:2. Brand Name:",
         "widget": "text"
       }
     },
     "dosageFormS_4StrengthS": {
       "type": "string",
       "x-va-field": {
-        "label": "DOSAGE FORM(S):4. STRENGTH(S):",
+        "label": "Dosage Form(S):4. Strength(S):",
         "widget": "text"
       }
     },
     "manufacturer2": {
       "type": "string",
       "x-va-field": {
-        "label": "MANUFACTURER:",
+        "label": "Manufacturer:",
         "widget": "text"
       }
     },
     "requestingIndividualGroup": {
       "type": "string",
       "x-va-field": {
-        "label": "REQUESTING INDIVIDUAL/GROUP:",
+        "label": "Requesting Individual/Group:",
         "widget": "text"
       }
     },
     "ifTheRequestIsFromAFabFacOrTagWasItReviewedAnd": {
       "type": "string",
       "x-va-field": {
-        "label": "IF THE REQUEST IS FROM A FAB/FAC OR TAG, WAS IT REVIEWED AND",
+        "label": "If The Request Is From A Fab/Fac Or Tag, Was It Reviewed And",
         "widget": "text"
       }
     },
     "wasTheRequestInitiatedOnBehalfOfAFieldProvider": {
       "type": "string",
       "x-va-field": {
-        "label": "WAS THE REQUEST INITIATED ON BEHALF OF A FIELD PROVIDER",
+        "label": "Was The Request Initiated On Behalf Of A Field Provider",
         "widget": "text"
       }
     },
@@ -162,126 +148,126 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "EMAIL:11. PHONE:",
+        "label": "Email:11. Phone:",
         "widget": "phone"
       }
     },
     "typeOfRequest": {
       "type": "string",
       "x-va-field": {
-        "label": "TYPE OF REQUEST:",
+        "label": "Type Of Request:",
         "widget": "text"
       }
     },
     "whatIsTheRationaleToRemoveTheDrugOrFormulationFrom": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT IS THE RATIONALE TO REMOVE THE DRUG OR FORMULATION FROM",
+        "label": "What Is The Rationale To Remove The Drug Or Formulation From",
         "widget": "text"
       }
     },
     "whatAlternateDrugOrOtherTreatmentWouldReplaceTheDru": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT ALTERNATE DRUG OR OTHER TREATMENT WOULD REPLACE THE DRU",
+        "label": "What Alternate Drug Or Other Treatment Would Replace The Dru",
         "widget": "text"
       }
     },
     "vhaFieldAdvisoryBoardCommitteeSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "VHA FIELD ADVISORY BOARD/COMMITTEE, SPECIFY",
+        "label": "Vha Field Advisory Board/Committee, Specify",
         "widget": "text"
       }
     },
     "vhaTechnicalAdvisoryGroupSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "VHA TECHNICAL ADVISORY GROUP, SPECIFY",
+        "label": "Vha Technical Advisory Group, Specify",
         "widget": "text"
       }
     },
     "otherSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "OTHER, SPECIFY",
+        "label": "Other, Specify",
         "widget": "text"
       }
     },
     "vhaNationalChiefMedicalOfficerSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "VHA (National) CHIEF MEDICAL OFFICER, SPECIFY",
+        "label": "Vha (National) Chief Medical Officer, Specify",
         "widget": "text"
       }
     },
     "contactPerson2": {
       "type": "string",
       "x-va-field": {
-        "label": "CONTACT PERSON:",
+        "label": "Contact Person:",
         "widget": "text"
       }
     },
     "whatIsTheClinicalImpactOfRemovingTheDrugFromTheVa": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT IS THE CLINICAL IMPACT OF REMOVING THE DRUG FROM THE VA",
+        "label": "What Is The Clinical Impact Of Removing The Drug From The VA",
         "widget": "text"
       }
     },
     "provideAnEstimateOfTheNumberOfUniqueUsersAffectedB": {
       "type": "string",
       "x-va-field": {
-        "label": "PROVIDE AN ESTIMATE OF THE NUMBER OF UNIQUE USERS AFFECTED B",
+        "label": "Provide An Estimate Of The Number Of Unique Users Affected B",
         "widget": "text"
       }
     },
     "isThereCompellingEvidenceOfNeedToAddTheDrugToThe": {
       "type": "string",
       "x-va-field": {
-        "label": "IS THERE COMPELLING EVIDENCE OF NEED TO ADD THE DRUG TO THE",
+        "label": "Is There Compelling Evidence Of Need To Add The Drug To The",
         "widget": "text"
       }
     },
     "whatIsTheScientificEvidenceToSuggestTheClaimsForTh": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT IS THE SCIENTIFIC EVIDENCE TO SUGGEST THE CLAIMS FOR TH",
+        "label": "What Is The Scientific Evidence To Suggest The Claims For Th",
         "widget": "text"
       }
     },
     "whatIsTheDrugSProjectedPlaceInTherapyWillItBeFi": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT IS THE DRUG’S PROJECTED PLACE IN THERAPY? WILL IT BE FI",
+        "label": "What Is The Drug\u2019S Projected Place In Therapy? Will It Be Fi",
         "widget": "text"
       }
     },
     "ifAddedToTheVaNationalFormularyWhatIsThePotential": {
       "type": "string",
       "x-va-field": {
-        "label": "IF ADDED TO THE VA NATIONAL FORMULARY, WHAT IS THE POTENTIAL",
+        "label": "If Added To The VA National Formulary, What Is The Potential",
         "widget": "text"
       }
     },
     "1bIfYouResponded": {
       "type": "string",
       "x-va-field": {
-        "label": "1B. IF YOU RESPONDED",
+        "label": "1B. If You Responded",
         "widget": "radio"
       }
     },
     "references2": {
       "type": "string",
       "x-va-field": {
-        "label": "REFERENCES:",
+        "label": "References:",
         "widget": "text"
       }
     },
     "whatSafetyIssuesNeedToBeConsideredWhenMakingAFormu": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT SAFETY ISSUES NEED TO BE CONSIDERED WHEN MAKING A FORMU",
+        "label": "What Safety Issues Need To Be Considered When Making A Formu",
         "widget": "text"
       }
     }
@@ -289,10 +275,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form%20_10-313_.pdf",
     "totalFields": 40,
-    "composedFields": 40,
-    "coveragePercent": 98,
+    "composedFields": 38,
+    "coveragePercent": 100,
     "xfaLabelCount": 15,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:07.116Z",
     "pageCount": 2,
     "status": "digitized",
@@ -301,6 +287,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:16.082114+00:00"
   }
 }

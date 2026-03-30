@@ -5,63 +5,112 @@
   "properties": {
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "jf09": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf01": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf08": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf11": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf05": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf07": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf02": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf03": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf04": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf06": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf03100": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf05100": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf02100": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf01100": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "title14": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-0785-are.pdf",
     "status": "digitized",
     "totalFields": 17,
-    "composedFields": 2,
-    "coveragePercent": 12,
+    "composedFields": 16,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:38:26.090Z"
+    "generatedAt": "2026-03-28T17:38:26.090Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.152198+00:00"
   }
 }

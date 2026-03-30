@@ -5,57 +5,96 @@
   "properties": {
     "patientName": {
       "type": "string",
-      "description": "Patient's full name"
+      "description": "Patient's full name",
+      "x-va-field": {
+        "label": "Patient Name"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number"
+      "description": "Social Security Number",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "vaFileNumber": {
       "type": "string",
-      "description": "VA file number"
+      "description": "VA file number",
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "vaFacility": {
       "type": "string",
-      "description": "VA medical facility"
+      "description": "VA medical facility",
+      "x-va-field": {
+        "label": "VA Facility"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "patientSignature": {
       "type": "boolean",
-      "description": "Patient signature certification"
+      "description": "Patient signature certification",
+      "x-va-field": {
+        "label": "Patient Signature"
+      }
     },
     "physicianName": {
       "type": "string",
-      "description": "Physician's name"
+      "description": "Physician's name",
+      "x-va-field": {
+        "label": "Physician Name"
+      }
     },
     "physicianSignature": {
       "type": "boolean",
-      "description": "Physician's signature"
+      "description": "Physician's signature",
+      "x-va-field": {
+        "label": "Physician Signature"
+      }
     },
     "medicalHistory": {
       "type": "string",
-      "description": "Medical history"
+      "description": "Medical history",
+      "x-va-field": {
+        "label": "Medical History"
+      }
     },
     "currentMedications": {
       "type": "string",
-      "description": "Current medications"
+      "description": "Current medications",
+      "x-va-field": {
+        "label": "Current Medications"
+      }
     },
     "allergies": {
       "type": "string",
-      "description": "Allergies and adverse reactions"
+      "description": "Allergies and adverse reactions",
+      "x-va-field": {
+        "label": "Allergies"
+      }
     },
     "address": {
       "type": "object",
@@ -96,98 +135,180 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "email": {
       "type": "string",
-      "format": "email"
+      "format": "email",
+      "x-va-field": {
+        "label": "Email"
+      }
     },
     "emergencyContact": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Emergency Contact"
+      }
     },
     "emergencyContactPhone": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Emergency Contact Phone"
+      }
     },
     "insuranceCarrier": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insurance Carrier"
+      }
     },
     "insurancePolicyNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insurance Policy Number"
+      }
     },
     "groupNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Group Number"
+      }
     },
     "copayAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Copay Amount"
+      }
     },
     "deductible": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Deductible"
+      }
     },
     "outOfPocketMaximum": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Out of Pocket Maximum"
+      }
     },
     "preferredProvider": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Preferred Provider"
+      }
     },
     "clinicalHistory": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Clinical History"
+      }
     },
     "diagnosticResults": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Diagnostic Results"
+      }
     },
     "treatmentPlan": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Treatment Plan"
+      }
     },
     "followUpInstructions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Follow Up Instructions"
+      }
     },
     "prescriptionRefills": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Prescription Refills"
+      }
     },
     "referralsNeeded": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Referrals Needed"
+      }
     },
     "laboratoryOrders": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Laboratory Orders"
+      }
     },
     "imagingOrders": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Imaging Orders"
+      }
     },
     "consultationRequested": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Consultation Requested"
+      }
     },
     "dischargeInstructions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Discharge Instructions"
+      }
     },
     "specialInstructions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Special Instructions"
+      }
     },
     "visitNotes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Visit Notes"
+      }
     },
     "clinicalNotes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Clinical Notes"
+      }
     },
     "assessmentNotes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Assessment Notes"
+      }
     },
     "planNotes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan Notes"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_10079.pdf",
     "totalFields": 49,
-    "composedFields": 49,
+    "composedFields": 40,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "status": "digitized",
     "pageCount": 3,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.846096+00:00"
   }
 }

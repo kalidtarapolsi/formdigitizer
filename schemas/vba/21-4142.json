@@ -25,25 +25,13 @@
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberFirstThreeNumbers": {
+    "veteransSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F Page 1 Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Veterans Social Security Number",
+        "widget": "ssn"
       }
     },
     "vafileNumber": {
@@ -95,38 +83,26 @@
         "widget": "text"
       }
     },
-    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "mailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
-    "mailingAddressZiporPostalCodeLastFourNumbers": {
+    "telephoneNumber": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberAreaCode": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Telephone Number Area Code",
-        "widget": "text"
+        "label": "Telephone Number",
+        "widget": "phone"
       }
     },
     "telephoneNumberSecondThreeNumbers": {
       "type": "string",
       "x-va-field": {
         "label": "F Page 1 Telephone Number Second Three Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Telephone Number Last Four Numbers",
         "widget": "text"
       }
     },
@@ -165,25 +141,13 @@
         "widget": "text"
       }
     },
-    "patientSocialSecurityNumberFirstThreeNumbers": {
+    "patientSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F Page 1 Patient Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "patientSocialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Patient Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "patientSocialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Patient Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Patient Social Security Number",
+        "widget": "ssn"
       }
     },
     "patientsVafileNumberIfApplicable": {
@@ -193,228 +157,201 @@
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberFirstThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberSecondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
     "informationIsLimitedToWhatIsWrittenInThisSpace": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Information Is Limited To What Is Written In This Space",
+        "label": "Information is Limited to What is Written in This Space",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "printedNameOfPersonSigningFirst": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Printed Name Of Person Signing First",
+        "label": "Printed Name of Person Signing First",
         "widget": "text"
       }
     },
     "printedNameOfPersonSigningMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Printed Name Of Person Signing Middle Initial",
+        "label": "Printed Name of Person Signing Middle Initial",
         "widget": "text"
       }
     },
     "printedNameOfPersonSigningLast": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Printed Name Of Person Signing Last",
+        "label": "Printed Name of Person Signing Last",
         "widget": "text"
       }
     },
     "relationshipToVeteranClaimant": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Relationship To Veteran Claimant",
+        "label": "Relationship to Veteran Claimant",
         "widget": "text"
       }
     },
     "veteranFirstName2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veteran First Name",
+        "label": "Veteran First Name",
         "widget": "text"
       }
     },
     "veteranMiddleInitial12": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veteran Middle Initial1",
+        "label": "Veteran Middle Initial",
         "widget": "text"
       }
     },
     "veteranLastName2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veteran Last Name",
+        "label": "Veteran Last Name",
         "widget": "text"
       }
     },
     "ssn1": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform S S N1",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "ssn2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform S S N2",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "ssn3": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform S S N3",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "vafileNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "veteransServiceNumberIfApplicable2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veterans Service Number If Applicable",
+        "label": "Veterans Service Number If Applicable",
         "widget": "text"
       }
     },
     "patientsFirstName2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Patients First Name",
+        "label": "Patients First Name",
         "widget": "text"
       }
     },
     "patientMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Patient Middle Initial1",
+        "label": "Patient Middle Initial",
         "widget": "text"
       }
     },
     "patientsLastName2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Patients Last Name",
+        "label": "Patients Last Name",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "secondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "providerOrFacilityName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Provider Or Facility Name",
+        "label": "Provider or Facility Name",
         "widget": "text"
       }
     },
     "conditionsYouAreBeingTreatedFor": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Conditions You Are Being Treated For",
+        "label": "Conditions You Are Being Treated for",
         "widget": "text"
       }
     },
     "providerFacilityStreetAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Provider Facility Street Address Number And Street",
+        "label": "Provider Facility Street Address Number and Street",
         "widget": "text"
       }
     },
     "mailingAddressApartmentOrUnitNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Mailing Address Apartment Or Unit Number",
+        "label": "Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "providerFacilityAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Provider Facility Address City",
+        "label": "Provider Facility Address City",
         "widget": "text"
       }
     },
     "providerFacilityAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Provider Facility Address State Or Province",
+        "label": "Provider Facility Address State or Province",
         "widget": "text"
       }
     },
     "providerFacilityAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Provider Facility Address Country",
+        "label": "Provider Facility Address Country",
         "widget": "text"
       }
     },
-    "providerFacilityAddressZiporPostalCodeFirstFiveNumbers": {
+    "providerFacilityAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F #subform Provider Facility Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "providerFacilityAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Provider Facility Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Provider Facility Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "fPage_1CheckBox1": {
@@ -422,27 +359,6 @@
       "x-va-field": {
         "label": "F Page 1 Check Box1",
         "widget": "checkbox"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
       }
     },
     "veteranSNameFirstMiddleInitialLast": {
@@ -457,7 +373,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -508,7 +424,7 @@
     "sourceOfRecordS": {
       "type": "string",
       "x-va-field": {
-        "label": "SOURCE OF RECORD(S)",
+        "label": "Source Of Record(S)",
         "widget": "text"
       }
     },
@@ -537,35 +453,35 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
     "ifMyConsentToThisInformationIsLimitedTheLimitation": {
       "type": "string",
       "x-va-field": {
-        "label": "IF MY CONSENT TO THIS INFORMATION IS LIMITED, THE LIMITATION",
+        "label": "If My Consent To This Information Is Limited, The Limitation",
         "widget": "text"
       }
     },
     "toWhom": {
       "type": "string",
       "x-va-field": {
-        "label": "TO WHOM",
+        "label": "To Whom",
         "widget": "text"
       }
     },
     "purpose": {
       "type": "string",
       "x-va-field": {
-        "label": "PURPOSE",
+        "label": "Purpose",
         "widget": "text"
       }
     },
     "signatureOfPersonAuthorizingDisclosureRequired": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF PERSON AUTHORIZING DISCLOSURE (Required)",
+        "label": "Signature Of Person Authorizing Disclosure (Required)",
         "widget": "signature"
       }
     },
@@ -573,7 +489,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY) (Required)",
+        "label": "Date Signed (MM/DD/YYYY) (Required)",
         "widget": "date"
       }
     },
@@ -594,21 +510,21 @@
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
     "patientAcknowledgment": {
       "type": "string",
       "x-va-field": {
-        "label": "PATIENT ACKNOWLEDGMENT",
+        "label": "Patient Acknowledgment",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -623,7 +539,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -684,11 +600,17 @@
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "": {
       "type": "string",
@@ -699,10 +621,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4142-are.pdf",
     "status": "digitized",
     "totalFields": 105,
-    "composedFields": 98,
-    "coveragePercent": 98,
+    "composedFields": 85,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 5,
     "generatedAt": "2026-03-28T17:32:08.623Z",
     "postProcessedAt": "2026-03-30T20:02:41.695570+00:00",
@@ -710,6 +632,7 @@
     "extractionSources": [
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.300326+00:00"
   }
 }

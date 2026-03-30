@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,55 +53,92 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "date10": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "nameofNominee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameof Nominee"
+      }
     },
     "vaservicerId": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vaservicer ID"
+      }
     },
     "valenderId": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Valender ID"
+      }
     },
     "jf03100": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf02100": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf01100": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "jf05100": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jf"
+      }
     },
     "title14": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-0829-are.pdf",
     "status": "digitized",
     "totalFields": 17,
-    "composedFields": 9,
-    "coveragePercent": 53,
+    "composedFields": 13,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:38:23.457Z"
+    "generatedAt": "2026-03-28T17:38:23.457Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.152930+00:00"
   }
 }

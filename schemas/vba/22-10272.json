@@ -7,28 +7,21 @@
     "phoneNum": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone Num",
+        "label": "Phone Num",
         "widget": "text"
       }
     },
     "dateField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Field1",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Date Field",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -42,28 +35,28 @@
     "telephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "TELEPHONE NUMBER:",
+        "label": "Telephone Number:",
         "widget": "text"
       }
     },
     "nameOfTest": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF TEST",
+        "label": "Name Of Test",
         "widget": "text"
       }
     },
     "nameOfOrganizationAwardingLicenseOrCertificationIncl": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF ORGANIZATION AWARDING LICENSE OR CERTIFICATION (Incl",
+        "label": "Name Of Organization Awarding License Or Certification (Incl",
         "widget": "text"
       }
     },
     "nameOfCourse": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF COURSE",
+        "label": "Name Of Course",
         "widget": "text"
       }
     },
@@ -77,21 +70,21 @@
     "11aCourseStartDate": {
       "type": "string",
       "x-va-field": {
-        "label": "11A. COURSE START DATE (",
+        "label": "11A. Course Start Date (",
         "widget": "text"
       }
     },
     "11bCourseEndDate": {
       "type": "string",
       "x-va-field": {
-        "label": "11B. COURSE END DATE (",
+        "label": "11B. Course End Date (",
         "widget": "text"
       }
     },
     "itemizePrepCourseCostIncludingFeesAttachReceipt": {
       "type": "string",
       "x-va-field": {
-        "label": "ITEMIZE PREP COURSE COST INCLUDING FEES (Attach receipt)",
+        "label": "Itemize Prep Course Cost Including Fees (Attach Receipt)",
         "widget": "text"
       }
     },
@@ -105,28 +98,28 @@
     "includeVerificationOfEnrollmentFromYourPrepCoursePro": {
       "type": "string",
       "x-va-field": {
-        "label": "INCLUDE VERIFICATION OF ENROLLMENT FROM YOUR PREP COURSE PRO",
+        "label": "Include Verification Of Enrollment From Your Prep Course Pro",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "signatureOfApplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF APPLICANT",
+        "label": "Signature Of Applicant",
         "widget": "text"
       }
     },
@@ -134,7 +127,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (MM/DD/YYYY)",
+        "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -149,7 +142,7 @@
     "moreHelp": {
       "type": "string",
       "x-va-field": {
-        "label": "MORE HELP",
+        "label": "More Help",
         "widget": "text"
       }
     },
@@ -179,7 +172,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10272-are.pdf",
     "status": "digitized",
     "totalFields": 24,
-    "composedFields": 24,
+    "composedFields": 23,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -190,6 +183,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.111643+00:00"
   }
 }

@@ -7,91 +7,84 @@
     "policynumber": {
       "type": "string",
       "x-va-field": {
-        "label": "S 298485 #subform policynumber",
+        "label": "Policynumber",
         "widget": "text"
       }
     },
     "insfilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "S 298485 #subform insfilenumber",
+        "label": "Insfilenumber",
         "widget": "text"
       }
     },
     "firstmiddlelast": {
       "type": "string",
       "x-va-field": {
-        "label": "S 298485 #subform firstmiddlelast",
+        "label": "Firstmiddlelast",
         "widget": "text"
       }
     },
     "mailingaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "S 298485 #subform mailingaddress",
+        "label": "Mailingaddress",
         "widget": "text"
       }
     },
     "daytimephone": {
       "type": "string",
       "x-va-field": {
-        "label": "S 298485 #subform daytimephone",
+        "label": "Daytimephone",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "S 298485 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "S 298485 #subform Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "S 298485 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "emailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "EMAIL ADDRESS",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "insuranceFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "INSURANCE FILE NUMBER",
+        "label": "Insurance File Number",
         "widget": "text"
       }
     },
     "firstNameMiddleNameLastNameOfInsured": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST NAME - MIDDLE NAME - LAST NAME OF INSURED",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "First Name - Middle Name - Last Name Of Insured",
         "widget": "text"
       }
     },
     "pleaseSubmitThisApplicationWithYourFirstPremiumPayme": {
       "type": "string",
       "x-va-field": {
-        "label": "PLEASE SUBMIT THIS APPLICATION WITH YOUR FIRST PREMIUM PAYME",
+        "label": "Please Submit This Application With Your First Premium Payme",
         "widget": "text"
       }
     },
@@ -99,14 +92,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF APPLICATION",
+        "label": "Date Of Application",
         "widget": "date"
       }
     },
     "amountOfInsuranceAppliedFor": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT OF INSURANCE APPLIED FOR",
+        "label": "Amount Of Insurance Applied For",
         "widget": "text"
       }
     },
@@ -114,7 +107,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "DAYTIME TELEPHONE NUMBER",
+        "label": "Daytime Telephone Number",
         "widget": "phone"
       }
     },
@@ -128,14 +121,14 @@
     "mailTheCompletedFormTo": {
       "type": "string",
       "x-va-field": {
-        "label": "MAIL THE COMPLETED FORM TO",
+        "label": "Mail The Completed Form To",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     }
@@ -144,7 +137,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-8485a-are.pdf",
     "status": "digitized",
     "totalFields": 19,
-    "composedFields": 19,
+    "composedFields": 18,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -155,6 +148,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.289585+00:00"
   }
 }

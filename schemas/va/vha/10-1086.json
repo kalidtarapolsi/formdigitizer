@@ -5,36 +5,58 @@
   "properties": {
     "dateMmddyyyy": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Mmddyyyy"
+      }
     },
     "subjectName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subject Name"
+      }
     },
     "titleOfStudy": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title of Study"
+      }
     },
     "principleInvestigator": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Principle Investigator"
+      }
     },
     "vamc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vamc"
+      }
     },
     "descriptionOfResearchByInvestigator": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Description of Research by Investigator"
+      }
     },
     "subjectsIdentification": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subjects Identification"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1086.pdf",
     "totalFields": 7,
-    "composedFields": 1,
-    "coveragePercent": 14,
+    "composedFields": 7,
+    "coveragePercent": 100,
     "xfaLabelCount": 7,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:19:40.945Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.627456+00:00"
   }
 }

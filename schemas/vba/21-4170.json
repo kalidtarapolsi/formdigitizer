@@ -7,618 +7,591 @@
     "veteranFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran First Name",
+        "label": "Veteran First Name",
         "widget": "text"
       }
     },
     "veteranMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran Middle Initial",
+        "label": "Veteran Middle Initial",
         "widget": "text"
       }
     },
     "veteranLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran Last Name",
+        "label": "Veteran Last Name",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "secondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "servicenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S E R V I C E N U M B E R",
+        "label": "Servicenumber",
         "widget": "text"
       }
     },
-    "phoneAreaCode": {
+    "phone": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Form1 #subform Phone Area Code",
-        "widget": "text"
-      }
-    },
-    "phoneFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Phone First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "phoneLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Phone Last Four Numbers",
-        "widget": "text"
+        "label": "Phone",
+        "widget": "phone"
       }
     },
     "internationalNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform International Number",
+        "label": "International Number",
         "widget": "text"
       }
     },
     "spouseFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Spouse First Name",
+        "label": "Spouse First Name",
         "widget": "text"
       }
     },
     "spouseMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Spouse Middle Initial",
+        "label": "Spouse Middle Initial",
         "widget": "text"
       }
     },
     "spouseLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Spouse Last Name",
+        "label": "Spouse Last Name",
         "widget": "text"
       }
     },
     "firstThreeNumbersSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers Spouse",
+        "label": "First Three Numbers Spouse",
         "widget": "text"
       }
     },
     "secondTwoNumbersSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Second Two Numbers Spouse",
+        "label": "Second Two Numbers Spouse",
         "widget": "text"
       }
     },
     "lastFourNumbersSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers Spouse",
+        "label": "Last Four Numbers Spouse",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "namesKnownAsPrior": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Names Known As Prior",
+        "label": "Names Known As Prior",
         "widget": "text"
       }
     },
     "beganLivingTogetherNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Began Living Together Number And Street",
+        "label": "Began Living Together Number and Street",
         "widget": "text"
       }
     },
     "beganLivingTogetherApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Began Living Together Apartment Or Unit Number",
+        "label": "Began Living Together Apartment or Unit Number",
         "widget": "text"
       }
     },
     "beganLivingTogetherCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Began Living Together City",
+        "label": "Began Living Together City",
         "widget": "text"
       }
     },
     "beganLivingTogetherStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Began Living Together State Or Province",
+        "label": "Began Living Together State or Province",
         "widget": "text"
       }
     },
     "beganLivingTogetherCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Began Living Together Country",
+        "label": "Began Living Together Country",
         "widget": "text"
       }
     },
-    "beganLivingTogetherZiporPostalCodeFirstFiveNumbers": {
+    "beganLivingTogetherZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Began Living Together Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "beganLivingTogetherZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Began Living Together Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Began Living Together ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "relationshipStatus11e": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Relationship S Tatus11 E",
+        "label": "Relationship Status11e",
         "widget": "text"
       }
     },
     "from": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "From"
+      }
     },
     "to": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "To"
+      }
     },
     "reasonForSeparation1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Reason For Separation1",
+        "label": "Reason for Separation",
         "widget": "text"
       }
     },
     "reasonForSeparation2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Reason For Separation2",
+        "label": "Reason for Separation",
         "widget": "text"
       }
     },
     "reasonForSeparation3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Reason For Separation3",
+        "label": "Reason for Separation",
         "widget": "text"
       }
     },
     "reasonForSeparation4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 Reason For Separation4",
+        "label": "Reason for Separation",
         "widget": "text"
       }
     },
     "address1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Address1",
+        "label": "Address",
         "widget": "text"
       }
     },
     "address2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Address2",
+        "label": "Address",
         "widget": "text"
       }
     },
     "address3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Address3",
+        "label": "Address",
         "widget": "text"
       }
     },
     "fullNameOfChild1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row1 Full Name Of Child1",
+        "label": "Full Name of Child",
         "widget": "text"
       }
     },
     "placeOfBirth1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row1 Place Of Birth1",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
     "fullNameOfChild2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row2 Full Name Of Child2",
+        "label": "Full Name of Child",
         "widget": "text"
       }
     },
     "placeOfBirth2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row2 Place Of Birth2",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
     "fullNameOfChild3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row3 Full Name Of Child3",
+        "label": "Full Name of Child",
         "widget": "text"
       }
     },
     "placeOfBirth3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row3 Place Of Birth3",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
     "fullNameOfChild4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row4 Full Name Of Child4",
+        "label": "Full Name of Child",
         "widget": "text"
       }
     },
     "placeOfBirth4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row4 Place Of Birth4",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
     "fullNameOfChild5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row5 Full Name Of Child5",
+        "label": "Full Name of Child",
         "widget": "text"
       }
     },
     "placeOfBirth5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row5 Place Of Birth5",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
     "fullNameOfChild6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row6 Full Name Of Child6",
+        "label": "Full Name of Child",
         "widget": "text"
       }
     },
     "placeOfBirth6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row6 Place Of Birth6",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
     "fullNameOfChild7": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row7 Full Name Of Child7",
+        "label": "Full Name of Child",
         "widget": "text"
       }
     },
     "placeOfBirth7": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row7 Place Of Birth7",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
     "fullNameOfChild8": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row8 Full Name Of Child8",
+        "label": "Full Name of Child",
         "widget": "text"
       }
     },
     "placeOfBirth8": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table2 Row8 Place Of Birth8",
+        "label": "Place of Birth",
         "widget": "text"
       }
     },
     "place1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Place1",
+        "label": "Place",
         "widget": "text"
       }
     },
     "toWhomMarried1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 To Whom Married1",
+        "label": "To Whom Married",
         "widget": "text"
       }
     },
     "place2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Place2",
+        "label": "Place",
         "widget": "text"
       }
     },
     "howMarriageEnded1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 How Marriage Ended1",
+        "label": "How Marriage Ended",
         "widget": "text"
       }
     },
     "place3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Place3",
+        "label": "Place",
         "widget": "text"
       }
     },
     "toWhomMarried2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 To Whom Married2",
+        "label": "To Whom Married",
         "widget": "text"
       }
     },
     "place4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Place4",
+        "label": "Place",
         "widget": "text"
       }
     },
     "howMarriageEnded2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 How Marriage Ended2",
+        "label": "How Marriage Ended",
         "widget": "text"
       }
     },
     "dateMarriage": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Marriage"
+      }
     },
     "place5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Place5",
+        "label": "Place",
         "widget": "text"
       }
     },
     "toWhomMarried3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 To Whom Married3",
+        "label": "To Whom Married",
         "widget": "text"
       }
     },
     "dateMarriageEnded": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Marriage Ended"
+      }
     },
     "place6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Place6",
+        "label": "Place",
         "widget": "text"
       }
     },
     "howMarriageEnded3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 How Marriage Ended3",
+        "label": "How Marriage Ended",
         "widget": "text"
       }
     },
     "place7": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Place7",
+        "label": "Place",
         "widget": "text"
       }
     },
     "toWhomMarried4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 To Whom Married4",
+        "label": "To Whom Married",
         "widget": "text"
       }
     },
     "place8": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Place8",
+        "label": "Place",
         "widget": "text"
       }
     },
     "howMarriageEnded4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 How Marriage Ended4",
+        "label": "How Marriage Ended",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Remarks",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "signatureVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Veteran",
+        "label": "Signature Veteran",
         "widget": "text"
       }
     },
     "dateSigned18b": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed18 B",
+        "label": "Date Signed18b",
         "widget": "text"
       }
     },
     "signatureSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Spouse",
+        "label": "Signature Spouse",
         "widget": "text"
       }
     },
     "dateSigned19b": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed19 B",
+        "label": "Date Signed19b",
         "widget": "text"
       }
     },
     "signatureFieldWitness1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field Witness1",
+        "label": "Signature Field Witness",
         "widget": "text"
       }
     },
     "addressWitness1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address Witness1",
+        "label": "Address Witness",
         "widget": "text"
       }
     },
     "signatureFieldWitness2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field Witness2",
+        "label": "Signature Field Witness",
         "widget": "text"
       }
     },
     "addressWitness2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address Witness2",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Address Witness",
         "widget": "text"
       }
     },
     "statementOfMaritalRelationship": {
       "type": "string",
       "x-va-field": {
-        "label": "STATEMENT OF MARITAL RELATIONSHIP",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Statement Of Marital Relationship",
         "widget": "text"
       }
     },
     "importantInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT INFORMATION",
+        "label": "Important Information",
         "widget": "text"
       }
     },
@@ -626,13 +599,6 @@
       "type": "string",
       "x-va-field": {
         "label": "veteran. Note",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
         "widget": "text"
       }
     },
@@ -648,7 +614,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -680,7 +646,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER OF SPOUSE OR SURVIVING SPOUSE",
+        "label": "Social Security Number Of Spouse Or Surviving Spouse",
         "widget": "ssn"
       }
     },
@@ -688,7 +654,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH OF SPOUSE OR SURVIVING SPOUSE (MM/DD/YYYY)",
+        "label": "Date Of Birth Of Spouse Or Surviving Spouse (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -710,7 +676,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "11A. DATE YOU BEGAN LIVING AS MARITAL PARTNERS (",
+        "label": "11A. Date You Began Living As Marital Partners (",
         "widget": "date"
       }
     },
@@ -724,7 +690,7 @@
     "listAllPeriodsOfSeparation": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST ALL PERIODS OF SEPARATION",
+        "label": "List All Periods Of Separation",
         "widget": "text"
       }
     },
@@ -732,7 +698,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "BEGINNING",
+        "label": "Beginning",
         "widget": "date"
       }
     },
@@ -740,21 +706,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "ENDING",
+        "label": "Ending",
         "widget": "date"
       }
     },
     "listAllPeriodsOfTimeAndPlacesWhereYouLivedAsMarit": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST ALL PERIODS OF TIME AND PLACES WHERE YOU LIVED AS MARIT",
+        "label": "List All Periods Of Time And Places Where You Lived As Marit",
         "widget": "text"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS",
+        "label": "Address",
         "widget": "address"
       }
     },
@@ -853,42 +819,51 @@
     "18aSignatureOfVeteranRequired_18b": {
       "type": "string",
       "x-va-field": {
-        "label": "18A. SIGNATURE OF VETERAN (REQUIRED)18B.",
+        "label": "18A. Signature Of Veteran (Required)18B.",
         "widget": "signature"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     },
     "dobspouse": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dobspouse"
+      }
     },
     "livingTogether": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Living Together"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4170-are.pdf",
     "status": "digitized",
     "totalFields": 188,
-    "composedFields": 126,
+    "composedFields": 119,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -900,6 +875,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.304349+00:00"
   }
 }

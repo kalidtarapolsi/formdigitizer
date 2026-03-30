@@ -77,56 +77,56 @@
     "mailThisFormTo": {
       "type": "string",
       "x-va-field": {
-        "label": "MAIL THIS FORM TO",
+        "label": "Mail This Form To",
         "widget": "text"
       }
     },
     "addresses": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESSES.",
+        "label": "Addresses.",
         "widget": "text"
       }
     },
     "nameLastFirstMiddleOfVeteran_2AddressOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME (Last, First, Middle) OF VETERAN:2. ADDRESS OF VETERAN",
+        "label": "Name (Last, First, Middle) Of Veteran:2. Address Of Veteran",
         "widget": "text"
       }
     },
     "dateOfBirth": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF BIRTH",
+        "label": "Date Of Birth",
         "widget": "text"
       }
     },
     "periodOfActiveService": {
       "type": "string",
       "x-va-field": {
-        "label": "PERIOD OF ACTIVE SERVICE",
+        "label": "Period Of Active Service",
         "widget": "text"
       }
     },
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME",
+        "label": "Name",
         "widget": "text"
       }
     },
     "serviceNumberOr": {
       "type": "string",
       "x-va-field": {
-        "label": "SERVICE NUMBER OR",
+        "label": "Service Number Or",
         "widget": "text"
       }
     },
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "text"
       }
     },
@@ -140,7 +140,7 @@
     "dischargeOrSeparationPapersReturnedTo": {
       "type": "string",
       "x-va-field": {
-        "label": "DISCHARGE OR SEPARATION PAPERS RETURNED TO",
+        "label": "Discharge Or Separation Papers Returned To",
         "widget": "text"
       }
     },
@@ -148,14 +148,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SIGNATURE OF VETERAN (Sign in ink):8. DATE (MM/DD/YYYY):",
+        "label": "Signature Of Veteran (Sign In Ink):8. Date (MM/DD/YYYY):",
         "widget": "date"
       }
     },
     "fileReference_9aNameOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "FILE REFERENCE:9A. NAME OF VETERAN:",
+        "label": "File Reference:9A. Name Of Veteran:",
         "widget": "text"
       }
     },
@@ -163,49 +163,35 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE  (MM/DD/YYYY)",
+        "label": "Date  (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "returnTo2": {
       "type": "string",
       "x-va-field": {
-        "label": "RETURN TO:",
+        "label": "Return To:",
         "widget": "text"
       }
     },
     "enclosures": {
       "type": "string",
       "x-va-field": {
-        "label": "ENCLOSURES",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Enclosures",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "importantInstructions": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT INSTRUCTIONS",
+        "label": "Important Instructions",
         "widget": "text"
       }
     },
@@ -215,20 +201,13 @@
         "label": "OTHER (Specify)",
         "widget": "text"
       }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8261a-are.pdf",
     "status": "digitized",
     "totalFields": 31,
-    "composedFields": 31,
+    "composedFields": 28,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -239,6 +218,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.512349+00:00"
   }
 }

@@ -7,91 +7,77 @@
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Topmost Subform Page1 Signature Field11",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME:",
+        "label": "Name:",
         "widget": "text"
       }
     },
     "dateOfNotificationOfOptOutMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF NOTIFICATION OF OPT OUT (MM/DD/YYYY):",
+        "label": "Date Of Notification Of Opt Out (MM/DD/YYYY):",
         "widget": "text"
       }
     },
     "position": {
       "type": "string",
       "x-va-field": {
-        "label": "POSITION:",
+        "label": "Position:",
         "widget": "text"
       }
     },
     "applicant": {
       "type": "string",
       "x-va-field": {
-        "label": "APPLICANT:",
+        "label": "Applicant:",
         "widget": "text"
       }
     },
     "assignmentSpecialty_6DutyStation": {
       "type": "string",
       "x-va-field": {
-        "label": "ASSIGNMENT/SPECIALTY:6. DUTY STATION:",
+        "label": "Assignment/Specialty:6. Duty Station:",
         "widget": "text"
       }
     },
     "emailAddress_8TelephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "EMAIL ADDRESS:8. TELEPHONE NUMBER:",
+        "label": "Email Address:8. Telephone Number:",
         "widget": "text"
       }
     },
     "supervisor": {
       "type": "string",
       "x-va-field": {
-        "label": "SUPERVISOR:",
+        "label": "Supervisor:",
         "widget": "text"
-      }
-    },
-    "topmostSubformPage1CheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Topmost Subform Page1 Check Box1",
-        "widget": "checkbox"
       }
     },
     "physicianPhysicianTraineeIsOptingOutOfCheckAppropri": {
       "type": "string",
       "x-va-field": {
-        "label": "PHYSICIAN/PHYSICIAN TRAINEE IS OPTING OUT OF (Check appropri",
+        "label": "Physician/Physician Trainee Is Opting Out Of (Check Appropri",
         "widget": "text"
       }
     },
     "otherPertinentInformationFromPhysicianPhysicianTrainee": {
       "type": "string",
       "x-va-field": {
-        "label": "OTHER PERTINENT INFORMATION FROM PHYSICIAN/PHYSICIAN TRAINEE",
+        "label": "Other Pertinent Information From Physician/Physician Trainee",
         "widget": "text"
       }
     },
@@ -105,14 +91,14 @@
     "physicianPhysicianTraineeSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "PHYSICIAN/PHYSICIAN TRAINEE SIGNATURE:",
+        "label": "Physician/Physician Trainee Signature:",
         "widget": "signature"
       }
     },
     "supervisorSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "SUPERVISOR SIGNATURE:",
+        "label": "Supervisor Signature:",
         "widget": "signature"
       }
     }
@@ -120,10 +106,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-329.pdf",
     "totalFields": 16,
-    "composedFields": 16,
-    "coveragePercent": 94,
+    "composedFields": 14,
+    "coveragePercent": 100,
     "xfaLabelCount": 6,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:06:40.648Z",
     "pageCount": 1,
     "status": "digitized",
@@ -132,6 +118,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:16.086075+00:00"
   }
 }

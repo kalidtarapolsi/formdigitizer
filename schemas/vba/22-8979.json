@@ -214,18 +214,11 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "termDatesOfEnrollmentMmDdYyyy": {
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "TERM DATES OF ENROLLMENT (MM/DD/YYYY)",
+        "label": "Term Dates Of Enrollment (MM/DD/YYYY)",
         "widget": "date"
       }
     },
@@ -235,13 +228,6 @@
       "x-va-field": {
         "label": "12B.",
         "widget": "date"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
       }
     },
     "ifYouHaveCompletelyWithdrawnFromTrainingPleaseProvi": {
@@ -257,7 +243,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER OF STUDENT",
+        "label": "Social Security Number Of Student",
         "widget": "ssn"
       }
     },
@@ -271,7 +257,7 @@
     "sexOfStudent": {
       "type": "string",
       "x-va-field": {
-        "label": "SEX OF STUDENT",
+        "label": "Sex Of Student",
         "widget": "text"
       }
     },
@@ -279,7 +265,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "STUDENT'S DATE OF BIRTH",
+        "label": "Student'S Date Of Birth",
         "widget": "date"
       }
     },
@@ -293,7 +279,7 @@
     "studentSAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "STUDENT'S ADDRESS",
+        "label": "Student'S Address",
         "widget": "address"
       }
     },
@@ -314,7 +300,7 @@
     "provideTheFullNameAndAddressOfTheSchool": {
       "type": "string",
       "x-va-field": {
-        "label": "PROVIDE THE FULL NAME AND ADDRESS OF THE SCHOOL",
+        "label": "Provide The Full Name And Address Of The School",
         "widget": "address"
       }
     },
@@ -322,7 +308,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "BEGIN DATE OF TERM (",
+        "label": "Begin Date Of Term (",
         "widget": "date"
       }
     },
@@ -330,14 +316,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "END DATE OF TERM (",
+        "label": "End Date Of Term (",
         "widget": "date"
       }
     },
     "iWasEnrolledAsCertifiedByMySchoolSinceTheLastVeri": {
       "type": "string",
       "x-va-field": {
-        "label": "I WAS ENROLLED AS CERTIFIED BY MY SCHOOL SINCE THE LAST VERI",
+        "label": "I Was Enrolled As Certified By My School Since The Last Veri",
         "widget": "text"
       }
     },
@@ -345,7 +331,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "10A. DATE OF CHANGE IN HOURS (",
+        "label": "10A. Date Of Change In Hours (",
         "widget": "date"
       }
     },
@@ -359,14 +345,14 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "completionOfThisForm": {
       "type": "string",
       "x-va-field": {
-        "label": "COMPLETION OF THIS FORM",
+        "label": "Completion Of This Form",
         "widget": "text"
       }
     },
@@ -424,7 +410,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-8979-are.pdf",
     "status": "digitized",
     "totalFields": 58,
-    "composedFields": 58,
+    "composedFields": 56,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -435,6 +421,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.461855+00:00"
   }
 }

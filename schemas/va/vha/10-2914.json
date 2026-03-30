@@ -4,16 +4,28 @@
   "type": "object",
   "properties": {
     "12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "12"
+      }
     },
     "15": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "15"
+      }
     },
     "22": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "22"
+      }
     },
     "24": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "24"
+      }
     },
     "address": {
       "type": "object",
@@ -54,246 +66,472 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "13DateOfExamination": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "13Date of Examination"
+      }
     },
     "25OrderDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "25Order Date"
+      }
     },
     "26EstimatedDeliveryDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "26Estimated Delivery Date"
+      }
     },
     "28SignatureDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "28Signature Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "orderingFacilityEyeClinic": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ordering Facility Eye Clinic"
+      }
     },
     "11bEyeClinic": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "11b Eye Clinic"
+      }
     },
     "vaEyeClinicDeliveryPoint": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Eye Clinic Delivery Point"
+      }
     },
     "orderingVaMedicalC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ordering VA Medical C"
+      }
     },
     "1EnterVeteransNameLastFirstMiddleInitialThisIsAMandatoryField": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "1Enter Veteran's Name Last First Middle Initial This is a Mandatory Field"
+      }
     },
     "orderingFacilityProsthetic": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ordering Facility Prosthetic"
+      }
     },
     "11CProsthetics": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "11C Prosthetics"
+      }
     },
     "10cOther": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "10c Other"
+      }
     },
     "10bTint": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "10b Tint"
+      }
     },
     "7CFrameOnly": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "7C Frame Only"
+      }
     },
     "7b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "7b"
+      }
     },
     "7ALensesOnly": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "7A Lenses Only"
+      }
     },
     "8cSafetyLenses": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "8c Safety Lenses"
+      }
     },
     "8bPlasticLenses": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "8b Plastic Lenses"
+      }
     },
     "8AGlass": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "8A Glass"
+      }
     },
     "9cTriFocal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "9c Tri Focal"
+      }
     },
     "9bBifocal": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "9b Bifocal"
+      }
     },
     "9aSingleVision": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "9a Single Vision"
+      }
     },
     "vaProstheticsDeliveryPoint": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Prosthetics Delivery Point"
+      }
     },
     "ss1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ss"
+      }
     },
     "3a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "3a"
+      }
     },
     "3b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "3b"
+      }
     },
     "3c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "3c"
+      }
     },
     "3d": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "3d"
+      }
     },
     "4d": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "4d"
+      }
     },
     "baseRightDistance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Base Right Distance"
+      }
     },
     "baseLeftDistance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Base Left Distance"
+      }
     },
     "bcRightDistance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bc Right Distance"
+      }
     },
     "bcLeftDistance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bc Left Distance"
+      }
     },
     "3g": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "3g"
+      }
     },
     "5A": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "5A"
+      }
     },
     "5b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "5b"
+      }
     },
-    "field_vha102914_0___subform_0__Type_right1_0_": {
-      "type": "string"
+    "typeRight10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Type Right"
+      }
     },
-    "field_vha102914_0___subform_0__Type_left1_0_": {
-      "type": "string"
+    "typeLeft10": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Type Left"
+      }
     },
     "5d": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "5d"
+      }
     },
     "5e": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "5e"
+      }
     },
     "5f": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "5f"
+      }
     },
     "5g": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "5g"
+      }
     },
     "specInst1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Spec Inst"
+      }
     },
     "6a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "6a"
+      }
     },
     "6b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "6b"
+      }
     },
     "6c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "6c"
+      }
     },
     "6d": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "6d"
+      }
     },
     "bridgeSize": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bridge Size"
+      }
     },
     "entertempleLengthStyle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Entertemple Length Style"
+      }
     },
     "to14a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To14a"
+      }
     },
     "to14b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To14b"
+      }
     },
     "sC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "S C"
+      }
     },
     "nsc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nsc"
+      }
     },
     "rightLensContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Right Lens Contract Item"
+      }
     },
     "rightLensCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Right Lens Cost"
+      }
     },
     "leftLensContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Left Lens Contract Item"
+      }
     },
     "leftLensCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Left Lens Cost"
+      }
     },
     "lensTintContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lens Tint Contract Item"
+      }
     },
     "lensTintCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lens Tint Cost"
+      }
     },
     "frameCompleteContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frame Complete Contract Item"
+      }
     },
     "frameCompleteCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frame Complete Cost"
+      }
     },
     "frameFrontOnlyContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frame Front Only Contract Item"
+      }
     },
     "frameFrontOnlyCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frame Front Only Cost"
+      }
     },
     "frameTempleRightContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frame Temple Right Contract Item"
+      }
     },
     "frameTempleRightCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frame Temple Right Cost"
+      }
     },
     "frameTempleLeftContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frame Temple Left Contract Item"
+      }
     },
     "frameTempleLeftCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Frame Temple Left Cost"
+      }
     },
     "otherContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Contract Item"
+      }
     },
     "otherCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Cost"
+      }
     },
     "caseContractItem": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Case Contract Item"
+      }
     },
     "caseCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Case Cost"
+      }
     },
     "totalCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Cost"
+      }
     },
     "entertitleOfApprovingOfficial": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Entertitle of Approving Official"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2914-fill.pdf",
     "totalFields": 96,
-    "composedFields": 85,
-    "coveragePercent": 14,
+    "composedFields": 79,
+    "coveragePercent": 100,
     "xfaLabelCount": 89,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:55.155Z",
     "pageCount": 1,
     "status": "digitized",
-    "postProcessedAt": "2026-03-30T20:02:41.641114+00:00"
+    "postProcessedAt": "2026-03-30T20:02:41.641114+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.704636+00:00"
   }
 }

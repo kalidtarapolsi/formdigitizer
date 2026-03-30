@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,92 +53,159 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "licenseExpirationDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "License Expiration Date"
+      }
     },
     "dateSignedMmddyyyy": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed Mmddyyyy"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "ofProviderCheckOnlyOneC": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Of Provider Check Only One C"
+      }
     },
     "ofProviderCheckOnlyOneFamilyChildCareHomeCheckbox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Of Provider Check Only One Family Child Care Home Checkbox"
+      }
     },
     "childCareServicesCheckOnlyOneFulltimeCareCheckbox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Child Care Services Check Only One Fulltime Care Checkbox"
+      }
     },
     "childCareServicesCheckOnlyOneBeforeSchoolCareCheckbox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Child Care Services Check Only One Before School Care Checkbox"
+      }
     },
     "childCareServicesCheckOnlyOneAfterSchoolCareCheckbox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Child Care Services Check Only One After School Care Checkbox"
+      }
     },
     "childCareServicesCheckOnlyOneBeforeAndAfterSchoolCareCheckbox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Child Care Services Check Only One Before and After School Care Checkbox"
+      }
     },
     "cDoesTheChildReceiveAnyOtherSubsidyIfYesCompleteItemsDAndEYesCheckboxLine3Of3": {
-      "type": "boolean"
-    },
-    "noCheckboxLine3Of3": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "C Does the Child Receive Any Other Subsidy If Yes Complete Items D and E Yes Checkbox Line3Of"
+      }
     },
     "previousChildCareProvider": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Previous Child Care Provider"
+      }
     },
     "aEnterNameOfEachChildLastFirstMiddleInitialLine1Of3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Enter Name of Each Child Last First Middle Initial Line1Of"
+      }
     },
     "aEnterNameOfEachChildLastFirstMiddleInitialLine2Of3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Enter Name of Each Child Last First Middle Initial Line2Of"
+      }
     },
     "aEnterNameOfEachChildLastFirstMiddleInitialLine3Of3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Enter Name of Each Child Last First Middle Initial Line3Of"
+      }
     },
     "nameOfVAC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of VAC"
+      }
     },
     "licenseNumberOfProvider": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "License Number of Provider"
+      }
     },
     "inWhichLicenseIsIssued": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Which License is Issued"
+      }
     },
     "d": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "D"
+      }
     },
     "e": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "E"
+      }
     },
     "f": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "F"
+      }
     },
     "b": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0730i.pdf",
     "totalFields": 49,
-    "composedFields": 34,
-    "coveragePercent": 69,
+    "composedFields": 24,
+    "coveragePercent": 100,
     "xfaLabelCount": 34,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:27:38.455Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:15.956174+00:00"
   }
 }

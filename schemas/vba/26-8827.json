@@ -7,63 +7,63 @@
     "homePhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Home Phone",
+        "label": "Home Phone",
         "widget": "text"
       }
     },
     "workPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Work Phone",
+        "label": "Work Phone",
         "widget": "text"
       }
     },
     "nameAddressComplaint": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name Address Complaint",
+        "label": "Name Address Complaint",
         "widget": "text"
       }
     },
     "complaintPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Complaint Phone",
+        "label": "Complaint Phone",
         "widget": "text"
       }
     },
     "nameAddressCompany": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name Address Company",
+        "label": "Name Address Company",
         "widget": "text"
       }
     },
     "summaryComplaint": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Summary Complaint",
+        "label": "Summary Complaint",
         "widget": "text"
       }
     },
     "reasonDiscrimination": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Reason Discrimination",
+        "label": "Reason Discrimination",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "date1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date1",
+        "label": "Date",
         "widget": "text"
       }
     },
@@ -72,13 +72,6 @@
       "x-va-field": {
         "label": "YOUR NAME AND ADDRESS (Number and street or rural route, cit",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
       }
     },
     "yourTelephoneNumbersIncludingAreaCodes": {
@@ -98,7 +91,7 @@
     "nameAndAddressOfPersonCheckedInItem_3": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF PERSON CHECKED IN ITEM 3",
+        "label": "Name And Address Of Person Checked In Item 3",
         "widget": "address"
       }
     },
@@ -106,7 +99,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "TELEPHONE NUMBER OF PERSON CHECKED",
+        "label": "Telephone Number Of Person Checked",
         "widget": "phone"
       }
     },
@@ -120,14 +113,14 @@
     "whyDoYouBelieveYouWereDiscriminatedAgainstRaceR": {
       "type": "string",
       "x-va-field": {
-        "label": "WHY DO YOU BELIEVE YOU WERE DISCRIMINATED AGAINST?  (Race, r",
+        "label": "Why Do You Believe You Were Discriminated Against?  (Race, R",
         "widget": "text"
       }
     },
     "9aSignature9b": {
       "type": "string",
       "x-va-field": {
-        "label": "9A.  SIGNATURE9B.",
+        "label": "9A.  Signature9B.",
         "widget": "signature"
       }
     }
@@ -136,10 +129,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8827-are.pdf",
     "status": "digitized",
     "totalFields": 18,
-    "composedFields": 18,
-    "coveragePercent": 94,
+    "composedFields": 17,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 1,
     "generatedAt": "2026-03-28T17:38:18.525Z",
     "redigitizedAt": "2026-03-30T20:39:30.605Z",
@@ -147,6 +140,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.232762+00:00"
   }
 }

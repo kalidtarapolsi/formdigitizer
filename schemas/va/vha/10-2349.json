@@ -5,67 +5,112 @@
   "properties": {
     "veteranFullName": {
       "type": "string",
-      "description": "Veteran's full name (last, first, middle)"
+      "description": "Veteran's full name (last, first, middle)",
+      "x-va-field": {
+        "label": "Veteran Full Name"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number (last 4 digits)"
+      "description": "Social Security Number (last 4 digits)",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "vaFileNumber": {
       "type": "string",
-      "description": "VA file number"
+      "description": "VA file number",
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "vaFacilityName": {
       "type": "string",
-      "description": "VA medical facility name"
+      "description": "VA medical facility name",
+      "x-va-field": {
+        "label": "VA Facility Name"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "specimenType": {
       "type": "string",
-      "description": "Type of specimen"
+      "description": "Type of specimen",
+      "x-va-field": {
+        "label": "Specimen Type"
+      }
     },
     "testOrdered": {
       "type": "string",
-      "description": "Test ordered"
+      "description": "Test ordered",
+      "x-va-field": {
+        "label": "Test Ordered"
+      }
     },
     "collectionDate": {
       "type": "string",
       "format": "date",
-      "description": "Specimen collection date"
+      "description": "Specimen collection date",
+      "x-va-field": {
+        "label": "Collection Date"
+      }
     },
     "collectedBy": {
       "type": "string",
-      "description": "Name of collector"
+      "description": "Name of collector",
+      "x-va-field": {
+        "label": "Collected by"
+      }
     },
     "results": {
       "type": "string",
-      "description": "Test results"
+      "description": "Test results",
+      "x-va-field": {
+        "label": "Results"
+      }
     },
     "normalRange": {
       "type": "string",
-      "description": "Normal reference range"
+      "description": "Normal reference range",
+      "x-va-field": {
+        "label": "Normal Range"
+      }
     },
     "pathologistName": {
       "type": "string",
-      "description": "Pathologist/technician name"
+      "description": "Pathologist/technician name",
+      "x-va-field": {
+        "label": "Pathologist Name"
+      }
     },
     "reportDate": {
       "type": "string",
       "format": "date",
-      "description": "Report date"
+      "description": "Report date",
+      "x-va-field": {
+        "label": "Report Date"
+      }
     }
   },
   "x-va-metadata": {
@@ -78,6 +123,7 @@
     "status": "digitized",
     "pageCount": 1,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.654328+00:00"
   }
 }

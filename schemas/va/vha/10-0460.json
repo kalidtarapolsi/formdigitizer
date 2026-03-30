@@ -4,402 +4,276 @@
   "type": "object",
   "required": [],
   "properties": {
-    "#subformTable1Row1Cell1": {
+    "cell1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row1Cell2": {
+    "cell2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field": {
+    "field": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 #field",
+        "label": "Field",
         "widget": "text"
       }
     },
-    "#subformTable1Row2Cell1": {
+    "cell12": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row2Cell2": {
+    "cell22": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field2": {
+    "cell13": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row3Cell1": {
+    "cell23": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row3Cell2": {
+    "cell14": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field3": {
+    "cell24": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row4Cell1": {
+    "cell15": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row4Cell2": {
+    "cell25": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field4": {
+    "cell16": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row5Cell1": {
+    "cell26": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row5 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row5Cell2": {
+    "cell17": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row5 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field5": {
+    "cell27": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row5 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row6Cell1": {
+    "cell18": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row6 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row6Cell2": {
+    "cell28": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row6 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field6": {
+    "cell19": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row6 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row7Cell1": {
+    "cell29": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row7 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row7Cell2": {
+    "cell110": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row7 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field7": {
+    "cell210": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row7 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row8Cell1": {
+    "cell111": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row8 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row8Cell2": {
+    "cell211": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row8 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field8": {
+    "cell112": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row8 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row9Cell1": {
+    "cell212": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row9 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row9Cell2": {
+    "cell113": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row9 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field9": {
+    "cell213": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row9 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row10Cell1": {
+    "cell114": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row10 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row10Cell2": {
+    "cell214": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row10 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field10": {
+    "cell115": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row10 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row11Cell1": {
+    "cell215": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row11 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row11Cell2": {
+    "cell116": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row11 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field11": {
+    "cell216": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row11 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row12Cell1": {
+    "cell117": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row12 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row12Cell2": {
+    "cell217": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row12 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field12": {
+    "cell118": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row12 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row13Cell1": {
+    "cell218": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row13 Cell1",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#subformTable1Row13Cell2": {
+    "cell119": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row13 Cell2",
+        "label": "Cell",
         "widget": "text"
       }
     },
-    "#field13": {
+    "cell219": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row13 #field",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row14Cell1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row14 Cell1",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row14Cell2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row14 Cell2",
-        "widget": "text"
-      }
-    },
-    "#field14": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row14 #field",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row15Cell1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row15 Cell1",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row15Cell2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row15 Cell2",
-        "widget": "text"
-      }
-    },
-    "#field15": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row15 #field",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row16Cell1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row16 Cell1",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row16Cell2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row16 Cell2",
-        "widget": "text"
-      }
-    },
-    "#field16": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row16 #field",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row17Cell1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row17 Cell1",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row17Cell2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row17 Cell2",
-        "widget": "text"
-      }
-    },
-    "#field17": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row17 #field",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row18Cell1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row18 Cell1",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row18Cell2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row18 Cell2",
-        "widget": "text"
-      }
-    },
-    "#field18": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row18 #field",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row19Cell1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row19 Cell1",
-        "widget": "text"
-      }
-    },
-    "#subformTable1Row19Cell2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row19 Cell2",
-        "widget": "text"
-      }
-    },
-    "#field19": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Table1 Row19 #field",
+        "label": "Cell",
         "widget": "text"
       }
     },
@@ -422,13 +296,6 @@
       "x-va-field": {
         "label": "State Nursing Home.",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
       }
     },
     "signatureOfVeteranApplyingForBenefit": {
@@ -505,10 +372,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-Form-10-0460-fill.pdf",
     "totalFields": 71,
-    "composedFields": 71,
-    "coveragePercent": 45,
+    "composedFields": 52,
+    "coveragePercent": 27,
     "xfaLabelCount": 2,
-    "needsReviewCount": 39,
+    "needsReviewCount": 38,
     "generatedAt": "2026-03-28T21:20:39.228Z",
     "pageCount": 3,
     "status": "digitized",
@@ -516,6 +383,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.098098+00:00"
   }
 }

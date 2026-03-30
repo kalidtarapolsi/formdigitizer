@@ -9,42 +9,64 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "signatureDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Signature Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "namevet": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Namevet"
+      }
     },
     "servicenum": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Servicenum"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-651-are.pdf",
     "status": "digitized",
     "totalFields": 7,
-    "composedFields": 5,
-    "coveragePercent": 71,
+    "composedFields": 7,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:39:00.643Z"
+    "generatedAt": "2026-03-28T17:39:00.643Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.970298+00:00"
   }
 }

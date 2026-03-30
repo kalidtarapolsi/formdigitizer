@@ -5,34 +5,53 @@
   "properties": {
     "date5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "optionalText5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Optional Text"
+      }
     },
     "recipient": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Recipient"
+      }
     },
     "cityState5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "City State"
+      }
     },
     "appreciation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appreciation"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/Cert%2010-2553a%20Certificate%20of%20Internship_Blank%20Template_Part1%20(1).pdf",
     "totalFields": 7,
-    "composedFields": 4,
-    "coveragePercent": 57,
+    "composedFields": 6,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:31:29.925Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.671332+00:00"
   }
 }

@@ -7,63 +7,63 @@
     "nameWorkStudy": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page2 Name Work Study",
+        "label": "Name Work Study",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page2 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "totalHours": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page2 Total Hours",
+        "label": "Total Hours",
         "widget": "text"
       }
     },
     "numberStudents": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page2 Number Students",
+        "label": "Number Students",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page2 Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page3 Date",
+        "label": "Date",
         "widget": "text"
       }
     },
     "numericField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page3 Numeric Field1",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "dateApproval": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page3 Date Approval",
+        "label": "Date Approval",
         "widget": "text"
       }
     },
     "signatureField12": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page3 Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
@@ -85,13 +85,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Items #3A, #3B and #3C",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
         "widget": "text"
       }
     },
@@ -147,14 +140,14 @@
     "pleaseCheckTheAppropriateBoxThatIdentifiesTheFacilit": {
       "type": "string",
       "x-va-field": {
-        "label": "PLEASE CHECK THE APPROPRIATE BOX THAT IDENTIFIES THE FACILIT",
+        "label": "Please Check The Appropriate Box That Identifies The Facilit",
         "widget": "text"
       }
     },
     "pleaseNote": {
       "type": "string",
       "x-va-field": {
-        "label": "PLEASE NOTE",
+        "label": "Please Note",
         "widget": "text"
       }
     },
@@ -183,7 +176,7 @@
     "questions": {
       "type": "string",
       "x-va-field": {
-        "label": "QUESTIONS",
+        "label": "Questions",
         "widget": "text"
       }
     },
@@ -191,7 +184,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE VA RECEIVED WORK STUDY WORK SITE APPLICATION:",
+        "label": "Date VA Received Work Study Work Site Application:",
         "widget": "date"
       }
     },
@@ -199,21 +192,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF APPROVAL:",
+        "label": "Date Of Approval:",
         "widget": "date"
       }
     },
     "totalFacilityHoursApproved": {
       "type": "string",
       "x-va-field": {
-        "label": "TOTAL FACILITY HOURS APPROVED",
+        "label": "Total Facility Hours Approved",
         "widget": "text"
       }
     },
     "pleaseAttachACopyOfYourWorkSiteDutiesActivities": {
       "type": "string",
       "x-va-field": {
-        "label": "PLEASE ATTACH A COPY OF YOUR WORK SITE DUTIES/ACTIVITIES.",
+        "label": "Please Attach A Copy Of Your Work Site Duties/Activities.",
         "widget": "text"
       }
     },
@@ -227,7 +220,7 @@
     "signatureOfVaEmployeeApprovingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF VA EMPLOYEE/APPROVING OFFICIAL",
+        "label": "Signature Of VA Employee/Approving Official",
         "widget": "signature"
       }
     }
@@ -236,10 +229,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10219-are.pdf",
     "status": "digitized",
     "totalFields": 32,
-    "composedFields": 32,
-    "coveragePercent": 94,
+    "composedFields": 31,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "pageCount": 3,
     "generatedAt": "2026-03-28T17:37:51.448Z",
     "redigitizedAt": "2026-03-30T20:39:17.330Z",
@@ -247,6 +240,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.108448+00:00"
   }
 }

@@ -9,11 +9,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -54,110 +60,201 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "referralDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Referral Date"
+      }
     },
     "admitDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Admit Date"
+      }
     },
     "dischargeDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Discharge Date"
+      }
     },
     "signatureDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Signature Date"
+      }
     },
     "signatureDateOther": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Signature Date Other"
+      }
     },
     "diagnosis": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Diagnosis"
+      }
     },
     "titlePhysician": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title Physician"
+      }
     },
     "maritalStatus": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Marital Status"
+      }
     },
     "notesSocialWork": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Notes Social Work"
+      }
     },
     "titleSocialWork": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title Social Work"
+      }
     },
     "sex": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sex"
+      }
     },
     "vetName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vet Name"
+      }
     },
     "relativeName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relative Name"
+      }
     },
     "contactInfo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Contact Info"
+      }
     },
     "firstVisitInfo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "First Visit Info"
+      }
     },
     "visitFloor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Visit Floor"
+      }
     },
     "visitRoom": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Visit Room"
+      }
     },
     "recommendations": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Recommendations"
+      }
     },
     "limitations": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Limitations"
+      }
     },
     "patientAdvice": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Patient Advice"
+      }
     },
     "equipmentDesc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Equipment Desc"
+      }
     },
     "nurseTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nurse Title"
+      }
     },
     "notesNurse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Notes Nurse"
+      }
     },
     "notesDietician": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Notes Dietician"
+      }
     },
     "notesOther": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Notes Other"
+      }
     },
     "titleOther": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title Other"
+      }
     },
     "titleDietician": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title Dietician"
+      }
     },
     "activity": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Activity"
+      }
     },
     "supply": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Supply"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7108-fill.pdf",
     "totalFields": 38,
-    "composedFields": 20,
-    "coveragePercent": 53,
+    "composedFields": 32,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:40.896Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.811818+00:00"
   }
 }

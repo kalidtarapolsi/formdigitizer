@@ -7,63 +7,63 @@
     "claimantsLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Claimants Last Name",
+        "label": "Claimants Last Name",
         "widget": "text"
       }
     },
     "claimantsMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Claimants Middle Initial",
+        "label": "Claimants Middle Initial",
         "widget": "text"
       }
     },
     "claimantsFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Claimants First Name",
+        "label": "Claimants First Name",
         "widget": "text"
       }
     },
     "mailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address City",
+        "label": "Mailing Address City",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Area Code",
+        "label": "Area Code",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "dropDownList1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Drop Down List1",
+        "label": "Drop Down List",
         "widget": "select"
       }
     },
@@ -72,62 +72,6 @@
       "x-va-field": {
         "label": "Intake Eligibility Criteria",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox2": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box2",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox3": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box3",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox4": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box4",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox5": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box5",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox6": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box6",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox7": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box7",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox8": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box8",
-        "widget": "checkbox"
       }
     },
     "intakeRegistrationRequirement": {
@@ -140,14 +84,7 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -168,14 +105,14 @@
     "preferNotToSayother": {
       "type": "string",
       "x-va-field": {
-        "label": "PREFER NOT TO SAYOTHER",
+        "label": "Prefer Not To Sayother",
         "widget": "text"
       }
     },
     "socialSecurityNumberOfApplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER OF APPLICANT",
+        "label": "Social Security Number Of Applicant",
         "widget": "text"
       }
     },
@@ -203,42 +140,35 @@
     "selectMilitaryAffiliation": {
       "type": "string",
       "x-va-field": {
-        "label": "SELECT MILITARY AFFILIATION",
+        "label": "Select Military Affiliation",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox9": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box9",
-        "widget": "checkbox"
       }
     },
     "areYouCurrentlyUsingOrPreviouslyUsedAnyVaEducation": {
       "type": "string",
       "x-va-field": {
-        "label": "ARE YOU CURRENTLY USING OR PREVIOUSLY USED ANY VA EDUCATION",
+        "label": "Are You Currently Using Or Previously Used Any VA Education",
         "widget": "text"
       }
     },
     "whatSkillsTrainingProgramWouldYouLikeToAttend": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT SKILLS/TRAINING PROGRAM WOULD YOU LIKE TO ATTEND?",
+        "label": "What Skills/Training Program Would You Like To Attend?",
         "widget": "text"
       }
     },
     "ifApplyingForAnAdvancedCoursePleaseDescribeYourPre": {
       "type": "string",
       "x-va-field": {
-        "label": "IF APPLYING FOR AN ADVANCED COURSE, PLEASE DESCRIBE YOUR PRE",
+        "label": "If Applying For An Advanced Course, Please Describe Your Pre",
         "widget": "text"
       }
     },
     "ofTheBoxesBelow": {
       "type": "string",
       "x-va-field": {
-        "label": "OF THE BOXES BELOW",
+        "label": "Of The Boxes Below",
         "widget": "text"
       }
     },
@@ -252,7 +182,7 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -260,14 +190,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "TRAINING COHORT DATE",
+        "label": "Training Cohort Date",
         "widget": "date"
       }
     },
     "pleaseCheckTheBoxBelowProvidingYourComplianceToSelf": {
       "type": "string",
       "x-va-field": {
-        "label": "PLEASE CHECK THE BOX BELOW PROVIDING YOUR COMPLIANCE TO SELF",
+        "label": "Please Check The Box Below Providing Your Compliance To Self",
         "widget": "text"
       }
     }
@@ -276,10 +206,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10282-are.pdf",
     "status": "digitized",
     "totalFields": 38,
-    "composedFields": 38,
-    "coveragePercent": 76,
+    "composedFields": 28,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 9,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:37:10.150Z",
     "redigitizedAt": "2026-03-30T20:39:01.732Z",
@@ -287,6 +217,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.117673+00:00"
   }
 }

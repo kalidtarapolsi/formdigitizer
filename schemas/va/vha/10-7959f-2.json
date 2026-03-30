@@ -15,84 +15,84 @@
     "veteranlastname": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V E T E R A N L A S T N A M E",
+        "label": "Veteranlastname",
         "widget": "text"
       }
     },
     "veteranfirstname": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V E T E R A N F I R S T N A M E",
+        "label": "Veteranfirstname",
         "widget": "text"
       }
     },
     "mi": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M I",
+        "label": "Mi",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "vaclaimfilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A C L A I M F I L E N U M B E R",
+        "label": "Vaclaimfilenumber",
         "widget": "text"
       }
     },
     "dateofbirth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E O F B I R T H",
+        "label": "Dateofbirth",
         "widget": "text"
       }
     },
     "physicaladdress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P H Y S I C A L A D D R E S S",
+        "label": "Physicaladdress",
         "widget": "text"
       }
     },
     "country1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C O U N T R Y1",
+        "label": "Country",
         "widget": "text"
       }
     },
     "mailingaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M A I L I N G A D D R E S S",
+        "label": "Mailingaddress",
         "widget": "text"
       }
     },
     "telephonenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T E L E P H O N E N U M B E R",
+        "label": "Telephonenumber",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date",
+        "label": "Date",
         "widget": "text"
       }
     },
@@ -109,13 +109,6 @@
       "x-va-field": {
         "label": "Email",
         "widget": "email"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Instructions",
-        "widget": "text"
       }
     },
     "usingThisForm": {
@@ -173,7 +166,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER (999-99-9999)",
+        "label": "Social Security Number (999-99-9999)",
         "widget": "ssn"
       }
     },
@@ -181,7 +174,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "EMAIL ADDRESS",
+        "label": "Email Address",
         "widget": "email"
       }
     },
@@ -217,7 +210,7 @@
     "privacyActStatement": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT STATEMENT",
+        "label": "Privacy Act Statement",
         "widget": "select"
       }
     },
@@ -246,10 +239,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959f-2.pdf",
     "totalFields": 35,
-    "composedFields": 33,
-    "coveragePercent": 94,
+    "composedFields": 32,
+    "coveragePercent": 100,
     "xfaLabelCount": 14,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:21:48.484Z",
     "pageCount": 2,
     "status": "digitized",
@@ -258,6 +251,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.836709+00:00"
   }
 }

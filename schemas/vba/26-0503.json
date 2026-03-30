@@ -5,11 +5,17 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     }
   },
   "x-va-metadata": {
@@ -21,6 +27,7 @@
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:39:09.505Z"
+    "generatedAt": "2026-03-28T17:39:09.505Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.150510+00:00"
   }
 }

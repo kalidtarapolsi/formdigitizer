@@ -4,43 +4,71 @@
   "type": "object",
   "properties": {
     "explainWhyParticipantIsUnableToCertifyToStatements": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Explain Why Participant is Unable to Certify to Statements"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "nameOfCompany": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Company"
+      }
     },
     "companyTaxIdentificationNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Company Tax Identification Number"
+      }
     },
     "nameOfAuthorizedRepresentativ": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Authorized Representativ"
+      }
     },
     "projectDescription": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project Description"
+      }
     },
     "projectLocation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project Location"
+      }
     },
     "faiNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fai Number"
+      }
     },
     "titleOfAuthorizedRepresentative": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title of Authorized Representative"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-0967-are.pdf",
     "status": "digitized",
     "totalFields": 9,
-    "composedFields": 4,
-    "coveragePercent": 44,
+    "composedFields": 9,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:38:51.735Z"
+    "generatedAt": "2026-03-28T17:38:51.735Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.153667+00:00"
   }
 }

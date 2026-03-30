@@ -5,66 +5,115 @@
   "properties": {
     "dateIssued": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Issued"
+      }
     },
     "dateOfFsr": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Fsr"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "check": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Check"
+      }
     },
     "amount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "otherSpecify": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Specify"
+      }
     },
     "specify": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Specify"
+      }
     },
     "purposeForWhichFundsAreToBeApplied": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purpose for Which Funds Are to Be Applied"
+      }
     },
     "inSpaceAbovePatientIdentification": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "In Space Above Patient Identification"
+      }
     },
     "nameAndAddressOfRemitter": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name and Address of Remitter"
+      }
     },
     "patientsFunds": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Patients Funds"
+      }
     },
     "moneyOrder": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Money Order"
+      }
     },
     "cash": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cash"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "fsrNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Fsr Number"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2815-fill.pdf",
     "totalFields": 23,
-    "composedFields": 15,
-    "coveragePercent": 65,
+    "composedFields": 16,
+    "coveragePercent": 100,
     "xfaLabelCount": 23,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:53.814Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.698028+00:00"
   }
 }

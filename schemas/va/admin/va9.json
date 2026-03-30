@@ -7,105 +7,98 @@
     "nameofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E O F V E T E R A N",
+        "label": "Nameofveteran",
         "widget": "text"
       }
     },
     "claimfileno": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C L A I M F I L E N O",
+        "label": "Claimfileno",
         "widget": "text"
       }
     },
     "insurancefilenoorloanno": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform I N S U R A N C E F I L E N O O R L O A N N O",
+        "label": "Insurancefilenoorloanno",
         "widget": "text"
       }
     },
     "other": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform other",
+        "label": "Other",
         "widget": "text"
       }
     },
     "homePhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Home Phone",
+        "label": "Home Phone",
         "widget": "text"
       }
     },
     "workPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Work Phone",
+        "label": "Work Phone",
         "widget": "text"
       }
     },
     "nameifnotveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E I F N O T V E T E R A N",
+        "label": "Nameifnotveteran",
         "widget": "text"
       }
     },
     "appeal": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform A P P E A L",
+        "label": "Appeal",
         "widget": "checkbox"
       }
     },
     "listofissuesyouareappealing": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Listofissuesyouareappealing",
+        "label": "Listofissuesyouareappealing",
         "widget": "text"
       }
     },
     "justification": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform J U S T I F I C A T I O N",
+        "label": "Justification",
         "widget": "text"
       }
     },
     "boardhearing": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform B O A R D H E A R I N G",
+        "label": "Boardhearing",
         "widget": "checkbox"
       }
     },
     "signature1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature1",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date",
+        "label": "Date",
         "widget": "text"
       }
     },
     "continuationsheetforitem9": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C O N T I N U A T I O N S H E E T F O R I T E M9",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Continuationsheetforitem",
         "widget": "text"
       }
     },
@@ -126,14 +119,14 @@
     "insuranceFileNoOrLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "INSURANCE FILE NO., OR LOAN",
+        "label": "Insurance File No., Or Loan",
         "widget": "text"
       }
     },
     "iAmThe": {
       "type": "string",
       "x-va-field": {
-        "label": "I AM THE:",
+        "label": "I Am The:",
         "widget": "text"
       }
     },
@@ -148,7 +141,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "TELEPHONE NUMBERS",
+        "label": "Telephone Numbers",
         "widget": "phone"
       }
     },
@@ -169,21 +162,21 @@
     "theseAreTheIssuesIWantToAppealToTheBoardBeSure": {
       "type": "string",
       "x-va-field": {
-        "label": "THESE ARE THE ISSUES I WANT TO APPEAL TO THE BOARD (Be sure",
+        "label": "These Are The Issues I Want To Appeal To The Board (Be Sure",
         "widget": "text"
       }
     },
     "hereIsWhyIThinkThatVaDecidedMyCaseIncorrectlyBe": {
       "type": "string",
       "x-va-field": {
-        "label": "HERE IS WHY I THINK THAT VA DECIDED MY CASE INCORRECTLY (Be",
+        "label": "Here Is Why I Think That VA Decided My Case Incorrectly (Be",
         "widget": "text"
       }
     },
     "optionalBoardHearing": {
       "type": "string",
       "x-va-field": {
-        "label": "OPTIONAL BOARD HEARING",
+        "label": "Optional Board Hearing",
         "widget": "text"
       }
     },
@@ -197,21 +190,21 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
     "iWantAnOptionalBoardHearing": {
       "type": "string",
       "x-va-field": {
-        "label": "I WANT AN OPTIONAL BOARD HEARING",
+        "label": "I Want An Optional Board Hearing",
         "widget": "text"
       }
     },
     "signatureOfPersonMakingThisAppeal": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF PERSON MAKING THIS APPEAL",
+        "label": "Signature Of Person Making This Appeal",
         "widget": "signature"
       }
     },
@@ -219,14 +212,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE",
+        "label": "Date",
         "widget": "date"
       }
     },
     "signatureOfAppointedRepresentativeIf": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF APPOINTED REPRESENTATIVE, IF",
+        "label": "Signature Of Appointed Representative, If",
         "widget": "signature"
       }
     },
@@ -247,14 +240,14 @@
     "doIHaveToFillOutThisFormAndFileItFillOutThisFo": {
       "type": "string",
       "x-va-field": {
-        "label": "DO I HAVE TO FILL OUT THIS FORM AND FILE IT?Fill out this fo",
+        "label": "Do I Have To Fill Out This Form And File It?Fill Out This Fo",
         "widget": "text"
       }
     },
     "howLongDoIHaveToCompleteThisFormAndFileItUnderC": {
       "type": "string",
       "x-va-field": {
-        "label": "HOW LONG DO I HAVE TO COMPLETE THIS FORM AND FILE IT?Under c",
+        "label": "How Long Do I Have To Complete This Form And File It?Under C",
         "widget": "text"
       }
     },
@@ -284,28 +277,28 @@
     "whatKindOfInformationDoINeedToIncludeWhenIFillOu": {
       "type": "string",
       "x-va-field": {
-        "label": "WHAT KIND OF INFORMATION DO I NEED TO INCLUDE WHEN I FILL OU",
+        "label": "What Kind Of Information Do I Need To Include When I Fill Ou",
         "widget": "text"
       }
     },
     "whereDoIFileTheFormOnceIHaveCompletedItWhenYouH": {
       "type": "string",
       "x-va-field": {
-        "label": "WHERE DO I FILE THE FORM ONCE I HAVE COMPLETED IT?When you h",
+        "label": "Where Do I File The Form Once I Have Completed It?When You H",
         "widget": "text"
       }
     },
     "otherSourcesOfInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "OTHER SOURCES OF INFORMATION:",
+        "label": "Other Sources Of Information:",
         "widget": "text"
       }
     },
     "appealOnTheInternetAt": {
       "type": "string",
       "x-va-field": {
-        "label": "Appeal” on the Internet at",
+        "label": "Appeal\u201d on the Internet at",
         "widget": "text"
       }
     },
@@ -319,14 +312,7 @@
     "specialNoteForAttorneysAndVaAccreditedAgentsThereAr": {
       "type": "string",
       "x-va-field": {
-        "label": "SPECIAL NOTE FOR ATTORNEYS AND VA ACCREDITED AGENTS.There ar",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Special Note For Attorneys And VA Accredited Agents.There Ar",
         "widget": "text"
       }
     }
@@ -334,7 +320,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA9.pdf",
     "totalFields": 46,
-    "composedFields": 46,
+    "composedFields": 44,
     "coveragePercent": 100,
     "xfaLabelCount": 16,
     "needsReviewCount": 0,
@@ -346,6 +332,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.519445+00:00"
   }
 }

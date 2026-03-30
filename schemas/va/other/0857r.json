@@ -7,154 +7,154 @@
     "nameofemployee": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E O F E M P L O Y E E",
+        "label": "Nameofemployee",
         "widget": "text"
       }
     },
     "jobtitle": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform J O B T I T L E",
+        "label": "Jobtitle",
         "widget": "text"
       }
     },
     "dateofreview": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E O F R E V I E W",
+        "label": "Dateofreview",
         "widget": "text"
       }
     },
     "officedepartment": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform O F F I C E D E P A R T M E N T",
+        "label": "Officedepartment",
         "widget": "text"
       }
     },
     "dmoname": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D M O N A M E",
+        "label": "Dmoname",
         "widget": "text"
       }
     },
     "racname": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R A C N A M E",
+        "label": "Racname",
         "widget": "text"
       }
     },
     "reviewconductedby": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform R E V I E W C O N D U C T E D B Y",
+        "label": "Reviewconductedby",
         "widget": "text"
       }
     },
     "accommodationscurrentlyinplace": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform A C C O M M O D A T I O N S C U R R E N T L Y I N P L A C E",
+        "label": "Accommodationscurrentlyinplace",
         "widget": "text"
       }
     },
     "dateaccommodationwasfirstimplemented": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E A C C O M M O D A T I O N W A S F I R S T I M P L E M E N T E D",
+        "label": "Dateaccommodationwasfirstimplemented",
         "widget": "text"
       }
     },
     "comments": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C O M M E N T S",
+        "label": "Comments",
         "widget": "text"
       }
     },
     "describe11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D E S C R I B E11",
+        "label": "Describe",
         "widget": "text"
       }
     },
     "describe12": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D E S C R I B E12",
+        "label": "Describe",
         "widget": "text"
       }
     },
     "anyChanges": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Any Changes",
+        "label": "Any Changes",
         "widget": "checkbox"
       }
     },
     "specify1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Specify1",
+        "label": "Specify",
         "widget": "text"
       }
     },
     "specify2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Specify2",
+        "label": "Specify",
         "widget": "text"
       }
     },
     "explain": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Explain",
+        "label": "Explain",
         "widget": "text"
       }
     },
     "notes": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N O T E S",
+        "label": "Notes",
         "widget": "text"
       }
     },
     "dmosignature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D M O S I G N A T U R E",
+        "label": "Dmosignature",
         "widget": "text"
       }
     },
     "dateSigned18": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed18",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "nameOfEmployee2JobTitle": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF EMPLOYEE2. JOB TITLE",
+        "label": "Name Of Employee2. Job Title",
         "widget": "text"
       }
     },
     "dateOfReviewMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF REVIEW (MM/DD/YYYY)",
+        "label": "Date Of Review (MM/DD/YYYY)",
         "widget": "text"
       }
     },
     "officeDepartment5DmoName6RacName": {
       "type": "string",
       "x-va-field": {
-        "label": "OFFICE/DEPARTMENT5. DMO NAME6. RAC NAME",
+        "label": "Office/Department5. Dmo Name6. Rac Name",
         "widget": "text"
       }
     },
@@ -162,14 +162,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE ACCOMMODATION WAS FIRST IMPLEMENTED (MM/DD/YYYY)",
+        "label": "Date Accommodation Was First Implemented (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "askTheEmployeeAndDmoTheFollowing": {
       "type": "string",
       "x-va-field": {
-        "label": "ASK THE EMPLOYEE AND DMO THE FOLLOWING",
+        "label": "Ask The Employee And Dmo The Following",
         "widget": "text"
       }
     },
@@ -183,14 +183,14 @@
     "comments2": {
       "type": "string",
       "x-va-field": {
-        "label": "COMMENTS",
+        "label": "Comments",
         "widget": "text"
       }
     },
     "haveThereBeenAnyChangesInTheEmployeeSJobDuties": {
       "type": "string",
       "x-va-field": {
-        "label": "Have there been any changes in the employee’s job duties",
+        "label": "Have there been any changes in the employee\u2019s job duties",
         "widget": "text"
       }
     },
@@ -204,21 +204,21 @@
     "haveTheEmployeeSFunctionalLimitationChangedInAWayT": {
       "type": "string",
       "x-va-field": {
-        "label": "Have the employee’s functional limitation changed in a way t",
+        "label": "Have the employee\u2019s functional limitation changed in a way t",
         "widget": "text"
       }
     },
     "haveThereBeenAnyChangesInTheEmployeeSJobDutiesEs": {
       "type": "string",
       "x-va-field": {
-        "label": "Have there been any changes in the employee’s job duties (es",
+        "label": "Have there been any changes in the employee\u2019s job duties (es",
         "widget": "text"
       }
     },
     "notes2": {
       "type": "string",
       "x-va-field": {
-        "label": "NOTES",
+        "label": "Notes",
         "widget": "text"
       }
     },
@@ -226,7 +226,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE (MM/DD/YYYY)",
+        "label": "Date (MM/DD/YYYY)",
         "widget": "date"
       }
     }
@@ -246,6 +246,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.023513+00:00"
   }
 }

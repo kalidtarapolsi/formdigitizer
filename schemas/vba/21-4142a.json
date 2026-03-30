@@ -10,7 +10,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "fullName": {
       "type": "object",
@@ -41,7 +44,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -82,45 +88,64 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "serviceNumber": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Service Number"
+      }
     },
     "conditionsYouAreBeingTreatedFor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Conditions You Are Being Treated for"
+      }
     },
     "": {
       "type": "string",
       "format": "date"
     },
     "secondTwoNumbers": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Second Two Numbers"
+      }
     },
     "providerOrFacilityName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Provider or Facility Name"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4142a-are.pdf",
     "status": "digitized",
     "totalFields": 96,
-    "composedFields": 19,
-    "coveragePercent": 59,
+    "composedFields": 9,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:33:27.592Z",
-    "postProcessedAt": "2026-03-30T20:02:41.696230+00:00"
+    "postProcessedAt": "2026-03-30T20:02:41.696230+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.952630+00:00"
   }
 }

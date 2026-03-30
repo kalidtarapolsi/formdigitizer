@@ -42,32 +42,48 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "oCCAddVCANumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "O CC Add VCA Number"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha%2010-10171-fill.pdf",
     "totalFields": 13,
-    "composedFields": 10,
-    "coveragePercent": 77,
+    "composedFields": 5,
+    "coveragePercent": 100,
     "xfaLabelCount": 8,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:18:39.232Z",
     "pageCount": 16,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.622344+00:00"
   }
 }

@@ -7,28 +7,21 @@
     "dateTimeField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field1",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "lastNameFirstNameMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "LAST NAME, FIRST NAME, MIDDLE INITIAL",
+        "label": "Last Name, First Name, Middle Initial",
         "widget": "text"
       }
     },
     "socialSecurityNo_3WardNo": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NO.3.  WARD NO.",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Social Security No.3.  Ward No.",
         "widget": "text"
       }
     },
@@ -42,67 +35,32 @@
     "informationAboutThe": {
       "type": "string",
       "x-va-field": {
-        "label": "INFORMATION ABOUT THE",
+        "label": "Information About The",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE (",
+        "label": "Date (",
         "widget": "text"
       }
     },
-    "form1SubformCheckBox11": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box11",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox12": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box12",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformTextfield": {
+    "textfield": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform textfield",
+        "label": "Textfield",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox4": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box4",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox13": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box13",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox14": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box14",
-        "widget": "checkbox"
       }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-7008-fill.pdf",
     "totalFields": 13,
-    "composedFields": 13,
-    "coveragePercent": 54,
+    "composedFields": 7,
+    "coveragePercent": 100,
     "xfaLabelCount": 6,
-    "needsReviewCount": 6,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:25.384Z",
     "pageCount": 1,
     "status": "digitized",
@@ -110,6 +68,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.802097+00:00"
   }
 }

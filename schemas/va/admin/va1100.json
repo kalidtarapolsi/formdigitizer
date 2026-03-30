@@ -42,67 +42,101 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateToBeReceived": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date to Be Received"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
-    },
-    "iAuthorizeAPayrollDeductionOfEnterTheAmountOfThePayrollDeductionPerPayPeriodBeginningWithTheSalaryCheckToBeReceivedOn": {
-      "type": "boolean"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "iNameOfDebtor": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "I Name of Debtor"
+      }
     },
     "indebtednessToTheDepartmentOfVeteransAffairsInTheAmountOf": {
-      "type": "number"
-    },
-    "iPromiseToRepayTheDepartmentOfVeteransAffairsByPayingMinimumMonthlyPaymentsOfNotLessThanMinimumPaymentAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Indebtedness to the Department of Veteran's Affairs in the Amount of"
+      }
     },
     "payeeNumberIfKnown": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payee Number If Known"
+      }
     },
     "personEntitled": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Person Entitled"
+      }
     },
     "receivableCode": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Receivable Code"
+      }
     },
     "herebyAcknowledgeMy": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hereby Acknowledge My"
+      }
     },
     "onOrBeforeTheEnterDayOfTheMonthDayOfEachMonth": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "On or Before the Enter Day of the Month Day of Each Month"
+      }
     },
     "beginning": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Beginning"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA1100.pdf",
     "totalFields": 17,
-    "composedFields": 11,
-    "coveragePercent": 65,
+    "composedFields": 13,
+    "coveragePercent": 100,
     "xfaLabelCount": 16,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:26:17.135Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.496459+00:00"
   }
 }

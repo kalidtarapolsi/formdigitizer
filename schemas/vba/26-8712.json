@@ -5,293 +5,570 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "condition30": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition29": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition28": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition25": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition24": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition23": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition21": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition22": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition19": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition18": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition17": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition16": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition15": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition14": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition13": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition11": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition10": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "condition1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Condition"
+      }
     },
     "multispecify": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Multispecify"
+      }
     },
     "ifPresently": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "If Presently"
+      }
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "loanNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Loan Number"
+      }
     },
     "locationOfManufactured": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Location of Manufactured"
+      }
     },
     "year": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Year"
+      }
     },
     "manufacturer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Manufacturer"
+      }
     },
     "modelNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Model Number"
+      }
     },
     "serialNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Serial Number"
+      }
     },
     "length": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Length"
+      }
     },
     "width": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Width"
+      }
     },
     "single": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Single"
+      }
     },
     "multi": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Multi"
+      }
     },
     "yes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "unable": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unable"
+      }
     },
     "occupied": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Occupied"
+      }
     },
     "vacant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vacant"
+      }
     },
     "cost1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost10": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost11": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost13": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost14": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost15": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost16": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost17": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost18": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost19": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost20": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost21": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost22": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost23": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost24": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost25": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost28": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost29": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "cost30": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "additional": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Additional"
+      }
     },
     "totalCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Cost"
+      }
     },
     "emergency": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Emergency"
+      }
     },
     "smoke": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Smoke"
+      }
     },
     "twoexit": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Twoexit"
+      }
     },
     "physicalLife": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Physical Life"
+      }
     },
     "nameOfbook": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Ofbook"
+      }
     },
     "asis": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Asis"
+      }
     },
     "subject": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subject"
+      }
     },
     "retailBookValue": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Retail Book Value"
+      }
     },
     "area": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Area"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8712-are.pdf",
     "status": "digitized",
     "totalFields": 94,
-    "composedFields": 33,
-    "coveragePercent": 35,
+    "composedFields": 92,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:33:34.431Z"
+    "generatedAt": "2026-03-28T17:33:34.431Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.225483+00:00"
   }
 }

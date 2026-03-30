@@ -340,13 +340,6 @@
         "widget": "text"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
     "secondClassMedicalCertificateOnThe": {
       "type": "string",
       "x-va-field": {
@@ -358,20 +351,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Step 1",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Notice",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
         "widget": "text"
       }
     },
@@ -415,7 +394,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER OF APPLICANT",
+        "label": "Social Security Number Of Applicant",
         "widget": "ssn"
       }
     },
@@ -429,7 +408,7 @@
     "applicantSAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "APPLICANT'S ADDRESS",
+        "label": "Applicant'S Address",
         "widget": "address"
       }
     },
@@ -437,7 +416,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SEX OF APPLICANT3. APPLICANT'S DATE OF BIRTH",
+        "label": "Sex Of Applicant3. Applicant'S Date Of Birth",
         "widget": "date"
       }
     },
@@ -472,7 +451,10 @@
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "16b": {
       "type": "string",
@@ -485,14 +467,14 @@
     "nameAndLocationOf": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND LOCATION OF",
+        "label": "Name And Location Of",
         "widget": "text"
       }
     },
     "serviceMemberSName": {
       "type": "string",
       "x-va-field": {
-        "label": "SERVICE MEMBER'S NAME",
+        "label": "Service Member'S Name",
         "widget": "text"
       }
     },
@@ -501,14 +483,14 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SERVICE MEMBER'S SOCIAL SECURITY NUMBER",
+        "label": "Service Member'S Social Security Number",
         "widget": "ssn"
       }
     },
     "serviceMemberSAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "SERVICE  MEMBER'S ADDRESS",
+        "label": "Service  Member'S Address",
         "widget": "address"
       }
     }
@@ -517,10 +499,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1990e-are.pdf",
     "status": "digitized",
     "totalFields": 77,
-    "composedFields": 72,
-    "coveragePercent": 99,
+    "composedFields": 69,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 4,
     "generatedAt": "2026-03-28T17:35:07.901Z",
     "postProcessedAt": "2026-03-30T20:02:41.734103+00:00",
@@ -529,6 +511,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.442164+00:00"
   }
 }

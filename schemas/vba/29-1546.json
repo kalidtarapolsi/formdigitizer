@@ -32,7 +32,7 @@
         "widget": "text"
       }
     },
-    "radioButtonList2": {
+    "list2": {
       "type": "string",
       "x-va-field": {
         "label": "F Page 1 Radio Button List2",
@@ -165,38 +165,31 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "firstMiddleLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST-MIDDLE-LAST NAME",
+        "label": "First-Middle-Last Name",
         "widget": "text"
       }
     },
     "insurancePolicyNumber3": {
       "type": "string",
       "x-va-field": {
-        "label": "INSURANCE POLICY NUMBER",
+        "label": "Insurance Policy Number",
         "widget": "text"
       }
     },
     "netOptions": {
       "type": "string",
       "x-va-field": {
-        "label": "NET OPTIONS",
+        "label": "Net Options",
         "widget": "text"
       }
     },
     "paymentInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PAYMENT INFORMATION",
+        "label": "Payment Information",
         "widget": "text"
       }
     },
@@ -220,21 +213,21 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
     "futureDividendOption": {
       "type": "string",
       "x-va-field": {
-        "label": "FUTURE DIVIDEND OPTION",
+        "label": "Future Dividend Option",
         "widget": "text"
       }
     },
     "iHerebySurrenderMy": {
       "type": "string",
       "x-va-field": {
-        "label": "I HEREBY SURRENDER MY:",
+        "label": "I Hereby Surrender My:",
         "widget": "text"
       }
     },
@@ -249,14 +242,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE (MM/DD/YYYY)",
+        "label": "Date (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "orMailTheCompletedFormTo": {
       "type": "string",
       "x-va-field": {
-        "label": "OR MAIL THE COMPLETED FORM TO",
+        "label": "Or Mail The Completed Form To",
         "widget": "text"
       }
     },
@@ -264,14 +257,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "31 U.S.C. § 3332(e)-(j) man",
+        "label": "31 U.S.C. \u00a7 3332(e)-(j) man",
         "widget": "date"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -283,45 +276,38 @@
         "widget": "date"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
     "amountOfLoanDesiredCheckOne": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT OF LOAN DESIRED (Check one)",
+        "label": "Amount Of Loan Desired (Check One)",
         "widget": "text"
       }
     },
     "doYouWishToUseDividendsToReduceTheLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU WISH TO USE DIVIDENDS TO REDUCE THE LOAN?",
+        "label": "Do You Wish To Use Dividends To Reduce The Loan?",
         "widget": "text"
       }
     },
     "policyNumberSOnWhichLoanIsRequested": {
       "type": "string",
       "x-va-field": {
-        "label": "POLICY NUMBER(S) ON WHICH LOAN IS REQUESTED",
+        "label": "Policy Number(S) On Which Loan Is Requested",
         "widget": "text"
       }
     },
     "amount2": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "militaryRetirement": {
       "type": "string",
       "x-va-field": {
-        "label": "MILITARY RETIREMENT",
+        "label": "Military Retirement",
         "widget": "text"
       }
     },
@@ -335,7 +321,7 @@
     "mailingAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "MAILING ADDRESS",
+        "label": "Mailing Address",
         "widget": "address"
       }
     },
@@ -351,7 +337,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-1546-are.pdf",
     "status": "digitized",
     "totalFields": 48,
-    "composedFields": 48,
+    "composedFields": 46,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -362,6 +348,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.554093+00:00"
   }
 }

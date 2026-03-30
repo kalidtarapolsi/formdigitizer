@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,82 +53,146 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateOfRequest": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Request"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "disabilityApplianceRequired": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Disability Appliance Required"
+      }
     },
     "titleOfPrescribingPhysician": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title of Prescribing Physician"
+      }
     },
     "buildingNum": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Building Num"
+      }
     },
     "roomNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Room Number"
+      }
     },
     "descriptionOfAppliance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Description of Appliance"
+      }
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "deliveryHome": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Delivery Home"
+      }
     },
     "deliveryProsthetics": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Delivery Prosthetics"
+      }
     },
     "deliveryOther": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Delivery Other"
+      }
     },
     "other": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "detailsOfActionTaken": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Details of Action Taken"
+      }
     },
     "vendorName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vendor Name"
+      }
     },
     "itemName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Item Name"
+      }
     },
     "hcpcs": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hcpcs"
+      }
     },
     "cost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cost"
+      }
     },
     "stockIssued": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Stock Issued"
+      }
     },
     "requestDisapproved": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Request Disapproved"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2431-fill%20(1).pdf",
     "totalFields": 26,
-    "composedFields": 11,
-    "coveragePercent": 42,
+    "composedFields": 22,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:02:29.820Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.661186+00:00"
   }
 }

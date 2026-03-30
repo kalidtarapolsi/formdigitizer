@@ -5,69 +5,117 @@
   "properties": {
     "veteranFullName": {
       "type": "string",
-      "description": "Veteran's full name (last, first, middle)"
+      "description": "Veteran's full name (last, first, middle)",
+      "x-va-field": {
+        "label": "Veteran Full Name"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number (last 4 digits)"
+      "description": "Social Security Number (last 4 digits)",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "vaFileNumber": {
       "type": "string",
-      "description": "VA file number"
+      "description": "VA file number",
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "vaFacilityName": {
       "type": "string",
-      "description": "VA medical facility name"
+      "description": "VA medical facility name",
+      "x-va-field": {
+        "label": "VA Facility Name"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "drugName": {
       "type": "string",
-      "description": "Drug name"
+      "description": "Drug name",
+      "x-va-field": {
+        "label": "Drug Name"
+      }
     },
     "dosage": {
       "type": "string",
-      "description": "Dosage"
+      "description": "Dosage",
+      "x-va-field": {
+        "label": "Dosage"
+      }
     },
     "frequency": {
       "type": "string",
-      "description": "Frequency of administration"
+      "description": "Frequency of administration",
+      "x-va-field": {
+        "label": "Frequency"
+      }
     },
     "route": {
       "type": "string",
-      "description": "Route of administration"
+      "description": "Route of administration",
+      "x-va-field": {
+        "label": "Route"
+      }
     },
     "quantity": {
       "type": "string",
-      "description": "Quantity"
+      "description": "Quantity",
+      "x-va-field": {
+        "label": "Quantity"
+      }
     },
     "refills": {
       "type": "string",
-      "description": "Number of refills"
+      "description": "Number of refills",
+      "x-va-field": {
+        "label": "Refills"
+      }
     },
     "prescriberName": {
       "type": "string",
-      "description": "Prescriber's name"
+      "description": "Prescriber's name",
+      "x-va-field": {
+        "label": "Prescriber Name"
+      }
     },
     "prescriberSignature": {
       "type": "boolean",
-      "description": "Prescriber's signature"
+      "description": "Prescriber's signature",
+      "x-va-field": {
+        "label": "Prescriber Signature"
+      }
     },
     "pharmacistName": {
       "type": "string",
-      "description": "Pharmacist's name"
+      "description": "Pharmacist's name",
+      "x-va-field": {
+        "label": "Pharmacist Name"
+      }
     }
   },
   "x-va-metadata": {
@@ -80,6 +128,7 @@
     "status": "digitized",
     "pageCount": 1,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.678614+00:00"
   }
 }

@@ -42,327 +42,616 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "optionalWashBay1OpenOrOpen3SidesOrClosedProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Optional Wash Bay1Open or Open3Sides or Closed Proposed by Applicant"
+      }
     },
     "optionalWashBay1OpenOrOpen3SidesOrClosedTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Optional Wash Bay1Open or Open3Sides or Closed Total VA Allowed"
+      }
     },
     "withOptionalWashEquipmentRoomTbdProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "With Optional Wash Equipment Room Tbd Proposed by Applicant"
+      }
     },
     "withOptionalWashEquipmentRoomTbdTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "With Optional Wash Equipment Room Tbd Total VA Allowed"
+      }
     },
     "optionalHeavyLiftIfEquipmentIsNotSentOutForMaintenanceProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Optional Heavy Lift If Equipment is Not Sent Out for Maintenance Proposed by Applicant"
+      }
     },
     "optionalHeavyLiftIfEquipmentIsNotSentOutForMaintenanceTotalVAAllowed": {
-      "type": "string"
-    },
-    "forRoutineMaintenanceWithWorkBenchAtRearOrSideHeatedAndAirconditionedByClimateLocationProposedByApplicant": {
-      "type": "string"
-    },
-    "forRoutineMaintenanceWithWorkBenchAtRearOrSideHeatedAndAirconditionedByClimateLocationTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Optional Heavy Lift If Equipment is Not Sent Out for Maintenance Total VA Allowed"
+      }
     },
     "operationsCopyworkfilesProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Operations Copyworkfiles Proposed by Applicant"
+      }
     },
     "operationsCopyworkfilesTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Operations Copyworkfiles Total VA Allowed"
+      }
     },
     "projectLocation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project Location"
+      }
     },
     "projectName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project Name"
+      }
     },
     "projectFAIFederalApplicationIdentifierNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project FAI Federal Application Identifier Number"
+      }
     },
     "buildingNumber1SupportFacilities2555NsfProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Building Number1Support Facilities2555Nsf Proposed by Applicant"
+      }
     },
     "buildingNumber1SupportFacilities2555NsfTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Building Number1Support Facilities2555Nsf Total VA Allowed"
+      }
     },
     "aPublicInformationCenterPic660Nsf112NgMultiplierProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Public Information Center Pic660Nsf112Ng Multiplier Proposed by Applicant"
+      }
     },
     "aPublicInformationCenterPic660Nsf112NgMultiplierTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Public Information Center Pic660Nsf112Ng Multiplier Total VA Allowed"
+      }
     },
     "entryVestibuleProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Entry Vestibule Proposed by Applicant"
+      }
     },
     "entryVestibuleTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Entry Vestibule Total VA Allowed"
+      }
     },
     "withKioskGraveLocatorProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "With Kiosk Grave Locator Proposed by Applicant"
+      }
     },
     "withKioskGraveLocatorTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "With Kiosk Grave Locator Total VA Allowed"
+      }
     },
     "lobbyProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lobby Proposed by Applicant"
+      }
     },
     "lobbyTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lobby Total VA Allowed"
+      }
     },
     "kioskClosetIncludedProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Kiosk Closet Included Proposed by Applicant"
+      }
     },
     "kioskClosetIncludedTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Kiosk Closet Included Total VA Allowed"
+      }
     },
     "electricWaterCoolers2IncludedProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Electric Water Coolers2Included Proposed by Applicant"
+      }
     },
     "electricWaterCoolers2IncludedTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Electric Water Coolers2Included Total VA Allowed"
+      }
     },
     "janitorClosetWithUtilitySinkIncludedProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Janitor Closet With Utility Sink Included Proposed by Applicant"
+      }
     },
     "janitorClosetWithUtilitySinkIncludedTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Janitor Closet With Utility Sink Included Total VA Allowed"
+      }
     },
     "toiletsMenWomen1Each115NsfEachProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Toilets Men Women1Each115Nsf Each Proposed by Applicant"
+      }
     },
     "toiletsMenWomen1Each115NsfEachTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Toilets Men Women1Each115Nsf Each Total VA Allowed"
+      }
     },
     "bAdministrativeOffices1030Nsf124NgMultiplierProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Administrative Offices1030Nsf124Ng Multiplier Proposed by Applicant"
+      }
     },
     "bAdministrativeOffices1030Nsf124NgMultiplierTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Administrative Offices1030Nsf124Ng Multiplier Total VA Allowed"
+      }
     },
     "waitingRoomSeats46PersonsProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Waiting Room Seats46Persons Proposed by Applicant"
+      }
     },
     "waitingRoomSeats46PersonsTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Waiting Room Seats46Persons Total VA Allowed"
+      }
     },
     "receptionsecretarycemeteryRepresentativeProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Receptionsecretarycemetery Representative Proposed by Applicant"
+      }
     },
     "receptionsecretarycemeteryRepresentativeTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Receptionsecretarycemetery Representative Total VA Allowed"
+      }
     },
     "closetCoatsStorageProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Closet Coats Storage Proposed by Applicant"
+      }
     },
     "closetCoatsStorageTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Closet Coats Storage Total VA Allowed"
+      }
     },
     "directorProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Director Proposed by Applicant"
+      }
     },
     "directorTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Director Total VA Allowed"
+      }
     },
     "conferenceProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Conference Proposed by Applicant"
+      }
     },
     "conferenceTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Conference Total VA Allowed"
+      }
     },
     "hallProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hall Proposed by Applicant"
+      }
     },
     "hallTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hall Total VA Allowed"
+      }
     },
     "toilet1UnisexWheelchairAccessibleProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Toilet1Unisex Wheelchair Accessible Proposed by Applicant"
+      }
     },
     "toilet1UnisexWheelchairAccessibleTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Toilet1Unisex Wheelchair Accessible Total VA Allowed"
+      }
     },
     "mechanicalelectricalCommunicationsProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mechanicalelectrical Communications Proposed by Applicant"
+      }
     },
     "mechanicalelectricalCommunicationsTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mechanicalelectrical Communications Total VA Allowed"
+      }
     },
     "cSharedhonGdmaintenanceStaff865Nsf124NgMultiplierProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "C Sharedhon Gdmaintenance Staff865Nsf124Ng Multiplier Proposed by Applicant"
+      }
     },
     "cSharedhonGdmaintenanceStaff865Nsf124NgMultiplierTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "C Sharedhon Gdmaintenance Staff865Nsf124Ng Multiplier Total VA Allowed"
+      }
     },
     "honorGuardMeetingRoomWith12TableschairsProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Honor Guard Meeting Room With12Tableschairs Proposed by Applicant"
+      }
     },
     "honorGuardMeetingRoomWith12TableschairsTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Honor Guard Meeting Room With12Tableschairs Total VA Allowed"
+      }
     },
     "lockersbenchInChangingAreaIncludedProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lockersbench in Changing Area Included Proposed by Applicant"
+      }
     },
     "lockersbenchInChangingAreaIncludedTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lockersbench in Changing Area Included Total VA Allowed"
+      }
     },
     "toiletUnisexIncludedProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Toilet Unisex Included Proposed by Applicant"
+      }
     },
     "toiletUnisexIncludedTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Toilet Unisex Included Total VA Allowed"
+      }
     },
     "maintenanceStaffProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Maintenance Staff Proposed by Applicant"
+      }
     },
     "maintenanceStaffTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Maintenance Staff Total VA Allowed"
+      }
     },
     "1ForemanProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "1Foreman Proposed by Applicant"
+      }
     },
     "1ForemanTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "1Foreman Total VA Allowed"
+      }
     },
     "2BootsLockersWithBenchToChangeShoesProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "2Boots Lockers With Bench to Change Shoes Proposed by Applicant"
+      }
     },
     "2BootsLockersWithBenchToChangeShoesTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "2Boots Lockers With Bench to Change Shoes Total VA Allowed"
+      }
     },
     "3ClosetHousekeepingProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "3Closet Housekeeping Proposed by Applicant"
+      }
     },
     "3ClosetHousekeepingTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "3Closet Housekeeping Total VA Allowed"
+      }
     },
     "4ShowerToilet1UnisexProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "4Shower Toilet1Unisex Proposed by Applicant"
+      }
     },
     "4ShowerToilet1UnisexTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "4Shower Toilet1Unisex Total VA Allowed"
+      }
     },
     "5HallProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "5Hall Proposed by Applicant"
+      }
     },
     "5HallTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "5Hall Total VA Allowed"
+      }
     },
     "6BreakRoomProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "6Break Room Proposed by Applicant"
+      }
     },
     "6BreakRoomTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "6Break Room Total VA Allowed"
+      }
     },
     "buidlingNumber2MaintenanceServicegarage2465NsfProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Buidling Number2Maintenance Servicegarage2465Nsf Proposed by Applicant"
+      }
     },
     "buidlingNumber2MaintenanceServicegarage2465NsfTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Buidling Number2Maintenance Servicegarage2465Nsf Total VA Allowed"
+      }
     },
     "aMaintenanceServiceAreaProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Maintenance Service Area Proposed by Applicant"
+      }
     },
     "aMaintenanceServiceAreaTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A Maintenance Service Area Total VA Allowed"
+      }
     },
     "serviceBay12ProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Service Bay12Proposed by Applicant"
+      }
     },
     "serviceBay12TotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Service Bay12Total VA Allowed"
+      }
     },
     "partsAndToolStorageCageProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Parts and Tool Storage Cage Proposed by Applicant"
+      }
     },
     "partsAndToolStorageCageTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Parts and Tool Storage Cage Total VA Allowed"
+      }
     },
     "airCompressorRoomProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Air Compressor Room Proposed by Applicant"
+      }
     },
     "airCompressorRoomTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Air Compressor Room Total VA Allowed"
+      }
     },
     "flammableStorageCabinetProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Flammable Storage Cabinet Proposed by Applicant"
+      }
     },
     "flammableStorageCabinetTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Flammable Storage Cabinet Total VA Allowed"
+      }
     },
     "bVehicleAndEquipmentStorageGarageProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Vehicle and Equipment Storage Garage Proposed by Applicant"
+      }
     },
     "bVehicleAndEquipmentStorageGarageTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Vehicle and Equipment Storage Garage Total VA Allowed"
+      }
     },
     "unheatedAreaAtMostLocationsProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unheated Area at Most Locations Proposed by Applicant"
+      }
     },
     "unheatedAreaAtMostLocationsTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unheated Area at Most Locations Total VA Allowed"
+      }
     },
     "buidlingNumber3CommittalShelterProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Buidling Number3Committal Shelter Proposed by Applicant"
+      }
     },
     "buidlingNumber3CommittalShelterTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Buidling Number3Committal Shelter Total VA Allowed"
+      }
     },
     "coveredAreaOpenOn3SidesProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Covered Area Open On3Sides Proposed by Applicant"
+      }
     },
     "coveredAreaOpenOn3SidesTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Covered Area Open On3Sides Total VA Allowed"
+      }
     },
     "withBierToHoldCasketSeatingFor20PersonsWith2SpeakersProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "With Bier to Hold Casket Seating For20Persons With2Speakers Proposed by Applicant"
+      }
     },
     "withBierToHoldCasketSeatingFor20PersonsWith2SpeakersTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "With Bier to Hold Casket Seating For20Persons With2Speakers Total VA Allowed"
+      }
     },
     "storageClosetProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Storage Closet Proposed by Applicant"
+      }
     },
     "storageClosetTotalVAAllowed": {
-      "type": "string"
-    },
-    "locateBehindTheBierWith2WallSconcesAndThe5serviceSealsLocateAtTheFrontOfTheShelterIncludeShelfForEquipmentToPlayTapsIncludeStorageOfCleaningEquipmentPressureWashIncludeStorageToStackExtraChairsProposedByApplicant": {
-      "type": "string"
-    },
-    "locateBehindTheBierWith2WallSconcesAndThe5serviceSealsLocateAtTheFrontOfTheShelterIncludeShelfForEquipmentToPlayTapsIncludeStorageOfCleaningEquipmentPressureWashIncludeStorageToStackExtraChairsTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Storage Closet Total VA Allowed"
+      }
     },
     "uncoveredPavedAreaProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Uncovered Paved Area Proposed by Applicant"
+      }
     },
     "uncoveredPavedAreaTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Uncovered Paved Area Total VA Allowed"
+      }
     },
     "withStandingRoomFor2030AdditionalPersonsProposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "With Standing Room For2030Additional Persons Proposed by Applicant"
+      }
     },
     "withStandingRoomFor2030AdditionalPersonsTotalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "With Standing Room For2030Additional Persons Total VA Allowed"
+      }
     },
     "proposedByApplicant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Proposed by Applicant"
+      }
     },
     "totalVAAllowed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total VA Allowed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-3.pdf",
     "totalFields": 105,
-    "composedFields": 12,
-    "coveragePercent": 11,
+    "composedFields": 100,
+    "coveragePercent": 100,
     "xfaLabelCount": 105,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:24:39.241Z",
     "pageCount": 3,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.865040+00:00"
   }
 }

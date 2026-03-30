@@ -4,56 +4,90 @@
   "type": "object",
   "properties": {
     "institutionNameAndAddress": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Institution Name and Address"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "datesOfEnrollmentWithYourSchoolFrom": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dates of Enrollment With Your School From"
+      }
     },
     "datesOfEnrollmentWithYourSchoolTo": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dates of Enrollment With Your School to"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "descriptionOfAssociationWithSchool": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Description of Association With School"
+      }
     },
     "employeesNameAndTitle1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Employees Name and Title"
+      }
     },
     "employeesNameAndTitle2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Employees Name and Title"
+      }
     },
     "nameOfPresident": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of President"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1919-are.pdf",
     "status": "digitized",
     "totalFields": 11,
-    "composedFields": 7,
-    "coveragePercent": 64,
+    "composedFields": 11,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:38:47.997Z"
+    "generatedAt": "2026-03-28T17:38:47.997Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.118910+00:00"
   }
 }

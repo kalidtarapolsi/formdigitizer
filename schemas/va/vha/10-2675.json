@@ -9,52 +9,86 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "approvedDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Approved Date"
+      }
     },
     "datePaymentToBeMadeToBeneficiaries": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Payment to Be Made to Beneficiaries"
+      }
     },
     "datePrepared": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Prepared"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amountOfCash": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount of Cash"
+      }
     },
     "wardOrSection": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ward or Section"
+      }
     },
     "nameOfBeneficiaryLine2Of12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Beneficiary Line2Of"
+      }
     },
     "totalToBeInsertedByPatientsFundClerk": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total to Be Inserted by Patients Fund Clerk"
+      }
     },
     "toFiscalOfficerVeteransAdministration": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To Fiscal Officer Veteran's Administration"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2675%20Sample%20Only%20Order%20Through%20Normal%20Supply%20Channels%20Fill%20(1).pdf",
     "totalFields": 66,
-    "composedFields": 49,
-    "coveragePercent": 74,
+    "composedFields": 11,
+    "coveragePercent": 100,
     "xfaLabelCount": 23,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:30.393Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.685259+00:00"
   }
 }

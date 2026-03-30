@@ -7,427 +7,414 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "degreeOfOwnership": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Degree Of Ownership",
+        "label": "Degree of Ownership",
         "widget": "text"
       }
     },
     "nameofOwnerOfBusiness": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Nameof Owner Of Business",
+        "label": "Nameof Owner of Business",
         "widget": "text"
       }
     },
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "firstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Name",
+        "label": "First Name",
         "widget": "text"
       }
     },
     "middleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Middle Initial",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "secondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "thisB": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This B",
+        "label": "This B",
         "widget": "text"
       }
     },
     "thisD": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This D",
+        "label": "This D",
         "widget": "text"
       }
     },
     "thisF": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This F",
+        "label": "This F",
         "widget": "text"
       }
     },
     "thisH": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This H",
+        "label": "This H",
         "widget": "text"
       }
     },
     "lastI": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last I",
+        "label": "Last I",
         "widget": "text"
       }
     },
     "thisI": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This I",
+        "label": "This I",
         "widget": "text"
       }
     },
     "totalLastYear": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Total Last Year",
+        "label": "Total Last Year",
         "widget": "text"
       }
     },
     "totalThisYear": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Total This Year",
+        "label": "Total This Year",
         "widget": "text"
       }
     },
     "lastH": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last H",
+        "label": "Last H",
         "widget": "text"
       }
     },
     "lastG": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last G",
+        "label": "Last G",
         "widget": "text"
       }
     },
     "thisG": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This G",
+        "label": "This G",
         "widget": "text"
       }
     },
     "lastF": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last F",
+        "label": "Last F",
         "widget": "text"
       }
     },
     "lastE": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last E",
+        "label": "Last E",
         "widget": "text"
       }
     },
     "thisE": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This E",
+        "label": "This E",
         "widget": "text"
       }
     },
     "lastD": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last D",
+        "label": "Last D",
         "widget": "text"
       }
     },
     "lastC": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last C",
+        "label": "Last C",
         "widget": "text"
       }
     },
     "thisC": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This C",
+        "label": "This C",
         "widget": "text"
       }
     },
     "lastB": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last B",
+        "label": "Last B",
         "widget": "text"
       }
     },
     "kind1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind1",
+        "label": "Kind",
         "widget": "text"
       }
     },
     "kind2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind2",
+        "label": "Kind",
         "widget": "text"
       }
     },
     "kind3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind3",
+        "label": "Kind",
         "widget": "text"
       }
     },
     "kind4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind4",
+        "label": "Kind",
         "widget": "text"
       }
     },
     "kind5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind5",
+        "label": "Kind",
         "widget": "text"
       }
     },
     "kindB1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind B1",
+        "label": "Kind B",
         "widget": "text"
       }
     },
     "kindB2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind B2",
+        "label": "Kind B",
         "widget": "text"
       }
     },
     "kindB3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind B3",
+        "label": "Kind B",
         "widget": "text"
       }
     },
     "kindB4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind B4",
+        "label": "Kind B",
         "widget": "text"
       }
     },
     "kindB5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind B5",
+        "label": "Kind B",
         "widget": "text"
       }
     },
     "kindB6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Kind B6",
+        "label": "Kind B",
         "widget": "text"
       }
     },
     "remarksIfAny": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Remarks If Any",
+        "label": "Remarks If Any",
         "widget": "text"
       }
     },
     "lastA": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last A",
+        "label": "Last a",
         "widget": "text"
       }
     },
     "thisA": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform This A",
+        "label": "This a",
         "widget": "text"
       }
     },
     "totalAcreage": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Total Acreage",
+        "label": "Total Acreage",
         "widget": "text"
       }
     },
     "primaryAcres": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Primary Acres",
+        "label": "Primary Acres",
         "widget": "text"
       }
     },
     "acresLastYear": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Acres Last Year",
+        "label": "Acres Last Year",
         "widget": "text"
       }
     },
     "acresThisYear": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Acres This Year",
+        "label": "Acres This Year",
         "widget": "text"
       }
     },
     "totalNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Total Number",
+        "label": "Total Number",
         "widget": "text"
       }
     },
     "nameAndAddressofWitness1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name And Addressof Witness1",
+        "label": "Name and Addressof Witness",
         "widget": "text"
       }
     },
     "nameAndAddressofWitness2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name And Addressof Witness2",
+        "label": "Name and Addressof Witness",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "periodEndingDateMmDdYyyy_1PeriodStartingDateMmD": {
       "type": "string",
       "x-va-field": {
-        "label": "PERIOD ENDING DATE (MM/DD/YYYY)1. PERIOD STARTING DATE (MM/D",
+        "label": "Period Ending Date (MM/DD/YYYY)1. Period Starting Date (MM/D",
         "widget": "text"
       }
     },
@@ -441,7 +428,7 @@
     "veteranSSocialSecurityNumber5VeteranSFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S SOCIAL SECURITY NUMBER5. VETERAN'S FILE NUMBER",
+        "label": "Veteran's Social Security Number5. Veteran's File Number",
         "widget": "text"
       }
     },
@@ -457,7 +444,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "CLAIMANT'S SOCIAL SECURITY NUMBER",
+        "label": "Claimant'S Social Security Number",
         "widget": "ssn"
       }
     },
@@ -465,7 +452,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "CLAIMANT'S DATE OF BIRTH",
+        "label": "Claimant'S Date Of Birth",
         "widget": "date"
       }
     },
@@ -487,35 +474,28 @@
     "claimantEMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIMANT E-MAIL ADDRESS",
+        "label": "Claimant E-Mail Address",
         "widget": "address"
       }
     },
     "amountExpectedThisYear12AmountReceivedLastYear": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT EXPECTED THIS YEAR12. AMOUNT RECEIVED LAST YEAR",
+        "label": "Amount Expected This Year12. Amount Received Last Year",
         "widget": "text"
       }
     },
     "amountAnticipatedNextYear": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT ANTICIPATED NEXT YEAR",
+        "label": "Amount Anticipated Next Year",
         "widget": "text"
       }
     },
     "nameSOfOwnerSOfBusinessAndDegreeOfOwnershipOfE": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME(S) OF OWNER(S) OF BUSINESS AND DEGREE OF OWNERSHIP OF E",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Name(S) Of Owner(S) Of Business And Degree Of Ownership Of E",
         "widget": "text"
       }
     },
@@ -536,35 +516,35 @@
     "totalExpenses": {
       "type": "string",
       "x-va-field": {
-        "label": "TOTAL EXPENSES",
+        "label": "Total Expenses",
         "widget": "text"
       }
     },
     "farmOperatingExpense": {
       "type": "string",
       "x-va-field": {
-        "label": "FARM OPERATING EXPENSE",
+        "label": "Farm Operating Expense",
         "widget": "text"
       }
     },
     "acreageInCropsAndPasture": {
       "type": "string",
       "x-va-field": {
-        "label": "ACREAGE IN CROPS AND PASTURE",
+        "label": "Acreage In Crops And Pasture",
         "widget": "text"
       }
     },
     "livestockInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "LIVESTOCK INFORMATION",
+        "label": "Livestock Information",
         "widget": "text"
       }
     },
     "doYouRentYourFarmToOrFromSomeoneElse": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU RENT YOUR FARM TO OR FROM SOMEONE ELSE?",
+        "label": "Do You Rent Your Farm To Or From Someone Else?",
         "widget": "text"
       }
     },
@@ -593,21 +573,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "23B. DATE SIGNED (",
+        "label": "23B. Date Signed (",
         "widget": "date"
       }
     },
     "feesForClaims": {
       "type": "string",
       "x-va-field": {
-        "label": "FEES FOR CLAIMS",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Fees For Claims",
         "widget": "text"
       }
     },
@@ -620,8 +593,8 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4165-are.pdf",
     "status": "digitized",
     "totalFields": 89,
-    "composedFields": 87,
-    "coveragePercent": 99,
+    "composedFields": 83,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 3,
@@ -632,6 +605,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.041015+00:00"
   }
 }

@@ -7,91 +7,79 @@
     "dateField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page1 Date Field1",
+        "label": "Date Field",
         "widget": "text"
       }
     },
     "terminationReason": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T E R M I N A T I O N R E A S O N",
+        "label": "Termination Reason",
         "widget": "text"
       }
     },
-    "veteransSocialSecurityNumberFirstThreeNumbers": {
+    "veteransSocialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "Form1 #subform Veterans Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Veterans Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "veteransSocialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Veterans Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Veterans Social Security Number",
+        "widget": "ssn"
       }
     },
     "veteransLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans Last Name",
+        "label": "Veterans Last Name",
         "widget": "text"
       }
     },
     "veteransMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans Middle Initial1",
+        "label": "Veterans Middle Initial",
         "widget": "text"
       }
     },
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "daytime1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Daytime1",
+        "label": "Daytime",
         "widget": "text"
       }
     },
     "daytime2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Daytime2",
+        "label": "Daytime",
         "widget": "text"
       }
     },
     "daytime3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Daytime3",
+        "label": "Daytime",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
@@ -133,14 +121,7 @@
     "5bDateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "5B. DATE SIGNED (",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "5B. Date Signed (",
         "widget": "text"
       }
     },
@@ -155,7 +136,7 @@
     "eMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "E-MAIL ADDRESS",
+        "label": "E-Mail Address",
         "widget": "address"
       }
     },
@@ -164,7 +145,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SSNOR",
+        "label": "Ssnor",
         "widget": "ssn"
       }
     },
@@ -172,7 +153,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "1D. SPOUSE DATE OF BIRTH (",
+        "label": "1D. Spouse Date Of Birth (",
         "widget": "date"
       }
     },
@@ -180,37 +161,40 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "2B. DATE OF TERMINATION (",
+        "label": "2B. Date Of Termination (",
         "widget": "date"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0537-are.pdf",
     "status": "digitized",
     "totalFields": 30,
-    "composedFields": 28,
-    "coveragePercent": 96,
+    "composedFields": 25,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 3,
     "generatedAt": "2026-03-28T17:37:01.039Z",
     "redigitizedAt": "2026-03-30T20:38:58.192Z",
@@ -218,6 +202,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.014372+00:00"
   }
 }

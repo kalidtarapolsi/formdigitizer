@@ -5,28 +5,35 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "printNameLastFirstMiddleInitial": {
-      "type": "string"
-    },
-    "printForm": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Print Name Last First Middle Initial"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0462.pdf",
     "totalFields": 4,
-    "composedFields": 2,
-    "coveragePercent": 50,
+    "composedFields": 3,
+    "coveragePercent": 100,
     "xfaLabelCount": 4,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:17:54.926Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.583036+00:00"
   }
 }

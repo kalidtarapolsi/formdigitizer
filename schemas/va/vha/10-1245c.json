@@ -5,21 +5,28 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "newAgreement": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "New Agreement"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1245c-fill.pdf",
     "totalFields": 20,
-    "composedFields": 17,
-    "coveragePercent": 85,
+    "composedFields": 2,
+    "coveragePercent": 100,
     "xfaLabelCount": 4,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:27:19.354Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.632038+00:00"
   }
 }

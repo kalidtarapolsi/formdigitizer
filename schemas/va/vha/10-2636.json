@@ -35,33 +35,49 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "datesLine1Of3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dates Line1Of"
+      }
     },
     "datesLine2Of3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dates Line2Of"
+      }
     },
     "datesLine3Of3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dates Line3Of"
+      }
     },
     "ptIdNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Pt ID Number"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2636-fill.pdf",
     "totalFields": 7,
-    "composedFields": 6,
-    "coveragePercent": 86,
+    "composedFields": 5,
+    "coveragePercent": 100,
     "xfaLabelCount": 7,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:09.623Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.681324+00:00"
   }
 }

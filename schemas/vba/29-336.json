@@ -4,7 +4,7 @@
   "type": "object",
   "required": [],
   "properties": {
-    "checkBoxIfAddressHasChanged": {
+    "ifAddressHasChanged": {
       "type": "boolean",
       "x-va-field": {
         "label": "F Page 1 Check Box If Address Has Changed",
@@ -46,39 +46,21 @@
         "widget": "text"
       }
     },
-    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "mailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
-    "mailingAddressZiporPostalCodeLastFourNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F Page 1 Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "veteransFirstName": {
@@ -119,149 +101,121 @@
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberFirstThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Social Security Number First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberSecondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Social Security Number Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "thirdPrincipalBeneficiaryFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Third Principal Beneficiary First Name",
+        "label": "Third Principal Beneficiary First Name",
         "widget": "text"
       }
     },
     "thirdPrincipalBeneficiaryLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Third Principal Beneficiary Last Name",
+        "label": "Third Principal Beneficiary Last Name",
         "widget": "text"
       }
     },
     "thirdPrincipalBeneficiaryMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Third Principal Beneficiary Middle Initial",
+        "label": "Third Principal Beneficiary Middle Initial",
         "widget": "text"
       }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "emailAddress2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Email Address",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "daytimeTelephoneNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Daytime Telephone Number",
+        "label": "Daytime Telephone Number",
         "widget": "text"
       }
     },
     "lumpSumSharePercentage": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Lump Sum Share Percentage",
+        "label": "Lump Sum Share Percentage",
         "widget": "text"
       }
     },
     "printNameOfFirstWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Print Name Of First Witness",
+        "label": "Print Name of First Witness",
         "widget": "text"
       }
     },
     "mailingAddressOfFirstWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Mailing Address Of First Witness",
+        "label": "Mailing Address of First Witness",
         "widget": "text"
       }
     },
     "telephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Telephone Number",
+        "label": "Telephone Number",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
-    },
-    "note": {
-      "type": "string",
+      "format": "date",
       "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
+        "label": "Date Signed"
       }
     },
     "ofPrecedence": {
@@ -271,31 +225,24 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
+    "ifYourAddressHasChanged": {
       "type": "string",
       "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "checkBoxIfYourAddressHasChanged": {
-      "type": "string",
-      "x-va-field": {
-        "label": "CHECK BOX IF YOUR ADDRESS HAS CHANGED \u25ba",
+        "label": "Check Box If Your Address Has Changed \u25ba",
         "widget": "text"
       }
     },
     "firstNameMiddleInitialLastNameOfVeteranInsured": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST NAME - MIDDLE INITIAL - LAST NAME OF VETERAN/INSURED",
+        "label": "First Name - Middle Initial - Last Name Of Veteran/Insured",
         "widget": "text"
       }
     },
     "veteranInsuredSocialSecurityNo": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN/INSURED SOCIAL SECURITY NO.",
+        "label": "Veteran/Insured Social Security No.",
         "widget": "text"
       }
     },
@@ -330,28 +277,28 @@
     "dateOfBirthMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "text"
       }
     },
     "emailAddress3": {
       "type": "string",
       "x-va-field": {
-        "label": "EMAIL ADDRESS",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "listAllPolicyNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST ALL POLICY NUMBERS",
+        "label": "List All Policy Numbers",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -414,28 +361,28 @@
     "firstNameMiddleInitialLastNameOfPrincipalBeneficiary": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST NAME - MIDDLE INITIAL - LAST NAME OF PRINCIPAL BENEFICIARY",
+        "label": "First Name - Middle Initial - Last Name Of Principal Beneficiary",
         "widget": "text"
       }
     },
     "principalBeneficiary": {
       "type": "string",
       "x-va-field": {
-        "label": "PRINCIPAL BENEFICIARY",
+        "label": "Principal Beneficiary",
         "widget": "text"
       }
     },
     "theFollowing": {
       "type": "string",
       "x-va-field": {
-        "label": "THE FOLLOWING",
+        "label": "The Following",
         "widget": "text"
       }
     },
     "firstNameMiddleInitialLastNameOfContingentBeneficiary": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST NAME - MIDDLE INITIAL - LAST NAME OF CONTINGENT BENEFICIARY",
+        "label": "First Name - Middle Initial - Last Name Of Contingent Beneficiary",
         "widget": "text"
       }
     },
@@ -443,7 +390,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "CONTINGENT BENEFICIARY",
+        "label": "Contingent Beneficiary",
         "widget": "date"
       }
     },
@@ -453,13 +400,6 @@
       "x-va-field": {
         "label": "for each trustee. Fill in the title and",
         "widget": "date"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Instructions",
-        "widget": "text"
       }
     },
     "examplesOnHowToDesignateVariousTrusts": {
@@ -472,7 +412,7 @@
     "nameOfTrust": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF TRUST",
+        "label": "Name Of Trust",
         "widget": "text"
       }
     },
@@ -480,21 +420,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF TRUST (",
+        "label": "Date Of Trust (",
         "widget": "date"
       }
     },
     "trusteeNameFirstMiLast": {
       "type": "string",
       "x-va-field": {
-        "label": "TRUSTEE NAME (FIRST, MI, LAST)",
+        "label": "Trustee Name (First, Mi, Last)",
         "widget": "text"
       }
     },
     "trusteeAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "TRUSTEE ADDRESS",
+        "label": "Trustee Address",
         "widget": "address"
       }
     },
@@ -502,7 +442,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "TRUSTEE DAYTIME PHONE NUMBER",
+        "label": "Trustee Daytime Phone Number",
         "widget": "phone"
       }
     },
@@ -510,14 +450,14 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "TRUSTEE EMAIL ADDRESS",
+        "label": "Trustee Email Address",
         "widget": "email"
       }
     },
     "signatureOfVeteranInsuredSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF VETERAN/INSURED (Sign in ink)",
+        "label": "Signature Of Veteran/Insured (Sign In Ink)",
         "widget": "signature"
       }
     },
@@ -525,7 +465,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED (",
+        "label": "Date Signed (",
         "widget": "date"
       }
     },
@@ -547,7 +487,7 @@
     "thisCompletedFormMayBeSubmittedBy": {
       "type": "string",
       "x-va-field": {
-        "label": "THIS COMPLETED FORM MAY BE SUBMITTED BY",
+        "label": "This Completed Form May Be Submitted By",
         "widget": "text"
       }
     },
@@ -597,14 +537,14 @@
     "signatureOfFirstWitnessSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF FIRST WITNESS (Sign in ink)",
+        "label": "Signature Of First Witness (Sign In Ink)",
         "widget": "signature"
       }
     },
     "signatureOfSecondWitnessSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF SECOND WITNESS (Sign in ink)",
+        "label": "Signature Of Second Witness (Sign In Ink)",
         "widget": "signature"
       }
     }
@@ -613,8 +553,8 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-336-are.pdf",
     "status": "digitized",
     "totalFields": 94,
-    "composedFields": 86,
-    "coveragePercent": 99,
+    "composedFields": 76,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 6,
@@ -625,6 +565,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.275133+00:00"
   }
 }

@@ -7,357 +7,344 @@
     "firstNameApplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Name A P P L I C A N T",
+        "label": "First Name Applicant",
         "widget": "text"
       }
     },
     "middleInitialApplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Middle Initial A P P L I C A N T",
+        "label": "Middle Initial Applicant",
         "widget": "text"
       }
     },
     "lastNameApplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Name A P P L I C A N T",
+        "label": "Last Name Applicant",
         "widget": "text"
       }
     },
     "firstNameVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Name V E T E R A N",
+        "label": "First Name Veteran",
         "widget": "text"
       }
     },
     "middleInitialVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Middle Initial V E T E R A N",
+        "label": "Middle Initial Veteran",
         "widget": "text"
       }
     },
     "lastNameVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Name V E T E R A N",
+        "label": "Last Name Veteran",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "vafileno": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A F I L E N O",
+        "label": "Vafileno",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "secondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "payee": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P A Y E E",
+        "label": "Payee",
         "widget": "text"
       }
     },
     "monthDob": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Month D O B",
+        "label": "Month DOB",
         "widget": "text"
       }
     },
     "dayDob": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Day D O B",
+        "label": "Day DOB",
         "widget": "text"
       }
     },
     "yearDob": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Year D O B",
+        "label": "Year DOB",
         "widget": "text"
       }
     },
     "nameofyourcourseorcurriculum": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E O F Y O U R C O U R S E O R C U R R I C U L U M",
+        "label": "Nameofyourcourseorcurriculum",
         "widget": "text"
       }
     },
     "creditorclockhourload": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C R E D I T O R C L O C K H O U R L O A D",
+        "label": "Creditorclockhourload",
         "widget": "text"
       }
     },
     "finaleducationalprofessional": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform F I N A L E D U C A T I O N A L P R O F E S S I O N A L",
+        "label": "Finaleducationalprofessional",
         "widget": "text"
       }
     },
     "unitsubject": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform U N I T S U B J E C T",
+        "label": "Unitsubject",
         "widget": "text"
       }
     },
     "namepositionandaddressoftutor": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E P O S I T I O N A N D A D D R E S S O F T U T O R",
+        "label": "Namepositionandaddressoftutor",
         "widget": "text"
       }
     },
     "date12a": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform D A T E12 A",
+        "label": "Date12a",
         "widget": "text"
       }
     },
     "exactdatesofsessions": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform E X A C T D A T E S O F S E S S I O N S",
+        "label": "Exactdatesofsessions",
         "widget": "text"
       }
     },
     "numberofhoursofinstructionthismonth": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform N U M B E R O F H O U R S O F I N S T R U C T I O N T H I S M O N T H",
+        "label": "Numberofhoursofinstructionthismonth",
         "widget": "text"
       }
     },
     "chargeperhour": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform C H A R G E P E R H O U R",
+        "label": "Chargeperhour",
         "widget": "text"
       }
     },
     "totalchargesthismonth1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform T O T A L C H A R G E S T H I S M O N T H1",
+        "label": "Totalchargesthismonth",
         "widget": "text"
       }
     },
     "totalchargesthismonth2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform T O T A L C H A R G E S T H I S M O N T H2",
+        "label": "Totalchargesthismonth",
         "widget": "text"
       }
     },
     "totalchargesthismonth3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform T O T A L C H A R G E S T H I S M O N T H3",
+        "label": "Totalchargesthismonth",
         "widget": "text"
       }
     },
     "totalchargesthismonth4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform T O T A L C H A R G E S T H I S M O N T H4",
+        "label": "Totalchargesthismonth",
         "widget": "text"
       }
     },
     "totalchargesthismonth5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform T O T A L C H A R G E S T H I S M O N T H5",
+        "label": "Totalchargesthismonth",
         "widget": "text"
       }
     },
     "totalchargesthismonth6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform T O T A L C H A R G E S T H I S M O N T H6",
+        "label": "Totalchargesthismonth",
         "widget": "text"
       }
     },
     "totalpaymentdue": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T O T A L P A Y M E N T D U E",
+        "label": "Totalpaymentdue",
         "widget": "text"
       }
     },
     "signatureofapplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E O F A P P L I C A N T",
+        "label": "Signatureofapplicant",
         "widget": "text"
       }
     },
     "datesigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E S I G N E D",
+        "label": "Datesigned",
         "widget": "text"
       }
     },
     "eMailaddressofapplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform E M A I L A D D R E S S O F A P P L I C A N T",
+        "label": "E Mailaddressofapplicant",
         "widget": "text"
       }
     },
     "signatureoftutor": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E O F T U T O R",
+        "label": "Signatureoftutor",
         "widget": "text"
       }
     },
     "nameandaddressofeducationalinstitution": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E A N D A D D R E S S O F E D U C A T I O N A L I N S T I T U T I O N",
+        "label": "Nameandaddressofeducationalinstitution",
         "widget": "text"
       }
     },
     "signatureofcertifyingofficial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E O F C E R T I F Y I N G O F F I C I A L",
+        "label": "Signatureofcertifyingofficial",
         "widget": "text"
       }
     },
     "title": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform T I T L E",
+        "label": "Title",
         "widget": "text"
       }
     },
     "signatureofprofessor": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E O F P R O F E S S O R",
+        "label": "Signatureofprofessor",
         "widget": "text"
       }
     },
     "approvaldate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform A P P R O V A L D A T E",
+        "label": "Approvaldate",
         "widget": "text"
       }
     },
     "signatureofadjudicator": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E O F A D J U D I C A T O R",
+        "label": "Signatureofadjudicator",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E",
+        "label": "Date",
         "widget": "text"
       }
     },
     "signatureoffinanceofficer": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S I G N A T U R E O F F I N A N C E O F F I C E R",
+        "label": "Signatureoffinanceofficer",
         "widget": "text"
       }
     },
     "stationnumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S T A T I O N N U M B E R",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Stationnumber",
         "widget": "text"
       }
     },
     "nameOfApplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF APPLICANT",
+        "label": "Name Of Applicant",
         "widget": "text"
       }
     },
@@ -371,7 +358,7 @@
     "mailingAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "MAILING ADDRESS",
+        "label": "Mailing Address",
         "widget": "address"
       }
     },
@@ -380,14 +367,14 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
     "sexfemalemale": {
       "type": "string",
       "x-va-field": {
-        "label": "SEXFEMALEMALE",
+        "label": "Sexfemalemale",
         "widget": "text"
       }
     },
@@ -395,28 +382,28 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Date Of Birth (MM/DD/YYYY)",
         "widget": "date"
       }
     },
     "nameOfYourCourseOrCurriculum_8CreditOrClockHourLo": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF YOUR COURSE OR CURRICULUM 8. CREDIT OR CLOCK HOUR LO",
+        "label": "Name Of Your Course Or Curriculum 8. Credit Or Clock Hour Lo",
         "widget": "text"
       }
     },
     "unitSubjectOrSubjectsInWhichYouRequireIndividualized": {
       "type": "string",
       "x-va-field": {
-        "label": "UNIT SUBJECT OR SUBJECTS IN WHICH YOU REQUIRE INDIVIDUALIZED",
+        "label": "Unit Subject Or Subjects In Which You Require Individualized",
         "widget": "text"
       }
     },
     "scheduleAndChargesForTutorialAssistance": {
       "type": "string",
       "x-va-field": {
-        "label": "SCHEDULE AND CHARGES FOR TUTORIAL ASSISTANCE",
+        "label": "Schedule And Charges For Tutorial Assistance",
         "widget": "text"
       }
     },
@@ -424,7 +411,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "B. EXACT",
+        "label": "B. Exact",
         "widget": "date"
       }
     },
@@ -432,14 +419,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "13B. DATE SIGNED (",
+        "label": "13B. Date Signed (",
         "widget": "date"
       }
     },
     "iCertifyThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I CERTIFY THAT",
+        "label": "I Certify That",
         "widget": "text"
       }
     },
@@ -447,14 +434,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "14B. DATE SIGNED (",
+        "label": "14B. Date Signed (",
         "widget": "date"
       }
     },
     "nameAndAddressOfEducationalInstitution_16IndicateTyp": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF EDUCATIONAL INSTITUTION 16. INDICATE TYP",
+        "label": "Name And Address Of Educational Institution 16. Indicate Typ",
         "widget": "address"
       }
     },
@@ -462,7 +449,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "17B. DATE SIGNED (",
+        "label": "17B. Date Signed (",
         "widget": "date"
       }
     },
@@ -470,14 +457,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "18B. DATE SIGNED (",
+        "label": "18B. Date Signed (",
         "widget": "date"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -485,28 +472,28 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "APPROVAL",
+        "label": "Approval",
         "widget": "date"
       }
     },
     "signatureOfFinanceOfficerOrDesignee": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF FINANCE OFFICER (or designee)",
+        "label": "Signature Of Finance Officer (Or Designee)",
         "widget": "signature"
       }
     },
     "eligibility": {
       "type": "string",
       "x-va-field": {
-        "label": "ELIGIBILITY",
+        "label": "Eligibility",
         "widget": "text"
       }
     },
     "claimsForTutorialAssistance": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIMS FOR TUTORIAL ASSISTANCE",
+        "label": "Claims For Tutorial Assistance",
         "widget": "text"
       }
     },
@@ -521,7 +508,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "• Sign and",
+        "label": "\u2022 Sign and",
         "widget": "date"
       }
     },
@@ -542,7 +529,7 @@
     "specialProvisions": {
       "type": "string",
       "x-va-field": {
-        "label": "SPECIAL PROVISIONS",
+        "label": "Special Provisions",
         "widget": "text"
       }
     },
@@ -579,7 +566,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1990t-are.pdf",
     "status": "digitized",
     "totalFields": 82,
-    "composedFields": 80,
+    "composedFields": 78,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -590,6 +577,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.128897+00:00"
   }
 }

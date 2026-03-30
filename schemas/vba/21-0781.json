@@ -7,455 +7,427 @@
     "veteransServiceMembersFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veterans Service Members First Name",
+        "label": "Veterans Service Members First Name",
         "widget": "text"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "veteransLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veterans Last Name",
+        "label": "Veterans Last Name",
         "widget": "text"
       }
     },
     "veteransMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veterans Middle Initial1",
+        "label": "Veterans Middle Initial",
         "widget": "text"
       }
     },
     "veteransServiceNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Veterans Service Number",
+        "label": "Veterans Service Number",
         "widget": "text"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "ssn2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform S S N2",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "ssn1": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform S S N1",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "ssn3": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform S S N3",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Area Code",
+        "label": "Area Code",
         "widget": "text"
       }
     },
     "combatTraumaticEvents": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Combat Traumatic Events",
+        "label": "Combat Traumatic Events",
         "widget": "checkbox"
       }
     },
     "personalTraumaticEventsNotInvolvingMilitarySexualTrauma": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Personal Traumatic Events Not Involving Military Sexual Trauma",
+        "label": "Personal Traumatic Events Not Involving Military Sexual Trauma",
         "widget": "checkbox"
       }
     },
     "personalTraumaticEventsInvolvingMilitarySexualTrauma": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Personal Traumatic Events Involving Military Sexual Trauma",
+        "label": "Personal Traumatic Events Involving Military Sexual Trauma",
         "widget": "checkbox"
       }
     },
     "otherTraumaticEvents": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Other Traumatic Events",
+        "label": "Other Traumatic Events",
         "widget": "checkbox"
       }
     },
     "briefDescriptionOfTheTraumaticEvents": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Brief Description Of The Traumatic Events",
+        "label": "Brief Description of the Traumatic Events",
         "widget": "text"
       }
     },
     "locationOfTheTraumaticEvents": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Location Of The Traumatic Events",
+        "label": "Location of the Traumatic Events",
         "widget": "text"
       }
     },
     "datesTheTraumaticEventsOccured": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Dates The Traumatic Events Occured",
+        "label": "Dates the Traumatic Events Occured",
         "widget": "text"
       }
     },
     "eMailAddressOptional": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform E Mail Address Optional",
+        "label": "Email Address Optional",
         "widget": "text"
       }
     },
     "increasedDecreasedVisitsToAHealthcareProfessionalCounselorOrTreatmentFacility": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Increased Decreased Visits To A Healthcare Professional Counselor Or Treatment Facility",
+        "label": "Increased Decreased Visits to a Healthcare Professional Counselor or Treatment Facility",
         "widget": "checkbox"
       }
     },
     "requestForAChangeInOccupationalSeriesOrDutyAssignment": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Request For A Change In Occupational Series Or Duty Assignment",
+        "label": "Request for a Change in Occupational Series or Duty Assignment",
         "widget": "checkbox"
       }
     },
     "increasedDecreasedUseOfLeave": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Increased Decreased Use Of Leave",
+        "label": "Increased Decreased Use of Leave",
         "widget": "checkbox"
       }
     },
     "changesInPerformanceOrPerformanceEvaluations": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Changes In Performance Or Performance Evaluations",
+        "label": "Changes in Performance or Performance Evaluations",
         "widget": "checkbox"
       }
     },
     "episodesOfDepressionPanicAttacksOrAnxiety": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Episodes Of Depression Panic Attacks Or Anxiety",
+        "label": "Episodes of Depression Panic Attacks or Anxiety",
         "widget": "checkbox"
       }
     },
     "increasedDecreasedUseOfPrescriptionMedications": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Increased Decreased Use Of Prescription Medications",
+        "label": "Increased Decreased Use of Prescription Medications",
         "widget": "checkbox"
       }
     },
     "increasedDecreasedUseOfOverTheCounterMedications": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Increased Decreased Use Of Over The Counter Medications",
+        "label": "Increased Decreased Use of Over the Counter Medications",
         "widget": "checkbox"
       }
     },
     "increasedDecreasedUseOfAlcoholOrDrugs": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Increased Decreased Use Of Alcohol Or Drugs",
+        "label": "Increased Decreased Use of Alcohol or Drugs",
         "widget": "checkbox"
       }
     },
     "disciplinaryOrLegalDifficulties": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Disciplinary Or Legal Difficulties",
+        "label": "Disciplinary or Legal Difficulties",
         "widget": "checkbox"
       }
     },
     "changesInEatingHabitsSuchAsOvereatingOrUndereatingOrSignificantChangesInWeight": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Changes In Eating Habits Such As Overeating Or Undereating Or Significant Changes In Weight",
+        "label": "Changes in Eating Habits Such As Overeating or Undereating or Significant Changes in Weight",
         "widget": "checkbox"
       }
     },
     "additionalInformationAboutBehavioralChanges": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Additional Information About Behavioral Changes",
+        "label": "Additional Information About Behavioral Changes",
         "widget": "text"
       }
     },
     "listAdditionalBehavioralChanges": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform List Additional Behavioral Changes",
+        "label": "List Additional Behavioral Changes",
         "widget": "text"
       }
     },
     "pregnancyTestsAroundTheTimeOfTheTraumaticEvents": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Pregnancy Tests Around The Time Of The Traumatic Events",
+        "label": "Pregnancy Tests Around the Time of the Traumatic Events",
         "widget": "checkbox"
       }
     },
     "testsForSexuallyTransmittedInfections": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Tests For Sexually Transmitted Infections",
+        "label": "Tests for Sexually Transmitted Infections",
         "widget": "checkbox"
       }
     },
     "economicOrSocialBehavioralChanges": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Economic Or Social Behavioral Changes",
+        "label": "Economic or Social Behavioral Changes",
         "widget": "checkbox"
       }
     },
     "changesInOrBreakupOfASignificantRelationship": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Changes In Or Breakup Of A Significant Relationship",
+        "label": "Changes in or Breakup of a Significant Relationship",
         "widget": "checkbox"
       }
     },
     "policeReportLocationIfKnown": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Police Report Location If Known",
+        "label": "Police Report Location If Known",
         "widget": "text"
       }
     },
     "otherReport": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Other Report",
+        "label": "Other Report",
         "widget": "text"
       }
     },
     "aRapeCrisisCenterOrCenterForDomesticAbuse": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform A Rape Crisis Center Or Center For Domestic Abuse",
+        "label": "A Rape Crisis Center or Center for Domestic Abuse",
         "widget": "checkbox"
       }
     },
     "aCounselingFacilityOrHealthClinic": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform A Counseling Facility Or Health Clinic",
+        "label": "A Counseling Facility or Health Clinic",
         "widget": "checkbox"
       }
     },
     "familyMemberOrRoomates": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Family Member Or Roomates",
+        "label": "Family Member or Roomates",
         "widget": "checkbox"
       }
     },
     "aFacultyMember": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform A Faculty Member",
+        "label": "A Faculty Member",
         "widget": "checkbox"
       }
     },
     "civilianPoliceReports": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Civilian Police Reports",
-        "widget": "checkbox"
-      }
-    },
-    "medicalReportsFromCivilianPhysiciansOrCaregiversWhoTreatedYouImmediatelyFollowingTheIncidentOrSometimeLater": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F #subform Medical Reports From Civilian Physicians Or Caregivers Who Treated You Immediately Following The Incident Or Sometime Later",
+        "label": "Civilian Police Reports",
         "widget": "checkbox"
       }
     },
     "aChaplainOrClergy": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform A Chaplain Or Clergy",
+        "label": "A Chaplain or Clergy",
         "widget": "checkbox"
       }
     },
     "fellowServiceMembers": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Fellow Service Members",
+        "label": "Fellow Service Members",
         "widget": "checkbox"
       }
     },
     "personalDiariesOrJournals": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Personal Diaries Or Journals",
+        "label": "Personal Diaries or Journals",
         "widget": "checkbox"
       }
     },
     "otherSpecifyBelow": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Other Specify Below",
+        "label": "Other Specify Below",
         "widget": "checkbox"
       }
     },
     "privateHealthcareProvider": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Private Healthcare Provider",
+        "label": "Private Healthcare Provider",
         "widget": "checkbox"
       }
     },
     "vaVetCenter": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform V A Vet Center",
+        "label": "VA Vet Center",
         "widget": "checkbox"
       }
     },
     "communityCarePaidForByVa": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Community Care Paid For By V A",
+        "label": "Community Care Paid for by VA",
         "widget": "checkbox"
       }
     },
     "vaMedicalCenterAndCommunityBasedOutpatientClinics": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform V A Medical Center And Community Based Outpatient Clinics",
+        "label": "VA Medical Center and Community Based Outpatient Clinics",
         "widget": "checkbox"
       }
     },
     "departmentOfDefenseMilitaryTreatmentFacilities": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Department Of Defense Military Treatment Facilities",
+        "label": "Department of Defense Military Treatment Facilities",
         "widget": "checkbox"
       }
     },
-    "checkBoxDoNotHaveDateS": {
+    "doNotHaveDateS": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Check Box Do Not Have Date s",
+        "label": "Do Not Have Date S",
         "widget": "checkbox"
       }
     },
     "nameAndLocationOfTreatmentFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name And Location Of Treatment Facility",
+        "label": "Name and Location of Treatment Facility",
         "widget": "text"
       }
     },
     "remarksIfAny": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Remarks If Any",
+        "label": "Remarks If Any",
         "widget": "text"
       }
     },
     "iConsentToHaveVbaNotifyVhaAboutCertainUpcomingEventsRelatedToMyClaimAndOrAppeal": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform I Consent To Have V B A Notify V H A About Certain Upcoming Events Related To My Claim And Or Appeal",
-        "widget": "checkbox"
-      }
-    },
-    "iDoNotConsentToHaveVbaNotifyVhaAboutCertainUpcomingEventsRelatedToMyClaimAndOrAppeal": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F #subform I Do Not Consent To Have V B A Notify V H A About Certain Upcoming Events Related To My Claim And Or Appeal",
-        "widget": "checkbox"
-      }
-    },
-    "iRevokePriorConsentToHaveVbaNotifyVhaAboutCertainUpcomingEventsRelatedToMyClaimAndOrAppeal": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F #subform I Revoke Prior Consent To Have V B A Notify V H A About Certain Upcoming Events Related To My Claim And Or Appeal",
+        "label": "I Consent to Have Vba Notify Vha About Certain Upcoming Events Related to My Claim and or Appeal",
         "widget": "checkbox"
       }
     },
     "notApplicableAndOrNotEnrolledInVhaHealthcare": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Not Applicable And Or Not Enrolled In V H A Healthcare",
+        "label": "Not Applicable and or Not Enrolled in Vha Healthcare",
         "widget": "checkbox"
       }
     },
     "digitalSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Digital Signature",
+        "label": "Digital Signature",
         "widget": "text"
       }
     },
     "printedNameAndAddressOfWitness": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Printed Name And Address Of Witness",
+        "label": "Printed Name and Address of Witness",
         "widget": "text"
       }
     },
     "dateLastVaf2122Or2122aSubmittedMonth": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Last V A F 21 22 Or 21 22 A Submitted Month",
+        "label": "Date Last Vaf2122Or2122a Submitted Month",
         "widget": "text"
       }
     },
     "accreditationNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Accreditation Number",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Accreditation Number",
         "widget": "text"
       }
     },
@@ -515,13 +487,6 @@
         "widget": "text"
       }
     },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
-      }
-    },
     "onlineThroughAskVa": {
       "type": "string",
       "x-va-field": {
@@ -532,7 +497,7 @@
     "statementInSupportOfClaimedMentalHealthDisorderS": {
       "type": "string",
       "x-va-field": {
-        "label": "STATEMENT IN SUPPORT OF CLAIMED MENTAL HEALTH DISORDER(S)",
+        "label": "Statement In Support Of Claimed Mental Health Disorder(S)",
         "widget": "select"
       }
     },
@@ -540,7 +505,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM/DD/YYYY)2. SOCIAL SECURITY NUMBER3. VA FIL",
+        "label": "Date Of Birth (MM/DD/YYYY)2. Social Security Number3. VA Fil",
         "widget": "date"
       }
     },
@@ -573,24 +538,17 @@
         "widget": "phone"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "selectTheTypeOfInServiceTraumaticEventSYouExperie": {
       "type": "string",
       "x-va-field": {
-        "label": "SELECT THE TYPE OF IN-SERVICE TRAUMATIC EVENT(S) YOU EXPERIE",
+        "label": "Select The Type Of In-Service Traumatic Event(S) You Experie",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -598,7 +556,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "EXAMPLES OF",
+        "label": "Examples Of",
         "widget": "date"
       }
     },
@@ -621,7 +579,7 @@
     "indicateAnyBehavioralChangesFollowingTheInServicePer": {
       "type": "string",
       "x-va-field": {
-        "label": "INDICATE ANY BEHAVIORAL CHANGES FOLLOWING THE IN-SERVICE PER",
+        "label": "Indicate Any Behavioral Changes Following The In-Service Per",
         "widget": "text"
       }
     },
@@ -635,7 +593,7 @@
     "possibleSourcesOfEvidenceFollowingTheTraumaticEventS": {
       "type": "string",
       "x-va-field": {
-        "label": "POSSIBLE SOURCES OF EVIDENCE FOLLOWING THE TRAUMATIC EVENT(S",
+        "label": "Possible Sources Of Evidence Following The Traumatic Event(S",
         "widget": "text"
       }
     },
@@ -673,7 +631,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "HAVE",
+        "label": "Have",
         "widget": "date"
       }
     },
@@ -703,7 +661,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "16B. DATE SIGNED (",
+        "label": "16B. Date Signed (",
         "widget": "date"
       }
     },
@@ -711,7 +669,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "19A. ALTERNATE SIGNER'S SIGNATURE19B. DATE SIGNED",
+        "label": "19A. Alternate Signer'S Signature19B. Date Signed",
         "widget": "date"
       }
     },
@@ -719,15 +677,8 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "20B. DATE SIGNED (",
+        "label": "20B. Date Signed (",
         "widget": "date"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
-        "widget": "text"
       }
     },
     "20d": {
@@ -744,25 +695,34 @@
     },
     "dateOfTreatment": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Treatment"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0781-are.pdf",
     "status": "digitized",
     "totalFields": 113,
-    "composedFields": 107,
-    "coveragePercent": 98,
+    "composedFields": 100,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 7,
     "generatedAt": "2026-03-28T17:32:31.731Z",
     "postProcessedAt": "2026-03-30T20:02:41.688781+00:00",
@@ -771,6 +731,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.278849+00:00"
   }
 }

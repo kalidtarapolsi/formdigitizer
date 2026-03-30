@@ -7,77 +7,63 @@
     "nameveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 1 N A M E V E T E R A N",
+        "label": "Nameveteran",
         "widget": "text"
       }
     },
     "nameveteran2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 1 N A M E V E T E R A N2",
+        "label": "Nameveteran",
         "widget": "text"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 1 V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 1 Email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 2 Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 2 Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 2 Remarks",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "nameveteran3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 2 N A M E V E T E R A N",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Nameveteran",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -85,13 +71,6 @@
       "type": "string",
       "x-va-field": {
         "label": "filed your claim (or a later",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
         "widget": "text"
       }
     },
@@ -105,14 +84,14 @@
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "text"
       }
     },
     "dateOfBirthMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF BIRTH ( MM/DD/YYYY)",
+        "label": "Date Of Birth ( (MM/DD/YYYY)",
         "widget": "text"
       }
     },
@@ -126,7 +105,7 @@
     "relationshipToVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "RELATIONSHIP TO VETERAN",
+        "label": "Relationship To Veteran",
         "widget": "text"
       }
     },
@@ -154,28 +133,28 @@
     "personSYouAreRequestingAnApportionmentFor": {
       "type": "string",
       "x-va-field": {
-        "label": "PERSON(S) YOU ARE REQUESTING AN APPORTIONMENT FOR:",
+        "label": "Person(S) You Are Requesting An Apportionment For:",
         "widget": "text"
       }
     },
     "ifAnyPersonListedIn_10aIsTheVeteranSStepchildIsT": {
       "type": "string",
       "x-va-field": {
-        "label": "IF ANY PERSON LISTED IN 10A IS THE VETERAN'S STEPCHILD, IS T",
+        "label": "If Any Person Listed In 10A Is The Veteran's Stepchild, Is T",
         "widget": "text"
       }
     },
     "noIfNoProvideThe": {
       "type": "string",
       "x-va-field": {
-        "label": "NO  (If “NO,” provide the",
+        "label": "NO  (If \u201cNO,\u201d provide the",
         "widget": "text"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -196,28 +175,28 @@
     "hasTheVeteranSChildRenForWhomTheApportionmentIsC": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS THE VETERAN'S CHILD(REN) FOR WHOM THE APPORTIONMENT IS C",
+        "label": "Has The Veteran's Child(Ren) For Whom The Apportionment Is C",
         "widget": "text"
       }
     },
     "nameOfFacilityaddressOfFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF FACILITYADDRESS OF FACILITY",
+        "label": "Name Of Facilityaddress Of Facility",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
-    "form1Page_2RadioButtonList": {
+    "2radioButtonList": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 Page 2 Radio Button List",
+        "label": "2radio Button List",
         "widget": "text"
       }
     }
@@ -226,16 +205,17 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0788-are.pdf",
     "status": "digitized",
     "totalFields": 31,
-    "composedFields": 31,
-    "coveragePercent": 97,
+    "composedFields": 28,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:35:50.268Z",
     "redigitizedAt": "2026-03-30T20:38:29.052Z",
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.281655+00:00"
   }
 }

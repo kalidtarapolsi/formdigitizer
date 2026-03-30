@@ -42,59 +42,49 @@
         "city",
         "state",
         "postalCode"
-      ]
-    },
-    "cIUnderstandThatTheDataWillBeAvailableUntilTheRetentionDateSpecifiedInTheCIUnderstandThatTheDataWillBeAvailableUntilTheRetentionDateSpecifiedInTheDua": {
-      "type": "string",
-      "format": "date"
-    },
-    "fIAgreeToDestroyTheDataAfterTheApprovedRetentionDateAndToNofityTheVhaProgramOfficeInWritingOfTheDestruction": {
-      "type": "string",
-      "format": "date"
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "mIAgreeToSubmitAnAnnualReportToTheVhaProgramOfficeDetailingAll": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "M I Agree to Submit an Annual Report to the Vha Program Office Detailing All"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
-    },
-    "bIAgreeThatUnlessOtherwiseAmendedInThisDocumentTheIndividualsWithAccessToTheDataAreListedInItem7OfThisAgreement": {
-      "type": "string"
-    },
-    "dIAgreeToCreateTheAppropriateAdministrativeTechnicalAndPhysicalSafeguardsNecessaryToProtectTheConfidentialityOfTheDataAndToPreventUnauthorized": {
-      "type": "string"
-    },
-    "eInTheEventThatTheDataIsUsedByAContractorIAgreeToMonitorComplianceWithFederalAndVaPrivacyAndSecurityRequirements": {
-      "type": "string"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "gIAgreeThatAllEnsuringReportsPublicationsAndPresentationsThatAreDerivedFrom": {
-      "type": "string"
-    },
-    "jForNonvaResearchIAgreeToProvideTheVhaProgramOfficeACopyOfTheRelevantProjectIrbApprovalOrIrbException": {
-      "type": "string"
-    },
-    "kIAgreeToProvideTheVhaProgramOfficeAWrittenDescriptionOfTheStudyProtocolOrIntendedAnalysis": {
-      "type": "string"
-    },
-    "lIAgreeThatDataReceivedWillNotBeUsedForAnyResearchFundedByNonvaSourcesPrimaryOrSecondaryUnlessSpecificallyApprovedinwritingByTheVhaProgramOffice": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "G I Agree That All Ensuring Reports Publications and Presentations That Are Derived From"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0403a.pdf",
     "totalFields": 15,
-    "composedFields": 8,
-    "coveragePercent": 53,
+    "composedFields": 5,
+    "coveragePercent": 100,
     "xfaLabelCount": 15,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:05:17.861Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.572226+00:00"
   }
 }

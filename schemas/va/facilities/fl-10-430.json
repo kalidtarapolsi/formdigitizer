@@ -5,36 +5,60 @@
   "properties": {
     "facilityName": {
       "type": "string",
-      "description": "VA facility name"
+      "description": "VA facility name",
+      "x-va-field": {
+        "label": "Facility Name"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "buildingNumber": {
       "type": "string",
-      "description": "Building number"
+      "description": "Building number",
+      "x-va-field": {
+        "label": "Building Number"
+      }
     },
     "roomNumber": {
       "type": "string",
-      "description": "Room/area number"
+      "description": "Room/area number",
+      "x-va-field": {
+        "label": "Room Number"
+      }
     },
     "requestedBy": {
       "type": "string",
-      "description": "Name of person making request"
+      "description": "Name of person making request",
+      "x-va-field": {
+        "label": "Requested by"
+      }
     },
     "department": {
       "type": "string",
-      "description": "Department or service"
+      "description": "Department or service",
+      "x-va-field": {
+        "label": "Department"
+      }
     },
     "phone": {
       "type": "string",
-      "description": "Contact phone number"
+      "description": "Contact phone number",
+      "x-va-field": {
+        "label": "Phone"
+      }
     },
     "dateRequested": {
       "type": "string",
       "format": "date",
-      "description": "Date of request"
+      "description": "Date of request",
+      "x-va-field": {
+        "label": "Date Requested"
+      }
     },
     "priorityLevel": {
       "type": "string",
@@ -43,33 +67,54 @@
         "Urgent",
         "Emergency"
       ],
-      "description": "Priority level"
+      "description": "Priority level",
+      "x-va-field": {
+        "label": "Priority Level"
+      }
     },
     "descriptionOfWork": {
       "type": "string",
-      "description": "Description of work needed"
+      "description": "Description of work needed",
+      "x-va-field": {
+        "label": "Description of Work"
+      }
     },
     "workOrderNumber": {
       "type": "string",
-      "description": "Work order number"
+      "description": "Work order number",
+      "x-va-field": {
+        "label": "Work Order Number"
+      }
     },
     "completionDate": {
       "type": "string",
       "format": "date",
-      "description": "Date completed"
+      "description": "Date completed",
+      "x-va-field": {
+        "label": "Completion Date"
+      }
     },
     "completedBy": {
       "type": "string",
-      "description": "Name of person completing work"
+      "description": "Name of person completing work",
+      "x-va-field": {
+        "label": "Completed by"
+      }
     },
     "supervisorApproval": {
       "type": "boolean",
-      "description": "Supervisor approval"
+      "description": "Supervisor approval",
+      "x-va-field": {
+        "label": "Supervisor Approval"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     }
   },
   "x-va-metadata": {
@@ -82,6 +127,7 @@
     "status": "digitized",
     "pageCount": 2,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.890336+00:00"
   }
 }

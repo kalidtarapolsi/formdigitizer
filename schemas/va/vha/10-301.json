@@ -5,40 +5,59 @@
   "properties": {
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
-    },
-    "option2ProvidingEvidenceOfDeductibleExpensesIHaveEnclosedDocumentationOfAllowableDeductibleExpensesThatMayReduceMyIncomeBelowTheThresholdExamplesOfAllowableDeductibleExpensesAreUnreimbursedMedicalExpensesSuchAsPrescriptionDrugsMedicarePremiumsHealthInsurancePremiumsLabTestsEyeglassesHearingAidsFuneralburialExpensesAndEducationalExpensesForTheVeteranOnly": {
-      "type": "string"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "incomeYear": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Income Year"
+      }
     },
     "iAgreeMyReportedTotalGrossHouseholdIncomeIs": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "I Agree My Reported Total Gross Household Income is"
+      }
     },
     "aboveTheVANationalIncomeThresholdOf": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Above the VA National Income Threshold of"
+      }
     },
     "section1GeneralInformation1VeteransNameLastFirstMiddleName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Section1General Information1Veterans Name Last First Middle Name"
+      }
     },
     "caseNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Case Number"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form_10-301.pdf",
     "totalFields": 10,
-    "composedFields": 9,
-    "coveragePercent": 90,
+    "composedFields": 7,
+    "coveragePercent": 100,
     "xfaLabelCount": 9,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:34:07.166Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.709790+00:00"
   }
 }

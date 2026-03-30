@@ -10,7 +10,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "fullName": {
       "type": "object",
@@ -41,116 +44,210 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "nameOfInsuredAndMailingAddress": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Insured and Mailing Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateofApplication": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateof Application"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "vaMaticAutomaticCheckingAccountDeduction": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "VA Matic Automatic Checking Account Deduction"
+      }
     },
     "amountOfInsuranceToBeConverted": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount of Insurance to Be Converted"
+      }
     },
     "termInsuranceAmount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Term Insurance Amount"
+      }
     },
     "nameOfDisability": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Disability"
+      }
     },
     "policyNumberToBeConverted": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Policy Number to Be Converted"
+      }
     },
     "monthlyAllotmentFromRetirementActiveServicePay": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Monthly Allotment From Retirement Active Service Pay"
+      }
     },
     "plan1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "plan2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "plan3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "plan4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "plan5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "plan6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "plan7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "plan8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Plan"
+      }
     },
     "directPaymentToVa": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Direct Payment to VA"
+      }
     },
     "monthlyDeductionFromVaPensionOrCompensation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Monthly Deduction From VA Pension or Compensation"
+      }
     },
     "yes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "methodMonthly": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Method Monthly"
+      }
     },
     "methodAnnual": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Method Annual"
+      }
     },
     "no2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "yes2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "yes3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "explain": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Explain"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0152-are.pdf",
     "status": "digitized",
     "totalFields": 33,
-    "composedFields": 14,
-    "coveragePercent": 42,
+    "composedFields": 32,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:37:11.636Z"
+    "generatedAt": "2026-03-28T17:37:11.636Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.263692+00:00"
   }
 }

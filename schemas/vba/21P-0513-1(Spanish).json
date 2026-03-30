@@ -21,42 +21,42 @@
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row1 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row2 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount3": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row3 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount4": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row4 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amount5": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Row5 Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "dateSigned2": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 2 #subform #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
@@ -84,7 +84,7 @@
     "nMDeOmbAprobado": {
       "type": "string",
       "x-va-field": {
-        "label": "Núm de OMB Aprobado",
+        "label": "N\u00fam de OMB Aprobado",
         "widget": "text"
       }
     },
@@ -112,14 +112,14 @@
     "nota": {
       "type": "string",
       "x-va-field": {
-        "label": "NOTA",
+        "label": "Nota",
         "widget": "text"
       }
     },
     "estadoCivilYEducativoDeHijoSCivilAndEducationalS": {
       "type": "string",
       "x-va-field": {
-        "label": "ESTADO CIVIL Y EDUCATIVO DE HIJO(S) (CIVIL AND EDUCATIONAL S",
+        "label": "Estado Civil Y Educativo De Hijo(S) (Civil And Educational S",
         "widget": "text"
       }
     },
@@ -182,7 +182,7 @@
     "sucedi": {
       "type": "string",
       "x-va-field": {
-        "label": "sucedió",
+        "label": "sucedi\u00f3",
         "widget": "text"
       }
     },
@@ -196,63 +196,49 @@
     "nMerosTelefNicosIncluyaCDigoDeReaTelephoneNumb": {
       "type": "string",
       "x-va-field": {
-        "label": "NÚMEROS TELEFÓNICOS (Incluya Código de Área) (TELEPHONE NUMB",
+        "label": "N\u00daMEROS TELEF\u00d3NICOS (Incluya C\u00f3digo de \u00c1rea) (TELEPHONE NUMB",
         "widget": "text"
       }
     },
     "4bFechaDeFirma": {
       "type": "string",
       "x-va-field": {
-        "label": "4B. FECHA DE FIRMA (",
+        "label": "4B. Fecha De Firma (",
         "widget": "text"
       }
     },
     "gastosMedCosDelHijoLeaParrafo_6DeLasInstrucciones": {
       "type": "string",
       "x-va-field": {
-        "label": "GASTOS MEDÍCOS DEL HIJO (Lea Parrafo 6 de las instrucciones",
+        "label": "GASTOS MED\u00cdCOS DEL HIJO (Lea Parrafo 6 de las instrucciones",
         "widget": "text"
       }
     },
     "fechasDates": {
       "type": "string",
       "x-va-field": {
-        "label": "FECHAS (DATES) (",
+        "label": "Fechas (Dates) (",
         "widget": "text"
       }
     },
     "hijoChild": {
       "type": "string",
       "x-va-field": {
-        "label": "HIJO (CHILD)",
+        "label": "Hijo (Child)",
         "widget": "text"
       }
     },
     "fechasDatesMmDdYyyyFechasDates": {
       "type": "string",
       "x-va-field": {
-        "label": "FECHAS (DATES) (MM/DD/YYYY)FECHAS (DATES) (",
+        "label": "Fechas (Dates) (MM/DD/YYYY)Fechas (Dates) (",
         "widget": "text"
       }
     },
-    "fPage_1Table1HeaderRowSubformTextField1": {
+    "subTextField1": {
       "type": "string",
       "x-va-field": {
-        "label": "F Page 1 Table1 Header Row #subform Text Field1",
-        "widget": "text"
-      }
-    },
-    "fPage_1Table1Row6SubformTextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Table1 Row6 #subform Text Field1",
-        "widget": "text"
-      }
-    },
-    "fPage_2SubformSubformTextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 #subform #subform Text Field1",
+        "label": "Sub Text Field",
         "widget": "text"
       }
     },
@@ -275,16 +261,17 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0513-1(spanish)-are.pdf",
     "status": "digitized",
     "totalFields": 38,
-    "composedFields": 38,
-    "coveragePercent": 95,
+    "composedFields": 36,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:32:05.956Z",
     "redigitizedAt": "2026-03-30T20:36:26.264Z",
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.337405+00:00"
   }
 }

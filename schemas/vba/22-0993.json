@@ -35,29 +35,39 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0993-are.pdf",
     "status": "digitized",
     "totalFields": 5,
-    "composedFields": 5,
+    "composedFields": 3,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:39:03.838Z"
+    "generatedAt": "2026-03-28T17:39:03.838Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.101558+00:00"
   }
 }

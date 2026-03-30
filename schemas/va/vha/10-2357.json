@@ -5,37 +5,59 @@
   "properties": {
     "startDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Start Date"
+      }
     },
     "stopDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Stop Date"
+      }
     },
     "medicationAndDosage": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Medication and Dosage"
+      }
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "roomAndBedNo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Room and Bed no"
+      }
     },
     "time": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Time"
+      }
     },
     "init": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Init"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2357.pdf",
     "totalFields": 7,
-    "composedFields": 3,
-    "coveragePercent": 43,
+    "composedFields": 7,
+    "coveragePercent": 100,
     "xfaLabelCount": 7,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:02:12.965Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.655119+00:00"
   }
 }

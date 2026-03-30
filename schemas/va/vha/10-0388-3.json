@@ -42,27 +42,40 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "medicalSupportEachSpecifyLine2Of2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Medical Support Each Specify Line2Of"
+      }
     },
     "fAINumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "F AI Number"
+      }
     },
     "cleanUtility": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Clean Utility"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-3-fill.pdf",
     "totalFields": 75,
-    "composedFields": 5,
-    "coveragePercent": 7,
+    "composedFields": 4,
+    "coveragePercent": 100,
     "xfaLabelCount": 4,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:19:16.393Z",
     "pageCount": 2,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.554906+00:00"
   }
 }

@@ -5,230 +5,438 @@
   "properties": {
     "date5": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateop1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateop"
+      }
     },
     "dateop2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateop"
+      }
     },
     "dateop3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateop"
+      }
     },
     "dateop4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateop"
+      }
     },
     "date111": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date112": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date113": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "date15": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "to1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To"
+      }
     },
     "from2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "From"
+      }
     },
     "title4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "lendernumber6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lendernumber"
+      }
     },
     "cb1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cb"
+      }
     },
     "ab1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ab"
+      }
     },
     "ab2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ab"
+      }
     },
     "ab3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ab"
+      }
     },
     "ab4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ab"
+      }
     },
     "cb2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cb"
+      }
     },
     "cb3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cb"
+      }
     },
     "cb4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cb"
+      }
     },
     "type1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Type"
+      }
     },
     "type2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Type"
+      }
     },
     "type3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Type"
+      }
     },
     "type4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Type"
+      }
     },
     "acctno1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Acctno"
+      }
     },
     "acctno2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Acctno"
+      }
     },
     "acctno3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Acctno"
+      }
     },
     "acctno4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Acctno"
+      }
     },
     "latepay1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Latepay"
+      }
     },
     "latepay2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Latepay"
+      }
     },
     "latepay3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Latepay"
+      }
     },
     "typeofacct1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Typeofacct"
+      }
     },
     "typeofacct2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Typeofacct"
+      }
     },
     "typeofacct3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Typeofacct"
+      }
     },
     "typeofacct4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Typeofacct"
+      }
     },
     "innameof1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Innameof"
+      }
     },
     "innameof2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Innameof"
+      }
     },
     "innameof3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Innameof"
+      }
     },
     "innameof4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Innameof"
+      }
     },
     "acctloanno1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Acctloanno"
+      }
     },
     "acctloanno2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Acctloanno"
+      }
     },
     "acctloanno3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Acctloanno"
+      }
     },
     "acctloanno4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Acctloanno"
+      }
     },
     "bal1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bal"
+      }
     },
     "bal2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bal"
+      }
     },
     "bal3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bal"
+      }
     },
     "bal4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bal"
+      }
     },
     "name8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "loanno111": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Loanno"
+      }
     },
     "loanno112": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Loanno"
+      }
     },
     "loanno113": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Loanno"
+      }
     },
     "orgamt1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Orgamt"
+      }
     },
     "orgamt2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Orgamt"
+      }
     },
     "orgamt3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Orgamt"
+      }
     },
     "curbal1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Curbal"
+      }
     },
     "curbal2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Curbal"
+      }
     },
     "curbal3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Curbal"
+      }
     },
     "install1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Install"
+      }
     },
     "install2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Install"
+      }
     },
     "install3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Install"
+      }
     },
     "per1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "per3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per"
+      }
     },
     "secure1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Secure"
+      }
     },
     "secure2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Secure"
+      }
     },
     "secure3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Secure"
+      }
     },
     "add12": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Add"
+      }
     },
     "title14": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8497a-are.pdf",
     "status": "digitized",
     "totalFields": 69,
-    "composedFields": 9,
-    "coveragePercent": 13,
+    "composedFields": 69,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:34:39.960Z"
+    "generatedAt": "2026-03-28T17:34:39.960Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.216817+00:00"
   }
 }

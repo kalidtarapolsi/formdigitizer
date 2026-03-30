@@ -7,42 +7,35 @@
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "numericField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Numeric Field1",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -56,7 +49,7 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -70,35 +63,35 @@
     "qualiifications": {
       "type": "string",
       "x-va-field": {
-        "label": "QUALIIFICATIONS",
+        "label": "Qualiifications",
         "widget": "text"
       }
     },
     "nameOfUnderwriterApplicantFirstMiddleLast": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF UNDERWRITER-APPLICANT (First, Middle, Last):",
+        "label": "Name Of Underwriter-Applicant (First, Middle, Last):",
         "widget": "text"
       }
     },
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER:",
+        "label": "Social Security Number:",
         "widget": "text"
       }
     },
     "businessAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "BUSINESS ADDRESS:",
+        "label": "Business Address:",
         "widget": "text"
       }
     },
     "iAmCurrentlyApprovedAsAVaUnderwriter": {
       "type": "string",
       "x-va-field": {
-        "label": "I AM CURRENTLY APPROVED AS A VA-UNDERWRITER:",
+        "label": "I Am Currently Approved As A VA-Underwriter:",
         "widget": "text"
       }
     },
@@ -112,21 +105,21 @@
     "beginningWithPresentEmploymentListChronologicallyAll": {
       "type": "string",
       "x-va-field": {
-        "label": "BEGINNING WITH PRESENT EMPLOYMENT, LIST CHRONOLOGICALLY ALL",
+        "label": "Beginning With Present Employment, List Chronologically All",
         "widget": "text"
       }
     },
     "nameAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME & ADDRESS",
+        "label": "Name & Address",
         "widget": "text"
       }
     },
     "iAmCurrentlyDesignatedAsACruOrAruByTheMba": {
       "type": "string",
       "x-va-field": {
-        "label": "I AM CURRENTLY DESIGNATED AS A CRU OR ARU BY THE MBA.",
+        "label": "I Am Currently Designated As A Cru Or Aru By The Mba.",
         "widget": "text"
       }
     },
@@ -143,29 +136,23 @@
         "label": "9C.",
         "widget": "text"
       }
-    },
-    "form1SubformTextField1": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field1",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8736a-are.pdf",
     "status": "digitized",
     "totalFields": 21,
-    "composedFields": 21,
-    "coveragePercent": 86,
+    "composedFields": 19,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 3,
+    "needsReviewCount": 0,
     "pageCount": 1,
     "generatedAt": "2026-03-28T17:36:53.117Z",
     "redigitizedAt": "2026-03-30T20:38:53.409Z",
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.230437+00:00"
   }
 }

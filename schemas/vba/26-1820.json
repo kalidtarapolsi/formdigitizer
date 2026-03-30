@@ -7,728 +7,721 @@
     "automatic": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Automatic",
+        "label": "Automatic",
         "widget": "checkbox"
       }
     },
     "prior": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Prior",
+        "label": "Prior",
         "widget": "checkbox"
       }
     },
     "guaranty": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Guaranty",
+        "label": "Guaranty",
         "widget": "checkbox"
       }
     },
     "insurance": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Insurance",
+        "label": "Insurance",
         "widget": "checkbox"
       }
     },
     "valoanNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform V A Loan Number",
+        "label": "Valoan Number",
         "widget": "text"
       }
     },
     "lendersLoanNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Lenders Loan Number",
+        "label": "Lenders Loan Number",
         "widget": "text"
       }
     },
     "lendersVaidentificationNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Lenders V A Identification Number",
+        "label": "Lenders Vaidentification Number",
         "widget": "text"
       }
     },
     "dateOfReport": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Date Of Report",
+        "label": "Date of Report",
         "widget": "text"
       }
     },
     "nameOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Name Of Veteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
     "veteranSsn": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Veteran S S N",
+        "label": "Veteran SSN",
         "widget": "text"
       }
     },
     "veteranPresentAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Veteran Present Address",
+        "label": "Veteran Present Address",
         "widget": "text"
       }
     },
     "loanPropertyAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Loan Property Address",
+        "label": "Loan Property Address",
         "widget": "text"
       }
     },
     "amountOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Amount Of Loan",
+        "label": "Amount of Loan",
         "widget": "text"
       }
     },
     "firstRealty": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform First Realty",
+        "label": "First Realty",
         "widget": "checkbox"
       }
     },
     "secondRealty": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Second Realty",
+        "label": "Second Realty",
         "widget": "checkbox"
       }
     },
     "firstChattel": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform First Chattel",
+        "label": "First Chattel",
         "widget": "checkbox"
       }
     },
     "unsecured": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Unsecured",
+        "label": "Unsecured",
         "widget": "checkbox"
       }
     },
     "other11": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Other11",
+        "label": "Other",
         "widget": "checkbox"
       }
     },
     "feeSimple": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Fee Simple",
+        "label": "Fee Simple",
         "widget": "checkbox"
       }
     },
     "leasehold": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Leasehold",
+        "label": "Leasehold",
         "widget": "checkbox"
       }
     },
     "other13": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Other13",
+        "label": "Other",
         "widget": "checkbox"
       }
     },
     "discountPointsCharged": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Discount Points Charged",
-        "widget": "text"
-      }
-    },
-    "expirationDate": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Vba261820 #subform Expiration Date",
+        "label": "Discount Points Charged",
         "widget": "text"
       }
     },
     "otherSpecify11": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Other Specify11",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "otherSpecify12": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Other Specify12",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "otherSpecify13": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Other Specify13",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "nameOfCoObligor": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Name Of Co Obligor",
+        "label": "Name of Co Obligor",
         "widget": "text"
       }
     },
     "coObligorSsn": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Co Obligor S S N",
+        "label": "Co Obligor SSN",
         "widget": "text"
       }
     },
     "listAllTitleHolders": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform List All Title Holders",
+        "label": "List All Title Holders",
         "widget": "text"
       }
     },
     "discountPointsFinancedIrrlonly": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Discount Points Financed I R R L Only",
+        "label": "Discount Points Financed Irrlonly",
         "widget": "text"
       }
     },
     "amountOfEnergyEfficiencyMortgage": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Amount Of Energy Efficiency Mortgage",
+        "label": "Amount of Energy Efficiency Mortgage",
         "widget": "text"
       }
     },
     "listOfEnergyImprovements": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform List Of Energy Improvements",
+        "label": "List of Energy Improvements",
         "widget": "text"
       }
     },
     "approxAnnRealEstTaxes": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Approx Ann Real Est Taxes",
+        "label": "Approx Ann Real Est Taxes",
         "widget": "text"
       }
     },
     "bfloodAnnualPremium": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform B Flood Annual Premium",
+        "label": "Bflood Annual Premium",
         "widget": "text"
       }
     },
     "ahazardAnnualPremium": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform A Hazard Annual Premium",
+        "label": "Ahazard Annual Premium",
         "widget": "text"
       }
     },
     "bfloodFaceAmtOfPolicy": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform B Flood Face Amt Of Policy",
+        "label": "Bflood Face Amt of Policy",
         "widget": "text"
       }
     },
     "ahazardFaceAmtOfPolicy": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform A Hazard Face Amt Of Policy",
+        "label": "Ahazard Face Amt of Policy",
         "widget": "text"
       }
     },
     "totalUnpaidSpecialAssessments": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Total Unpaid Special Assessments",
+        "label": "Total Unpaid Special Assessments",
         "widget": "text"
       }
     },
     "approxAnnualAssessPayment": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Approx Annual Assess Payment",
+        "label": "Approx Annual Assess Payment",
         "widget": "text"
       }
     },
     "homeOwnersAssociateDues": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Home Owners Associate Dues",
+        "label": "Home Owners Associate Dues",
         "widget": "text"
       }
     },
     "describeNonrealty": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Describe Nonrealty",
+        "label": "Describe Nonrealty",
         "widget": "text"
       }
     },
     "itemsToBeCompletedAsPartOfTheEscrowAttachSeparteSheetIfNecessary": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Items To Be Completed As Part Of The Escrow Attach Separte Sheet If Necessary",
+        "label": "Items to Be Completed As Part of the Escrow Attach Separte Sheet If Necessary",
         "widget": "text"
       }
     },
     "amountWitheldFromLoadProceedsAndDepostedIntoEscrow": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Amount Witheld From Load Proceeds And Deposted Into Escrow",
+        "label": "Amount Witheld From Load Proceeds and Deposted Into Escrow",
         "widget": "text"
       }
     },
     "dateOfAcquired": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Date Of Acquired",
+        "label": "Date of Acquired",
         "widget": "text"
       }
     },
     "purchasePrice": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Purchase Price",
+        "label": "Purchase Price",
         "widget": "text"
       }
     },
     "dateLoanProceedsFullyPaidOut": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Date Loan Proceeds Fully Paid Out",
+        "label": "Date Loan Proceeds Fully Paid Out",
         "widget": "text"
       }
     },
     "dateOfFirstPayment": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Date Of First Payment",
+        "label": "Date of First Payment",
         "widget": "text"
       }
     },
     "dateOfMaturityDateOfNote": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Date Of Maturity Date Of Note",
+        "label": "Date of Maturity Date of Note",
         "widget": "text"
       }
     },
     "modifiedInterestRate": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Modified Interest Rate",
+        "label": "Modified Interest Rate",
         "widget": "text"
       }
     },
     "modifiedInterestTerm": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Modified Interest Term",
+        "label": "Modified Interest Term",
         "widget": "text"
       }
     },
     "currentRateIfLoanBeingRefinanceWasAnArm": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Current Rate If Loan Being Refinance Was An Arm",
+        "label": "Current Rate If Loan Being Refinance Was an Arm",
         "widget": "text"
       }
     },
     "prncplInterestPayEachPer": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Prncpl Interest Pay Each Per",
+        "label": "Prncpl Interest Pay Each Per",
         "widget": "text"
       }
     },
     "dateLoanClosed": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Date Loan Closed",
+        "label": "Date Loan Closed",
         "widget": "text"
       }
     },
     "interestRate": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Interest Rate",
+        "label": "Interest Rate",
         "widget": "text"
       }
     },
     "termOfLoanMonths": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Term Of Loan Months",
+        "label": "Term of Loan Months",
         "widget": "text"
       }
     },
     "cfunction": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform C Function",
+        "label": "Cfunction",
         "widget": "text"
       }
     },
     "caddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform C Address",
+        "label": "Caddress",
         "widget": "text"
       }
     },
     "cname": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform C Name",
+        "label": "Cname",
         "widget": "text"
       }
     },
     "bfunction": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform B Function",
+        "label": "Bfunction",
         "widget": "text"
       }
     },
     "baddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform B Address",
+        "label": "Baddress",
         "widget": "text"
       }
     },
     "bname": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform B Name",
+        "label": "Bname",
         "widget": "text"
       }
     },
     "afunction": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform A Function",
+        "label": "Afunction",
         "widget": "text"
       }
     },
     "aaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform A Address",
+        "label": "Aaddress",
         "widget": "text"
       }
     },
     "aname": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform A Name",
+        "label": "Aname",
         "widget": "text"
       }
     },
     "certOfReasonableValue": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Cert Of Reasonable Value",
+        "label": "Cert of Reasonable Value",
         "widget": "checkbox"
       }
     },
     "sigTitleOfLendr": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Sig Title Of Lendr",
+        "label": "Sig Title of Lendr",
         "widget": "text"
       }
     },
     "dateSigned34": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Date Signed34",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "underwriterVaidNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Underwriter V A Id Number",
+        "label": "Underwriter Vaid Number",
         "widget": "text"
       }
     },
     "nameOfUnderwriter": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Name Of Underwriter",
+        "label": "Name of Underwriter",
         "widget": "text"
       }
     },
     "lenderTelephone": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Lender Telephone",
+        "label": "Lender Telephone",
         "widget": "text"
       }
     },
     "lenderNameAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Lender Name Address",
+        "label": "Lender Name Address",
         "widget": "text"
       }
     },
     "occupancy6": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Occupancy6",
+        "label": "Occupancy",
         "widget": "checkbox"
       }
     },
     "occupancy5": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Occupancy5",
+        "label": "Occupancy",
         "widget": "checkbox"
       }
     },
     "occupancy4": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Occupancy4",
+        "label": "Occupancy",
         "widget": "checkbox"
       }
     },
     "occupancy3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Occupancy3",
+        "label": "Occupancy",
         "widget": "checkbox"
       }
     },
     "occupancy2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Occupancy2",
+        "label": "Occupancy",
         "widget": "checkbox"
       }
     },
     "occupancy1": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Occupancy1",
+        "label": "Occupancy",
         "widget": "checkbox"
       }
     },
     "wasNotAware": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Was Not Aware",
+        "label": "Was Not Aware",
         "widget": "checkbox"
       }
     },
     "wasAware": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Was Aware",
+        "label": "Was Aware",
         "widget": "checkbox"
       }
     },
     "reasonablePropertyValue": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Reasonable Property Value",
+        "label": "Reasonable Property Value",
         "widget": "text"
       }
     },
     "initialsCoObligor": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Initials C O Obligor",
+        "label": "Initials Co Obligor",
         "widget": "text"
       }
     },
     "initialsVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Initials Veteran",
+        "label": "Initials Veteran",
         "widget": "text"
       }
     },
     "notHispanic38b": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Not Hispanic38 B",
+        "label": "Not Hispanic38b",
         "widget": "checkbox"
       }
     },
     "hispanic38b": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Hispanic38 B",
+        "label": "Hispanic38b",
         "widget": "checkbox"
       }
     },
     "notHispanic37b": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Not Hispanic37 B",
+        "label": "Not Hispanic37b",
         "widget": "checkbox"
       }
     },
     "hispanic37b": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Hispanic37 B",
+        "label": "Hispanic37b",
         "widget": "checkbox"
       }
     },
     "white38c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform White38 C",
+        "label": "White38c",
         "widget": "checkbox"
       }
     },
     "black38c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Black38 C",
+        "label": "Black38c",
         "widget": "checkbox"
       }
     },
     "asian38c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Asian38 C",
+        "label": "Asian38c",
         "widget": "checkbox"
       }
     },
     "white37c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform White37 C",
+        "label": "White37c",
         "widget": "checkbox"
       }
     },
     "black37c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Black37 C",
+        "label": "Black37c",
         "widget": "checkbox"
       }
     },
     "asian37c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Asian37 C",
+        "label": "Asian37c",
         "widget": "checkbox"
       }
     },
     "nativeHawaiian38c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Native Hawaiian38 C",
+        "label": "Native Hawaiian38c",
         "widget": "checkbox"
       }
     },
     "americanIndian38c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform American Indian38 C",
+        "label": "American Indian38c",
         "widget": "checkbox"
       }
     },
     "nativeHawaiian37c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Native Hawaiian37 C",
+        "label": "Native Hawaiian37c",
         "widget": "checkbox"
       }
     },
     "americanIndian37c": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform American Indian37 C",
+        "label": "American Indian37c",
         "widget": "checkbox"
       }
     },
     "male38d": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Male38 D",
+        "label": "Male38d",
         "widget": "checkbox"
       }
     },
     "female38d": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Female38 D",
+        "label": "Female38d",
         "widget": "checkbox"
       }
     },
     "male37d": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Male37 D",
+        "label": "Male37d",
         "widget": "checkbox"
       }
     },
     "female37d": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vba261820 #subform Female37 D",
+        "label": "Female37d",
         "widget": "checkbox"
       }
     },
     "signatureOfCoObligorIfApplicable41": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Signature Of C O O B L I G O R If Applicable41",
+        "label": "Signature of Co Obligor If Applicable",
         "widget": "text"
       }
     },
     "signaureOfVeteran40": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Signaure Of Veteran40",
+        "label": "Signaure of Veteran",
         "widget": "text"
       }
     },
     "dateSigned39": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba261820 #subform Date Signed39",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "purposeOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "PURPOSE OF LOAN",
+        "label": "Purpose Of Loan",
         "widget": "text"
       }
     },
@@ -742,28 +735,28 @@
     "termsOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "TERMS OF LOAN",
+        "label": "Terms Of Loan",
         "widget": "text"
       }
     },
     "typeOfLien": {
       "type": "string",
       "x-va-field": {
-        "label": "TYPE OF LIEN",
+        "label": "Type Of Lien",
         "widget": "text"
       }
     },
     "titleOfPropertyIsVestedInTheFollowingPersonS": {
       "type": "string",
       "x-va-field": {
-        "label": "TITLE OF PROPERTY IS VESTED IN THE FOLLOWING PERSON(S)",
+        "label": "Title Of Property Is Vested In The Following Person(S)",
         "widget": "text"
       }
     },
     "estateInPropertyIs_38Cfr_36_4350": {
       "type": "string",
       "x-va-field": {
-        "label": "ESTATE IN PROPERTY IS (38 CFR 36.4350)",
+        "label": "Estate In Property Is (38 Cfr 36.4350)",
         "widget": "text"
       }
     },
@@ -777,35 +770,28 @@
     "discountPointsCharged2": {
       "type": "string",
       "x-va-field": {
-        "label": "DISCOUNT POINTS CHARGED",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Discount Points Charged",
         "widget": "text"
       }
     },
     "presentAddressOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "PRESENT ADDRESS OF VETERAN",
+        "label": "Present Address Of Veteran",
         "widget": "address"
       }
     },
     "discountPointsFinancedIrrrlOnly": {
       "type": "string",
       "x-va-field": {
-        "label": "DISCOUNT POINTS FINANCED (IRRRL ONLY)",
+        "label": "Discount Points Financed (Irrrl Only)",
         "widget": "text"
       }
     },
     "instructionsToLenders": {
       "type": "string",
       "x-va-field": {
-        "label": "INSTRUCTIONS TO LENDERS",
+        "label": "Instructions To Lenders",
         "widget": "text"
       }
     },
@@ -813,70 +799,70 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "H. DATE LOAN PROCEEDS FULLY PAID OUTI.",
+        "label": "H. Date Loan Proceeds Fully Paid Outi.",
         "widget": "date"
       }
     },
     "listAllTitleHolders2": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST ALL TITLE HOLDERS:",
+        "label": "List All Title Holders:",
         "widget": "text"
       }
     },
     "amountOfEnergyEfficiencyMortgage2": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT OF ENERGY EFFICIENCY MORTGAGE",
+        "label": "Amount Of Energy Efficiency Mortgage",
         "widget": "text"
       }
     },
     "listOfEnergyImprovements2": {
       "type": "string",
       "x-va-field": {
-        "label": "LIST OF ENERGY IMPROVEMENTS",
+        "label": "List Of Energy Improvements",
         "widget": "text"
       }
     },
     "approximate": {
       "type": "string",
       "x-va-field": {
-        "label": "APPROXIMATE",
+        "label": "Approximate",
         "widget": "text"
       }
     },
     "totalUnpaid": {
       "type": "string",
       "x-va-field": {
-        "label": "TOTAL UNPAID",
+        "label": "Total Unpaid",
         "widget": "text"
       }
     },
     "homeownersAssociationDues": {
       "type": "string",
       "x-va-field": {
-        "label": "HOMEOWNERS ASSOCIATION DUES",
+        "label": "Homeowners Association Dues",
         "widget": "text"
       }
     },
     "describeNonrealtyIfAnyAcquiredWithProceedsOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "DESCRIBE NONREALTY, IF ANY, ACQUIRED WITH PROCEEDS OF LOAN",
+        "label": "Describe Nonrealty, If Any, Acquired With Proceeds Of Loan",
         "widget": "text"
       }
     },
     "amountWitheldFromLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT WITHELD FROM LOAN",
+        "label": "Amount Witheld From Loan",
         "widget": "text"
       }
     },
     "itemsToBeCompletedAsPartOfTheEscrowAttachSeparate": {
       "type": "string",
       "x-va-field": {
-        "label": "ITEMS TO BE COMPLETED AS PART OF THE ESCROW (Attach separate",
+        "label": "Items To Be Completed As Part Of The Escrow (Attach Separate",
         "widget": "text"
       }
     },
@@ -884,7 +870,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE ACQUIRED",
+        "label": "Date Acquired",
         "widget": "date"
       }
     },
@@ -898,7 +884,7 @@
     "iTheUndersignedLenderCertifyThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I, THE UNDERSIGNED LENDER, CERTIFY THAT:",
+        "label": "I, The Undersigned Lender, Certify That:",
         "widget": "text"
       }
     },
@@ -907,7 +893,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "ADDRESSNAME",
+        "label": "Addressname",
         "widget": "ssn"
       }
     },
@@ -915,7 +901,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SIGNATURE AND TITLE OF LENDER REPRESENTATIVE34. DATE SIGNED",
+        "label": "Signature And Title Of Lender Representative34. Date Signed",
         "widget": "date"
       }
     },
@@ -923,42 +909,28 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "TELEPHONE NO. OF LENDER",
+        "label": "Telephone No. Of Lender",
         "widget": "phone"
       }
     },
     "nameAndAddressOfLender": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF LENDER",
+        "label": "Name And Address Of Lender",
         "widget": "address"
       }
     },
     "noticeToBorrowers": {
       "type": "string",
       "x-va-field": {
-        "label": "NOTICE TO BORROWERS",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Notice To Borrowers",
         "widget": "text"
       }
     },
     "federalCollectionPolicyNotice": {
       "type": "string",
       "x-va-field": {
-        "label": "FEDERAL COLLECTION POLICY NOTICE",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Federal Collection Policy Notice",
         "widget": "text"
       }
     },
@@ -979,7 +951,7 @@
     "iTheUndersignedVeteranCertifyThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I, THE UNDERSIGNED VETERAN, CERTIFY  THAT:",
+        "label": "I, The Undersigned Veteran, Certify  That:",
         "widget": "text"
       }
     },
@@ -993,7 +965,7 @@
     "signatureOfCoObligorIfApplicable_40SignatureOfVete": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF CO-OBLIGOR (If applicable)40. SIGNATURE OF VETE",
+        "label": "Signature Of Co-Obligor (If Applicable)40. Signature Of Vete",
         "widget": "signature"
       }
     },
@@ -1001,7 +973,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED",
+        "label": "Date Signed",
         "widget": "date"
       }
     },
@@ -1017,7 +989,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1820-are.pdf",
     "status": "digitized",
     "totalFields": 143,
-    "composedFields": 143,
+    "composedFields": 139,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -1028,6 +1000,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.165061+00:00"
   }
 }

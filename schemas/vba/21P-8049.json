@@ -7,238 +7,225 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "veteransFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Veterans First Name",
+        "label": "Veterans First Name",
         "widget": "text"
       }
     },
     "veteransLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Veterans Last Name",
+        "label": "Veterans Last Name",
         "widget": "text"
       }
     },
     "veteransMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Veterans Middle Initial1",
+        "label": "Veterans Middle Initial",
         "widget": "text"
       }
     },
     "claimantsCurrentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants Current Mailing Address Number And Street",
+        "label": "Claimants Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "claimantsCurrentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants Current Mailing Address Apartment Or Unit Number",
+        "label": "Claimants Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "claimantsCurrentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants Current Mailing Address City",
+        "label": "Claimants Current Mailing Address City",
         "widget": "text"
       }
     },
     "claimantsCurrentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants Current Mailing Address State Or Province",
+        "label": "Claimants Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "claimantsCurrentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants Current Mailing Address Country",
+        "label": "Claimants Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "claimantsCurrentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "claimantsCurrentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "claimantsCurrentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Vba218049form #subform Claimants Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Claimants Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "claimantsFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants First Name",
+        "label": "Claimants First Name",
         "widget": "text"
       }
     },
     "claimantsLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants Last Name",
+        "label": "Claimants Last Name",
         "widget": "text"
       }
     },
     "claimantsMiddleInitial1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Claimants Middle Initial1",
+        "label": "Claimants Middle Initial",
         "widget": "text"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "emailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Email Address",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "otherSpecify": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Other Specify",
+        "label": "Other Specify",
         "widget": "text"
       }
     },
     "dependentsAge": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Dependents Age",
+        "label": "Dependents Age",
         "widget": "text"
       }
     },
     "dependentsName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Dependents Name",
+        "label": "Dependents Name",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "secondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Area Code",
+        "label": "Area Code",
         "widget": "text"
       }
     },
     "explanation": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Explanation",
+        "label": "Explanation",
         "widget": "text"
       }
     },
     "nameOfDeceasedPersonFirstMiddleLast": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Name of Deceased Person First Middle Last",
+        "label": "Name of Deceased Person First Middle Last",
         "widget": "text"
       }
     },
     "nameOfPersonPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Name of Person Paid",
+        "label": "Name of Person Paid",
         "widget": "text"
       }
     },
     "addressOfPersonPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Address Of Person Paid",
+        "label": "Address of Person Paid",
         "widget": "text"
       }
     },
     "nameOfTheDeceasedFromWhoPaymentIsReceived": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Name of the Deceased From who Payment is Received",
+        "label": "Name of the Deceased From Who Payment is Received",
         "widget": "text"
       }
     },
     "expectedOrActualDateOfReceipt": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform Expected Or Actual Date Of Receipt",
+        "label": "Expected or Actual Date of Receipt",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform #subform Remarks",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform #subform Signature",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba218049form #subform #subform Date Signed",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
@@ -259,14 +246,14 @@
     "veteranSSocialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S SOCIAL SECURITY NUMBER",
+        "label": "Veteran's Social Security Number",
         "widget": "text"
       }
     },
     "veteranSDateOfBirth": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S DATE OF BIRTH",
+        "label": "Veteran's Date Of Birth",
         "widget": "text"
       }
     },
@@ -294,14 +281,7 @@
     "claimantSRelationshipToVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIMANT'S RELATIONSHIP TO VETERAN",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Claimant'S Relationship To Veteran",
         "widget": "text"
       }
     },
@@ -315,14 +295,14 @@
     "claimantSSocialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIMANT'S SOCIAL SECURITY NUMBER",
+        "label": "Claimant'S Social Security Number",
         "widget": "text"
       }
     },
     "claimantSDateOfBirthMmDdYyyy": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIMANT'S DATE OF BIRTH (MM/DD/YYYY)",
+        "label": "Claimant'S Date Of Birth (MM/DD/YYYY)",
         "widget": "text"
       }
     },
@@ -336,21 +316,14 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Important",
         "widget": "text"
       }
     },
     "20cDateOfDeath": {
       "type": "string",
       "x-va-field": {
-        "label": "20C. DATE OF DEATH (",
+        "label": "20C. Date Of Death (",
         "widget": "text"
       }
     },
@@ -378,7 +351,7 @@
     "nameOfTheDeceasedFromWhomPaymentIsReceived": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF THE DECEASED FROM WHOM PAYMENT IS RECEIVED.",
+        "label": "Name Of The Deceased From Whom Payment Is Received.",
         "widget": "text"
       }
     },
@@ -408,7 +381,7 @@
     "remarks2": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
+        "label": "Remarks",
         "widget": "text"
       }
     },
@@ -430,14 +403,14 @@
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
     "feesForClaims": {
       "type": "string",
       "x-va-field": {
-        "label": "FEES FOR CLAIMS",
+        "label": "Fees For Claims",
         "widget": "text"
       }
     },
@@ -450,8 +423,8 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8049-are.pdf",
     "status": "digitized",
     "totalFields": 65,
-    "composedFields": 63,
-    "coveragePercent": 98,
+    "composedFields": 59,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 4,
@@ -462,6 +435,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.410051+00:00"
   }
 }

@@ -9,14 +9,23 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "firstpaymentdate": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Firstpaymentdate"
+      }
     },
     "address": {
       "type": "object",
@@ -57,113 +66,201 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "datesigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned"
+      }
     },
     "effectiveDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Effective Date"
+      }
     },
     "dateapproved": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateapproved"
+      }
     },
     "datesigedpartb": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigedpartb"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "originalamount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Originalamount"
+      }
     },
     "amountofinsurance": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amountofinsurance"
+      }
     },
     "amountofpremium": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amountofpremium"
+      }
     },
     "vetsname": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vetsname"
+      }
     },
     "information8": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Information"
+      }
     },
     "mortgageaccount": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mortgageaccount"
+      }
     },
     "yes10": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no10": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "currentbalance": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currentbalance"
+      }
     },
     "monthlypayment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Monthlypayment"
+      }
     },
     "rateofinterest": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rateofinterest"
+      }
     },
     "durationofpayments": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Durationofpayments"
+      }
     },
     "yesa": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yesa"
+      }
     },
     "noa": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Noa"
+      }
     },
     "yesb": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yesb"
+      }
     },
     "nob": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nob"
+      }
     },
     "approvedby": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Approvedby"
+      }
     },
     "partbveteransname": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Partbveteransname"
+      }
     },
     "ido": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ido"
+      }
     },
     "idonot": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Idonot"
+      }
     },
     "iamnot": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Iamnot"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-8636-are.pdf",
     "status": "digitized",
     "totalFields": 36,
-    "composedFields": 17,
-    "coveragePercent": 47,
+    "composedFields": 32,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 3,
-    "generatedAt": "2026-03-28T17:37:04.757Z"
+    "generatedAt": "2026-03-28T17:37:04.757Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.290503+00:00"
   }
 }

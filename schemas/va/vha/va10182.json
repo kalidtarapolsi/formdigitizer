@@ -7,182 +7,175 @@
     "veteransname": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V E T E R A N S N A M E",
+        "label": "Veteransname",
         "widget": "text"
       }
     },
     "veteransfilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V E T E R A N S F I L E N U M B E R",
+        "label": "Veteransfilenumber",
         "widget": "text"
       }
     },
     "dobveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D O B Veteran",
+        "label": "Dobveteran",
         "widget": "text"
       }
     },
     "nameifnotveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E I F N O T V E T E R A N",
+        "label": "Nameifnotveteran",
         "widget": "text"
       }
     },
     "myDob": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform My D O B",
+        "label": "My Dob",
         "widget": "text"
       }
     },
     "mypreferredmailingaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M Y P R E F E R R E D M A I L I N G A D D R E S S",
+        "label": "Mypreferredmailingaddress",
         "widget": "text"
       }
     },
     "iamexperiencinghomelessness": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform I A M E X P E R I E N C I N G H O M E L E S S N E S S",
+        "label": "Iamexperiencinghomelessness",
         "widget": "checkbox"
       }
     },
     "preferredphoneno": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform P R E F E R R E D P H O N E N O",
+        "label": "Preferredphoneno",
         "widget": "text"
       }
     },
     "mypreferredeMailaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M Y P R E F E R R E D E M A I L A D D R E S S",
+        "label": "Mypreferrede Mailaddress",
         "widget": "text"
       }
     },
     "myrepresentativesname": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform M Y R E P R E S E N T A T I V E S N A M E",
+        "label": "Myrepresentativesname",
         "widget": "text"
       }
     },
     "specificIssues": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Specific Issues",
+        "label": "Specific Issues",
         "widget": "checkbox"
       }
     },
     "specificIssues1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Specific Issues1",
+        "label": "Specific Issues",
         "widget": "text"
       }
     },
     "dateDecision1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Date Decision1",
+        "label": "Date Decision",
         "widget": "text"
       }
     },
     "specificIssues2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Specific Issues2",
+        "label": "Specific Issues",
         "widget": "text"
       }
     },
     "dateDecision2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Date Decision2",
+        "label": "Date Decision",
         "widget": "text"
       }
     },
     "specificIssues3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Specific Issues3",
+        "label": "Specific Issues",
         "widget": "text"
       }
     },
     "dateDecision3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Date Decision3",
+        "label": "Date Decision",
         "widget": "text"
       }
     },
     "specificIssues4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 Specific Issues4",
+        "label": "Specific Issues",
         "widget": "text"
       }
     },
     "dateDecision4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 Date Decision4",
+        "label": "Date Decision",
         "widget": "text"
       }
     },
     "specificIssues5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row5 Specific Issues5",
+        "label": "Specific Issues",
         "widget": "text"
       }
     },
     "dateDecision5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row5 Date Decision5",
+        "label": "Date Decision",
         "widget": "text"
       }
     },
     "additionalIssues": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Additional Issues",
+        "label": "Additional Issues",
         "widget": "checkbox"
       }
     },
     "signature1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature1",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "decisionReviewRequest": {
       "type": "string",
       "x-va-field": {
-        "label": "DECISION REVIEW REQUEST",
+        "label": "Decision Review Request",
         "widget": "text"
       }
     },
@@ -197,7 +190,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "VETERAN'S DATE OF BIRTH",
+        "label": "Veteran's Date Of Birth",
         "widget": "date"
       }
     },
@@ -212,7 +205,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "MY DATE OF BIRTH (If I am not",
+        "label": "My Date Of Birth (If I Am Not",
         "widget": "date"
       }
     },
@@ -235,14 +228,14 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "MY PREFERRED TELEPHONE NUMBER",
+        "label": "My Preferred Telephone Number",
         "widget": "phone"
       }
     },
     "myPreferredEMailAddress9MyRepresentativeSName": {
       "type": "string",
       "x-va-field": {
-        "label": "MY PREFERRED E-MAIL ADDRESS9. MY REPRESENTATIVE'S NAME",
+        "label": "My Preferred E-Mail Address9. My Representative'S Name",
         "widget": "address"
       }
     },
@@ -278,14 +271,7 @@
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -322,7 +308,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10182.pdf",
     "totalFields": 45,
-    "composedFields": 44,
+    "composedFields": 42,
     "coveragePercent": 100,
     "xfaLabelCount": 25,
     "needsReviewCount": 0,
@@ -334,6 +320,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:16.127805+00:00"
   }
 }

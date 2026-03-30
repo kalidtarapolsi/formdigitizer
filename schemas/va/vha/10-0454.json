@@ -5,54 +5,90 @@
   "properties": {
     "veteranFullName": {
       "type": "string",
-      "description": "Veteran's full name (last, first, middle)"
+      "description": "Veteran's full name (last, first, middle)",
+      "x-va-field": {
+        "label": "Veteran Full Name"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number (last 4 digits)"
+      "description": "Social Security Number (last 4 digits)",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "vaFileNumber": {
       "type": "string",
-      "description": "VA file number"
+      "description": "VA file number",
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "vaFacilityName": {
       "type": "string",
-      "description": "VA medical facility name"
+      "description": "VA medical facility name",
+      "x-va-field": {
+        "label": "VA Facility Name"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "referringFacility": {
       "type": "string",
-      "description": "Military treatment facility name"
+      "description": "Military treatment facility name",
+      "x-va-field": {
+        "label": "Referring Facility"
+      }
     },
     "referralDate": {
       "type": "string",
       "format": "date",
-      "description": "Date of referral"
+      "description": "Date of referral",
+      "x-va-field": {
+        "label": "Referral Date"
+      }
     },
     "reasonForReferral": {
       "type": "string",
-      "description": "Reason for referral"
+      "description": "Reason for referral",
+      "x-va-field": {
+        "label": "Reason for Referral"
+      }
     },
     "clinicalSummary": {
       "type": "string",
-      "description": "Clinical summary"
+      "description": "Clinical summary",
+      "x-va-field": {
+        "label": "Clinical Summary"
+      }
     },
     "serviceRequested": {
       "type": "string",
-      "description": "Service requested"
+      "description": "Service requested",
+      "x-va-field": {
+        "label": "Service Requested"
+      }
     },
     "urgency": {
       "type": "string",
@@ -61,11 +97,17 @@
         "Urgent",
         "Emergency"
       ],
-      "description": "Urgency level"
+      "description": "Urgency level",
+      "x-va-field": {
+        "label": "Urgency"
+      }
     },
     "vaLiaisonName": {
       "type": "string",
-      "description": "VA liaison name"
+      "description": "VA liaison name",
+      "x-va-field": {
+        "label": "VA Liaison Name"
+      }
     }
   },
   "x-va-metadata": {
@@ -78,6 +120,7 @@
     "status": "digitized",
     "pageCount": 1,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.578023+00:00"
   }
 }

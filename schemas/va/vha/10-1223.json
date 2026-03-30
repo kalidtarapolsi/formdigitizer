@@ -5,59 +5,78 @@
   "properties": {
     "reviewDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Review Date"
+      }
     },
     "dateOfSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Signature"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
-    },
-    "ifSubjectIsIncompetentAndSurrogateConsentIsObtainedHaveAllOfTheFollowingConditionsBeenMetATheResearchCantBeDoneOnCompetentSubjectsBThereIsNoRiskToTheSubjectOrIfRiskExistsTheDirectBenefitToSubjectIsSubstantiallyGreaterCIfAnIncompetentSubjectResistsHeWillNotHaveToParticipateDIfThereExistsAnyQuestionAboutTheSubjectsCompetencyTheBasisForDecisionOnCompetencyHasBeenFullyDescribedYes": {
-      "type": "string"
-    },
-    "membersOfMinorityGroupsAndWomenHaveBeenIncludedInTheStudyPopulationWheneverPossibleAndScientificallyDesirableYes": {
-      "type": "string"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "principalInvestigator": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Principal Investigator"
+      }
     },
     "projectProgramTitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project Program Title"
+      }
     },
     "vAMC": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "V Amc"
+      }
     },
     "commentsIndicateIfExpeditedReview": {
-      "type": "string"
-    },
-    "committeeFindings1TheInformationGivenInTheInformedConsentUnderTheDescriptionOfResearchByInvestigatorIsCompleteAccurateAndUnderstandableToAResearchSubjectOrASurrogateWhoPossessesStandardReadingAndComprehensionSkillsYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Comments Indicate If Expedited Review"
+      }
     },
     "everyEffortHasBeenMadeToDecreaseRiskToSubjectsYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Every Effort Has Been Made to Decrease Risk to Subjects Yes"
+      }
     },
     "thePotentialResearchBenefitsJustifyTheRiskToSubjectsYes": {
-      "type": "string"
-    },
-    "ifTheSubjectIsPaidThePaymentIsReasonableAndCommensurateWithTheSubjectsContributionYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "The Potential Research Benefits Justify the Risk to Subjects Yes"
+      }
     },
     "recommendationApprove": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Recommendation Approve"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-1223-fill.pdf",
     "totalFields": 22,
-    "composedFields": 8,
-    "coveragePercent": 36,
+    "composedFields": 10,
+    "coveragePercent": 100,
     "xfaLabelCount": 16,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:19:49.886Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:16.036956+00:00"
   }
 }

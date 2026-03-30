@@ -9,11 +9,17 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "address": {
       "type": "object",
@@ -54,497 +60,966 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "datefrom": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datefrom"
+      }
     },
     "dateto": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateto"
+      }
     },
     "dateto1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateto"
+      }
     },
     "datefrom1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datefrom"
+      }
     },
     "dateto3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateto"
+      }
     },
     "datefrom3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datefrom"
+      }
     },
     "dateto17b": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Dateto17b"
+      }
     },
     "datefrom17b": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datefrom17b"
+      }
     },
     "datesigned1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned"
+      }
     },
     "datesigned2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned"
+      }
     },
     "datesigned24": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned"
+      }
     },
     "datesigned25": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Datesigned"
+      }
     },
     "rehabiltationamount": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Rehabiltationamount"
+      }
     },
     "monthlyincome": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Monthlyincome"
+      }
     },
     "monthlyincome15": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Monthlyincome"
+      }
     },
     "monthlyincome17": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Monthlyincome"
+      }
     },
     "monthlyincome16": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Monthlyincome"
+      }
     },
     "spouseselfemployed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Spouseselfemployed"
+      }
     },
     "spouseselfemployed2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Spouseselfemployed"
+      }
     },
     "sigspouse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sigspouse"
+      }
     },
     "childsupport1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Childsupport"
+      }
     },
     "childsupport2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Childsupport"
+      }
     },
     "jobtitlebusiness": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jobtitlebusiness"
+      }
     },
     "jobtitlebusiness15": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jobtitlebusiness"
+      }
     },
     "jobtitlebusiness16": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jobtitlebusiness"
+      }
     },
     "jobtitlebusiness17": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jobtitlebusiness"
+      }
     },
     "employer14c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Employer14c"
+      }
     },
     "employer15c": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Employer15c"
+      }
     },
     "employers16": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Employers"
+      }
     },
     "employers17": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Employers"
+      }
     },
     "selfemployed1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Selfemployed"
+      }
     },
     "theapplicant3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Theapplicant"
+      }
     },
     "homestatus": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Homestatus"
+      }
     },
     "aaincom": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Aaincom"
+      }
     },
     "separatecredit": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Separatecredit"
+      }
     },
     "other11": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "theapplicant1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Theapplicant"
+      }
     },
     "theapplicant2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Theapplicant"
+      }
     },
     "selfemployed2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Selfemployed"
+      }
     },
     "vapropertyidentifier": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vapropertyidentifier"
+      }
     },
     "rent": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rent"
+      }
     },
     "own": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Own"
+      }
     },
     "married": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Married"
+      }
     },
     "unmarried": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Unmarried"
+      }
     },
     "separated": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Separated"
+      }
     },
     "agesofdependants": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Agesofdependants"
+      }
     },
     "other21": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "coapp": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Coapp"
+      }
     },
     "relativename": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relativename"
+      }
     },
     "relativezc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relativezc"
+      }
     },
     "aother": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Aother"
+      }
     },
     "cash": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Cash"
+      }
     },
     "saveing": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Saveing"
+      }
     },
     "stocks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Stocks"
+      }
     },
     "otherj": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Otherj"
+      }
     },
     "otheri": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Otheri"
+      }
     },
     "otherh": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Otherh"
+      }
     },
     "vehicleg": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vehicleg"
+      }
     },
     "ffhg": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ffhg"
+      }
     },
     "gvehicle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Gvehicle"
+      }
     },
     "hother": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hother"
+      }
     },
     "iother": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Iother"
+      }
     },
     "jother": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Jother"
+      }
     },
     "purchaseoffernumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purchaseoffernumber"
+      }
     },
     "appsig": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Appsig"
+      }
     },
     "requestedloan": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requestedloan"
+      }
     },
     "downpayment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Downpayment"
+      }
     },
     "termpercent": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Termpercent"
+      }
     },
     "ternyears": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ternyears"
+      }
     },
     "balance1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "balance4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "balance5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "balance3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "balance2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "bOrrower1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Orrower"
+      }
     },
     "bOrrower2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Orrower"
+      }
     },
     "bOrrower3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Orrower"
+      }
     },
     "bOrrower4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Orrower"
+      }
     },
     "bOrrower5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Orrower"
+      }
     },
     "bOrrower6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "B Orrower"
+      }
     },
     "coApplicant1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Applicant"
+      }
     },
     "coApplicant2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Applicant"
+      }
     },
     "coApplicant3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Applicant"
+      }
     },
     "coApplicant4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Applicant"
+      }
     },
     "coApplicant5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Applicant"
+      }
     },
     "coApplicant6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Co Applicant"
+      }
     },
     "presenthome6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Presenthome"
+      }
     },
     "presenthome5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Presenthome"
+      }
     },
     "presenthome4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Presenthome"
+      }
     },
     "presenthome3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Presenthome"
+      }
     },
     "presenthome2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Presenthome"
+      }
     },
     "presenthome1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Presenthome"
+      }
     },
     "requestedloan6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requestedloan"
+      }
     },
     "requestedloan5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requestedloan"
+      }
     },
     "requestedloan4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requestedloan"
+      }
     },
     "requestedloan3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requestedloan"
+      }
     },
     "requestedloan2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requestedloan"
+      }
     },
     "requestedloan1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Requestedloan"
+      }
     },
     "other21a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other21a"
+      }
     },
     "alimony1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Alimony"
+      }
     },
     "alimony2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Alimony"
+      }
     },
     "balance221": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "balance222": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "balance223": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "balance224": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "balance225": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance"
+      }
     },
     "payment22d5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payment22d"
+      }
     },
     "payment22d4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payment22d"
+      }
     },
     "payment22d3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payment22d"
+      }
     },
     "payment22d2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payment22d"
+      }
     },
     "payment22d1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Payment22d"
+      }
     },
     "yes23": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yes"
+      }
     },
     "no23": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     },
     "sig24a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sig24a"
+      }
     },
     "sig25a": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sig25a"
+      }
     },
     "initials26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Initials"
+      }
     },
     "initials27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Initials"
+      }
     },
     "asian26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Asian"
+      }
     },
     "americanindian26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Americanindian"
+      }
     },
     "black26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Black"
+      }
     },
     "hispanic26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hispanic"
+      }
     },
     "white26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "White"
+      }
     },
     "other26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "female26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Female"
+      }
     },
     "male26": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Male"
+      }
     },
     "female27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Female"
+      }
     },
     "male27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Male"
+      }
     },
     "other27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "white27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "White"
+      }
     },
     "hispanic27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hispanic"
+      }
     },
     "black27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Black"
+      }
     },
     "americanindian27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Americanindian"
+      }
     },
     "asian27": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Asian"
+      }
     },
     "bank1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bank"
+      }
     },
     "bank2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bank"
+      }
     },
     "bank3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bank"
+      }
     },
     "bank4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bank"
+      }
     },
     "bank5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bank"
+      }
     },
     "account1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account"
+      }
     },
     "account2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account"
+      }
     },
     "account3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account"
+      }
     },
     "account4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account"
+      }
     },
     "account5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account"
+      }
     },
     "ifyes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Ifyes"
+      }
     },
     "creditor1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Creditor"
+      }
     },
     "creditor2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Creditor"
+      }
     },
     "creditor3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Creditor"
+      }
     },
     "creditor4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Creditor"
+      }
     },
     "creditor5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Creditor"
+      }
     },
     "account22b1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account22b"
+      }
     },
     "account22b2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account22b"
+      }
     },
     "account22b3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account22b"
+      }
     },
     "account22b4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account22b"
+      }
     },
     "account22b5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account22b"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6705b-are.pdf",
     "status": "digitized",
     "totalFields": 170,
-    "composedFields": 46,
-    "coveragePercent": 27,
+    "composedFields": 158,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:31:51.680Z"
+    "generatedAt": "2026-03-28T17:31:51.680Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.200635+00:00"
   }
 }

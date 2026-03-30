@@ -7,56 +7,42 @@
     "decimalField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Decimal Field1",
+        "label": "Decimal Field",
         "widget": "text"
       }
     },
     "veteranSName": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S NAME",
+        "label": "Veteran's Name",
         "widget": "text"
       }
     },
     "claimNo_3SocialSecurityNo": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIM NO.3. SOCIAL SECURITY NO.",
+        "label": "Claim No.3. Social Security No.",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox2": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box2",
-        "widget": "checkbox"
       }
     },
     "hospitalDomicilaryOrNursingHomeCareCheckOne": {
       "type": "string",
       "x-va-field": {
-        "label": "HOSPITAL DOMICILARY OR NURSING HOME CARE (Check One)",
+        "label": "Hospital Domicilary Or Nursing Home Care (Check One)",
         "widget": "text"
       }
     },
     "transferredTo": {
       "type": "string",
       "x-va-field": {
-        "label": "TRANSFERRED TO:",
+        "label": "Transferred To:",
         "widget": "text"
       }
     },
     "nameAndAddressOfPersonAgreeingToProvideSupervision": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND ADDRESS OF PERSON AGREEING TO PROVIDE SUPERVISION",
+        "label": "Name And Address Of Person Agreeing To Provide Supervision",
         "widget": "text"
       }
     },
@@ -66,148 +52,15 @@
         "label": "SIGNATURE (Chief, Medical Administration)",
         "widget": "text"
       }
-    },
-    "form1SubformTextField328": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field328",
-        "widget": "text"
-      }
-    },
-    "form1SubformCheckBox3": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box3",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox4": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box4",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox41": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box41",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox42": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box42",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox43": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box43",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformCheckBox44": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box44",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformTextField329": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field329",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3210": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3210",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3211": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3211",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3212": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3212",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3213": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3213",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3214": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3214",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3215": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3215",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3216": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3216",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3217": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3217",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3218": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3218",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3219": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3219",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField3220": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field3220",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-7132-fill.pdf",
     "totalFields": 28,
-    "composedFields": 28,
-    "coveragePercent": 25,
+    "composedFields": 7,
+    "coveragePercent": 100,
     "xfaLabelCount": 22,
-    "needsReviewCount": 21,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:04:34.308Z",
     "pageCount": 1,
     "status": "digitized",
@@ -215,6 +68,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.813077+00:00"
   }
 }

@@ -81,25 +81,13 @@
         "widget": "text"
       }
     },
-    "socialSecurityNumberLastFourNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F Page 1 Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberSecondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberFirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 1 Social Security Number First Three Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "vaFileNumberIfApplicable": {
@@ -147,81 +135,56 @@
     "typeofbenefit": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform T Y P E O F B E N E F I T",
+        "label": "Typeofbenefit",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "digitalSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Digital Signature",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Social Security Number Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberSecondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Social Security Number Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "socialSecurityNumberFirstThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Social Security Number First Three Numbers",
+        "label": "Digital Signature",
         "widget": "text"
       }
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     },
     "thousandsDollarAmount2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Thousands Dollar Amount",
+        "label": "Thousands Dollar Amount",
         "widget": "text"
       }
     },
     "hundredsDollarAmount2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Hundreds Dollar Amount",
+        "label": "Hundreds Dollar Amount",
         "widget": "text"
       }
     },
     "centsAmount2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Cents Amount",
+        "label": "Cents Amount",
         "widget": "text"
       }
     },
     "beginningDateOfEmployment": {
       "type": "string",
       "x-va-field": {
-        "label": "BEGINNING DATE OF EMPLOYMENT",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Beginning Date Of Employment",
         "widget": "text"
       }
     },
@@ -232,17 +195,10 @@
         "widget": "text"
       }
     },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS",
+        "label": "Address",
         "widget": "address"
       }
     },
@@ -250,7 +206,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "ENDING DATE OF EMPLOYMENT",
+        "label": "Ending Date Of Employment",
         "widget": "date"
       }
     },
@@ -258,7 +214,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "AMOUNT EARNED DURING 12 MONTHS PRECEDING LAST DATE OF",
+        "label": "Amount Earned During 12 Months Preceding Last Date Of",
         "widget": "date"
       }
     },
@@ -266,28 +222,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "TIME LOST DURING 12 MONTHS PRECEDING LAST DATE OF EMPLOYMENT",
+        "label": "Time Lost During 12 Months Preceding Last Date Of Employment",
         "widget": "date"
       }
     },
     "typeOfWorkPerformed": {
       "type": "string",
       "x-va-field": {
-        "label": "TYPE OF WORK PERFORMED",
+        "label": "Type Of Work Performed",
         "widget": "text"
       }
     },
     "concessionsIfAnyMadeToEmployeeByReasonOfAgeOrDi": {
       "type": "string",
       "x-va-field": {
-        "label": "CONCESSIONS (if any) MADE TO EMPLOYEE BY REASON OF AGE OR DI",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Concessions (If Any) Made To Employee By Reason Of Age Or Di",
         "widget": "text"
       }
     },
@@ -295,7 +244,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH 4. SOCIAL SECURITY NUMBER",
+        "label": "Date Of Birth 4. Social Security Number",
         "widget": "date"
       }
     },
@@ -333,14 +282,14 @@
     "grossMonthlyAmountOfBenefit": {
       "type": "string",
       "x-va-field": {
-        "label": "GROSS MONTHLY AMOUNT OF BENEFIT",
+        "label": "Gross Monthly Amount Of Benefit",
         "widget": "text"
       }
     },
     "isVeteranReceivingOrEntitledToReceiveAsAResultOf": {
       "type": "string",
       "x-va-field": {
-        "label": "IS VETERAN RECEIVING OR ENTITLED TO RECEIVE, AS A RESULT OF",
+        "label": "Is Veteran Receiving Or Entitled To Receive, As A Result Of",
         "widget": "text"
       }
     },
@@ -356,7 +305,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "23B. DATE SIGNED (",
+        "label": "23B. Date Signed (",
         "widget": "date"
       }
     },
@@ -364,28 +313,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "21A. DATE BENEFIT BEGAN 21B.",
+        "label": "21A. Date Benefit Began 21B.",
         "widget": "date"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "REMARKS",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Remarks",
         "widget": "text"
       }
     }
@@ -394,7 +336,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4192-are.pdf",
     "status": "digitized",
     "totalFields": 60,
-    "composedFields": 54,
+    "composedFields": 45,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -406,6 +348,7 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "postProcessedAt": "2026-03-30T20:42:50.094246+00:00"
+    "postProcessedAt": "2026-03-30T20:42:50.094246+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:39:57.306815+00:00"
   }
 }

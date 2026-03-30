@@ -7,168 +7,161 @@
     "fmlname": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform fmlname",
+        "label": "Fmlname",
         "widget": "text"
       }
     },
     "insurancePolicyNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Insurance Policy Number",
+        "label": "Insurance Policy Number",
         "widget": "text"
       }
     },
     "mailaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform mailaddress",
+        "label": "Mailaddress",
         "widget": "text"
       }
     },
     "vaclaim": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform vaclaim",
+        "label": "Vaclaim",
         "widget": "text"
       }
     },
     "daytime": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform daytime",
+        "label": "Daytime",
         "widget": "text"
       }
     },
     "policyno": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform policyno",
+        "label": "Policyno",
         "widget": "text"
       }
     },
     "planofins": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform planofins",
+        "label": "Planofins",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "amountReinstated": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount Reinstated",
+        "label": "Amount Reinstated",
         "widget": "text"
       }
     },
     "amountSentIns": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount Sent I N S",
+        "label": "Amount Sent Ins",
         "widget": "text"
       }
     },
     "amountSentTdip": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount Sent T D I P",
+        "label": "Amount Sent Tdip",
         "widget": "text"
       }
     },
     "totalAmountSent": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Total Amount Sent",
+        "label": "Total Amount Sent",
         "widget": "text"
       }
     },
     "monthlyPremium1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Monthly Premium1",
+        "label": "Monthly Premium",
         "widget": "text"
       }
     },
     "monthlyPremium2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Monthly Premium2",
+        "label": "Monthly Premium",
         "widget": "text"
       }
     },
     "dateLapse": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Lapse",
+        "label": "Date Lapse",
         "widget": "text"
       }
     },
     "notworking": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform notworking",
+        "label": "Notworking",
         "widget": "text"
       }
     },
     "remarks17": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform remarks17",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "feet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Feet",
+        "label": "Feet",
         "widget": "text"
       }
     },
     "inches": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Inches",
+        "label": "Inches",
         "widget": "text"
       }
     },
     "weight": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Weight",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Weight",
         "widget": "text"
       }
     },
@@ -186,24 +179,17 @@
         "widget": "text"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
     "upload": {
       "type": "string",
       "x-va-field": {
-        "label": "UPLOAD",
+        "label": "Upload",
         "widget": "text"
       }
     },
     "onlineBillPay": {
       "type": "string",
       "x-va-field": {
-        "label": "ONLINE BILL PAY",
+        "label": "Online Bill Pay",
         "widget": "text"
       }
     },
@@ -217,7 +203,7 @@
     "iUnderstandThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I UNDERSTAND THAT",
+        "label": "I Understand That",
         "widget": "text"
       }
     },
@@ -238,7 +224,7 @@
     "totalAmountSent2": {
       "type": "string",
       "x-va-field": {
-        "label": "TOTAL AMOUNT SENT",
+        "label": "Total Amount Sent",
         "widget": "text"
       }
     },
@@ -252,14 +238,14 @@
     "policyNumberSToBeReinstated": {
       "type": "string",
       "x-va-field": {
-        "label": "POLICY NUMBER(S) TO BE REINSTATED",
+        "label": "Policy Number(S) To Be Reinstated",
         "widget": "text"
       }
     },
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "text"
       }
     },
@@ -294,14 +280,14 @@
     "haveYouEverHadOrBeenTreatedForAnyOfTheFollowing": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU EVER HAD OR BEEN TREATED FOR ANY OF THE FOLLOWING?",
+        "label": "Have You Ever Had Or Been Treated For Any Of The Following?",
         "widget": "text"
       }
     },
     "hasAnyApplicationYouHaveMadeForPrivateOrGovernment": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS ANY APPLICATION YOU HAVE MADE FOR PRIVATE OR GOVERNMENT",
+        "label": "Has Any Application You Have Made For Private Or Government",
         "widget": "text"
       }
     },
@@ -315,21 +301,21 @@
     "areYouNowOrHaveYouEver": {
       "type": "string",
       "x-va-field": {
-        "label": "ARE YOU NOW OR HAVE YOU EVER",
+        "label": "Are You Now Or Have You Ever",
         "widget": "text"
       }
     },
     "haveYouEverAppliedFor": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU EVER APPLIED FOR",
+        "label": "Have You Ever Applied For",
         "widget": "text"
       }
     },
     "doYouHaveAny": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU HAVE ANY",
+        "label": "Do You Have Any",
         "widget": "text"
       }
     },
@@ -344,21 +330,21 @@
     "withinThePast_5YearsHaveYou": {
       "type": "string",
       "x-va-field": {
-        "label": "WITHIN THE PAST 5 YEARS, HAVE YOU",
+        "label": "Within The Past 5 Years, Have You",
         "widget": "text"
       }
     },
     "information": {
       "type": "string",
       "x-va-field": {
-        "label": "INFORMATION",
+        "label": "Information",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     }
@@ -367,10 +353,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-352-are.pdf",
     "status": "digitized",
     "totalFields": 51,
-    "composedFields": 51,
-    "coveragePercent": 96,
+    "composedFields": 49,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:36:26.437Z",
     "redigitizedAt": "2026-03-30T20:38:37.427Z",
@@ -378,6 +364,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.560258+00:00"
   }
 }

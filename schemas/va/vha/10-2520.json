@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,100 +53,182 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateDelivered": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Delivered"
+      }
     },
     "signatureDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Signature Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amountOfHcpcLine3Of9": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount of Hcpc Line3Of"
+      }
     },
     "amountOfHcpcLine4Of9": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount of Hcpc Line4Of"
+      }
     },
     "amountOfHcpcLine5Of9": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount of Hcpc Line5Of"
+      }
     },
     "amountOfHcpcLine6Of9": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount of Hcpc Line6Of"
+      }
     },
     "amountOfHcpcLine7Of9": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount of Hcpc Line7Of"
+      }
     },
     "amountOfHcpcLine8Of9": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount of Hcpc Line8Of"
+      }
     },
     "veteransNameLastFirstMiddleInitialThisIsAMandatoryField": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans Name Last First Middle Initial This is a Mandatory Field"
+      }
     },
     "seeReverse": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "See Reverse"
+      }
     },
     "none": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "None"
+      }
     },
     "vendorsInvoiceNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Vendors Invoice Number"
+      }
     },
     "repairDescriptionLine3Of9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Repair Description Line3Of"
+      }
     },
     "repairDescriptionLine4Of9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Repair Description Line4Of"
+      }
     },
     "repairDescriptionLine5Of9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Repair Description Line5Of"
+      }
     },
     "repairDescriptionLine6Of9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Repair Description Line6Of"
+      }
     },
     "repairDescriptionLine8Of9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Repair Description Line8Of"
+      }
     },
     "repairDescriptionLine9Of9": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Repair Description Line9Of"
+      }
     },
     "entertotalCharges": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Entertotal Charges"
+      }
     },
     "nameOfApplianceManufacturer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Appliance Manufacturer"
+      }
     },
-    "field_VHA102520_0___subform_0__TypeOfAppliance_0_": {
-      "type": "string"
+    "typeOfAppliance0": {
+      "type": "string",
+      "x-va-field": {
+        "label": "Type of Appliance"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "approvedFor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Approved for"
+      }
     },
     "voucherAuditor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Voucher Auditor"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2520-fill.pdf",
     "totalFields": 42,
-    "composedFields": 25,
-    "coveragePercent": 60,
+    "composedFields": 28,
+    "coveragePercent": 100,
     "xfaLabelCount": 33,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:05.910Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.667031+00:00"
   }
 }

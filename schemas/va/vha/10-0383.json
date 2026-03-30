@@ -7,203 +7,196 @@
     "patientName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Patient Name",
+        "label": "Patient Name",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "otherInfo": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Other Info",
+        "label": "Other Info",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Date",
+        "label": "Date",
         "widget": "text"
       }
     },
     "dateInitiated": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Date Initiated",
+        "label": "Date Initiated",
         "widget": "text"
       }
     },
     "dob": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform D O B",
+        "label": "DOB",
         "widget": "text"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Address",
+        "label": "Address",
         "widget": "text"
       }
     },
     "residentialPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Residential Phone",
+        "label": "Residential Phone",
         "widget": "text"
       }
     },
     "businessPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Business Phone",
+        "label": "Business Phone",
         "widget": "text"
       }
     },
     "veteranRepName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Veteran Rep Name",
+        "label": "Veteran Rep Name",
         "widget": "text"
       }
     },
     "repPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Rep Phone",
+        "label": "Rep Phone",
         "widget": "text"
       }
     },
     "disabledConditions": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Disabled Conditions",
+        "label": "Disabled Conditions",
         "widget": "text"
       }
     },
     "conditions1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Conditions1",
+        "label": "Conditions",
         "widget": "text"
       }
     },
     "recordReviewDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Record Review Date",
+        "label": "Record Review Date",
         "widget": "text"
       }
     },
     "clinicalExamneeded": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Clinical Examneeded",
+        "label": "Clinical Examneeded",
         "widget": "text"
       }
     },
     "clinicalExamDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Clinical Exam Date",
+        "label": "Clinical Exam Date",
         "widget": "text"
       }
     },
     "conditions2": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Conditions2",
+        "label": "Conditions",
         "widget": "text"
       }
     },
     "catdis": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform C A T D I S",
+        "label": "Catdis",
         "widget": "text"
       }
     },
     "as": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform A S",
+        "label": "As",
         "widget": "text"
       }
     },
     "assessmentTool": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Assessment Tool",
+        "label": "Assessment Tool",
         "widget": "select"
       }
     },
     "rationale": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform Rationale",
+        "label": "Rationale",
         "widget": "text"
       }
     },
     "approval": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform approval",
+        "label": "Approval",
         "widget": "text"
       }
     },
     "notifyphone": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vha101349 #subform notifyphone",
+        "label": "Notifyphone",
         "widget": "checkbox"
       }
     },
     "notifymail": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Vha101349 #subform notifymail",
+        "label": "Notifymail",
         "widget": "checkbox"
       }
     },
     "notifydate": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform notifydate",
+        "label": "Notifydate",
         "widget": "text"
       }
     },
     "notifyinit": {
       "type": "string",
       "x-va-field": {
-        "label": "Vha101349 #subform notifyinit",
+        "label": "Notifyinit",
         "widget": "text"
-      }
-    },
-    "vha101349SubformCheckBox5": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Vha101349 #subform Check Box5",
-        "widget": "checkbox"
       }
     },
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "text"
       }
     },
@@ -238,14 +231,14 @@
     "theVeteranIsCatastrophicallyDisabledIfTheVeteranPerm": {
       "type": "string",
       "x-va-field": {
-        "label": "THE VETERAN IS CATASTROPHICALLY DISABLED IF THE VETERAN PERM",
+        "label": "The Veteran Is Catastrophically Disabled If The Veteran Perm",
         "widget": "text"
       }
     },
     "theFollowingSection": {
       "type": "string",
       "x-va-field": {
-        "label": "THE FOLLOWING SECTION",
+        "label": "The Following Section",
         "widget": "text"
       }
     },
@@ -382,13 +375,6 @@
         "widget": "text"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
     "signatureDate": {
       "type": "string",
       "format": "date",
@@ -401,7 +387,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE INITIATED (",
+        "label": "Date Initiated (",
         "widget": "date"
       }
     },
@@ -417,7 +403,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "ADDRESSRESIDENTIAL PHONE NUMBER",
+        "label": "Addressresidential Phone Number",
         "widget": "phone"
       }
     },
@@ -425,7 +411,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "RECORD REVIEW DATE (",
+        "label": "Record Review Date (",
         "widget": "date"
       }
     },
@@ -449,7 +435,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "FIRST NOTIFICATION DATE (",
+        "label": "First Notification Date (",
         "widget": "date"
       }
     }
@@ -457,10 +443,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-0383.pdf",
     "totalFields": 63,
-    "composedFields": 63,
-    "coveragePercent": 98,
+    "composedFields": 61,
+    "coveragePercent": 100,
     "xfaLabelCount": 34,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:15:13.223Z",
     "pageCount": 2,
     "status": "digitized",
@@ -469,6 +455,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.548642+00:00"
   }
 }

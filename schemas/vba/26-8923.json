@@ -5,88 +5,161 @@
   "properties": {
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amount1": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount5": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount8": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount10": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "amount13": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount"
+      }
     },
     "nameoflender": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nameoflender"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "valoannumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Valoannumber"
+      }
     },
     "total1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total"
+      }
     },
     "total2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total"
+      }
     },
     "subtotal1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subtotal"
+      }
     },
     "subtotal2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subtotal"
+      }
     },
     "subtotal3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Subtotal"
+      }
     },
     "total3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total"
+      }
     },
     "percent5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Percent"
+      }
     },
     "percent4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Percent"
+      }
     },
     "percent3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Percent"
+      }
     },
     "percent1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Percent"
+      }
     },
     "percent2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Percent"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8923-are.pdf",
     "status": "digitized",
     "totalFields": 28,
-    "composedFields": 12,
-    "coveragePercent": 43,
+    "composedFields": 24,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:37:36.907Z"
+    "generatedAt": "2026-03-28T17:37:36.907Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.236234+00:00"
   }
 }

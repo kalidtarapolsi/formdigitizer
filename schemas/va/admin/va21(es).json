@@ -5,170 +5,282 @@
   "properties": {
     "employeeName": {
       "type": "string",
-      "description": "Employee's full name"
+      "description": "Employee's full name",
+      "x-va-field": {
+        "label": "Employee Name"
+      }
     },
     "employeeTitle": {
       "type": "string",
-      "description": "Employee's title/position"
+      "description": "Employee's title/position",
+      "x-va-field": {
+        "label": "Employee Title"
+      }
     },
     "department": {
       "type": "string",
-      "description": "Department or service"
+      "description": "Department or service",
+      "x-va-field": {
+        "label": "Department"
+      }
     },
     "vaFacility": {
       "type": "string",
-      "description": "VA facility"
+      "description": "VA facility",
+      "x-va-field": {
+        "label": "VA Facility"
+      }
     },
     "stationNumber": {
       "type": "string",
-      "description": "Station number"
+      "description": "Station number",
+      "x-va-field": {
+        "label": "Station Number"
+      }
     },
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Date"
+      "description": "Date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "supervisorName": {
       "type": "string",
-      "description": "Supervisor's name"
+      "description": "Supervisor's name",
+      "x-va-field": {
+        "label": "Supervisor Name"
+      }
     },
     "supervisorSignature": {
       "type": "boolean",
-      "description": "Supervisor's signature"
+      "description": "Supervisor's signature",
+      "x-va-field": {
+        "label": "Supervisor Signature"
+      }
     },
     "employeeSignature": {
       "type": "boolean",
-      "description": "Employee's signature"
+      "description": "Employee's signature",
+      "x-va-field": {
+        "label": "Employee Signature"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "SSN (last 4)"
+      "description": "SSN (last 4)",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "homeAddress": {
       "type": "string",
-      "description": "Home address"
+      "description": "Home address",
+      "x-va-field": {
+        "label": "Home Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
-      "description": "Phone number"
+      "description": "Phone number",
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "emergencyContact": {
       "type": "string",
-      "description": "Emergency contact"
+      "description": "Emergency contact",
+      "x-va-field": {
+        "label": "Emergency Contact"
+      }
     },
     "emergencyPhone": {
       "type": "string",
-      "description": "Emergency contact phone"
+      "description": "Emergency contact phone",
+      "x-va-field": {
+        "label": "Emergency Phone"
+      }
     },
     "positionTitle": {
       "type": "string",
-      "description": "Position title"
+      "description": "Position title",
+      "x-va-field": {
+        "label": "Position Title"
+      }
     },
     "gradeLevel": {
       "type": "string",
-      "description": "Grade/step level"
+      "description": "Grade/step level",
+      "x-va-field": {
+        "label": "Grade Level"
+      }
     },
     "officeLocation": {
       "type": "string",
-      "description": "Office location"
+      "description": "Office location",
+      "x-va-field": {
+        "label": "Office Location"
+      }
     },
     "mailStop": {
       "type": "string",
-      "description": "Mail stop"
+      "description": "Mail stop",
+      "x-va-field": {
+        "label": "Mail Stop"
+      }
     },
     "officePhone": {
       "type": "string",
-      "description": "Office phone number"
+      "description": "Office phone number",
+      "x-va-field": {
+        "label": "Office Phone"
+      }
     },
     "email": {
       "type": "string",
       "format": "email",
-      "description": "Email address"
+      "description": "Email address",
+      "x-va-field": {
+        "label": "Email"
+      }
     },
     "dateOfAppointment": {
       "type": "string",
       "format": "date",
-      "description": "Date of appointment"
+      "description": "Date of appointment",
+      "x-va-field": {
+        "label": "Date of Appointment"
+      }
     },
     "priorServiceRecord": {
       "type": "string",
-      "description": "Prior service record"
+      "description": "Prior service record",
+      "x-va-field": {
+        "label": "Prior Service Record"
+      }
     },
     "medicalClearance": {
       "type": "boolean",
-      "description": "Medical clearance obtained"
+      "description": "Medical clearance obtained",
+      "x-va-field": {
+        "label": "Medical Clearance"
+      }
     },
     "backgroundCheck": {
       "type": "boolean",
-      "description": "Background check completed"
+      "description": "Background check completed",
+      "x-va-field": {
+        "label": "Background Check"
+      }
     },
     "trainingSessions": {
       "type": "string",
-      "description": "Training sessions attended"
+      "description": "Training sessions attended",
+      "x-va-field": {
+        "label": "Training Sessions"
+      }
     },
     "performanceRating": {
       "type": "string",
-      "description": "Performance rating"
+      "description": "Performance rating",
+      "x-va-field": {
+        "label": "Performance Rating"
+      }
     },
     "performanceDate": {
       "type": "string",
       "format": "date",
-      "description": "Performance review date"
+      "description": "Performance review date",
+      "x-va-field": {
+        "label": "Performance Date"
+      }
     },
     "securityClearance": {
       "type": "string",
-      "description": "Security clearance level"
+      "description": "Security clearance level",
+      "x-va-field": {
+        "label": "Security Clearance"
+      }
     },
     "clearanceDate": {
       "type": "string",
       "format": "date",
-      "description": "Clearance date"
+      "description": "Clearance date",
+      "x-va-field": {
+        "label": "Clearance Date"
+      }
     },
     "certifications": {
       "type": "string",
-      "description": "Professional certifications"
+      "description": "Professional certifications",
+      "x-va-field": {
+        "label": "Certifications"
+      }
     },
     "assignmentType": {
       "type": "string",
-      "description": "Assignment type"
+      "description": "Assignment type",
+      "x-va-field": {
+        "label": "Assignment Type"
+      }
     },
     "workSchedule": {
       "type": "string",
-      "description": "Work schedule"
+      "description": "Work schedule",
+      "x-va-field": {
+        "label": "Work Schedule"
+      }
     },
     "directSupervisor": {
       "type": "string",
-      "description": "Direct supervisor name"
+      "description": "Direct supervisor name",
+      "x-va-field": {
+        "label": "Direct Supervisor"
+      }
     },
     "comments": {
       "type": "string",
-      "description": "Additional comments"
+      "description": "Additional comments",
+      "x-va-field": {
+        "label": "Comments"
+      }
     },
     "approvalSignature": {
       "type": "boolean",
-      "description": "Manager approval"
+      "description": "Manager approval",
+      "x-va-field": {
+        "label": "Approval Signature"
+      }
     },
     "approvalDate": {
       "type": "string",
       "format": "date",
-      "description": "Approval date"
+      "description": "Approval date",
+      "x-va-field": {
+        "label": "Approval Date"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA21(ES).pdf",
     "totalFields": 38,
-    "composedFields": 38,
+    "composedFields": 37,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "status": "digitized",
     "pageCount": 2,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.498882+00:00"
   }
 }

@@ -10,7 +10,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "fullName": {
       "type": "object",
@@ -41,7 +44,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -82,43 +88,65 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "male": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Male"
+      }
     },
     "female": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Female"
+      }
     },
     "": {
       "type": "string",
       "format": "date"
     },
     "mode1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mode"
+      }
     },
     "mode2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mode"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0848-are.pdf",
     "status": "digitized",
     "totalFields": 27,
-    "composedFields": 20,
-    "coveragePercent": 74,
+    "composedFields": 10,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
     "generatedAt": "2026-03-28T17:37:41.557Z",
-    "postProcessedAt": "2026-03-30T20:02:41.729319+00:00"
+    "postProcessedAt": "2026-03-30T20:02:41.729319+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.097792+00:00"
   }
 }

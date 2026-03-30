@@ -7,210 +7,177 @@
     "firstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Name",
+        "label": "First Name",
         "widget": "text"
       }
     },
     "middleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Middle Initial",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "secondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "vaFileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
     "currentMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Number And Street",
+        "label": "Current Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "currentMailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Apartment Or Unit Number",
+        "label": "Current Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "currentMailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address City",
+        "label": "Current Mailing Address City",
         "widget": "text"
       }
     },
     "currentMailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address State Or Province",
+        "label": "Current Mailing Address State or Province",
         "widget": "text"
       }
     },
     "currentMailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Country",
+        "label": "Current Mailing Address Country",
         "widget": "text"
       }
     },
-    "currentMailingAddressZiporPostalCodeFirstFiveNumbers": {
+    "currentMailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "currentMailingAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Current Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "Current Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Area Code",
+        "label": "Area Code",
         "widget": "text"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "emailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Email Address",
+        "label": "Email Address",
         "widget": "text"
       }
     },
     "newAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform New Address Number And Street",
+        "label": "New Address Number and Street",
         "widget": "text"
       }
     },
     "newAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform New Address Apartment Or Unit Number",
+        "label": "New Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "newAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform New Address City",
+        "label": "New Address City",
         "widget": "text"
       }
     },
     "newAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform New Address State Or Province",
+        "label": "New Address State or Province",
         "widget": "text"
       }
     },
     "newAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform New Address Country",
+        "label": "New Address Country",
         "widget": "text"
       }
     },
-    "newAddressZiporPostalCodeFirstFiveNumbers": {
+    "newAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Form1 #subform New Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
-    "newAddressZiporPostalCodeLastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform New Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
+        "label": "New Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "numberOfYearsOfEducation": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Number Of Years Of Education",
+        "label": "Number of Years of Education",
         "widget": "text"
       }
     },
     "ifIdontGiveMyInfo": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform If I Dont Give My Info",
+        "label": "If Idont Give My Info",
         "widget": "checkbox"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
-        "widget": "text"
-      }
-    },
-    "form1SubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
@@ -226,7 +193,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "ssn"
       }
     },
@@ -278,28 +245,21 @@
     "ifYouAreMovingWithinTheNext_30DaysProvideYourNew": {
       "type": "string",
       "x-va-field": {
-        "label": "IF YOU ARE MOVING WITHIN THE NEXT 30 DAYS, PROVIDE YOUR NEW",
+        "label": "If You Are Moving Within The Next 30 Days, Provide Your New",
         "widget": "text"
       }
     },
     "numberOfYearsOfEducation2": {
       "type": "string",
       "x-va-field": {
-        "label": "NUMBER OF YEARS OF EDUCATION",
+        "label": "Number Of Years Of Education",
         "widget": "text"
       }
     },
     "pleaseRead": {
       "type": "string",
       "x-va-field": {
-        "label": "PLEASE READ",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Please Read",
         "widget": "text"
       }
     },
@@ -314,14 +274,14 @@
     "aInformationAndAssistance": {
       "type": "string",
       "x-va-field": {
-        "label": "A.     INFORMATION AND ASSISTANCE",
+        "label": "A.     Information And Assistance",
         "widget": "text"
       }
     },
     "bApplicationProcessing": {
       "type": "string",
       "x-va-field": {
-        "label": "B.     APPLICATION PROCESSING",
+        "label": "B.     Application Processing",
         "widget": "text"
       }
     },
@@ -356,21 +316,27 @@
     },
     "dob": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "DOB"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1900-are.pdf",
     "status": "digitized",
     "totalFields": 55,
-    "composedFields": 51,
-    "coveragePercent": 98,
+    "composedFields": 45,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "pageCount": 3,
     "generatedAt": "2026-03-28T17:36:47.681Z",
     "postProcessedAt": "2026-03-30T20:02:41.755526+00:00",
@@ -378,6 +344,7 @@
     "extractionSources": [
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.538343+00:00"
   }
 }

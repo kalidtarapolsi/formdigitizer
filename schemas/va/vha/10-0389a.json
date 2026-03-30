@@ -42,40 +42,62 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "companyOrOrganization": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Company or Organization"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     },
     "nameAndTitleOfRequestorFirstAndLast": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name and Title of Requestor First and Last"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-0389A.pdf",
     "totalFields": 9,
     "composedFields": 7,
-    "coveragePercent": 78,
+    "coveragePercent": 100,
     "xfaLabelCount": 9,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:05:24.385Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.558775+00:00"
   }
 }

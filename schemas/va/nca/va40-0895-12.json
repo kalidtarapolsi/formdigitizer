@@ -4,27 +4,40 @@
   "type": "object",
   "properties": {
     "nameAndAddressOfCompany": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name and Address of Company"
+      }
     },
     "projectFAIFederalApplicationIdentifierNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project FAI Federal Application Identifier Number"
+      }
     },
     "nameOfLowerTierParticipant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Lower Tier Participant"
+      }
     },
     "titleOfLowerTierParticipant": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title of Lower Tier Participant"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0895-12.pdf",
     "totalFields": 4,
-    "composedFields": 1,
-    "coveragePercent": 25,
+    "composedFields": 4,
+    "coveragePercent": 100,
     "xfaLabelCount": 4,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:24:40.160Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.860985+00:00"
   }
 }

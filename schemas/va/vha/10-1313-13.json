@@ -5,44 +5,72 @@
   "properties": {
     "email": {
       "type": "string",
-      "format": "email"
+      "format": "email",
+      "x-va-field": {
+        "label": "Email"
+      }
     },
     "dateOfSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Signature"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "applyingAsANonclinician": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Applying As a Nonclinician"
+      }
     },
     "rehabilitationRAndDServiceRRAndD": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rehabilitation R and D Service RR and D"
+      }
     },
     "revsionChangedFromPreviousLOI": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Revsion Changed From Previous LOI"
+      }
     },
     "other": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other"
+      }
     },
     "responseToSpecificAnnouncementProvideRFATitleAndNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Response to Specific Announcement Provide RFA Title and Number"
+      }
     },
     "usCitizenYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "US Citizen Yes"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1313-13-fill.pdf",
     "totalFields": 46,
-    "composedFields": 26,
-    "coveragePercent": 57,
+    "composedFields": 9,
+    "coveragePercent": 100,
     "xfaLabelCount": 12,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:15:14.458Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.637436+00:00"
   }
 }

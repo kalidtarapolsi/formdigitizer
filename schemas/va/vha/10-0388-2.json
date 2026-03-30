@@ -42,25 +42,35 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "dateOfSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Signature"
+      }
     },
     "projectDescription": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Project Description"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0388-2-fill.pdf",
     "totalFields": 7,
-    "composedFields": 4,
-    "coveragePercent": 57,
+    "composedFields": 3,
+    "coveragePercent": 100,
     "xfaLabelCount": 3,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:19:57.326Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.554198+00:00"
   }
 }

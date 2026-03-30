@@ -42,24 +42,28 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "localAssembliesClergy": {
-      "type": "string"
-    },
-    "isYourOrganizationreligiousBodyPartOfAnyOtherOrganizationreligiousBodyThatPresentlyHasAnAgentAuthorizedToGrantAndorWithdrawEcclesiasticalEndorsementsToEitherTheMilitaryOrTheDepartmentOfVeteransAffairsYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Local Assemblies Clergy"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0379-fill.pdf",
     "totalFields": 39,
     "composedFields": 2,
-    "coveragePercent": 5,
+    "coveragePercent": 100,
     "xfaLabelCount": 5,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:20:48.437Z",
     "pageCount": 3,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.546872+00:00"
   }
 }

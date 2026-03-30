@@ -5,34 +5,47 @@
   "properties": {
     "dateOfSignature": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Signature"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
-    },
-    "participationInTestingOfMRIPulseSequencesNeededForMRIOptimizationAsPartOfRadiologyServiceQualityImprovementProgramImportantThisFormMustAlwaysBeCompletedPriorToVolunteerParticipationInThisQualityImprovementActivityEligibleVolunteersAreLimitedToCurrentVHAEmployeesIncludingVHATraineesInternsResidentsEtcThisIsNotAVolunteerActivityForVolunteersInVAVoluntaryServiceWhoServeOnAWithoutCompensationWOCBasis1PurposeAndConductOfTestingOfMRIPulseSequencesForMRIOptimizationIUnderstandThatIAmBeingAskedToVolunteerToUndergoMagneticResonanceImagingMRIToOptimizePulseSequencesForQualityImprovementPurposesIUnderstandThatMyVoluntaryParticipationIsIntendedToAssistRadiologyServiceAtInsertNameOfVAMedicalFacility": {
-      "type": "string"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "incidentalFindings": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Incidental Findings"
+      }
     },
     "printedNameOfVolunteer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Printed Name of Volunteer"
+      }
     },
     "officialVATitle": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Official VA Title"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-10169%20Volunteer%20Consent%20Form.pdf",
     "totalFields": 10,
-    "composedFields": 7,
-    "coveragePercent": 70,
+    "composedFields": 5,
+    "coveragePercent": 100,
     "xfaLabelCount": 7,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:02:05.225Z",
     "pageCount": 3,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.621674+00:00"
   }
 }

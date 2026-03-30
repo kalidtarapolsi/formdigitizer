@@ -5,39 +5,69 @@
   "properties": {
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "number": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number"
+      }
     },
     "dealer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Dealer"
+      }
     },
     "purchaser": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Purchaser"
+      }
     },
     "": {
       "type": "string",
       "format": "date"
     },
     "warrantor1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Warrantor"
+      }
     },
     "warrantor2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Warrantor"
+      }
     },
     "warrantor3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Warrantor"
+      }
     },
     "field": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Field"
+      }
     },
     "model": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Model"
+      }
     }
   },
   "x-va-metadata": {
@@ -45,11 +75,12 @@
     "status": "digitized",
     "totalFields": 19,
     "composedFields": 11,
-    "coveragePercent": 26,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
     "generatedAt": "2026-03-28T17:38:11.822Z",
-    "postProcessedAt": "2026-03-30T20:42:50.159340+00:00"
+    "postProcessedAt": "2026-03-30T20:42:50.159340+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.226726+00:00"
   }
 }

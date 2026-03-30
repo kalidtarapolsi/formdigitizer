@@ -8,7 +8,10 @@
   "properties": {
     "dateOfBirth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "fullName": {
       "type": "object",
@@ -39,7 +42,10 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "address": {
       "type": "object",
@@ -80,51 +86,79 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateSignedMonth": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed Month"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "nameOfContractorAnInstitutionOrIndividual": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Contractor an Institution or Individual"
+      }
     },
     "": {
       "type": "string",
       "format": "date"
     },
     "periodBeginningMonth": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Period Beginning Month"
+      }
     },
     "nameOfContractor": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Contractor"
+      }
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1903-are.pdf",
     "status": "digitized",
     "totalFields": 64,
-    "composedFields": 22,
-    "coveragePercent": 69,
+    "composedFields": 12,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 4,
     "generatedAt": "2026-03-28T17:34:53.778Z",
-    "postProcessedAt": "2026-03-30T20:02:41.756417+00:00"
+    "postProcessedAt": "2026-03-30T20:02:41.756417+00:00",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.256729+00:00"
   }
 }

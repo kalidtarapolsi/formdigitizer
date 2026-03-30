@@ -7,161 +7,154 @@
     "nameandmailingaddressofapplicant": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E A N D M A I L I N G A D D R E S S O F A P P L I C A N T",
+        "label": "Nameandmailingaddressofapplicant",
         "widget": "text"
       }
     },
     "nameofsport": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E O F S P O R T",
+        "label": "Nameofsport",
         "widget": "text"
       }
     },
     "sportclassification": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S P O R T C L A S S I F I C A T I O N",
+        "label": "Sportclassification",
         "widget": "text"
       }
     },
     "datestandardmet": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E S T A N D A R D M E T",
+        "label": "Datestandardmet",
         "widget": "text"
       }
     },
     "scoretimejustification": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform C\\ S C O R E T I M E J U S T I F I C A T I O N",
+        "label": "Scoretimejustification",
         "widget": "text"
       }
     },
     "beginningdate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 B E G I N N I N G D A T E1",
+        "label": "Beginningdate",
         "widget": "text"
       }
     },
     "endingdate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 E N D I N G D A T E1",
+        "label": "Endingdate",
         "widget": "text"
       }
     },
     "typeoftraining1": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 #subform T Y P E O F T R A I N I N G1",
+        "label": "Typeoftraining",
         "widget": "checkbox"
       }
     },
     "beginningdate2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 B E G I N N I N G D A T E2",
+        "label": "Beginningdate",
         "widget": "text"
       }
     },
     "endingdate2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 E N D I N G D A T E2",
+        "label": "Endingdate",
         "widget": "text"
       }
     },
     "typeoftraining2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 #subform T Y P E O F T R A I N I N G2",
+        "label": "Typeoftraining",
         "widget": "checkbox"
       }
     },
     "beginningdate3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 B E G I N N I N G D A T E3",
+        "label": "Beginningdate",
         "widget": "text"
       }
     },
     "endingdate3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 E N D I N G D A T E3",
+        "label": "Endingdate",
         "widget": "text"
       }
     },
     "typeoftraining3": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 #subform T Y P E O F T R A I N I N G3",
+        "label": "Typeoftraining",
         "widget": "checkbox"
       }
     },
     "beginningdate4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 B E G I N N I N G D A T E4",
+        "label": "Beginningdate",
         "widget": "text"
       }
     },
     "endingdate4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 E N D I N G D A T E4",
+        "label": "Endingdate",
         "widget": "text"
       }
     },
     "typeoftraining4": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row4 #subform T Y P E O F T R A I N I N G4",
+        "label": "Typeoftraining",
         "widget": "checkbox"
       }
     },
     "nameofdco": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E O F D C O",
+        "label": "Nameofdco",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "datesigned1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E S I G N E D1",
+        "label": "Datesigned",
         "widget": "text"
       }
     },
     "nameofveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform N A M E O F V E T E R A N",
+        "label": "Nameofveteran",
         "widget": "text"
       }
     },
     "datesigned2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform D A T E S I G N E D2",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Datesigned",
         "widget": "text"
       }
     },
@@ -175,14 +168,14 @@
     "nameAndMailingAddressOfApplicant_2Level": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME AND MAILING ADDRESS OF APPLICANT 2. LEVEL",
+        "label": "Name And Mailing Address Of Applicant 2. Level",
         "widget": "address"
       }
     },
     "disabilityClassification": {
       "type": "string",
       "x-va-field": {
-        "label": "DISABILITY CLASSIFICATION",
+        "label": "Disability Classification",
         "widget": "text"
       }
     },
@@ -198,7 +191,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "6A. BEGINNING",
+        "label": "6A. Beginning",
         "widget": "date"
       }
     },
@@ -206,7 +199,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "6B. ENDING",
+        "label": "6B. Ending",
         "widget": "date"
       }
     },
@@ -221,7 +214,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "8B. DATE SIGNED (",
+        "label": "8B. Date Signed (",
         "widget": "date"
       }
     },
@@ -236,7 +229,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "10B. DATE SIGNED (",
+        "label": "10B. Date Signed (",
         "widget": "date"
       }
     }
@@ -244,10 +237,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0918a.pdf",
     "totalFields": 33,
-    "composedFields": 33,
-    "coveragePercent": 97,
+    "composedFields": 32,
+    "coveragePercent": 100,
     "xfaLabelCount": 24,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:13:32.626Z",
     "pageCount": 1,
     "status": "digitized",
@@ -256,6 +249,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.490653+00:00"
   }
 }

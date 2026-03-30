@@ -7,420 +7,406 @@
     "vaLoanIdentificationNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A Loan Identification Number",
+        "label": "VA Loan Identification Number",
         "widget": "text"
       }
     },
     "apnLotNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform A P N Lot Number",
+        "label": "Apn Lot Number",
         "widget": "text"
       }
     },
     "latitudeLongitudeGrid": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Latitude Longitude Grid",
+        "label": "Latitude Longitude Grid",
         "widget": "text"
       }
     },
     "businessLenderStreetAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Business Lender Street Address",
+        "label": "Business Lender Street Address",
         "widget": "text"
       }
     },
     "salesPrice": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Sales Price",
+        "label": "Sales Price",
         "widget": "text"
       }
     },
     "builderName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Builder Name",
+        "label": "Builder Name",
         "widget": "text"
       }
     },
     "builderId": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Builder I D",
+        "label": "Builder ID",
         "widget": "text"
       }
     },
     "builderPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Builder Phone",
+        "label": "Builder Phone",
         "widget": "text"
       }
     },
     "veteranSellerWorksNights": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform V E T E R A N S E L L E R W O R K S N I G H T S",
+        "label": "Veteran Seller Works Nights",
         "widget": "checkbox"
       }
     },
     "petsOnPremises": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform P E T S O N P R E M I S E S",
+        "label": "Pets on Premises",
         "widget": "checkbox"
       }
     },
     "houseAlarm": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform H O U S E A L A R M",
+        "label": "House Alarm",
         "widget": "checkbox"
       }
     },
     "gatedCommunity": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform G A T E D C O M M U N I T Y",
+        "label": "Gated Community",
         "widget": "checkbox"
       }
     },
     "otherSpecialInstructionsOrInvoiceInformationPleaseDescribe": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Other Special Instructions Or Invoice Information Please Describe",
+        "label": "Other Special Instructions or Invoice Information Please Describe",
         "widget": "text"
       }
     },
     "numberPages": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Number Pages",
+        "label": "Number Pages",
         "widget": "text"
       }
     },
     "lenderPointOfContactName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Lender Point Of Contact Name",
+        "label": "Lender Point of Contact Name",
         "widget": "text"
       }
     },
     "lenderPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Lender Phone",
+        "label": "Lender Phone",
         "widget": "text"
       }
     },
     "lenderPointOfContactEmail": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Lender Point Of Contact Email",
+        "label": "Lender Point of Contact Email",
         "widget": "text"
       }
     },
     "veteranPointOfContactName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran Point Of Contact Name",
+        "label": "Veteran Point of Contact Name",
         "widget": "text"
       }
     },
     "veteranPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran Phone",
+        "label": "Veteran Phone",
         "widget": "text"
       }
     },
     "veteranPointOfContactEmail": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran Point Of Contact Email",
+        "label": "Veteran Point of Contact Email",
         "widget": "text"
       }
     },
     "buyerAgentPointOfContactName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Buyer Agent Point Of Contact Name",
+        "label": "Buyer Agent Point of Contact Name",
         "widget": "text"
       }
     },
     "buyerAgentPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Buyer Agent Phone",
+        "label": "Buyer Agent Phone",
         "widget": "text"
       }
     },
     "buyerAgentPointOfContactEmail": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Buyer Agent Point Of Contact Email",
+        "label": "Buyer Agent Point of Contact Email",
         "widget": "text"
       }
     },
     "sellerAgentPointOfContactName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Seller Agent Point Of Contact Name",
+        "label": "Seller Agent Point of Contact Name",
         "widget": "text"
       }
     },
     "sellerAgentPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Seller Agent Phone",
+        "label": "Seller Agent Phone",
         "widget": "text"
       }
     },
     "sellerAgentPointOfContactEmail": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Seller Agent Point Of Contact Email",
+        "label": "Seller Agent Point of Contact Email",
         "widget": "text"
       }
     },
     "sellerOwnerPointOfContactName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Seller Owner Point Of Contact Name",
+        "label": "Seller Owner Point of Contact Name",
         "widget": "text"
       }
     },
     "sellerOwnerPhone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Seller Owner Phone",
+        "label": "Seller Owner Phone",
         "widget": "text"
       }
     },
     "sellerOwnerPointOfContactEmail": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Seller Owner Point Of Contact Email",
+        "label": "Seller Owner Point of Contact Email",
         "widget": "text"
       }
     },
     "builderrPointOfContactName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Builderr Point Of Contact Name",
+        "label": "Builderr Point of Contact Name",
         "widget": "text"
       }
     },
     "builderPointOfContactEmail": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Builder Point Of Contact Email",
+        "label": "Builder Point of Contact Email",
         "widget": "text"
       }
     },
     "businessLenderName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Business Lender Name",
+        "label": "Business Lender Name",
         "widget": "text"
       }
     },
     "requesterName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Requester Name",
+        "label": "Requester Name",
         "widget": "text"
       }
     },
     "requesterTitle": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Requester Title",
+        "label": "Requester Title",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "requesterEMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Requester E Mail Address",
+        "label": "Requester Email Address",
         "widget": "text"
       }
     },
     "institutionCaseNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Institution Case Number",
+        "label": "Institution Case Number",
         "widget": "text"
       }
     },
     "sponsorID": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Sponsor I D",
+        "label": "Sponsor ID",
         "widget": "text"
       }
     },
     "veteranNameFirstMiddleInitialLast": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran Name First Middle Initial Last",
+        "label": "Veteran Name First Middle Initial Last",
         "widget": "text"
       }
     },
     "veteranEMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Veteran E mail Address",
+        "label": "Veteran Email Address",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "personAuthorizingRequestTitle": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Person Authorizing Request Title",
+        "label": "Person Authorizing Request Title",
         "widget": "text"
       }
     },
     "appraisalDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Appraisal Date",
+        "label": "Appraisal Date",
         "widget": "text"
       }
     },
     "appraiserName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Appraiser Name",
+        "label": "Appraiser Name",
         "widget": "text"
       }
     },
     "assignedAppraiserEMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Assigned Appraiser E mail Address",
+        "label": "Assigned Appraiser Email Address",
         "widget": "text"
       }
     },
     "appraisalAssignmentDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Appraisal Assignment Date",
+        "label": "Appraisal Assignment Date",
         "widget": "text"
       }
     },
     "appraisalOrderDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Appraisal Order Date",
+        "label": "Appraisal Order Date",
         "widget": "text"
       }
     },
     "appraisalDueDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Appraisal Due Date",
+        "label": "Appraisal Due Date",
         "widget": "text"
       }
     },
     "appraisalFee": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Appraisal Fee",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Appraisal Fee",
         "widget": "text"
       }
     },
     "lenderPointOfContactInformationPoc": {
       "type": "string",
       "x-va-field": {
-        "label": "LENDER POINT OF CONTACT INFORMATION (POC)",
+        "label": "Lender Point Of Contact Information (Poc)",
         "widget": "text"
       }
     },
     "veteranBorrowerPointOfContactPocInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN/BORROWER POINT OF CONTACT (POC) INFORMATION",
+        "label": "Veteran/Borrower Point Of Contact (Poc) Information",
         "widget": "text"
       }
     },
     "buyerAgentPointOfContactPocInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "BUYER AGENT POINT OF CONTACT (POC) INFORMATION",
+        "label": "Buyer Agent Point Of Contact (Poc) Information",
         "widget": "text"
       }
     },
     "sellerAgentPointOfContactPocInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "SELLER AGENT POINT OF CONTACT (POC) INFORMATION",
+        "label": "Seller Agent Point Of Contact (Poc) Information",
         "widget": "text"
       }
     },
     "sellerHomeOwnerPointOfContactPocInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "SELLER/HOME OWNER POINT OF CONTACT (POC) INFORMATION",
+        "label": "Seller/Home Owner Point Of Contact (Poc) Information",
         "widget": "text"
       }
     },
     "builderSalesOfficePointOfContactPocInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "BUILDER SALES OFFICE POINT OF CONTACT (POC) INFORMATION",
+        "label": "Builder Sales Office Point Of Contact (Poc) Information",
         "widget": "text"
       }
     },
     "tidewaterPointOfContactPocInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "TIDEWATER POINT OF CONTACT (POC) INFORMATION",
+        "label": "Tidewater Point Of Contact (Poc) Information",
         "widget": "text"
       }
     },
     "businessLenderName2": {
       "type": "string",
       "x-va-field": {
-        "label": "BUSINESS/LENDER NAME",
+        "label": "Business/Lender Name",
         "widget": "text"
       }
     },
     "requesterName_13RequesterTitle": {
       "type": "string",
       "x-va-field": {
-        "label": "REQUESTER NAME 13. REQUESTER TITLE",
+        "label": "Requester Name 13. Requester Title",
         "widget": "text"
       }
     },
@@ -435,7 +421,7 @@
     "requesterEMailAddress2": {
       "type": "string",
       "x-va-field": {
-        "label": "REQUESTER E-MAIL ADDRESS",
+        "label": "Requester E-Mail Address",
         "widget": "address"
       }
     },
@@ -449,14 +435,14 @@
     "institutionCaseNumber18SponsorType": {
       "type": "string",
       "x-va-field": {
-        "label": "INSTITUTION CASE NUMBER18.  SPONSOR TYPE",
+        "label": "Institution Case Number18.  Sponsor Type",
         "widget": "text"
       }
     },
     "canAssistedAppraisalProcessingProgramAappBeUtilized": {
       "type": "string",
       "x-va-field": {
-        "label": "CAN ASSISTED APPRAISAL PROCESSING PROGRAM (AAPP) BE UTILIZED",
+        "label": "Can Assisted Appraisal Processing Program (Aapp) Be Utilized",
         "widget": "text"
       }
     },
@@ -492,7 +478,7 @@
     "veteranSEMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S E-MAIL ADDRESS",
+        "label": "Veteran's E-Mail Address",
         "widget": "address"
       }
     },
@@ -500,7 +486,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "26C. APPRAISAL REQUEST",
+        "label": "26C. Appraisal Request",
         "widget": "date"
       }
     },
@@ -508,7 +494,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "27D. APPRAISER ASSIGNMENT DATE (",
+        "label": "27D. Appraiser Assignment Date (",
         "widget": "date"
       }
     },
@@ -516,21 +502,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "27E. APPRAISAL ORDER DATE (",
+        "label": "27E. Appraisal Order Date (",
         "widget": "date"
       }
     },
     "warning": {
       "type": "string",
       "x-va-field": {
-        "label": "WARNING",
+        "label": "Warning",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     }
@@ -539,7 +525,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1805-are.pdf",
     "status": "digitized",
     "totalFields": 76,
-    "composedFields": 75,
+    "composedFields": 73,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -550,6 +536,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.160837+00:00"
   }
 }

@@ -5,36 +5,55 @@
   "properties": {
     "from": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "From"
+      }
     },
     "reported": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Reported"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "signatureOfChiefMedicalAdministrationServiceDesignee": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Signature of Chief Medical Administration Service Designee"
+      }
     },
     "to": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "To"
+      }
     },
     "departed": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Departed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2382.pdf",
     "totalFields": 6,
-    "composedFields": 4,
-    "coveragePercent": 67,
+    "composedFields": 6,
+    "coveragePercent": 100,
     "xfaLabelCount": 6,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:12:49.545Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.657523+00:00"
   }
 }

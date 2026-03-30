@@ -7,196 +7,196 @@
     "nameofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Nameof Veteran",
+        "label": "Nameof Veteran",
         "widget": "text"
       }
     },
     "mailingAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Mailing Address",
+        "label": "Mailing Address",
         "widget": "text"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Number",
+        "label": "Vafile Number",
         "widget": "text"
       }
     },
     "varegionalAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A Regional Address",
+        "label": "Varegional Address",
         "widget": "text"
       }
     },
     "nameofSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Nameof Spouse",
+        "label": "Nameof Spouse",
         "widget": "text"
       }
     },
     "maritalStatus": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform Marital Status",
+        "label": "Marital Status",
         "widget": "checkbox"
       }
     },
     "vafileNumberofother": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform V A File Numberofother",
+        "label": "Vafile Numberofother",
         "widget": "text"
       }
     },
     "nursingHomeInfo": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Nursing Home Info",
+        "label": "Nursing Home Info",
         "widget": "text"
       }
     },
     "yourSsn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Your S S N",
+        "label": "Your SSN",
         "widget": "text"
       }
     },
     "yourSpouseSsn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Your Spouse S S N",
+        "label": "Your Spouse SSN",
         "widget": "text"
       }
     },
     "spouseDob": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Spouse D O B",
+        "label": "Spouse DOB",
         "widget": "text"
       }
     },
     "dateEntered": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Entered",
+        "label": "Date Entered",
         "widget": "text"
       }
     },
     "dateOfSeparation": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Of Separation",
+        "label": "Date of Separation",
         "widget": "text"
       }
     },
     "dateOfDivorceDeath": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Of Divorce Death",
+        "label": "Date of Divorce Death",
         "widget": "text"
       }
     },
     "amountContributed": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount Contributed",
+        "label": "Amount Contributed",
         "widget": "text"
       }
     },
     "numberChildren": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Number Children",
+        "label": "Number Children",
         "widget": "text"
       }
     },
     "source": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Source",
+        "label": "Source",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "source1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Source1",
+        "label": "Source",
         "widget": "text"
       }
     },
     "incomeChanged": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Income Changed",
+        "label": "Income Changed",
         "widget": "text"
       }
     },
     "incomeChangedWhen": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Income Changed When",
+        "label": "Income Changed When",
         "widget": "text"
       }
     },
     "incomeChangedHow": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Income Changed How",
+        "label": "Income Changed How",
         "widget": "text"
       }
     },
     "daytime": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Daytime",
+        "label": "Daytime",
         "widget": "text"
       }
     },
     "evening": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Evening",
+        "label": "Evening",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "firstNameMiddleNameLastNameOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST NAME - MIDDLE NAME - LAST NAME OF VETERAN",
+        "label": "First Name - Middle Name - Last Name Of Veteran",
         "widget": "text"
       }
     },
     "veteranWith": {
       "type": "string",
       "x-va-field": {
-        "label": "(VETERAN WITH",
+        "label": "(Veteran With",
         "widget": "text"
       }
     },
@@ -210,35 +210,28 @@
     "numberOfUnmarriedDependentChildrenSeeParagraph_1Of": {
       "type": "string",
       "x-va-field": {
-        "label": "NUMBER OF UNMARRIED, DEPENDENT CHILDREN (See Paragraph 1 of",
+        "label": "Number Of Unmarried, Dependent Children (See Paragraph 1 Of",
         "widget": "text"
       }
     },
     "4bShowThe": {
       "type": "string",
       "x-va-field": {
-        "label": "4B. SHOW THE",
+        "label": "4B. Show The",
         "widget": "text"
       }
     },
     "didEitherYouOrYourSpouseReceiveAnyWagesOrWereEith": {
       "type": "string",
       "x-va-field": {
-        "label": "DID EITHER YOU OR YOUR SPOUSE RECEIVE ANY WAGES OR WERE EITH",
+        "label": "Did Either You Or Your Spouse Receive Any Wages Or Were Eith",
         "widget": "text"
       }
     },
     "doYouReceiveAnyOtherVaBenefitsAsAVeteranParentO": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU RECEIVE ANY OTHER VA BENEFITS AS A VETERAN, PARENT, O",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Do You Receive Any Other VA Benefits As A Veteran, Parent, O",
         "widget": "text"
       }
     },
@@ -246,7 +239,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "4E. SHOW THE DATE YOUR MEDICAID COVERAGE STARTED (",
+        "label": "4E. Show The Date Your Medicaid Coverage Started (",
         "widget": "date"
       }
     },
@@ -254,7 +247,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "1D. SPOUSE'S DATE OF BIRTH (",
+        "label": "1D. Spouse'S Date Of Birth (",
         "widget": "date"
       }
     },
@@ -263,28 +256,21 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY",
+        "label": "Social Security",
         "widget": "ssn"
       }
     },
     "grossMonthlyAmountsIf": {
       "type": "string",
       "x-va-field": {
-        "label": "GROSS MONTHLY AMOUNTS (If",
+        "label": "Gross Monthly Amounts (If",
         "widget": "radio"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
       }
     },
     "from": {
       "type": "string",
       "x-va-field": {
-        "label": "FROM",
+        "label": "From",
         "widget": "text"
       }
     },
@@ -292,7 +278,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATES (",
+        "label": "Dates (",
         "widget": "date"
       }
     },
@@ -322,7 +308,7 @@
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -330,21 +316,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "10B. DATE SIGNED (",
+        "label": "10B. Date Signed (",
         "widget": "date"
       }
     },
     "thru": {
       "type": "string",
       "x-va-field": {
-        "label": "THRU",
+        "label": "Thru",
         "widget": "text"
       }
     },
     "veteranSEducationalAndVocationalRehabilitationExpenses": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN'S EDUCATIONAL AND VOCATIONAL REHABILITATION EXPENSES",
+        "label": "Veteran's Educational And Vocational Rehabilitation Expenses",
         "widget": "text"
       }
     },
@@ -352,7 +338,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATES (MM/DD/YYYY)DATES (",
+        "label": "Dates (MM/DD/YYYY)Dates (",
         "widget": "date"
       }
     }
@@ -361,7 +347,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0516-1-are.pdf",
     "status": "digitized",
     "totalFields": 49,
-    "composedFields": 49,
+    "composedFields": 47,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -372,6 +358,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.997955+00:00"
   }
 }

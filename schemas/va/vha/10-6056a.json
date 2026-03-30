@@ -42,137 +42,255 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "leaseTermBeginDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Lease Term Begin Date"
+      }
     },
     "leaseTermBeginDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Lease Term Begin Date"
+      }
     },
     "leaseTermEndDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Lease Term End Date"
+      }
     },
     "leaseTermEndDate2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Lease Term End Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "leaseProvConditions": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lease Prov Conditions"
+      }
     },
     "leaseNbr": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lease Nbr"
+      }
     },
     "propertyLocation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Property Location"
+      }
     },
     "leaseEnteredDayOfMonth": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lease Entered Day of Month"
+      }
     },
     "leaseEnteredMonth": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lease Entered Month"
+      }
     },
     "leaseEnteredYr": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lease Entered Yr"
+      }
     },
     "lesseeName": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lessee Name"
+      }
     },
     "heirExecutorDesc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Heir Executor Desc"
+      }
     },
     "premiseDesc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Premise Desc"
+      }
     },
     "leasePurpose": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lease Purpose"
+      }
     },
     "leaseTerm": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Lease Term"
+      }
     },
     "rentalAmtWords": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rental Amt Words"
+      }
     },
     "rentalAmtDollars": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rental Amt Dollars"
+      }
     },
     "rentalAmtPer": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rental Amt Per"
+      }
     },
     "otherConsideration": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Consideration"
+      }
     },
     "propDamageNoticeDays": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Prop Damage Notice Days"
+      }
     },
     "liabInsAmt1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liab Ins Amt"
+      }
     },
     "liabInsAmt2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Liab Ins Amt"
+      }
     },
     "vaDesc2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Desc"
+      }
     },
     "utilityCostBasis2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Utility Cost Basis"
+      }
     },
     "utilityBillFreq": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Utility Bill Freq"
+      }
     },
     "terminationNoticeDays": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Termination Notice Days"
+      }
     },
     "utilityCostBasis": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Utility Cost Basis"
+      }
     },
     "vaDesc1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Desc"
+      }
     },
     "vaDesc3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Desc"
+      }
     },
     "vaDesc5": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Desc"
+      }
     },
     "vaDesc4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "VA Desc"
+      }
     },
     "name1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name"
+      }
     },
     "title1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "nameLessee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Lessee"
+      }
     },
     "titleLessee": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title Lessee"
+      }
     },
     "nameSecretary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Secretary"
+      }
     },
     "secretaryPosition": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Secretary Position"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-6056A-fill.pdf",
     "totalFields": 44,
-    "composedFields": 12,
-    "coveragePercent": 27,
+    "composedFields": 39,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:28:40.339Z",
     "pageCount": 5,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.796292+00:00"
   }
 }

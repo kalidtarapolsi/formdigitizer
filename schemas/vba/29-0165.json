@@ -10,7 +10,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "fullName": {
       "type": "object",
@@ -41,52 +44,86 @@
       "required": [
         "first",
         "last"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Full Name"
+      }
     },
     "nameAddressOfInsured": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name Address of Insured"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "checkingAccountNumber": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Checking Account Number"
+      }
     },
     "insurancePolicyNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Insurance Policy Number"
+      }
     },
     "nameOfBankOrFinancialInstitution": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Bank or Financial Institution"
+      }
     },
     "bankRoutingNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Bank Routing Number"
+      }
     },
     "yesd": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Yesd"
+      }
     },
     "nod": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nod"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0165-are.pdf",
     "status": "digitized",
     "totalFields": 14,
-    "composedFields": 11,
-    "coveragePercent": 79,
+    "composedFields": 12,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 1,
-    "generatedAt": "2026-03-28T17:38:33.925Z"
+    "generatedAt": "2026-03-28T17:38:33.925Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.264593+00:00"
   }
 }

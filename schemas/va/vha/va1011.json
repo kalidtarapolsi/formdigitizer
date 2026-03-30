@@ -42,173 +42,330 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "deliveredByDepartmentOfVeteransAffairsDate": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Delivered by Department of Veteran's Affairs Date"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "totalChecks": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Total Checks"
+      }
     },
     "valuablesEnclosedInPackageWithSF215CheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Valuables Enclosed in Package With SF215Check Box"
+      }
     },
-    "vAForm1551CheckBox": {
-      "type": "boolean"
+    "checkBox": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Check Box"
+      }
     },
-    "vAForm5216CheckBox": {
-      "type": "boolean"
+    "checkBox2": {
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Check Box"
+      }
     },
     "bankSlipCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Bank Slip Check Box"
+      }
     },
     "purposeOfShipmentCheckAppropriateBoxExchangeOfCashForBankDraftCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Purpose of Shipment Check Appropriate Box Exchange of Cash for Bank Draft Check Box"
+      }
     },
     "replenishmentCheckExchangedForCashCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Replenishment Check Exchanged for Cash Check Box"
+      }
     },
     "carsCollectionsCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Cars Collections Check Box"
+      }
     },
     "forDepositToFederalDepositoryCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "For Deposit to Federal Depository Check Box"
+      }
     },
     "insuranceCollectionsToVAInsuranceOfficeCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Insurance Collections to VA Insurance Office Check Box"
+      }
     },
     "methodOfTransportationCheckAppropriateBoxPersonalDeliveryCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Method of Transportation Check Appropriate Box Personal Delivery Check Box"
+      }
     },
     "armoredCarServiceCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Armored Car Service Check Box"
+      }
     },
     "registeredMailCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "Registered Mail Check Box"
+      }
     },
     "aMCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "A M Check Box"
+      }
     },
     "pMCheckBox": {
-      "type": "boolean"
+      "type": "boolean",
+      "x-va-field": {
+        "label": "P M Check Box"
+      }
     },
     "amountLine1Of7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line1Of"
+      }
     },
     "amountLine2Of7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line2Of"
+      }
     },
     "amountLine3Of7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line3Of"
+      }
     },
     "amountLine4Of7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line4Of"
+      }
     },
     "amountLine5Of7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line5Of"
+      }
     },
     "amountLine6Of7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line6Of"
+      }
     },
     "amountLine7Of7": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line7Of"
+      }
     },
     "amountLine1Of6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line1Of"
+      }
     },
     "amountLine2Of6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line2Of"
+      }
     },
     "amountLine3Of6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line3Of"
+      }
     },
     "amountLine4Of6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line4Of"
+      }
     },
     "amountLine5Of6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line5Of"
+      }
     },
     "amountLine6Of6": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount Line6Of"
+      }
     },
     "nameAndLocationOfVAStation": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name and Location of VA Station"
+      }
     },
     "serialNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Serial Number"
+      }
     },
     "currencyLine1Of7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currency Line1Of"
+      }
     },
     "currencyLine2Of7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currency Line2Of"
+      }
     },
     "currencyLine3Of7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currency Line3Of"
+      }
     },
     "currencyLine4Of7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currency Line4Of"
+      }
     },
     "currencyLine5Of7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currency Line5Of"
+      }
     },
     "currencyLine6Of7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currency Line6Of"
+      }
     },
     "currencyLine7Of7": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Currency Line7Of"
+      }
     },
     "coinsLine1Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Coins Line1Of"
+      }
     },
     "coinsLine2Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Coins Line2Of"
+      }
     },
     "coinsLine4Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Coins Line4Of"
+      }
     },
     "coinsLine5Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Coins Line5Of"
+      }
     },
     "coinsLine6Of6": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Coins Line6Of"
+      }
     },
     "totalCurrencyAndCoins": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Currency and Coins"
+      }
     },
     "totalValue": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Value"
+      }
     },
     "numberedFrom": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Numbered From"
+      }
     },
     "numberedTo": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Numbered to"
+      }
     },
     "registeredMailNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Registered Mail Number"
+      }
     },
     "time": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Time"
+      }
     },
     "otherValuablesItemize": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Valuables Itemize"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA1011.pdf",
     "totalFields": 58,
-    "composedFields": 36,
-    "coveragePercent": 62,
+    "composedFields": 52,
+    "coveragePercent": 98,
     "xfaLabelCount": 58,
-    "needsReviewCount": 0,
+    "needsReviewCount": 1,
     "generatedAt": "2026-03-28T21:33:44.586Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:39:57.222774+00:00"
   }
 }

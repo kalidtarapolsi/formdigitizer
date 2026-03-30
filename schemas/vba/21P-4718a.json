@@ -4,143 +4,258 @@
   "type": "object",
   "properties": {
     "addressOfFinancialInstitution": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Address of Financial Institution"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "dateF1": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date F"
+      }
     },
     "dateF2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date F"
+      }
     },
     "dateF3": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date F"
+      }
     },
     "dateF4": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date F"
+      }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "dateSigned2": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Signature certification"
+      "description": "Signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "amountE1": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount E"
+      }
     },
     "amountE2": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount E"
+      }
     },
     "amountE3": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount E"
+      }
     },
     "amountE4": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Amount E"
+      }
     },
     "nameOfFinancialInstitution": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Financial Institution"
+      }
     },
     "a3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A"
+      }
     },
     "nameOfFiduciary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Fiduciary"
+      }
     },
     "nameOfBeneficiary": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Beneficiary"
+      }
     },
     "a1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A"
+      }
     },
     "a2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A"
+      }
     },
     "a4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "A"
+      }
     },
     "accountNumberB1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account Number B"
+      }
     },
     "accountNumberB2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account Number B"
+      }
     },
     "accountNumberB3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account Number B"
+      }
     },
     "accountNumberB4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Account Number B"
+      }
     },
     "depositorC1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Depositor C"
+      }
     },
     "depositorC2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Depositor C"
+      }
     },
     "depositorC3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Depositor C"
+      }
     },
     "depositorC4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Depositor C"
+      }
     },
     "balanceD1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance D"
+      }
     },
     "balanceD2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance D"
+      }
     },
     "balanceD3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance D"
+      }
     },
     "balanceD4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Balance D"
+      }
     },
     "interestRateG1": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Interest Rate G"
+      }
     },
     "interestRateG2": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Interest Rate G"
+      }
     },
     "interestRateG3": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Interest Rate G"
+      }
     },
     "interestRateG4": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Interest Rate G"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4718a-are.pdf",
     "status": "digitized",
     "totalFields": 47,
-    "composedFields": 20,
-    "coveragePercent": 43,
+    "composedFields": 38,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
     "pageCount": 2,
-    "generatedAt": "2026-03-28T17:36:13.852Z"
+    "generatedAt": "2026-03-28T17:36:13.852Z",
+    "fieldNameFixedAt": "2026-03-30T21:38:05.055236+00:00"
   }
 }

@@ -7,84 +7,84 @@
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "numericField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform Numeric Field1",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "debtmount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform Debtmount",
+        "label": "Debtmount",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform #subform #subform Amount",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dateSigned2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME",
+        "label": "Name",
         "widget": "text"
       }
     },
     "address_1": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS 1",
+        "label": "Address 1",
         "widget": "text"
       }
     },
     "address_2": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS 2",
+        "label": "Address 2",
         "widget": "text"
       }
     },
     "city": {
       "type": "string",
       "x-va-field": {
-        "label": "CITY",
+        "label": "City",
         "widget": "text"
       }
     },
     "telephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "TELEPHONE NUMBER",
+        "label": "Telephone Number",
         "widget": "text"
       }
     },
     "bestTimeToCall": {
       "type": "string",
       "x-va-field": {
-        "label": "BEST TIME TO CALL",
+        "label": "Best Time To Call",
         "widget": "text"
       }
     },
@@ -109,13 +109,6 @@
         "widget": "text"
       }
     },
-    "form1SubformSubformSubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform #subform #subform Check Box1",
-        "widget": "checkbox"
-      }
-    },
     "attn": {
       "type": "string",
       "x-va-field": {
@@ -126,21 +119,21 @@
     "signature": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "vamcAccountNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "VAMC ACCOUNT NUMBER",
+        "label": "Vamc Account Number",
         "widget": "text"
       }
     },
     "vamcStationNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "VAMC STATION NUMBER",
+        "label": "Vamc Station Number",
         "widget": "text"
       }
     },
@@ -169,10 +162,10 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA_Form_10-323.pdf",
     "totalFields": 23,
-    "composedFields": 23,
-    "coveragePercent": 96,
+    "composedFields": 22,
+    "coveragePercent": 100,
     "xfaLabelCount": 9,
-    "needsReviewCount": 1,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:22:34.748Z",
     "pageCount": 2,
     "status": "digitized",
@@ -180,6 +173,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.727104+00:00"
   }
 }

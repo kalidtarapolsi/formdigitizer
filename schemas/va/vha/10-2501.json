@@ -7,14 +7,14 @@
     "dateOfBirth": {
       "type": "string",
       "x-va-field": {
-        "label": "DATE OF BIRTH",
+        "label": "Date Of Birth",
         "widget": "text"
       }
     },
     "signatureOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF VETERAN",
+        "label": "Signature Of Veteran",
         "widget": "text"
       }
     },
@@ -25,31 +25,24 @@
         "widget": "text"
       }
     },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
     "itemService": {
       "type": "string",
       "x-va-field": {
-        "label": "ITEM/SERVICE",
+        "label": "Item/Service",
         "widget": "text"
       }
     },
     "serial": {
       "type": "string",
       "x-va-field": {
-        "label": "SERIAL #",
+        "label": "Serial #",
         "widget": "text"
       }
     },
     "information": {
       "type": "string",
       "x-va-field": {
-        "label": "INFORMATION",
+        "label": "Information",
         "widget": "text"
       }
     },
@@ -78,7 +71,7 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
+        "label": "Important",
         "widget": "text"
       }
     },
@@ -95,7 +88,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2501-fill.pdf",
     "totalFields": 12,
-    "composedFields": 12,
+    "composedFields": 11,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -106,6 +99,7 @@
     "extractionSources": [
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.664368+00:00"
   }
 }

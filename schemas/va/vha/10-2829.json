@@ -9,7 +9,10 @@
     "ssn": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
-      "maxLength": 11
+      "maxLength": 11,
+      "x-va-field": {
+        "label": "SSN"
+      }
     },
     "address": {
       "type": "object",
@@ -50,130 +53,236 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "phoneNumber": {
       "type": "string",
       "pattern": "^\\d{10}$",
-      "maxLength": 10
+      "maxLength": 10,
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "vaFileNumber": {
       "type": [
         "string",
         "null"
       ],
-      "maxLength": 9
+      "maxLength": 9,
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "dateOfCall": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Call"
+      }
     },
     "dateEnteredService": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Entered Service"
+      }
     },
     "dateOfDischarge": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date of Discharge"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "travelAuthorizedTravelAuthorizedAtGovernmentExpense": {
-      "type": "number"
+      "type": "number",
+      "x-va-field": {
+        "label": "Travel Authorized Travel Authorized at Government Expense"
+      }
     },
     "forHospitalization": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "For Hospitalization"
+      }
     },
     "outpatientTreatment": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Outpatient Treatment"
+      }
     },
     "physiciansFees": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Physicians Fees"
+      }
     },
     "numberOfTreatments": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Number of Treatments"
+      }
     },
     "remarksIncludeAllStipulationsConditionsEtc": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks Include All Stipulations Conditions Etc"
+      }
     },
     "relationship": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Relationship"
+      }
     },
     "otherFeesSpecify": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Other Fees Specify"
+      }
     },
     "travel": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Travel"
+      }
     },
     "hourOfCall": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Hour of Call"
+      }
     },
     "natureOfEmergencyAlleged": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nature of Emergency Alleged"
+      }
     },
     "tentativeNumberOfDays": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Tentative Number of Days"
+      }
     },
     "perDiemRate": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Per Diem Rate"
+      }
     },
     "specialNursingFees": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Special Nursing Fees"
+      }
     },
     "xrayFees": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Xray Fees"
+      }
     },
     "laboratoryFees": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Laboratory Fees"
+      }
     },
     "modeOfTravel": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Mode of Travel"
+      }
     },
     "between": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Between"
+      }
     },
     "and": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "And"
+      }
     },
     "extras": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Extras"
+      }
     },
     "eligibilityAction": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Eligibility Action"
+      }
     },
     "eligibilityClerksInitials": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Eligibility Clerks Initials"
+      }
     },
     "station": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Station"
+      }
     },
     "seviceConnectedForEmergencyAlleged": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Sevice Connected for Emergency Alleged"
+      }
     },
     "nonserviceconnectedForEmergencyAlleged": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Nonserviceconnected for Emergency Alleged"
+      }
     },
     "primaFacieEligibility": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Prima Facie Eligibility"
+      }
     },
     "receivingPensionOrCompensationYes": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Receiving Pension or Compensation Yes"
+      }
     },
     "no": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "No"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-2829.pdf",
     "totalFields": 44,
-    "composedFields": 24,
-    "coveragePercent": 55,
+    "composedFields": 36,
+    "coveragePercent": 100,
     "xfaLabelCount": 44,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:12:52.088Z",
     "pageCount": 1,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.699871+00:00"
   }
 }

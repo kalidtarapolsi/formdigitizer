@@ -5,98 +5,174 @@
   "properties": {
     "dateSent": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Sent"
+      }
     },
     "dateReturned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Returned"
+      }
     },
     "signature": {
       "type": "boolean",
-      "description": "Veteran/claimant signature certification"
+      "description": "Veteran/claimant signature certification",
+      "x-va-field": {
+        "label": "Signature"
+      }
     },
     "veteransIdentification": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Veterans Identification"
+      }
     },
     "leftHeelInches": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Left Heel Inches"
+      }
     },
     "leftBallInches": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Left Ball Inches"
+      }
     },
     "leftToeInches": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Left Toe Inches"
+      }
     },
     "rightHeelInches": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Right Heel Inches"
+      }
     },
     "rightBallInches": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Right Ball Inches"
+      }
     },
     "rightToeInches": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Right Toe Inches"
+      }
     },
     "nameOfVendorAndContractNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Name of Vendor and Contract Number"
+      }
     },
     "modifications": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Modifications"
+      }
     },
     "rebuildingContractItemNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rebuilding Contract Item Number"
+      }
     },
     "leftExtensionContractItemNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Left Extension Contract Item Number"
+      }
     },
     "rightExtensionContractItemNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Right Extension Contract Item Number"
+      }
     },
     "stirrupContractItemNumber": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Stirrup Contract Item Number"
+      }
     },
     "rebuildingCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Rebuilding Cost"
+      }
     },
     "leftExtensionCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Left Extension Cost"
+      }
     },
     "rightExtensionCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Right Extension Cost"
+      }
     },
     "stirrupCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Stirrup Cost"
+      }
     },
     "totalCost": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Total Cost"
+      }
     },
     "ofSoles": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Of Soles"
+      }
     },
     "heelsAndBases": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Heels and Bases"
+      }
     },
     "code": {
-      "type": "string"
-    },
-    "theAboveServiceWasOrderedAndReceivedAndPaymentIsRecommendedWithTheFollowingException": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Code"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Title"
+      }
     },
     "remarks": {
-      "type": "string"
+      "type": "string",
+      "x-va-field": {
+        "label": "Remarks"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-2770-fill.pdf",
     "totalFields": 87,
-    "composedFields": 12,
-    "coveragePercent": 14,
+    "composedFields": 26,
+    "coveragePercent": 100,
     "xfaLabelCount": 87,
     "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:03:52.102Z",
     "pageCount": 4,
-    "status": "digitized"
+    "status": "digitized",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.692236+00:00"
   }
 }

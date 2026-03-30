@@ -7,176 +7,151 @@
     "claimantsLastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Claimants Last Name",
+        "label": "Claimants Last Name",
         "widget": "text"
       }
     },
-    "mailingAddressZiporPostalCodeLastFourNumbers": {
+    "mailingAddressZiporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F #subform Mailing Address Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "mailingAddressZiporPostalCodeFirstFiveNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Mailing Address Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "Mailing Address ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "mailingAddressCountry": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Mailing Address Country",
+        "label": "Mailing Address Country",
         "widget": "text"
       }
     },
     "mailingAddressStateOrProvince": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Mailing Address State Or Province",
+        "label": "Mailing Address State or Province",
         "widget": "text"
       }
     },
     "mailingAddressCity": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Mailing Address City",
+        "label": "Mailing Address City",
         "widget": "text"
       }
     },
     "mailingAddressApartmentOrUnitNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Mailing Address Apartment Or Unit Number",
+        "label": "Mailing Address Apartment or Unit Number",
         "widget": "text"
       }
     },
     "claimantsMailingAddressNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Claimants Mailing Address Number And Street",
+        "label": "Claimants Mailing Address Number and Street",
         "widget": "text"
       }
     },
     "claimantsMiddleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Claimants Middle Initial",
+        "label": "Claimants Middle Initial",
         "widget": "text"
       }
     },
     "claimantsFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Claimants First Name",
+        "label": "Claimants First Name",
         "widget": "text"
       }
     },
     "vaFileNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform V A File Number If Applicable",
+        "label": "VA File Number If Applicable",
         "widget": "text"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform International Telephone Number If Applicable",
+        "label": "International Telephone Number If Applicable",
         "widget": "text"
       }
     },
     "lastName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "middleInitial": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Middle Initial",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "firstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform First Name",
+        "label": "First Name",
         "widget": "text"
       }
     },
-    "ssnsecondTwoNumbers": {
+    "ssn": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "F #subform S S N Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "ssnfirstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform S S N First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "ssnlastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform S S N Last Four Numbers",
-        "widget": "text"
+        "label": "SSN",
+        "widget": "ssn"
       }
     },
     "firstThreeNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform First Three Numbers",
+        "label": "First Three Numbers",
         "widget": "text"
       }
     },
     "lastFourNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Last Four Numbers",
+        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Area Code",
+        "label": "Area Code",
         "widget": "text"
       }
     },
     "secondTwoNumbers": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Second Two Numbers",
+        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
     "remarks": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform R E M A R K S",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "signatureField11": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Signature Field11",
+        "label": "Signature Field",
         "widget": "text"
-      }
-    },
-    "fSubformCheckBox1": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F #subform Check Box1",
-        "widget": "checkbox"
       }
     },
     "youAreAVeteranEligibleForAEducationalBenefit": {
@@ -231,28 +206,14 @@
     "important": {
       "type": "string",
       "x-va-field": {
-        "label": "IMPORTANT",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Important",
         "widget": "text"
       }
     },
     "nameOfVeteranServiceMember": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF VETERAN/SERVICE MEMBER",
+        "label": "Name Of Veteran/Service Member",
         "widget": "text"
       }
     },
@@ -260,21 +221,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM-DD-YYYY)",
+        "label": "Date Of Birth (MM-DD-YYYY)",
         "widget": "date"
       }
     },
     "areYouCurrentlyAttendingSchoolTrainingFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "ARE YOU CURRENTLY ATTENDING SCHOOL/TRAINING FACILITY?",
+        "label": "Are You Currently Attending School/Training Facility?",
         "widget": "text"
       }
     },
     "veteranServiceMemberSMailingAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "VETERAN/SERVICE MEMBER'S MAILING ADDRESS",
+        "label": "Veteran/Service Member'S Mailing Address",
         "widget": "address"
       }
     },
@@ -283,14 +244,14 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER (SSN)",
+        "label": "Social Security Number (SSN)",
         "widget": "ssn"
       }
     },
     "eMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "E-MAIL ADDRESS",
+        "label": "E-Mail Address",
         "widget": "address"
       }
     },
@@ -336,21 +297,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "SEPARATION",
+        "label": "Separation",
         "widget": "date"
       }
     },
     "characterOfDischarge": {
       "type": "string",
       "x-va-field": {
-        "label": "CHARACTER OF DISCHARGE",
+        "label": "Character Of Discharge",
         "widget": "text"
       }
     },
     "claimantSName": {
       "type": "string",
       "x-va-field": {
-        "label": "CLAIMANT'S NAME",
+        "label": "Claimant'S Name",
         "widget": "text"
       }
     },
@@ -358,28 +319,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE OF BIRTH (MM-DD-YYYY)15. VA FILE NUMBER (If applicable)",
+        "label": "Date Of Birth (MM-DD-YYYY)15. VA File Number (If Applicable)",
         "widget": "date"
       }
     },
     "relationshipToVeteranCheckOne": {
       "type": "string",
       "x-va-field": {
-        "label": "RELATIONSHIP TO VETERAN (Check one)",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Relationship To Veteran (Check One)",
         "widget": "text"
       }
     },
     "mailingAddressOfClaimant": {
       "type": "string",
       "x-va-field": {
-        "label": "MAILING ADDRESS OF CLAIMANT",
+        "label": "Mailing Address Of Claimant",
         "widget": "address"
       }
     },
@@ -401,21 +355,14 @@
     "useThisSpaceToProvideInformationThatDoesNotFitElse": {
       "type": "string",
       "x-va-field": {
-        "label": "USE THIS SPACE TO PROVIDE INFORMATION THAT DOES NOT FIT ELSE",
+        "label": "Use This Space To Provide Information That Does Not Fit Else",
         "widget": "text"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -428,10 +375,10 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-27-8832-are.pdf",
     "status": "digitized",
     "totalFields": 61,
-    "composedFields": 59,
-    "coveragePercent": 95,
+    "composedFields": 51,
+    "coveragePercent": 100,
     "xfaLabelCount": 0,
-    "needsReviewCount": 2,
+    "needsReviewCount": 0,
     "pageCount": 3,
     "generatedAt": "2026-03-28T17:34:15.915Z",
     "postProcessedAt": "2026-03-30T20:02:41.752594+00:00",
@@ -440,6 +387,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.529181+00:00"
   }
 }

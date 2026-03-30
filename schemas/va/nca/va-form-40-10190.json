@@ -5,33 +5,54 @@
   "properties": {
     "nameOfDeceased": {
       "type": "string",
-      "description": "Name of deceased veteran"
+      "description": "Name of deceased veteran",
+      "x-va-field": {
+        "label": "Name of Deceased"
+      }
     },
     "dateOfDeath": {
       "type": "string",
       "format": "date",
-      "description": "Date of death"
+      "description": "Date of death",
+      "x-va-field": {
+        "label": "Date of Death"
+      }
     },
     "vaFileNumber": {
       "type": "string",
-      "description": "VA file number"
+      "description": "VA file number",
+      "x-va-field": {
+        "label": "VA File Number"
+      }
     },
     "socialSecurityNumber": {
       "type": "string",
-      "description": "Social Security Number"
+      "description": "Social Security Number",
+      "x-va-field": {
+        "label": "Social Security Number"
+      }
     },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
-      "description": "Date of birth"
+      "description": "Date of birth",
+      "x-va-field": {
+        "label": "Date of Birth"
+      }
     },
     "cemeteryName": {
       "type": "string",
-      "description": "Name of cemetery for burial"
+      "description": "Name of cemetery for burial",
+      "x-va-field": {
+        "label": "Cemetery Name"
+      }
     },
     "burialLocation": {
       "type": "string",
-      "description": "Burial location/lot number"
+      "description": "Burial location/lot number",
+      "x-va-field": {
+        "label": "Burial Location"
+      }
     },
     "address": {
       "type": "object",
@@ -58,24 +79,39 @@
         "city",
         "state",
         "postalCode"
-      ]
+      ],
+      "x-va-field": {
+        "label": "Address"
+      }
     },
     "relationshipToDeceased": {
       "type": "string",
-      "description": "Claimant's relationship to deceased"
+      "description": "Claimant's relationship to deceased",
+      "x-va-field": {
+        "label": "Relationship to Deceased"
+      }
     },
     "applicantName": {
       "type": "string",
-      "description": "Applicant's full name"
+      "description": "Applicant's full name",
+      "x-va-field": {
+        "label": "Applicant Name"
+      }
     },
     "phoneNumber": {
       "type": "string",
-      "description": "Contact phone number"
+      "description": "Contact phone number",
+      "x-va-field": {
+        "label": "Phone Number"
+      }
     },
     "dateOfApplication": {
       "type": "string",
       "format": "date",
-      "description": "Date of application"
+      "description": "Date of application",
+      "x-va-field": {
+        "label": "Date of Application"
+      }
     }
   },
   "x-va-metadata": {
@@ -88,6 +124,7 @@
     "status": "digitized",
     "pageCount": 2,
     "generatedAt": "2026-03-29T14:14:58.000Z",
-    "generationMethod": "template-based-inference"
+    "generationMethod": "template-based-inference",
+    "fieldNameFixedAt": "2026-03-30T21:38:04.858143+00:00"
   }
 }

@@ -7,238 +7,210 @@
     "parentName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Parent Name",
+        "label": "Parent Name",
         "widget": "text"
       }
     },
     "federalAgency": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Federal Agency",
+        "label": "Federal Agency",
         "widget": "text"
       }
     },
     "nameChildCare": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name Child Care",
+        "label": "Name Child Care",
         "widget": "text"
       }
     },
     "address": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Address",
+        "label": "Address",
         "widget": "text"
       }
     },
     "email": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Email",
+        "label": "Email",
         "widget": "text"
       }
     },
     "phone": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Phone",
+        "label": "Phone",
         "widget": "text"
       }
     },
     "ssnTaxId": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N Tax I D",
+        "label": "SSN Tax ID",
         "widget": "text"
       }
     },
     "fax": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Fax",
+        "label": "Fax",
         "widget": "text"
       }
     },
     "licenseNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform License Number",
+        "label": "License Number",
         "widget": "text"
       }
     },
     "state": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform State",
-        "widget": "text"
-      }
-    },
-    "expirationDate": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Expiration Date",
+        "label": "State",
         "widget": "text"
       }
     },
     "childName": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Child Name",
+        "label": "Child Name",
         "widget": "text"
       }
     },
     "enrollmentDate": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Enrollment Date",
+        "label": "Enrollment Date",
         "widget": "text"
       }
     },
     "source": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Source",
+        "label": "Source",
         "widget": "text"
       }
     },
     "amountSubsidy": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Amount Subsidy",
+        "label": "Amount Subsidy",
         "widget": "text"
       }
     },
     "totalWeeklyFee": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row1 Total Weekly Fee",
+        "label": "Total Weekly Fee",
         "widget": "text"
       }
     },
     "childName2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Child Name",
+        "label": "Child Name",
         "widget": "text"
       }
     },
     "enrollmentDate2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Enrollment Date",
+        "label": "Enrollment Date",
         "widget": "text"
       }
     },
     "source2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Source",
+        "label": "Source",
         "widget": "text"
       }
     },
     "amountSubsidy2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Amount Subsidy",
+        "label": "Amount Subsidy",
         "widget": "text"
       }
     },
     "totalWeeklyFee2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row2 Total Weekly Fee",
+        "label": "Total Weekly Fee",
         "widget": "text"
       }
     },
     "childName3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Child Name",
+        "label": "Child Name",
         "widget": "text"
       }
     },
     "enrollmentDate3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Enrollment Date",
+        "label": "Enrollment Date",
         "widget": "text"
       }
     },
     "source3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Source",
+        "label": "Source",
         "widget": "text"
       }
     },
     "amountSubsidy3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Amount Subsidy",
+        "label": "Amount Subsidy",
         "widget": "text"
       }
     },
     "totalWeeklyFee3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Table1 Row3 Total Weekly Fee",
+        "label": "Total Weekly Fee",
         "widget": "text"
       }
     },
     "name": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Name",
+        "label": "Name",
         "widget": "text"
       }
     },
     "title": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Title",
+        "label": "Title",
         "widget": "text"
       }
     },
     "signature1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Signature1",
+        "label": "Signature",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Signed",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "privacyActStatement": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT STATEMENT",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
-        "widget": "text"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
+        "label": "Privacy Act Statement",
         "widget": "text"
       }
     },
@@ -252,7 +224,7 @@
     "nameOfParentLegalGuardianWithChildInTheProviderSC": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF PARENT/LEGAL GUARDIAN WITH CHILD IN THE PROVIDER'S C",
+        "label": "Name Of Parent/Legal Guardian With Child In The Provider'S C",
         "widget": "text"
       }
     },
@@ -273,7 +245,7 @@
     "nameOfChildCareProvider": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF CHILD CARE PROVIDER",
+        "label": "Name Of Child Care Provider",
         "widget": "text"
       }
     },
@@ -287,7 +259,7 @@
     "providerEMailAddress": {
       "type": "string",
       "x-va-field": {
-        "label": "PROVIDER E-MAIL ADDRESS",
+        "label": "Provider E-Mail Address",
         "widget": "address"
       }
     },
@@ -295,14 +267,14 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "PROVIDER TELEPHONE NUMBER",
+        "label": "Provider Telephone Number",
         "widget": "phone"
       }
     },
     "taxIdentificationNoOr": {
       "type": "string",
       "x-va-field": {
-        "label": "TAX IDENTIFICATION NO. OR",
+        "label": "Tax Identification No. Or",
         "widget": "text"
       }
     },
@@ -311,28 +283,28 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "SOCIAL SECURITY NO.",
+        "label": "Social Security No.",
         "widget": "ssn"
       }
     },
     "providerFaxNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "PROVIDER FAX NUMBER",
+        "label": "Provider Fax Number",
         "widget": "text"
       }
     },
     "licenseNumberOf": {
       "type": "string",
       "x-va-field": {
-        "label": "LICENSE NUMBER OF",
+        "label": "License Number Of",
         "widget": "text"
       }
     },
     "stateInWhich": {
       "type": "string",
       "x-va-field": {
-        "label": "STATE IN WHICH",
+        "label": "State In Which",
         "widget": "select"
       }
     },
@@ -340,35 +312,35 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "LICENSE EXPIRATION DATE",
+        "label": "License Expiration Date",
         "widget": "date"
       }
     },
     "instruction": {
       "type": "string",
       "x-va-field": {
-        "label": "INSTRUCTION",
+        "label": "Instruction",
         "widget": "text"
       }
     },
     "certification": {
       "type": "string",
       "x-va-field": {
-        "label": "CERTIFICATION",
+        "label": "Certification",
         "widget": "text"
       }
     },
     "nameOfProvider2TitleOfProviderRepresentative": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF PROVIDER2. TITLE OF PROVIDER REPRESENTATIVE",
+        "label": "Name Of Provider2. Title Of Provider Representative",
         "widget": "text"
       }
     },
     "signatureOfProviderSignInInk": {
       "type": "string",
       "x-va-field": {
-        "label": "SIGNATURE OF PROVIDER (Sign in ink)",
+        "label": "Signature Of Provider (Sign In Ink)",
         "widget": "signature"
       }
     },
@@ -376,7 +348,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "DATE SIGNED",
+        "label": "Date Signed",
         "widget": "date"
       }
     }
@@ -384,7 +356,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0730b.pdf",
     "totalFields": 53,
-    "composedFields": 53,
+    "composedFields": 49,
     "coveragePercent": 100,
     "xfaLabelCount": 22,
     "needsReviewCount": 0,
@@ -396,6 +368,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.040363+00:00"
   }
 }

@@ -7,133 +7,126 @@
     "firstName": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform First Name",
+        "label": "First Name",
         "widget": "text"
       }
     },
     "insurancenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform insurancenumber",
+        "label": "Insurancenumber",
         "widget": "text"
       }
     },
     "mailingaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform mailingaddress",
+        "label": "Mailingaddress",
         "widget": "text"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "vafilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform vafilenumber",
+        "label": "Vafilenumber",
         "widget": "text"
       }
     },
     "telephone": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform Telephone",
+        "label": "Telephone",
         "widget": "text"
       }
     },
     "policyNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform Policy Number",
+        "label": "Policy Number",
         "widget": "text"
       }
     },
     "amount": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform A M O U N T",
+        "label": "Amount",
         "widget": "text"
       }
     },
     "planofinsurance": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform planofinsurance",
+        "label": "Planofinsurance",
         "widget": "text"
       }
     },
     "explainwhy": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform explainwhy",
+        "label": "Explainwhy",
         "widget": "text"
       }
     },
     "heightFeet": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform Height Feet",
+        "label": "Height Feet",
         "widget": "text"
       }
     },
     "heightInches": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform Height Inches",
+        "label": "Height Inches",
         "widget": "text"
       }
     },
     "weight": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform Weight",
+        "label": "Weight",
         "widget": "text"
       }
     },
     "remarks23": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform remarks23",
+        "label": "Remarks",
         "widget": "text"
       }
     },
     "signatureField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform Signature Field1",
+        "label": "Signature Field",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
       "x-va-field": {
-        "label": "Vba291549 #subform Date Signed",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "RESPONDENT BURDEN",
+        "label": "Date Signed",
         "widget": "text"
       }
     },
     "requirement": {
       "type": "string",
       "x-va-field": {
-        "label": "REQUIREMENT",
+        "label": "Requirement",
         "widget": "text"
       }
     },
     "firstNameMiddleNameLastNameOfInsured": {
       "type": "string",
       "x-va-field": {
-        "label": "FIRST NAME - MIDDLE NAME - LAST NAME OF INSURED",
+        "label": "First Name - Middle Name - Last Name Of Insured",
         "widget": "text"
       }
     },
@@ -147,70 +140,70 @@
     "socialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "SOCIAL SECURITY NUMBER",
+        "label": "Social Security Number",
         "widget": "text"
       }
     },
     "daytimeTelephoneNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "DAYTIME TELEPHONE NUMBER",
+        "label": "Daytime Telephone Number",
         "widget": "text"
       }
     },
     "policyNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "POLICY NUMBER",
+        "label": "Policy Number",
         "widget": "text"
       }
     },
     "amountOfInsurance": {
       "type": "string",
       "x-va-field": {
-        "label": "AMOUNT OF INSURANCE",
+        "label": "Amount Of Insurance",
         "widget": "text"
       }
     },
     "planOfInsuranceApplied": {
       "type": "string",
       "x-va-field": {
-        "label": "PLAN OF INSURANCE APPLIED",
+        "label": "Plan Of Insurance Applied",
         "widget": "text"
       }
     },
     "doYouWishToContinueOrAddTheTotal": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU WISH TO CONTINUE OR ADD THE TOTAL",
+        "label": "Do You Wish To Continue Or Add The Total",
         "widget": "text"
       }
     },
     "dispositionOfReserveCredit": {
       "type": "string",
       "x-va-field": {
-        "label": "DISPOSITION OF RESERVE CREDIT",
+        "label": "Disposition Of Reserve Credit",
         "widget": "text"
       }
     },
     "methodOfPremiumPayment": {
       "type": "string",
       "x-va-field": {
-        "label": "METHOD OF PREMIUM PAYMENT",
+        "label": "Method Of Premium Payment",
         "widget": "text"
       }
     },
     "modeOfPremiumPayment": {
       "type": "string",
       "x-va-field": {
-        "label": "MODE OF PREMIUM PAYMENT",
+        "label": "Mode Of Premium Payment",
         "widget": "text"
       }
     },
     "privacyActInformation": {
       "type": "string",
       "x-va-field": {
-        "label": "PRIVACY ACT INFORMATION",
+        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -224,147 +217,147 @@
     "diseaseOfTheHeartOrArteries": {
       "type": "string",
       "x-va-field": {
-        "label": "DISEASE OF THE HEART OR ARTERIES;",
+        "label": "Disease Of The Heart Or Arteries;",
         "widget": "text"
       }
     },
     "highBloodPressure": {
       "type": "string",
       "x-va-field": {
-        "label": "HIGH BLOOD PRESSURE?",
+        "label": "High Blood Pressure?",
         "widget": "text"
       }
     },
     "cancerTumorOrPolyp": {
       "type": "string",
       "x-va-field": {
-        "label": "CANCER, TUMOR OR POLYP?",
+        "label": "Cancer, Tumor Or Polyp?",
         "widget": "text"
       }
     },
     "lungDisease": {
       "type": "string",
       "x-va-field": {
-        "label": "LUNG DISEASE?",
+        "label": "Lung Disease?",
         "widget": "text"
       }
     },
     "epilepsyUnconsciousnessDizziness": {
       "type": "string",
       "x-va-field": {
-        "label": "EPILEPSY, UNCONSCIOUSNESS, DIZZINESS",
+        "label": "Epilepsy, Unconsciousness, Dizziness",
         "widget": "text"
       }
     },
     "emotionalOrMentalDisorder": {
       "type": "string",
       "x-va-field": {
-        "label": "EMOTIONAL OR MENTAL DISORDER?",
+        "label": "Emotional Or Mental Disorder?",
         "widget": "text"
       }
     },
     "diseaseOfTheBlood": {
       "type": "string",
       "x-va-field": {
-        "label": "DISEASE OF THE BLOOD?",
+        "label": "Disease Of The Blood?",
         "widget": "text"
       }
     },
     "tuberculosisPleurisyOr": {
       "type": "string",
       "x-va-field": {
-        "label": "TUBERCULOSIS, PLEURISY, OR",
+        "label": "Tuberculosis, Pleurisy, Or",
         "widget": "text"
       }
     },
     "diabetes": {
       "type": "string",
       "x-va-field": {
-        "label": "DIABETES?",
+        "label": "Diabetes?",
         "widget": "text"
       }
     },
     "arthritisParalysisOrDiseaseOr": {
       "type": "string",
       "x-va-field": {
-        "label": "ARTHRITIS, PARALYSIS, OR DISEASE, OR",
+        "label": "Arthritis, Paralysis, Or Disease, Or",
         "widget": "text"
       }
     },
     "diseaseOrUlcerOfStomach": {
       "type": "string",
       "x-va-field": {
-        "label": "DISEASE OR ULCER OF STOMACH,",
+        "label": "Disease Or Ulcer Of Stomach,",
         "widget": "text"
       }
     },
     "anyDiseaseOfTheUrinaryTract": {
       "type": "string",
       "x-va-field": {
-        "label": "ANY DISEASE OF THE URINARY TRACT,",
+        "label": "Any Disease Of The Urinary Tract,",
         "widget": "text"
       }
     },
     "anyDiseaseOfTheProstateOrTestesIfA": {
       "type": "string",
       "x-va-field": {
-        "label": "ANY DISEASE OF THE PROSTATE OR TESTES IF A",
+        "label": "Any Disease Of The Prostate Or Testes If A",
         "widget": "select"
       }
     },
     "doYouUseOrHaveYouBeenTreatedFor": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU USE OR HAVE YOU BEEN TREATED FOR",
+        "label": "Do You Use Or Have You Been Treated For",
         "widget": "text"
       }
     },
     "withinThePast_5YearsHaveYouBeen": {
       "type": "string",
       "x-va-field": {
-        "label": "WITHIN THE PAST 5 YEARS, HAVE YOU BEEN",
+        "label": "Within The Past 5 Years, Have You Been",
         "widget": "text"
       }
     },
     "areYouNowOrHaveYouEverBeen": {
       "type": "string",
       "x-va-field": {
-        "label": "ARE YOU NOW OR HAVE YOU EVER BEEN",
+        "label": "Are You Now Or Have You Ever Been",
         "widget": "text"
       }
     },
     "doYouHaveAnyServiceConnected": {
       "type": "string",
       "x-va-field": {
-        "label": "DO YOU HAVE ANY SERVICE CONNECTED",
+        "label": "Do You Have Any Service Connected",
         "widget": "text"
       }
     },
     "haveYouEverAppliedForDisability": {
       "type": "string",
       "x-va-field": {
-        "label": "HAVE YOU EVER APPLIED FOR DISABILITY",
+        "label": "Have You Ever Applied For Disability",
         "widget": "text"
       }
     },
     "hasAnyApplicationYouHaveMadeFor": {
       "type": "string",
       "x-va-field": {
-        "label": "HAS ANY APPLICATION YOU HAVE MADE FOR",
+        "label": "Has Any Application You Have Made For",
         "widget": "text"
       }
     },
     "heightFeetinches": {
       "type": "string",
       "x-va-field": {
-        "label": "HEIGHT:FEETINCHES",
+        "label": "Height:Feetinches",
         "widget": "text"
       }
     },
     "weight2": {
       "type": "string",
       "x-va-field": {
-        "label": "WEIGHT:",
+        "label": "Weight:",
         "widget": "text"
       }
     },
@@ -379,7 +372,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "24B. DATE (",
+        "label": "24B. Date (",
         "widget": "date"
       }
     }
@@ -388,7 +381,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-1549-are.pdf",
     "status": "digitized",
     "totalFields": 55,
-    "composedFields": 54,
+    "composedFields": 53,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -399,6 +392,7 @@
       "acroform",
       "acroform+text-inference",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:05.272566+00:00"
   }
 }

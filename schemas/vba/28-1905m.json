@@ -11,18 +11,12 @@
         "widget": "text"
       }
     },
-    "telephoneLastFourNumbers": {
+    "telephone": {
       "type": "string",
+      "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "F Page 2 Telephone Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "telephoneMiddleThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 Telephone Middle Three Numbers",
-        "widget": "text"
+        "label": "Telephone",
+        "widget": "phone"
       }
     },
     "telephoneNumberAreaCode": {
@@ -67,18 +61,12 @@
         "widget": "text"
       }
     },
-    "ziporPostalCodeLastFourNumbers": {
+    "ziporPostalCode": {
       "type": "string",
+      "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "F Page 2 Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "ziporPostalCodeFirstFiveNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F Page 2 Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
+        "label": "ZIP or Postal Code",
+        "widget": "zip"
       }
     },
     "country": {
@@ -151,189 +139,171 @@
         "widget": "text"
       }
     },
-    "ziporPostalCodeLastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Z I P Or Postal Code Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "ziporPostalCodeFirstFiveNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "F #subform Z I P Or Postal Code First Five Numbers",
-        "widget": "text"
-      }
-    },
     "country2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Country",
+        "label": "Country",
         "widget": "text"
       }
     },
     "stateOrProvince2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform State Or Province",
+        "label": "State or Province",
         "widget": "text"
       }
     },
     "city2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform City",
+        "label": "City",
         "widget": "text"
       }
     },
     "apartmentOrUnitNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Apartment Or Unit Number",
+        "label": "Apartment or Unit Number",
         "widget": "text"
       }
     },
     "nameAndAddressOfTrainingFacilityOrEmployerNumberAndStreet": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name And Address Of Training Facility Or Employer Number And Street",
+        "label": "Name and Address of Training Facility or Employer Number and Street",
         "widget": "text"
       }
     },
-    "checkBoxICertifyThatIHaveFilledInThisFormCompletelyAndThatItIsTrueAndCorrectToTheBestOfMyKnowledgeAndBelief": {
+    "iCertifyThatTheItemsListedInSection2Item7AreRequiredOfAllStudentsOrAllEmployees": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Check Box I Certify That I Have Filled In This Form Completely And That It Is True And Correct To The Best Of My Knowledge And Belief",
-        "widget": "checkbox"
-      }
-    },
-    "checkBoxICertifyThatTheItemsListedInSection2Item7AreRequiredOfAllStudentsOrAllEmployees": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "F #subform Check Box I Certify That The Items Listed In Section 2 Item 7 Are Required Of All Students Or All Employees",
+        "label": "I Certify That the Items Listed in Section2Item7Are Required of All Students or All Employees",
         "widget": "checkbox"
       }
     },
     "lastName2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Last Name",
+        "label": "Last Name",
         "widget": "text"
       }
     },
     "middleInitial12": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Middle Initial1",
+        "label": "Middle Initial",
         "widget": "text"
       }
     },
     "nameOfCaseManagerFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name Of Case Manager First Name",
+        "label": "Name of Case Manager First Name",
         "widget": "text"
       }
     },
     "nameOfTrainingFacilityOrEmployer": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name Of Training Facility Or Employer",
+        "label": "Name of Training Facility or Employer",
         "widget": "text"
       }
     },
     "quantity2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Quantity",
+        "label": "Quantity",
         "widget": "text"
       }
     },
     "nameOfItemServicesAndDescription2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name Of Item Services And Description",
+        "label": "Name of Item Services and Description",
         "widget": "text"
       }
     },
     "date": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date"
+      }
     },
     "titleOfTrainingFacilityOrEmployerRepresentative": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Title Of Training Facility Or Employer Representative",
+        "label": "Title of Training Facility or Employer Representative",
         "widget": "text"
       }
     },
     "digitalSignature": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Digital Signature",
+        "label": "Digital Signature",
         "widget": "text"
       }
     },
     "estimatedCost2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Estimated Cost",
+        "label": "Estimated Cost",
         "widget": "text"
       }
     },
     "estimatedCostCents2": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Estimated Cost Cents",
+        "label": "Estimated Cost Cents",
         "widget": "text"
       }
     },
     "regionalOfficeNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Regional Office Number",
+        "label": "Regional Office Number",
         "widget": "text"
       }
     },
     "nameOfItemsOrServices": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name Of Items Or Services",
+        "label": "Name of Items or Services",
         "widget": "text"
       }
     },
     "authorizedCertifyingOfficialFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Authorized Certifying Official First Name",
+        "label": "Authorized Certifying Official First Name",
         "widget": "text"
       }
     },
     "titleOfAuthorizedCertifyingOfficial": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Title Of Authorized Certifying Official",
+        "label": "Title of Authorized Certifying Official",
         "widget": "text"
       }
     },
     "nameOfPayeeFirstName": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Name Of Payee First Name",
+        "label": "Name of Payee First Name",
         "widget": "text"
       }
     },
     "actualAmountToBeReimbursedCents": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Actual Amount To Be Reimbursed Cents",
+        "label": "Actual Amount to Be Reimbursed Cents",
         "widget": "text"
       }
     },
     "actualAmountToBeReimbursed": {
       "type": "string",
       "x-va-field": {
-        "label": "F #subform Actual Amount To Be Reimbursed",
+        "label": "Actual Amount to Be Reimbursed",
         "widget": "text"
       }
     },
@@ -344,17 +314,17 @@
         "widget": "checkbox"
       }
     },
-    "fSubformCheckBox": {
+    "checkBox": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F #subform Check Box",
+        "label": "Check Box",
         "widget": "checkbox"
       }
     },
     "itemServicesReceived": {
       "type": "string",
       "x-va-field": {
-        "label": "ITEM/SERVICES RECEIVED",
+        "label": "Item/Services Received",
         "widget": "text"
       }
     },
@@ -362,35 +332,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "ON THIS",
+        "label": "On This",
         "widget": "date"
-      }
-    },
-    "note": {
-      "type": "string",
-      "x-va-field": {
-        "label": "NOTE",
-        "widget": "text"
       }
     },
     "nameOfItemServices": {
       "type": "string",
       "x-va-field": {
-        "label": "NAME OF ITEM/SERVICES",
-        "widget": "text"
-      }
-    },
-    "respondentBurden": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Respondent Burden",
-        "widget": "text"
-      }
-    },
-    "instructions": {
-      "type": "string",
-      "x-va-field": {
-        "label": "INSTRUCTIONS",
+        "label": "Name Of Item/Services",
         "widget": "text"
       }
     },
@@ -420,7 +369,7 @@
     "rehabilitationPlanGoal2": {
       "type": "string",
       "x-va-field": {
-        "label": "REHABILITATION PLAN GOAL",
+        "label": "Rehabilitation Plan Goal",
         "widget": "text"
       }
     },
@@ -442,28 +391,28 @@
     "addressWhereSuppliesWillBeDeliveredToClaimantNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "ADDRESS WHERE SUPPLIES WILL BE DELIVERED TO CLAIMANT (Number",
+        "label": "Address Where Supplies Will Be Delivered To Claimant (Number",
         "widget": "address"
       }
     },
     "quantity3": {
       "type": "string",
       "x-va-field": {
-        "label": "QUANTITY",
+        "label": "Quantity",
         "widget": "text"
       }
     },
     "estimatedCost3": {
       "type": "string",
       "x-va-field": {
-        "label": "ESTIMATED COST",
+        "label": "Estimated Cost",
         "widget": "text"
       }
     },
     "actualCost": {
       "type": "string",
       "x-va-field": {
-        "label": "ACTUAL COST",
+        "label": "Actual Cost",
         "widget": "text"
       }
     },
@@ -471,7 +420,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "12B.  DATE SIGNED (",
+        "label": "12B.  Date Signed (",
         "widget": "date"
       }
     },
@@ -486,7 +435,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "13C.  DATE SIGNED (",
+        "label": "13C.  Date Signed (",
         "widget": "date"
       }
     },
@@ -494,7 +443,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "14C.  DATE SIGNED (",
+        "label": "14C.  Date Signed (",
         "widget": "date"
       }
     },
@@ -509,48 +458,44 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "16E.  DATE SIGNED (",
+        "label": "16E.  Date Signed (",
         "widget": "date"
       }
     },
     "penalty": {
       "type": "string",
       "x-va-field": {
-        "label": "PENALTY",
-        "widget": "text"
-      }
-    },
-    "privacyActNotice": {
-      "type": "string",
-      "x-va-field": {
-        "label": "PRIVACY ACT NOTICE",
+        "label": "Penalty",
         "widget": "text"
       }
     },
     "regionalOfficeNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "REGIONAL OFFICE NUMBER",
+        "label": "Regional Office Number",
         "widget": "text"
       }
     },
     "title": {
       "type": "string",
       "x-va-field": {
-        "label": "TITLE",
+        "label": "Title",
         "widget": "text"
       }
     },
     "dateSigned": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "x-va-field": {
+        "label": "Date Signed"
+      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1905m-are.pdf",
     "status": "digitized",
     "totalFields": 84,
-    "composedFields": 77,
+    "composedFields": 68,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -561,6 +506,7 @@
     "extractionSources": [
       "acroform",
       "text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:39:57.548086+00:00"
   }
 }

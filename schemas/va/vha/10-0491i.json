@@ -4,129 +4,129 @@
   "type": "object",
   "required": [],
   "properties": {
-    "#field": {
+    "field": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Form1 #subform #field",
+        "label": "Field",
         "widget": "checkbox"
       }
     },
     "ssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform S S N",
+        "label": "SSN",
         "widget": "text"
       }
     },
     "dateTimeField11": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field11",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField12": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field12",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "numericField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Numeric Field1",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "numericField2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Numeric Field2",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "dateTimeField1": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field1",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField2": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field2",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field3",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field4",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField5": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field5",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField6": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field6",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField7": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field7",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField8": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field8",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField9": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field9",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "dateTimeField10": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Date Time Field10",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "numericField3": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Numeric Field3",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
     "numericField4": {
       "type": "string",
       "x-va-field": {
-        "label": "Form1 #subform Numeric Field4",
+        "label": "Numeric Field",
         "widget": "text"
       }
     },
@@ -179,25 +179,11 @@
         "widget": "text"
       }
     },
-    "form1SubformCheckBox2": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box2",
-        "widget": "checkbox"
-      }
-    },
     "addressChange": {
       "type": "string",
       "x-va-field": {
         "label": "Address Change",
         "widget": "text"
-      }
-    },
-    "form1SubformCheckBox3": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box3",
-        "widget": "checkbox"
       }
     },
     "completion": {
@@ -262,43 +248,15 @@
         "label": "information for",
         "widget": "text"
       }
-    },
-    "form1SubformTextField41": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field41",
-        "widget": "text"
-      }
-    },
-    "form1SubformTextField42": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Text Field42",
-        "widget": "text"
-      }
-    },
-    "form1SubformCheckBox4": {
-      "type": "boolean",
-      "x-va-field": {
-        "label": "Form1 #subform Check Box4",
-        "widget": "checkbox"
-      }
-    },
-    "form1SubformRadioButtonList": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Form1 #subform Radio Button List",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-0491i-fill%20(Notice%20of%20Change).pdf",
     "totalFields": 41,
-    "composedFields": 41,
-    "coveragePercent": 85,
+    "composedFields": 35,
+    "coveragePercent": 100,
     "xfaLabelCount": 28,
-    "needsReviewCount": 6,
+    "needsReviewCount": 0,
     "generatedAt": "2026-03-28T21:29:46.198Z",
     "pageCount": 1,
     "status": "digitized",
@@ -306,6 +264,7 @@
     "extractionSources": [
       "acroform",
       "acroform+text-inference"
-    ]
+    ],
+    "fieldNameFixedAt": "2026-03-30T21:38:04.594623+00:00"
   }
 }
