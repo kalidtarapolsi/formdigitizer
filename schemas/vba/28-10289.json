@@ -365,7 +365,7 @@
     "jobTitle25Employer": {
       "type": "string",
       "x-va-field": {
-        "label": "Job Title25. Employer",
+        "label": "Job Title25Employer",
         "widget": "text"
       }
     },
@@ -407,7 +407,7 @@
     "hoursPerWeek17Salary": {
       "type": "string",
       "x-va-field": {
-        "label": "Hours Per Week17. Salary",
+        "label": "Hours Per Week17Salary",
         "widget": "text"
       }
     },
@@ -450,15 +450,8 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "(Required)31. Date Signed (",
+        "label": "Required_31Date Signed",
         "widget": "date"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
       }
     },
     "dateOfBirth": {
@@ -487,7 +480,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-10289-are.pdf",
     "status": "digitized",
     "totalFields": 80,
-    "composedFields": 68,
+    "composedFields": 67,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -500,6 +493,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.249849+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.716451+00:00"
   }
 }

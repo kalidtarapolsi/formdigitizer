@@ -7,7 +7,7 @@
     "nameofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Veteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
@@ -21,7 +21,7 @@
     "addressofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Addressof Veteran",
+        "label": "Address of Veteran",
         "widget": "text"
       }
     },
@@ -35,7 +35,7 @@
     "signatureofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Signatureof Veteran",
+        "label": "Signature of Veteran",
         "widget": "text"
       }
     },
@@ -141,7 +141,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Signature Of Veteran (Sign In Ink):8. Date (MM/DD/YYYY):",
+        "label": "Signature of Veteran Sign in Ink_8Date Mm Dd Yyyy",
         "widget": "date"
       }
     },
@@ -174,13 +174,6 @@
         "widget": "text"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "importantInstructions": {
       "type": "string",
       "x-va-field": {
@@ -200,7 +193,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-8261a-are.pdf",
     "status": "digitized",
     "totalFields": 31,
-    "composedFields": 27,
+    "composedFields": 26,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -212,6 +205,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.844245+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.688561+00:00"
   }
 }

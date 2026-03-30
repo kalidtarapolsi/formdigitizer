@@ -200,13 +200,6 @@
         "widget": "text"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "furnishTheInformationWillHave": {
       "type": "string",
       "x-va-field": {
@@ -252,7 +245,7 @@
     "doYouHaveAVaCertificateOfEligibilityVaForm_21_4502": {
       "type": "string",
       "x-va-field": {
-        "label": "Do you have a VA Certificate of Eligibility (VA Form 21-4502",
+        "label": "Do You Have a VA Certificate of Eligibility VA Form_21_",
         "widget": "text"
       }
     },
@@ -275,13 +268,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Certification",
-        "widget": "text"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -325,7 +311,7 @@
     "amountRequestedForPayment14TotalAmountToBePaidToR": {
       "type": "string",
       "x-va-field": {
-        "label": "Amount requested for payment14. Total amount to be paid to r",
+        "label": "Amount Requested for Payment14Total Amount to Be Paid to R",
         "widget": "text"
       }
     },
@@ -360,7 +346,7 @@
     "amountRequestedForReimbursement18TotalAmountToBeRei": {
       "type": "string",
       "x-va-field": {
-        "label": "Amount requested for reimbursement18. Total amount to be rei",
+        "label": "Amount Requested for Reimbursement18Total Amount to Be Rei",
         "widget": "text"
       }
     },
@@ -410,7 +396,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/10-1394-fill.pdf",
     "totalFields": 59,
-    "composedFields": 57,
+    "composedFields": 55,
     "coveragePercent": 100,
     "xfaLabelCount": 32,
     "needsReviewCount": 0,
@@ -423,6 +409,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.486523+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.725404+00:00"
   }
 }

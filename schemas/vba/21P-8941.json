@@ -144,13 +144,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "employmentHistory": {
       "type": "string",
       "x-va-field": {
@@ -168,7 +161,7 @@
     "statusOfYoungestDependentChildInYourCareWhileAge_16": {
       "type": "string",
       "x-va-field": {
-        "label": "Status Of Youngest Dependent Child In Your Care While Age 16",
+        "label": "Status of Youngest Dependent Child in Your Care While Age_",
         "widget": "text"
       }
     },
@@ -212,7 +205,7 @@
     "ifYouDoNotCompleteItem_2b": {
       "type": "string",
       "x-va-field": {
-        "label": "If You Do Not Complete Item 2B,",
+        "label": "If You Do Not Complete Item_2b",
         "widget": "radio"
       }
     }
@@ -221,7 +214,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8941-are.pdf",
     "status": "digitized",
     "totalFields": 32,
-    "composedFields": 30,
+    "composedFields": 29,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -233,6 +226,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.595804+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.424928+00:00"
   }
 }

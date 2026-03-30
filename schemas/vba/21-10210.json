@@ -117,31 +117,10 @@
         "widget": "zip"
       }
     },
-    "firstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
-      }
-    },
     "areaCode": {
       "type": "string",
       "x-va-field": {
         "label": "Area Code",
-        "widget": "text"
-      }
-    },
-    "secondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
@@ -264,7 +243,7 @@
     "statementNoteDescribeWhatYouYourselfKnowOrHaveObs": {
       "type": "string",
       "x-va-field": {
-        "label": "STATEMENT (Note: Describe what you yourself know or have obs",
+        "label": "Statement Note Describe What You Yourself Know or Have Obs",
         "widget": "select"
       }
     },
@@ -290,13 +269,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "": {
       "type": "string",
       "format": "date"
@@ -306,7 +278,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-10210-are.pdf",
     "status": "digitized",
     "totalFields": 51,
-    "composedFields": 42,
+    "composedFields": 38,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -319,6 +291,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.938120+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.069062+00:00"
   }
 }

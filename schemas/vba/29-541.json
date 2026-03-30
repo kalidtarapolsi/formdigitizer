@@ -7,7 +7,7 @@
     "filenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Filenumber",
+        "label": "File Number",
         "widget": "text"
       }
     },
@@ -316,35 +316,35 @@
     "item_8a": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 8A",
+        "label": "Item_8a",
         "widget": "text"
       }
     },
     "item_8b": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 8B",
+        "label": "Item_8b",
         "widget": "text"
       }
     },
     "item_8c": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 8C",
+        "label": "Item_8c",
         "widget": "text"
       }
     },
     "item_8d": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 8D",
+        "label": "Item_8d",
         "widget": "text"
       }
     },
     "item_8e": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 8E",
+        "label": "Item_8e",
         "widget": "text"
       }
     },
@@ -393,35 +393,35 @@
     "item_9a": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 9A",
+        "label": "Item_9a",
         "widget": "text"
       }
     },
     "item_9b": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 9B",
+        "label": "Item_9b",
         "widget": "text"
       }
     },
     "item_9c": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 9C",
+        "label": "Item_9c",
         "widget": "text"
       }
     },
     "item_9d": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 9D",
+        "label": "Item_9d",
         "widget": "text"
       }
     },
     "item_9e": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 9E",
+        "label": "Item_9e",
         "widget": "text"
       }
     },
@@ -443,7 +443,7 @@
     "item_12e": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 12E",
+        "label": "Item_12e",
         "widget": "text"
       }
     },
@@ -451,13 +451,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Provide Information For Any Additional Heirs",
-        "widget": "text"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -482,20 +475,13 @@
         "label": "14E. Date Signed (",
         "widget": "date"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-541-are.pdf",
     "status": "digitized",
     "totalFields": 71,
-    "composedFields": 69,
+    "composedFields": 67,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -507,6 +493,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.286053+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.777444+00:00"
   }
 }

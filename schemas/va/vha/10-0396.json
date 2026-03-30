@@ -238,14 +238,14 @@
     "effectiveDateOfExisting7TypeOfExistingAuthorization": {
       "type": "string",
       "x-va-field": {
-        "label": "Effective Date Of Existing7. Type Of Existing Authorization",
+        "label": "Effective Date of Existing7Type of Existing Authorization",
         "widget": "text"
       }
     },
     "visn5Evaluator": {
       "type": "string",
       "x-va-field": {
-        "label": "Visn5. Evaluator",
+        "label": "Visn5Evaluator",
         "widget": "text"
       }
     },
@@ -280,7 +280,7 @@
     "regularStep_1": {
       "type": "string",
       "x-va-field": {
-        "label": "Regular Step 1",
+        "label": "Regular Step_",
         "widget": "text"
       }
     },
@@ -363,6 +363,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.445716+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.625622+00:00"
   }
 }

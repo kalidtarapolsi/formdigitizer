@@ -596,7 +596,7 @@
     "zipCodePostalCode": {
       "type": "string",
       "x-va-field": {
-        "label": "Zip Code/Postal Code",
+        "label": "ZIP Code Postal Code",
         "widget": "text"
       }
     },
@@ -631,7 +631,7 @@
     "4a_3ProviderStartAndEndDate": {
       "type": "string",
       "x-va-field": {
-        "label": "4A. (3) Provider Start And End Date (",
+        "label": "4a_3Provider Start and End Date",
         "widget": "text"
       }
     },
@@ -652,7 +652,7 @@
     "4b_3ProviderStartAndEndDate": {
       "type": "string",
       "x-va-field": {
-        "label": "4B. (3) Provider Start And End Date (",
+        "label": "4b_3Provider Start and End Date",
         "widget": "text"
       }
     },
@@ -666,77 +666,77 @@
     "5a_2DateCostsPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "5A (2). Date Costs Paid (",
+        "label": "5a_2Date Costs Paid",
         "widget": "text"
       }
     },
     "5b_2DateCostsPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "5B (2). Date Costs Paid (",
+        "label": "5b_2Date Costs Paid",
         "widget": "text"
       }
     },
     "5c_2DateCostsPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "5C (2). Date Costs Paid (",
+        "label": "5c_2Date Costs Paid",
         "widget": "text"
       }
     },
     "5d_2DateCostsPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "5D (2). Date Costs Paid (",
+        "label": "5d_2Date Costs Paid",
         "widget": "text"
       }
     },
     "5e_2DateCostsPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "5E (2). Date Costs Paid (",
+        "label": "5e_2Date Costs Paid",
         "widget": "text"
       }
     },
     "5f_2DateCostsPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "5F (2). Date Costs Paid (",
+        "label": "5f_2Date Costs Paid",
         "widget": "text"
       }
     },
     "5g_2DateCostsPaid": {
       "type": "string",
       "x-va-field": {
-        "label": "5G (2). Date Costs Paid (",
+        "label": "5g_2Date Costs Paid",
         "widget": "text"
       }
     },
     "6a_4DateTraveled": {
       "type": "string",
       "x-va-field": {
-        "label": "6A. (4). Date Traveled (",
+        "label": "6a_4Date Traveled",
         "widget": "text"
       }
     },
     "6b_4DateTraveled": {
       "type": "string",
       "x-va-field": {
-        "label": "6B. (4). Date Traveled (",
+        "label": "6b_4Date Traveled",
         "widget": "text"
       }
     },
     "6c_4DateTraveled": {
       "type": "string",
       "x-va-field": {
-        "label": "6C. (4). Date Traveled (",
+        "label": "6c_4Date Traveled",
         "widget": "text"
       }
     },
     "6d_4DateTraveled": {
       "type": "string",
       "x-va-field": {
-        "label": "6D. (4). Date Traveled (",
+        "label": "6d_4Date Traveled",
         "widget": "text"
       }
     },
@@ -758,13 +758,6 @@
       "type": "string",
       "x-va-field": {
         "label": "CityState/Province",
-        "widget": "text"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
         "widget": "text"
       }
     },
@@ -967,7 +960,7 @@
     "whatRoleOrPositionDoYouPerformAtTheFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "What Role Or Position Do You Perform At The Facility?",
+        "label": "What Role or Position Do You Perform at the Facility",
         "widget": "text"
       }
     },
@@ -1245,7 +1238,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8416-are.pdf",
     "status": "digitized",
     "totalFields": 201,
-    "composedFields": 175,
+    "composedFields": 174,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -1258,6 +1251,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.085943+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.412471+00:00"
   }
 }

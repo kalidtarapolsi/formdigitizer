@@ -188,7 +188,7 @@
     "survivorsPensionAndOrDependencyAndIndemnityCompensationDic": {
       "type": "boolean",
       "x-va-field": {
-        "label": "Survivors Pension and or Dependency and Indemnity Compensation Dic",
+        "label": "Survivors Pension and or Dependency and Indemnity Compensation DIC",
         "widget": "checkbox"
       }
     },
@@ -353,14 +353,7 @@
     "nameOfAttorneyAgentOrVeteransServiceOrganizationV": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Attorney, Agent, Or Veterans Service Organization (V",
-        "widget": "text"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
+        "label": "Name of Attorney Agent or Veteran's Service Organization V",
         "widget": "text"
       }
     },
@@ -383,7 +376,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0966-are.pdf",
     "status": "digitized",
     "totalFields": 67,
-    "composedFields": 52,
+    "composedFields": 51,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -396,6 +389,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.635355+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.087592+00:00"
   }
 }

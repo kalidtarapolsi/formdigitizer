@@ -721,7 +721,7 @@
     "fileNo_2LoanNo": {
       "type": "string",
       "x-va-field": {
-        "label": "File No.2. Loan No.",
+        "label": "File No_2Loan no",
         "widget": "text"
       }
     },
@@ -798,7 +798,7 @@
     "completeRecordOfEmploymentForYourselfAndSpouseStart": {
       "type": "string",
       "x-va-field": {
-        "label": "Complete Record Of Employment For Yourself And Spouse (Start",
+        "label": "Complete Record of Employment for Yourself and Spouse Start",
         "widget": "text"
       }
     },
@@ -819,7 +819,7 @@
     "ifYouAreRentingPremisesYouNowOccupyCompleteABA": {
       "type": "string",
       "x-va-field": {
-        "label": "If You Are Renting Premises You Now Occupy, Complete A, B, A",
+        "label": "If You Are Renting Premises You Now Occupy Complete ABA",
         "widget": "text"
       }
     },
@@ -858,13 +858,6 @@
       "x-va-field": {
         "label": "40B. Date (",
         "widget": "date"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
       }
     },
     "nameAndAddressOfNearestRelativeNotLivingWithYouI": {
@@ -919,7 +912,7 @@
     "originalAmountOfMortgage28UnpaidBalance": {
       "type": "string",
       "x-va-field": {
-        "label": "Original Amount Of Mortgage28. Unpaid Balance",
+        "label": "Original Amount of Mortgage28Unpaid Balance",
         "widget": "text"
       }
     },
@@ -963,7 +956,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6807-are.pdf",
     "status": "digitized",
     "totalFields": 143,
-    "composedFields": 136,
+    "composedFields": 135,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -975,6 +968,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.683940+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.666836+00:00"
   }
 }

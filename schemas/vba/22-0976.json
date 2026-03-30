@@ -182,7 +182,7 @@
     "theInstitutionMustRetainTheRecordsAndAccountInformat": {
       "type": "string",
       "x-va-field": {
-        "label": "The Institution Must Retain The Records And Account Informat",
+        "label": "The Institution Must Retain the Records and Account Informat",
         "widget": "text"
       }
     },
@@ -270,13 +270,6 @@
         "widget": "text"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "pleaseEmailTheFormToFederalApprovalsVaGov": {
       "type": "string",
       "x-va-field": {
@@ -289,7 +282,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0976-are.pdf",
     "status": "digitized",
     "totalFields": 42,
-    "composedFields": 40,
+    "composedFields": 39,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -300,6 +293,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.766429+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.438271+00:00"
   }
 }

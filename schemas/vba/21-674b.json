@@ -39,25 +39,13 @@
         "widget": "text"
       }
     },
-    "firstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "secondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "typeOfBenefit": {
@@ -197,7 +185,7 @@
     "yesIfYesCompleteItem_11a": {
       "type": "string",
       "x-va-field": {
-        "label": "YES (If \"Yes,\" complete Item 11A)",
+        "label": "Yes If Yes Complete Item_11a",
         "widget": "radio"
       }
     },
@@ -246,13 +234,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "": {
       "type": "string",
       "format": "date"
@@ -262,7 +243,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-674b-are.pdf",
     "status": "digitized",
     "totalFields": 41,
-    "composedFields": 35,
+    "composedFields": 32,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -275,6 +256,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.443396+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.163421+00:00"
   }
 }

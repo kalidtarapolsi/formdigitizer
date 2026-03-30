@@ -513,14 +513,14 @@
     "ifChildIsUnderAge_18CustodianGuardianIsOtherThan": {
       "type": "string",
       "x-va-field": {
-        "label": "If Child Is Under Age 18 & Custodian/Guardian Is Other Than",
+        "label": "If Child is Under Age_18Custodian Guardian is Other Than",
         "widget": "text"
       }
     },
     "ifChildIsAge_18OrOlderCompleteItems_11a_11b_11c": {
       "type": "string",
       "x-va-field": {
-        "label": "IF CHILD IS AGE 18 OR OLDER  (Complete Items 11A, 11B & 11C,",
+        "label": "If Child is Age_18Or Older Complete Items_11a_11b_11c",
         "widget": "text"
       }
     },
@@ -561,20 +561,6 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "dob": {
       "type": "string",
       "format": "date",
@@ -587,7 +573,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0304-are.pdf",
     "status": "digitized",
     "totalFields": 89,
-    "composedFields": 80,
+    "composedFields": 78,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -599,6 +585,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.622355+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.032296+00:00"
   }
 }

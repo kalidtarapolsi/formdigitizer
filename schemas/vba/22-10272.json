@@ -109,13 +109,6 @@
         "widget": "text"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "signatureOfApplicant": {
       "type": "string",
       "x-va-field": {
@@ -135,7 +128,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "ITEM 11. Show the",
+        "label": "Item_11Show the",
         "widget": "date"
       }
     },
@@ -172,7 +165,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10272-are.pdf",
     "status": "digitized",
     "totalFields": 24,
-    "composedFields": 23,
+    "composedFields": 22,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -184,6 +177,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.111643+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.457651+00:00"
   }
 }

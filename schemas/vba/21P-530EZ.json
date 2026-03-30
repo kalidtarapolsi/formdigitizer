@@ -21,7 +21,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -328,7 +328,7 @@
     "beFiledWithin_2YearsAfterThe": {
       "type": "string",
       "x-va-field": {
-        "label": "be filed within 2 years after the",
+        "label": "Be Filed Within_2Years After the",
         "widget": "text"
       }
     },
@@ -533,7 +533,7 @@
     "ifVeteranServedUnderNameOtherThanThatShownInItem_1": {
       "type": "string",
       "x-va-field": {
-        "label": "If Veteran Served Under Name Other Than That Shown In Item 1",
+        "label": "If Veteran Served Under Name Other Than That Shown in Item_",
         "widget": "text"
       }
     },
@@ -562,7 +562,7 @@
     "stateVeteransFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "State Veterans Facility*",
+        "label": "State Veteran's Facility",
         "widget": "select"
       }
     },
@@ -630,20 +630,6 @@
         "widget": "date"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "dob": {
       "type": "string",
       "format": "date",
@@ -677,7 +663,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-530ez-are.pdf",
     "status": "digitized",
     "totalFields": 110,
-    "composedFields": 93,
+    "composedFields": 91,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -690,6 +676,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.578642+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.382149+00:00"
   }
 }

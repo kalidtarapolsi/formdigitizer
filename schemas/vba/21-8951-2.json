@@ -51,7 +51,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -252,20 +252,6 @@
         "widget": "phone"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "mailingAddresses": {
       "type": "string",
       "x-va-field": {
@@ -292,7 +278,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8951-2-are.pdf",
     "status": "digitized",
     "totalFields": 56,
-    "composedFields": 39,
+    "composedFields": 37,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -305,6 +291,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.671944+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.155846+00:00"
   }
 }

@@ -119,7 +119,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -500,7 +500,7 @@
     "firstNamelastName": {
       "type": "string",
       "x-va-field": {
-        "label": "First Namelast Name",
+        "label": "First Name Last Name",
         "widget": "text"
       }
     },
@@ -599,13 +599,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "feesForClaims": {
       "type": "string",
       "x-va-field": {
@@ -618,7 +611,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4171-are.pdf",
     "status": "digitized",
     "totalFields": 96,
-    "composedFields": 86,
+    "composedFields": 85,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -630,6 +623,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.556605+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.313083+00:00"
   }
 }

@@ -105,14 +105,14 @@
     "accountnumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Accountnumber",
+        "label": "Account Number",
         "widget": "text"
       }
     },
     "enterNameofFinancialInstitution": {
       "type": "string",
       "x-va-field": {
-        "label": "Enter Nameof Financial Institution",
+        "label": "Enter Name of Financial Institution",
         "widget": "text"
       }
     },
@@ -396,13 +396,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "11bDateSigned": {
       "type": "string",
       "format": "date",
@@ -421,21 +414,21 @@
     "items_5aThrough_5d": {
       "type": "string",
       "x-va-field": {
-        "label": "Items #5A through #5D",
+        "label": "Items_5a Through_5d",
         "widget": "text"
       }
     },
     "item_6": {
       "type": "string",
       "x-va-field": {
-        "label": "Item #6",
+        "label": "Item_",
         "widget": "text"
       }
     },
     "item_6a": {
       "type": "string",
       "x-va-field": {
-        "label": "Item #6A",
+        "label": "Item_6a",
         "widget": "text"
       }
     },
@@ -449,21 +442,21 @@
     "step_1": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 1",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_2": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 2",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_3": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 3",
+        "label": "Step_",
         "widget": "text"
       }
     },
@@ -486,7 +479,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-1995-are.pdf",
     "status": "digitized",
     "totalFields": 80,
-    "composedFields": 68,
+    "composedFields": 67,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -498,6 +491,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:16.403671+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.506135+00:00"
   }
 }

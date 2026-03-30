@@ -76,6 +76,14 @@ PHONE_PARTS_RE = re.compile(
     r'(?:[Nn]umbers?)?\d*$'
 )
 
+# Standalone SSN parts without "ssn" or "socialSecurityNumber" in the name
+# e.g., "firstThreeNumbers", "secondTwoNumbersSpouse", "lastFourNumbers2"
+STANDALONE_SSN_PARTS_RE = re.compile(
+    r'^(.*?)(?:firstThreeNumbers|secondTwoNumbers|lastFourNumbers)'
+    r'(.*?)(\d*)$',
+    re.IGNORECASE
+)
+
 # Non-user-facing fields to remove
 NON_USER_FIELDS = {
     'respondentburden', 'privacyactnotice', 'instructions', 'note',
@@ -85,6 +93,8 @@ NON_USER_FIELDS = {
     'vaformnumber', 'pageof', 'pageofpages', 'supersedes',
     'existingstocksofvaform', 'prescribedbyva', 'resetform',
     'printform', 'saveform',
+    'privacyactinformation', 'privacyactstatement', 'penaltystatement', 'penalty',
+    'importantinformation', 'importantnotice',
 }
 
 # XFA array indices
@@ -292,6 +302,18 @@ def humanize_label(name):
     label = re.sub(r'\bChilds\b', "Child's", label)
     label = re.sub(r'\bVeterans\b', "Veteran's", label)
     label = re.sub(r'\bClaimants\b', "Claimant's", label)
+    # Fix concatenated words that survive camelCase splitting
+    label = re.sub(r'\bVafile\b', 'VA File', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bServicenumber\b', 'Service Number', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bDobspouse\b', 'DOB Spouse', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bDob\b', 'DOB', label)
+    label = re.sub(r'\bFilenumber\b', 'File Number', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bFilenum\b', 'File Number', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bVafilenumber\b', 'VA File Number', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bTelephonenumber\b', 'Telephone Number', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bPhonenumber\b', 'Phone Number', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bEmailaddress\b', 'Email Address', label, flags=re.IGNORECASE)
+    label = re.sub(r'\bMailingaddress\b', 'Mailing Address', label, flags=re.IGNORECASE)
 
     # Capitalize first letter of each word
     words = label.split()
@@ -314,6 +336,186 @@ def humanize_label(name):
     return ' '.join(result)
 
 
+# ─── Dictionary word splitter for concatenated lowercase labels ───
+
+# Words that should NEVER be split (common English words that contain substrings of other words)
+DONT_SPLIT = {
+    'together', 'statement', 'international', 'relationship', 'information',
+    'certification', 'organization', 'authorization', 'determination',
+    'approximately', 'communication', 'circumstances', 'documentation',
+    'investigation', 'acknowledging', 'consideration', 'establishment',
+    'representative', 'administration', 'transportation', 'understanding',
+    'responsibility', 'classification', 'identification', 'recommendation',
+    'acknowledgment', 'accommodation', 'rehabilitation', 'correspondence',
+    'participation', 'notification', 'hospitalization', 'discrimination',
+    'representation', 'memorandum', 'telephone', 'beginning', 'education',
+    'employment', 'department', 'treatment', 'description', 'additional',
+    'maintenance', 'certificate', 'beneficiary', 'relationship', 'signature',
+    'institution', 'occupation', 'application', 'compensation', 'appointment',
+    'separation', 'permission', 'information', 'instruction', 'disability',
+    'deductions', 'dependents', 'residence', 'insurance', 'secondary',
+    'allowance', 'condition', 'discharge', 'diagnosis', 'physician',
+    'claimant', 'training', 'coverage', 'military', 'marriage',
+    'province', 'building', 'guardian', 'personal', 'business',
+    'position', 'relative', 'children', 'previous', 'specific',
+    'location', 'facility', 'hospital', 'divorced', 'interest',
+    'deceased', 'complete', 'continue', 'remarked', 'departure',
+    'formerly', 'category', 'widowed', 'deposits', 'balance',
+    'payment', 'pension', 'premium', 'purpose', 'reserve',
+    'country', 'account', 'address', 'service', 'veteran',
+    'current', 'general', 'special', 'college', 'expense',
+    'charges', 'savings', 'witness', 'offices', 'medical',
+    'receipt', 'benefit', 'related', 'company', 'release',
+    'defined', 'arrival', 'monthly',
+}
+
+# VA form term dictionary for splitting concatenated labels.
+# Ordered longest-first within each group to enable greedy matching.
+VA_WORD_LIST = sorted(set([
+    # Atomic words only — no compound terms (let the splitter combine them)
+    'veteran', 'spouse', 'claimant', 'dependent', 'beneficiary',
+    'applicant', 'patient', 'guardian', 'fiduciary', 'custodian',
+    'address', 'street', 'city', 'state', 'county', 'country',
+    'province', 'apartment', 'unit', 'building', 'floor', 'suite',
+    'name', 'first', 'middle', 'last', 'initial', 'suffix', 'prefix',
+    'number', 'phone', 'telephone', 'fax', 'email', 'cell', 'mobile',
+    'date', 'dates', 'month', 'day', 'year', 'from', 'through', 'ending',
+    'beginning', 'birth', 'death', 'marriage', 'divorce', 'separation',
+    'total', 'amount', 'balance', 'value', 'rate', 'cost', 'fee', 'payment',
+    'income', 'receipts', 'receipt', 'expenses', 'expense',
+    'charges', 'charge', 'deductions', 'deposits', 'deposit',
+    'checking', 'saving', 'savings', 'account', 'acct', 'bond', 'security',
+    'insurance', 'premium', 'policy', 'coverage', 'benefit', 'pension',
+    'compensation', 'allowance', 'allocation', 'escrowed', 'escrow',
+    'service', 'military', 'rank', 'rating', 'grade', 'branch',
+    'active', 'duty', 'reserve', 'guard', 'discharge', 'release',
+    'admission', 'transfer', 'treatment', 'diagnosis', 'condition',
+    'disability', 'medical', 'hospital', 'facility', 'clinic', 'physician',
+    'employer', 'employee', 'employment', 'occupation', 'position',
+    'salary', 'wages', 'earnings', 'gross', 'net', 'highest', 'lowest',
+    'education', 'school', 'college', 'university', 'degree', 'training',
+    'type', 'kind', 'category', 'status', 'reason', 'purpose', 'remarks',
+    'description', 'information', 'instructions', 'certification',
+    'signature', 'witness', 'official', 'authority', 'title',
+    'relationship', 'relative', 'family', 'child', 'children',
+    'mailing', 'current', 'previous', 'former', 'primary', 'secondary',
+    'other', 'additional', 'general', 'special', 'specific',
+    'organization', 'institution', 'company', 'agency', 'office',
+    'departure', 'arrival', 'point', 'location', 'place',
+    'whom', 'how', 'why', 'when', 'where', 'which', 'what',
+    'not', 'and', 'the', 'for', 'per', 'with', 'this',
+    'personal', 'home', 'work',
+    'separated', 'married', 'single', 'widowed', 'divorced',
+    'face', 'interest', 'cash', 'market',
+    'train', 'cert', 'inst', 'num', 'vet',
+    'dob', 'ssn', 'zip', 'file', 'act',
+    # Additional terms found in VA form concatenated labels
+    'social', 'mailing', 'postal', 'code', 'area',
+    'issue', 'issues', 'loan', 'requested', 'attended',
+    'conducted', 'review', 'accommodation', 'accommodations',
+    'implemented', 'appropriation', 'environmental',
+    'investigator', 'investigators', 'identification',
+    'paid', 'pay', 'by', 'if', 'of', 'or', 'in', 'to', 'on', 'at', 'is',
+    'was', 'has', 'had', 'are', 'been', 'were', 'did', 'does',
+    'no', 'yes', 'age', 'sex', 'race',
+    'entered', 'ended', 'began', 'start', 'stop', 'end',
+    'claim', 'claims', 'award', 'effective',
+    'action', 'request', 'requested',
+    'notice', 'certified', 'approved', 'denied', 'pending',
+    'rehabilitation', 'authorization', 'transportation',
+    'representative', 'establishment', 'international',
+    'department', 'appropriation', 'applicants',
+    'program', 'plan', 'loan', 'property', 'real', 'estate',
+    'percentage', 'percent', 'monthly', 'annual', 'weekly', 'daily',
+    'source', 'sources', 'item', 'items', 'list', 'noted',
+    'full', 'part', 'time', 'completed', 'incomplete',
+    'signed', 'printed', 'typed', 'read', 'above', 'below',
+    'section', 'part', 'page', 'form', 'field', 'box', 'block',
+    'required', 'optional', 'applicable', 'applicable',
+    'base', 'basic', 'standard', 'maximum', 'minimum',
+    'new', 'old', 'prior', 'after', 'before',
+    'same', 'each', 'every', 'any', 'all', 'own',
+    'given', 'known', 'called', 'named', 'made', 'done',
+    'under', 'over', 'between', 'within', 'during', 'since',
+    'also', 'still', 'currently', 'previously', 'formerly',
+    'only', 'just', 'exactly', 'about', 'around',
+    'than', 'then', 'that', 'those', 'these', 'there', 'here',
+    'who', 'whose', 'whom',
+    'his', 'her', 'its', 'your', 'their', 'our', 'my',
+    'will', 'would', 'can', 'could', 'may', 'might', 'shall', 'should',
+    'must', 'need', 'want', 'like', 'get', 'set', 'put', 'use',
+    'give', 'gave', 'take', 'took', 'make', 'come', 'came',
+    'see', 'saw', 'know', 'knew', 'think', 'believe',
+    'say', 'said', 'tell', 'told', 'ask', 'asked',
+    'help', 'send', 'sent', 'receive', 'received',
+    'report', 'reports', 'apply', 'applied',
+    'provide', 'provided', 'include', 'included', 'includes',
+    'attach', 'attached', 'enclose', 'enclosed',
+    'now', 'here', 'today', 'currently',
+    'able', 'unable', 'available',
+    'document', 'documents', 'record', 'records',
+    'care', 'health', 'mental', 'physical',
+    'living', 'housing', 'home', 'residence',
+    'income', 'assets', 'debts', 'liability',
+    'spouse', 'veteran', 'child', 'parent', 'sibling',
+    'male', 'female', 'minor', 'adult',
+    'employed', 'unemployed', 'retired',
+    'self', 'other', 'same', 'different',
+]), key=lambda w: -len(w))  # Sort longest first for greedy matching
+
+
+def split_concatenated_label(label):
+    """
+    Split a concatenated single-word label like 'Totalreceipts' into 'Total Receipts'.
+    Uses greedy longest-match dictionary matching.
+    Returns the split label or None if it can't be meaningfully split.
+    """
+    # Only process single-word labels that are long enough to be concatenated
+    words_in_label = label.split()
+    if len(words_in_label) != 1 or len(label) < 6:
+        return None
+
+    text = label.lower()
+
+    # Don't split known English words
+    if text in DONT_SPLIT:
+        return None
+
+    # Try greedy longest-match word splitting
+    result = []
+    pos = 0
+    while pos < len(text):
+        matched = False
+        for word in VA_WORD_LIST:
+            if text[pos:pos+len(word)] == word:
+                result.append(word)
+                pos += len(word)
+                matched = True
+                break
+        if not matched:
+            # Collect remaining chars as one chunk
+            remaining = text[pos:]
+            if remaining:
+                result.append(remaining)
+            break
+
+    if len(result) <= 1:
+        return None  # Couldn't split
+
+    # Validate: every segment must be >= 3 chars (no "to", "of" fragments)
+    # unless it's a known short word in the right context
+    all_matched = all(seg in [w for w in VA_WORD_LIST] for seg in result)
+    if not all_matched:
+        return None  # Has unrecognized leftovers
+
+    # Don't "split" if it just found the original word
+    if len(result) == 1:
+        return None
+
+    # Reconstruct as proper label
+    return ' '.join(result)
+
+
 def compose_split_fields(properties):
     """
     Find and compose split fields: SSN parts, phone parts, zip parts.
@@ -329,6 +531,17 @@ def compose_split_fields(properties):
         m = SSN_PARTS_RE.match(name)
         if m:
             base = m.group(1)
+            ssn_groups[base].append(name)
+            continue
+
+        # Standalone SSN parts: firstThreeNumbers, secondTwoNumbersSpouse, etc.
+        m = STANDALONE_SSN_PARTS_RE.match(name)
+        if m:
+            prefix = m.group(1)  # e.g., "" or context before
+            suffix = m.group(2)  # e.g., "Spouse", ""
+            idx = m.group(3)     # e.g., "2", ""
+            # Build a base key: prefix + "socialSecurityNumber" + suffix
+            base = (prefix if prefix else '') + 'socialSecurityNumber' + suffix
             ssn_groups[base].append(name)
             continue
 
@@ -554,26 +767,88 @@ def process_schema(filepath, dry_run=False):
                         defn["x-va-field"] = va_field
                         stats["labels_fixed"] += 1
                         total_changes += 1
-                elif is_all_caps:
-                    # Normalize ALL CAPS label to title case
-                    normalized = old_label.title()
-                    # Fix common issues in title-cased labels
-                    normalized = re.sub(r'\(?Mm/Dd/Yyyy\)?', '(MM/DD/YYYY)', normalized)
-                    normalized = re.sub(r'\bMm\b', 'MM', normalized)
-                    normalized = re.sub(r'\bDd\b', 'DD', normalized)
-                    normalized = re.sub(r'\bYyyy\b', 'YYYY', normalized)
-                    normalized = re.sub(r"\bVeteran'?S\b", "Veteran's", normalized)
-                    normalized = re.sub(r'\bVa\b', 'VA', normalized)
-                    normalized = re.sub(r'\bSsn\b', 'SSN', normalized)
-                    normalized = re.sub(r'\bZip\b', 'ZIP', normalized)
-                    normalized = re.sub(r'\bId\b', 'ID', normalized)
-                    normalized = re.sub(r'\bUs\b', 'US', normalized)
-                    normalized = re.sub(r'\bP\.?O\.?\b', 'PO', normalized)
-                    normalized = re.sub(r'\(([a-z])', lambda m: '(' + m.group(1).upper(), normalized)
-                    va_field["label"] = normalized
-                    defn["x-va-field"] = va_field
-                    stats["labels_fixed"] += 1
-                    total_changes += 1
+                elif not has_spaced_chars:
+                    # Check for concatenated single-word labels like "Totalreceipts" → "Total Receipts"
+                    split_words = old_label.split()
+                    new_words = []
+                    label_was_split = False
+                    for w in split_words:
+                        split_result = split_concatenated_label(w)
+                        if split_result:
+                            new_words.append(split_result)
+                            label_was_split = True
+                        else:
+                            new_words.append(w)
+                    if label_was_split:
+                        fixed_label = ' '.join(new_words)
+                        # Re-run humanize to fix capitalization
+                        fixed_label = humanize_label(to_camel_case(fixed_label))
+                        va_field["label"] = fixed_label
+                        defn["x-va-field"] = va_field
+                        stats["labels_fixed"] += 1
+                        total_changes += 1
+                    else:
+                        # Check for corrupted labels from previous runs:
+                        # Compare current label to what humanize_label produces from field name.
+                        # If they differ and the humanized version has fewer words (cleaner),
+                        # or the current label has suspicious fragments, regenerate.
+                        expected = humanize_label(new_name) if new_name else ""
+                        if expected and old_label != expected:
+                            # Check if label has broken fragments (e.g., "to Gether", "State Ment")
+                            # by checking if the word count differs significantly
+                            old_words = old_label.split()
+                            exp_words = expected.split()
+                            # If the label has MORE words than expected, it was probably over-split
+                            if len(old_words) > len(exp_words) + 1:
+                                va_field["label"] = expected
+                                defn["x-va-field"] = va_field
+                                stats["labels_fixed"] += 1
+                                total_changes += 1
+                            else:
+                                # Check for specific corruption patterns: words that aren't real
+                                # words but are fragments (Gether, Ment, etc.)
+                                FRAGMENT_RE = re.compile(r'^[A-Z][a-z]+$')
+                                has_fragment = False
+                                for w in old_words:
+                                    if FRAGMENT_RE.match(w) and len(w) >= 3:
+                                        wl = w.lower()
+                                        if wl not in DONT_SPLIT and wl not in {
+                                            'the', 'and', 'for', 'not', 'but', 'all', 'can',
+                                            'her', 'was', 'one', 'our', 'out', 'are', 'has',
+                                            'his', 'how', 'its', 'may', 'new', 'now', 'old',
+                                            'see', 'two', 'way', 'who', 'did', 'get', 'him',
+                                            'let', 'say', 'she', 'too', 'use',
+                                        }:
+                                            # Check if this word appears in the expected label
+                                            if w not in exp_words:
+                                                has_fragment = True
+                                                break
+                                if has_fragment:
+                                    va_field["label"] = expected
+                                    defn["x-va-field"] = va_field
+                                    stats["labels_fixed"] += 1
+                                    total_changes += 1
+
+                    if is_all_caps and va_field.get("label") == old_label:
+                        # Normalize ALL CAPS label to title case
+                        normalized = old_label.title()
+                        # Fix common issues in title-cased labels
+                        normalized = re.sub(r'\(?Mm/Dd/Yyyy\)?', '(MM/DD/YYYY)', normalized)
+                        normalized = re.sub(r'\bMm\b', 'MM', normalized)
+                        normalized = re.sub(r'\bDd\b', 'DD', normalized)
+                        normalized = re.sub(r'\bYyyy\b', 'YYYY', normalized)
+                        normalized = re.sub(r"\bVeteran'?S\b", "Veteran's", normalized)
+                        normalized = re.sub(r'\bVa\b', 'VA', normalized)
+                        normalized = re.sub(r'\bSsn\b', 'SSN', normalized)
+                        normalized = re.sub(r'\bZip\b', 'ZIP', normalized)
+                        normalized = re.sub(r'\bId\b', 'ID', normalized)
+                        normalized = re.sub(r'\bUs\b', 'US', normalized)
+                        normalized = re.sub(r'\bP\.?O\.?\b', 'PO', normalized)
+                        normalized = re.sub(r'\(([a-z])', lambda m: '(' + m.group(1).upper(), normalized)
+                        va_field["label"] = normalized
+                        defn["x-va-field"] = va_field
+                        stats["labels_fixed"] += 1
+                        total_changes += 1
             else:
                 needs_label_fix = True
 

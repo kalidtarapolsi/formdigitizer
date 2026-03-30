@@ -549,7 +549,7 @@
     "ifTheApplicantIsUnderAge_18HasTheApplicantGraduate": {
       "type": "string",
       "x-va-field": {
-        "label": "If The Applicant Is Under Age 18, Has The Applicant Graduate",
+        "label": "If the Applicant is Under Age_18Has the Applicant Graduate",
         "widget": "text"
       }
     },
@@ -666,13 +666,6 @@
         "widget": "signature"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "nameOfParentGuardianOrCustodianFirstMiddleInitia": {
       "type": "string",
       "x-va-field": {
@@ -691,14 +684,14 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "35A. Signature Of: 35B. Date Signed (",
+        "label": "35a Signature Of_35b Date Signed",
         "widget": "date"
       }
     },
     "item_13a": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 13A",
+        "label": "Item_13a",
         "widget": "text"
       }
     },
@@ -706,21 +699,21 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "in Item 8 will up",
+        "label": "In Item_8Will Up",
         "widget": "date"
       }
     },
     "item_13b": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 13B",
+        "label": "Item_13b",
         "widget": "text"
       }
     },
     "item_13c": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 13C",
+        "label": "Item_13c",
         "widget": "text"
       }
     },
@@ -734,21 +727,21 @@
     "step_3": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 3",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_1": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 1",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_2": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 2",
+        "label": "Step_",
         "widget": "text"
       }
     },
@@ -772,20 +765,13 @@
         "label": "Western Region",
         "widget": "text"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-5490-are.pdf",
     "status": "digitized",
     "totalFields": 111,
-    "composedFields": 109,
+    "composedFields": 107,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -797,6 +783,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.630532+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.512964+00:00"
   }
 }

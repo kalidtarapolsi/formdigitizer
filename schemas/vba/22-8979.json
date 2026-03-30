@@ -91,21 +91,21 @@
     "namefirst": {
       "type": "string",
       "x-va-field": {
-        "label": "Namefirst",
+        "label": "Name First",
         "widget": "text"
       }
     },
     "namemiddle": {
       "type": "string",
       "x-va-field": {
-        "label": "Namemiddle",
+        "label": "Name Middle",
         "widget": "text"
       }
     },
     "namelast": {
       "type": "string",
       "x-va-field": {
-        "label": "Namelast",
+        "label": "Name Last",
         "widget": "text"
       }
     },
@@ -342,13 +342,6 @@
         "widget": "text"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "completionOfThisForm": {
       "type": "string",
       "x-va-field": {
@@ -359,35 +352,35 @@
     "step_1": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 1",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_2": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 2",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_3": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 3",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_4": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 4",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_5": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 5",
+        "label": "Step_",
         "widget": "text"
       }
     },
@@ -410,7 +403,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-8979-are.pdf",
     "status": "digitized",
     "totalFields": 58,
-    "composedFields": 56,
+    "composedFields": 55,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -422,6 +415,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.638620+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.541794+00:00"
   }
 }

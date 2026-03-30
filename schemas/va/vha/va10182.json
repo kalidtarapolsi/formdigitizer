@@ -21,7 +21,7 @@
     "dobveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Dobveteran",
+        "label": "DOB Veteran",
         "widget": "text"
       }
     },
@@ -35,7 +35,7 @@
     "myDob": {
       "type": "string",
       "x-va-field": {
-        "label": "My Dob",
+        "label": "My DOB",
         "widget": "text"
       }
     },
@@ -242,7 +242,7 @@
     "aVeteransLawJudgeWillConsiderYourAppealInTheOrder": {
       "type": "string",
       "x-va-field": {
-        "label": "A Veterans Law Judge will consider your appeal in the order",
+        "label": "A Veteran's Law Judge Will Consider Your Appeal in the Order",
         "widget": "text"
       }
     },
@@ -268,18 +268,11 @@
         "widget": "signature"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "youSubmitWithin_90DaysFollowingThe": {
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "you submit within 90 days following the",
+        "label": "You Submit Within_90Days Following the",
         "widget": "date"
       }
     },
@@ -293,7 +286,7 @@
     "box_10aDirectReviewByAVeteransLawJudge": {
       "type": "string",
       "x-va-field": {
-        "label": "Box 10A - Direct Review by a Veterans Law Judge",
+        "label": "Box_10a Direct Review by a Veteran's Law Judge",
         "widget": "text"
       }
     },
@@ -308,7 +301,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA10182.pdf",
     "totalFields": 45,
-    "composedFields": 42,
+    "composedFields": 41,
     "coveragePercent": 100,
     "xfaLabelCount": 25,
     "needsReviewCount": 0,
@@ -321,6 +314,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:16.127805+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.924151+00:00"
   }
 }

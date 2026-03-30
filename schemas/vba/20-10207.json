@@ -447,20 +447,6 @@
         "widget": "signature"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "dob": {
       "type": "string",
       "format": "date",
@@ -498,7 +484,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-20-10207-are.pdf",
     "status": "digitized",
     "totalFields": 103,
-    "composedFields": 68,
+    "composedFields": 66,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -510,6 +496,6 @@
       "acroform",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.389816+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.048435+00:00"
   }
 }

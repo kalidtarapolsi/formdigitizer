@@ -37,7 +37,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -153,7 +153,7 @@
     "patientsVafileNumberIfApplicable": {
       "type": "string",
       "x-va-field": {
-        "label": "Patients Vafile Number If Applicable",
+        "label": "Patients VA File Number If Applicable",
         "widget": "text"
       }
     },
@@ -244,7 +244,7 @@
     "vafileNumber2": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -273,27 +273,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Patients Last Name",
-        "widget": "text"
-      }
-    },
-    "firstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "secondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
@@ -374,7 +353,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "3. VA FILE NUMBER (If applicable)4. DATE OF BIRTH",
+        "label": "3Va File Number If Applicable_4Date of Birth",
         "widget": "date"
       }
     },
@@ -439,7 +418,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Information created within 12 months after the date this aut",
+        "label": "Information Created Within_12Months After the Date This Aut",
         "widget": "date"
       }
     },
@@ -500,24 +479,10 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "patientAcknowledgment": {
       "type": "string",
       "x-va-field": {
         "label": "Patient Acknowledgment",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -614,7 +579,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4142-are.pdf",
     "status": "digitized",
     "totalFields": 105,
-    "composedFields": 84,
+    "composedFields": 79,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -626,6 +591,6 @@
       "acroform",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.647018+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.119696+00:00"
   }
 }

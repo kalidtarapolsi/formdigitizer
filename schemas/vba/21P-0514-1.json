@@ -21,7 +21,7 @@
     "vafile": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile",
+        "label": "VA File",
         "widget": "text"
       }
     },
@@ -49,7 +49,7 @@
     "otherbenefit": {
       "type": "string",
       "x-va-field": {
-        "label": "Otherbenefit",
+        "label": "Other Benefit",
         "widget": "text"
       }
     },
@@ -249,7 +249,7 @@
     "medicalExpensesReadParagraph_6OfTheEvrInstructions": {
       "type": "string",
       "x-va-field": {
-        "label": "MEDICAL EXPENSES (Read Paragraph 6 of the EVR Instructions)",
+        "label": "Medical Expenses Read Paragraph_6Of the Evr Instructions",
         "widget": "text"
       }
     },
@@ -324,6 +324,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.994508+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.178782+00:00"
   }
 }

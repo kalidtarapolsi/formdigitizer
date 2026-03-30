@@ -128,7 +128,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Phone ((999) 999-9999)",
+        "label": "Phone_999_999_",
         "widget": "phone"
       }
     },
@@ -164,6 +164,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.663551+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:35.809929+00:00"
   }
 }

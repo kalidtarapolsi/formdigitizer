@@ -7,7 +7,7 @@
     "namevet": {
       "type": "string",
       "x-va-field": {
-        "label": "Namevet",
+        "label": "Name Vet",
         "widget": "text"
       }
     },
@@ -2556,20 +2556,13 @@
         "label": "Address Of Certifying Official",
         "widget": "address"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4706c-are.pdf",
     "status": "digitized",
     "totalFields": 369,
-    "composedFields": 366,
+    "composedFields": 365,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -2582,6 +2575,6 @@
       "text-inference"
     ],
     "postProcessedAt": "2026-03-30T20:42:50.114123+00:00",
-    "fieldNameFixedAt": "2026-03-30T21:38:05.051066+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.331236+00:00"
   }
 }

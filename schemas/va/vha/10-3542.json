@@ -56,7 +56,7 @@
     "veteranssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Veteranssn",
+        "label": "Veteran SSN",
         "widget": "text"
       }
     },
@@ -223,13 +223,6 @@
         "widget": "text"
       }
     },
-    "penaltyStatement": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty Statement",
-        "widget": "select"
-      }
-    },
     "certification": {
       "type": "string",
       "x-va-field": {
@@ -262,7 +255,7 @@
     "veteransRatedByVaLessThan_30ForTravelRelatingToTh": {
       "type": "string",
       "x-va-field": {
-        "label": "Veterans rated by VA less than 30% for travel relating to th",
+        "label": "Veterans Rated by VA Less Than_30For Travel Relating to Th",
         "widget": "text"
       }
     },
@@ -297,7 +290,7 @@
     "certainVeteransInCertainEmergencySituations": {
       "type": "string",
       "x-va-field": {
-        "label": "Certain Veterans in certain emergency situations",
+        "label": "Certain Veteran's in Certain Emergency Situations",
         "widget": "text"
       }
     },
@@ -395,7 +388,7 @@
     "forAssistanceInCompletingTheFormCall_1_877_222Vets": {
       "type": "string",
       "x-va-field": {
-        "label": "For assistance in completing the form, call 1-877-222-VETS (",
+        "label": "For Assistance in Completing the Form Call_1_877_222Vets",
         "widget": "text"
       }
     }
@@ -403,7 +396,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-3542.pdf",
     "totalFields": 56,
-    "composedFields": 56,
+    "composedFields": 55,
     "coveragePercent": 100,
     "xfaLabelCount": 25,
     "needsReviewCount": 0,
@@ -416,6 +409,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.732670+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.828109+00:00"
   }
 }

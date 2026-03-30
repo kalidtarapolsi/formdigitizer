@@ -49,21 +49,21 @@
     "namefirst": {
       "type": "string",
       "x-va-field": {
-        "label": "Namefirst",
+        "label": "Name First",
         "widget": "text"
       }
     },
     "namemiddle": {
       "type": "string",
       "x-va-field": {
-        "label": "Namemiddle",
+        "label": "Name Middle",
         "widget": "text"
       }
     },
     "namelast": {
       "type": "string",
       "x-va-field": {
-        "label": "Namelast",
+        "label": "Name Last",
         "widget": "text"
       }
     },
@@ -175,7 +175,7 @@
     "accountno1": {
       "type": "string",
       "x-va-field": {
-        "label": "Accountno",
+        "label": "Account no",
         "widget": "text"
       }
     },
@@ -756,7 +756,7 @@
     "dateofCommission": {
       "type": "string",
       "x-va-field": {
-        "label": "Dateof Commission",
+        "label": "Date of Commission",
         "widget": "text"
       }
     },
@@ -1002,7 +1002,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "you enter in item 7 will up",
+        "label": "You Enter in Item_7Will Up",
         "widget": "date"
       }
     },
@@ -1046,14 +1046,14 @@
     "step_1": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 1",
+        "label": "Step_",
         "widget": "text"
       }
     },
     "step_2": {
       "type": "string",
       "x-va-field": {
-        "label": "Step 2",
+        "label": "Step_",
         "widget": "text"
       }
     },
@@ -1192,7 +1192,7 @@
     "forActiveDutyClaimantsOnlyAreYouReceivingOrDoYou": {
       "type": "string",
       "x-va-field": {
-        "label": "For Active Duty Claimants Only: Are You Receiving, Or Do You",
+        "label": "For Active Duty Claimant's Only Are You Receiving or Do You",
         "widget": "text"
       }
     },
@@ -1256,7 +1256,7 @@
     "didYouMakeAdditionalContributionsUpTo_600_00ToInc": {
       "type": "string",
       "x-va-field": {
-        "label": "Did You Make Additional Contributions (Up To $600.00) To Inc",
+        "label": "Did You Make Additional Contributions Up To_600_00To Inc",
         "widget": "text"
       }
     },
@@ -1300,7 +1300,7 @@
     "doYouHaveAnyChildrenWhoAreUnderAge_18OrOver_18Bu": {
       "type": "string",
       "x-va-field": {
-        "label": "Do You Have Any Children Who Are Under Age 18, Or Over 18 Bu",
+        "label": "Do You Have Any Children Who Are Under Age_18Or Over_18Bu",
         "widget": "text"
       }
     },
@@ -1335,6 +1335,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.121639+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.483582+00:00"
   }
 }

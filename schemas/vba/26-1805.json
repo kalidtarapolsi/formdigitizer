@@ -406,7 +406,7 @@
     "requesterName_13RequesterTitle": {
       "type": "string",
       "x-va-field": {
-        "label": "Requester Name 13. Requester Title",
+        "label": "Requester Name_13Requester Title",
         "widget": "text"
       }
     },
@@ -435,7 +435,7 @@
     "institutionCaseNumber18SponsorType": {
       "type": "string",
       "x-va-field": {
-        "label": "Institution Case Number18.  Sponsor Type",
+        "label": "Institution Case Number18Sponsor Type",
         "widget": "text"
       }
     },
@@ -512,20 +512,13 @@
         "label": "Warning",
         "widget": "text"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1805-are.pdf",
     "status": "digitized",
     "totalFields": 76,
-    "composedFields": 73,
+    "composedFields": 72,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -537,6 +530,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.160837+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.546946+00:00"
   }
 }

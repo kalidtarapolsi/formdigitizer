@@ -7,7 +7,7 @@
     "nameofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Veteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
@@ -21,7 +21,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -35,7 +35,7 @@
     "nameofSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Spouse",
+        "label": "Name of Spouse",
         "widget": "text"
       }
     },
@@ -49,7 +49,7 @@
     "vafileNumberofother": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Numberofother",
+        "label": "VA File Numberofother",
         "widget": "text"
       }
     },
@@ -147,42 +147,42 @@
     "childname1": {
       "type": "string",
       "x-va-field": {
-        "label": "Childname",
+        "label": "Child Name",
         "widget": "text"
       }
     },
     "childname3": {
       "type": "string",
       "x-va-field": {
-        "label": "Childname",
+        "label": "Child Name",
         "widget": "text"
       }
     },
     "childname2": {
       "type": "string",
       "x-va-field": {
-        "label": "Childname",
+        "label": "Child Name",
         "widget": "text"
       }
     },
     "childaddress1": {
       "type": "string",
       "x-va-field": {
-        "label": "Childaddress",
+        "label": "Child Address",
         "widget": "text"
       }
     },
     "childaddress2": {
       "type": "string",
       "x-va-field": {
-        "label": "Childaddress",
+        "label": "Child Address",
         "widget": "text"
       }
     },
     "childaddress3": {
       "type": "string",
       "x-va-field": {
-        "label": "Childaddress",
+        "label": "Child Address",
         "widget": "text"
       }
     },
@@ -294,7 +294,7 @@
     "firstNameMiddleNameLastNameOfVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "First Name - Middle Name - Last Name Of Veteran",
+        "label": "First Name Middle Name Last Name of Veteran",
         "widget": "text"
       }
     },
@@ -380,7 +380,7 @@
     "spousechild": {
       "type": "string",
       "x-va-field": {
-        "label": "Spousechild",
+        "label": "Spouse Child",
         "widget": "text"
       }
     },
@@ -394,7 +394,7 @@
     "medicalExpensesReadParagraph_6OfTheEvrInstructions": {
       "type": "string",
       "x-va-field": {
-        "label": "MEDICAL EXPENSES (Read Paragraph 6 of the EVR Instructions)",
+        "label": "Medical Expenses Read Paragraph_6Of the Evr Instructions",
         "widget": "text"
       }
     },
@@ -412,13 +412,6 @@
       "x-va-field": {
         "label": "or the",
         "widget": "date"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
       }
     },
     "11b": {
@@ -439,7 +432,7 @@
     "familyMaintenanceHardshipExpensesForTheNext_12Month": {
       "type": "string",
       "x-va-field": {
-        "label": "Family Maintenance (Hardship) Expenses For The Next 12 Month",
+        "label": "Family Maintenance Hardship Expenses for the Next_12Month",
         "widget": "text"
       }
     },
@@ -455,7 +448,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0517-1-are.pdf",
     "status": "digitized",
     "totalFields": 65,
-    "composedFields": 63,
+    "composedFields": 62,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -467,6 +460,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.466251+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.196931+00:00"
   }
 }

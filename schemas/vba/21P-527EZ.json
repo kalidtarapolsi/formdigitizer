@@ -37,7 +37,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -271,7 +271,7 @@
     "spousesVafileNumberIfAny": {
       "type": "string",
       "x-va-field": {
-        "label": "Spouses Vafile Number If Any",
+        "label": "Spouses VA File Number If Any",
         "widget": "text"
       }
     },
@@ -918,7 +918,7 @@
     "submitYourClaimOnASignedAndCompleteVaForm_21p_527ez": {
       "type": "string",
       "x-va-field": {
-        "label": "Submit your claim on a signed and complete VA Form 21P-527EZ",
+        "label": "Submit Your Claim on a Signed and Complete VA Form_21p_527ez",
         "widget": "text"
       }
     },
@@ -981,7 +981,7 @@
     "youAreAge_65OrOlderOrArePermanentlyAndTotallyDisab": {
       "type": "string",
       "x-va-field": {
-        "label": "You are age 65 or older or are permanently and totally disab",
+        "label": "You Are Age_65Or Older or Are Permanently and Totally Disab",
         "widget": "text"
       }
     },
@@ -1051,7 +1051,7 @@
     "zipCodePostalCodecountry": {
       "type": "string",
       "x-va-field": {
-        "label": "ZIP Code/Postal CodeCountry",
+        "label": "ZIP Code Postal Code Country",
         "widget": "text"
       }
     },
@@ -1226,7 +1226,7 @@
     "10b_4ProviderStartAndEnd": {
       "type": "string",
       "x-va-field": {
-        "label": "10B(4). Provider Start And End",
+        "label": "10b_4Provider Start and End",
         "widget": "text"
       }
     },
@@ -1240,7 +1240,7 @@
     "10c_4ProviderStartAndEnd": {
       "type": "string",
       "x-va-field": {
-        "label": "10C(4). Provider Start And End",
+        "label": "10c_4Provider Start and End",
         "widget": "text"
       }
     },
@@ -1282,7 +1282,7 @@
     "10d_4ProviderStartAndEnd": {
       "type": "string",
       "x-va-field": {
-        "label": "10D(4). Provider Start And End",
+        "label": "10d_4Provider Start and End",
         "widget": "text"
       }
     },
@@ -1323,13 +1323,6 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "whichVaMayRequestInclude": {
       "type": "string",
       "x-va-field": {
@@ -1354,7 +1347,7 @@
     "whatRoleOrPositionDoYouPerformAtTheFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "What Role Or Position Do You Perform At The Facility?",
+        "label": "What Role or Position Do You Perform at the Facility",
         "widget": "text"
       }
     },
@@ -1436,7 +1429,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Signature Of Provider (From Question 2)15. Date Signed (MM/D",
+        "label": "Signature of Provider From Question_2_15Date Signed Mm D",
         "widget": "date"
       }
     },
@@ -1537,7 +1530,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "(From question 2)16. DATE SIGNED (",
+        "label": "From Question_2_16Date Signed",
         "widget": "date"
       }
     },
@@ -1665,7 +1658,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-527ez-are.pdf",
     "status": "digitized",
     "totalFields": 284,
-    "composedFields": 234,
+    "composedFields": 233,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -1678,6 +1671,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.744099+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.367006+00:00"
   }
 }

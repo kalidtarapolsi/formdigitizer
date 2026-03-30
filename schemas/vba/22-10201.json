@@ -210,7 +210,7 @@
     "mySignatureInItem_14ThatIAmHave": {
       "type": "string",
       "x-va-field": {
-        "label": "my signature in Item 14, that I am/have",
+        "label": "My Signature in Item_14That I Am Have",
         "widget": "signature"
       }
     },
@@ -319,7 +319,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Name Of Training Provider19. Type Of Program20. Email",
+        "label": "Name of Training Provider19Type of Program20Email",
         "widget": "email"
       }
     },
@@ -356,7 +356,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "(Average)11. Hire Date (MM/DD/YYYY)12. Start Date",
+        "label": "Average_11Hire Date Mm Dd Yyyy_12Start Date",
         "widget": "date"
       }
     },
@@ -382,20 +382,13 @@
         "label": "Date (MM/DD/YYYY)",
         "widget": "date"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10201-are.pdf",
     "status": "digitized",
     "totalFields": 57,
-    "composedFields": 54,
+    "composedFields": 53,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -407,6 +400,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.768936+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.445309+00:00"
   }
 }

@@ -7,7 +7,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -540,7 +540,7 @@
     "listTheExpensesOfLastSicknessAndBurialInItems_15aT": {
       "type": "string",
       "x-va-field": {
-        "label": "List The Expenses Of Last Sickness And Burial In Items 15A T",
+        "label": "List the Expenses of Last Sickness and Burial in Items_15a T",
         "widget": "text"
       }
     },
@@ -561,7 +561,7 @@
     "listTheOtherDebtsInItems_18aAnd_18b": {
       "type": "string",
       "x-va-field": {
-        "label": "List The Other Debts In Items 18A And 18B.",
+        "label": "List the Other Debts in Items_18a And_18b",
         "widget": "text"
       }
     },
@@ -604,13 +604,6 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "remarks": {
       "type": "string",
       "x-va-field": {
@@ -637,7 +630,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-601-are.pdf",
     "status": "digitized",
     "totalFields": 100,
-    "composedFields": 87,
+    "composedFields": 86,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -650,6 +643,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.583391+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.393202+00:00"
   }
 }

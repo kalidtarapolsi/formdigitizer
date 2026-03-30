@@ -207,13 +207,6 @@
         "widget": "text"
       }
     },
-    "privacyActStatement": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Statement",
-        "widget": "text"
-      }
-    },
     "yourChildCareProviderIf": {
       "type": "string",
       "x-va-field": {
@@ -333,7 +326,7 @@
     "nameOfProvider2TitleOfProviderRepresentative": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Provider2. Title Of Provider Representative",
+        "label": "Name of Provider2Title of Provider Representative",
         "widget": "text"
       }
     },
@@ -356,7 +349,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0730b.pdf",
     "totalFields": 53,
-    "composedFields": 49,
+    "composedFields": 48,
     "coveragePercent": 100,
     "xfaLabelCount": 22,
     "needsReviewCount": 0,
@@ -369,6 +362,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.394649+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.406796+00:00"
   }
 }

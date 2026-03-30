@@ -625,7 +625,7 @@
     "respiratoryRate25WhatDisabilitiesRestrictTheListedAc": {
       "type": "string",
       "x-va-field": {
-        "label": "Respiratory Rate25. What Disabilities Restrict The Listed Ac",
+        "label": "Respiratory Rate25What Disabilities Restrict the Listed Ac",
         "widget": "text"
       }
     },
@@ -646,14 +646,14 @@
     "from_9PmTo_9Am": {
       "type": "string",
       "x-va-field": {
-        "label": "From 9 PM to 9 AM",
+        "label": "From_9Pm To_9Am",
         "widget": "text"
       }
     },
     "from_9AmTo_9Pm": {
       "type": "string",
       "x-va-field": {
-        "label": "From 9 AM to 9 PM",
+        "label": "From_9Am To_9Pm",
         "widget": "text"
       }
     },
@@ -764,13 +764,6 @@
         "widget": "address"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "signatureOfExaminerRequired": {
       "type": "string",
       "x-va-field": {
@@ -825,7 +818,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-2680-are.pdf",
     "status": "digitized",
     "totalFields": 147,
-    "composedFields": 114,
+    "composedFields": 113,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -838,6 +831,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.944723+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.109016+00:00"
   }
 }

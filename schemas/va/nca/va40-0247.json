@@ -123,13 +123,6 @@
         "widget": "address"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "nameOfVeteranFirstMiddleLast_2VeteranSsnOrServi": {
       "type": "string",
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
@@ -164,7 +157,7 @@
     "nameOfPersonRequestingCertificate8MailingAddressOfP": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Person Requesting Certificate8. Mailing Address Of P",
+        "label": "Name of Person Requesting Certificate8Mailing Address of P",
         "widget": "address"
       }
     },
@@ -172,7 +165,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "HOME OR WORK TELEPHONE NUMBER (Include area code) ((999) 999",
+        "label": "Home or Work Telephone Number Include Area Code_999_",
         "widget": "phone"
       }
     },
@@ -180,7 +173,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Requestor Email Address11. Number Of Certificates Requested",
+        "label": "Requestor Email Address11Number of Certificates Requested",
         "widget": "email"
       }
     },
@@ -223,7 +216,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Case Manager Name15. Pmc ID Number16. Case Manager Email",
+        "label": "Case Manager Name15Pmc ID Number16Case Manager Email",
         "widget": "email"
       }
     },
@@ -239,7 +232,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-0247.pdf",
     "totalFields": 34,
-    "composedFields": 32,
+    "composedFields": 31,
     "coveragePercent": 100,
     "xfaLabelCount": 15,
     "needsReviewCount": 0,
@@ -252,6 +245,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.859365+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.941374+00:00"
   }
 }

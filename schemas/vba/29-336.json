@@ -228,7 +228,7 @@
     "ifYourAddressHasChanged": {
       "type": "string",
       "x-va-field": {
-        "label": "Check Box If Your Address Has Changed \u25ba",
+        "label": "If Your Address Has Changed",
         "widget": "text"
       }
     },
@@ -249,7 +249,7 @@
     "daytimeTelephoneNumberIncludeAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "DAYTIME TELEPHONE NUMBER (Include Area Code)",
+        "label": "Daytime Telephone Number Include Area Code",
         "widget": "text"
       }
     },
@@ -292,13 +292,6 @@
       "type": "string",
       "x-va-field": {
         "label": "List All Policy Numbers",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -361,7 +354,7 @@
     "firstNameMiddleInitialLastNameOfPrincipalBeneficiary": {
       "type": "string",
       "x-va-field": {
-        "label": "First Name - Middle Initial - Last Name Of Principal Beneficiary",
+        "label": "First Name Middle Initial Last Name of Principal Beneficiary",
         "widget": "text"
       }
     },
@@ -382,7 +375,7 @@
     "firstNameMiddleInitialLastNameOfContingentBeneficiary": {
       "type": "string",
       "x-va-field": {
-        "label": "First Name - Middle Initial - Last Name Of Contingent Beneficiary",
+        "label": "First Name Middle Initial Last Name of Contingent Beneficiary",
         "widget": "text"
       }
     },
@@ -553,7 +546,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-336-are.pdf",
     "status": "digitized",
     "totalFields": 94,
-    "composedFields": 76,
+    "composedFields": 75,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -566,6 +559,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.737533+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.805495+00:00"
   }
 }

@@ -756,7 +756,7 @@
     "estateInPropertyIs_38Cfr_36_4350": {
       "type": "string",
       "x-va-field": {
-        "label": "Estate In Property Is (38 Cfr 36.4350)",
+        "label": "Estate in Property Is_38Cfr_36_",
         "widget": "text"
       }
     },
@@ -884,7 +884,7 @@
     "iTheUndersignedLenderCertifyThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I, The Undersigned Lender, Certify That:",
+        "label": "I the Undersigned Lender Certify That",
         "widget": "text"
       }
     },
@@ -893,7 +893,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Addressname",
+        "label": "Address Name",
         "widget": "ssn"
       }
     },
@@ -901,7 +901,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Signature And Title Of Lender Representative34. Date Signed",
+        "label": "Signature and Title of Lender Representative34Date Signed",
         "widget": "date"
       }
     },
@@ -951,14 +951,14 @@
     "iTheUndersignedVeteranCertifyThat": {
       "type": "string",
       "x-va-field": {
-        "label": "I, The Undersigned Veteran, Certify  That:",
+        "label": "I the Undersigned Veteran Certify That",
         "widget": "text"
       }
     },
     "bReasonableValue": {
       "type": "string",
       "x-va-field": {
-        "label": "b.  Reasonable Value",
+        "label": "B Reasonable Value",
         "widget": "text"
       }
     },
@@ -1001,6 +1001,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.165061+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.572664+00:00"
   }
 }

@@ -35,7 +35,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -279,7 +279,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Alternate Telephone Number (Include Area Code)7. Primary Tel",
+        "label": "Alternate Telephone Number Include Area Code_7Primary Tel",
         "widget": "phone"
       }
     },
@@ -318,13 +318,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "13bDateSigned": {
       "type": "string",
       "format": "date",
@@ -353,7 +346,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4140-are.pdf",
     "status": "digitized",
     "totalFields": 59,
-    "composedFields": 48,
+    "composedFields": 47,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -365,6 +358,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.417439+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.113969+00:00"
   }
 }

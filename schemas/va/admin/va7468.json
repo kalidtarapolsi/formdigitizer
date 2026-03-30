@@ -225,7 +225,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Phone No. ((999) 999-9999)",
+        "label": "Phone No_999_999_",
         "widget": "phone"
       }
     },
@@ -269,7 +269,7 @@
     "cubicFeet13LinearFeet": {
       "type": "string",
       "x-va-field": {
-        "label": "Cubic Feet13. Linear Feet",
+        "label": "Cubic Feet13Linear Feet",
         "widget": "text"
       }
     },
@@ -338,6 +338,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.516397+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:35.650722+00:00"
   }
 }

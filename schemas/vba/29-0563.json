@@ -7,14 +7,14 @@
     "addressofMortgaged": {
       "type": "string",
       "x-va-field": {
-        "label": "Addressof Mortgaged",
+        "label": "Address of Mortgaged",
         "widget": "text"
       }
     },
     "nameandAddressMortgageHolder": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameand Address Mortgage Holder",
+        "label": "Name and Address Mortgage Holder",
         "widget": "text"
       }
     },
@@ -144,20 +144,13 @@
         "label": "Signature Of Veteran",
         "widget": "signature"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0563-are.pdf",
     "status": "digitized",
     "totalFields": 23,
-    "composedFields": 21,
+    "composedFields": 20,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -169,6 +162,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.731185+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.789398+00:00"
   }
 }

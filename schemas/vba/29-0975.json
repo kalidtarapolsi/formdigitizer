@@ -7,7 +7,7 @@
     "nameofPersonOrOrganization": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Person or Organization",
+        "label": "Name of Person or Organization",
         "widget": "text"
       }
     },
@@ -21,7 +21,7 @@
     "datefrom": {
       "type": "string",
       "x-va-field": {
-        "label": "Datefrom",
+        "label": "Date From",
         "widget": "text"
       }
     },
@@ -106,13 +106,6 @@
       "type": "string",
       "x-va-field": {
         "label": "First, Middle, Last Name Of Annuitant Who Is Not The",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -204,7 +197,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-0975-are.pdf",
     "status": "digitized",
     "totalFields": 31,
-    "composedFields": 27,
+    "composedFields": 26,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -216,6 +209,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.880601+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.791972+00:00"
   }
 }

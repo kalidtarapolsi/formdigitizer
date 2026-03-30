@@ -7,7 +7,7 @@
     "nameofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Veteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
@@ -21,7 +21,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -35,7 +35,7 @@
     "nameofSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Spouse",
+        "label": "Name of Spouse",
         "widget": "text"
       }
     },
@@ -49,7 +49,7 @@
     "vafileNumberofother": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Numberofother",
+        "label": "VA File Numberofother",
         "widget": "text"
       }
     },
@@ -441,6 +441,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.996264+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.183521+00:00"
   }
 }

@@ -28,7 +28,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -242,7 +242,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Branch Of Service 5. Date Of Death (MM/DD/YYYY)",
+        "label": "Branch of Service_5Date of Death Mm Dd Yyyy",
         "widget": "date"
       }
     },
@@ -401,13 +401,6 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "survivingSpouse": {
       "type": "string",
       "x-va-field": {
@@ -433,13 +426,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Who Is Eligible",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -476,7 +462,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8924-are.pdf",
     "status": "digitized",
     "totalFields": 85,
-    "composedFields": 65,
+    "composedFields": 63,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -489,6 +475,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.594055+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.422168+00:00"
   }
 }

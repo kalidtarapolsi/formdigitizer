@@ -51,7 +51,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -165,13 +165,6 @@
         "widget": "date"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "important": {
       "type": "string",
       "x-va-field": {
@@ -191,7 +184,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0537-are.pdf",
     "status": "digitized",
     "totalFields": 30,
-    "composedFields": 25,
+    "composedFields": 24,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -203,6 +196,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.503943+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.219628+00:00"
   }
 }

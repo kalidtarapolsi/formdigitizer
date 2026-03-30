@@ -346,13 +346,6 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "improvedPension": {
       "type": "string",
       "x-va-field": {
@@ -366,13 +359,6 @@
       "x-va-field": {
         "label": "amount(s) paid and",
         "widget": "date"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
       }
     },
     "address": {
@@ -429,7 +415,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-674-are.pdf",
     "status": "digitized",
     "totalFields": 75,
-    "composedFields": 58,
+    "composedFields": 56,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -442,6 +428,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.441533+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.160172+00:00"
   }
 }

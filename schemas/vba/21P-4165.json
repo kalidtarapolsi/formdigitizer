@@ -7,7 +7,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -35,7 +35,7 @@
     "nameofOwnerOfBusiness": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Owner of Business",
+        "label": "Name of Owner of Business",
         "widget": "text"
       }
     },
@@ -60,25 +60,13 @@
         "widget": "text"
       }
     },
-    "secondTwoNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "firstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "currentMailingAddressCity": {
@@ -393,14 +381,14 @@
     "nameAndAddressofWitness1": {
       "type": "string",
       "x-va-field": {
-        "label": "Name and Addressof Witness",
+        "label": "Name and Address of Witness",
         "widget": "text"
       }
     },
     "nameAndAddressofWitness2": {
       "type": "string",
       "x-va-field": {
-        "label": "Name and Addressof Witness",
+        "label": "Name and Address of Witness",
         "widget": "text"
       }
     },
@@ -593,7 +581,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-4165-are.pdf",
     "status": "digitized",
     "totalFields": 89,
-    "composedFields": 83,
+    "composedFields": 81,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -606,6 +594,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.041015+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:44:13.989234+00:00"
   }
 }

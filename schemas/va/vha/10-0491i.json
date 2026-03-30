@@ -147,7 +147,7 @@
     "ssnLast_4Only": {
       "type": "string",
       "x-va-field": {
-        "label": "SSN (Last 4 Only)",
+        "label": "SSN Last_4Only",
         "widget": "text"
       }
     },
@@ -238,7 +238,7 @@
     "endDatestartDateend": {
       "type": "string",
       "x-va-field": {
-        "label": "End DateStart DateEnd",
+        "label": "End Datestart Dateend",
         "widget": "text"
       }
     },
@@ -265,6 +265,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.594623+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.657631+00:00"
   }
 }

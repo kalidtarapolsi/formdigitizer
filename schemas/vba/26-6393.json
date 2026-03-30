@@ -606,17 +606,10 @@
         "widget": "text"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "nameOfBorrower_2AmountOfLoan": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Borrower 2. Amount Of Loan",
+        "label": "Name of Borrower_2Amount of Loan",
         "widget": "text"
       }
     },
@@ -687,7 +680,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Signed 55. Signature Of VA Approved Underwriter",
+        "label": "Date Signed_55Signature of VA Approved Underwriter",
         "widget": "date"
       }
     },
@@ -695,7 +688,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Final Action 57. Date Signed 58. Signature  And Title Of App",
+        "label": "Final Action_57Date Signed_58Signature and Title of App",
         "widget": "date"
       }
     },
@@ -774,7 +767,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6393-are.pdf",
     "status": "digitized",
     "totalFields": 120,
-    "composedFields": 109,
+    "composedFields": 108,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -786,6 +779,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.829568+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.613572+00:00"
   }
 }

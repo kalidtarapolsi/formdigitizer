@@ -37,7 +37,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -335,7 +335,7 @@
     "item_11CheckTheBoxThatAppliesAndFillIn": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 11. Check the box that applies and fill in",
+        "label": "Item_11Check the Box That Applies and Fill in",
         "widget": "text"
       }
     },
@@ -495,13 +495,6 @@
         "widget": "signature"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "address": {
       "type": "string",
       "x-va-field": {
@@ -535,7 +528,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10278-are.pdf",
     "status": "digitized",
     "totalFields": 89,
-    "composedFields": 73,
+    "composedFields": 72,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -548,6 +541,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.436244+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.465474+00:00"
   }
 }

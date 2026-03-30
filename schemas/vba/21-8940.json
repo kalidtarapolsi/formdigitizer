@@ -37,7 +37,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -98,18 +98,13 @@
         "widget": "text"
       }
     },
-    "firstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "internationalTelephoneNumberIfApplicable": {
@@ -157,7 +152,7 @@
     "whatyear": {
       "type": "string",
       "x-va-field": {
-        "label": "Whatyear",
+        "label": "What Year",
         "widget": "text"
       }
     },
@@ -566,7 +561,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "(Go to Item 26 - Remarks - for additional",
+        "label": "Go to Item_26Remarks for Additional",
         "widget": "date"
       }
     },
@@ -735,24 +730,10 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "mailTo": {
       "type": "string",
       "x-va-field": {
         "label": "Mail To",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -842,7 +823,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8940-are.pdf",
     "status": "digitized",
     "totalFields": 161,
-    "composedFields": 117,
+    "composedFields": 114,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -855,6 +836,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.669468+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.151929+00:00"
   }
 }

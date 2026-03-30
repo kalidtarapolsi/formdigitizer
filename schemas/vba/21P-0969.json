@@ -92,7 +92,7 @@
     "typeofClaimant": {
       "type": "string",
       "x-va-field": {
-        "label": "Typeof Claimant",
+        "label": "Type of Claimant",
         "widget": "text"
       }
     },
@@ -134,7 +134,7 @@
     "nameofIncomeRecipient3b2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Income Recipient3b",
+        "label": "Name of Income Recipient3b",
         "widget": "text"
       }
     },
@@ -197,7 +197,7 @@
     "nameofIncomeRecipient3c2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Income Recipient3c",
+        "label": "Name of Income Recipient3c",
         "widget": "text"
       }
     },
@@ -260,7 +260,7 @@
     "nameofIncomeRecipient3d2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Income Recipient3d",
+        "label": "Name of Income Recipient3d",
         "widget": "text"
       }
     },
@@ -323,7 +323,7 @@
     "nameofIncomeRecipient3e2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Income Recipient3e",
+        "label": "Name of Income Recipient3e",
         "widget": "text"
       }
     },
@@ -386,7 +386,7 @@
     "nameofIncomeRecipient3f2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Income Recipient3f",
+        "label": "Name of Income Recipient3f",
         "widget": "text"
       }
     },
@@ -470,7 +470,7 @@
     "nameofIncomeRecipient4b2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Income Recipient4b",
+        "label": "Name of Income Recipient4b",
         "widget": "text"
       }
     },
@@ -561,7 +561,7 @@
     "nameofIncomeRecipient4c2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Income Recipient4c",
+        "label": "Name of Income Recipient4c",
         "widget": "text"
       }
     },
@@ -652,7 +652,7 @@
     "nameofIncomeRecipient4d2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Income Recipient4d",
+        "label": "Name of Income Recipient4d",
         "widget": "text"
       }
     },
@@ -1268,7 +1268,7 @@
     "relationshiptoVeteran7b1": {
       "type": "string",
       "x-va-field": {
-        "label": "Relationshipto Veteran7b",
+        "label": "Relationship to Veteran7b",
         "widget": "text"
       }
     },
@@ -2811,7 +2811,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "(7). Specify Date Of Transfer (",
+        "label": "7Specify Date of Transfer",
         "widget": "date"
       }
     },
@@ -2827,7 +2827,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "than one date, submit a VA Form 21-4138 with all",
+        "label": "Than One Date Submit a VA Form_21_4138With All",
         "widget": "date"
       }
     },
@@ -2898,13 +2898,6 @@
         "widget": "select"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "dateOfTransfer7c7": {
       "type": "string",
       "format": "date",
@@ -2959,7 +2952,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-0969-are.pdf",
     "status": "digitized",
     "totalFields": 436,
-    "composedFields": 420,
+    "composedFields": 419,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -2972,6 +2965,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.541683+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:44:13.957106+00:00"
   }
 }

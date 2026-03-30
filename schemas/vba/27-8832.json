@@ -112,31 +112,19 @@
         "widget": "ssn"
       }
     },
-    "firstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "areaCode": {
       "type": "string",
       "x-va-field": {
         "label": "Area Code",
-        "widget": "text"
-      }
-    },
-    "secondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
@@ -171,7 +159,7 @@
     "youAreCurrentlyOnActiveDutyWith_6MonthsOrLessRemai": {
       "type": "string",
       "x-va-field": {
-        "label": "You are currently on active duty with 6 months or less remai",
+        "label": "You Are Currently on Active Duty With_6Months or Less Remai",
         "widget": "text"
       }
     },
@@ -359,13 +347,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "": {
       "type": "string",
       "format": "date"
@@ -375,7 +356,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-27-8832-are.pdf",
     "status": "digitized",
     "totalFields": 61,
-    "composedFields": 51,
+    "composedFields": 48,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -388,6 +369,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.709926+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.698794+00:00"
   }
 }

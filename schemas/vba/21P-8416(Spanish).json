@@ -18,18 +18,13 @@
         "widget": "text"
       }
     },
-    "firstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "dateSigned": {
@@ -610,7 +605,7 @@
     "firmaDeProveedorVeaPregunta_2_15FechaMmDdAaaa": {
       "type": "string",
       "x-va-field": {
-        "label": "Firma De Proveedor (Vea Pregunta 2) 15. Fecha (MM/DD/Aaaa)",
+        "label": "Firma De Proveedor Vea Pregunta_2_15Fecha Mm Dd Aaaa",
         "widget": "text"
       }
     },
@@ -680,7 +675,7 @@
     "firmaDeProveedorVeaPregunta_2_16FechaMmDdAaaa": {
       "type": "string",
       "x-va-field": {
-        "label": "Firma De Proveedor (Vea Pregunta 2) 16. Fecha (MM/DD/Aaaa)",
+        "label": "Firma De Proveedor Vea Pregunta_2_16Fecha Mm Dd Aaaa",
         "widget": "text"
       }
     },
@@ -693,7 +688,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8416(spanish)-are.pdf",
     "status": "digitized",
     "totalFields": 104,
-    "composedFields": 98,
+    "composedFields": 97,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -705,6 +700,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.081115+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.404892+00:00"
   }
 }

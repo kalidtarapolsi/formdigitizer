@@ -95,20 +95,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "deductibleExpensesIncludesNonReimbursedMedical": {
       "type": "string",
       "x-va-field": {
@@ -157,7 +143,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/vha-10-10HS-fill.pdf",
     "totalFields": 27,
-    "composedFields": 21,
+    "composedFields": 19,
     "coveragePercent": 100,
     "xfaLabelCount": 15,
     "needsReviewCount": 0,
@@ -170,6 +156,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.628345+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:35.767717+00:00"
   }
 }

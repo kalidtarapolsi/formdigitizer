@@ -235,13 +235,6 @@
         "widget": "text"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "applicantName2Address": {
       "type": "string",
       "x-va-field": {
@@ -253,7 +246,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Phone ((999) 999-9999)",
+        "label": "Phone_999_999_",
         "widget": "phone"
       }
     },
@@ -283,7 +276,7 @@
     "nameOfCemeteryWhereInterred8StationId9BurialSiteI": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Cemetery Where Interred8. Station Id9. Burial Site I",
+        "label": "Name of Cemetery Where Interred8Station Id9Burial Site I",
         "widget": "text"
       }
     },
@@ -312,7 +305,7 @@
     "typeOrPrintedNameOfCemeteryOfficial15Title": {
       "type": "string",
       "x-va-field": {
-        "label": "Type Or Printed Name Of Cemetery Official15. Title",
+        "label": "Type or Printed Name of Cemetery Official15Title",
         "widget": "text"
       }
     },
@@ -327,7 +320,7 @@
     "stateAgencyOrTribalOrganization2FederalAcquisitionId": {
       "type": "string",
       "x-va-field": {
-        "label": "State Agency Or Tribal Organization2. Federal Acquisition ID",
+        "label": "State Agency or Tribal Organization2Federal Acquisition ID",
         "widget": "select"
       }
     },
@@ -391,7 +384,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10232.pdf",
     "totalFields": 56,
-    "composedFields": 54,
+    "composedFields": 53,
     "coveragePercent": 100,
     "xfaLabelCount": 32,
     "needsReviewCount": 0,
@@ -404,6 +397,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.581718+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.936697+00:00"
   }
 }

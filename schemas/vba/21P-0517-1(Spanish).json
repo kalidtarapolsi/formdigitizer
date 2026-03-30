@@ -7,7 +7,7 @@
     "nameofVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Veteran",
+        "label": "Name of Veteran",
         "widget": "text"
       }
     },
@@ -21,7 +21,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -35,7 +35,7 @@
     "nameofSpouse": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Spouse",
+        "label": "Name of Spouse",
         "widget": "text"
       }
     },
@@ -49,7 +49,7 @@
     "vafileNumberofother": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Numberofother",
+        "label": "VA File Numberofother",
         "widget": "text"
       }
     },
@@ -140,28 +140,28 @@
     "childname1": {
       "type": "string",
       "x-va-field": {
-        "label": "Childname",
+        "label": "Child Name",
         "widget": "text"
       }
     },
     "childname2": {
       "type": "string",
       "x-va-field": {
-        "label": "Childname",
+        "label": "Child Name",
         "widget": "text"
       }
     },
     "childaddress1": {
       "type": "string",
       "x-va-field": {
-        "label": "Childaddress",
+        "label": "Child Address",
         "widget": "text"
       }
     },
     "childaddress2": {
       "type": "string",
       "x-va-field": {
-        "label": "Childaddress",
+        "label": "Child Address",
         "widget": "text"
       }
     },
@@ -329,7 +329,7 @@
     "2Casado": {
       "type": "string",
       "x-va-field": {
-        "label": "(2) Casado -",
+        "label": "2Casado",
         "widget": "text"
       }
     },
@@ -453,7 +453,7 @@
     "gastosDeManutencionFamiliarPrivaciNLosProximos_12M": {
       "type": "string",
       "x-va-field": {
-        "label": "Gastos De Manutencion Familiar (Privaci\u00f3n) Los Proximos 12 M",
+        "label": "Gastos De Manutencion Familiar Privaci N Los Proximos_12M",
         "widget": "text"
       }
     },
@@ -481,6 +481,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.999770+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.192622+00:00"
   }
 }

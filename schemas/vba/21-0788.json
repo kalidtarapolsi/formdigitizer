@@ -7,21 +7,21 @@
     "nameveteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameveteran",
+        "label": "Name Veteran",
         "widget": "text"
       }
     },
     "nameveteran2": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameveteran",
+        "label": "Name Veteran",
         "widget": "text"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -56,7 +56,7 @@
     "nameveteran3": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameveteran",
+        "label": "Name Veteran",
         "widget": "text"
       }
     },
@@ -151,13 +151,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "15b": {
       "type": "string",
       "x-va-field": {
@@ -182,14 +175,7 @@
     "nameOfFacilityaddressOfFacility": {
       "type": "string",
       "x-va-field": {
-        "label": "Name Of Facilityaddress Of Facility",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
+        "label": "Name of Facility Address of Facility",
         "widget": "text"
       }
     },
@@ -205,7 +191,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0788-are.pdf",
     "status": "digitized",
     "totalFields": 31,
-    "composedFields": 28,
+    "composedFields": 26,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -216,6 +202,6 @@
       "acroform",
       "acroform+text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.404243+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.053124+00:00"
   }
 }

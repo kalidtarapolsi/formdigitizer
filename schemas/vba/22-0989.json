@@ -21,14 +21,14 @@
     "vafilenumberOrSocialSecurityNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafilenumber or Social Security Number",
+        "label": "VA File Number or Social Security Number",
         "widget": "text"
       }
     },
     "emailaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Emailaddress",
+        "label": "Email Address",
         "widget": "text"
       }
     },
@@ -42,7 +42,7 @@
     "nameofYourSchoolThatClosedOrWhereYourProgramWasWithdrawn": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Your School That Closed or Where Your Program Was Withdrawn",
+        "label": "Name of Your School That Closed or Where Your Program Was Withdrawn",
         "widget": "text"
       }
     },
@@ -56,7 +56,7 @@
     "nameofYourNewSchoolAndProgram": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Your New School and Program",
+        "label": "Name of Your New School and Program",
         "widget": "text"
       }
     },
@@ -191,6 +191,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.100435+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.440897+00:00"
   }
 }

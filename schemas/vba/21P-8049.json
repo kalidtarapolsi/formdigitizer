@@ -7,7 +7,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -138,25 +138,13 @@
         "widget": "text"
       }
     },
-    "secondTwoNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "firstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "areaCode": {
@@ -400,13 +388,6 @@
         "widget": "select"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "feesForClaims": {
       "type": "string",
       "x-va-field": {
@@ -423,7 +404,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21p-8049-are.pdf",
     "status": "digitized",
     "totalFields": 65,
-    "composedFields": 59,
+    "composedFields": 56,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -436,6 +417,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.753016+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.391788+00:00"
   }
 }

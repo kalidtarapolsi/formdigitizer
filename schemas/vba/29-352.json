@@ -217,7 +217,7 @@
     "theDepartmentOfVeteransAffairsWillIfNecessaryAskF": {
       "type": "string",
       "x-va-field": {
-        "label": "The Department of Veterans Affairs will, if necessary, ask f",
+        "label": "The Department of Veteran's Affairs Will If Necessary Ask F",
         "widget": "text"
       }
     },
@@ -231,7 +231,7 @@
     "daytimeTelephoneNumberIncludeAreaCode": {
       "type": "string",
       "x-va-field": {
-        "label": "DAYTIME TELEPHONE NUMBER (Include Area Code)",
+        "label": "Daytime Telephone Number Include Area Code",
         "widget": "text"
       }
     },
@@ -330,7 +330,7 @@
     "withinThePast_5YearsHaveYou": {
       "type": "string",
       "x-va-field": {
-        "label": "Within The Past 5 Years, Have You",
+        "label": "Within the Past_5Years Have You",
         "widget": "text"
       }
     },
@@ -340,20 +340,13 @@
         "label": "Information",
         "widget": "text"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-352-are.pdf",
     "status": "digitized",
     "totalFields": 51,
-    "composedFields": 49,
+    "composedFields": 48,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -365,6 +358,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.741717+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.814518+00:00"
   }
 }

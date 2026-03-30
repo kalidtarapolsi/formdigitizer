@@ -478,17 +478,10 @@
         "widget": "date"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "item_11aActiveService": {
       "type": "string",
       "x-va-field": {
-        "label": "Item 11A - Active Service",
+        "label": "Item_11a Active Service",
         "widget": "text"
       }
     }
@@ -497,7 +490,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1880-are.pdf",
     "status": "digitized",
     "totalFields": 71,
-    "composedFields": 69,
+    "composedFields": 68,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -509,6 +502,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.665987+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.620130+00:00"
   }
 }

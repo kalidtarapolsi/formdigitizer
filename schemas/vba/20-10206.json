@@ -126,20 +126,6 @@
         "widget": "zip"
       }
     },
-    "firstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
-      }
-    },
     "areaCode": {
       "type": "string",
       "x-va-field": {
@@ -263,13 +249,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Amount",
-        "widget": "text"
-      }
-    },
-    "secondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Second Two Numbers",
         "widget": "text"
       }
     },
@@ -439,20 +418,6 @@
         "widget": "signature"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "": {
       "type": "string",
       "format": "date"
@@ -462,7 +427,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-20-10206-are.pdf",
     "status": "digitized",
     "totalFields": 74,
-    "composedFields": 64,
+    "composedFields": 59,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -475,6 +440,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:16.166864+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.043319+00:00"
   }
 }

@@ -21,7 +21,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -143,7 +143,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Signature Of Applicant (Sign In Ink)13. Date Signed (MM/DD/Y",
+        "label": "Signature of Applicant Sign in Ink_13Date Signed Mm Dd Y",
         "widget": "date"
       }
     },
@@ -180,7 +180,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "ITEM 9. Show the",
+        "label": "Item_9Show the",
         "widget": "date"
       }
     },
@@ -195,7 +195,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "ITEM 12 AND 13. Sign and",
+        "label": "Item_12And_13Sign and",
         "widget": "date"
       }
     },
@@ -211,13 +211,6 @@
       "x-va-field": {
         "label": "addresses shown below.",
         "widget": "address"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
       }
     },
     "easternRegion": {
@@ -239,7 +232,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-0810-are.pdf",
     "status": "digitized",
     "totalFields": 33,
-    "composedFields": 32,
+    "composedFields": 31,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -251,6 +244,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.598254+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.431798+00:00"
   }
 }

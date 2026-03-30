@@ -35,7 +35,7 @@
     "streetaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Streetaddress",
+        "label": "Street Address",
         "widget": "text"
       }
     },
@@ -70,7 +70,7 @@
     "telephonenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Telephonenumber",
+        "label": "Telephone Number",
         "widget": "text"
       }
     },
@@ -154,14 +154,14 @@
     "departurecity1": {
       "type": "string",
       "x-va-field": {
-        "label": "Departurecity",
+        "label": "Departure City",
         "widget": "text"
       }
     },
     "departurestate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Departurestate",
+        "label": "Departure State",
         "widget": "text"
       }
     },
@@ -175,14 +175,14 @@
     "arrivalcity1": {
       "type": "string",
       "x-va-field": {
-        "label": "Arrivalcity",
+        "label": "Arrival City",
         "widget": "text"
       }
     },
     "arrivalstate1": {
       "type": "string",
       "x-va-field": {
-        "label": "Arrivalstate",
+        "label": "Arrival State",
         "widget": "text"
       }
     },
@@ -203,14 +203,14 @@
     "departurecity2": {
       "type": "string",
       "x-va-field": {
-        "label": "Departurecity",
+        "label": "Departure City",
         "widget": "text"
       }
     },
     "departurestate2": {
       "type": "string",
       "x-va-field": {
-        "label": "Departurestate",
+        "label": "Departure State",
         "widget": "text"
       }
     },
@@ -224,14 +224,14 @@
     "arrivalcity2": {
       "type": "string",
       "x-va-field": {
-        "label": "Arrivalcity",
+        "label": "Arrival City",
         "widget": "text"
       }
     },
     "arrivalstate2": {
       "type": "string",
       "x-va-field": {
-        "label": "Arrivalstate",
+        "label": "Arrival State",
         "widget": "text"
       }
     },
@@ -280,7 +280,7 @@
     "otheramount": {
       "type": "string",
       "x-va-field": {
-        "label": "Otheramount",
+        "label": "Other Amount",
         "widget": "text"
       }
     },
@@ -329,35 +329,35 @@
     "certificationssn": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationssn",
+        "label": "Certification SSN",
         "widget": "text"
       }
     },
     "certificationstreetaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationstreetaddress",
+        "label": "Certification Street Address",
         "widget": "text"
       }
     },
     "certificationcity": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationcity",
+        "label": "Certification City",
         "widget": "text"
       }
     },
     "certificationstate": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationstate",
+        "label": "Certification State",
         "widget": "text"
       }
     },
     "certificationzip": {
       "type": "string",
       "x-va-field": {
-        "label": "Certificationzip",
+        "label": "Certification ZIP",
         "widget": "text"
       }
     },
@@ -378,7 +378,7 @@
     "lastNamefirstNamemi": {
       "type": "string",
       "x-va-field": {
-        "label": "Last Namefirst Namemi",
+        "label": "Last Name First Namemi",
         "widget": "text"
       }
     },
@@ -387,14 +387,14 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number (999-99-9999)",
+        "label": "Social Security Number_999_99_",
         "widget": "ssn"
       }
     },
     "citystate": {
       "type": "string",
       "x-va-field": {
-        "label": "Citystate",
+        "label": "City State",
         "widget": "select"
       }
     },
@@ -402,7 +402,7 @@
       "type": "string",
       "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "ZIP Code (99999-9999)",
+        "label": "ZIP Code_99999_",
         "widget": "zip"
       }
     },
@@ -431,7 +431,7 @@
     "lastNamefirstNamemirelationshipToPatient": {
       "type": "string",
       "x-va-field": {
-        "label": "Last Namefirst Namemirelationship To Patient",
+        "label": "Last Name First Namemirelationship to Patient",
         "widget": "text"
       }
     },
@@ -504,6 +504,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.833416+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.893907+00:00"
   }
 }

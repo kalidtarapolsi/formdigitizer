@@ -21,14 +21,14 @@
     "militaryservicenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Militaryservicenumber",
+        "label": "Military Service Number",
         "widget": "text"
       }
     },
     "vafilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafilenumber",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -84,7 +84,7 @@
     "telephonenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Telephonenumber",
+        "label": "Telephone Number",
         "widget": "text"
       }
     },
@@ -157,7 +157,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number3. VA File Number5. Military Service N",
+        "label": "Social Security Number3Va File Number5Military Service N",
         "widget": "ssn"
       }
     },
@@ -233,7 +233,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Signature Of Person Receiving Flag (Sign In Ink)21. Date Fla",
+        "label": "Signature of Person Receiving Flag Sign in Ink_21Date Fla",
         "widget": "date"
       }
     },
@@ -262,14 +262,14 @@
     "selectedServiceSeeSectionC_3OnPage_2": {
       "type": "string",
       "x-va-field": {
-        "label": "SELECTED SERVICE (See Section C(3) on page 2)",
+        "label": "Selected Service See Section C_3On Page_",
         "widget": "text"
       }
     },
     "otherSeeSectionC_1OnPage_2": {
       "type": "string",
       "x-va-field": {
-        "label": "OTHER (See Section C(1) on page 2)",
+        "label": "Other See Section C_1On Page_",
         "widget": "text"
       }
     },
@@ -290,7 +290,7 @@
     "thisFlagIsIssuedOnBehalfOfTheDepartmentOfVeterans": {
       "type": "string",
       "x-va-field": {
-        "label": "This flag is issued on behalf of the Department of Veterans",
+        "label": "This Flag is Issued on Behalf of the Department of Veteran's",
         "widget": "text"
       }
     },
@@ -388,6 +388,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.707863+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.733206+00:00"
   }
 }

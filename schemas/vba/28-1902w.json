@@ -28,7 +28,7 @@
     "vafilenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafilenumber",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -758,20 +758,13 @@
         "label": "Date (MM/DD/YYYY)",
         "widget": "date"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1902w-are.pdf",
     "status": "digitized",
     "totalFields": 127,
-    "composedFields": 108,
+    "composedFields": 107,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -783,6 +776,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.870375+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.768093+00:00"
   }
 }

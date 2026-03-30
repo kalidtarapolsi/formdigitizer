@@ -329,7 +329,7 @@
     "6Expiration": {
       "type": "string",
       "x-va-field": {
-        "label": "6. Expiration",
+        "label": "6Expiration",
         "widget": "text"
       }
     },
@@ -421,7 +421,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Arlington, VA 20406. Email",
+        "label": "Arlington Va_20406Email",
         "widget": "email"
       }
     },
@@ -463,6 +463,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.488146+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.416166+00:00"
   }
 }

@@ -21,7 +21,7 @@
     "servicenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Servicenumber",
+        "label": "Service Number",
         "widget": "text"
       }
     },
@@ -246,7 +246,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Telephone Number Of Funeral Home ((999) 999-9999)",
+        "label": "Telephone Number of Funeral Home_999_999_",
         "widget": "phone"
       }
     },
@@ -254,7 +254,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Telephone Number Of Applicant ((999) 999-9999)",
+        "label": "Telephone Number of Applicant_999_999_",
         "widget": "phone"
       }
     },
@@ -301,13 +301,6 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "beforeAllowanceForTheCasketOrUrnCanBeProcessedAll": {
       "type": "string",
       "x-va-field": {
@@ -347,7 +340,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-10088.pdf",
     "totalFields": 56,
-    "composedFields": 48,
+    "composedFields": 47,
     "coveragePercent": 100,
     "xfaLabelCount": 30,
     "needsReviewCount": 0,
@@ -360,6 +353,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.590608+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.961701+00:00"
   }
 }

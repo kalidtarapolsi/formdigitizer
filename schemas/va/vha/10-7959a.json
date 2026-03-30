@@ -361,7 +361,7 @@
       "type": "string",
       "pattern": "^\\d{5}(-\\d{4})?$",
       "x-va-field": {
-        "label": "Zip Code (99999-9999)",
+        "label": "ZIP Code_99999_",
         "widget": "zip"
       }
     },
@@ -377,7 +377,7 @@
       "type": "string",
       "pattern": "^\\d{10}$",
       "x-va-field": {
-        "label": "Phone Number (include area code) ((999) 999-9999)",
+        "label": "Phone Number Include Area Code_999_999_",
         "widget": "phone"
       }
     },
@@ -407,7 +407,7 @@
     "lastNamefirstNameMi": {
       "type": "string",
       "x-va-field": {
-        "label": "Last NameFirst Name MI",
+        "label": "Last Name First Name MI",
         "widget": "text"
       }
     },
@@ -444,14 +444,14 @@
     "lastNamefirstNamemirelationshipToPatient": {
       "type": "string",
       "x-va-field": {
-        "label": "Last NameFirst NameMIRelationship to Patient",
+        "label": "Last Name First Namemirelationship to Patient",
         "widget": "text"
       }
     },
     "citystate": {
       "type": "string",
       "x-va-field": {
-        "label": "CityState",
+        "label": "City State",
         "widget": "select"
       }
     },
@@ -468,13 +468,6 @@
       "x-va-field": {
         "label": "on the effective",
         "widget": "date"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
       }
     },
     "processingStipendsRoutineUse": {
@@ -502,7 +495,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA-Form-10-7959a-fill.pdf",
     "totalFields": 69,
-    "composedFields": 69,
+    "composedFields": 68,
     "coveragePercent": 100,
     "xfaLabelCount": 40,
     "needsReviewCount": 0,
@@ -515,6 +508,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.825278+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.885060+00:00"
   }
 }

@@ -44,7 +44,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -301,7 +301,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "In Item 18B, you should enter the",
+        "label": "In Item_18b You Should Enter the",
         "widget": "date"
       }
     },
@@ -452,13 +452,6 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "19bDateSigned": {
       "type": "string",
       "format": "date",
@@ -509,7 +502,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-20-0996-are.pdf",
     "status": "digitized",
     "totalFields": 85,
-    "composedFields": 69,
+    "composedFields": 68,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -522,6 +515,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.386078+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.009272+00:00"
   }
 }

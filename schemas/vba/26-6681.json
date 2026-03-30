@@ -14,7 +14,7 @@
     "residenceaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Residenceaddress",
+        "label": "Residence Address",
         "widget": "text"
       }
     },
@@ -427,7 +427,7 @@
     "presentOccupation11NameAndAddressOfPresentEmployer": {
       "type": "string",
       "x-va-field": {
-        "label": "Present Occupation11. Name And Address Of Present Employer",
+        "label": "Present Occupation11Name and Address of Present Employer",
         "widget": "address"
       }
     },
@@ -445,13 +445,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "numberOfAssignmentsYouWill": {
       "type": "string",
       "x-va-field": {
@@ -462,7 +455,7 @@
     "statePrincipalAssignmentsDuringAtLeastThePast_5Years": {
       "type": "string",
       "x-va-field": {
-        "label": "State Principal Assignments During At Least The Past 5 Years",
+        "label": "State Principal Assignments During at Least the Past_5Years",
         "widget": "select"
       }
     },
@@ -477,7 +470,7 @@
     "employmentHistoryDuringThePast_10YearsAttachAddition": {
       "type": "string",
       "x-va-field": {
-        "label": "Employment History During The Past 10 Years (Attach Addition",
+        "label": "Employment History During the Past_10Years Attach Addition",
         "widget": "text"
       }
     },
@@ -492,7 +485,7 @@
     "referencesListAndSubmitAtLeast_2LettersAttestingTo": {
       "type": "string",
       "x-va-field": {
-        "label": "References - List And Submit At Least 2 Letters Attesting To",
+        "label": "References List and Submit at Least_2Letters Attesting to",
         "widget": "text"
       }
     },
@@ -521,7 +514,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "(DO NOT PRINT) (Must be legible)25. DATE SIGNED (",
+        "label": "Do Not Print Must Be Legible_25Date Signed",
         "widget": "date"
       }
     },
@@ -551,7 +544,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-6681-are.pdf",
     "status": "digitized",
     "totalFields": 82,
-    "composedFields": 76,
+    "composedFields": 75,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -563,6 +556,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.677619+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.643478+00:00"
   }
 }

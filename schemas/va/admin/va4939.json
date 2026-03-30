@@ -147,7 +147,7 @@
     "ifYouContactedAnEeoCounselorMoreThan_45CalendarDays": {
       "type": "string",
       "x-va-field": {
-        "label": "If you contacted an EEO Counselor more than 45 calendar days",
+        "label": "If You Contacted an Eeo Counselor More Than_45Calendar Days",
         "widget": "text"
       }
     },
@@ -252,13 +252,6 @@
         "widget": "text"
       }
     },
-    "privacyActStatement": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Statement",
-        "widget": "select"
-      }
-    },
     "respondentBurdenStatement": {
       "type": "string",
       "x-va-field": {
@@ -270,7 +263,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA4939.pdf",
     "totalFields": 53,
-    "composedFields": 37,
+    "composedFields": 36,
     "coveragePercent": 100,
     "xfaLabelCount": 35,
     "needsReviewCount": 0,
@@ -283,6 +276,6 @@
       "acroform",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.413887+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:44:13.212051+00:00"
   }
 }

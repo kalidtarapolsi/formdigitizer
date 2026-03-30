@@ -404,7 +404,7 @@
     "authority_16FiscalSymbol": {
       "type": "string",
       "x-va-field": {
-        "label": "Authority 16. Fiscal Symbol",
+        "label": "Authority_16Fiscal Symbol",
         "widget": "text"
       }
     },
@@ -432,7 +432,7 @@
     "amountClaimedAtAuthorizedMileageRate_22TotalMileage": {
       "type": "string",
       "x-va-field": {
-        "label": "Amount Claimed At Authorized Mileage Rate  22. Total Mileage",
+        "label": "Amount Claimed at Authorized Mileage Rate_22Total Mileage",
         "widget": "text"
       }
     },
@@ -515,13 +515,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "titleOfAuthorizingOfficialCaseManager": {
       "type": "string",
       "x-va-field": {
@@ -532,7 +525,7 @@
     "amountDue34VoucherAuditor": {
       "type": "string",
       "x-va-field": {
-        "label": "Amount Due34. Voucher Auditor",
+        "label": "Amount Due34Voucher Auditor",
         "widget": "text"
       }
     },
@@ -542,13 +535,6 @@
       "x-va-field": {
         "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
       }
     },
     "theClaimantIsScheduledToReportToADesignatedPlaceFo": {
@@ -665,7 +651,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-0968-are.pdf",
     "status": "digitized",
     "totalFields": 111,
-    "composedFields": 93,
+    "composedFields": 91,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -678,6 +664,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:39:57.532525+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.705477+00:00"
   }
 }

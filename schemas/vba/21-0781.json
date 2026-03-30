@@ -14,7 +14,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -67,18 +67,13 @@
         "widget": "text"
       }
     },
-    "firstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "areaCode": {
@@ -505,7 +500,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "Date Of Birth (MM/DD/YYYY)2. Social Security Number3. VA Fil",
+        "label": "Date of Birth Mm Dd Yyyy_2Social Security Number3Va Fil",
         "widget": "date"
       }
     },
@@ -607,7 +602,7 @@
     "yesIfYesCompleteItems_13bThrough_13e": {
       "type": "string",
       "x-va-field": {
-        "label": "YES (If \"Yes,\" complete Items 13B through 13E)",
+        "label": "Yes If Yes Complete Items_13b Through_13e",
         "widget": "radio"
       }
     },
@@ -719,7 +714,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0781-are.pdf",
     "status": "digitized",
     "totalFields": 113,
-    "composedFields": 100,
+    "composedFields": 99,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -732,6 +727,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.402187+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.049455+00:00"
   }
 }

@@ -32,18 +32,13 @@
         "widget": "text"
       }
     },
-    "lastFourNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
-      }
-    },
-    "firstThreeNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "areaCode": {
@@ -81,13 +76,6 @@
         "widget": "text"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
     "nameFirstMiddleLast": {
       "type": "string",
       "x-va-field": {
@@ -105,7 +93,7 @@
     "preferNotToSayother": {
       "type": "string",
       "x-va-field": {
-        "label": "Prefer Not To Sayother",
+        "label": "Prefer Not to Sayother",
         "widget": "text"
       }
     },
@@ -126,7 +114,7 @@
     "mobileNumberIncludeAreaCode_6HomeNumberIncludeAr": {
       "type": "string",
       "x-va-field": {
-        "label": "MOBILE NUMBER (Include Area Code) 6. HOME NUMBER (Include Ar",
+        "label": "Mobile Number Include Area Code_6Home Number Include Ar",
         "widget": "text"
       }
     },
@@ -206,7 +194,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-22-10282-are.pdf",
     "status": "digitized",
     "totalFields": 38,
-    "composedFields": 28,
+    "composedFields": 26,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -218,6 +206,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.117673+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.472550+00:00"
   }
 }

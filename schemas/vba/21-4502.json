@@ -37,7 +37,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -462,20 +462,6 @@
         "widget": "date"
       }
     },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "through": {
       "type": "string",
       "x-va-field": {
@@ -486,7 +472,7 @@
     "allowanceTowardsPurchaseOfAVehicleVeteransWhoAreR": {
       "type": "string",
       "x-va-field": {
-        "label": "Allowance towards purchase of a vehicle - Veterans who are r",
+        "label": "Allowance Towards Purchase of a Vehicle Veteran's Who Are R",
         "widget": "text"
       }
     },
@@ -521,7 +507,7 @@
     "makeSureThatSectionIiiOfVaForm_21_4502IsCompletedA": {
       "type": "string",
       "x-va-field": {
-        "label": "Make sure that Section III of VA Form 21-4502 is completed a",
+        "label": "Make Sure That Section Iii of VA Form_21_4502Is Completed a",
         "widget": "text"
       }
     },
@@ -542,7 +528,7 @@
     "giveTheOriginalVaForm_21_4502ToTheSeller": {
       "type": "string",
       "x-va-field": {
-        "label": "Give the original VA Form 21-4502 to the seller.",
+        "label": "Give the Original VA Form_21_4502To the Seller",
         "widget": "text"
       }
     },
@@ -577,7 +563,7 @@
     "submitTheOriginalCopyOfVaForm_21_4502AndItemizedInv": {
       "type": "string",
       "x-va-field": {
-        "label": "Submit the original copy of VA Form 21-4502 and itemized inv",
+        "label": "Submit the Original Copy of VA Form_21_4502And Itemized Inv",
         "widget": "text"
       }
     },
@@ -591,7 +577,7 @@
     "obtainTheOriginalCopyOfVaForm_21_4502FromTheVeteran": {
       "type": "string",
       "x-va-field": {
-        "label": "Obtain the original copy of VA Form 21-4502 from the veteran",
+        "label": "Obtain the Original Copy of VA Form_21_4502From the Veteran",
         "widget": "text"
       }
     },
@@ -684,7 +670,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-4502-are.pdf",
     "status": "digitized",
     "totalFields": 107,
-    "composedFields": 95,
+    "composedFields": 93,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -696,6 +682,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.432350+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.140785+00:00"
   }
 }

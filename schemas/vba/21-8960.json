@@ -14,7 +14,7 @@
     "nameofStudent": {
       "type": "string",
       "x-va-field": {
-        "label": "Nameof Student",
+        "label": "Name of Student",
         "widget": "text"
       }
     },
@@ -46,31 +46,19 @@
         "widget": "text"
       }
     },
-    "firstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "secondTwoNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -142,27 +130,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Give the Date and the Reason School Attendance Terminated",
-        "widget": "text"
-      }
-    },
-    "firstThreeNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "secondTwoNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Second Two Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers2": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
         "widget": "text"
       }
     },
@@ -243,7 +210,7 @@
     "returnWithin_60DaysTo": {
       "type": "string",
       "x-va-field": {
-        "label": "return within 60 days to",
+        "label": "Return Within_60Days to",
         "widget": "text"
       }
     },
@@ -395,27 +362,13 @@
         "label": "Date Signed (MM/DD/YYYY)",
         "widget": "date"
       }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-8960-are.pdf",
     "status": "digitized",
     "totalFields": 66,
-    "composedFields": 57,
+    "composedFields": 50,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -428,6 +381,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.452568+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.184895+00:00"
   }
 }

@@ -7,35 +7,35 @@
     "dateTimeField1": {
       "type": "string",
       "x-va-field": {
-        "label": "F P1 Date Time Field1",
+        "label": "Date Time Field",
         "widget": "text"
       }
     },
     "list1": {
       "type": "string",
       "x-va-field": {
-        "label": "F P1 Radio Button List1",
+        "label": "List",
         "widget": "text"
       }
     },
     "list2": {
       "type": "string",
       "x-va-field": {
-        "label": "F P1 Radio Button List2",
+        "label": "List",
         "widget": "text"
       }
     },
     "list3": {
       "type": "string",
       "x-va-field": {
-        "label": "F P1 Radio Button List3",
+        "label": "List",
         "widget": "text"
       }
     },
     "staticText21": {
       "type": "string",
       "x-va-field": {
-        "label": "F P1 Static Text21",
+        "label": "Static Text",
         "widget": "text"
       }
     },
@@ -43,13 +43,6 @@
       "type": "string",
       "x-va-field": {
         "label": "Estimated burden",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -91,7 +84,7 @@
     "fP1CheckBox5": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F P1 Check Box5",
+        "label": "F P1Check Box",
         "widget": "checkbox"
       }
     },
@@ -105,7 +98,7 @@
     "fP1CheckBox4": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F P1 Check Box4",
+        "label": "F P1Check Box",
         "widget": "checkbox"
       }
     },
@@ -168,7 +161,7 @@
     "fP1CheckBox2": {
       "type": "boolean",
       "x-va-field": {
-        "label": "F P1 Check Box2",
+        "label": "F P1Check Box",
         "widget": "checkbox"
       }
     },
@@ -213,7 +206,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA0381.pdf",
     "totalFields": 29,
-    "composedFields": 29,
+    "composedFields": 28,
     "coveragePercent": 100,
     "xfaLabelCount": 7,
     "needsReviewCount": 0,
@@ -226,6 +219,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.481799+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:35.592718+00:00"
   }
 }

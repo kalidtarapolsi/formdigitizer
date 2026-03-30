@@ -323,13 +323,6 @@
         "widget": "date"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "dateOfBirth": {
       "type": "string",
       "format": "date",
@@ -363,7 +356,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-21-0779-are.pdf",
     "status": "digitized",
     "totalFields": 68,
-    "composedFields": 49,
+    "composedFields": 48,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -376,6 +369,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.398851+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.067853+00:00"
   }
 }

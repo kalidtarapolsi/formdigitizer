@@ -350,7 +350,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Email address for the person listed in Boxes 24 and 25.",
+        "label": "Email Address for the Person Listed in Boxes_24And_",
         "widget": "email"
       }
     },
@@ -393,7 +393,7 @@
     "currentBank_9DigitRoutingNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Current Bank 9-Digit Routing Number:",
+        "label": "Current Bank_9Digit Routing Number",
         "widget": "text"
       }
     },
@@ -582,14 +582,14 @@
     "currentAddressIncludeStreetCityStateAndZipCode": {
       "type": "string",
       "x-va-field": {
-        "label": "CURRENT ADDRESS (Include Street, City, State and Zip Code)",
+        "label": "Current Address Include Street City State and ZIP Code",
         "widget": "address"
       }
     },
     "previousAddressIncludeStreetCityStateAndZipCode": {
       "type": "string",
       "x-va-field": {
-        "label": "PREVIOUS ADDRESS (Include Street, City, State and Zip Code)",
+        "label": "Previous Address Include Street City State and ZIP Code",
         "widget": "address"
       }
     },
@@ -703,6 +703,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.848267+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:35.960176+00:00"
   }
 }

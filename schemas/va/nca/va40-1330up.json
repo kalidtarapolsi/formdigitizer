@@ -271,13 +271,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "signatureOfApplicant": {
       "type": "string",
       "x-va-field": {
@@ -297,7 +290,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/va/pdf/VA40-1330UP.pdf",
     "totalFields": 41,
-    "composedFields": 40,
+    "composedFields": 39,
     "coveragePercent": 100,
     "xfaLabelCount": 18,
     "needsReviewCount": 0,
@@ -310,6 +303,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:21:34.592523+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.965073+00:00"
   }
 }

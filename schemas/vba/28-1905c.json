@@ -127,7 +127,7 @@
     "dobyear": {
       "type": "string",
       "x-va-field": {
-        "label": "Dobyear",
+        "label": "DOB Year",
         "widget": "text"
       }
     },
@@ -180,18 +180,13 @@
         "widget": "text"
       }
     },
-    "firstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "areaCode": {
@@ -384,7 +379,7 @@
       "type": "string",
       "format": "date",
       "x-va-field": {
-        "label": "12C. Begin Date Of Rate Of Pay Listed In Item #12A",
+        "label": "12c Begin Date of Rate of Pay Listed in Item_12a",
         "widget": "date"
       }
     },
@@ -413,7 +408,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Name Of Vr&E Counselor15. Email Address Of Vr&E Counselor",
+        "label": "Name of Vr E Counselor15Email Address of Vr E Counselor",
         "widget": "email"
       }
     },
@@ -437,7 +432,7 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Email Address Of Certifying Official17. Name Of Certifying O",
+        "label": "Email Address of Certifying Official17Name of Certifying O",
         "widget": "email"
       }
     },
@@ -445,15 +440,8 @@
       "type": "string",
       "format": "email",
       "x-va-field": {
-        "label": "Email Address Of Trainer19. Name Of Trainer",
+        "label": "Email Address of Trainer19Name of Trainer",
         "widget": "email"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
       }
     },
     "": {
@@ -465,7 +453,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-1905c-are.pdf",
     "status": "digitized",
     "totalFields": 72,
-    "composedFields": 64,
+    "composedFields": 62,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -478,6 +466,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.723585+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.775187+00:00"
   }
 }

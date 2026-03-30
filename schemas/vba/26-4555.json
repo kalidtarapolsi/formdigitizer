@@ -126,7 +126,7 @@
     "firstNameMiddleInitialLastName2SocialSecurityNo": {
       "type": "string",
       "x-va-field": {
-        "label": "First Name - Middle Initial - Last Name2. Social Security No",
+        "label": "First Name Middle Initial Last Name2Social Security no",
         "widget": "text"
       }
     },
@@ -195,13 +195,6 @@
         "widget": "text"
       }
     },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
     "12bDateSigned": {
       "type": "string",
       "format": "date",
@@ -215,7 +208,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-4555-are.pdf",
     "status": "digitized",
     "totalFields": 32,
-    "composedFields": 29,
+    "composedFields": 28,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -227,6 +220,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.667551+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.599055+00:00"
   }
 }

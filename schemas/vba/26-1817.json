@@ -7,7 +7,7 @@
     "vafileNumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Vafile Number",
+        "label": "VA File Number",
         "widget": "text"
       }
     },
@@ -216,20 +216,13 @@
         "label": "Important",
         "widget": "text"
       }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
-      }
     }
   },
   "x-va-metadata": {
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-26-1817-are.pdf",
     "status": "digitized",
     "totalFields": 33,
-    "composedFields": 31,
+    "composedFields": 30,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -241,6 +234,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.647892+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:42:36.549837+00:00"
   }
 }

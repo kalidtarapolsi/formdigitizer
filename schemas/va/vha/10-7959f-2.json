@@ -71,14 +71,14 @@
     "mailingaddress": {
       "type": "string",
       "x-va-field": {
-        "label": "Mailingaddress",
+        "label": "Mailing Address",
         "widget": "text"
       }
     },
     "telephonenumber": {
       "type": "string",
       "x-va-field": {
-        "label": "Telephonenumber",
+        "label": "Telephone Number",
         "widget": "text"
       }
     },
@@ -166,7 +166,7 @@
       "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
       "maxLength": 11,
       "x-va-field": {
-        "label": "Social Security Number (999-99-9999)",
+        "label": "Social Security Number_999_99_",
         "widget": "ssn"
       }
     },
@@ -195,7 +195,7 @@
     "statementOrRepresentationSee_18USC_287And_1001": {
       "type": "string",
       "x-va-field": {
-        "label": "statement or representation (See 18 U.S.C. 287 and 1001).",
+        "label": "Statement or Representation See_18USC_287And_",
         "widget": "select"
       }
     },
@@ -205,13 +205,6 @@
       "x-va-field": {
         "label": "represent actual services,",
         "widget": "date"
-      }
-    },
-    "privacyActStatement": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Statement",
-        "widget": "select"
       }
     },
     "purpose": {
@@ -224,7 +217,7 @@
     "chapters_1And_17RoutineUse": {
       "type": "string",
       "x-va-field": {
-        "label": "Chapters 1 and 17. Routine Use",
+        "label": "Chapters_1And_17Routine Use",
         "widget": "text"
       }
     },
@@ -239,7 +232,7 @@
   "x-va-metadata": {
     "formUrl": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-7959f-2.pdf",
     "totalFields": 35,
-    "composedFields": 32,
+    "composedFields": 31,
     "coveragePercent": 100,
     "xfaLabelCount": 14,
     "needsReviewCount": 0,
@@ -252,6 +245,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:04.836709+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:04.897306+00:00"
   }
 }

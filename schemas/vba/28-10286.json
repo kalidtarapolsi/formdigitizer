@@ -82,18 +82,13 @@
         "widget": "zip"
       }
     },
-    "firstThreeNumbers": {
+    "socialSecurityNumber": {
       "type": "string",
+      "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+      "maxLength": 11,
       "x-va-field": {
-        "label": "First Three Numbers",
-        "widget": "text"
-      }
-    },
-    "lastFourNumbers": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Last Four Numbers",
-        "widget": "text"
+        "label": "Social Security Number",
+        "widget": "ssn"
       }
     },
     "areaCode": {
@@ -213,7 +208,7 @@
     "ifIReceivedKickerPaymentsIAcknowledgeThatAnOverpay": {
       "type": "string",
       "x-va-field": {
-        "label": "If I Received Kicker Payments, I Acknowledge That An Overpay",
+        "label": "If I Received Kicker Payments I Acknowledge That an Overpay",
         "widget": "text"
       }
     },
@@ -245,20 +240,6 @@
       "x-va-field": {
         "label": "18B. Date Signed (",
         "widget": "date"
-      }
-    },
-    "penalty": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Penalty",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
-        "widget": "text"
       }
     },
     "mustUp": {
@@ -307,7 +288,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-28-10286-are.pdf",
     "status": "digitized",
     "totalFields": 50,
-    "composedFields": 42,
+    "composedFields": 39,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -320,6 +301,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T21:38:05.247952+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.752177+00:00"
   }
 }

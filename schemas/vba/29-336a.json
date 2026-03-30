@@ -213,7 +213,7 @@
     "firstNameMiddleInitialLastNameOfPrincipalBeneficiary": {
       "type": "string",
       "x-va-field": {
-        "label": "First Name - Middle Initial - Last Name Of Principal Beneficiary",
+        "label": "First Name Middle Initial Last Name of Principal Beneficiary",
         "widget": "text"
       }
     },
@@ -241,7 +241,7 @@
     "firstNameMiddleInitialLastNameOfContingentBeneficiary": {
       "type": "string",
       "x-va-field": {
-        "label": "First Name - Middle Initial - Last Name Of Contingent Beneficiary",
+        "label": "First Name Middle Initial Last Name of Contingent Beneficiary",
         "widget": "text"
       }
     },
@@ -312,13 +312,6 @@
       "type": "string",
       "x-va-field": {
         "label": "update your designation securely at",
-        "widget": "text"
-      }
-    },
-    "privacyActInformation": {
-      "type": "string",
-      "x-va-field": {
-        "label": "Privacy Act Information",
         "widget": "text"
       }
     },
@@ -421,7 +414,7 @@
     "formUrl": "https://www.vba.va.gov/pubs/forms/vba-29-336a-are.pdf",
     "status": "digitized",
     "totalFields": 75,
-    "composedFields": 58,
+    "composedFields": 57,
     "coveragePercent": 100,
     "xfaLabelCount": 0,
     "needsReviewCount": 0,
@@ -434,6 +427,6 @@
       "acroform+text-inference",
       "text-inference"
     ],
-    "fieldNameFixedAt": "2026-03-30T22:17:47.739802+00:00"
+    "fieldNameFixedAt": "2026-03-30T22:55:05.810498+00:00"
   }
 }
