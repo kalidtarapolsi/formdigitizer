@@ -1153,10 +1153,119 @@ function renderIntroStep(schema, vaForm, org, steps) {
     return html;
 }
 
+// ─── Shared helpers for name grouping and label disambiguation ───
+function detectNameGroups(fieldEntries) {
+    const consumed = new Set();
+    const groups = [];
+    const nameRe = /^(.+?)(first\s*name|last\s*name|middle\s*(?:initial|name)\d*)$/i;
+    for (let n = 0; n < fieldEntries.length; n++) {
+        const [key] = fieldEntries[n];
+        const nm = key.match(nameRe);
+        if (!nm) continue;
+        const prefix = nm[1];
+        const part = nm[2].toLowerCase();
+        if (part.startsWith('first')) {
+            let lastIdx = -1, middleIdx = -1;
+            for (let k = 0; k < fieldEntries.length; k++) {
+                if (k === n) continue;
+                const km = fieldEntries[k][0].match(nameRe);
+                if (!km || km[1] !== prefix) continue;
+                const kp = km[2].toLowerCase();
+                if (kp.startsWith('last')) lastIdx = k;
+                else if (kp.startsWith('middle')) middleIdx = k;
+            }
+            if (lastIdx !== -1) {
+                const groupLabel = prefix
+                    ? humanize(prefix.replace(/s$/, "'s")) + ' Full Name'
+                    : 'Full Name';
+                groups.push({ prefix, firstIdx: n, lastIdx, middleIdx, label: groupLabel });
+                consumed.add(n);
+                consumed.add(lastIdx);
+                if (middleIdx !== -1) consumed.add(middleIdx);
+            }
+        }
+    }
+    return { nameGroups: groups, nameGroupConsumed: consumed };
+}
+
+function buildLabelCounts(fieldEntries) {
+    const counts = {};
+    for (const [key, def] of fieldEntries) {
+        const vaField = def?.['x-va-field'] || {};
+        const lbl = vaField.label || humanize(key);
+        counts[lbl] = (counts[lbl] || 0) + 1;
+    }
+    return counts;
+}
+
+function disambiguateLabel(label, labelCounts, labelSeen) {
+    if (labelCounts[label] > 1) {
+        labelSeen[label] = (labelSeen[label] || 0) + 1;
+        if (labelSeen[label] > 1) return label + ' (' + labelSeen[label] + ')';
+    }
+    return label;
+}
+
+function renderNameGroupHtml(grp, fieldEntries) {
+    const firstKey = fieldEntries[grp.firstIdx][0];
+    const lastKey = fieldEntries[grp.lastIdx][0];
+    const middleKey = grp.middleIdx !== -1 ? fieldEntries[grp.middleIdx][0] : null;
+    return `<fieldset class="va-field">
+        <legend class="va-field-label">${esc(grp.label)}</legend>
+        <div class="va-address-row" style="gap:0.75rem;">
+            <div class="va-field" style="flex:2;">
+                <label for="f_${firstKey}">First name</label>
+                <input type="text" id="f_${firstKey}" name="${firstKey}">
+            </div>
+            ${middleKey ? '<div class="va-field" style="flex:0.5;"><label for="f_' + middleKey + '">Middle</label><input type="text" id="f_' + middleKey + '" name="' + middleKey + '" maxlength="1"></div>' : ''}
+            <div class="va-field" style="flex:2;">
+                <label for="f_${lastKey}">Last name</label>
+                <input type="text" id="f_${lastKey}" name="${lastKey}">
+            </div>
+        </div>
+    </fieldset>`;
+}
+
 function renderSectionStep(schema, section) {
     const props = schema.properties || {};
     const requiredList = new Set(schema.required || []);
     const defs = schema.definitions || {};
+
+    // ─── Pre-scan: flatten all field IDs in this section for name grouping + label dedup ───
+    const flatFieldEntries = [];
+    if (section.rows) {
+        for (const row of section.rows) {
+            for (const col of row.columns) {
+                let fieldDef = props[col.fieldId];
+                if (!fieldDef) continue;
+                if (fieldDef.oneOf) {
+                    const objDef = fieldDef.oneOf.find(o => o.type === 'object');
+                    if (objDef) fieldDef = objDef;
+                }
+                if (fieldDef.type === 'object' && fieldDef.properties && !fieldDef['x-va-field']) {
+                    for (const [subId, subDef] of Object.entries(fieldDef.properties)) {
+                        let resolved = subDef;
+                        if (subDef.$ref) {
+                            const refName = subDef.$ref.replace('#/definitions/', '');
+                            resolved = defs[refName] || subDef;
+                        }
+                        flatFieldEntries.push([col.fieldId + '.' + subId, resolved]);
+                    }
+                } else {
+                    flatFieldEntries.push([col.fieldId, fieldDef]);
+                }
+            }
+        }
+    }
+    const { nameGroups: secNameGroups, nameGroupConsumed: secConsumed } = detectNameGroups(flatFieldEntries);
+    const secLabelCounts = buildLabelCounts(flatFieldEntries);
+    const secLabelSeen = {};
+    // Build a set of consumed compound IDs for quick lookup
+    const consumedIds = new Set();
+    for (const idx of secConsumed) consumedIds.add(flatFieldEntries[idx][0]);
+    // Map firstName compound IDs to their group
+    const firstIdToGroup = {};
+    for (const grp of secNameGroups) firstIdToGroup[flatFieldEntries[grp.firstIdx][0]] = grp;
 
     let html = '<div class="va-step-page">';
     html += `<h2>${esc(section.title)}</h2>`;
@@ -1196,21 +1305,47 @@ function renderSectionStep(schema, section) {
                             const refName = subDef.$ref.replace('#/definitions/', '');
                             resolved = defs[refName] || subDef;
                         }
-                        const subVaField = resolved['x-va-field'] || {};
                         const compoundId = col.fieldId + '.' + subId;
+
+                        // Name group: skip consumed fields, render group at firstName
+                        if (consumedIds.has(compoundId)) {
+                            const grp = firstIdToGroup[compoundId];
+                            if (grp) {
+                                html += '<div class="va-form-row"><div class="col-12">';
+                                html += renderNameGroupHtml(grp, flatFieldEntries);
+                                html += '</div></div>';
+                            }
+                            continue;
+                        }
+
+                        const subVaField = resolved['x-va-field'] || {};
                         // Use sub-field's description or humanized sub-key as label (not the compound ID)
-                        const subLabel = subVaField.label || resolved.description || humanize(subId);
+                        let subLabel = subVaField.label || resolved.description || humanize(subId);
+                        subLabel = disambiguateLabel(subLabel, secLabelCounts, secLabelSeen);
                         html += '<div class="va-form-row"><div class="col-12">';
                         html += renderVAField(compoundId, resolved, { ...subVaField, label: subLabel }, subReq.has(subId));
                         html += '</div></div>';
                     }
                 } else {
+                    // Skip consumed name group fields
+                    if (consumedIds.has(col.fieldId)) {
+                        const grp = firstIdToGroup[col.fieldId];
+                        if (grp) {
+                            html += '<div class="va-form-row"><div class="col-12">';
+                            html += renderNameGroupHtml(grp, flatFieldEntries);
+                            html += '</div></div>';
+                        }
+                        continue;
+                    }
+
                     // Normal flat field
                     const vaField = fieldDef['x-va-field'] || {};
+                    let label = vaField.label || humanize(col.fieldId);
+                    label = disambiguateLabel(label, secLabelCounts, secLabelSeen);
                     const isRequired = requiredList.has(col.fieldId) || vaField.required;
                     html += '<div class="va-form-row">';
                     html += `<div class="col-${col.width}">`;
-                    html += renderVAField(col.fieldId, fieldDef, vaField, isRequired);
+                    html += renderVAField(col.fieldId, fieldDef, { ...vaField, label }, isRequired);
                     html += '</div></div>';
                 }
             }
@@ -1250,47 +1385,10 @@ function renderLegacyStep(schema, step) {
     const sectionTitle = step.title || vaForm.formTitle || 'Form Fields';
     html += `<h2>${esc(sectionTitle)}</h2>`;
 
-    // ─── Pre-scan: count label occurrences for disambiguation ───
-    const labelCounts = {};
-    for (const [key, def] of fieldEntries) {
-        const vaField = def?.['x-va-field'] || {};
-        const lbl = vaField.label || humanize(key);
-        labelCounts[lbl] = (labelCounts[lbl] || 0) + 1;
-    }
+    // ─── Pre-scan: shared helpers for label dedup and name grouping ───
+    const labelCounts = buildLabelCounts(fieldEntries);
     const labelSeen = {};
-
-    // ─── Pre-scan: detect name field groups (firstName/lastName/middleInitial) ───
-    const nameGroupConsumed = new Set();
-    const nameGroups = []; // { prefix, firstIdx, lastIdx, middleIdx, label }
-    const nameRe = /^(.+?)(first\s*name|last\s*name|middle\s*(?:initial|name)\d*)$/i;
-    for (let n = 0; n < fieldEntries.length; n++) {
-        const [key] = fieldEntries[n];
-        const nm = key.match(nameRe);
-        if (!nm) continue;
-        const prefix = nm[1];
-        const part = nm[2].toLowerCase();
-        if (part.startsWith('first')) {
-            // Look for matching last (and optional middle) with same prefix
-            let lastIdx = -1, middleIdx = -1;
-            for (let k = 0; k < fieldEntries.length; k++) {
-                if (k === n) continue;
-                const km = fieldEntries[k][0].match(nameRe);
-                if (!km || km[1] !== prefix) continue;
-                const kp = km[2].toLowerCase();
-                if (kp.startsWith('last')) lastIdx = k;
-                else if (kp.startsWith('middle')) middleIdx = k;
-            }
-            if (lastIdx !== -1) {
-                const groupLabel = prefix
-                    ? humanize(prefix.replace(/s$/, "'s")) + ' Full Name'
-                    : 'Full Name';
-                nameGroups.push({ prefix, firstIdx: n, lastIdx, middleIdx, label: groupLabel });
-                nameGroupConsumed.add(n);
-                nameGroupConsumed.add(lastIdx);
-                if (middleIdx !== -1) nameGroupConsumed.add(middleIdx);
-            }
-        }
-    }
+    const { nameGroups, nameGroupConsumed } = detectNameGroups(fieldEntries);
 
     // ─── Detect repeated field groups and render as tables ───
     // Parse field keys to find numbered groups: "date1","from1","amount1","date2","from2","amount2"...
@@ -1301,27 +1399,8 @@ function renderLegacyStep(schema, step) {
 
         // Check if this field is consumed by a name group
         if (nameGroupConsumed.has(i)) {
-            // If this is the firstName index, render the group now
             const grp = nameGroups.find(g => g.firstIdx === i);
-            if (grp) {
-                const firstKey = fieldEntries[grp.firstIdx][0];
-                const lastKey = fieldEntries[grp.lastIdx][0];
-                const middleKey = grp.middleIdx !== -1 ? fieldEntries[grp.middleIdx][0] : null;
-                html += `<fieldset class="va-field">
-                    <legend class="va-field-label">${esc(grp.label)}</legend>
-                    <div class="va-address-row" style="gap:0.75rem;">
-                        <div class="va-field" style="flex:2;">
-                            <label for="f_${firstKey}">First name</label>
-                            <input type="text" id="f_${firstKey}" name="${firstKey}">
-                        </div>
-                        ${middleKey ? '<div class="va-field" style="flex:0.5;"><label for="f_' + middleKey + '">Middle</label><input type="text" id="f_' + middleKey + '" name="' + middleKey + '" maxlength="1"></div>' : ''}
-                        <div class="va-field" style="flex:2;">
-                            <label for="f_${lastKey}">Last name</label>
-                            <input type="text" id="f_${lastKey}" name="${lastKey}">
-                        </div>
-                    </div>
-                </fieldset>`;
-            }
+            if (grp) html += renderNameGroupHtml(grp, fieldEntries);
             i++;
             continue;
         }
@@ -1415,11 +1494,7 @@ function renderLegacyStep(schema, step) {
         // Regular field — render normally
         const vaField = def?.['x-va-field'] || {};
         let label = vaField.label || humanize(key);
-        // Disambiguate duplicate labels
-        if (labelCounts[label] > 1) {
-            labelSeen[label] = (labelSeen[label] || 0) + 1;
-            if (labelSeen[label] > 1) label += ' (' + labelSeen[label] + ')';
-        }
+        label = disambiguateLabel(label, labelCounts, labelSeen);
         const isRequired = requiredList.has(key);
         html += renderVAField(key, def, { ...vaField, label }, isRequired);
         i++;
@@ -1815,7 +1890,7 @@ function humanize(str) {
         .replace(/\bSsn\b/g, 'SSN').replace(/\bDob\b/g, 'Date of Birth')
         .replace(/\bVa\b/g, 'VA').replace(/\bId\b/g, 'ID');
     // Strip embedded PDF metadata phrases
-    s = s.replace(/\s*This Is A\s*Read\s*Only Field\b/gi, '')
+    s = s.replace(/\s*This Is (?:A\s*Read|Aread)\s*Only Field\b/gi, '')
          .replace(/\s*That Auto\s*populated From Page\s*\d*/gi, '')
          .replace(/\s*Do Not Write In This Space/gi, '')
          .replace(/\s*For VA Use Only/gi, '')
