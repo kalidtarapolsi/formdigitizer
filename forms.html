@@ -1760,6 +1760,8 @@ const _sigLabels = ["Veteran's Signature", "Witness/Representative Signature", "
 function renderVAField(fieldId, def, vaField, isRequired) {
     if (!def) return '';
     let label = (vaField.label ? stripPdfMetadata(vaField.label) : '') || humanize(fieldId);
+    // Repair Spanish diacritics stripped during PDF extraction
+    label = repairSpanishDiacritics(label);
     let widget = vaField.widget || guessWidget(fieldId, def);
     // Override widget for signature fields that were mis-typed as "text" in the schema
     if (widget === 'text' && /^signature/i.test(fieldId) && !/design|assign/i.test(fieldId)) widget = 'signature';
@@ -1772,6 +1774,22 @@ function renderVAField(fieldId, def, vaField, isRequired) {
     if (widget === 'text' && /phone|telephone|fax/i.test(fieldId)) widget = 'phone';
     // Override widget for email fields mis-typed as "text"
     if (widget === 'text' && /email|emailAddress/i.test(fieldId) && def.type === 'string') widget = 'email';
+    // Override widget for checkbox fields mis-typed as "text" — "radioisotopesYes", "check1", etc.
+    if (widget === 'text') {
+        const _kl = fieldId.toLowerCase();
+        if (/yes$/i.test(fieldId) && !/address/i.test(fieldId)) widget = 'checkbox';
+        else if (/no$/i.test(fieldId) && !/securityno|claimno|accountno|stationno|fileno|wardno|loano|insuranceno|transferno|phoneno|sono|pono|prno|cbno|socksize/i.test(_kl)) widget = 'checkbox';
+        else if (/^check\d*$/i.test(fieldId) || /checkbox\d*$/i.test(fieldId)) widget = 'checkbox';
+        else if (/indicator$/i.test(fieldId)) widget = 'checkbox';
+    }
+    // Override for enum fields that got widget:"text" — should render as select
+    if (widget === 'text' && def.enum && def.enum.length > 0) widget = 'select';
+    // Clean up checkbox labels — strip redundant trailing "Yes"/"No" and add "?" for question phrasing
+    if (widget === 'checkbox') {
+        label = label.replace(/\s+(Yes|No)\s*$/i, '').replace(/\s*\?\s*$/, '');
+        // If label reads like a question (starts with verb/contains question words), add "?"
+        if (/^(Do|Does|Did|Is|Are|Was|Were|Have|Has|Had|Can|Will|Should)\b/i.test(label)) label += '?';
+    }
     // Improve generic "Signature Field" labels with contextual names
     if (widget === 'signature' && /^signature\s*field/i.test(label)) {
         label = _sigLabels[_sigFieldCounter] || ('Signature ' + (_sigFieldCounter + 1));
@@ -1953,6 +1971,15 @@ function guessWidget(key, def) {
     if (/signature/i.test(key) && !/design|assign/i.test(key)) return 'signature';
     if (/\bsign(?:ed)?\b/i.test(key) && !/signif|signal|design|assign|date.*sign/i.test(key)) return 'signature';
     if (def.type === 'boolean') return 'checkbox';
+    // Detect checkbox fields by ID pattern — "radioisotopesYes", "humanSubjectsNo", "check1"
+    // Exclude false positives: "No" meaning "Number" (socialSecurityNo, claimNo, accountNo, stationNo, fileNo, wardNo)
+    if (def.type === 'string') {
+        const kl = key.toLowerCase();
+        if (/yes$/i.test(key) && !/address/i.test(key)) return 'checkbox';
+        if (/no$/i.test(key) && !/securityno|claimno|accountno|stationno|fileno|wardno|loano|insuranceno|transferno|phoneno|sono|pono|prno|cbno|socksize/i.test(kl)) return 'checkbox';
+        if (/^check\d*$/i.test(key) || /checkbox\d*$/i.test(key)) return 'checkbox';
+        if (/indicator$/i.test(key)) return 'checkbox';
+    }
     if (def.type === 'object' && def.properties) {
         if (def.properties.street || def.properties.city || def.properties.postalCode) return 'address';
         if (def.properties.first && def.properties.last) return 'fullname';
@@ -2010,6 +2037,30 @@ function stripPdfMetadata(s) {
          .replace(/\s+/g, ' ').trim();
 }
 
+// ─── Spanish diacritics repair — fix accent-stripped words from PDF extraction ───
+const _spanishFixes = {
+    'direccin': 'Dirección', 'cdigo': 'Código', 'cdigoposta': 'Código Postal',
+    'mdico': 'Médico', 'nmero': 'Número', 'telfono': 'Teléfono',
+    'organizacin': 'Organización', 'posicin': 'Posición', 'pgina': 'Página',
+    'atencin': 'Atención', 'admisinjn': 'Admisión', 'terminacin': 'Terminación',
+    'prrafo': 'Párrafo', 'cnyuge': 'Cónyuge', 'telefnicos': 'Telefónicos',
+    'provedo': 'Proveído', 'instruccione': 'Instrucciones',
+    'mdicos': 'Médicos', 'nmeros': 'Números',
+};
+function repairSpanishDiacritics(s) {
+    let result = s;
+    for (const [broken, fixed] of Object.entries(_spanishFixes)) {
+        const re = new RegExp(broken, 'gi');
+        result = result.replace(re, (m) => {
+            // Preserve original case pattern
+            if (m === m.toUpperCase()) return fixed.toUpperCase();
+            if (m[0] === m[0].toUpperCase()) return fixed;
+            return fixed.toLowerCase();
+        });
+    }
+    return result;
+}
+
 function humanize(str) {
     // Handle very short/numeric field IDs — use them as-is with "Field" prefix
     if (/^\d+[a-z]?$/i.test(str) && str.length <= 3) return 'Field ' + str.toUpperCase();
@@ -2023,6 +2074,7 @@ function humanize(str) {
         .replace(/\bDod\b/g, 'DOD').replace(/\bPow\b/g, 'POW')
         .replace(/\bUsmc\b/g, 'USMC').replace(/\bDob\b/g, 'DOB');
     s = stripPdfMetadata(s);
+    s = repairSpanishDiacritics(s);
     // Truncate very long labels to ~65 chars at a word boundary
     if (s.length > 70) {
         s = s.substring(0, 65).replace(/\s+\S*$/, '') + '…';
