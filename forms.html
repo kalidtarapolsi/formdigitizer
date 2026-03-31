@@ -910,62 +910,50 @@ function getFormSteps(schema) {
             { type: 'review', title: 'Review & Submit' }
         ];
     } else {
-        // Legacy: try to auto-detect sections from field ID prefixes
+        // Legacy: no explicit sections — auto-paginate based on field count + page metadata
         const props = schema.properties || {};
         const fieldKeys = Object.keys(props).filter(k => k !== 'x-va-metadata');
+        const vaForm = schema['x-va-form'] || {};
+        const totalPages = parseInt(vaForm.pages) || 1;
 
-        if (fieldKeys.length > 20) {
-            // Group by common prefix (e.g., "veteran*", "spouse*", "financial*")
-            const groups = [];
-            let currentGroup = { prefix: '', keys: [] };
-            const prefixRe = /^([a-z]+(?:s|es|ed)?)/i;
-
-            for (const key of fieldKeys) {
-                const pm = key.match(prefixRe);
-                const prefix = pm ? pm[1].toLowerCase() : '';
-                // Start a new group if prefix changes and current group has fields
-                if (currentGroup.keys.length > 0 && prefix !== currentGroup.prefix && currentGroup.keys.length >= 3) {
-                    groups.push(currentGroup);
-                    currentGroup = { prefix, keys: [key] };
-                } else {
-                    if (currentGroup.keys.length === 0) currentGroup.prefix = prefix;
-                    currentGroup.keys.push(key);
-                }
-            }
-            if (currentGroup.keys.length > 0) groups.push(currentGroup);
-
-            // If we got meaningful groups (3+), use them; otherwise chunk by ~15
-            let sections;
-            if (groups.length >= 3) {
-                sections = groups.map(g => ({
-                    type: 'legacy',
-                    title: humanize(g.prefix) + ' Information',
-                    fieldKeys: g.keys
-                }));
-            } else {
-                // Chunk into pages of ~15 fields
-                sections = [];
-                for (let c = 0; c < fieldKeys.length; c += 15) {
-                    const chunk = fieldKeys.slice(c, c + 15);
-                    const pageNum = Math.floor(c / 15) + 1;
-                    sections.push({
-                        type: 'legacy',
-                        title: 'Section ' + pageNum,
-                        fieldKeys: chunk
-                    });
-                }
-            }
+        if (fieldKeys.length <= 12) {
+            // Small form: single step with form title
             return [
                 { type: 'intro', title: 'Introduction' },
-                ...sections,
+                { type: 'legacy', title: vaForm.formTitle || 'Form Fields' },
                 { type: 'review', title: 'Review & Submit' }
             ];
         }
 
-        // Small form: single legacy step
+        // For larger forms, chunk fields into pages
+        // Target: ~10-12 fields per page, using PDF page count as a guide
+        const targetPages = Math.max(totalPages, Math.ceil(fieldKeys.length / 12));
+        const chunkSize = Math.ceil(fieldKeys.length / targetPages);
+        const sections = [];
+        for (let c = 0; c < fieldKeys.length; c += chunkSize) {
+            const chunk = fieldKeys.slice(c, c + chunkSize);
+            const pageNum = sections.length + 1;
+            // Derive section title from the first field in the chunk
+            const firstKey = chunk[0];
+            const firstDef = props[firstKey] || {};
+            const firstVaField = firstDef['x-va-field'] || {};
+            let sectionTitle;
+            if (targetPages <= 4) {
+                // Few pages: use "Part X" naming
+                sectionTitle = 'Part ' + pageNum;
+            } else {
+                // Many pages: use "Page X of Y"
+                sectionTitle = 'Page ' + pageNum + ' of ' + targetPages;
+            }
+            sections.push({
+                type: 'legacy',
+                title: sectionTitle,
+                fieldKeys: chunk
+            });
+        }
         return [
             { type: 'intro', title: 'Introduction' },
-            { type: 'legacy', title: 'Form Fields' },
+            ...sections,
             { type: 'review', title: 'Review & Submit' }
         ];
     }
@@ -1094,13 +1082,6 @@ function renderIntroStep(schema, vaForm, org, steps) {
             if (sec.title && sec.title !== 'Additional Information') {
                 html += `<li>${esc(sec.title)}</li>`;
             }
-        }
-        html += '</ul>';
-    } else if (autoSections.length > 0) {
-        // Auto-generated sections from prefix grouping
-        html += '<p><strong>Here\'s what this form will ask for:</strong></p><ul>';
-        for (const sec of autoSections) {
-            html += `<li>${esc(sec.title)}</li>`;
         }
         html += '</ul>';
     } else {
@@ -1866,6 +1847,8 @@ function renderVAField(fieldId, def, vaField, isRequired) {
 }
 
 function guessWidget(key, def) {
+    // Signature check first — signature fields are often typed as boolean but should render as signature pad
+    if (/signature|sign/i.test(key) && !/signif|signal|design|assign/i.test(key)) return 'signature';
     if (def.type === 'boolean') return 'checkbox';
     if (def.type === 'object' && def.properties) {
         if (def.properties.street || def.properties.city || def.properties.postalCode) return 'address';
@@ -1877,7 +1860,6 @@ function guessWidget(key, def) {
     if (def.format === 'email') return 'email';
     if (/ssn/i.test(key)) return 'ssn';
     if (/phone|telephone/i.test(key)) return 'phone';
-    if (/signature|sign/i.test(key)) return 'signature';
     if (/remark|comment|explanation|narrative|describe|diagnosis/i.test(key)) return 'textarea';
     return 'text';
 }
