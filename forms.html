@@ -1176,7 +1176,7 @@ function detectNameGroups(fieldEntries) {
             }
             if (lastIdx !== -1) {
                 const groupLabel = prefix
-                    ? humanize(prefix.replace(/s$/, "'s")) + ' Full Name'
+                    ? humanize(prefix).replace(/s$/i, '') + "'s Full Name"
                     : 'Full Name';
                 groups.push({ prefix, firstIdx: n, lastIdx, middleIdx, label: groupLabel });
                 consumed.add(n);
@@ -1707,7 +1707,7 @@ function navigateToStep(stepIndex) {
 // ─── Render a single field ───
 function renderVAField(fieldId, def, vaField, isRequired) {
     if (!def) return '';
-    const label = vaField.label || humanize(fieldId);
+    const label = vaField.label ? stripPdfMetadata(vaField.label) : humanize(fieldId);
     const widget = vaField.widget || guessWidget(fieldId, def);
     const reqMark = isRequired ? '<span class="required-mark">(*Required)</span>' : '';
     const hintId = vaField.note ? 'hint_' + fieldId : '';
@@ -1882,6 +1882,16 @@ function guessWidget(key, def) {
     return 'text';
 }
 
+function stripPdfMetadata(s) {
+    return s.replace(/\s*This Is (?:A\s*Read|Aread)\s*Only Field\b/gi, '')
+         .replace(/\s*That Auto\s*populated From Page\s*\d*/gi, '')
+         .replace(/\s*Do Not Write In This Space/gi, '')
+         .replace(/\s*For VA Use Only/gi, '')
+         .replace(/\s*This is A?read Only Field\b/gi, '')
+         .replace(/\s+Page\s*\d+$/i, '')
+         .replace(/\s+/g, ' ').trim();
+}
+
 function humanize(str) {
     // Strip trailing digits before camelCase split (e.g., buildingPaper2 → buildingPaper)
     let s = str.replace(/\d+$/, '');
@@ -1889,13 +1899,7 @@ function humanize(str) {
         .replace(/\b\w/g, c => c.toUpperCase())
         .replace(/\bSsn\b/g, 'SSN').replace(/\bDob\b/g, 'Date of Birth')
         .replace(/\bVa\b/g, 'VA').replace(/\bId\b/g, 'ID');
-    // Strip embedded PDF metadata phrases
-    s = s.replace(/\s*This Is (?:A\s*Read|Aread)\s*Only Field\b/gi, '')
-         .replace(/\s*That Auto\s*populated From Page\s*\d*/gi, '')
-         .replace(/\s*Do Not Write In This Space/gi, '')
-         .replace(/\s*For VA Use Only/gi, '')
-         .replace(/\s+Page\s*\d+$/i, '');
-    return s.replace(/\s+/g, ' ').trim();
+    return stripPdfMetadata(s);
 }
 
 function esc(str) {
