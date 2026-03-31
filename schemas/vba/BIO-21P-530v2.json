@@ -1,0 +1,557 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "BIO-21P-530v2",
+  "type": "object",
+  "additionalProperties": true,
+  "x-va-form": {
+    "formNumber": "BIO-21P-530v2",
+    "formTitle": "Application for Burial Benefits",
+    "bioReference": true,
+    "source": "VA Official (vets-json-schema)",
+    "formSections": [
+      {
+        "title": "Location of Death",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "locationOfDeath",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Final Resting Place",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "finalRestingPlace",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Military Service",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "toursOfDuty",
+                "width": 12
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "previousNames",
+                "width": 12
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "serviceNumber",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Burial and Plot Information",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "burialCost",
+                "width": 6
+              },
+              {
+                "fieldId": "burialDate",
+                "width": 6
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "deathDate",
+                "width": 6
+              },
+              {
+                "fieldId": "placeOfBirth",
+                "width": 6
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "burialExpenseResponsibility",
+                "width": 12
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "plotExpenseResponsibility",
+                "width": 12
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "unclaimedRemains",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Benefits and Allowances",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "allowanceStatementOfTruth",
+                "width": 12
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "previouslyReceivedAllowance",
+                "width": 12
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "benefitsUnclaimedRemains",
+                "width": 12
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "transportationExpenses",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cemetery Information",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "placeOfRemains",
+                "width": 12
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "federalCemetery",
+                "width": 6
+              },
+              {
+                "fieldId": "stateCemetery",
+                "width": 6
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "fieldId": "govtContributions",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "x-va-metadata": {
+    "status": "bio-reference"
+  },
+  "definitions": {
+    "dateRange": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "type": "string",
+          "format": "date"
+        },
+        "to": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string"
+        },
+        "middle": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        },
+        "suffix": {
+          "type": "string",
+          "enum": [
+            "Jr.",
+            "Sr.",
+            "II",
+            "III",
+            "IV"
+          ]
+        }
+      }
+    },
+    "profileAddress": {
+      "type": "object",
+      "properties": {
+        "isMilitary": {
+          "type": "boolean"
+        },
+        "street": {
+          "type": "string"
+        },
+        "street2": {
+          "type": "string"
+        },
+        "street3": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "vaFileNumber"
+      ]
+    },
+    {
+      "required": [
+        "veteranSocialSecurityNumber"
+      ]
+    }
+  ],
+  "properties": {
+    "locationOfDeath": {
+      "type": "object",
+      "required": [
+        "location"
+      ],
+      "properties": {
+        "location": {
+          "type": "string",
+          "enum": [
+            "atHome",
+            "nursingHomeUnpaid",
+            "nursingHomePaid",
+            "vaMedicalCenter",
+            "stateVeteransHome",
+            "other"
+          ]
+        },
+        "other": {
+          "type": "string"
+        },
+        "nursingHomeUnpaid": {
+          "type": "object",
+          "properties": {
+            "facilityName": {
+              "type": "string"
+            },
+            "facilityLocation": {
+              "type": "string"
+            }
+          }
+        },
+        "nursingHomePaid": {
+          "type": "object",
+          "properties": {
+            "facilityName": {
+              "type": "string"
+            },
+            "facilityLocation": {
+              "type": "string"
+            }
+          }
+        },
+        "vaMedicalCenter": {
+          "type": "object",
+          "properties": {
+            "facilityName": {
+              "type": "string"
+            },
+            "facilityLocation": {
+              "type": "string"
+            }
+          }
+        },
+        "stateVeteransHome": {
+          "type": "object",
+          "properties": {
+            "facilityName": {
+              "type": "string"
+            },
+            "facilityLocation": {
+              "type": "string"
+            }
+          }
+        },
+        "homeHospiceCare": {
+          "type": "boolean"
+        },
+        "homeHospiceCareAfterDischarge": {
+          "type": "boolean"
+        }
+      }
+    },
+    "finalRestingPlace": {
+      "type": "object",
+      "required": [
+        "location"
+      ],
+      "properties": {
+        "location": {
+          "type": "string",
+          "enum": [
+            "cemetery",
+            "mausoleum",
+            "privateResidence",
+            "other"
+          ]
+        },
+        "other": {
+          "type": "string"
+        }
+      }
+    },
+    "toursOfDuty": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "properties": {
+          "serviceBranch": {
+            "type": "string",
+            "enum": [
+              "Air Force",
+              "Air Force Reserve",
+              "Air National Guard",
+              "Army",
+              "Army National Guard",
+              "Army Reserve",
+              "Coast Guard",
+              "Coast Guard Reserve",
+              "Marine Corps",
+              "Marine Corps Reserve",
+              "Navy",
+              "Navy Reserve",
+              "Other"
+            ]
+          },
+          "dateRange": {
+            "$ref": "#/definitions/dateRange"
+          },
+          "placeOfEntry": {
+            "type": "string"
+          },
+          "placeOfSeparation": {
+            "type": "string"
+          },
+          "rank": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "previousNames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "first",
+          "last"
+        ],
+        "properties": {
+          "first": {
+            "type": "string"
+          },
+          "middle": {
+            "type": "string"
+          },
+          "last": {
+            "type": "string"
+          },
+          "suffix": {
+            "type": "string",
+            "enum": [
+              "Jr.",
+              "Sr.",
+              "II",
+              "III",
+              "IV"
+            ]
+          }
+        }
+      }
+    },
+    "serviceNumber": {
+      "type": "string"
+    },
+    "unclaimedRemains": {
+      "type": "boolean"
+    },
+    "burialCost": {
+      "type": "number"
+    },
+    "burialExpenseResponsibility": {
+      "type": "boolean"
+    },
+    "plotExpenseResponsibility": {
+      "type": "boolean"
+    },
+    "allowanceStatementOfTruth": {
+      "type": "boolean"
+    },
+    "previouslyReceivedAllowance": {
+      "type": "boolean"
+    },
+    "benefitsUnclaimedRemains": {
+      "type": "boolean"
+    },
+    "placeOfRemains": {
+      "type": "string"
+    },
+    "federalCemetery": {
+      "type": "boolean"
+    },
+    "stateCemetery": {
+      "type": "boolean"
+    },
+    "govtContributions": {
+      "type": "boolean"
+    },
+    "transportationExpenses": {
+      "type": "boolean"
+    },
+    "formV2": {
+      "type": "boolean",
+      "default": true
+    },
+    "placeOfBirth": {
+      "type": "string"
+    },
+    "privacyAgreementAccepted": {
+      "type": "boolean"
+    },
+    "claimantAddress": {
+      "$ref": "#/definitions/profileAddress"
+    },
+    "claimantFullName": {
+      "$ref": "#/definitions/fullName"
+    },
+    "veteranFullName": {
+      "$ref": "#/definitions/fullName"
+    },
+    "claimantSocialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{9}$"
+    },
+    "veteranSocialSecurityNumber": {
+      "type": "string",
+      "pattern": "^\\d{9}$"
+    },
+    "vaFileNumber": {
+      "type": "string"
+    },
+    "burialDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "deathDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "claimantDateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "veteranDateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "militarySeparationDocuments": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "deathCertificate": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "transportationReceipts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "additionalEvidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "required": [
+    "privacyAgreementAccepted",
+    "claimantAddress",
+    "veteranFullName"
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "BIO-21-0779",
+  "type": "object",
+  "x-va-form": {
+    "formNumber": "BIO-21-0779",
+    "formTitle": "Request for Nursing Home Information in Connection with Claim for Aid and Attendance",
+    "bioReference": true,
+    "source": "VA Official (vets-json-schema)",
+    "formSections": [
+      {
+        "title": "Section I - Veteran's Identification Information",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "veteranInformation",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Section II - Claimant's Identification Information",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "claimantInformation",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Section III - Nursing Home Information",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "nursingHomeInformation",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Section IV - General Information",
+        "rows": [
+          {
+            "columns": [
+              {
+                "fieldId": "generalInformation",
+                "width": 12
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "x-va-metadata": {
+    "status": "bio-reference"
+  },
+  "definitions": {
+    "fullName": {
+      "type": "object",
+      "properties": {
+        "first": {
+          "type": "string",
+          "maxLength": 12
+        },
+        "middle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 1
+        },
+        "last": {
+          "type": "string",
+          "maxLength": 18
+        }
+      }
+    },
+    "simpleAddress": {
+      "type": "object",
+      "required": [
+        "street",
+        "city",
+        "postalCode"
+      ],
+      "anyOf": [
+        {
+          "not": {
+            "type": "object",
+            "properties": {
+              "country": {
+                "enum": [
+                  "USA",
+                  "CAN",
+                  "MEX"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "required": [
+            "state"
+          ]
+        }
+      ],
+      "properties": {
+        "street": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "street2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 5
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 18
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 9
+        },
+        "country": {
+          "type": "string",
+          "maxLength": 3
+        }
+      }
+    }
+  },
+  "properties": {
+    "veteranInformation": {
+      "type": "object",
+      "required": [
+        "fullName",
+        "dateOfBirth",
+        "veteranId"
+      ],
+      "description": "SECTION I - VETERAN'S IDENTIFICATION INFORMATION",
+      "properties": {
+        "fullName": {
+          "$ref": "#/definitions/fullName"
+        },
+        "dateOfBirth": {
+          "type": "string",
+          "format": "date"
+        },
+        "ssn": {
+          "type": "string",
+          "nullable": true
+        },
+        "vaFileNumber": {
+          "type": "string",
+          "nullable": true
+        }
+      }
+    },
+    "claimantInformation": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "fullName",
+            "dateOfBirth",
+            "veteranId"
+          ],
+          "description": "SECTION II - CLAIMANT'S IDENTIFICATION INFORMATION (Complete this section ONLY IF the claimant is NOT the veteran)",
+          "properties": {
+            "fullName": {
+              "$ref": "#/definitions/fullName"
+            },
+            "dateOfBirth": {
+              "type": "string",
+              "format": "date",
+              "nullable": true
+            },
+            "ssn": {
+              "type": "string",
+              "nullable": true
+            },
+            "vaFileNumber": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        }
+      ]
+    },
+    "nursingHomeInformation": {
+      "type": "object",
+      "required": [
+        "nursingHomeName",
+        "nursingHomeAddress"
+      ],
+      "description": "SECTION III - NURSING HOME INFORMATION",
+      "properties": {
+        "nursingHomeName": {
+          "type": "string"
+        },
+        "nursingHomeAddress": {
+          "$ref": "#/definitions/simpleAddress"
+        }
+      }
+    },
+    "generalInformation": {
+      "type": "object",
+      "required": [
+        "admissionDate",
+        "medicaidFacility",
+        "medicaidApplication",
+        "patientMedicaidCovered",
+        "certificationLevelOfCare",
+        "nursingOfficialName",
+        "nursingOfficialTitle",
+        "nursingOfficialPhoneNumber"
+      ],
+      "description": "SECTION IV - GENERAL INFORMATION (To be completed by a Nursing Home Official)",
+      "properties": {
+        "admissionDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "medicaidFacility": {
+          "type": "boolean"
+        },
+        "medicaidApplication": {
+          "type": "boolean"
+        },
+        "patientMedicaidCovered": {
+          "type": "boolean"
+        },
+        "medicaidStartDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "monthlyCosts": {
+          "type": "string",
+          "pattern": "^\\d+(\\.\\d+)?$"
+        },
+        "certificationLevelOfCare": {
+          "type": "string",
+          "description": "I CERTIFY THAT THE CLAIMANT IS A PATIENT IN THIS FACILITY BECAUSE OF MENTAL OR PHYSICAL DISABILITY AND IS RECEIVING:",
+          "enum": [
+            "skilled",
+            "intermediate"
+          ]
+        },
+        "nursingOfficialName": {
+          "type": "string",
+          "description": "NURSING HOME OFFICIAL'S NAME (First and Last)"
+        },
+        "nursingOfficialTitle": {
+          "type": "string"
+        },
+        "nursingOfficialPhoneNumber": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "nursingOfficialInternationalPhoneNumber": {
+          "type": "string"
+        },
+        "signature": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dateSigned": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  },
+  "required": [
+    "veteranInformation",
+    "claimantInformation",
+    "nursingHomeInformation",
+    "generalInformation"
+  ]
+}

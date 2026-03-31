@@ -195,6 +195,7 @@
         .badge-digitized { background: #ecf3ec; color: #2e7d32; }
         .badge-flat { background: #fdf0e0; color: #b45309; }
         .badge-routing { background: #f0e6f6; color: #7b1fa2; }
+        .badge-bio { background: #e3f2fd; color: #0d47a1; font-weight: 600; }
 
         /* ─── Main Content ─── */
         .main { flex: 1; overflow-y: auto; background: var(--vads-color-base-lightest); }
@@ -861,7 +862,9 @@ function renderFormList(org, filterText) {
     if (!forms.length) { listEl.innerHTML = '<div style="padding:2rem;text-align:center;color:#a9aeb1;font-size:0.82rem;">No forms found</div>'; return; }
     listEl.innerHTML = forms.map(f => {
         const status = f.status || 'unknown';
-        const badgeClass = status === 'digitized' ? 'badge-digitized' : 'badge-flat';
+        const isBio = status === 'bio-reference';
+        const badgeClass = isBio ? 'badge-bio' : (status === 'digitized' ? 'badge-digitized' : 'badge-flat');
+        const badgeLabel = isBio ? 'BIO (for reference)' : (status === 'digitized' ? 'Digitized' : 'Flat');
         const routing = f.requires3rdParty === 'Yes' || (f.routingTypes && f.routingTypes.length > 0);
         const safeName = (f.name || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
         return `<div class="form-item" data-file="${f.fileName}" onclick="selectForm('${org.id}','${f.fileName}','${safeName}')">
@@ -870,7 +873,7 @@ function renderFormList(org, filterText) {
                 <div class="form-item-meta">${f.totalFields || 0} fields · ${f.coveragePercent || 0}% mapped${f.pageCount ? ' · ' + f.pageCount + 'pg' : ''}</div>
             </div>
             <div class="form-item-badges">
-                <span class="badge ${badgeClass}">${status === 'digitized' ? 'Digitized' : 'Flat'}</span>
+                <span class="badge ${badgeClass}">${badgeLabel}</span>
                 ${routing ? '<span class="badge badge-routing">3rd Party</span>' : ''}
             </div>
         </div>`;
@@ -1088,6 +1091,7 @@ function renderIntroStep(schema, vaForm, org) {
 function renderSectionStep(schema, section) {
     const props = schema.properties || {};
     const requiredList = new Set(schema.required || []);
+    const defs = schema.definitions || {};
 
     let html = '<div class="va-step-page">';
     html += `<h2>${esc(section.title)}</h2>`;
@@ -1099,16 +1103,45 @@ function renderSectionStep(schema, section) {
     }
     if (section.rows) {
         for (const row of section.rows) {
-            html += '<div class="va-form-row">';
             for (const col of row.columns) {
-                const fieldDef = props[col.fieldId];
-                const vaField = fieldDef?.['x-va-field'] || {};
-                const isRequired = requiredList.has(col.fieldId) || vaField.required;
-                html += `<div class="col-${col.width}">`;
-                html += renderVAField(col.fieldId, fieldDef, vaField, isRequired);
-                html += '</div>';
+                let fieldDef = props[col.fieldId];
+                if (!fieldDef) continue;
+
+                // Handle oneOf wrappers (e.g. claimantInformation with oneOf: [null, {object}])
+                if (fieldDef.oneOf) {
+                    const objDef = fieldDef.oneOf.find(o => o.type === 'object');
+                    if (objDef) fieldDef = objDef;
+                }
+
+                // If this is a nested object with its own properties (BIO-style), expand sub-fields
+                if (fieldDef.type === 'object' && fieldDef.properties && !fieldDef['x-va-field']) {
+                    const subReq = new Set(fieldDef.required || []);
+                    if (fieldDef.description) {
+                        html += `<div class="step-description" style="margin-bottom:0.75rem;color:#323a45;">${esc(fieldDef.description)}</div>`;
+                    }
+                    for (const [subId, subDef] of Object.entries(fieldDef.properties)) {
+                        // Resolve $ref
+                        let resolved = subDef;
+                        if (subDef.$ref) {
+                            const refName = subDef.$ref.replace('#/definitions/', '');
+                            resolved = defs[refName] || subDef;
+                        }
+                        const subVaField = resolved['x-va-field'] || {};
+                        const compoundId = col.fieldId + '.' + subId;
+                        html += '<div class="va-form-row"><div class="col-12">';
+                        html += renderVAField(compoundId, resolved, subVaField, subReq.has(subId));
+                        html += '</div></div>';
+                    }
+                } else {
+                    // Normal flat field
+                    const vaField = fieldDef['x-va-field'] || {};
+                    const isRequired = requiredList.has(col.fieldId) || vaField.required;
+                    html += '<div class="va-form-row">';
+                    html += `<div class="col-${col.width}">`;
+                    html += renderVAField(col.fieldId, fieldDef, vaField, isRequired);
+                    html += '</div></div>';
+                }
             }
-            html += '</div>';
         }
     }
     html += '</div>';
@@ -1561,6 +1594,25 @@ function renderVAField(fieldId, def, vaField, isRequired) {
                 </div>
             </fieldset>`;
 
+        case 'fullname':
+            return `<fieldset class="va-field">
+                <legend class="va-field-label">${esc(label)} ${reqMark}</legend>
+                <div class="va-address-row" style="gap:0.75rem;">
+                    <div class="va-field" style="flex:2;">
+                        <label for="f_${fieldId}_first">First name</label>
+                        <input type="text" id="f_${fieldId}_first" name="${fieldId}.first" ${isRequired ? 'required' : ''}>
+                    </div>
+                    <div class="va-field" style="flex:0.5;">
+                        <label for="f_${fieldId}_middle">Middle</label>
+                        <input type="text" id="f_${fieldId}_middle" name="${fieldId}.middle" maxlength="1">
+                    </div>
+                    <div class="va-field" style="flex:2;">
+                        <label for="f_${fieldId}_last">Last name</label>
+                        <input type="text" id="f_${fieldId}_last" name="${fieldId}.last" ${isRequired ? 'required' : ''}>
+                    </div>
+                </div>
+            </fieldset>`;
+
         case 'signature':
             return `<div class="va-field">
                 <label for="f_${fieldId}">${esc(label)} ${reqMark}</label>
@@ -1588,7 +1640,8 @@ function renderVAField(fieldId, def, vaField, isRequired) {
 function guessWidget(key, def) {
     if (def.type === 'boolean') return 'checkbox';
     if (def.type === 'object' && def.properties) {
-        if (def.properties.street || def.properties.city) return 'address';
+        if (def.properties.street || def.properties.city || def.properties.postalCode) return 'address';
+        if (def.properties.first && def.properties.last) return 'fullname';
         return 'text';
     }
     if (def.enum && def.enum.length > 0) return 'select';
@@ -1673,9 +1726,12 @@ document.getElementById('searchBox').addEventListener('input', function(e) {
     listEl.innerHTML = allMatches.slice(0, 60).map(f => {
         const safeName = (f.name || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
         const status = f.status || 'unknown';
+        const isBio = status === 'bio-reference';
+        const badgeClass = isBio ? 'badge-bio' : (status === 'digitized' ? 'badge-digitized' : 'badge-flat');
+        const badgeLabel = isBio ? 'BIO (for reference)' : (status === 'digitized' ? 'Digitized' : 'Flat');
         return `<div class="form-item" data-file="${f.fileName}" onclick="selectForm('${f.orgId}','${f.fileName}','${safeName}')">
             <div class="form-item-info"><div class="form-item-name">${f.name}</div><div class="form-item-meta">${f.orgLabel} · ${f.totalFields || 0} fields</div></div>
-            <div class="form-item-badges"><span class="badge ${status === 'digitized' ? 'badge-digitized' : 'badge-flat'}">${status === 'digitized' ? 'Digitized' : 'Flat'}</span></div>
+            <div class="form-item-badges"><span class="badge ${badgeClass}">${badgeLabel}</span></div>
         </div>`;
     }).join('');
 });
